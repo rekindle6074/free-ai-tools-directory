@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Tool": {
+      "title": "AI Tool",
+      "description": "A curated free AI tool.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the tool" },
+        "description": { "type": "string", "description": "Short description" },
+        "url": { "type": "string", "format": "uri", "description": "Link to the tool" },
+        "category": { "type": "string", "description": "Category ID" },
+        "isFree": { "type": "boolean", "description": "Whether it's completely free" },
+        "tags": { "type": "array", "items": { "type": "string" }, "description": "Search tags" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Creation timestamp" }
+      },
+      "required": ["name", "description", "url", "category"]
+    },
+    "Category": {
+      "title": "Tool Category",
+      "description": "A category for AI tools.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Category name" },
+        "icon": { "type": "string", "description": "Lucide icon name" }
+      },
+      "required": ["name"]
+    },
+    "User": {
+      "title": "User Profile",
+      "description": "User preferences and favorites.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Firebase Auth UID" },
+        "email": { "type": "string", "format": "email", "description": "User email" },
+        "favorites": { "type": "array", "items": { "type": "string" }, "description": "List of favorite tool IDs" }
+      },
+      "required": ["uid", "email"]
+    },
+    "Favorite": {
+      "title": "User Favorite",
+      "description": "A tool favorited by a user with an optional note.",
+      "type": "object",
+      "properties": {
+        "toolId": { "type": "string", "description": "ID of the favorited tool" },
+        "note": { "type": "string", "description": "Personal note about the tool" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "When it was favorited" }
+      },
+      "required": ["toolId"]
+    }
+  },
+  "firestore": {
+    "/tools/{toolId}": {
+      "schema": "Tool",
+      "description": "Collection of AI tools"
+    },
+    "/categories/{categoryId}": {
+      "schema": "Category",
+      "description": "Collection of tool categories"
+    },
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile data"
+    },
+    "/users/{userId}/favorites/{toolId}": {
+      "schema": "Favorite",
+      "description": "User's favorited tools with notes"
+    },
+    "/stats/{statId}": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "count": { "type": "integer" }
+        }
+      },
+      "description": "Global statistics"
+    }
+  }
+}

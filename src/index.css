@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Zen Dots';
+  src: url('/fonts/ZenDots-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Inter", "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Zen Dots", cursive;
+  --font-accent: "Zen Dots", cursive;
+  --font-space: "Space Grotesk", sans-serif;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  .glass-dark {
+    @apply bg-slate-900/40 backdrop-blur-md border border-white/10 shadow-2xl;
+  }
+  .text-glow {
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+  }
+}
+
+@layer components {
+  .glow-btn {
+    @apply relative overflow-hidden transition-all duration-300 transform;
+  }
+  
+  .glow-btn[data-state="clicked"] {
+    @apply scale-95;
+  }
+
+  .glow-btn-primary {
+    @apply bg-emerald-600 text-white shadow-lg shadow-emerald-500/30 hover:bg-emerald-700 hover:shadow-emerald-500/40;
+  }
+
+  .glow-btn-secondary {
+    @apply bg-white text-slate-900 border border-slate-200 shadow-sm hover:bg-slate-50 hover:border-slate-300;
+  }
+
+  .glow-btn::after {
+    content: '';
+    @apply absolute inset-0 bg-white opacity-0 transition-opacity duration-300 pointer-events-none;
+  }
+
+  .glow-btn:hover::after {
+    @apply opacity-10;
+  }
+}
