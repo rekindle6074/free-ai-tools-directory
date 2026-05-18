@@ -82,17 +82,32 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
   const [imageError, setImageError] = useState(false);
   const Icon = IconMap[tool.icon] || Zap;
 
-  // Function to get high-quality favicon from external services
-  const getAutoIcon = (url: string) => {
+  // Tiered icon fallback system
+  const getDomain = (url: string) => {
     try {
-      const domain = new URL(url).hostname;
-      return `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+      return new URL(url).hostname;
     } catch (e) {
-      return null;
+      return "";
     }
   };
 
-  const currentIconUrl = tool.iconUrl || getAutoIcon(tool.link);
+  const domain = getDomain(tool.link);
+  const localIconUrl = `/icons/${domain}-128x128__Estimated_.png`;
+  const googleIconUrl = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128` : null;
+
+  // Initial state: tool.iconUrl -> local custom icon -> google favicon
+  const [iconToDisplay, setIconToDisplay] = useState(tool.iconUrl || localIconUrl);
+  const [fallbackLevel, setFallbackLevel] = useState(0); // 0: primary, 1: google fallback, 2: category icon
+
+  const handleIconError = () => {
+    if (fallbackLevel === 0 && googleIconUrl && iconToDisplay !== googleIconUrl) {
+      setIconToDisplay(googleIconUrl);
+      setFallbackLevel(1);
+    } else {
+      setImageError(true);
+      setFallbackLevel(2);
+    }
+  };
 
   useEffect(() => {
     const unsubscribeAuth = auth.onAuthStateChanged((u) => {
@@ -205,13 +220,13 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
         </div>
         
         <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-slate-100 transform group-hover:scale-110 transition-transform duration-500 ease-out">
-          {currentIconUrl && !imageError ? (
+          {iconToDisplay && !imageError ? (
             <img 
-              src={currentIconUrl} 
+              src={iconToDisplay} 
               alt={tool.name} 
               className="w-full h-full object-contain p-2.5 rounded-2xl"
               referrerPolicy="no-referrer"
-              onError={() => setImageError(true)}
+              onError={handleIconError}
             />
           ) : (
             <Icon className="w-7 h-7 text-emerald-600 group-hover:text-emerald-700 transition-colors" />
