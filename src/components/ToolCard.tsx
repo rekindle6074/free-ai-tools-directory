@@ -82,6 +82,18 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
   const [imageError, setImageError] = useState(false);
   const Icon = IconMap[tool.icon] || Zap;
 
+  // Function to get high-quality favicon from external services
+  const getAutoIcon = (url: string) => {
+    try {
+      const domain = new URL(url).hostname;
+      return `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+    } catch (e) {
+      return null;
+    }
+  };
+
+  const currentIconUrl = tool.iconUrl || getAutoIcon(tool.link);
+
   useEffect(() => {
     const unsubscribeAuth = auth.onAuthStateChanged((u) => {
       setUser(u);
@@ -193,9 +205,9 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
         </div>
         
         <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-slate-100 transform group-hover:scale-110 transition-transform duration-500 ease-out">
-          {tool.iconUrl && !imageError ? (
+          {currentIconUrl && !imageError ? (
             <img 
-              src={tool.iconUrl} 
+              src={currentIconUrl} 
               alt={tool.name} 
               className="w-full h-full object-contain p-2.5 rounded-2xl"
               referrerPolicy="no-referrer"
