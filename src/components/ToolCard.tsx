@@ -110,6 +110,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
   };
 
   useEffect(() => {
+    if (!auth) return;
     const unsubscribeAuth = auth.onAuthStateChanged((u) => {
       setUser(u);
     });
@@ -118,7 +119,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
   }, []);
 
   useEffect(() => {
-    if (!user) {
+    if (!user || !db) {
       setIsFavorite(false);
       setNote("");
       return;
@@ -142,6 +143,10 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
     if (!user) {
       // In a real app, trigger the login modal here
       alert("Please log in to add favorites.");
+      return;
+    }
+    if (!db) {
+      console.warn("Database is not configured/available.");
       return;
     }
 
@@ -172,7 +177,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
   };
 
   const saveNote = async () => {
-    if (!user) return;
+    if (!user || !db) return;
     const path = `users/${user.uid}/favorites/${tool.id}`;
     const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
     try {
@@ -196,8 +201,13 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       whileHover={{ y: -5 }}
-      className="group relative bg-white/40 backdrop-blur-md rounded-3xl border border-white/40 p-7 shadow-sm hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 flex flex-col h-full overflow-hidden"
+      className="group relative rounded-3xl border border-[#a2efb3]/30 p-7 shadow-sm hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 flex flex-col h-full overflow-hidden"
     >
+      {/* Restored Custom Background with #a2efb3 and dynamic radial dots */}
+      <div className="absolute inset-0 -z-10 bg-[#a2efb3]">
+        <div className="absolute inset-0 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:20px_20px] [mask-image:radial-gradient(circle_at_50%_50%,#000_75%,transparent_100%)] [-webkit-mask-image:radial-gradient(circle_at_50%_50%,#000_75%,transparent_100%)] [mask-repeat:no-repeat] [-webkit-mask-repeat:no-repeat] opacity-60" />
+      </div>
+
       {/* Decorative Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
       

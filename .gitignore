@@ -7,6 +7,6 @@ coverage/
 .env*
 !.env.example
 firebase-applet-config.json
-README.md
 SEO_STRATEGY.md
 domains.txt
+/public/icons/
