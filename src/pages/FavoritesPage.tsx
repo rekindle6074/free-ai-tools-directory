@@ -23,8 +23,14 @@ const FavoritesPage: FC = () => {
 
   useEffect(() => {
     if (!auth) {
-      setLoading(false);
-      return;
+      const getMockUser = () => {
+        const stored = localStorage.getItem("mock_user");
+        setUser(stored ? JSON.parse(stored) as any : null);
+        setLoading(false);
+      };
+      getMockUser();
+      window.addEventListener("auth-state-change", getMockUser);
+      return () => window.removeEventListener("auth-state-change", getMockUser);
     }
     const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -38,7 +44,18 @@ const FavoritesPage: FC = () => {
   }, []);
 
   useEffect(() => {
-    if (!user || !db) return;
+    if (!user) return;
+    
+    if (!db) {
+      const fetchLocalFavorites = () => {
+        const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+        setFavoriteIds(Object.keys(localFavorites));
+        setLoading(false);
+      };
+      fetchLocalFavorites();
+      window.addEventListener("favorites-updated", fetchLocalFavorites);
+      return () => window.removeEventListener("favorites-updated", fetchLocalFavorites);
+    }
 
     const favoritesRef = collection(db, "users", user.uid, "favorites");
     const q = query(favoritesRef, orderBy("createdAt", "desc"));

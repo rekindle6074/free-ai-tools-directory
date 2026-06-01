@@ -49,7 +49,32 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
     setLoading(true);
 
     try {
-      if (!auth) throw new Error("Authentication service is not initialized.");
+      if (!auth) {
+        // Mock fallback mode simulation
+        if (mode === "signup") {
+          const mockUser = {
+            uid: "mock-user-" + Date.now(),
+            email: email,
+            displayName: displayName || email.split("@")[0],
+          };
+          localStorage.setItem("mock_user", JSON.stringify(mockUser));
+          window.dispatchEvent(new Event("auth-state-change"));
+          onClose();
+        } else if (mode === "login") {
+          const mockUser = {
+            uid: "mock-user-123",
+            email: email,
+            displayName: email.split("@")[0] || "Sandbox User",
+          };
+          localStorage.setItem("mock_user", JSON.stringify(mockUser));
+          window.dispatchEvent(new Event("auth-state-change"));
+          onClose();
+        } else if (mode === "reset") {
+          setMessage("Sandbox Mode: Check your email for a password reset link (simulated).");
+          setTimeout(() => setMode("login"), 3000);
+        }
+        return;
+      }
       if (mode === "signup") {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
         await updateProfile(userCredential.user, { displayName });
@@ -84,7 +109,19 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
   const handleGoogleLogin = async () => {
     try {
-      if (!auth) throw new Error("Authentication service is not initialized.");
+      if (!auth) {
+        // Mock Google login
+        const mockUser = {
+          uid: "mock-google-user",
+          email: "google.user@example.com",
+          displayName: "Google Explorer",
+          photoURL: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop"
+        };
+        localStorage.setItem("mock_user", JSON.stringify(mockUser));
+        window.dispatchEvent(new Event("auth-state-change"));
+        onClose();
+        return;
+      }
       const provider = new GoogleAuthProvider();
       const result = await signInWithPopup(auth, provider);
       const user = result.user;

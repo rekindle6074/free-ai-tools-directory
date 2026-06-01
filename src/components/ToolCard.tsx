@@ -110,7 +110,15 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
   };
 
   useEffect(() => {
-    if (!auth) return;
+    if (!auth) {
+      const getMockUser = () => {
+        const stored = localStorage.getItem("mock_user");
+        setUser(stored ? JSON.parse(stored) as any : null);
+      };
+      getMockUser();
+      window.addEventListener("auth-state-change", getMockUser);
+      return () => window.removeEventListener("auth-state-change", getMockUser);
+    }
     const unsubscribeAuth = auth.onAuthStateChanged((u) => {
       setUser(u);
     });
@@ -119,10 +127,27 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
   }, []);
 
   useEffect(() => {
-    if (!user || !db) {
+    if (!user) {
       setIsFavorite(false);
       setNote("");
       return;
+    }
+
+    if (!db) {
+      const loadLocalFavorite = () => {
+        const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+        const saved = localFavorites[tool.id];
+        if (saved) {
+          setIsFavorite(true);
+          setNote(saved.note || "");
+        } else {
+          setIsFavorite(false);
+          setNote("");
+        }
+      };
+      loadLocalFavorite();
+      window.addEventListener("favorites-updated", loadLocalFavorite);
+      return () => window.removeEventListener("favorites-updated", loadLocalFavorite);
     }
 
     const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
@@ -141,12 +166,28 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
 
   const toggleFavorite = async () => {
     if (!user) {
-      // In a real app, trigger the login modal here
-      alert("Please log in to add favorites.");
+      const loginBtn = document.getElementById('login-button');
+      if (loginBtn) {
+        loginBtn.click();
+      } else {
+        alert("Please log in to add favorites.");
+      }
       return;
     }
     if (!db) {
-      console.warn("Database is not configured/available.");
+      const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+      if (isFavorite) {
+        delete localFavorites[tool.id];
+      } else {
+        localFavorites[tool.id] = {
+          id: tool.id,
+          note: note,
+          createdAt: new Date().toISOString()
+        };
+      }
+      localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(localFavorites));
+      setIsFavorite(!isFavorite);
+      window.dispatchEvent(new Event("favorites-updated"));
       return;
     }
 
@@ -165,7 +206,6 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
       }
     } catch (error) {
       console.error("Error toggling favorite:", error);
-      // Detailed error info for AIS Agent if needed
       const errInfo = {
         error: error instanceof Error ? error.message : String(error),
         operation: isFavorite ? "delete" : "create",
@@ -177,7 +217,18 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
   };
 
   const saveNote = async () => {
-    if (!user || !db) return;
+    if (!user) return;
+    if (!db) {
+      const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+      if (localFavorites[tool.id]) {
+        localFavorites[tool.id].note = tempNote;
+        localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(localFavorites));
+        setNote(tempNote);
+        setIsEditingNote(false);
+        window.dispatchEvent(new Event("favorites-updated"));
+      }
+      return;
+    }
     const path = `users/${user.uid}/favorites/${tool.id}`;
     const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
     try {
