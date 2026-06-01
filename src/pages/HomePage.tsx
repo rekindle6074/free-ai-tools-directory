@@ -424,7 +424,7 @@ const HomePage: FC = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative pt-24 pb-32 overflow-hidden" ref={containerRef}>
+      <section className="relative pt-44 pb-32 overflow-hidden" ref={containerRef}>
         {/* Animated Canvas Background (Space & Glitch Orb) */}
         <div className="absolute inset-0 -z-10 w-full h-full overflow-hidden">
           <canvas

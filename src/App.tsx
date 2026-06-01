@@ -53,6 +53,31 @@ function AnimatedRoutes({ openSubmitForm }: { openSubmitForm: () => void }) {
   );
 }
 
+function Layout({ openSubmitForm }: { openSubmitForm: () => void }) {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
+  return (
+    <>
+      {/* Navigation */}
+      <Navbar openSubmitForm={openSubmitForm} />
+
+      <div className={`${isHome ? "pt-0" : "pt-32"} min-h-screen flex flex-col`}>
+        <Suspense fallback={
+          <div className="flex-1 flex items-center justify-center">
+            <div className="flex flex-col items-center gap-4">
+              <div className="w-12 h-12 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin"></div>
+              <p className="text-slate-500 font-medium animate-pulse">Loading FreeAI Tools...</p>
+            </div>
+          </div>
+        }>
+          <AnimatedRoutes openSubmitForm={openSubmitForm} />
+        </Suspense>
+      </div>
+    </>
+  );
+}
+
 export default function App() {
   const openSubmitForm = () => {
     try {
@@ -80,21 +105,7 @@ export default function App() {
         </div>
 
         <ErrorBoundary>
-          {/* Navigation */}
-          <Navbar openSubmitForm={openSubmitForm} />
-
-          <div className="pt-32 min-h-screen flex flex-col">
-            <Suspense fallback={
-              <div className="flex-1 flex items-center justify-center">
-                <div className="flex flex-col items-center gap-4">
-                  <div className="w-12 h-12 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin"></div>
-                  <p className="text-slate-500 font-medium animate-pulse">Loading FreeAI Tools...</p>
-                </div>
-              </div>
-            }>
-              <AnimatedRoutes openSubmitForm={openSubmitForm} />
-            </Suspense>
-          </div>
+          <Layout openSubmitForm={openSubmitForm} />
 
           <BackToTop />
 
