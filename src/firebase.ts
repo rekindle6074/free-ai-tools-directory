@@ -23,7 +23,24 @@ const app = (!getApps().length && isConfigValid)
   ? initializeApp(firebaseAppConfig) 
   : (getApps().length ? getApp() : null);
 
-export const auth = app ? getAuth(app) : null as any;
-export const db = app ? getFirestore(app, firebaseAppConfig?.firestoreDatabaseId) : null as any;
+let authInstance = null;
+let dbInstance = null;
+
+if (app) {
+  try {
+    authInstance = getAuth(app);
+    const dbId = firebaseAppConfig?.firestoreDatabaseId;
+    if (dbId && dbId.trim() !== "" && dbId !== "(default)" && dbId !== "undefined") {
+      dbInstance = getFirestore(app, dbId.trim());
+    } else {
+      dbInstance = getFirestore(app);
+    }
+  } catch (error) {
+    console.error("Error initializing Firebase services:", error);
+  }
+}
+
+export const auth = authInstance as any;
+export const db = dbInstance as any;
 
 export default app;
