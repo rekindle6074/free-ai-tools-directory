@@ -133,32 +133,55 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
       return;
     }
 
+    const loadLocalFavorite = () => {
+      const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+      const saved = localFavorites[tool.id];
+      if (saved) {
+        setIsFavorite(true);
+        setNote(saved.note || "");
+      } else {
+        setIsFavorite(false);
+        setNote("");
+      }
+    };
+
     if (!db) {
-      const loadLocalFavorite = () => {
-        const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
-        const saved = localFavorites[tool.id];
-        if (saved) {
-          setIsFavorite(true);
-          setNote(saved.note || "");
-        } else {
-          setIsFavorite(false);
-          setNote("");
-        }
-      };
       loadLocalFavorite();
       window.addEventListener("favorites-updated", loadLocalFavorite);
       return () => window.removeEventListener("favorites-updated", loadLocalFavorite);
     }
 
+    // Load instantly from localStorage first as an eager cache
+    loadLocalFavorite();
+
     const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
     const unsubscribe = onSnapshot(favDocRef, (docSnap) => {
       if (docSnap.exists()) {
         setIsFavorite(true);
-        setNote(docSnap.data().note || "");
+        const dataStatus = docSnap.data();
+        setNote(dataStatus.note || "");
+
+        // Keep local cache perfectly synchronized
+        const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+        localFavorites[tool.id] = {
+          id: tool.id,
+          note: dataStatus.note || "",
+          createdAt: dataStatus.createdAt?.toDate?.()?.toISOString() || new Date().toISOString()
+        };
+        localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(localFavorites));
       } else {
         setIsFavorite(false);
         setNote("");
+
+        // Keep local cache perfectly synchronized (removal)
+        const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+        if (localFavorites[tool.id]) {
+          delete localFavorites[tool.id];
+          localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(localFavorites));
+        }
       }
+    }, (error) => {
+      console.error("Error listening to favorite doc in Firestore, using local:", error);
     });
 
     return () => unsubscribe();
@@ -174,20 +197,25 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
       }
       return;
     }
+
+    // Unify state locally first for instantaneous, robust feedback
+    const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+    const nextFavoriteStatus = !isFavorite;
+
+    if (isFavorite) {
+      delete localFavorites[tool.id];
+    } else {
+      localFavorites[tool.id] = {
+        id: tool.id,
+        note: note,
+        createdAt: new Date().toISOString()
+      };
+    }
+    localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(localFavorites));
+    setIsFavorite(nextFavoriteStatus);
+    window.dispatchEvent(new Event("favorites-updated"));
+
     if (!db) {
-      const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
-      if (isFavorite) {
-        delete localFavorites[tool.id];
-      } else {
-        localFavorites[tool.id] = {
-          id: tool.id,
-          note: note,
-          createdAt: new Date().toISOString()
-        };
-      }
-      localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(localFavorites));
-      setIsFavorite(!isFavorite);
-      window.dispatchEvent(new Event("favorites-updated"));
       return;
     }
 
@@ -195,7 +223,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
     const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
     
     try {
-      if (isFavorite) {
+      if (!nextFavoriteStatus) {
         await deleteDoc(favDocRef);
       } else {
         await setDoc(favDocRef, {
@@ -205,10 +233,10 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
         });
       }
     } catch (error) {
-      console.error("Error toggling favorite:", error);
+      console.error("Error toggling favorite in Firestore:", error);
       const errInfo = {
         error: error instanceof Error ? error.message : String(error),
-        operation: isFavorite ? "delete" : "create",
+        operation: !nextFavoriteStatus ? "delete" : "create",
         path,
         userId: user.uid
       };
@@ -218,24 +246,28 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
 
   const saveNote = async () => {
     if (!user) return;
+
+    // Save locally first
+    const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+    if (localFavorites[tool.id]) {
+      localFavorites[tool.id].note = tempNote;
+      localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(localFavorites));
+      setNote(tempNote);
+      setIsEditingNote(false);
+      window.dispatchEvent(new Event("favorites-updated"));
+    }
+
     if (!db) {
-      const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
-      if (localFavorites[tool.id]) {
-        localFavorites[tool.id].note = tempNote;
-        localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(localFavorites));
-        setNote(tempNote);
-        setIsEditingNote(false);
-        window.dispatchEvent(new Event("favorites-updated"));
-      }
       return;
     }
+
     const path = `users/${user.uid}/favorites/${tool.id}`;
     const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
     try {
       await setDoc(favDocRef, { note: tempNote }, { merge: true });
       setIsEditingNote(false);
     } catch (error) {
-      console.error("Error saving note:", error);
+      console.error("Error saving note to Firestore:", error);
       const errInfo = {
         error: error instanceof Error ? error.message : String(error),
         operation: "update",

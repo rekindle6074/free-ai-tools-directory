@@ -45,27 +45,40 @@ const FavoritesPage: FC = () => {
 
   useEffect(() => {
     if (!user) return;
-    
+
+    const fetchLocalFavorites = () => {
+      const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
+      setFavoriteIds(Object.keys(localFavorites));
+      setLoading(false);
+    };
+
     if (!db) {
-      const fetchLocalFavorites = () => {
-        const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
-        setFavoriteIds(Object.keys(localFavorites));
-        setLoading(false);
-      };
       fetchLocalFavorites();
       window.addEventListener("favorites-updated", fetchLocalFavorites);
       return () => window.removeEventListener("favorites-updated", fetchLocalFavorites);
     }
 
-    const favoritesRef = collection(db, "users", user.uid, "favorites");
-    const q = query(favoritesRef, orderBy("createdAt", "desc"));
+    // Run local cache load immediately so there is zero delay/flashing on refresh
+    fetchLocalFavorites();
 
+    const favoritesRef = collection(db, "users", user.uid, "favorites");
     const unsubscribe = onSnapshot(favoritesRef, (snapshot) => {
       const ids = snapshot.docs.map(doc => doc.id);
       setFavoriteIds(ids);
+
+      // Keep local cache perfectly synchronized
+      const syncObj: Record<string, any> = {};
+      snapshot.docs.forEach(doc => {
+        syncObj[doc.id] = {
+          id: doc.id,
+          ...doc.data()
+        };
+      });
+      localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(syncObj));
       setLoading(false);
     }, (error) => {
-      console.error("Error fetching favorites:", error);
+      console.error("Error fetching favorites from Firestore, falling back to local:", error);
+      // Fallback is already eagerly active, so just mark loading complete
       setLoading(false);
     });
 
