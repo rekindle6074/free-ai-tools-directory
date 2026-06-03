@@ -17,6 +17,7 @@ import { Link } from "react-router-dom";
 
 const FavoritesPage: FC = () => {
   const [user, setUser] = useState(auth?.currentUser || null);
+  const [authLoading, setAuthLoading] = useState(true);
   const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
@@ -24,6 +25,7 @@ const FavoritesPage: FC = () => {
   useEffect(() => {
     const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
+      setAuthLoading(false);
       if (!currentUser) {
         setFavoriteIds([]);
         setLoading(false);
@@ -34,6 +36,8 @@ const FavoritesPage: FC = () => {
   }, []);
 
   useEffect(() => {
+    if (authLoading) return;
+
     if (!user) {
       setFavoriteIds([]);
       setLoading(false);
@@ -46,7 +50,11 @@ const FavoritesPage: FC = () => {
       return;
     }
 
-    setLoading(true);
+    // Only set loading to true if we don't have favorite IDs already
+    if (favoriteIds.length === 0) {
+      setLoading(true);
+    }
+
     const favoritesRef = collection(db, "users", user.uid, "favorites");
     const path = `users/${user.uid}/favorites`;
     const unsubscribe = onSnapshot(favoritesRef, (snapshot) => {
@@ -59,7 +67,7 @@ const FavoritesPage: FC = () => {
     });
 
     return () => unsubscribe();
-  }, [user]);
+  }, [user?.uid, authLoading]);
 
   // Map favorite IDs to actual Tool objects
   const favoriteTools = favoriteIds.map(id => {
