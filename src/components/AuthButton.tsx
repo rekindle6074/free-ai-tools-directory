@@ -14,15 +14,8 @@ const AuthButton: FC = () => {
 
   useEffect(() => {
     if (!auth || !db) {
-      // Sandbox fallback mode - read from localstorage
-      const checkMockUser = () => {
-        const stored = localStorage.getItem("mock_user");
-        setUser(stored ? JSON.parse(stored) as any : null);
-        setLoading(false);
-      };
-      checkMockUser();
-      window.addEventListener("auth-state-change", checkMockUser);
-      return () => window.removeEventListener("auth-state-change", checkMockUser);
+      setLoading(false);
+      return;
     }
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       setUser(currentUser);
@@ -49,12 +42,7 @@ const AuthButton: FC = () => {
   }, []);
 
   const handleLogout = async () => {
-    if (!auth) {
-      localStorage.removeItem("mock_user");
-      window.dispatchEvent(new Event("auth-state-change"));
-      setUser(null);
-      return;
-    }
+    if (!auth) return;
     try {
       await signOut(auth);
     } catch (error) {

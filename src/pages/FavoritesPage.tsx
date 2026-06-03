@@ -8,7 +8,7 @@ import {
   LogIn,
   ArrowRight
 } from "lucide-react";
-import { auth, db } from "../firebase";
+import { auth, db, handleFirestoreError, OperationType } from "../firebase";
 import { collection, onSnapshot, query, orderBy } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import { featuredTools, toolsByTag, Tool } from "../data/tools";
@@ -22,16 +22,6 @@ const FavoritesPage: FC = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    if (!auth) {
-      const getMockUser = () => {
-        const stored = localStorage.getItem("mock_user");
-        setUser(stored ? JSON.parse(stored) as any : null);
-        setLoading(false);
-      };
-      getMockUser();
-      window.addEventListener("auth-state-change", getMockUser);
-      return () => window.removeEventListener("auth-state-change", getMockUser);
-    }
     const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       if (!currentUser) {
@@ -44,42 +34,28 @@ const FavoritesPage: FC = () => {
   }, []);
 
   useEffect(() => {
-    if (!user) return;
-
-    const fetchLocalFavorites = () => {
-      const localFavorites = JSON.parse(localStorage.getItem(`favorites_${user.uid}`) || "{}");
-      setFavoriteIds(Object.keys(localFavorites));
+    if (!user) {
+      setFavoriteIds([]);
       setLoading(false);
-    };
-
-    if (!db) {
-      fetchLocalFavorites();
-      window.addEventListener("favorites-updated", fetchLocalFavorites);
-      return () => window.removeEventListener("favorites-updated", fetchLocalFavorites);
+      return;
     }
 
-    // Run local cache load immediately so there is zero delay/flashing on refresh
-    fetchLocalFavorites();
+    if (!db) {
+      setFavoriteIds([]);
+      setLoading(false);
+      return;
+    }
 
+    setLoading(true);
     const favoritesRef = collection(db, "users", user.uid, "favorites");
+    const path = `users/${user.uid}/favorites`;
     const unsubscribe = onSnapshot(favoritesRef, (snapshot) => {
       const ids = snapshot.docs.map(doc => doc.id);
       setFavoriteIds(ids);
-
-      // Keep local cache perfectly synchronized
-      const syncObj: Record<string, any> = {};
-      snapshot.docs.forEach(doc => {
-        syncObj[doc.id] = {
-          id: doc.id,
-          ...doc.data()
-        };
-      });
-      localStorage.setItem(`favorites_${user.uid}`, JSON.stringify(syncObj));
       setLoading(false);
     }, (error) => {
-      console.error("Error fetching favorites from Firestore, falling back to local:", error);
-      // Fallback is already eagerly active, so just mark loading complete
       setLoading(false);
+      handleFirestoreError(error, OperationType.GET, path);
     });
 
     return () => unsubscribe();

@@ -9,7 +9,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup
 } from "firebase/auth";
-import { doc, setDoc, getDoc } from "firebase/firestore";
+import { doc, setDoc, getDoc, serverTimestamp } from "firebase/firestore";
 import { X, Mail, Lock, User, AlertCircle, Loader2 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -50,29 +50,7 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
     try {
       if (!auth) {
-        // Mock fallback mode simulation
-        if (mode === "signup") {
-          const mockUser = {
-            uid: "mock-user-" + Date.now(),
-            email: email,
-            displayName: displayName || email.split("@")[0],
-          };
-          localStorage.setItem("mock_user", JSON.stringify(mockUser));
-          window.dispatchEvent(new Event("auth-state-change"));
-          onClose();
-        } else if (mode === "login") {
-          const mockUser = {
-            uid: "mock-user-123",
-            email: email,
-            displayName: email.split("@")[0] || "Sandbox User",
-          };
-          localStorage.setItem("mock_user", JSON.stringify(mockUser));
-          window.dispatchEvent(new Event("auth-state-change"));
-          onClose();
-        } else if (mode === "reset") {
-          setMessage("Sandbox Mode: Check your email for a password reset link (simulated).");
-          setTimeout(() => setMode("login"), 3000);
-        }
+        setError("Firebase Auth not initialized.");
         return;
       }
       if (mode === "signup") {
@@ -84,7 +62,7 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
           email: userCredential.user.email,
           displayName,
           favorites: [],
-          createdAt: new Date().toISOString(),
+          createdAt: serverTimestamp(),
         });
         onClose();
       } else if (mode === "login") {
@@ -110,16 +88,7 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
   const handleGoogleLogin = async () => {
     try {
       if (!auth) {
-        // Mock Google login
-        const mockUser = {
-          uid: "mock-google-user",
-          email: "google.user@example.com",
-          displayName: "Google Explorer",
-          photoURL: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop"
-        };
-        localStorage.setItem("mock_user", JSON.stringify(mockUser));
-        window.dispatchEvent(new Event("auth-state-change"));
-        onClose();
+        setError("Firebase Auth not initialized.");
         return;
       }
       const provider = new GoogleAuthProvider();
@@ -134,7 +103,7 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
           email: user.email,
           displayName: user.displayName,
           favorites: [],
-          createdAt: new Date().toISOString(),
+          createdAt: serverTimestamp(),
         });
       }
       onClose();
