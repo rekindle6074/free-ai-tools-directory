@@ -120,7 +120,9 @@ const HomePage: FC = () => {
 
     // Film grain generation
     const generateFilmGrain = (width: number, height: number, intensity = 0.15) => {
-      const imageData = grainCtx.createImageData(width, height);
+      const w = Math.max(1, Math.floor(width || 1));
+      const h = Math.max(1, Math.floor(height || 1));
+      const imageData = grainCtx.createImageData(w, h);
       const data = imageData.data;
       
       for (let i = 0; i < data.length; i += 4) {
@@ -244,8 +246,16 @@ const HomePage: FC = () => {
       timeRef.current += 0.016;
       const time = timeRef.current;
       
-      const width = canvas.width = grainCanvas.width = window.innerWidth;
-      const height = canvas.height = grainCanvas.height = window.innerHeight;
+      const w = window.innerWidth || 1;
+      const h = window.innerHeight || 1;
+      
+      if (w <= 0 || h <= 0 || isNaN(w) || isNaN(h)) {
+        frameRef.current = requestAnimationFrame(render);
+        return;
+      }
+      
+      const width = canvas.width = grainCanvas.width = w;
+      const height = canvas.height = grainCanvas.height = h;
       
       ctx.fillStyle = '#0a0f0d';
       ctx.fillRect(0, 0, width, height);
