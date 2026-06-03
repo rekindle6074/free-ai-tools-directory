@@ -120,35 +120,55 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
   }, []);
 
   useEffect(() => {
-    if (!user) {
-      setIsFavorite(false);
-      setNote("");
+    if (!user || !db) {
+      setIsFavorite(initiallyFavorite);
       return;
     }
 
-    if (!db) {
-      setIsFavorite(false);
-      setNote("");
-      return;
-    }
+    let unsubscribe: (() => void) | null = null;
+    let retryTimeout: NodeJS.Timeout | null = null;
+    let attempts = 0;
+    const maxAttempts = 3;
 
-    const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
-    const path = `users/${user.uid}/favorites/${tool.id}`;
-    const unsubscribe = onSnapshot(favDocRef, (docSnap) => {
-      if (docSnap.exists()) {
-        setIsFavorite(true);
-        const dataStatus = docSnap.data();
-        setNote(dataStatus.note || "");
-      } else {
-        setIsFavorite(false);
-        setNote("");
-      }
-    }, (error) => {
-      handleFirestoreError(error, OperationType.GET, path);
-    });
+    const subscribeDoc = () => {
+      if (!user || !db) return;
 
-    return () => unsubscribe();
-  }, [user?.uid, tool.id]);
+      const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
+      const path = `users/${user.uid}/favorites/${tool.id}`;
+
+      unsubscribe = onSnapshot(favDocRef, (docSnap) => {
+        if (docSnap.exists()) {
+          setIsFavorite(true);
+          const dataStatus = docSnap.data();
+          setNote(dataStatus.note || "");
+        } else {
+          setIsFavorite(false);
+          setNote("");
+        }
+        attempts = 0; // Reset attempts on success
+      }, (error) => {
+        console.warn(`Firestore document snapshot error for tool ${tool.id} (attempt ${attempts + 1}):`, error);
+        if (attempts < maxAttempts && user) {
+          attempts++;
+          const delay = 1000 * attempts;
+          if (unsubscribe) unsubscribe();
+          retryTimeout = setTimeout(() => {
+            subscribeDoc();
+          }, delay);
+        } else {
+          // Keep initiallyFavorite status as a safe fallback instead of throwing
+          setIsFavorite(initiallyFavorite);
+        }
+      });
+    };
+
+    subscribeDoc();
+
+    return () => {
+      if (unsubscribe) unsubscribe();
+      if (retryTimeout) clearTimeout(retryTimeout);
+    };
+  }, [user?.uid, tool.id, initiallyFavorite]);
 
   const toggleFavorite = async () => {
     if (!user) {

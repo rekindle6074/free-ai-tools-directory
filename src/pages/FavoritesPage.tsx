@@ -55,18 +55,51 @@ const FavoritesPage: FC = () => {
       setLoading(true);
     }
 
-    const favoritesRef = collection(db, "users", user.uid, "favorites");
-    const path = `users/${user.uid}/favorites`;
-    const unsubscribe = onSnapshot(favoritesRef, (snapshot) => {
-      const ids = snapshot.docs.map(doc => doc.id);
-      setFavoriteIds(ids);
-      setLoading(false);
-    }, (error) => {
-      setLoading(false);
-      handleFirestoreError(error, OperationType.GET, path);
-    });
+    let unsubscribe: (() => void) | null = null;
+    let retryTimeout: NodeJS.Timeout | null = null;
+    let attempts = 0;
+    const maxAttempts = 5;
 
-    return () => unsubscribe();
+    const subscribeFavorites = () => {
+      if (!user || !db) return;
+
+      const favoritesRef = collection(db, "users", user.uid, "favorites");
+      const path = `users/${user.uid}/favorites`;
+
+      unsubscribe = onSnapshot(favoritesRef, (snapshot) => {
+        const ids = snapshot.docs.map(doc => doc.id);
+        setFavoriteIds(ids);
+        setLoading(false);
+        attempts = 0; // Reset attempts on successful data fetch
+      }, (error: any) => {
+        console.warn(`Firestore collection snapshot error (attempt ${attempts + 1}):`, error);
+        
+        // If we get an error (e.g. unauthenticated start during token resolution), retry with backoff
+        if (attempts < maxAttempts && user) {
+          attempts++;
+          const delay = Math.min(1000 * Math.pow(2, attempts), 8000);
+          console.log(`Retrying favorites collection subscription in ${delay}ms...`);
+          
+          if (unsubscribe) {
+            unsubscribe();
+          }
+          
+          retryTimeout = setTimeout(() => {
+            subscribeFavorites();
+          }, delay);
+        } else {
+          setLoading(false);
+          handleFirestoreError(error, OperationType.GET, path);
+        }
+      });
+    };
+
+    subscribeFavorites();
+
+    return () => {
+      if (unsubscribe) unsubscribe();
+      if (retryTimeout) clearTimeout(retryTimeout);
+    };
   }, [user?.uid, authLoading]);
 
   // Map favorite IDs to actual Tool objects
