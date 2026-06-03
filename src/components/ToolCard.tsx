@@ -70,10 +70,11 @@ const IconMap: Record<string, any> = {
 
 interface ToolCardProps {
   tool: Tool;
+  initiallyFavorite?: boolean;
 }
 
-const ToolCard: FC<ToolCardProps> = ({ tool }) => {
-  const [isFavorite, setIsFavorite] = useState(false);
+const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
+  const [isFavorite, setIsFavorite] = useState(initiallyFavorite);
   const [note, setNote] = useState("");
   const [isEditingNote, setIsEditingNote] = useState(false);
   const [tempNote, setTempNote] = useState("");
@@ -212,10 +213,10 @@ const ToolCard: FC<ToolCardProps> = ({ tool }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       whileHover={{ y: -5 }}
-      className="group relative rounded-3xl border border-[#a2efb3]/30 p-7 shadow-sm hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 flex flex-col h-full overflow-hidden"
+      className="group relative bg-[#a2efb3] rounded-3xl border border-[#a2efb3]/30 p-7 shadow-sm hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 flex flex-col h-full overflow-hidden"
     >
-      {/* Restored Custom Background with #a2efb3 and dynamic radial dots */}
-      <div className="absolute inset-0 z-0 bg-[#a2efb3]">
+      {/* Restored Custom Background with dynamic radial dots */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute inset-0 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:20px_20px] [mask-image:radial-gradient(circle_at_50%_50%,#000_75%,transparent_100%)] [-webkit-mask-image:radial-gradient(circle_at_50%_50%,#000_75%,transparent_100%)] [mask-repeat:no-repeat] [-webkit-mask-repeat:no-repeat] opacity-60" />
       </div>
 

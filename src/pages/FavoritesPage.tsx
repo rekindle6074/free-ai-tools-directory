@@ -177,7 +177,7 @@ const FavoritesPage: FC = () => {
                         exit={{ opacity: 0, scale: 0.9 }}
                         transition={{ duration: 0.2 }}
                       >
-                        <ToolCard tool={tool} />
+                        <ToolCard tool={tool} initiallyFavorite={true} />
                       </motion.div>
                     ))}
                   </AnimatePresence>
