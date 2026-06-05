@@ -9,7 +9,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import { auth, db, handleFirestoreError, OperationType } from "../firebase";
-import { collection, onSnapshot, query, orderBy } from "firebase/firestore";
+import { collection, onSnapshot, query, orderBy, doc, setDoc, serverTimestamp } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import { featuredTools, toolsByTag, Tool } from "../data/tools";
 import ToolCard from "../components/ToolCard";
@@ -18,8 +18,26 @@ import { Link } from "react-router-dom";
 const FavoritesPage: FC = () => {
   const [user, setUser] = useState(auth?.currentUser || null);
   const [authLoading, setAuthLoading] = useState(true);
-  const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [favoriteIds, setFavoriteIds] = useState<string[]>(() => {
+    try {
+      const localFavs = localStorage.getItem("vetted_ai_favorites");
+      if (localFavs) {
+        const parsed = JSON.parse(localFavs);
+        if (Array.isArray(parsed)) return parsed;
+      }
+    } catch (e) {}
+    return [];
+  });
+  const [loading, setLoading] = useState(() => {
+    try {
+      const localFavs = localStorage.getItem("vetted_ai_favorites");
+      if (localFavs) {
+        const parsed = JSON.parse(localFavs);
+        if (Array.isArray(parsed) && parsed.length > 0) return false;
+      }
+    } catch (e) {}
+    return true;
+  });
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
@@ -29,6 +47,10 @@ const FavoritesPage: FC = () => {
       if (!currentUser) {
         setFavoriteIds([]);
         setLoading(false);
+        try {
+          localStorage.removeItem("vetted_ai_favorites");
+          localStorage.removeItem("vetted_ai_notes");
+        } catch (e) {}
       }
     });
 
@@ -66,9 +88,57 @@ const FavoritesPage: FC = () => {
       const favoritesRef = collection(db, "users", user.uid, "favorites");
       const path = `users/${user.uid}/favorites`;
 
-      unsubscribe = onSnapshot(favoritesRef, (snapshot) => {
-        const ids = snapshot.docs.map(doc => doc.id);
-        setFavoriteIds(ids);
+      unsubscribe = onSnapshot(favoritesRef, async (snapshot) => {
+        const dbIds = snapshot.docs.map(doc => doc.id);
+        
+        let localIds: string[] = [];
+        try {
+          const stored = localStorage.getItem("vetted_ai_favorites");
+          if (stored) {
+            localIds = JSON.parse(stored) || [];
+          }
+        } catch (e) {}
+
+        // Bi-directional Sync Strategy:
+        // Case A: Cloud is empty but local storage is not -> Restore cloud from local storage
+        if (dbIds.length === 0 && localIds.length > 0) {
+          console.log("Restoring empty Firestore database from local storage favorites...");
+          for (const id of localIds) {
+            const favDocRef = doc(db, "users", user.uid, "favorites", id);
+            let localNote = "";
+            try {
+              const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
+              localNote = notesObj[id] || "";
+            } catch (e) {}
+
+            try {
+              await setDoc(favDocRef, {
+                toolId: id,
+                note: localNote,
+                createdAt: serverTimestamp()
+              });
+            } catch (err) {
+              console.warn(`Initial sync error for ${id}:`, err);
+            }
+          }
+          setFavoriteIds(localIds);
+        } else {
+          // Case B: Cloud is source of truth, update LocalStorage
+          setFavoriteIds(dbIds);
+          try {
+            localStorage.setItem("vetted_ai_favorites", JSON.stringify(dbIds));
+            
+            const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
+            snapshot.docs.forEach(docSnap => {
+              const data = docSnap.data();
+              if (data.note) {
+                notesObj[docSnap.id] = data.note;
+              }
+            });
+            localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+          } catch (e) {}
+        }
+
         setLoading(false);
         attempts = 0; // Reset attempts on successful data fetch
       }, (error: any) => {

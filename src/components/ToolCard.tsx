@@ -74,8 +74,29 @@ interface ToolCardProps {
 }
 
 const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
-  const [isFavorite, setIsFavorite] = useState(initiallyFavorite);
-  const [note, setNote] = useState("");
+  const [isFavorite, setIsFavorite] = useState(() => {
+    if (initiallyFavorite) return true;
+    try {
+      const localFavs = localStorage.getItem("vetted_ai_favorites");
+      if (localFavs) {
+        const parsed = JSON.parse(localFavs);
+        return Array.isArray(parsed) && parsed.includes(tool.id);
+      }
+    } catch (e) {}
+    return false;
+  });
+
+  const [note, setNote] = useState(() => {
+    try {
+      const localNotes = localStorage.getItem("vetted_ai_notes");
+      if (localNotes) {
+        const parsed = JSON.parse(localNotes);
+        return parsed[tool.id] || "";
+      }
+    } catch (e) {}
+    return "";
+  });
+
   const [isEditingNote, setIsEditingNote] = useState(false);
   const [tempNote, setTempNote] = useState("");
   const [user, setUser] = useState(auth?.currentUser || null);
@@ -140,10 +161,36 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
         if (docSnap.exists()) {
           setIsFavorite(true);
           const dataStatus = docSnap.data();
-          setNote(dataStatus.note || "");
+          const loadedNote = dataStatus.note || "";
+          setNote(loadedNote);
+          
+          // Keep local storage synced
+          try {
+            const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
+            notesObj[tool.id] = loadedNote;
+            localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+
+            let localFavs = JSON.parse(localStorage.getItem("vetted_ai_favorites") || "[]");
+            if (!localFavs.includes(tool.id)) {
+              localFavs.push(tool.id);
+              localStorage.setItem("vetted_ai_favorites", JSON.stringify(localFavs));
+            }
+          } catch (e) {}
+
         } else {
           setIsFavorite(false);
           setNote("");
+          
+          // Keep local storage synced
+          try {
+            const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
+            delete notesObj[tool.id];
+            localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+
+            let localFavs = JSON.parse(localStorage.getItem("vetted_ai_favorites") || "[]");
+            localFavs = localFavs.filter((id: string) => id !== tool.id);
+            localStorage.setItem("vetted_ai_favorites", JSON.stringify(localFavs));
+          } catch (e) {}
         }
         attempts = 0; // Reset attempts on success
       }, (error) => {
@@ -171,6 +218,35 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
   }, [user?.uid, tool.id, initiallyFavorite]);
 
   const toggleFavorite = async () => {
+    // 1. Update localStorage instantly for instant UI responsiveness
+    let localIds: string[] = [];
+    try {
+      localIds = JSON.parse(localStorage.getItem("vetted_ai_favorites") || "[]");
+    } catch (e) {}
+
+    const nextFavoriteStatus = !isFavorite;
+    setIsFavorite(nextFavoriteStatus);
+
+    if (nextFavoriteStatus) {
+      if (!localIds.includes(tool.id)) {
+        localIds.push(tool.id);
+      }
+    } else {
+      localIds = localIds.filter(id => id !== tool.id);
+    }
+
+    try {
+      localStorage.setItem("vetted_ai_favorites", JSON.stringify(localIds));
+    } catch (e) {}
+
+    if (!nextFavoriteStatus) {
+      try {
+        const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
+        delete notesObj[tool.id];
+        localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+      } catch (e) {}
+    }
+
     if (!user) {
       const loginBtn = document.getElementById('login-button');
       if (loginBtn) {
@@ -180,9 +256,6 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
       }
       return;
     }
-
-    const nextFavoriteStatus = !isFavorite;
-    setIsFavorite(nextFavoriteStatus);
 
     if (!db) {
       return;
@@ -203,19 +276,31 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
       }
     } catch (error) {
       setIsFavorite(!nextFavoriteStatus);
+      try {
+        let revertedIds = JSON.parse(localStorage.getItem("vetted_ai_favorites") || "[]");
+        if (nextFavoriteStatus) {
+          revertedIds = revertedIds.filter((id: string) => id !== tool.id);
+        } else {
+          revertedIds.push(tool.id);
+        }
+        localStorage.setItem("vetted_ai_favorites", JSON.stringify(revertedIds));
+      } catch (e) {}
       handleFirestoreError(error, !nextFavoriteStatus ? OperationType.DELETE : OperationType.WRITE, path);
     }
   };
 
   const saveNote = async () => {
-    if (!user) return;
+    // 1. Update localStorage instantly
+    try {
+      const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
+      notesObj[tool.id] = tempNote;
+      localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+    } catch (e) {}
 
     setNote(tempNote);
     setIsEditingNote(false);
 
-    if (!db) {
-      return;
-    }
+    if (!user || !db) return;
 
     const path = `users/${user.uid}/favorites/${tool.id}`;
     const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
@@ -223,6 +308,11 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
       await setDoc(favDocRef, { note: tempNote }, { merge: true });
     } catch (error) {
       setNote(note);
+      try {
+        const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
+        notesObj[tool.id] = note;
+        localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+      } catch (e) {}
       handleFirestoreError(error, OperationType.WRITE, path);
     }
   };
