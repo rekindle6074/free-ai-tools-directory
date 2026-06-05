@@ -44,138 +44,33 @@ const FavoritesPage: FC = () => {
     const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setAuthLoading(false);
-      if (!currentUser) {
-        // If they are not logged in/resolving, load from local storage
-        try {
-          const localFavs = localStorage.getItem("vetted_ai_favorites");
-          if (localFavs) {
-            const parsed = JSON.parse(localFavs);
-            if (Array.isArray(parsed)) {
-              setFavoriteIds(parsed);
-            }
-          }
-        } catch (e) {}
-        setLoading(false);
-      }
     });
 
     return () => unsubscribeAuth();
   }, []);
 
   useEffect(() => {
-    if (authLoading) return;
-
-    if (!user) {
-      setFavoriteIds([]);
-      setLoading(false);
-      return;
-    }
-
-    if (!db) {
-      setFavoriteIds([]);
-      setLoading(false);
-      return;
-    }
-
-    // Only set loading to true if we don't have favorite IDs already
-    if (favoriteIds.length === 0) {
-      setLoading(true);
-    }
-
-    let unsubscribe: (() => void) | null = null;
-    let retryTimeout: NodeJS.Timeout | null = null;
-    let attempts = 0;
-    const maxAttempts = 5;
-
-    const subscribeFavorites = () => {
-      if (!user || !db) return;
-
-      const favoritesRef = collection(db, "users", user.uid, "favorites");
-      const path = `users/${user.uid}/favorites`;
-
-      unsubscribe = onSnapshot(favoritesRef, async (snapshot) => {
-        const dbIds = snapshot.docs.map(doc => doc.id);
-        
-        let localIds: string[] = [];
-        try {
-          const stored = localStorage.getItem("vetted_ai_favorites");
-          if (stored) {
-            localIds = JSON.parse(stored) || [];
+    const handleSync = () => {
+      try {
+        const localFavs = localStorage.getItem("vetted_ai_favorites");
+        if (localFavs) {
+          const parsed = JSON.parse(localFavs);
+          if (Array.isArray(parsed)) {
+            setFavoriteIds(parsed);
           }
-        } catch (e) {}
-
-        // Bi-directional Sync Strategy:
-        // Case A: Cloud is empty but local storage is not -> Restore cloud from local storage
-        if (dbIds.length === 0 && localIds.length > 0) {
-          console.log("Restoring empty Firestore database from local storage favorites...");
-          for (const id of localIds) {
-            const favDocRef = doc(db, "users", user.uid, "favorites", id);
-            let localNote = "";
-            try {
-              const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
-              localNote = notesObj[id] || "";
-            } catch (e) {}
-
-            try {
-              await setDoc(favDocRef, {
-                toolId: id,
-                note: localNote,
-                createdAt: serverTimestamp()
-              });
-            } catch (err) {
-              console.warn(`Initial sync error for ${id}:`, err);
-            }
-          }
-          setFavoriteIds(localIds);
         } else {
-          // Case B: Cloud is source of truth, update LocalStorage
-          setFavoriteIds(dbIds);
-          try {
-            localStorage.setItem("vetted_ai_favorites", JSON.stringify(dbIds));
-            
-            const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
-            snapshot.docs.forEach(docSnap => {
-              const data = docSnap.data();
-              if (data.note) {
-                notesObj[docSnap.id] = data.note;
-              }
-            });
-            localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
-          } catch (e) {}
+          setFavoriteIds([]);
         }
-
-        setLoading(false);
-        attempts = 0; // Reset attempts on successful data fetch
-      }, (error: any) => {
-        console.warn(`Firestore collection snapshot error (attempt ${attempts + 1}):`, error);
-        
-        // If we get an error (e.g. unauthenticated start during token resolution), retry with backoff
-        if (attempts < maxAttempts && user) {
-          attempts++;
-          const delay = Math.min(1000 * Math.pow(2, attempts), 8000);
-          console.log(`Retrying favorites collection subscription in ${delay}ms...`);
-          
-          if (unsubscribe) {
-            unsubscribe();
-          }
-          
-          retryTimeout = setTimeout(() => {
-            subscribeFavorites();
-          }, delay);
-        } else {
-          setLoading(false);
-          handleFirestoreError(error, OperationType.GET, path);
-        }
-      });
+      } catch (e) {}
+      setLoading(false);
     };
 
-    subscribeFavorites();
+    window.addEventListener("vetted_favorites_changed", handleSync);
+    // Initial sync load
+    handleSync();
 
-    return () => {
-      if (unsubscribe) unsubscribe();
-      if (retryTimeout) clearTimeout(retryTimeout);
-    };
-  }, [user?.uid, authLoading]);
+    return () => window.removeEventListener("vetted_favorites_changed", handleSync);
+  }, []);
 
   // Map favorite IDs to actual Tool objects
   const favoriteTools = favoriteIds.map(id => {

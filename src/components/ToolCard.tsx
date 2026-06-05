@@ -141,91 +141,33 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
   }, []);
 
   useEffect(() => {
-    if (!user || !db) {
+    const handleSync = () => {
       try {
         const localFavs = localStorage.getItem("vetted_ai_favorites");
         if (localFavs) {
           const parsed = JSON.parse(localFavs);
-          if (Array.isArray(parsed) && parsed.includes(tool.id)) {
-            setIsFavorite(true);
-            return;
-          }
-        }
-      } catch (e) {}
-      setIsFavorite(initiallyFavorite);
-      return;
-    }
-
-    let unsubscribe: (() => void) | null = null;
-    let retryTimeout: NodeJS.Timeout | null = null;
-    let attempts = 0;
-    const maxAttempts = 3;
-
-    const subscribeDoc = () => {
-      if (!user || !db) return;
-
-      const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
-      const path = `users/${user.uid}/favorites/${tool.id}`;
-
-      unsubscribe = onSnapshot(favDocRef, (docSnap) => {
-        if (docSnap.exists()) {
-          setIsFavorite(true);
-          const dataStatus = docSnap.data();
-          const loadedNote = dataStatus.note || "";
-          setNote(loadedNote);
-          
-          // Keep local storage synced
-          try {
-            const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
-            notesObj[tool.id] = loadedNote;
-            localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
-
-            let localFavs = JSON.parse(localStorage.getItem("vetted_ai_favorites") || "[]");
-            if (!localFavs.includes(tool.id)) {
-              localFavs.push(tool.id);
-              localStorage.setItem("vetted_ai_favorites", JSON.stringify(localFavs));
-            }
-          } catch (e) {}
-
+          const isFav = Array.isArray(parsed) && parsed.includes(tool.id);
+          setIsFavorite(isFav);
         } else {
           setIsFavorite(false);
-          setNote("");
-          
-          // Keep local storage synced
-          try {
-            const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
-            delete notesObj[tool.id];
-            localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
-
-            let localFavs = JSON.parse(localStorage.getItem("vetted_ai_favorites") || "[]");
-            localFavs = localFavs.filter((id: string) => id !== tool.id);
-            localStorage.setItem("vetted_ai_favorites", JSON.stringify(localFavs));
-          } catch (e) {}
         }
-        attempts = 0; // Reset attempts on success
-      }, (error) => {
-        console.warn(`Firestore document snapshot error for tool ${tool.id} (attempt ${attempts + 1}):`, error);
-        if (attempts < maxAttempts && user) {
-          attempts++;
-          const delay = 1000 * attempts;
-          if (unsubscribe) unsubscribe();
-          retryTimeout = setTimeout(() => {
-            subscribeDoc();
-          }, delay);
+
+        const localNotes = localStorage.getItem("vetted_ai_notes");
+        if (localNotes) {
+          const parsed = JSON.parse(localNotes);
+          setNote(parsed[tool.id] || "");
         } else {
-          // Keep initiallyFavorite status as a safe fallback instead of throwing
-          setIsFavorite(initiallyFavorite);
+          setNote("");
         }
-      });
+      } catch (e) {}
     };
 
-    subscribeDoc();
+    window.addEventListener("vetted_favorites_changed", handleSync);
+    // Initial sync
+    handleSync();
 
-    return () => {
-      if (unsubscribe) unsubscribe();
-      if (retryTimeout) clearTimeout(retryTimeout);
-    };
-  }, [user?.uid, tool.id, initiallyFavorite]);
+    return () => window.removeEventListener("vetted_favorites_changed", handleSync);
+  }, [tool.id]);
 
   const toggleFavorite = async () => {
     // 1. Update localStorage instantly for instant UI responsiveness
@@ -247,6 +189,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
 
     try {
       localStorage.setItem("vetted_ai_favorites", JSON.stringify(localIds));
+      window.dispatchEvent(new Event("vetted_favorites_changed"));
     } catch (e) {}
 
     if (!nextFavoriteStatus) {
@@ -254,6 +197,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
         const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
         delete notesObj[tool.id];
         localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+        window.dispatchEvent(new Event("vetted_favorites_changed"));
       } catch (e) {}
     }
 
@@ -294,6 +238,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
           revertedIds.push(tool.id);
         }
         localStorage.setItem("vetted_ai_favorites", JSON.stringify(revertedIds));
+        window.dispatchEvent(new Event("vetted_favorites_changed"));
       } catch (e) {}
       handleFirestoreError(error, !nextFavoriteStatus ? OperationType.DELETE : OperationType.WRITE, path);
     }
@@ -305,6 +250,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
       const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
       notesObj[tool.id] = tempNote;
       localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+      window.dispatchEvent(new Event("vetted_favorites_changed"));
     } catch (e) {}
 
     setNote(tempNote);
@@ -326,6 +272,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
         const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
         notesObj[tool.id] = note;
         localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
+        window.dispatchEvent(new Event("vetted_favorites_changed"));
       } catch (e) {}
       handleFirestoreError(error, OperationType.WRITE, path);
     }
