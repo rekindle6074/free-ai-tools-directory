@@ -57,19 +57,22 @@ export const createFolder = async (name: string): Promise<string> => {
   const user = auth?.currentUser;
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    try {
-      await withTimeout(
-        setDoc(folderDocRef, {
-          name,
-          toolIds: [],
-          createdAt: serverTimestamp()
-        }),
-        8000,
-        "Creating folder in Firestore timed out."
-      );
-    } catch (error) {
-      console.error("Error saving folder to Firestore:", error);
-    }
+    // Sync to Firestore in the background
+    (async () => {
+      try {
+        await withTimeout(
+          setDoc(folderDocRef, {
+            name,
+            toolIds: [],
+            createdAt: serverTimestamp()
+          }),
+          6500,
+          "Creating folder in Firestore timed out."
+        );
+      } catch (error) {
+        console.error("Error saving folder to Firestore in background:", error);
+      }
+    })();
   }
 
   return folderId;
@@ -83,15 +86,18 @@ export const deleteFolder = async (folderId: string): Promise<void> => {
   const user = auth?.currentUser;
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    try {
-      await withTimeout(
-        deleteDoc(folderDocRef),
-        8000,
-        "Deleting folder from Firestore timed out."
-      );
-    } catch (error) {
-      console.error("Error deleting folder from Firestore:", error);
-    }
+    // Sync to Firestore in the background
+    (async () => {
+      try {
+        await withTimeout(
+          deleteDoc(folderDocRef),
+          6500,
+          "Deleting folder from Firestore timed out."
+        );
+      } catch (error) {
+        console.error("Error deleting folder from Firestore in background:", error);
+      }
+    })();
   }
 };
 
@@ -108,15 +114,18 @@ export const renameFolder = async (folderId: string, name: string): Promise<void
   const user = auth?.currentUser;
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    try {
-      await withTimeout(
-        setDoc(folderDocRef, { name }, { merge: true }),
-        8000,
-        "Renaming folder in Firestore timed out."
-      );
-    } catch (error) {
-      console.error("Error renaming folder in Firestore:", error);
-    }
+    // Sync to Firestore in the background
+    (async () => {
+      try {
+        await withTimeout(
+          setDoc(folderDocRef, { name }, { merge: true }),
+          6500,
+          "Renaming folder in Firestore timed out."
+        );
+      } catch (error) {
+        console.error("Error renaming folder in Firestore in background:", error);
+      }
+    })();
   }
 };
 
@@ -143,17 +152,20 @@ export const toggleToolInFolder = async (folderId: string, toolId: string): Prom
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
     const folder = folders.find(f => f.id === folderId);
     if (folder) {
-      try {
-        await withTimeout(
-          setDoc(folderDocRef, {
-            toolIds: folder.toolIds
-          }, { merge: true }),
-          8000,
-          "Updating folder's tool list in Firestore timed out."
-        );
-      } catch (error) {
-        console.error("Error updating tool list inside Firestore folder:", error);
-      }
+      // Sync to Firestore in the background
+      (async () => {
+        try {
+          await withTimeout(
+            setDoc(folderDocRef, {
+              toolIds: folder.toolIds
+            }, { merge: true }),
+            6500,
+            "Updating folder's tool list in Firestore timed out."
+          );
+        } catch (error) {
+          console.error("Error updating tool list inside Firestore folder in background:", error);
+        }
+      })();
     }
   }
   return isAdded;
@@ -173,47 +185,43 @@ export const shareFolder = async (folderId: string): Promise<string> => {
   // Generate a shareId if it doesn't already exist on this folder
   const shareId = folder.shareId || "s_" + generateId();
   
-  try {
-    console.log(`[Share] Step 1: Writing shared folder to shared_folders/${shareId}`);
-    // Set in Firestore shared_folders
-    const sharedRef = doc(db, "shared_folders", shareId);
-    await withTimeout(
-      setDoc(sharedRef, {
-        name: folder.name,
-        toolIds: folder.toolIds || [],
-        creatorUid: user.uid,
-        createdAt: serverTimestamp()
-      }),
-      8000,
-      "Step 1 of sharing timed out. Firestore took too long to write the shared collection."
-    );
-  } catch (error) {
-    console.error("[Share] Error writing to shared_folders doc:", error);
-    handleFirestoreError(error, OperationType.WRITE, `shared_folders/${shareId}`);
-  }
-
-  // Save the shareId to the local folder as well
+  // IMMEDIATELY update local storage so the UI updates and displays the share link instantly
   folder.shareId = shareId;
   saveLocalFolders(folders);
 
-  try {
-    console.log(`[Share] Step 2: Saving shareId and folder schema to user folders collection`);
-    // Save the complete folder payload to Firestore to comply with isValidFolder rules
-    const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    await withTimeout(
-      setDoc(folderDocRef, {
-        name: folder.name,
-        toolIds: folder.toolIds || [],
-        shareId,
-        createdAt: serverTimestamp()
-      }, { merge: true }),
-      8000,
-      "Step 2 of sharing timed out. User's personal collection folder write took too long."
-    );
-  } catch (error) {
-    console.error("[Share] Error of updating user folder document with share info:", error);
-    handleFirestoreError(error, OperationType.WRITE, `users/${user.uid}/folders/${folderId}`);
-  }
+  // Sync to Firestore securely in the background
+  (async () => {
+    try {
+      console.log(`[Share-BG] Step 1: Writing shared folder to shared_folders/${shareId}`);
+      const sharedRef = doc(db, "shared_folders", shareId);
+      await withTimeout(
+        setDoc(sharedRef, {
+          name: folder.name,
+          toolIds: folder.toolIds || [],
+          creatorUid: user.uid,
+          createdAt: serverTimestamp()
+        }),
+        6500,
+        "Step 1 of sharing timed out. Firestore took too long to write the shared collection."
+      );
+
+      console.log(`[Share-BG] Step 2: Saving shareId and folder schema to user folders collection`);
+      const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
+      await withTimeout(
+        setDoc(folderDocRef, {
+          name: folder.name,
+          toolIds: folder.toolIds || [],
+          shareId,
+          createdAt: serverTimestamp()
+        }, { merge: true }),
+        6500,
+        "Step 2 of sharing timed out. User's personal collection folder write took too long."
+      );
+      console.log(`[Share-BG] Successfully synced shared folder to Firestore!`);
+    } catch (error) {
+      console.error("[Share-BG] Background Firestore write failed:", error);
+    }
+  })();
 
   return shareId;
 };
@@ -227,41 +235,38 @@ export const unshareFolder = async (folderId: string): Promise<void> => {
   const user = auth?.currentUser;
   if (!user || !db) return;
 
-  const sharedRef = doc(db, "shared_folders", folder.shareId);
-  try {
-    await withTimeout(
-      deleteDoc(sharedRef),
-      8000,
-      "Deleting shared collection link timed out."
-    );
-  } catch (error) {
-    console.error("Error deleting shared folder database document:", error);
-    try {
-      handleFirestoreError(error, OperationType.DELETE, `shared_folders/${folder.shareId}`);
-    } catch (e) {}
-  }
+  const shareId = folder.shareId;
 
-  const oldShareId = folder.shareId;
+  // IMMEDIATELY clear the shareId from local storage so UI resets instantly
   delete folder.shareId;
   saveLocalFolders(folders);
 
-  const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-  try {
-    // Write full properties to maintain schema valid properties but omit shareId
-    await withTimeout(
-      setDoc(folderDocRef, {
-        name: folder.name,
-        toolIds: folder.toolIds || [],
-        createdAt: serverTimestamp()
-      }),
-      8000,
-      "Updating user folders during unshare timed out."
-    ); // This resets the doc shape and removes shareId field from Firestore
-  } catch (error) {
-    console.error("Error clearing shareId on Firestore folder:", error);
+  // Sync to Firestore in the background
+  (async () => {
     try {
-      handleFirestoreError(error, OperationType.WRITE, `users/${user.uid}/folders/${folderId}`);
-    } catch (e) {}
-  }
+      console.log(`[Unshare-BG] Step 1: Deleting shared collection link`);
+      const sharedRef = doc(db, "shared_folders", shareId);
+      await withTimeout(
+        deleteDoc(sharedRef),
+        6500,
+        "Deleting shared collection link timed out."
+      );
+
+      console.log(`[Unshare-BG] Step 2: Resetting user folder document to omit shareId`);
+      const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
+      await withTimeout(
+        setDoc(folderDocRef, {
+          name: folder.name,
+          toolIds: folder.toolIds || [],
+          createdAt: serverTimestamp()
+        }),
+        6500,
+        "Updating user folders during unshare timed out."
+      );
+      console.log(`[Unshare-BG] Successfully unshared folder on Firestore!`);
+    } catch (error) {
+      console.error("[Unshare-BG] Background Firestore unshare failed:", error);
+    }
+  })();
 };
 
