@@ -5,6 +5,7 @@ export interface Folder {
   id: string;
   name: string;
   toolIds: string[];
+  shareId?: string;
 }
 
 // Generate random ID for offline usage
@@ -131,3 +132,68 @@ export const toggleToolInFolder = async (folderId: string, toolId: string): Prom
   }
   return isAdded;
 };
+
+// Share custom folder/collection publicly
+export const shareFolder = async (folderId: string): Promise<string> => {
+  const folders = getLocalFolders();
+  const folder = folders.find(f => f.id === folderId);
+  if (!folder) throw new Error("Folder not found");
+
+  const user = auth?.currentUser;
+  if (!user || !db) {
+    throw new Error("You must be logged in to share a folder");
+  }
+
+  // Generate a shareId if it doesn't already exist on this folder
+  const shareId = folder.shareId || "s_" + generateId();
+  
+  // Set in Firestore shared_folders
+  const sharedRef = doc(db, "shared_folders", shareId);
+  await setDoc(sharedRef, {
+    name: folder.name,
+    toolIds: folder.toolIds || [],
+    creatorUid: user.uid,
+    createdAt: serverTimestamp()
+  });
+
+  // Save the shareId to the local folder as well
+  folder.shareId = shareId;
+  saveLocalFolders(folders);
+
+  // Save the shareId to the user's private folder in Firestore
+  const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
+  await setDoc(folderDocRef, { shareId }, { merge: true });
+
+  return shareId;
+};
+
+// Remove public share link of a collection
+export const unshareFolder = async (folderId: string): Promise<void> => {
+  const folders = getLocalFolders();
+  const folder = folders.find(f => f.id === folderId);
+  if (!folder || !folder.shareId) return;
+
+  const user = auth?.currentUser;
+  if (!user || !db) return;
+
+  const sharedRef = doc(db, "shared_folders", folder.shareId);
+  try {
+    await deleteDoc(sharedRef);
+  } catch (error) {
+    console.error("Error deleting shared folder database document:", error);
+  }
+
+  delete folder.shareId;
+  saveLocalFolders(folders);
+
+  const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
+  try {
+    await setDoc(folderDocRef, {
+      name: folder.name,
+      toolIds: folder.toolIds || []
+    }); // This resets the doc shape and removes shareId field from Firestore
+  } catch (error) {
+    console.error("Error clearing shareId on Firestore folder:", error);
+  }
+};
+

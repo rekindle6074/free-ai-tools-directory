@@ -68,6 +68,14 @@ service cloud.firestore {
              data.createdAt is timestamp;
     }
 
+    function isValidSharedFolder(data) {
+      return data.keys().hasAll(['name', 'toolIds', 'creatorUid', 'createdAt']) &&
+             data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+             data.toolIds is list && data.toolIds.size() <= 100 &&
+             (request.auth != null && data.creatorUid == request.auth.uid) &&
+             data.createdAt is timestamp;
+    }
+
     // Rules
     match /tools/{toolId} {
       allow read: if true; // Publicly readable
@@ -95,6 +103,13 @@ service cloud.firestore {
         allow create, update: if isOwner(userId) && isValidFolder(request.resource.data);
         allow delete: if isOwner(userId);
       }
+    }
+
+    match /shared_folders/{shareId} {
+      allow read: if true;
+      allow create: if isAuthenticated() && isValidSharedFolder(request.resource.data);
+      allow update: if isAuthenticated() && resource.data.creatorUid == request.auth.uid && isValidSharedFolder(request.resource.data);
+      allow delete: if isAuthenticated() && resource.data.creatorUid == request.auth.uid;
     }
 
     match /stats/{statId} {

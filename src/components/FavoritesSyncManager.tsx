@@ -101,6 +101,7 @@ export const FavoritesSyncManager: FC = () => {
                 await setDoc(folderDocRef, {
                   name: folder.name,
                   toolIds: folder.toolIds || [],
+                  shareId: folder.shareId || null,
                   createdAt: serverTimestamp()
                 }, { merge: true });
               } catch (err) {
@@ -154,6 +155,7 @@ export const FavoritesSyncManager: FC = () => {
               id: docSnap.id,
               name: data.name || "",
               toolIds: data.toolIds || [],
+              shareId: data.shareId || undefined,
               createdAt: data.createdAt
             };
           });

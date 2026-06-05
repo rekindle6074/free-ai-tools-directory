@@ -57,6 +57,18 @@
         "createdAt": { "type": "string", "format": "date-time", "description": "When it was favorited" }
       },
       "required": ["toolId"]
+    },
+    "SharedFolder": {
+      "title": "Shared Folder",
+      "description": "A publicly shared custom folder with a collection of favorite tools.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the shared folder" },
+        "toolIds": { "type": "array", "items": { "type": "string" }, "description": "IDs of tools included in this share" },
+        "creatorUid": { "type": "string", "description": "UID of the creator" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp of creation" }
+      },
+      "required": ["name", "toolIds", "creatorUid"]
     }
   },
   "firestore": {
@@ -79,6 +91,10 @@
     "/users/{userId}/folders/{folderId}": {
       "schema": "Folder",
       "description": "User's custom folders to organize favorites"
+    },
+    "/shared_folders/{shareId}": {
+      "schema": "SharedFolder",
+      "description": "Publicly shared folders with favorite tools"
     },
     "/stats/{statId}": {
       "schema": {

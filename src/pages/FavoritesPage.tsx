@@ -13,7 +13,10 @@ import {
   Trash2,
   Edit2,
   Check,
-  X
+  X,
+  Share2,
+  Copy,
+  ExternalLink
 } from "lucide-react";
 import { auth, db, handleFirestoreError, OperationType } from "../firebase";
 import { collection, onSnapshot, query, orderBy, doc, setDoc, serverTimestamp } from "firebase/firestore";
@@ -21,7 +24,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { featuredTools, toolsByTag, Tool } from "../data/tools";
 import ToolCard from "../components/ToolCard";
 import { Link } from "react-router-dom";
-import { Folder as FolderType, getLocalFolders, createFolder, deleteFolder, renameFolder } from "../lib/folderUtils";
+import { Folder as FolderType, getLocalFolders, createFolder, deleteFolder, renameFolder, shareFolder, unshareFolder } from "../lib/folderUtils";
 
 const FavoritesPage: FC = () => {
   const [user, setUser] = useState(auth?.currentUser || null);
@@ -53,6 +56,9 @@ const FavoritesPage: FC = () => {
   const [newFolderName, setNewFolderName] = useState("");
   const [editingFolderId, setEditingFolderId] = useState<string | null>(null);
   const [editingFolderName, setEditingFolderName] = useState("");
+  const [shareLoadingFolderId, setShareLoadingFolderId] = useState<string | null>(null);
+  const [copiedFolderId, setCopiedFolderId] = useState<string | null>(null);
+  const [shareError, setShareError] = useState<string | null>(null);
 
   useEffect(() => {
     const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
@@ -145,6 +151,44 @@ const FavoritesPage: FC = () => {
     }
   };
 
+  const handleShareFolder = async (folderId: string) => {
+    try {
+      setShareLoadingFolderId(folderId);
+      setShareError(null);
+      await shareFolder(folderId);
+    } catch (err: any) {
+      console.error("Error sharing folder:", err);
+      setShareError(err?.message || "Failed to generate share link.");
+    } finally {
+      setShareLoadingFolderId(null);
+    }
+  };
+
+  const handleUnshareFolder = async (folderId: string) => {
+    if (confirm("Are you sure you want to disable the public sharing link for this collection?")) {
+      try {
+        setShareLoadingFolderId(folderId);
+        await unshareFolder(folderId);
+      } catch (err: any) {
+        console.error("Error unsharing folder:", err);
+      } finally {
+        setShareLoadingFolderId(null);
+      }
+    }
+  };
+
+  const handleCopyLink = async (folder: FolderType) => {
+    if (!folder.shareId) return;
+    const shareUrl = `${window.location.origin}/shared-folder/${folder.shareId}`;
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      setCopiedFolderId(folder.id);
+      setTimeout(() => setCopiedFolderId(null), 2000);
+    } catch (err) {
+      console.error("Failed to copy link:", err);
+    }
+  };
+
   // Map favorite IDs to actual Tool objects
   const favoriteTools = favoriteIds.map(id => {
     // Search in featuredTools
@@ -159,10 +203,11 @@ const FavoritesPage: FC = () => {
     return null;
   }).filter((t): t is Tool => t !== null);
 
+  const activeFolder = activeFolderId ? folders.find(f => f.id === activeFolderId) : null;
+
   // Filter tools by active folder
   const folderFilteredTools = activeFolderId 
     ? favoriteTools.filter(tool => {
-        const activeFolder = folders.find(f => f.id === activeFolderId);
         return activeFolder?.toolIds?.includes(tool.id);
       })
     : favoriteTools;
@@ -374,6 +419,87 @@ const FavoritesPage: FC = () => {
                     );
                   })}
                 </div>
+
+                {/* Active Folder Share Manager */}
+                {activeFolder && (
+                  <div className="mt-6 bg-emerald-50/40 border border-emerald-150 rounded-2xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                      <h3 className="text-xs font-black uppercase tracking-wider text-emerald-950 flex items-center gap-1.5">
+                        <Share2 className="w-4 h-4 text-emerald-600 shrink-0" /> Share Collection: "{activeFolder.name}"
+                      </h3>
+                      <p className="text-[10px] text-emerald-800/80 mt-0.5">
+                        {activeFolder.shareId 
+                          ? "This custom collection is now public! Copy the link to share." 
+                          : "Generate a unique public link to share this selection of favorite tools."}
+                      </p>
+                    </div>
+
+                    <div className="flex flex-wrap items-center gap-2">
+                      {activeFolder.shareId ? (
+                        <>
+                          <div className="flex items-center bg-white border border-emerald-250 rounded-xl px-2.5 py-1.5">
+                            <input
+                              type="text"
+                              readOnly
+                              value={`${window.location.origin}/shared-folder/${activeFolder.shareId}`}
+                              className="text-[9px] text-slate-500 font-mono focus:outline-none truncate w-36 sm:w-48"
+                              onClick={(e) => (e.target as HTMLInputElement).select()}
+                            />
+                            <button
+                              onClick={() => handleCopyLink(activeFolder)}
+                              className="p-1 text-emerald-600 hover:text-emerald-700 ml-1 transition-colors"
+                              title="Copy Link"
+                            >
+                              {copiedFolderId === activeFolder.id ? (
+                                <Check className="w-3.5 h-3.5 text-emerald-600" />
+                              ) : (
+                                <Copy className="w-3.5 h-3.5" />
+                              )}
+                            </button>
+                          </div>
+
+                          <Link
+                            to={`/shared-folder/${activeFolder.shareId}`}
+                            className="inline-flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-emerald-700 bg-emerald-100 hover:bg-emerald-200 px-3 py-2.5 rounded-lg transition-all"
+                          >
+                            View <ExternalLink className="w-3 h-3" />
+                          </Link>
+
+                          <button
+                            onClick={() => handleUnshareFolder(activeFolder.id)}
+                            className="text-[9px] font-black uppercase tracking-widest text-rose-650 hover:text-rose-700 bg-white border border-rose-200 hover:border-rose-300 px-3 py-2.5 rounded-lg transition-all"
+                          >
+                            Unshare
+                          </button>
+                        </>
+                      ) : (
+                        <button
+                          onClick={() => handleShareFolder(activeFolder.id)}
+                          disabled={shareLoadingFolderId === activeFolder.id}
+                          className="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-[9.5px] font-black uppercase tracking-wider px-4 py-2.5 rounded-xl transition-all shadow-md shadow-emerald-600/10"
+                        >
+                          {shareLoadingFolderId === activeFolder.id ? (
+                            <>
+                              <div className="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                              Sharing...
+                            </>
+                          ) : (
+                            <>
+                              <Share2 className="w-3.5 h-3.5" /> Share List
+                            </>
+                          )}
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {shareError && (
+                  <div className="mt-3 text-[10px] font-bold text-rose-600 bg-rose-50 border border-rose-100 p-2.5 rounded-xl flex items-center justify-between">
+                    <span>{shareError}</span>
+                    <button onClick={() => setShareError(null)} className="text-rose-400 hover:text-rose-600 font-bold">Close</button>
+                  </div>
+                )}
               </div>
             )}
 

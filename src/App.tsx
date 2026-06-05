@@ -10,6 +10,7 @@ import BrowseAppsPage from "./pages/BrowseAppsPage";
 import WeeklyPicksPage from "./pages/WeeklyPicksPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import LegalPage from "./pages/LegalPage";
+import SharedFolderPage from "./pages/SharedFolderPage";
 
 import BackToTop from "./components/BackToTop";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -46,6 +47,7 @@ function AnimatedRoutes({ openSubmitForm }: { openSubmitForm: () => void }) {
           <Route path="/insights" element={<InsightsPage />} />
           <Route path="/weekly-picks" element={<WeeklyPicksPage />} />
           <Route path="/favorites" element={<FavoritesPage />} />
+          <Route path="/shared-folder/:shareId" element={<SharedFolderPage />} />
           <Route path="/legal" element={<LegalPage />} />
           <Route path="/avatar-generator" element={<SubCategoryPage forcedPath="free-ai-avatar-generator" />} />
         </Routes>
