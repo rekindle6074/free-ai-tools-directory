@@ -271,7 +271,7 @@ const FavoritesPage: FC = () => {
             </p>
 
             {/* My Custom Collections / Folders */}
-            {favoriteTools.length > 0 && (
+            {true && (
               <div className="mt-8 bg-white rounded-[2rem] border border-slate-200/80 p-6 shadow-sm">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
                   <div>
