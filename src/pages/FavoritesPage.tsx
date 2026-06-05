@@ -117,7 +117,7 @@ const FavoritesPage: FC = () => {
   };
 
   const handleDeleteFolder = async (folderId: string) => {
-    if (confirm("Voulez-vous vraiment supprimer ce dossier ? Les outils ne seront pas supprimés de vos favoris.")) {
+    if (confirm("Are you sure you want to delete this folder? The tools inside will not be removed from your favorites.")) {
       try {
         await deleteFolder(folderId);
         if (activeFolderId === folderId) {
@@ -225,25 +225,25 @@ const FavoritesPage: FC = () => {
               Your personal library of AI tools. Access your saved tools and custom notes anytime.
             </p>
 
-            {/* Mes Collections / Dossiers personnalisés */}
+            {/* My Custom Collections / Folders */}
             {favoriteTools.length > 0 && (
               <div className="mt-8 bg-white rounded-[2rem] border border-slate-200/80 p-6 shadow-sm">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
                   <div>
                     <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
-                      <FolderHeart className="w-5 h-5 text-emerald-600 fill-emerald-50" /> Mes Collections / Dossiers
+                      <FolderHeart className="w-5 h-5 text-emerald-600 fill-emerald-50" /> My Collections / Folders
                     </h2>
-                    <p className="text-xs text-slate-450 mt-0.5">Organisez vos outils favoris dans des listes personnalisées.</p>
+                    <p className="text-xs text-slate-450 mt-0.5">Organize your favorite tools into custom lists.</p>
                   </div>
                   <button
                     onClick={() => setIsCreatingFolder(!isCreatingFolder)}
                     className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black uppercase tracking-wider px-4 py-2.5 rounded-xl transition-all shadow-md shadow-emerald-600/10"
                   >
-                    <FolderPlus className="w-4 h-4" /> Nouveau Dossier
+                    <FolderPlus className="w-4 h-4" /> New Folder
                   </button>
                 </div>
 
-                {/* Création de dossier inline */}
+                {/* Inline folder creation */}
                 <AnimatePresence>
                   {isCreatingFolder && (
                     <motion.div
@@ -255,7 +255,7 @@ const FavoritesPage: FC = () => {
                       <div className="bg-slate-50 border border-slate-100 rounded-xl p-3 flex flex-col sm:flex-row gap-2 max-w-lg">
                         <input
                           type="text"
-                          placeholder="Nom du dossier (ex: Rédaction, Design...)"
+                          placeholder="Folder name (e.g., Writing, Design...)"
                           value={newFolderName}
                           onChange={(e) => setNewFolderName(e.target.value)}
                           onKeyDown={(e) => {
@@ -271,7 +271,7 @@ const FavoritesPage: FC = () => {
                             onClick={handleCreateFolder}
                             className="bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-4 py-2 rounded-lg transition-colors"
                           >
-                            Créer
+                            Create
                           </button>
                           <button
                             onClick={() => {
@@ -280,7 +280,7 @@ const FavoritesPage: FC = () => {
                             }}
                             className="text-slate-500 hover:text-slate-700 text-xs font-bold px-3 py-2 rounded-lg transition-colors border border-slate-200"
                           >
-                            Annuler
+                            Cancel
                           </button>
                         </div>
                       </div>
@@ -288,7 +288,7 @@ const FavoritesPage: FC = () => {
                   )}
                 </AnimatePresence>
 
-                {/* Dossier Pills */}
+                {/* Folder Pills */}
                 <div className="flex flex-wrap items-center gap-2">
                   <button
                     onClick={() => setActiveFolderId(null)}
@@ -298,7 +298,7 @@ const FavoritesPage: FC = () => {
                         : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
                     }`}
                   >
-                    Tout ({favoriteTools.length})
+                    All ({favoriteTools.length})
                   </button>
 
                   {folders.map(folder => {
@@ -356,7 +356,7 @@ const FavoritesPage: FC = () => {
                             className={`p-1 rounded-lg transition-colors ${
                               isActive ? "text-emerald-600 hover:bg-emerald-100" : "text-slate-400 hover:text-slate-600"
                             }`}
-                            title="Renommer"
+                            title="Rename"
                           >
                             <Edit2 className="w-3 h-3" />
                           </button>
@@ -365,7 +365,7 @@ const FavoritesPage: FC = () => {
                             className={`p-1 rounded-lg transition-colors ${
                               isActive ? "text-rose-500 hover:bg-rose-50" : "text-rose-400 hover:text-rose-600"
                             }`}
-                            title="Supprimer"
+                            title="Delete"
                           >
                             <Trash2 className="w-3 h-3" />
                           </button>

@@ -437,13 +437,13 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[9px] font-black text-emerald-600 uppercase tracking-widest flex items-center gap-1.5">
-                  <FolderHeart className="w-3.5 h-3.5 text-emerald-600 fill-emerald-100" /> Dossiers / Collections
+                  <FolderHeart className="w-3.5 h-3.5 text-emerald-600 fill-emerald-100" /> Folders / Collections
                 </span>
                 <button 
                   onClick={() => setShowFolderSelector(!showFolderSelector)}
                   className="text-[10px] font-bold text-emerald-600 hover:text-emerald-700 hover:underline transition-colors focus:outline-none"
                 >
-                  {showFolderSelector ? "Fermer" : "Gérer"}
+                  {showFolderSelector ? "Close" : "Manage"}
                 </button>
               </div>
 
@@ -456,7 +456,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
                       </span>
                     ))
                   ) : (
-                    <span className="text-[10px] text-slate-400 italic">Aucun dossier</span>
+                    <span className="text-[10px] text-slate-400 italic">No folders</span>
                   )}
                 </div>
               )}
@@ -480,14 +480,14 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
                         );
                       })
                     ) : (
-                      <p className="text-[10px] text-slate-400 italic">Aucun dossier disponible.</p>
+                      <p className="text-[10px] text-slate-400 italic">No folders available.</p>
                     )}
                   </div>
 
                   <div className="pt-2 border-t border-slate-100 flex gap-2">
                     <input
                       type="text"
-                      placeholder="Nouveau dossier..."
+                      placeholder="New folder name..."
                       value={newFolderName}
                       onChange={(e) => setNewFolderName(e.target.value)}
                       onKeyDown={(e) => {
