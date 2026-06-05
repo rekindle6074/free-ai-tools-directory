@@ -45,12 +45,17 @@ const FavoritesPage: FC = () => {
       setUser(currentUser);
       setAuthLoading(false);
       if (!currentUser) {
-        setFavoriteIds([]);
-        setLoading(false);
+        // If they are not logged in/resolving, load from local storage
         try {
-          localStorage.removeItem("vetted_ai_favorites");
-          localStorage.removeItem("vetted_ai_notes");
+          const localFavs = localStorage.getItem("vetted_ai_favorites");
+          if (localFavs) {
+            const parsed = JSON.parse(localFavs);
+            if (Array.isArray(parsed)) {
+              setFavoriteIds(parsed);
+            }
+          }
         } catch (e) {}
+        setLoading(false);
       }
     });
 

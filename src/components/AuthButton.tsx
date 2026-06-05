@@ -45,6 +45,11 @@ const AuthButton: FC = () => {
     if (!auth) return;
     try {
       await signOut(auth);
+      // Clear local storage on explicit manual logout
+      try {
+        localStorage.removeItem("vetted_ai_favorites");
+        localStorage.removeItem("vetted_ai_notes");
+      } catch (e) {}
     } catch (error) {
       console.error("Error signing out:", error);
     }

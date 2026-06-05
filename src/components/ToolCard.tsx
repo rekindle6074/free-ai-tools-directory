@@ -142,6 +142,16 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
 
   useEffect(() => {
     if (!user || !db) {
+      try {
+        const localFavs = localStorage.getItem("vetted_ai_favorites");
+        if (localFavs) {
+          const parsed = JSON.parse(localFavs);
+          if (Array.isArray(parsed) && parsed.includes(tool.id)) {
+            setIsFavorite(true);
+            return;
+          }
+        }
+      } catch (e) {}
       setIsFavorite(initiallyFavorite);
       return;
     }
@@ -305,7 +315,11 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
     const path = `users/${user.uid}/favorites/${tool.id}`;
     const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
     try {
-      await setDoc(favDocRef, { note: tempNote }, { merge: true });
+      await setDoc(favDocRef, { 
+        toolId: tool.id,
+        note: tempNote,
+        createdAt: serverTimestamp() 
+      }, { merge: true });
     } catch (error) {
       setNote(note);
       try {
