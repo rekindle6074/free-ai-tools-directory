@@ -31,11 +31,15 @@ import {
   Gavel,
   Megaphone,
   Target,
-  Search
+  Search,
+  FolderHeart,
+  FolderPlus,
+  Plus
 } from "lucide-react";
 import { Tool } from "../data/tools";
 import { auth, db, handleFirestoreError, OperationType } from "../firebase";
 import { doc, setDoc, deleteDoc, onSnapshot, serverTimestamp } from "firebase/firestore";
+import { Folder, getLocalFolders, toggleToolInFolder, createFolder } from "../lib/folderUtils";
 
 import { Button } from "./ui/Button";
 import { ExploreToolIcon, SaveIcon } from "./ui/Icons";
@@ -100,6 +104,9 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
   const [isEditingNote, setIsEditingNote] = useState(false);
   const [tempNote, setTempNote] = useState("");
   const [user, setUser] = useState(auth?.currentUser || null);
+  const [folders, setFolders] = useState<Folder[]>(getLocalFolders());
+  const [showFolderSelector, setShowFolderSelector] = useState(false);
+  const [newFolderName, setNewFolderName] = useState("");
 
   const [imageError, setImageError] = useState(false);
   const Icon = IconMap[tool.icon] || Zap;
@@ -168,6 +175,34 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
 
     return () => window.removeEventListener("vetted_favorites_changed", handleSync);
   }, [tool.id]);
+
+  useEffect(() => {
+    const handleFoldersSync = () => {
+      try {
+        const localFolders = localStorage.getItem("vetted_ai_folders");
+        if (localFolders) {
+          setFolders(JSON.parse(localFolders));
+        } else {
+          setFolders([]);
+        }
+      } catch (e) {}
+    };
+
+    window.addEventListener("vetted_folders_changed", handleFoldersSync);
+    handleFoldersSync();
+    return () => window.removeEventListener("vetted_folders_changed", handleFoldersSync);
+  }, []);
+
+  const handleCreateFolderInline = async () => {
+    if (!newFolderName.trim()) return;
+    try {
+      const folderId = await createFolder(newFolderName.trim());
+      await toggleToolInFolder(folderId, tool.id);
+      setNewFolderName("");
+    } catch (e) {
+      console.error("Error creating inline folder:", e);
+    }
+  };
 
   const toggleFavorite = async () => {
     // 1. Update localStorage instantly for instant UI responsiveness
@@ -389,6 +424,87 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
                   <p className={`text-xs ${note ? "text-slate-700 font-medium" : "text-slate-400 italic"}`}>
                     {note || "Add a personal note about this tool..."}
                   </p>
+                </div>
+              )}
+            </motion.div>
+          )}
+          {isFavorite && (
+            <motion.div 
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              className="mb-6 pt-4 border-t border-emerald-100/40 overflow-hidden text-slate-900"
+            >
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-[9px] font-black text-emerald-600 uppercase tracking-widest flex items-center gap-1.5">
+                  <FolderHeart className="w-3.5 h-3.5 text-emerald-600 fill-emerald-100" /> Dossiers / Collections
+                </span>
+                <button 
+                  onClick={() => setShowFolderSelector(!showFolderSelector)}
+                  className="text-[10px] font-bold text-emerald-600 hover:text-emerald-700 hover:underline transition-colors focus:outline-none"
+                >
+                  {showFolderSelector ? "Fermer" : "Gérer"}
+                </button>
+              </div>
+
+              {!showFolderSelector && (
+                <div className="flex flex-wrap gap-1 mb-1 max-h-[48px] overflow-y-auto">
+                  {folders.filter(f => f.toolIds?.includes(tool.id)).length > 0 ? (
+                    folders.filter(f => f.toolIds?.includes(tool.id)).map(f => (
+                      <span key={f.id} className="inline-flex items-center px-2 py-0.5 rounded-full text-[9px] font-bold bg-white text-emerald-700 border border-emerald-200 shadow-sm">
+                        {f.name}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="text-[10px] text-slate-400 italic">Aucun dossier</span>
+                  )}
+                </div>
+              )}
+
+              {showFolderSelector && (
+                <div className="space-y-3 bg-white/60 p-3 rounded-2xl border border-emerald-100/50">
+                  <div className="max-h-[100px] overflow-y-auto space-y-1.5 pr-1 scrollbar-thin">
+                    {folders.length > 0 ? (
+                      folders.map(f => {
+                        const isInFolder = f.toolIds?.includes(tool.id);
+                        return (
+                          <label key={f.id} className="flex items-center gap-2 cursor-pointer p-1.5 hover:bg-emerald-50/50 rounded-lg transition-all border border-transparent hover:border-emerald-100/30">
+                            <input
+                              type="checkbox"
+                              checked={isInFolder}
+                              onChange={() => toggleToolInFolder(f.id, tool.id)}
+                              className="rounded text-emerald-600 focus:ring-emerald-500/20 border-emerald-300 h-3.5 w-3.5"
+                            />
+                            <span className="text-xs text-slate-700 font-medium truncate">{f.name}</span>
+                          </label>
+                        );
+                      })
+                    ) : (
+                      <p className="text-[10px] text-slate-400 italic">Aucun dossier disponible.</p>
+                    )}
+                  </div>
+
+                  <div className="pt-2 border-t border-slate-100 flex gap-2">
+                    <input
+                      type="text"
+                      placeholder="Nouveau dossier..."
+                      value={newFolderName}
+                      onChange={(e) => setNewFolderName(e.target.value)}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter') {
+                          e.preventDefault();
+                          handleCreateFolderInline();
+                        }
+                      }}
+                      className="w-full text-xs px-2.5 py-1.5 bg-white border border-emerald-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 placeholder-slate-400 transition-all font-sans"
+                    />
+                    <button
+                      onClick={handleCreateFolderInline}
+                      className="bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl p-1.5 focus:outline-none flex items-center justify-center transition-colors shadow-sm"
+                    >
+                      <Plus className="w-4 h-4" />
+                    </button>
+                  </div>
                 </div>
               )}
             </motion.div>

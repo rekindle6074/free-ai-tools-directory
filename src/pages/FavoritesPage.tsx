@@ -6,7 +6,14 @@ import {
   Search, 
   Zap,
   LogIn,
-  ArrowRight
+  ArrowRight,
+  FolderHeart,
+  FolderPlus,
+  Plus,
+  Trash2,
+  Edit2,
+  Check,
+  X
 } from "lucide-react";
 import { auth, db, handleFirestoreError, OperationType } from "../firebase";
 import { collection, onSnapshot, query, orderBy, doc, setDoc, serverTimestamp } from "firebase/firestore";
@@ -14,6 +21,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { featuredTools, toolsByTag, Tool } from "../data/tools";
 import ToolCard from "../components/ToolCard";
 import { Link } from "react-router-dom";
+import { Folder as FolderType, getLocalFolders, createFolder, deleteFolder, renameFolder } from "../lib/folderUtils";
 
 const FavoritesPage: FC = () => {
   const [user, setUser] = useState(auth?.currentUser || null);
@@ -39,6 +47,12 @@ const FavoritesPage: FC = () => {
     return true;
   });
   const [searchQuery, setSearchQuery] = useState("");
+  const [folders, setFolders] = useState<FolderType[]>(getLocalFolders());
+  const [activeFolderId, setActiveFolderId] = useState<string | null>(null);
+  const [isCreatingFolder, setIsCreatingFolder] = useState(false);
+  const [newFolderName, setNewFolderName] = useState("");
+  const [editingFolderId, setEditingFolderId] = useState<string | null>(null);
+  const [editingFolderName, setEditingFolderName] = useState("");
 
   useEffect(() => {
     const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
@@ -72,6 +86,65 @@ const FavoritesPage: FC = () => {
     return () => window.removeEventListener("vetted_favorites_changed", handleSync);
   }, []);
 
+  useEffect(() => {
+    const handleFoldersSync = () => {
+      try {
+        const localFolders = localStorage.getItem("vetted_ai_folders");
+        if (localFolders) {
+          setFolders(JSON.parse(localFolders));
+        } else {
+          setFolders([]);
+        }
+      } catch (e) {}
+    };
+
+    window.addEventListener("vetted_folders_changed", handleFoldersSync);
+    handleFoldersSync();
+
+    return () => window.removeEventListener("vetted_folders_changed", handleFoldersSync);
+  }, []);
+
+  const handleCreateFolder = async () => {
+    if (!newFolderName.trim()) return;
+    try {
+      const folderId = await createFolder(newFolderName.trim());
+      setActiveFolderId(folderId);
+      setNewFolderName("");
+      setIsCreatingFolder(false);
+    } catch (e) {
+      console.error("Error creating folder on FavoritesPage:", e);
+    }
+  };
+
+  const handleDeleteFolder = async (folderId: string) => {
+    if (confirm("Voulez-vous vraiment supprimer ce dossier ? Les outils ne seront pas supprimés de vos favoris.")) {
+      try {
+        await deleteFolder(folderId);
+        if (activeFolderId === folderId) {
+          setActiveFolderId(null);
+        }
+      } catch (e) {
+        console.error("Error deleting folder on FavoritesPage:", e);
+      }
+    }
+  };
+
+  const handleStartRename = (folder: FolderType) => {
+    setEditingFolderId(folder.id);
+    setEditingFolderName(folder.name);
+  };
+
+  const handleSaveRename = async () => {
+    if (!editingFolderId || !editingFolderName.trim()) return;
+    try {
+      await renameFolder(editingFolderId, editingFolderName.trim());
+      setEditingFolderId(null);
+      setEditingFolderName("");
+    } catch (e) {
+      console.error("Error saving renamed folder on FavoritesPage:", e);
+    }
+  };
+
   // Map favorite IDs to actual Tool objects
   const favoriteTools = favoriteIds.map(id => {
     // Search in featuredTools
@@ -86,7 +159,15 @@ const FavoritesPage: FC = () => {
     return null;
   }).filter((t): t is Tool => t !== null);
 
-  const filteredTools = favoriteTools.filter(tool => 
+  // Filter tools by active folder
+  const folderFilteredTools = activeFolderId 
+    ? favoriteTools.filter(tool => {
+        const activeFolder = folders.find(f => f.id === activeFolderId);
+        return activeFolder?.toolIds?.includes(tool.id);
+      })
+    : favoriteTools;
+
+  const filteredTools = folderFilteredTools.filter(tool => 
     tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
     tool.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
     tool.category.toLowerCase().includes(searchQuery.toLowerCase())
@@ -143,6 +224,158 @@ const FavoritesPage: FC = () => {
             <p className="text-xl text-slate-500 max-w-3xl leading-relaxed">
               Your personal library of AI tools. Access your saved tools and custom notes anytime.
             </p>
+
+            {/* Mes Collections / Dossiers personnalisés */}
+            {favoriteTools.length > 0 && (
+              <div className="mt-8 bg-white rounded-[2rem] border border-slate-200/80 p-6 shadow-sm">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+                  <div>
+                    <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                      <FolderHeart className="w-5 h-5 text-emerald-600 fill-emerald-50" /> Mes Collections / Dossiers
+                    </h2>
+                    <p className="text-xs text-slate-450 mt-0.5">Organisez vos outils favoris dans des listes personnalisées.</p>
+                  </div>
+                  <button
+                    onClick={() => setIsCreatingFolder(!isCreatingFolder)}
+                    className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black uppercase tracking-wider px-4 py-2.5 rounded-xl transition-all shadow-md shadow-emerald-600/10"
+                  >
+                    <FolderPlus className="w-4 h-4" /> Nouveau Dossier
+                  </button>
+                </div>
+
+                {/* Création de dossier inline */}
+                <AnimatePresence>
+                  {isCreatingFolder && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: "auto" }}
+                      exit={{ opacity: 0, height: 0 }}
+                      className="overflow-hidden mb-6"
+                    >
+                      <div className="bg-slate-50 border border-slate-100 rounded-xl p-3 flex flex-col sm:flex-row gap-2 max-w-lg">
+                        <input
+                          type="text"
+                          placeholder="Nom du dossier (ex: Rédaction, Design...)"
+                          value={newFolderName}
+                          onChange={(e) => setNewFolderName(e.target.value)}
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter") {
+                              e.preventDefault();
+                              handleCreateFolder();
+                            }
+                          }}
+                          className="flex-grow text-xs px-3 py-2 bg-white border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 placeholder-slate-400 font-sans transition-all"
+                        />
+                        <div className="flex gap-1.5">
+                          <button
+                            onClick={handleCreateFolder}
+                            className="bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-4 py-2 rounded-lg transition-colors"
+                          >
+                            Créer
+                          </button>
+                          <button
+                            onClick={() => {
+                              setIsCreatingFolder(false);
+                              setNewFolderName("");
+                            }}
+                            className="text-slate-500 hover:text-slate-700 text-xs font-bold px-3 py-2 rounded-lg transition-colors border border-slate-200"
+                          >
+                            Annuler
+                          </button>
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+
+                {/* Dossier Pills */}
+                <div className="flex flex-wrap items-center gap-2">
+                  <button
+                    onClick={() => setActiveFolderId(null)}
+                    className={`px-4 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-wider transition-all border ${
+                      activeFolderId === null
+                        ? "bg-slate-900 text-white border-slate-900 shadow-sm"
+                        : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
+                    }`}
+                  >
+                    Tout ({favoriteTools.length})
+                  </button>
+
+                  {folders.map(folder => {
+                    const isActive = activeFolderId === folder.id;
+                    const isEditing = editingFolderId === folder.id;
+                    const count = favoriteTools.filter(t => folder.toolIds?.includes(t.id)).length;
+
+                    if (isEditing) {
+                      return (
+                        <div key={folder.id} className="flex items-center gap-1.5 bg-white border border-emerald-300 rounded-xl px-2.5 py-1.5 shadow-sm">
+                          <input
+                            type="text"
+                            value={editingFolderName}
+                            onChange={(e) => setEditingFolderName(e.target.value)}
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") {
+                                e.preventDefault();
+                                handleSaveRename();
+                              }
+                            }}
+                            className="text-xs font-bold text-slate-800 focus:outline-none border-b border-emerald-500 px-1 py-0.5 max-w-[100px]"
+                            autoFocus
+                          />
+                          <button onClick={handleSaveRename} className="p-1 text-emerald-600 hover:text-emerald-700">
+                            <Check className="w-3.5 h-3.5" />
+                          </button>
+                          <button onClick={() => setEditingFolderId(null)} className="p-1 text-rose-600 hover:text-rose-700">
+                            <X className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      );
+                    }
+
+                    return (
+                      <div
+                        key={folder.id}
+                        className={`inline-flex items-center gap-1 rounded-xl border transition-all ${
+                          isActive
+                            ? "bg-emerald-650 text-emerald-600 font-bold border-emerald-300 bg-emerald-50/50 shadow-sm"
+                            : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
+                        }`}
+                      >
+                        <button
+                          onClick={() => setActiveFolderId(folder.id)}
+                          className={`pl-4 pr-2 py-2.5 text-[10px] font-black uppercase tracking-wider text-left transition-colors ${
+                            isActive ? "text-emerald-700" : "text-slate-600"
+                          }`}
+                        >
+                          {folder.name} ({count})
+                        </button>
+                        
+                        <div className="flex items-center pr-1.5 border-l border-slate-200/50 my-1 py-0.5">
+                          <button
+                            onClick={() => handleStartRename(folder)}
+                            className={`p-1 rounded-lg transition-colors ${
+                              isActive ? "text-emerald-600 hover:bg-emerald-100" : "text-slate-400 hover:text-slate-600"
+                            }`}
+                            title="Renommer"
+                          >
+                            <Edit2 className="w-3 h-3" />
+                          </button>
+                          <button
+                            onClick={() => handleDeleteFolder(folder.id)}
+                            className={`p-1 rounded-lg transition-colors ${
+                              isActive ? "text-rose-500 hover:bg-rose-50" : "text-rose-400 hover:text-rose-600"
+                            }`}
+                            title="Supprimer"
+                          >
+                            <Trash2 className="w-3 h-3" />
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
 
             {favoriteTools.length > 0 && (
               <div className="mt-10 relative max-w-2xl">

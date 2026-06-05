@@ -8,7 +8,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered visa assistance and travel documentation.",
       "category": "AI Trip Planner",
       "link": "https://spun.global",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/spun.global-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spun.global-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -18,7 +18,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered flight deal finder and travel optimization.",
       "category": "AI Trip Planner",
       "link": "https://airglitch.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airglitch.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airglitch.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -28,7 +28,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI travel assistant for personalized recommendations and planning.",
       "category": "AI Trip Planner",
       "link": "https://www.sayfone.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sayfone.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sayfone.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -38,7 +38,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel itinerary planner and destination guide.",
       "category": "AI Trip Planner",
       "link": "https://navoy.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/navoy.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/navoy.io-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -48,7 +48,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Connect with local tour guides using AI-powered matching.",
       "category": "AI Trip Planner",
       "link": "https://www.findtourguide.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/findtourguide.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/findtourguide.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -58,7 +58,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI travel planner for seamless itinerary creation.",
       "category": "AI Trip Planner",
       "link": "https://chiaro.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chiaro.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chiaro.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -68,7 +68,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered city ranking and travel destination discovery.",
       "category": "AI Trip Planner",
       "link": "https://apps.apple.com/us/app/cityrank/id6737245374",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -78,7 +78,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI travel journal and itinerary planner.",
       "category": "AI Trip Planner",
       "link": "https://journi.pro",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/journi.pro-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/journi.pro-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -88,7 +88,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Discover new places with AI-powered travel suggestions.",
       "category": "AI Trip Planner",
       "link": "https://www.tryexplorify.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tryexplorify.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tryexplorify.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -98,7 +98,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel guide and navigation assistant.",
       "category": "AI Trip Planner",
       "link": "https://vokspilot.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vokspilot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vokspilot.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -108,7 +108,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel history and future planning tool.",
       "category": "AI Trip Planner",
       "link": "https://itraveledthere.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/itraveledthere.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/itraveledthere.io-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -118,7 +118,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI travel concierge for personalized trip advice.",
       "category": "AI Trip Planner",
       "link": "https://askrudy.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askrudy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askrudy.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -128,7 +128,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered museum discovery and tour planning.",
       "category": "AI Trip Planner",
       "link": "https://seemuseums.art",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/seemuseums.art-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/seemuseums.art-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -138,7 +138,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered flight comparison and travel management.",
       "category": "AI Trip Planner",
       "link": "https://aircmp.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aircmp.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aircmp.app-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -148,7 +148,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI travel planning with social sharing and recommendations.",
       "category": "AI Trip Planner",
       "link": "https://travelecho.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travelecho.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travelecho.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -158,7 +158,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel reviews and destination insights.",
       "category": "AI Trip Planner",
       "link": "https://revyu.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/revyu.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revyu.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -168,7 +168,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered event and travel planning for groups.",
       "category": "AI Trip Planner",
       "link": "https://www.getnowadays.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getnowadays.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getnowadays.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -178,7 +178,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free personalized AI travel planning with an integrated flight and hotel finder.",
       "category": "AI Trip Planner",
       "link": "https://www.imean.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/imean.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imean.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -188,7 +188,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered route optimization and personalized recommendations.",
       "category": "AI Trip Planner",
       "link": "https://tripplanner.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tripplanner.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tripplanner.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -198,7 +198,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free personalized AI itineraries managed on one page with offline access.",
       "category": "AI Trip Planner",
       "link": "https://beta.wonderplan.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beta.wonderplan.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beta.wonderplan.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -208,7 +208,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free account offering up to 20 stops per route and 10 route optimizations daily.",
       "category": "AI Trip Planner",
       "link": "https://routerra.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/routerra.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/routerra.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -218,7 +218,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI travel planner creating personalized itineraries and finding hotels.",
       "category": "AI Trip Planner",
       "link": "https://planingo.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/planingo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planingo.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -228,7 +228,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel itineraries with customizable options.",
       "category": "AI Trip Planner",
       "link": "https://letstrip.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/letstrip.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/letstrip.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -238,7 +238,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free tailored travel plans featuring interactive maps.",
       "category": "AI Trip Planner",
       "link": "https://copilot2trip.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/copilot2trip.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/copilot2trip.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -248,7 +248,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered family itinerary planning with customizable options and activity suggestions.",
       "category": "AI Trip Planner",
       "link": "https://skoothere.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skoothere.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skoothere.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -258,7 +258,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI travel planner offering curated itineraries.",
       "category": "AI Trip Planner",
       "link": "https://whatdo.in",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/whatdo.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whatdo.in-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -268,7 +268,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free AI itinerary checks performed in seconds with real-time data validation.",
       "category": "AI Trip Planner",
       "link": "https://suptravel.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/suptravel.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suptravel.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -278,7 +278,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "2 free AI-powered personalized itinerary submissions with destination and locality exploration.",
       "category": "AI Trip Planner",
       "link": "https://triipper.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/triipper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/triipper.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -288,7 +288,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Access to millions of Points of Interest and daily local events via AI.",
       "category": "AI Trip Planner",
       "link": "https://summerai.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/summerai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summerai.app-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -298,7 +298,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "2 free personalized AI itineraries available in any language.",
       "category": "AI Trip Planner",
       "link": "https://freeplantour.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/freeplantour.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/freeplantour.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -308,7 +308,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free personalized itineraries for trips up to 4 days with real-time updates.",
       "category": "AI Trip Planner",
       "link": "https://easytrip.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/easytrip.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easytrip.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -318,7 +318,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-planned customized trips with personalized travel planning and public transit options.",
       "category": "AI Trip Planner",
       "link": "https://tripetta.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tripetta.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tripetta.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -328,7 +328,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free AI-generated itineraries per month with real-time budget tracking.",
       "category": "AI Trip Planner",
       "link": "https://solotripplanner.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/solotripplanner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/solotripplanner.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -338,7 +338,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "First customized AI itinerary for free.",
       "category": "AI Trip Planner",
       "link": "https://bonmyvoyage.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bonmyvoyage.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bonmyvoyage.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -348,7 +348,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "100% free AI tool to find cheapest vacations and customized travel deals.",
       "category": "AI Trip Planner",
       "link": "https://www.reisegenie.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reisegenie.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reisegenie.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -358,7 +358,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free tokens for destination suggestions and personalized itineraries.",
       "category": "AI Trip Planner",
       "link": "https://vooyai.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vooyai.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vooyai.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -368,7 +368,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free access to 2 active trips and 30 MCP requests daily with interactive maps.",
       "category": "AI Trip Planner",
       "link": "https://www.aitrips.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aitrips.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitrips.io-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -378,7 +378,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free tokens upon registration for AI-powered flexible trip planning.",
       "category": "AI Trip Planner",
       "link": "https://snapventure.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/snapventure.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snapventure.app-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -388,7 +388,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered trip planning with landmark scanning and budget management.",
       "category": "AI Trip Planner",
       "link": "https://travisi.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travisi.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travisi.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -398,7 +398,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free 15-day account access for dynamic route optimization with up to 500 stops.",
       "category": "AI Trip Planner",
       "link": "https://dynaroute.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dynaroute.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dynaroute.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -408,7 +408,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered customized itineraries with seamless travel experiences.",
       "category": "AI Trip Planner",
       "link": "https://tourtally.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tourtally.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tourtally.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -418,7 +418,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free instant personalized itineraries with hotel recommendations.",
       "category": "AI Trip Planner",
       "link": "https://moontripai.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moontripai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moontripai.app-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -428,7 +428,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Premium features free for the first 6 months including data-backed optimized itineraries.",
       "category": "AI Trip Planner",
       "link": "https://backpackk.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/backpackk.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/backpackk.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -438,7 +438,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered personalized itineraries to find flights, hotels, and activities.",
       "category": "AI Trip Planner",
       "link": "https://www.travex.world",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travex.world-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travex.world-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -448,7 +448,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free personalized day plans with interactive map details.",
       "category": "AI Trip Planner",
       "link": "https://pop-plan.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pop-plan.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pop-plan.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -458,7 +458,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered personalized travel plans and comprehensive itineraries.",
       "category": "AI Trip Planner",
       "link": "https://nexttripai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nexttripai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nexttripai.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -468,7 +468,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free for 1 property and 10 sections, offering digital guidebooks with AI translations.",
       "category": "AI Trip Planner",
       "link": "https://bnbuddy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bnbuddy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bnbuddy.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -478,7 +478,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Save and manage dream destinations while customizing travel with AI.",
       "category": "AI Trip Planner",
       "link": "https://apps.apple.com/es/app/traveltrail-planifica-tu-viaje/id6479203686",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -488,7 +488,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free to use, offering AI-powered personalized itineraries with collaborative planning.",
       "category": "AI Trip Planner",
       "link": "https://travelwithtern.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travelwithtern.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travelwithtern.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -498,7 +498,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "15,000 free daily tokens for personalized travel itineraries and assistance.",
       "category": "AI Trip Planner",
       "link": "https://www.travelbot.me",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travelbot.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travelbot.me-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -508,7 +508,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered personalized travel itineraries with simplified trip planning.",
       "category": "AI Trip Planner",
       "link": "https://nextrip-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nextrip-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nextrip-ai.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -518,7 +518,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered event and experience platform for global Afrocentric experiences.",
       "category": "AI Trip Planner",
       "link": "https://tourifique.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tourifique.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tourifique.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -528,7 +528,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Double-check prices across 1,000+ travel sites to automatically save money.",
       "category": "AI Trip Planner",
       "link": "https://chromewebstore.google.com/detail/planmoretrips-we-find-the/incfgmkkmipiajppcmmkgmobfenkcfie",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -538,7 +538,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered personalized itineraries with easy trip sharing and real-time recommendations.",
       "category": "AI Trip Planner",
       "link": "https://planit.ly/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/planit.ly-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planit.ly-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -548,7 +548,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered itinerary planning with real-time collaboration and public itinerary exploration.",
       "category": "AI Trip Planner",
       "link": "https://tripsync.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tripsync.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tripsync.co-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -558,7 +558,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-crafted instant travel itineraries with customizable destinations.",
       "category": "AI Trip Planner",
       "link": "https://exploresoul.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/exploresoul.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/exploresoul.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -568,7 +568,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free travel plan generation with local insights and tourist hotspots.",
       "category": "AI Trip Planner",
       "link": "https://www.aireelity.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aireelity.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aireelity.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -578,7 +578,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered social media recommendations featuring curated global city experiences.",
       "category": "AI Trip Planner",
       "link": "https://apps.apple.com/us/app/reverie-unique-things-to-do/id6448396396",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -588,7 +588,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free personalized travel itineraries with suggestions on places and activities.",
       "category": "AI Trip Planner",
       "link": "https://roamify.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/roamify.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/roamify.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -598,7 +598,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free trip plans per month with AI-generated tailored itineraries.",
       "category": "AI Trip Planner",
       "link": "https://tripplanner.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tripplanner.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tripplanner.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 6
     },
@@ -608,7 +608,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Always free AI travel planner for group retreats with special group rates.",
       "category": "AI Trip Planner",
       "link": "https://osito.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/osito.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/osito.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -618,7 +618,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free multi-city Eurotrip planning with AI-powered SMART and AB Magic modes.",
       "category": "AI Trip Planner",
       "link": "https://80days.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/80days.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/80days.me-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -628,7 +628,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning to find unique local favorites.",
       "category": "AI Trip Planner",
       "link": "https://localbuddy.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/localbuddy.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/localbuddy.app-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -638,7 +638,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Tailored day-by-day itineraries finding accommodations, flights, and transportation.",
       "category": "AI Trip Planner",
       "link": "https://travelgenie.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travelgenie.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travelgenie.ai-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -648,7 +648,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered intelligent travel plans with customized itineraries and hidden gems.",
       "category": "AI Trip Planner",
       "link": "https://triplay.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/triplay.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/triplay.app-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     },
@@ -658,7 +658,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI travel planning and destination organization without login.",
       "category": "AI Trip Planner",
       "link": "https://www.trai-velogpt.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trai-velogpt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trai-velogpt.com-128x128__Estimated_.png",
       "icon": "Map",
       "score": 8
     }
@@ -670,7 +670,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered cycling coach for personalized training plans and performance analysis.",
       "category": "AI Sports",
       "link": "https://cyclingcoachai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cyclingcoachai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cyclingcoachai.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -680,7 +680,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-driven strength training and powerlifting coach.",
       "category": "AI Sports",
       "link": "https://evolveai.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/evolveai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/evolveai.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -690,7 +690,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered sports betting odds analysis and predictions.",
       "category": "AI Sports",
       "link": "https://www.oddsgpt.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/oddsgpt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/oddsgpt.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -700,7 +700,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered horse racing tips and analysis.",
       "category": "AI Sports",
       "link": "https://racebrain.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/racebrain.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/racebrain.io-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -710,7 +710,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered MMA and UFC fight predictions.",
       "category": "AI Sports",
       "link": "https://theoctagonoracle.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/theoctagonoracle.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/theoctagonoracle.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -720,7 +720,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fantasy sports assistant and lineup optimizer.",
       "category": "AI Sports",
       "link": "https://www.fantasyball.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fantasyball.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fantasyball.io-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -730,7 +730,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered sports statistics and betting insights.",
       "category": "AI Sports",
       "link": "https://numbersgame.uk",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/numbersgame.uk-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/numbersgame.uk-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -740,7 +740,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered dance analysis and feedback tool.",
       "category": "AI Sports",
       "link": "https://dancebetter.org",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dancebetter.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dancebetter.org-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -750,7 +750,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered performance tracking and training optimization for athletes.",
       "category": "AI Sports",
       "link": "https://calibratedathlete.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/calibratedathlete.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/calibratedathlete.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -760,7 +760,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered sports betting assistant and strategy tool.",
       "category": "AI Sports",
       "link": "https://therapistai.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/therapistai.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/therapistai.co-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -770,7 +770,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered athletic performance lab and training assistant.",
       "category": "AI Sports",
       "link": "https://athlabs.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/athlabs.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/athlabs.co-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -780,7 +780,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered bracket predictions and tournament analysis.",
       "category": "AI Sports",
       "link": "https://bracketwise.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bracketwise.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bracketwise.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -790,7 +790,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered running coach and performance tracker.",
       "category": "AI Sports",
       "link": "https://play.google.com/store/apps/details?id=com.runai.RunAI&pcampaignid=web_share",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -800,7 +800,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered MMA trainer and workout planner.",
       "category": "AI Sports",
       "link": "https://apps.apple.com/us/app/kayyo-ai-mma-trainer/id1635789596",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -810,7 +810,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered basketball betting tips and predictions.",
       "category": "AI Sports",
       "link": "https://apps.apple.com/se/app/vip-basketball-betting-tipster/id6444616604",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -820,7 +820,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered sports betting tips and analysis.",
       "category": "AI Sports",
       "link": "https://aibettingtips.net",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aibettingtips.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aibettingtips.net-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -830,7 +830,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered sports statistics and betting predictions.",
       "category": "AI Sports",
       "link": "https://www.statpickai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/statpickai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/statpickai.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -840,7 +840,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered physical therapy and movement analysis tool.",
       "category": "AI Sports",
       "link": "https://froomcarepro.com/en",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/froomcarepro.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/froomcarepro.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -850,7 +850,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered strength training and workout tracker.",
       "category": "AI Sports",
       "link": "https://apps.apple.com/gb/app/purestrength/id1621267448",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -860,7 +860,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free version available to document sparring progress and get personalized AI coaching.",
       "category": "AI Sports",
       "link": "http://itunes.apple.com/app/6479872912",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -870,7 +870,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free tier with unlimited scans, 60 collection adds, and 5 eBay listings monthly.",
       "category": "AI Sports",
       "link": "https://ludex.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ludex.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ludex.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -880,7 +880,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial access to automated scoring, AI stats, and video highlights.",
       "category": "AI Sports",
       "link": "https://swing.vision",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/swing.vision-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/swing.vision-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -890,7 +890,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free fit upload per week for AI-powered bike fitting.",
       "category": "AI Sports",
       "link": "https://myvelofit.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myvelofit.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myvelofit.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -900,7 +900,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free sports predictions and access to an AI-powered betting bot.",
       "category": "AI Sports",
       "link": "https://www.sports-ai.dev",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sports-ai.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sports-ai.dev-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -910,7 +910,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial period for AI-powered highlight generation and automated video tagging.",
       "category": "AI Sports",
       "link": "https://magnifi.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/magnifi.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/magnifi.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -920,7 +920,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free plan for race pacing, power plan optimization, and AI workout builder.",
       "category": "AI Sports",
       "link": "https://bestbikesplit.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bestbikesplit.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bestbikesplit.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -930,7 +930,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Record up to 1 hour per month free for AI-powered stats tracking and highlight clips.",
       "category": "AI Sports",
       "link": "https://www.hooper.gg",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hooper.gg-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hooper.gg-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -940,7 +940,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered video tools providing pro-level match stats and interactive skill assessment.",
       "category": "AI Sports",
       "link": "https://wingfield.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wingfield.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wingfield.io-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -950,7 +950,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One video per week free (60 seconds limit) for AI-powered swimming analysis.",
       "category": "AI Sports",
       "link": "https://iswim.dev",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/iswim.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iswim.dev-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -960,7 +960,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free access to real-time stats, AI-powered analysis, and player rankings.",
       "category": "AI Sports",
       "link": "https://apps.apple.com/us/app/atr-tennis/id6737871927",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -970,7 +970,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered movement analysis with personalized insights and training plans.",
       "category": "AI Sports",
       "link": "https://apps.apple.com/app/apple-store/id1507252361",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -980,7 +980,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Professional sports commentary and AI-powered video transformation.",
       "category": "AI Sports",
       "link": "https://narrify.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/narrify.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/narrify.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -990,7 +990,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free video analyses for AI-powered video analysis and real-time feedback.",
       "category": "AI Sports",
       "link": "https://www.apollo-copilot.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apollo-copilot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apollo-copilot.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1000,7 +1000,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Tool to find local courts, play-partners, tournaments, and coaches.",
       "category": "AI Sports",
       "link": "https://tenni.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tenni.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tenni.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1010,7 +1010,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Platform to create, manage, and compete with your own AI esports team.",
       "category": "AI Sports",
       "link": "https://www.aiem.gg",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiem.gg-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiem.gg-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1020,7 +1020,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free live cockfighting broadcasts with HD streaming and professional commentators.",
       "category": "AI Sports",
       "link": "https://www.heywaldo.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/heywaldo.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heywaldo.io-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1030,7 +1030,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free cheat sheets, AI sports picks, bet predictions, and strategic insights.",
       "category": "AI Sports",
       "link": "https://xaslarbet.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/xaslarbet.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xaslarbet.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1040,7 +1040,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day free trial for video analysis and AI movement assessments.",
       "category": "AI Sports",
       "link": "https://yogger.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/yogger.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yogger.io-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1050,7 +1050,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI and expert-powered running form feedback for efficient, pain-free running.",
       "category": "AI Sports",
       "link": "https://forma.run",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/forma.run-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/forma.run-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1060,7 +1060,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free session for AI-powered personalized bike fitting to enhance performance.",
       "category": "AI Sports",
       "link": "https://posturise.eu",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/posturise.eu-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/posturise.eu-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1070,7 +1070,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered baseball analytics with a natural language interface and real-time insights.",
       "category": "AI Sports",
       "link": "https://voltintelligence.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voltintelligence.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voltintelligence.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1080,7 +1080,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI fitness programs to find like-minded athletes and personalized warm-ups.",
       "category": "AI Sports",
       "link": "https://www.gympact.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gympact.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gympact.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1090,7 +1090,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free team and group management with safe communication and event scheduling.",
       "category": "AI Sports",
       "link": "https://apps.apple.com/in/app/actavivo/id1611252168",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1100,7 +1100,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free article generation with AI-driven narratives and multilingual writing.",
       "category": "AI Sports",
       "link": "https://www.footballwriter.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/footballwriter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/footballwriter.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1110,7 +1110,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "First training program free with AI-powered tailor-made workouts.",
       "category": "AI Sports",
       "link": "https://train-programs.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/train-programs.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/train-programs.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1120,7 +1120,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free 7-day trial for AI sports predictions and player prop predictions.",
       "category": "AI Sports",
       "link": "https://www.rithmm.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rithmm.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rithmm.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1130,7 +1130,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free 3-day trial for AI sports picks, expert insights, and profitable strategies.",
       "category": "AI Sports",
       "link": "https://mysports.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mysports.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mysports.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1140,7 +1140,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "2-week free trial for individualized powerlifting and strongman training plans.",
       "category": "AI Sports",
       "link": "https://juggernautai.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/juggernautai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/juggernautai.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1150,7 +1150,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "2 weeks free for AI-powered exit recommendations and Kelly Criterion allocation.",
       "category": "AI Sports",
       "link": "https://trytenki.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trytenki.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trytenki.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1160,7 +1160,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI workout generator with real-time AI coaching.",
       "category": "AI Sports",
       "link": "https://apps.apple.com/us/app/phantom-ultimate-fitness-app/id6477784398",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1170,7 +1170,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "15-day free trial for personalized AI-infused training plans with real-time feedback.",
       "category": "AI Sports",
       "link": "https://cyclingcoach.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cyclingcoach.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cyclingcoach.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1180,7 +1180,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Daily free +EV betting tips and AI-powered odds analysis.",
       "category": "AI Sports",
       "link": "https://oddsgpt.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/oddsgpt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/oddsgpt.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1190,7 +1190,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day risk-free trial for AI-driven personalized training and affordable expert coaching.",
       "category": "AI Sports",
       "link": "https://evolveai.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/evolveai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/evolveai.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1200,7 +1200,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "100 free tickets for instant AI feedback on rhythm and posture.",
       "category": "AI Sports",
       "link": "https://dancebetter.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dancebetter.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dancebetter.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1210,7 +1210,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Horse Racing Tips providing in-depth statistics and expert form analysis.",
       "category": "AI Sports",
       "link": "https://racebrain.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/racebrain.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/racebrain.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1220,7 +1220,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "NBA Lineup Optimizer and player props tool with AI-assisted analysis.",
       "category": "AI Sports",
       "link": "https://fantasyball.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fantasyball.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fantasyball.io-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1230,7 +1230,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7 days free for all-in-one athlete tracking and team management.",
       "category": "AI Sports",
       "link": "https://calibratedathlete.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/calibratedathlete.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/calibratedathlete.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1240,7 +1240,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "68k free credits upon registration for online betting games and diverse selection.",
       "category": "AI Sports",
       "link": "https://win79a.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/win79a.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/win79a.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1250,7 +1250,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Beta program access for real-time exercise form feedback and personalized guidance.",
       "category": "AI Sports",
       "link": "https://athlabs.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/athlabs.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/athlabs.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1260,7 +1260,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Tool to understand March Madness pool dynamics with advanced bracket analysis.",
       "category": "AI Sports",
       "link": "https://bracketwise.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bracketwise.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bracketwise.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1270,7 +1270,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Virtual races with real-time pacing and progress tracking.",
       "category": "AI Sports",
       "link": "https://runai.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/runai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/runai.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1280,7 +1280,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for AI-generated UFC picks and distance projections.",
       "category": "AI Sports",
       "link": "https://octagonoracle.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/octagonoracle.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octagonoracle.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1290,7 +1290,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI movement analysis and personalized feedback with a virtual sparring partner.",
       "category": "AI Sports",
       "link": "https://kayo.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kayo.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kayo.co-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1300,7 +1300,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free Premier League games with AI-powered predictions and MatchView cards.",
       "category": "AI Sports",
       "link": "https://numbersgame.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/numbersgame.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/numbersgame.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1310,7 +1310,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered basketball betting predictions with automated game analysis.",
       "category": "AI Sports",
       "link": "https://aibasketballbettingtipster.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aibasketballbettingtipster.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aibasketballbettingtipster.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1320,7 +1320,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered predictions and in-depth analysis.",
       "category": "AI Sports",
       "link": "https://aibettingtips.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aibettingtips.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aibettingtips.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -1330,7 +1330,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free AI credit per day for NBA Props analysis and curated statistics.",
       "category": "AI Sports",
       "link": "https://statpick.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/statpick.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/statpick.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1340,7 +1340,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day free trial for AI-powered exercise search and patient progress monitoring.",
       "category": "AI Sports",
       "link": "https://froomcarepro.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/froomcarepro.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/froomcarepro.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1350,7 +1350,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Two-week free trial for AI-powered form analysis for squats, bench, and deadlift.",
       "category": "AI Sports",
       "link": "https://purestrength.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/purestrength.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/purestrength.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -1360,7 +1360,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered sports performance and recovery insights.",
       "category": "AI Sports",
       "link": "https://cooldown.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cooldown.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cooldown.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     }
@@ -1372,7 +1372,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free voice memos and 3 Pic to Pick images for voice-activated grocery lists.",
       "category": "AI Shopping Assistant",
       "link": "https://apps.apple.com/us/app/honeydo-speak-snap-and-shop/id6473463998?platform=iphone",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1382,7 +1382,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free auto-apply coupon codes and real-time price comparison.",
       "category": "AI Shopping Assistant",
       "link": "https://www.dealdrop.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dealdrop.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dealdrop.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1392,7 +1392,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free instant price comparison with AI-powered scan-to-compare features.",
       "category": "AI Shopping Assistant",
       "link": "https://www.zyft.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zyft.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zyft.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1402,7 +1402,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30-day free trial for Shopify's AI sales concierge chatbot to increase conversions.",
       "category": "AI Shopping Assistant",
       "link": "https://www.hellorep.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hellorep.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hellorep.ai-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1412,7 +1412,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for an AI chatbot answering 97% of customer questions.",
       "category": "AI Shopping Assistant",
       "link": "https://vanchat.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vanchat.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vanchat.io-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1422,7 +1422,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered aggregator finding the best pre-owned deals across millions of offers.",
       "category": "AI Shopping Assistant",
       "link": "https://faircado.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/faircado.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/faircado.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1432,7 +1432,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free plan with 100 AI chats and products to boost sales and resolve support tickets.",
       "category": "AI Shopping Assistant",
       "link": "https://lookfor.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lookfor.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lookfor.ai-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1442,7 +1442,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Find the best electricity plan based on real usage data without membership fees.",
       "category": "AI Shopping Assistant",
       "link": "http://www.lowerebill.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lowerebill.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lowerebill.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1452,7 +1452,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free plan for up to 50 orders monthly with AI-based product recommendations.",
       "category": "AI Shopping Assistant",
       "link": "https://getwiser.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getwiser.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getwiser.ai-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1462,7 +1462,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30-day free trial for AI-generated product selection guides and data enrichment.",
       "category": "AI Shopping Assistant",
       "link": "https://www.outfindo.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/outfindo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/outfindo.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1472,7 +1472,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered coupon finder for effortless deal finding.",
       "category": "AI Shopping Assistant",
       "link": "https://www.coupongpts.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/coupongpts.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coupongpts.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1482,7 +1482,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized styling, wardrobe matching, and text & visual search.",
       "category": "AI Shopping Assistant",
       "link": "https://iwand.style",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/iwand.style-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iwand.style-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1492,7 +1492,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered video clienteling for personalized service and higher sales.",
       "category": "AI Shopping Assistant",
       "link": "https://getboutiq.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getboutiq.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getboutiq.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1502,7 +1502,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized shopping assistant with AI-integrated product filtering.",
       "category": "AI Shopping Assistant",
       "link": "https://shoppingbuddy.page",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/shoppingbuddy.page-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shoppingbuddy.page-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1512,7 +1512,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free digital style twin creation and personalized product recommendations.",
       "category": "AI Shopping Assistant",
       "link": "https://evoke-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/evoke-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/evoke-ai.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1522,7 +1522,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free purchase tracking and loyalty program integration with an AI interface.",
       "category": "AI Shopping Assistant",
       "link": "https://www.hifrontstreet.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hifrontstreet.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hifrontstreet.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1532,7 +1532,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial for AI-powered shopping recommendations and price comparison.",
       "category": "AI Shopping Assistant",
       "link": "https://www.tallyo.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tallyo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tallyo.ai-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1542,7 +1542,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free product tracking for smart search and price tracking.",
       "category": "AI Shopping Assistant",
       "link": "https://www.volera.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/volera.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/volera.app-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1552,7 +1552,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-controlled product advice finding items on Amazon and Co.",
       "category": "AI Shopping Assistant",
       "link": "https://www.retailradar.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/retailradar.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/retailradar.io-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1562,7 +1562,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free browser plugin for easy saving and sharing of wishlists.",
       "category": "AI Shopping Assistant",
       "link": "https://likiee.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/likiee.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/likiee.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1572,7 +1572,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free analysis of customer reviews and Q&A for any product on Amazon.",
       "category": "AI Shopping Assistant",
       "link": "https://chromewebstore.google.com/detail/shopguru-the-amazon-shopp/mbhokjjcfgkgjeeddphjlcbiomgdkbjk",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1582,7 +1582,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free tool to instantly find product matches at locally owned stores.",
       "category": "AI Shopping Assistant",
       "link": "https://chromewebstore.google.com/detail/one-red-maple-smart-shopp/clocnedhchbdgfcimmcecnffgohokcfc",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1592,7 +1592,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "90-day free trial for a chat-based e-commerce platform.",
       "category": "AI Shopping Assistant",
       "link": "https://cartfuls.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cartfuls.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cartfuls.io-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1602,7 +1602,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free tool for finding alternatives, coupons, and cash back.",
       "category": "AI Shopping Assistant",
       "link": "https://www.dealdazzle.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dealdazzle.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dealdazzle.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1612,7 +1612,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI body measurement and personalized size recommendations.",
       "category": "AI Shopping Assistant",
       "link": "https://www.findmysize.fit",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/findmysize.fit-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/findmysize.fit-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1622,7 +1622,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free tokens to capture items online and manage expenses.",
       "category": "AI Shopping Assistant",
       "link": "https://buylensai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/buylensai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/buylensai.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1632,7 +1632,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Summarizes millions of reviews with in-depth AI analysis.",
       "category": "AI Shopping Assistant",
       "link": "https://chrome.google.com/webstore/detail/amy-reviews-amazon-ali-ex/mipnefchpellhkpophgfmefngglacjkl",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1642,7 +1642,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day free trial for AI-powered product recommendations to boost sales.",
       "category": "AI Shopping Assistant",
       "link": "https://recommendix.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/recommendix.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recommendix.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1652,7 +1652,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free requests for AI-powered Amazon product recommendations.",
       "category": "AI Shopping Assistant",
       "link": "https://www.valideo.xyz",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/valideo.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/valideo.xyz-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1662,7 +1662,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Wordless search where AI recognizes buying intent.",
       "category": "AI Shopping Assistant",
       "link": "https://miros.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/miros.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/miros.ai-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1672,7 +1672,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free product scans per month for instant food label analysis.",
       "category": "AI Shopping Assistant",
       "link": "https://wellbotapp.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wellbotapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wellbotapp.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1682,7 +1682,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30 free requests per month to instantly answer product questions.",
       "category": "AI Shopping Assistant",
       "link": "https://asklo.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/asklo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/asklo.ai-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1692,7 +1692,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI product insights with price tracking and restock alerts.",
       "category": "AI Shopping Assistant",
       "link": "https://www.buyscout.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/buyscout.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/buyscout.app-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1702,7 +1702,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30 free AI responses for the Shopify chatbot to automate sales and support.",
       "category": "AI Shopping Assistant",
       "link": "https://relish.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/relish.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/relish.ai-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1712,7 +1712,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free token for personalized AI meal plans and smart shopping lists.",
       "category": "AI Shopping Assistant",
       "link": "https://eat-planner.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eat-planner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eat-planner.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1722,7 +1722,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized size recommendations to reduce returns by 30%.",
       "category": "AI Shopping Assistant",
       "link": "https://www.fitezapp.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fitezapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fitezapp.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1732,7 +1732,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-Powered Gift Discovery with personalized recommendations and real-time marketplace access.",
       "category": "AI Shopping Assistant",
       "link": "https://asariaindustries.com/chelsea",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/asariaindustries.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/asariaindustries.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1742,7 +1742,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial to create shoppable content and targeted campaigns.",
       "category": "AI Shopping Assistant",
       "link": "https://www.buzzinspots.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/buzzinspots.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/buzzinspots.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1752,7 +1752,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Unlimited free use for real-time product suitability scores.",
       "category": "AI Shopping Assistant",
       "link": "https://chromewebstore.google.com/detail/dermaskan/gdhcgakaegdnnbllcellijabpeooomii",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1762,7 +1762,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered recommendations and search for affordable, trendy clothing.",
       "category": "AI Shopping Assistant",
       "link": "https://apps.apple.com/us/app/shuble/id6475118091",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1772,7 +1772,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered recommendations to save, share, and purchase gifts.",
       "category": "AI Shopping Assistant",
       "link": "https://apps.apple.com/us/app/gyftpro/id6737129031",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1782,7 +1782,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free patented 3D body scan to find your best size.",
       "category": "AI Shopping Assistant",
       "link": "https://apps.apple.com/us/app/fit-match-3d-scan-shop/id6478330175",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1792,7 +1792,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial for AI shopping and search.",
       "category": "AI Shopping Assistant",
       "link": "https://huntware.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/huntware.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/huntware.co-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1802,7 +1802,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered personalized outfit recommendations from emerging brands.",
       "category": "AI Shopping Assistant",
       "link": "https://apps.apple.com/us/app/ar%25C3%25AAte-fashion/id6463097500",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1812,7 +1812,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Find lowest prices across 2,000+ stores with one-click store change.",
       "category": "AI Shopping Assistant",
       "link": "https://chromewebstore.google.com/detail/buildclub-browser-extensi/cmenipfkicambillfofhinidejiekggi",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1822,7 +1822,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Generate new product buying guides on-demand from unbiased guides.",
       "category": "AI Shopping Assistant",
       "link": "https://product.xyz",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/product.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/product.xyz-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1832,7 +1832,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30-day free trial for a conversational sales agent and personalized shopping experience.",
       "category": "AI Shopping Assistant",
       "link": "https://www.wisello.tech",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wisello.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wisello.tech-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1842,7 +1842,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "100% free personalized gift recommendations and AI-powered gift selection.",
       "category": "AI Shopping Assistant",
       "link": "https://www.giftideasai.xyz",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/giftideasai.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/giftideasai.xyz-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     },
@@ -1852,7 +1852,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Automate support with AI Agent and centralized helpdesk.",
       "category": "AI Shopping Assistant",
       "link": "https://www.gorgias.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gorgias.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gorgias.com-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6
     },
@@ -1862,7 +1862,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free plan with 250 views monthly and 5 AI questions for marketing automation.",
       "category": "AI Shopping Assistant",
       "link": "https://gozen.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gozen.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gozen.io-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 8
     }
@@ -1874,7 +1874,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered news and updates from ATR Tennis.",
       "category": "AI News",
       "link": "https://apps.apple.com/us/app/atr-tennis/id6737871927",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1884,7 +1884,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free daily newsletter subscription with the latest AI news and practical applications.",
       "category": "AI News",
       "link": "https://www.therundown.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/therundown.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/therundown.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1894,7 +1894,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI Stock Screener with AI-powered stock analysis and real-time data.",
       "category": "AI News",
       "link": "https://www.ainvest.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ainvest.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ainvest.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1904,7 +1904,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "2x weekly posts free featuring beginner-friendly AI tools and practical tips.",
       "category": "AI News",
       "link": "https://www.whytryai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/whytryai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whytryai.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1914,7 +1914,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI Tools Directory, ChatGPT Prompts, and Notion Templates.",
       "category": "AI News",
       "link": "https://itirupati.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/itirupati.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/itirupati.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1924,7 +1924,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Fact-checked news from trusted sources with personalized briefings.",
       "category": "AI News",
       "link": "https://www.rionews.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rionews.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rionews.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1934,7 +1934,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free weekly newsletter to master AI in 5 minutes with actionable insights.",
       "category": "AI News",
       "link": "https://lore.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lore.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lore.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1944,7 +1944,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free access to read news briefs and chat with open-source models.",
       "category": "AI News",
       "link": "https://asknews.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/asknews.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/asknews.app-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1954,7 +1954,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-generated movies and shows with 100% AI-generated content.",
       "category": "AI News",
       "link": "https://Infinityflicks.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/infinityflicks.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/infinityflicks.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1964,7 +1964,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free access to 10 trending stories daily with AI-powered summaries.",
       "category": "AI News",
       "link": "https://pidgeon.news",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pidgeon.news-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pidgeon.news-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -1974,7 +1974,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7 days free access to real-time market-wide audio feed.",
       "category": "AI News",
       "link": "https://squawk-market.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/squawk-market.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/squawk-market.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -1984,7 +1984,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day free trial for AI-generated summaries and algorithm-free feed.",
       "category": "AI News",
       "link": "https://nutgrafe.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nutgrafe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nutgrafe.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -1994,7 +1994,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free Elements of AI course to transform Prague into a European AI center.",
       "category": "AI News",
       "link": "https://prg.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prg.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prg.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2004,7 +2004,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered news providing realtime, unbiased, and factual news.",
       "category": "AI News",
       "link": "https://theaitimes.net",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/theaitimes.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/theaitimes.net-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2014,7 +2014,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free to read daily AI research news with plain language explanations.",
       "category": "AI News",
       "link": "https://ai-news-online.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-news-online.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-news-online.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2024,7 +2024,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Real-time AI news updates with an event calendar.",
       "category": "AI News",
       "link": "https://apps.apple.com/us/app/alova-ai-news-updates-tips/id6575347612",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2034,7 +2034,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free plan covering up to 10 companies and 2 events for AI-powered business updates.",
       "category": "AI News",
       "link": "https://BringMeData.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bringmedata.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bringmedata.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2044,7 +2044,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered summaries with personalized content curated from thousands of sources.",
       "category": "AI News",
       "link": "https://apps.apple.com/gb/app/snipit-app/id6450784018",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2054,7 +2054,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered news with bite-sized updates and real-time feeds.",
       "category": "AI News",
       "link": "https://epigram.news",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/epigram.news-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/epigram.news-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2064,7 +2064,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI News & Updates with an AI Event Calendar.",
       "category": "AI News",
       "link": "https://apps.apple.com/in/app/alova-ai-news-updates-tips/id6575347612",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2074,7 +2074,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free weekly updates with personalized news summaries.",
       "category": "AI News",
       "link": "https://pocket-news.fr",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pocket-news.fr-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pocket-news.fr-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2084,7 +2084,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free newsletter with personalized news podcasts and neutral summaries.",
       "category": "AI News",
       "link": "https://tailoredpod.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tailoredpod.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tailoredpod.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2094,7 +2094,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized feed for enhanced productivity and global sources.",
       "category": "AI News",
       "link": "https://moneywave.news",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moneywave.news-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moneywave.news-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2104,7 +2104,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for credibility assessment and news summarization.",
       "category": "AI News",
       "link": "https://sourcerai.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sourcerai.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sourcerai.co-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -2114,7 +2114,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial for 3 weeks of AI-powered personalized tech insights.",
       "category": "AI News",
       "link": "http://www.myhackernews.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myhackernews.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myhackernews.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -2124,7 +2124,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free content pushes per new tab with AI news and tech updates.",
       "category": "AI News",
       "link": "https://chromewebstore.google.com/detail/westartai/hgfnfimlpeoiigphgdmofpldehoelmae",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -2134,7 +2134,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI news summary into key points to save time and money.",
       "category": "AI News",
       "link": "https://newsnuggetai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/newsnuggetai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/newsnuggetai.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2144,7 +2144,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free Explorer plan for news aggregation with AI noise filtering.",
       "category": "AI News",
       "link": "https://mosaik.news",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mosaik.news-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mosaik.news-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2154,7 +2154,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered news summaries providing direct access to top-quality reporting.",
       "category": "AI News",
       "link": "https://digesto.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/digesto.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/digesto.app-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2164,7 +2164,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Minimal RSS News Reader with AI-powered personalized summaries.",
       "category": "AI News",
       "link": "https://apps.apple.com/us/app/pods-minimal-rss-news-reader/id6478560203",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2174,7 +2174,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free app for unbiased, personalized news with short audio clips.",
       "category": "AI News",
       "link": "https://listen2.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/listen2.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/listen2.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2184,7 +2184,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free for up to 5 team members for page customization and article scheduling.",
       "category": "AI News",
       "link": "https://reroto.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reroto.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reroto.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2194,7 +2194,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered daily news digest with visual summaries.",
       "category": "AI News",
       "link": "https://apps.apple.com/us/app/quill-news-digest/id1669557131",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2204,7 +2204,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free bite-sized tech news (less than 60 words) curated from 200+ sources.",
       "category": "AI News",
       "link": "https://play.google.com/store/apps/details?id=com.nextbigwhat",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2214,7 +2214,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered stock-market news with a real-time AI news API.",
       "category": "AI News",
       "link": "https://finalle.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finalle.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finalle.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2224,7 +2224,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free subscription to leverage AI for productivity and career growth.",
       "category": "AI News",
       "link": "https://www.joinsuperhuman.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/joinsuperhuman.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/joinsuperhuman.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2234,7 +2234,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free Basic plan for AI-driven financial news and personalized intelligence.",
       "category": "AI News",
       "link": "https://cityfalcon.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cityfalcon.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cityfalcon.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2244,7 +2244,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for personalized news feed and insight organization.",
       "category": "AI News",
       "link": "https://ancher.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ancher.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ancher.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -2254,7 +2254,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Real-time Financial & Geopolitical News with AI-powered Sentiment Analysis.",
       "category": "AI News",
       "link": "https://finlight.me",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finlight.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finlight.me-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2264,7 +2264,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free articles monthly to transform Instagram posts into engaging blog articles.",
       "category": "AI News",
       "link": "https://instanews.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/instanews.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instanews.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2274,7 +2274,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30-day free trial for all-in-1 CRM and marketing automation.",
       "category": "AI News",
       "link": "https://newswriter.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/newswriter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/newswriter.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -2284,7 +2284,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free subscription for insights from architecture and design founders.",
       "category": "AI News",
       "link": "https://architectureinsights.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/architectureinsights.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/architectureinsights.co-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2294,7 +2294,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day trial for AI-curated personalized news with a 5-minute daily read.",
       "category": "AI News",
       "link": "https://newsforyou.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/newsforyou.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/newsforyou.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -2304,7 +2304,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free personalized developer dashboard with real-time news.",
       "category": "AI News",
       "link": "https://devare.dev",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/devare.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/devare.dev-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2314,7 +2314,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free token screener and social listening with AI news summaries, no signup required.",
       "category": "AI News",
       "link": "https://tokenradar.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tokenradar.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tokenradar.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2324,7 +2324,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free requests to pull latest articles and generate AI podcasts.",
       "category": "AI News",
       "link": "https://www.nural.news",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nural.news-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nural.news-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -2334,7 +2334,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free article analyses for bias detection and source credibility.",
       "category": "AI News",
       "link": "https://unbiasedai.tech",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unbiasedai.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unbiasedai.tech-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     },
@@ -2344,7 +2344,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free personalized news, recipes, and vacation planning.",
       "category": "AI News",
       "link": "https://filipa.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/filipa.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/filipa.ai-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2354,7 +2354,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered news summaries providing 1-minute summaries.",
       "category": "AI News",
       "link": "https://smartrecaps.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/smartrecaps.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartrecaps.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 8
     },
@@ -2364,7 +2364,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for AI-powered cryptocurrency market sentiment analysis.",
       "category": "AI News",
       "link": "https://voicelark.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicelark.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicelark.com-128x128__Estimated_.png",
       "icon": "Newspaper",
       "score": 6
     }
@@ -2376,7 +2376,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered portrait generation from Ghola - Character Visualization.",
       "category": "AI Portrait Generator",
       "link": "https://ghola.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ghola.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ghola.co-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2386,7 +2386,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered portrait generation from FaceSwapEasy:AI Portrait & Art.",
       "category": "AI Portrait Generator",
       "link": "https://play.google.com/store/apps/details?id=com.seeker.imageface",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2396,7 +2396,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Generate AI portraits, avatars, and full-body photos while preserving your identity.",
       "category": "AI Portrait Generator",
       "link": "https://generated.photos/genyou",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/generated.photos-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/generated.photos-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2406,7 +2406,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial to turn photos into beautiful art with AI-powered generation.",
       "category": "AI Portrait Generator",
       "link": "https://portraitart.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/portraitart.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/portraitart.app-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2416,7 +2416,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI Couple Photo Maker for professional quality photoshoots with AI.",
       "category": "AI Portrait Generator",
       "link": "https://www.dreamshootai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dreamshootai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dreamshootai.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2426,7 +2426,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Generate AI portraits with just one photo powered by Midjourney V5.",
       "category": "AI Portrait Generator",
       "link": "https://www.ai-portraits.org",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-portraits.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-portraits.org-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2436,7 +2436,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Totally free AI-drawn custom anime portraits and backgrounds.",
       "category": "AI Portrait Generator",
       "link": "https://waifulabs.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/waifulabs.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/waifulabs.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2446,7 +2446,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Face Attractiveness Test with detailed face analysis and Golden Ratio Face Test.",
       "category": "AI Portrait Generator",
       "link": "https://facerate.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/facerate.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/facerate.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2456,7 +2456,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Transform static images into lifelike animated videos with precise motion control.",
       "category": "AI Portrait Generator",
       "link": "https://liveportrait.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/liveportrait.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/liveportrait.app-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2466,7 +2466,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI caricature maker transforming photos without registration or subscriptions.",
       "category": "AI Portrait Generator",
       "link": "https://caricaturer.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/caricaturer.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/caricaturer.io-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2476,7 +2476,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free credits for AI transformation into any character.",
       "category": "AI Portrait Generator",
       "link": "https://photobooth-ai.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/photobooth-ai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/photobooth-ai.app-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2486,7 +2486,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI portraits and headshots in stunning 8K quality.",
       "category": "AI Portrait Generator",
       "link": "https://kahma.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kahma.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kahma.io-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2496,7 +2496,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Stunning 8K travel pictures without traveling, generated from selfies.",
       "category": "AI Portrait Generator",
       "link": "https://itraveledthere.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/itraveledthere.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/itraveledthere.io-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2506,7 +2506,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Creates DaVinci-styled portraits from photos in less than 2 minutes.",
       "category": "AI Portrait Generator",
       "link": "https://www.davinciface.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/davinciface.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/davinciface.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2516,7 +2516,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free trial generation to transform photos into stunning AI portraits.",
       "category": "AI Portrait Generator",
       "link": "https://www.aiportrait.art",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiportrait.art-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiportrait.art-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2526,7 +2526,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI generated buff portraits with 100+ ripped personalized portraits in 4K.",
       "category": "AI Portrait Generator",
       "link": "https://www.headbot.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/headbot.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/headbot.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2536,7 +2536,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Create & customize heroes with backstories and AI-generated portraits.",
       "category": "AI Portrait Generator",
       "link": "https://apps.apple.com/us/app/tavern-of-tales/id6720714627",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2546,7 +2546,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Turn selfies into stunning A.I. portraits with realistic or artistic presets.",
       "category": "AI Portrait Generator",
       "link": "https://imaginova.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/imaginova.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imaginova.app-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2556,7 +2556,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered portraits with fast generation and 110+ templates.",
       "category": "AI Portrait Generator",
       "link": "https://apps.apple.com/ca/app/portraitify-ai-portrait-studio/id6654892449",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2566,7 +2566,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free credits for personalized artistic portraits with rapid generation.",
       "category": "AI Portrait Generator",
       "link": "https://omni-zero.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/omni-zero.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/omni-zero.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2576,7 +2576,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free 16 styles to transform your face into a stylized portrait.",
       "category": "AI Portrait Generator",
       "link": "https://facetoall.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/facetoall.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/facetoall.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2586,7 +2586,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial for AI portrait generation and versatile style transformation.",
       "category": "AI Portrait Generator",
       "link": "https://apps.apple.com/us/app/proface-ai-photo-generator/id6470450181",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2596,7 +2596,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Unlimited free trial to generate high-fidelity fashion portraits.",
       "category": "AI Portrait Generator",
       "link": "https://play.google.com/store/apps/details?id=com.ligan.styleme",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2606,7 +2606,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-generated portraits for 5E characters using DnDBeyond links.",
       "category": "AI Portrait Generator",
       "link": "https://legendraw.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legendraw.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legendraw.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2616,7 +2616,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-created human portraits with unbelievably realistic images.",
       "category": "AI Portrait Generator",
       "link": "https://recipe-p.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/recipe-p.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recipe-p.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2626,7 +2626,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Always free instant AI portrait creation with unlimited generation.",
       "category": "AI Portrait Generator",
       "link": "https://instant-portrait.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/instant-portrait.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instant-portrait.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2636,7 +2636,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30 free FurTokens to generate personalized pet art in various styles.",
       "category": "AI Portrait Generator",
       "link": "https://pawfectsnapshots.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pawfectsnapshots.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pawfectsnapshots.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2646,7 +2646,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free images to visualize characters with lore-accurate image generation.",
       "category": "AI Portrait Generator",
       "link": "https://ghola.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ghola.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ghola.co-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2656,7 +2656,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free portraits per day to turn pets into human-like characters.",
       "category": "AI Portrait Generator",
       "link": "https://personfy.my",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/personfy.my-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/personfy.my-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2666,7 +2666,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "4 free images with watermark to transform pictures into professional studio portraits.",
       "category": "AI Portrait Generator",
       "link": "https://boostme.fun",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/boostme.fun-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/boostme.fun-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2676,7 +2676,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Transform photos into 50 perfect portraits exploring 100+ styles and hairstyles.",
       "category": "AI Portrait Generator",
       "link": "https://purrfect.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/purrfect.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/purrfect.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2686,7 +2686,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 Free Credits with login for realistic AI couple portraits in 4K quality.",
       "category": "AI Portrait Generator",
       "link": "https://couple-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/couple-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/couple-ai.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2696,7 +2696,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free credits to turn selfies into stunning AI-generated portraits with 40+ styles.",
       "category": "AI Portrait Generator",
       "link": "https://selfieai.me",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/selfieai.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/selfieai.me-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2706,7 +2706,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "20 free high-quality professional headshots generated in 1 minute.",
       "category": "AI Portrait Generator",
       "link": "https://ai-headshots.net",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-headshots.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-headshots.net-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2716,7 +2716,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free generation of photorealistic AI portraits to enhance memories.",
       "category": "AI Portrait Generator",
       "link": "https://loversnap.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/loversnap.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loversnap.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2726,7 +2726,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "2 free credits daily to generate trending AI Ghostface images.",
       "category": "AI Portrait Generator",
       "link": "https://aighostface.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aighostface.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aighostface.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2736,7 +2736,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI Photo Generator for studio-quality images and virtual clothing try-on.",
       "category": "AI Portrait Generator",
       "link": "https://runhorse.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/runhorse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/runhorse.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2746,7 +2746,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "4 free sketches to create social media icons with generative AI.",
       "category": "AI Portrait Generator",
       "link": "https://sketchme.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sketchme.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sketchme.app-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2756,7 +2756,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "1 free sticker for AI-powered custom stickers that look like you.",
       "category": "AI Portrait Generator",
       "link": "https://stickerstudio.art",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stickerstudio.art-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stickerstudio.art-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2766,7 +2766,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Turn selfies to pro portraits in 10s with 50+ styles.",
       "category": "AI Portrait Generator",
       "link": "https://www.ai-headshot-generator.org/&utm_medium=submit_list",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-headshot-generator.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-headshot-generator.org-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2776,7 +2776,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free professional AI photos for headshots in 60 seconds.",
       "category": "AI Portrait Generator",
       "link": "https://facemimic-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/facemimic-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/facemimic-ai.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2786,7 +2786,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "100% free forever professional AI headshots in seconds.",
       "category": "AI Portrait Generator",
       "link": "https://ai-headshot.online",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-headshot.online-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-headshot.online-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2796,7 +2796,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI portrait animation with realistic movements and expressions.",
       "category": "AI Portrait Generator",
       "link": "https://liveportraitai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/liveportraitai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/liveportraitai.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2806,7 +2806,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One-time 10 free credits for ultra-realistic AI visuals and face swap.",
       "category": "AI Portrait Generator",
       "link": "https://Rainforest.Zone",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rainforest.zone-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rainforest.zone-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2816,7 +2816,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial for professional AI headshot generation and background removal.",
       "category": "AI Portrait Generator",
       "link": "https://apps.apple.com/us/app/ai-professional-headshot-pro/id6471506581",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -2826,7 +2826,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Create voice models and generate voices from text with deep cloning.",
       "category": "AI Portrait Generator",
       "link": "https://eadlyn.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eadlyn.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eadlyn.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2836,7 +2836,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Generate professional studio-class portraits from selfies with various styles.",
       "category": "AI Portrait Generator",
       "link": "https://business-portrait.net",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/business-portrait.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/business-portrait.net-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2846,7 +2846,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "50 free uses per day for AI-powered face swap.",
       "category": "AI Portrait Generator",
       "link": "https://faceswapeasy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/faceswapeasy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/faceswapeasy.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2856,7 +2856,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free transformation of selfies into movie character-inspired photos.",
       "category": "AI Portrait Generator",
       "link": "https://magicsnap.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/magicsnap.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/magicsnap.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2866,7 +2866,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI avatar generation with personalized scenes.",
       "category": "AI Portrait Generator",
       "link": "https://apps.apple.com/app/id6450456440",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2876,7 +2876,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI Photobooth for personalized portraits and turning words into art.",
       "category": "AI Portrait Generator",
       "link": "https://stableboost.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stableboost.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stableboost.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -2886,7 +2886,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free daily AI credits for photo editing, image generation, and background removal.",
       "category": "AI Portrait Generator",
       "link": "https://www.lightxeditor.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lightxeditor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lightxeditor.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     }
@@ -2898,7 +2898,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from MyVeloFit.",
       "category": "AI Fitness",
       "link": "https://myvelofit.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myvelofit.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myvelofit.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2908,7 +2908,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from JuggernautAI.",
       "category": "AI Fitness",
       "link": "https://juggernautai.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/juggernautai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/juggernautai.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2918,7 +2918,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from GymPact.",
       "category": "AI Fitness",
       "link": "https://www.gympact.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gympact.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gympact.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2928,7 +2928,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from MyFit AI.",
       "category": "AI Fitness",
       "link": "https://myfit-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myfit-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myfit-ai.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2938,7 +2938,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from Forma.",
       "category": "AI Fitness",
       "link": "https://forma.run",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/forma.run-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/forma.run-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2948,7 +2948,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from FoodTrack - Calorie Tracker.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/foodtrack-calorie-tracker/id6738472579",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2958,7 +2958,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from Hit Cal - AI Calorie Tracker.",
       "category": "AI Fitness",
       "link": "https://hitcal.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hitcal.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hitcal.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2968,7 +2968,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from Calorific - Nutrition Tracker.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/app/calorific-nutrition-tracker/id6645043253",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2978,7 +2978,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from FitPulse - AI Fitness Trainer.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/fitpulse-ai-fitness-trainer/id6478916264",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2988,7 +2988,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from Nutricapture - AI food tracker.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/nutricapture-ai-food-tracker/id6471384644",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -2998,7 +2998,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from Interval - Ultimate HIIT Timer.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/interval-ultimate-hiit-timer/id6478241901",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3008,7 +3008,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from RunAI.",
       "category": "AI Fitness",
       "link": "https://play.google.com/store/apps/details?id=com.runai.RunAI&pcampaignid=web_share",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3018,7 +3018,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from NutriNote.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/nutrinote/id1664564566",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3028,7 +3028,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered fitness and health tracking from MyTrainer : AI Personal Trainer.",
       "category": "AI Fitness",
       "link": "https://train-programs.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/train-programs.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/train-programs.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3038,7 +3038,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3-day free trial for nervous system reset and somatic exercises.",
       "category": "AI Fitness",
       "link": "https://neurofit.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/neurofit.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/neurofit.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3048,7 +3048,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered personalized workout plans with an AI trainer for real-time coaching.",
       "category": "AI Fitness",
       "link": "https://planfit.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/planfit.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planfit.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3058,7 +3058,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for AI-powered personalized workouts for home and gym.",
       "category": "AI Fitness",
       "link": "https://www.shred.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/shred.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shred.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3068,7 +3068,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered workouts and nutrition with personalized training plans.",
       "category": "AI Fitness",
       "link": "https://bodbot.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bodbot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bodbot.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3078,7 +3078,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered workout tracking and analysis with personalized workouts.",
       "category": "AI Fitness",
       "link": "https://impakt.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/impakt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/impakt.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3088,7 +3088,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day free trial for automated meal plans and workouts.",
       "category": "AI Fitness",
       "link": "https://mycoachai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mycoachai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mycoachai.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3098,7 +3098,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial for up to 100 clients with AI-generated plans and progress tracking.",
       "category": "AI Fitness",
       "link": "https://spurfit.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/spurfit.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spurfit.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3108,7 +3108,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Lifetime free membership of the aaboRing App for AI-powered health tracking.",
       "category": "AI Fitness",
       "link": "https://aabo.in",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aabo.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aabo.in-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3118,7 +3118,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free workouts for AI personal training with progression-based plans.",
       "category": "AI Fitness",
       "link": "https://www.ardor.fitness",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ardor.fitness-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ardor.fitness-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3128,7 +3128,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free personalized food recommendations and detailed nutritional information.",
       "category": "AI Fitness",
       "link": "https://eqolabel.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eqolabel.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eqolabel.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3138,7 +3138,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free forever AI-powered calorie tracking with photo detection.",
       "category": "AI Fitness",
       "link": "https://metrical.fit",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/metrical.fit-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/metrical.fit-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3148,7 +3148,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free 30 posts with AI estimates per day to log food.",
       "category": "AI Fitness",
       "link": "https://www.gptfoodcam.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gptfoodcam.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gptfoodcam.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3158,7 +3158,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI physique rating with instant feedback and improvement tips.",
       "category": "AI Fitness",
       "link": "https://ratemyphysique.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ratemyphysique.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ratemyphysique.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3168,7 +3168,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One week free trial for calorie tracking over text messages.",
       "category": "AI Fitness",
       "link": "https://www.mealbymeal.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mealbymeal.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mealbymeal.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3178,7 +3178,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free to use AI-powered personalized workouts with full privacy.",
       "category": "AI Fitness",
       "link": "https://fitmate.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fitmate.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fitmate.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3188,7 +3188,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized AI workout routines to track progress with an organized UI.",
       "category": "AI Fitness",
       "link": "https://ironiq.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ironiq.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ironiq.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3198,7 +3198,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized workouts and AI meal planner.",
       "category": "AI Fitness",
       "link": "https://thebean.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thebean.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thebean.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3208,7 +3208,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI personal trainer providing personalized workouts.",
       "category": "AI Fitness",
       "link": "https://workoutpro.com.au",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/workoutpro.com.au-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/workoutpro.com.au-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3218,7 +3218,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI blood analysis with Garmin & Strava sync and AI nutrition planner.",
       "category": "AI Fitness",
       "link": "https://supermegafit.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/supermegafit.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supermegafit.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3228,7 +3228,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "1 free program generation for AI-powered personalized workout plans.",
       "category": "AI Fitness",
       "link": "https://www.pocketsquats.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pocketsquats.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pocketsquats.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3238,7 +3238,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7 days free premium access for instant nutrient breakdown and health insights.",
       "category": "AI Fitness",
       "link": "https://vit-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vit-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vit-ai.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3248,7 +3248,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7 days free for all-in-one athlete tracking and team management.",
       "category": "AI Fitness",
       "link": "https://calibratedathlete.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/calibratedathlete.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/calibratedathlete.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3258,7 +3258,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized workouts and diet plans on demand.",
       "category": "AI Fitness",
       "link": "https://www.dailyfitnessapp.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dailyfitnessapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dailyfitnessapp.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3268,7 +3268,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Calorie Tracker with instant food scanning and calorie tracking.",
       "category": "AI Fitness",
       "link": "https://foodtrack.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/foodtrack.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/foodtrack.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3278,7 +3278,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30-day free trial for personalized meal plans and AI-generated recipes.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/nutritionista-calorie-counter/id6670344419",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3288,7 +3288,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "First training program free with personalized workout routine generation.",
       "category": "AI Fitness",
       "link": "https://traincoach.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/traincoach.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/traincoach.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3298,7 +3298,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI photo analysis to earn crypto rewards.",
       "category": "AI Fitness",
       "link": "https://fit-lytics.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fit-lytics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fit-lytics.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3308,7 +3308,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for AI personal trainer and clean workout tracking.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/peak-ai-smart-workout-planner/id6739208139",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3318,7 +3318,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI workout generator with real-time AI coaching.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/phantom-ultimate-fitness-app/id6477784398",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3328,7 +3328,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3-day free trial for AI calorie tracker with full nutritional breakdown.",
       "category": "AI Fitness",
       "link": "https://hitcal.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hitcal.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hitcal.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3338,7 +3338,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free tool transforming health data into an intuitive stamina bar.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/stamina-bar-pro/id6475403113",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3348,7 +3348,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Nutrition Tracker with intelligent meal estimates and barcode detection.",
       "category": "AI Fitness",
       "link": "https://calorific.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/calorific.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/calorific.app-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3358,7 +3358,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered meal tracking with accurate nutrition analysis.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/tr/app/kalory-ai-calorie-counter/id6503200291",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3368,7 +3368,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free cancellation for AI-driven fitness with game-like platform.",
       "category": "AI Fitness",
       "link": "https://quazaai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/quazaai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quazaai.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3378,7 +3378,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI that adapts to personalized needs to enhance dietary habits.",
       "category": "AI Fitness",
       "link": "https://www.grubsmarter.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/grubsmarter.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/grubsmarter.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3388,7 +3388,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 days free for ultra-personalized workout plans.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/us/app/fit-ai-ultra-personal-fitness/id6514313313",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3398,7 +3398,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI fitness trainer providing AI-powered personalized workouts and modifications.",
       "category": "AI Fitness",
       "link": "https://fitpulse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fitpulse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fitpulse.ai-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3408,7 +3408,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One week free for science-based hypertrophy workout splits.",
       "category": "AI Fitness",
       "link": "https://rapid-muscle.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rapid-muscle.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rapid-muscle.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3418,7 +3418,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "1 free workout for AI-powered personalized plans.",
       "category": "AI Fitness",
       "link": "https://aiworkoutgenerator.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiworkoutgenerator.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiworkoutgenerator.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3428,7 +3428,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered instant calorie analysis by photo with meal history.",
       "category": "AI Fitness",
       "link": "https://apps.apple.com/at/app/calorielens-calorie-tracker/id6449623163",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3438,7 +3438,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free autonomous workout detection and personal goal tracking.",
       "category": "AI Fitness",
       "link": "https://godiary.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/godiary.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/godiary.io-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3448,7 +3448,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Limited daily food scanning and generation with photo-based meal tracking.",
       "category": "AI Fitness",
       "link": "https://eliteolympus.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eliteolympus.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eliteolympus.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 6
     },
@@ -3458,7 +3458,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI food tracker with food recognition and tailored diet plans.",
       "category": "AI Fitness",
       "link": "https://nutricapture.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nutricapture.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nutricapture.com-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3468,7 +3468,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-driven personalized nutrition with dynamic macro tracking.",
       "category": "AI Fitness",
       "link": "https://cookly.co.uk",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cookly.co.uk-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cookly.co.uk-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     },
@@ -3478,7 +3478,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free ultimate HIIT timer with AI-generated and pre-loaded workouts.",
       "category": "AI Fitness",
       "link": "https://interval.fit/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/interval.fit-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interval.fit-128x128__Estimated_.png",
       "icon": "Activity",
       "score": 8
     }
@@ -3490,7 +3490,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for AI-powered Bible understanding and interactive chat.",
       "category": "AI Bible",
       "link": "https://biblechat.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/biblechat.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/biblechat.app-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3500,7 +3500,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for AI-driven research and sermon crafting.",
       "category": "AI Bible",
       "link": "https://sermonai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sermonai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sermonai.com-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3510,7 +3510,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Comprehensive Bible information with an AI assistant for questions.",
       "category": "AI Bible",
       "link": "https://biblicalai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/biblicalai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/biblicalai.com-128x128__Estimated_.png",
       "icon": "Book",
       "score": 8
     },
@@ -3520,7 +3520,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free requests per month to share troubles and explore the Bible.",
       "category": "AI Bible",
       "link": "https://aipastor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aipastor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aipastor.com-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3530,7 +3530,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for AI Bible chat and personal journal.",
       "category": "AI Bible",
       "link": "https://bibleechat.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bibleechat.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bibleechat.com-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3540,7 +3540,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-generated songs from Bible verses to help with memorization.",
       "category": "AI Bible",
       "link": "https://vrse.games/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vrse.games-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vrse.games-128x128__Estimated_.png",
       "icon": "Book",
       "score": 8
     },
@@ -3550,7 +3550,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered biblical answers with contextually accurate insights.",
       "category": "AI Bible",
       "link": "https://askthebible.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askthebible.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askthebible.com-128x128__Estimated_.png",
       "icon": "Book",
       "score": 8
     },
@@ -3560,7 +3560,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "2 free units to get 5 Bible verses with commentaries.",
       "category": "AI Bible",
       "link": "https://bibleversestudies.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bibleversestudies.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bibleversestudies.com-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3570,7 +3570,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "20 free messages for AI-powered Bible study with tailored insights.",
       "category": "AI Bible",
       "link": "https://scripturechat.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/scripturechat.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scripturechat.com-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3580,7 +3580,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free answers to life questions by quoting the Bible.",
       "category": "AI Bible",
       "link": "https://askjesus.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askjesus.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askjesus.com-128x128__Estimated_.png",
       "icon": "Book",
       "score": 8
     },
@@ -3590,7 +3590,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Daily Jesus messages with Christian meditation and Bible sleep stories.",
       "category": "AI Bible",
       "link": "https://godtok.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/godtok.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/godtok.app-128x128__Estimated_.png",
       "icon": "Book",
       "score": 8
     },
@@ -3600,7 +3600,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free questions for personalized and instant answers in a safe space.",
       "category": "AI Bible",
       "link": "https://askpriest.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askpriest.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askpriest.ai-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3610,7 +3610,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free prompts weekly for cited answers from magisterium and Bible.",
       "category": "AI Bible",
       "link": "https://magisterium.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/magisterium.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/magisterium.ai-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3620,7 +3620,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "4 free sermons per month for sermon repurposing and clips.",
       "category": "AI Bible",
       "link": "https://pastors.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pastors.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pastors.ai-128x128__Estimated_.png",
       "icon": "Book",
       "score": 6
     },
@@ -3630,7 +3630,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30 free credits for AI flashcards, quiz, and notes.",
       "category": "AI Bible",
       "link": "https://lovestudy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lovestudy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lovestudy.ai-128x128__Estimated_.png",
       "icon": "Book",
       "score": 8
     },
@@ -3640,7 +3640,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Catholic AI Spiritual Director for Sunday Gospel examination.",
       "category": "AI Bible",
       "link": "https://crossvalidation.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/crossvalidation.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crossvalidation.ai-128x128__Estimated_.png",
       "icon": "Book",
       "score": 8
     },
@@ -3650,7 +3650,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious guidance from Quran, Bible, and Torah.",
       "category": "AI Bible",
       "link": "https://holybooks.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/holybooks.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/holybooks.ai-128x128__Estimated_.png",
       "icon": "Book",
       "score": 8
     }
@@ -3662,7 +3662,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from Why Try AI.",
       "category": "AI Newsletter",
       "link": "https://www.whytryai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/whytryai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whytryai.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3672,7 +3672,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from Superhuman AI.",
       "category": "AI Newsletter",
       "link": "https://www.joinsuperhuman.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/joinsuperhuman.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/joinsuperhuman.ai-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3682,7 +3682,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from Architecture Insights.",
       "category": "AI Newsletter",
       "link": "https://architectureinsights.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/architectureinsights.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/architectureinsights.co-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3692,7 +3692,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from Lore Brief.",
       "category": "AI Newsletter",
       "link": "https://lore.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lore.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lore.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3702,7 +3702,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from NewsForYou.",
       "category": "AI Newsletter",
       "link": "https://newsforyou.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/newsforyou.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/newsforyou.ai-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3712,7 +3712,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from Alova: AI News, Updates & Tips.",
       "category": "AI Newsletter",
       "link": "https://apps.apple.com/us/app/alova-ai-news-updates-tips/id6575347612",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3722,7 +3722,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from Alova.",
       "category": "AI Newsletter",
       "link": "https://apps.apple.com/in/app/alova-ai-news-updates-tips/id6575347612",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3732,7 +3732,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from My Hacker News.",
       "category": "AI Newsletter",
       "link": "http://www.myhackernews.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myhackernews.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myhackernews.ai-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3742,7 +3742,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from Itirupati.",
       "category": "AI Newsletter",
       "link": "https://itirupati.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/itirupati.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/itirupati.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3752,7 +3752,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from PocketNews.ai.",
       "category": "AI Newsletter",
       "link": "https://pocket-news.fr",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pocket-news.fr-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pocket-news.fr-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3762,7 +3762,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered newsletter insights from Podchat & Spotify for Creators.",
       "category": "AI Newsletter",
       "link": "https://www.podchat.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podchat.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podchat.io-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3772,7 +3772,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Find the best AI tools and software with comprehensive directories.",
       "category": "AI Newsletter",
       "link": "https://futurepedia.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/futurepedia.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/futurepedia.io-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3782,7 +3782,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Hundreds of AI prompts and free AI tools with a weekly newsletter.",
       "category": "AI Newsletter",
       "link": "https://promptadvance.club",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/promptadvance.club-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/promptadvance.club-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3792,7 +3792,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free weekly newsletter with expert-led courses and community.",
       "category": "AI Newsletter",
       "link": "https://theaiexchange.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/theaiexchange.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/theaiexchange.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3802,7 +3802,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free daily AI art newsletter featuring the latest AI art.",
       "category": "AI Newsletter",
       "link": "https://randomdailyart.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/randomdailyart.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/randomdailyart.ai-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3812,7 +3812,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Updates from Midjourney, Runway, and more.",
       "category": "AI Newsletter",
       "link": "https://ai5.rareconnections.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai5.rareconnections.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai5.rareconnections.io-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3822,7 +3822,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered newsletter summarization with an easy-to-read digest.",
       "category": "AI Newsletter",
       "link": "https://summaletter.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/summaletter.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summaletter.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3832,7 +3832,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "1-month free trial for insights on cutting-edge AI tools and strategies.",
       "category": "AI Newsletter",
       "link": "https://whisperai.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/whisperai.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whisperai.co-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -3842,7 +3842,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free subscription with daily findings, tools, and AI exploration.",
       "category": "AI Newsletter",
       "link": "https://www.aicurious.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aicurious.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aicurious.co-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3852,7 +3852,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial with 2 newsletter generation credits.",
       "category": "AI Newsletter",
       "link": "https://letterpal.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/letterpal.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/letterpal.io-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -3862,7 +3862,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Create engaging newsletters with AI by generating headlines and descriptions.",
       "category": "AI Newsletter",
       "link": "https://chromewebstore.google.com/detail/redense-clip/ddiiojhbcemahbljmfanffooohcdkadg",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3872,7 +3872,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for AI stock analysis and daily newsletter.",
       "category": "AI Newsletter",
       "link": "https://stockquakes.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockquakes.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockquakes.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -3882,7 +3882,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Concise 250-word summaries delivered twice a week.",
       "category": "AI Newsletter",
       "link": "https://summraiz.fyi",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/summraiz.fyi-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summraiz.fyi-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3892,7 +3892,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free platform for sharing and upvoting productivity prompts.",
       "category": "AI Newsletter",
       "link": "https://usethisprompt.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/usethisprompt.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usethisprompt.io-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3902,7 +3902,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Discover and share AI prompts with multi-model comparison.",
       "category": "AI Newsletter",
       "link": "https://www.snackprompt.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/snackprompt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snackprompt.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3912,7 +3912,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered analysis and high-potential stock picks.",
       "category": "AI Newsletter",
       "link": "https://www.prospero.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prospero.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prospero.ai-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3922,7 +3922,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "60-minute one-time trial for refined AI summaries and editorial delivery.",
       "category": "AI Newsletter",
       "link": "https://feedix.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/feedix.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feedix.app-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -3932,7 +3932,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-days free trial for daily AI-curated book summaries.",
       "category": "AI Newsletter",
       "link": "https://www.dailyreadsai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dailyreadsai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dailyreadsai.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -3942,7 +3942,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free UI access to +27K ideas for 6 months with curated knowledge.",
       "category": "AI Newsletter",
       "link": "https://sofon.xyz",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sofon.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sofon.xyz-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3952,7 +3952,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI tools library with price and alternatives information.",
       "category": "AI Newsletter",
       "link": "https://airadar.online",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airadar.online-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airadar.online-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3962,7 +3962,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI tool to transcribe and summarize podcast episodes.",
       "category": "AI Newsletter",
       "link": "https://podsift.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podsift.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podsift.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3972,7 +3972,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Expert cold email campaigns for high-quality sales appointments.",
       "category": "AI Newsletter",
       "link": "https://eocworks.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eocworks.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eocworks.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -3982,7 +3982,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Convert newsletters and articles into audio for your podcast player.",
       "category": "AI Newsletter",
       "link": "https://www.readit.bot",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/readit.bot-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/readit.bot-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -3992,7 +3992,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Quick and accurate summaries of long web articles with audio summary.",
       "category": "AI Newsletter",
       "link": "https://chromewebstore.google.com/detail/essence-read-smarter/hadahojdmedaiceckgdidakkppoghfci?utm_source=reddit&utm_medium=toolify&utm_campaign=politics_users",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -4002,7 +4002,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "1 free newsletter instance and 2 credits monthly for automated content repurposing.",
       "category": "AI Newsletter",
       "link": "https://contentquiver.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/contentquiver.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contentquiver.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -4012,7 +4012,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "100% free to create, distribute, host, and monetize podcasts.",
       "category": "AI Newsletter",
       "link": "https://podchat.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podchat.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podchat.ai-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -4022,7 +4022,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Stable Diffusion AI image generation with fast, reliable APIs.",
       "category": "AI Newsletter",
       "link": "https://sinkin.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sinkin.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sinkin.ai-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -4032,7 +4032,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day free trial for daily tailored audio news summaries.",
       "category": "AI Newsletter",
       "link": "https://recapit.xyz",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/recapit.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recapit.xyz-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -4042,7 +4042,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Unlimited blog posts and page views free with dead simple blogging.",
       "category": "AI Newsletter",
       "link": "https://esyblog.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/esyblog.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/esyblog.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -4052,7 +4052,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "30-day free trial for newsletter growth and monetization tools.",
       "category": "AI Newsletter",
       "link": "https://newsletter2podcast.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/newsletter2podcast.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/newsletter2podcast.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 6
     },
@@ -4062,7 +4062,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Uncover business ideas from webpages and validate them.",
       "category": "AI Newsletter",
       "link": "https://firefinder.me",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/firefinder.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/firefinder.me-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -4072,7 +4072,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Daily free SaaS ideas with AI-generated concepts.",
       "category": "AI Newsletter",
       "link": "https://dailysaaspiration.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dailysaaspiration.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dailysaaspiration.ai-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     },
@@ -4082,7 +4082,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI coding intel source with AI-assisted intelligence.",
       "category": "AI Newsletter",
       "link": "https://future4coding.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/future4coding.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/future4coding.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 8
     }
@@ -4094,7 +4094,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from Magisterium AI.",
       "category": "AI Religion",
       "link": "https://www.magisterium.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/magisterium.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/magisterium.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4104,7 +4104,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from Pastors.ai.",
       "category": "AI Religion",
       "link": "https://pastors.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pastors.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pastors.ai-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4114,7 +4114,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from AskPriestAI.",
       "category": "AI Religion",
       "link": "https://landing.askpriestai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/landing.askpriestai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/landing.askpriestai.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4124,7 +4124,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from CrossValidation.ai.",
       "category": "AI Religion",
       "link": "https://crossvalidation.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/crossvalidation.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crossvalidation.ai-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4134,7 +4134,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from GodTok.",
       "category": "AI Religion",
       "link": "https://apps.apple.com/us/app/godtok-ai-christian-chat-gpt/id6741593444",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4144,7 +4144,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from Holy Books AI Chat.",
       "category": "AI Religion",
       "link": "https://apps.apple.com/app/holy-books-ai-chat/id6670575751",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4154,7 +4154,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from AI Bible Verse Studies.",
       "category": "AI Religion",
       "link": "https://helpfromthebible.com/ai-bible-chat/ai-bible-verse-studies",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/helpfromthebible.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/helpfromthebible.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4164,7 +4164,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from Bible Chat.",
       "category": "AI Religion",
       "link": "https://thebiblechat.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thebiblechat.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thebiblechat.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4174,7 +4174,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from Biblical AI.",
       "category": "AI Religion",
       "link": "https://www.biblical-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/biblical-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/biblical-ai.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4184,7 +4184,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from VRSE - AI Bible Verse Songs.",
       "category": "AI Religion",
       "link": "https://apps.apple.com/us/app/vrse-ai-bible-verse-songs/id6742088613",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4194,7 +4194,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from Biblee Chat.",
       "category": "AI Religion",
       "link": "https://www.bibleechat.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bibleechat.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bibleechat.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4204,7 +4204,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from Ask the Bible.",
       "category": "AI Religion",
       "link": "https://www.bibleaihub.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bibleaihub.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bibleaihub.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4214,7 +4214,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from AskkJesus.",
       "category": "AI Religion",
       "link": "https://apps.apple.com/in/app/askkjesus/id6446421783",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4224,7 +4224,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from AI Pastor.",
       "category": "AI Religion",
       "link": "https://www.bibles.chat",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bibles.chat-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bibles.chat-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4234,7 +4234,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered religious and spiritual insights from Censorly.",
       "category": "AI Religion",
       "link": "https://censorly.dev",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/censorly.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/censorly.dev-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4244,7 +4244,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10,000 free message credits monthly for AI-powered ministry tools.",
       "category": "AI Religion",
       "link": "https://gloo.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gloo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gloo.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4254,7 +4254,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Generates custom prayers with AI powered multi-language support.",
       "category": "AI Religion",
       "link": "https://writemeaprayer.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/writemeaprayer.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/writemeaprayer.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4264,7 +4264,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free access to thousands of sermons with AI chat.",
       "category": "AI Religion",
       "link": "https://getsermons.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getsermons.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getsermons.app-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4274,7 +4274,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-enabled spiritual guru with insights from major religions.",
       "category": "AI Religion",
       "link": "https://namastefaith.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/namastefaith.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/namastefaith.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4284,7 +4284,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for spiritual AI knowledge and metaphysical insights.",
       "category": "AI Religion",
       "link": "https://sibyls.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sibyls.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sibyls.ai-128x128__Estimated_.png",
       "icon": "Church",
       "score": 6
     },
@@ -4294,7 +4294,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free credits available for live AI translation for churches.",
       "category": "AI Religion",
       "link": "https://www.oneaccord.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/oneaccord.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/oneaccord.ai-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4304,7 +4304,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered content creation for quick generation from sermons.",
       "category": "AI Religion",
       "link": "https://www.churchloom.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/churchloom.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/churchloom.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4314,7 +4314,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free plan with generic daily devotion, journal, and AI chat.",
       "category": "AI Religion",
       "link": "https://www.daywithgod.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/daywithgod.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/daywithgod.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4324,7 +4324,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "100% free analysis of personal destiny matrix chart.",
       "category": "AI Religion",
       "link": "https://destiny-matrix.cc",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/destiny-matrix.cc-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/destiny-matrix.cc-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4334,7 +4334,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Daily 1 refresh credit for destiny chart reading and life guidance.",
       "category": "AI Religion",
       "link": "https://tianfu-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tianfu-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tianfu-ai.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 6
     },
@@ -4344,7 +4344,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free on-device AI tarot readings with augmented reality features.",
       "category": "AI Religion",
       "link": "https://apps.apple.com/us/app/tarot-arcana/id1539747669",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     },
@@ -4354,7 +4354,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free ChatGPT AI Buddha to solve troubles without login.",
       "category": "AI Religion",
       "link": "https://www.fozu.ai/en",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fozu.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fozu.ai-128x128__Estimated_.png",
       "icon": "Church",
       "score": 8
     }
@@ -4366,7 +4366,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered recipe and meal planning insights from Eat Planner.",
       "category": "AI Recipe",
       "link": "https://eat-planner.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eat-planner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eat-planner.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4376,7 +4376,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered recipe and meal planning insights from AI recipes - Your Meal Planner.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/app/ai-recipes-your-meal-planner/id6445809000",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4386,7 +4386,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered recipe and meal planning insights from Nutritionista.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/us/app/nutritionista-calorie-counter/id6670344419",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4397,7 +4397,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free monthly generations for AI-powered recipe recommendations.",
       "category": "AI Recipe",
       "link": "https://www.chefgpt.xyz",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chefgpt.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chefgpt.xyz-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4407,7 +4407,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "15 free recipe credits monthly to reduce food waste and simplify planning.",
       "category": "AI Recipe",
       "link": "https://www.dishgen.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dishgen.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dishgen.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4417,7 +4417,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Generate up to 5 free AI recipes with organized grocery lists.",
       "category": "AI Recipe",
       "link": "https://www.flavorish.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/flavorish.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flavorish.ai-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4427,7 +4427,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free credits to instantly create unique recipes and generate food photos.",
       "category": "AI Recipe",
       "link": "https://cookaifood.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cookaifood.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cookaifood.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4437,7 +4437,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free cocktail creation with AI generator and personalized inventory.",
       "category": "AI Recipe",
       "link": "https://www.bargpt.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bargpt.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bargpt.app-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4447,7 +4447,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free recipes monthly to convert cooking videos into recipes.",
       "category": "AI Recipe",
       "link": "https://video2recipe.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/video2recipe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/video2recipe.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4457,7 +4457,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "1 free week of meal plans and 4 AI-generated recipes.",
       "category": "AI Recipe",
       "link": "https://mealpractice.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mealpractice.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mealpractice.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4467,7 +4467,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "2 free recipes weekly extracted from videos.",
       "category": "AI Recipe",
       "link": "https://cliprecipe.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cliprecipe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cliprecipe.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4477,7 +4477,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Recipe generator from ingredients with voice-activated input.",
       "category": "AI Recipe",
       "link": "https://eatwithcrumb.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eatwithcrumb.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eatwithcrumb.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4487,7 +4487,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free AI-powered recipes monthly for personalized meal planning.",
       "category": "AI Recipe",
       "link": "https://www.foodieprep.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/foodieprep.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/foodieprep.ai-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4497,7 +4497,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Two free profiles for AI-generated meal plans and shopping lists.",
       "category": "AI Recipe",
       "link": "https://mealmind.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mealmind.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mealmind.io-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4507,7 +4507,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Manage dietary restrictions and generate shopping lists.",
       "category": "AI Recipe",
       "link": "https://www.wholesum.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wholesum.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wholesum.app-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4517,7 +4517,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized recipes with diverse cuisine options.",
       "category": "AI Recipe",
       "link": "https://www.receitas.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/receitas.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/receitas.ai-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4527,7 +4527,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free recipe generated with AI for personalized meals.",
       "category": "AI Recipe",
       "link": "https://www.chefbot.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chefbot.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chefbot.app-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4537,7 +4537,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "14-day free trial for AI-powered meal planning and client management.",
       "category": "AI Recipe",
       "link": "https://smartplate.ca",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/smartplate.ca-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartplate.ca-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4547,7 +4547,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day free trial for intelligent recipe creation.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/ph/app/bowl-smart-recipe-manager/id6743498143",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4557,7 +4557,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free personalized recipe generation with detailed information.",
       "category": "AI Recipe",
       "link": "https://www.safeplates.de",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/safeplates.de-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/safeplates.de-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4567,7 +4567,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered personalized recipes from ingredients to reduce waste.",
       "category": "AI Recipe",
       "link": "https://dishdj.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dishdj.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dishdj.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4577,7 +4577,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI recipe creation and management with customization.",
       "category": "AI Recipe",
       "link": "https://zesto.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zesto.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zesto.app-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4587,7 +4587,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Generate personalized recipes and create meal plans.",
       "category": "AI Recipe",
       "link": "https://www.octochef.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/octochef.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octochef.ai-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4597,7 +4597,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free up to 3 meals daily for AI-powered personalized meal plans.",
       "category": "AI Recipe",
       "link": "https://nutrimealsapp.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nutrimealsapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nutrimealsapp.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4607,7 +4607,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Personalized recipes and restaurant menu analysis.",
       "category": "AI Recipe",
       "link": "https://cheffie.us",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cheffie.us-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cheffie.us-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4617,7 +4617,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Share culinary creations and explore new recipes.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/us/app/icancookfood/id6593659930",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4627,7 +4627,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free recipes generated from ingredients.",
       "category": "AI Recipe",
       "link": "https://grannycooksfor.me",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/grannycooksfor.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/grannycooksfor.me-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4637,7 +4637,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free recipes monthly for personalized AI recipes.",
       "category": "AI Recipe",
       "link": "https://recipegenai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/recipegenai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recipegenai.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4647,7 +4647,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-generated cocktail recipes based on ingredients at home.",
       "category": "AI Recipe",
       "link": "https://thirsty.bot",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thirsty.bot-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thirsty.bot-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4657,7 +4657,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free recipe generations with tailored ideas.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/in/app/souschef-ai-recipe-generator/id6479343704",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4667,7 +4667,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3 free recipes monthly for personalized AI recipe generation.",
       "category": "AI Recipe",
       "link": "https://recetasia.negociatumente.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/recetasia.negociatumente.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recetasia.negociatumente.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4677,7 +4677,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Effortless recipe search to cook with what you have.",
       "category": "AI Recipe",
       "link": "https://play.google.com/store/apps/details?id=com.AI.aireceipt",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4687,7 +4687,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "5 free generated recipes daily from ingredients.",
       "category": "AI Recipe",
       "link": "https://mairecipe.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mairecipe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mairecipe.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4697,7 +4697,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI recipe editing with endless customization.",
       "category": "AI Recipe",
       "link": "https://foodwiz.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/foodwiz.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/foodwiz.ai-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4707,7 +4707,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Find recipes from ingredients and enhance with AI.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/us/app/recipe-roulette/id1672402270",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4717,7 +4717,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-generated personalized recipe suggestions for leftovers.",
       "category": "AI Recipe",
       "link": "https://scrappychef.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/scrappychef.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scrappychef.ai-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4727,7 +4727,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free coins for AI-powered recipe generation.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/us/app/tomaito-recipe-generator/id1670926470",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4737,7 +4737,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "3-5 free recipes for AI-powered cocktail recipes.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/us/app/barbot-ai/id1669668242",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4747,7 +4747,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free tool to personalize food preferences and manage meals.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/us/app/aidiet-eat-with-ai-every-day/id1669101632",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4757,7 +4757,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "7-day trial for AI-powered personalized meal plans.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/us/app/mealwizard-ai-meal-planner/id6737711677",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4767,7 +4767,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free app to identify coffee beans and get recipes with AI.",
       "category": "AI Recipe",
       "link": "https://beanbook.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beanbook.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beanbook.app-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4777,7 +4777,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "20 free API calls for personalized meal planning recommendations.",
       "category": "AI Recipe",
       "link": "https://www.prevess.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prevess.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prevess.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4787,7 +4787,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Transform Instagram Food Posts into recipes and organize them.",
       "category": "AI Recipe",
       "link": "https://wechef.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wechef.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wechef.ai-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4797,7 +4797,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "One free recipe generated from ingredients with nutrition tracking.",
       "category": "AI Recipe",
       "link": "https://www.whiskai.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/whiskai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whiskai.app-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4807,7 +4807,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered sous chef to create recipes without login.",
       "category": "AI Recipe",
       "link": "https://taste-bud.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/taste-bud.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taste-bud.io-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4817,7 +4817,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "10 free AI recipe generations monthly for meal planning.",
       "category": "AI Recipe",
       "link": "https://gustavou.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gustavou.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gustavou.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4827,7 +4827,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial for AI-powered food scanner and custom recipes.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/us/app/doggo-food-scanner-recipes/id6743200192",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     },
@@ -4837,7 +4837,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "1 free recipe generation daily to reduce food waste.",
       "category": "AI Recipe",
       "link": "https://www.frigo-app.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/frigo-app.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/frigo-app.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4847,7 +4847,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Smart ingredient recognition with personalized recipe suggestions.",
       "category": "AI Recipe",
       "link": "https://apps.apple.com/gh/app/chefsnap/id6739454815",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 8
     },
@@ -4857,7 +4857,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Apps on Google Play with 3 meals & 3 dishes free.",
       "category": "AI Recipe",
       "link": "https://play.google.com/store/apps/details?id=com.gustavemobile",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
       "icon": "ChefHat",
       "score": 6
     }
@@ -4869,7 +4869,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from iMean.",
       "category": "AI Travel",
       "link": "https://www.imean.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/imean.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imean.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4879,7 +4879,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Trip Planner AI.",
       "category": "AI Travel",
       "link": "https://tripplanner.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tripplanner.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tripplanner.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4889,7 +4889,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Journi.",
       "category": "AI Travel",
       "link": "https://journi.pro",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/journi.pro-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/journi.pro-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4899,7 +4899,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Explorify.",
       "category": "AI Travel",
       "link": "https://www.tryexplorify.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tryexplorify.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tryexplorify.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4909,7 +4909,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from VoksPilot.",
       "category": "AI Travel",
       "link": "https://vokspilot.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vokspilot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vokspilot.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4919,7 +4919,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from iTraveledThere.",
       "category": "AI Travel",
       "link": "https://itraveledthere.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/itraveledthere.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/itraveledthere.io-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4929,7 +4929,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Let's Trip.",
       "category": "AI Travel",
       "link": "https://letstrip.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/letstrip.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/letstrip.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4939,7 +4939,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from AskRudy.",
       "category": "AI Travel",
       "link": "https://AskRudy.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askrudy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askrudy.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4949,7 +4949,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from SeeMuseums.",
       "category": "AI Travel",
       "link": "https://seemuseums.art",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/seemuseums.art-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/seemuseums.art-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4959,7 +4959,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from PlaninGo.",
       "category": "AI Travel",
       "link": "https://planingo.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/planingo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planingo.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4969,7 +4969,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Skoot.",
       "category": "AI Travel",
       "link": "https://skoothere.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skoothere.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skoothere.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4979,7 +4979,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Copilot2trip.",
       "category": "AI Travel",
       "link": "https://copilot2trip.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/copilot2trip.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/copilot2trip.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4989,7 +4989,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Easytrip.ai.",
       "category": "AI Travel",
       "link": "https://easytrip.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/easytrip.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easytrip.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -4999,7 +4999,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from FreePlanTour.",
       "category": "AI Travel",
       "link": "https://freeplantour.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/freeplantour.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/freeplantour.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5009,7 +5009,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from AirCMP.",
       "category": "AI Travel",
       "link": "https://aircmp.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aircmp.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aircmp.app-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5019,7 +5019,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from SuperTravel.",
       "category": "AI Travel",
       "link": "https://suptravel.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/suptravel.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suptravel.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5029,7 +5029,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from triipper.",
       "category": "AI Travel",
       "link": "https://triipper.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/triipper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/triipper.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5039,7 +5039,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from bonMyVoyage.",
       "category": "AI Travel",
       "link": "https://bonmyvoyage.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bonmyvoyage.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bonmyvoyage.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5049,7 +5049,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Tripetta.",
       "category": "AI Travel",
       "link": "https://tripetta.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tripetta.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tripetta.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5059,7 +5059,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Travel Echo.",
       "category": "AI Travel",
       "link": "https://travelecho.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travelecho.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travelecho.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5069,7 +5069,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from aitrips.io.",
       "category": "AI Travel",
       "link": "https://www.aitrips.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aitrips.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitrips.io-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5079,7 +5079,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Revyu AI.",
       "category": "AI Travel",
       "link": "https://revyu.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/revyu.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revyu.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5089,7 +5089,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Snapventure.",
       "category": "AI Travel",
       "link": "https://snapventure.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/snapventure.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snapventure.app-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5099,7 +5099,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Solo Trip Planner.",
       "category": "AI Travel",
       "link": "https://solotripplanner.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/solotripplanner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/solotripplanner.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5109,7 +5109,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from TourTally.",
       "category": "AI Travel",
       "link": "https://tourtally.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tourtally.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tourtally.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5119,7 +5119,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Moon Trip: AI Travel Planner.",
       "category": "AI Travel",
       "link": "https://moontripai.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moontripai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moontripai.app-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5129,7 +5129,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Backpackk.",
       "category": "AI Travel",
       "link": "https://backpackk.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/backpackk.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/backpackk.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5139,7 +5139,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Travex.",
       "category": "AI Travel",
       "link": "https://www.travex.world",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travex.world-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travex.world-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5149,7 +5149,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from HolidayMaker.",
       "category": "AI Travel",
       "link": "https://nexttripai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nexttripai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nexttripai.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5159,7 +5159,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from TravelTrail.",
       "category": "AI Travel",
       "link": "https://apps.apple.com/es/app/traveltrail-planifica-tu-viaje/id6479203686",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5169,7 +5169,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Tern.",
       "category": "AI Travel",
       "link": "https://travelwithtern.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travelwithtern.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travelwithtern.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5179,7 +5179,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from WhatDo.",
       "category": "AI Travel",
       "link": "https://whatdo.in",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/whatdo.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whatdo.in-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5189,7 +5189,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from TravelBot.",
       "category": "AI Travel",
       "link": "https://www.travelbot.me",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/travelbot.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/travelbot.me-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5199,7 +5199,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from NexTrip.",
       "category": "AI Travel",
       "link": "https://nextrip-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nextrip-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nextrip-ai.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5209,7 +5209,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from PlanMoreTrips.",
       "category": "AI Travel",
       "link": "https://chromewebstore.google.com/detail/planmoretrips-we-find-the/incfgmkkmipiajppcmmkgmobfenkcfie",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5219,7 +5219,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Nowadays AI.",
       "category": "AI Travel",
       "link": "https://www.getnowadays.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getnowadays.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getnowadays.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5229,7 +5229,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Wonderplan.",
       "category": "AI Travel",
       "link": "https://beta.wonderplan.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beta.wonderplan.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beta.wonderplan.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5239,7 +5239,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from TripSync.",
       "category": "AI Travel",
       "link": "https://tripsync.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tripsync.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tripsync.co-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5249,7 +5249,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Exploresoul.",
       "category": "AI Travel",
       "link": "https://exploresoul.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/exploresoul.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/exploresoul.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5259,7 +5259,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from ReiseGenie AI.",
       "category": "AI Travel",
       "link": "https://www.reisegenie.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reisegenie.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reisegenie.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5269,7 +5269,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from AI Reelity.",
       "category": "AI Travel",
       "link": "https://www.aireelity.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aireelity.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aireelity.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5279,7 +5279,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel planning and insights from Reverie - Unique Things to Do.",
       "category": "AI Travel",
       "link": "https://apps.apple.com/us/app/reverie-unique-things-to-do/id6448396396",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5289,7 +5289,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free account to simplify visas and permit processing.",
       "category": "AI Travel",
       "link": "https://spun.global",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/spun.global-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spun.global-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5299,7 +5299,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial minutes for crystal-clear calls without phone authentication.",
       "category": "AI Travel",
       "link": "https://www.sayfone.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sayfone.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sayfone.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 6
     },
@@ -5309,7 +5309,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Save hundreds on flights and find smart ticket suggestions.",
       "category": "AI Travel",
       "link": "https://airglitch.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airglitch.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airglitch.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5319,7 +5319,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free access to stunning global images and AI travel assistant.",
       "category": "AI Travel",
       "link": "https://www.wanderlustapp.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wanderlustapp.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wanderlustapp.io-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5329,7 +5329,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free trial available for AI-powered travel agent and planning.",
       "category": "AI Travel",
       "link": "https://navoy.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/navoy.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/navoy.io-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 6
     },
@@ -5339,7 +5339,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered photo recognition for personalized audio tours.",
       "category": "AI Travel",
       "link": "https://chiaro.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chiaro.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chiaro.ai-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     },
@@ -5349,7 +5349,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "Free AI assistant trial for attraction discovery and booking.",
       "category": "AI Travel",
       "link": "https://www.findtourguide.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/findtourguide.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/findtourguide.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 6
     },
@@ -5359,7 +5359,7 @@ export const ai_lifestyle_directory_tools: Record<string, Tool[]> = {
       "description": "AI-powered travel itineraries with customizable options.",
       "category": "AI Travel",
       "link": "https://apps.apple.com/us/app/cityrank/id6737245374",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Plane",
       "score": 8
     }

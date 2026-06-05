@@ -12,7 +12,7 @@ const CategoriesPage: FC = () => {
         <title>AI Tool Categories - Browse Free AI Solutions by Type</title>
         <meta name="description" content="Explore our curated list of free AI tool categories. From image generation to music production, find the best free AI alternatives for your needs." />
         <meta name="keywords" content="ai categories, free ai tools list, ai image generation, ai music production, ai video editing" />
-        <link rel="canonical" href="https://freeaitools.ct.ws/categories" />
+        <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/categories" />
       </Helmet>
       <div className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <motion.div 

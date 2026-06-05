@@ -8,7 +8,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides access to 2 free AI-powered quick tools for audio recording, editing, noise removal, and transcription.",
       "category": "Audio Editing",
       "link": "https://podcast.adobe.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podcast.adobe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podcast.adobe.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -18,7 +18,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free audio mastering to automatically improve sound quality, loudness, and dynamic range.",
       "category": "Audio Editing",
       "link": "https://aimastering.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimastering.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimastering.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -28,7 +28,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free credits per month to generate royalty-free music effortlessly using cutting-edge AI technology.",
       "category": "Audio Editing",
       "link": "https://www.aisongmaker.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongmaker.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongmaker.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -38,7 +38,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free AI music generation, lyrics, and beat creation without requiring a login.",
       "category": "Audio Editing",
       "link": "https://aimusicmaker.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusicmaker.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusicmaker.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -48,7 +48,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 3 free downloads per month of AI-generated songs with ultimate customizability.",
       "category": "Audio Editing",
       "link": "https://www.aiva.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiva.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiva.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -58,7 +58,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers completely free AI-powered detection of key, BPM, Camelot code, music genre, and mood analysis.",
       "category": "Audio Editing",
       "link": "https://audioaidynamics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audioaidynamics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioaidynamics.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -68,7 +68,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free audio enhancement for files under 500MB and 5 minutes, including noise and vocal removal.",
       "category": "Audio Editing",
       "link": "https://audioenhancer.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audioenhancer.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioenhancer.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -78,7 +78,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI music generation, audio enhancement, and vocal removal tools.",
       "category": "Audio Editing",
       "link": "https://audiomuse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiomuse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiomuse.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -88,7 +88,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited and completely free lossless audio trimming and cutting supporting all major formats.",
       "category": "Audio Editing",
       "link": "https://audiocut.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiocut.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiocut.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -98,7 +98,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10,000 free credits per month for voice cloning, noise reduction, and audio translation.",
       "category": "Audio Editing",
       "link": "https://www.audiopod.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiopod.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiopod.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -108,7 +108,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI stem separation and lyric transcription services.",
       "category": "Audio Editing",
       "link": "https://audioshake.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audioshake.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioshake.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -118,7 +118,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 30 free generations to transform inspiration into professional music and sound effects.",
       "category": "Audio Editing",
       "link": "https://audiox.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiox.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiox.app-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -128,7 +128,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 14-day free trial for automatic silence removal, animated captions, and podcast editing without a credit card.",
       "category": "Audio Editing",
       "link": "https://autocut.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/autocut.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autocut.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -138,7 +138,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial for an AI-powered profanity editor to cut editing time and protect monetization.",
       "category": "Audio Editing",
       "link": "https://beepthatout.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beepthatout.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beepthatout.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -148,7 +148,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 30 free minutes of audio cleaning to remove filler sounds, stuttering, and background noise without sign-up.",
       "category": "Audio Editing",
       "link": "https://cleanvoice.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cleanvoice.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cleanvoice.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -158,7 +158,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 1 free hour of credits to automatically detect and mute selected keywords in audio.",
       "category": "Audio Editing",
       "link": "https://cursecut.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cursecut.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cursecut.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -168,7 +168,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 1 free transcription hour to edit video and audio by editing text using AI editing tools.",
       "category": "Audio Editing",
       "link": "https://www.descript.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/descript.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/descript.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -178,7 +178,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free basic plan to turn longer content into short, shareable videos using AI-powered automated editing.",
       "category": "Audio Editing",
       "link": "https://detail.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/detail.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/detail.co-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -188,7 +188,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10,000 free text-to-speech characters for AI audio content creation and voice cloning.",
       "category": "Audio Editing",
       "link": "https://studio.echovox.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/studio.echovox.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/studio.echovox.in-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -198,7 +198,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows editing of up to 60 minutes of video for free, including AI auto-subtitles and audio-to-video conversion without an account.",
       "category": "Audio Editing",
       "link": "https://echowave.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/echowave.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/echowave.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -208,7 +208,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for automatic audio mixing, AI de-noising, and mastering.",
       "category": "Audio Editing",
       "link": "https://alexaudiobutler.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/alexaudiobutler.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alexaudiobutler.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -218,7 +218,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 60 free upload minutes and 20 content generations for transcription, subtitles, and AI clip generation.",
       "category": "Audio Editing",
       "link": "https://exemplary.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/exemplary.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/exemplary.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -228,7 +228,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for conversational editing with character consistency features.",
       "category": "Audio Editing",
       "link": "https://framia.pro/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/framia.pro-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/framia.pro-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -238,7 +238,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI-powered video enhancement, photo improvement, and voice changing features.",
       "category": "Audio Editing",
       "link": "https://hitpaw.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hitpaw.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hitpaw.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -248,7 +248,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 30 free AI credits for AI-powered video editing and content creation.",
       "category": "Audio Editing",
       "link": "https://www.hitpaw.com/video-editor.html",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hitpaw.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hitpaw.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -258,7 +258,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 1,000 one-time free generation credits for AI podcast creation, publishing, and multilingual content translation.",
       "category": "Audio Editing",
       "link": "https://jellypod.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jellypod.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jellypod.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -268,7 +268,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides up to 30 minutes of free audio content creation per project with AI co-pilot assistance and context-aware effects.",
       "category": "Audio Editing",
       "link": "https://www.koolio.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/koolio.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/koolio.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -278,7 +278,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free capture of 5 questions with 30 days data retention to preserve memories using AI transcription.",
       "category": "Audio Editing",
       "link": "https://thelegacy.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thelegacy.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thelegacy.app-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -288,7 +288,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers limited free access to AI-enhanced music composition, lyric writing, and voice recording tools.",
       "category": "Audio Editing",
       "link": "https://melobytes.gr/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/melobytes.gr-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/melobytes.gr-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -298,7 +298,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides completely free AI-powered analysis of mixes and masters with actionable feedback to identify and fix issues.",
       "category": "Audio Editing",
       "link": "https://mixcheck.studio/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mixcheck.studio-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mixcheck.studio-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -308,7 +308,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 1 free trial per day for AI-powered video-to-audio synthesis and environmental sound generation.",
       "category": "Audio Editing",
       "link": "https://mmaudio.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mmaudio.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mmaudio.net-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -318,7 +318,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free and fast conversion of any audio or video file to MP3 format supporting multiple file types.",
       "category": "Audio Editing",
       "link": "https://mp3converterai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mp3converterai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mp3converterai.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -328,7 +328,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 3 free credits and 1 download per day for limited image, audio, and video creation tools.",
       "category": "Audio Editing",
       "link": "https://myedit.online/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myedit.online-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myedit.online-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -338,7 +338,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free conversion of up to 70 audio files per day, including batch processing and audio extraction from video.",
       "category": "Audio Editing",
       "link": "https://online-audio-converter.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/online-audio-converter.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/online-audio-converter.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -348,7 +348,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows making a sound for free and generating unlimited high-quality AI sound effects and variations.",
       "category": "Audio Editing",
       "link": "https://www.optimizerai.xyz/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/optimizerai.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/optimizerai.xyz-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -358,7 +358,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to try groundbreaking plugins, instruments, fast sample finding, and legendary FX.",
       "category": "Audio Editing",
       "link": "https://output.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/output.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/output.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -368,7 +368,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free unlimited audio recording with studio-quality sound and AI-powered editing features.",
       "category": "Audio Editing",
       "link": "https://podcastle.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podcastle.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podcastle.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -378,7 +378,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 5 free conversion minutes per month and 1 starter AI voice to create studio-quality AI vocals and train custom models.",
       "category": "Audio Editing",
       "link": "https://www.revocalize.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/revocalize.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revocalize.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -388,7 +388,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 3 free credits for generating 100% royalty-free AI sound effects.",
       "category": "Audio Editing",
       "link": "https://sfxengine.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sfxengine.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sfxengine.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -398,7 +398,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows cleaning 2 songs for free by automatically detecting and removing explicit lyrics.",
       "category": "Audio Editing",
       "link": "https://songcleaner.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songcleaner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songcleaner.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -408,7 +408,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 1 free production (20 credits) for AI-powered audio production with automatic script, music, and mixing.",
       "category": "Audio Editing",
       "link": "https://sonificalabs.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sonificalabs.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonificalabs.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -418,7 +418,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free upload and 1-day trial for AI audio processing and stem separation.",
       "category": "Audio Editing",
       "link": "https://splitter.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/splitter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/splitter.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -428,7 +428,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free access to all online piano community resources, sheet music, and music tools without login.",
       "category": "Audio Editing",
       "link": "https://tuneonmusic.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tuneonmusic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tuneonmusic.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -438,7 +438,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 1,000 free characters for realistic text-to-speech generation and voice cloning.",
       "category": "Audio Editing",
       "link": "https://verbatik.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/verbatik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/verbatik.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -448,7 +448,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 120 free minutes of voice credits to delete silent clips, retakes, and filler words like editing a document.",
       "category": "Audio Editing",
       "link": "https://www.vocut.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vocut.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocut.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -458,7 +458,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 60 free seconds of audio credit to swap vocals with iconic singers and transform voice to match chart-toppers.",
       "category": "Audio Editing",
       "link": "https://voice-swap.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voice-swap.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voice-swap.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -468,7 +468,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free voice transformation with effects and gender voice conversion tools.",
       "category": "Audio Editing",
       "link": "https://voicechanger.im/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicechanger.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicechanger.im-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -478,7 +478,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 100 free conversions per week for commercial use audio with access to 1,000+ AI voices and custom cloning.",
       "category": "Audio Editing",
       "link": "https://voicemaker.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemaker.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemaker.in-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -488,7 +488,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers the first audio split for free to remove vocals and create karaoke tracks without sign-up.",
       "category": "Audio Editing",
       "link": "https://www.voicss.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicss.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicss.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -498,7 +498,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides up to 30 minutes of free audio cleaning to remove background noise and correct pitch without a credit card.",
       "category": "Audio Editing",
       "link": "https://xound.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/xound.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xound.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     }
@@ -510,7 +510,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional AI-powered audio enhancement platform that automatically removes background noise, isolates vocals, and improves overall audio quality with advanced machine learning algorithms.",
       "category": "Audio Enhancer",
       "link": "https://audioenhancer.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audioenhancer.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioenhancer.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.8
     },
@@ -520,7 +520,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI enhancement suite featuring video upscaling up to 16K and advanced audio upmixing to DTS 7.1 surround sound, delivering studio-quality results for all media projects.",
       "category": "Audio Enhancer",
       "link": "https://unifab.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unifab.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unifab.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.7
     },
@@ -530,7 +530,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Automated online mastering service that enhances sound quality through intelligent loudness balancing and dynamic range optimization, ensuring professional broadcast-ready audio.",
       "category": "Audio Enhancer",
       "link": "https://aimastering.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimastering.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimastering.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 9.6
     }
@@ -542,7 +542,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 8 free credits daily to generate royalty-free songs from text prompts.",
       "category": "Instrumental Generator",
       "link": "https://www.aimakesong.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimakesong.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimakesong.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -552,7 +552,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free credits daily for lightning-fast, studio-quality AI music generation.",
       "category": "Instrumental Generator",
       "link": "https://musicgeneratorai.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicgeneratorai.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicgeneratorai.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -562,7 +562,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants new users 60 free credits to generate music from text or images.",
       "category": "Instrumental Generator",
       "link": "https://musicmaker.im/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -572,7 +572,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 3 free credits daily to generate royalty-free songs from text or lyrics.",
       "category": "Instrumental Generator",
       "link": "https://musicmakerapp.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmakerapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmakerapp.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -582,7 +582,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a completely free tool to create custom music with AI using flexible creation modes.",
       "category": "Instrumental Generator",
       "link": "https://aisonggenerator.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisonggenerator.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisonggenerator.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -592,7 +592,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free credits per month to generate royalty-free songs effortlessly using AI technology.",
       "category": "Instrumental Generator",
       "link": "https://www.aisongmaker.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongmaker.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongmaker.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -602,7 +602,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 8 free credits daily to generate original melodies, lyrics, and full songs without requiring login.",
       "category": "Instrumental Generator",
       "link": "https://ai-song.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-song.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-song.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -612,7 +612,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 25 credits per month for AI music generation and image-to-music conversion.",
       "category": "Instrumental Generator",
       "link": "https://aimusician.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusician.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusician.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -622,7 +622,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Permits the download of 3 AI-generated songs per month for free with customizable options.",
       "category": "Instrumental Generator",
       "link": "https://www.aiva.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiva.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiva.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -632,7 +632,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 4 free AI song generations every day, including lyrics generation and vocal removal, without sign-up.",
       "category": "Instrumental Generator",
       "link": "https://anymusic.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/anymusic.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anymusic.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -642,7 +642,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for text-to-music API access with stable and watermark-free 20-second streaming results.",
       "category": "Instrumental Generator",
       "link": "https://api.box/suno",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/api.box-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/api.box-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -652,7 +652,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 100 free text-to-audio generations per month to create royalty-free sounds.",
       "category": "Instrumental Generator",
       "link": "https://www.audiogen.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiogen.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiogen.co-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -662,7 +662,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to create stems for sync licensing, sampling, and remixing.",
       "category": "Instrumental Generator",
       "link": "https://indie.audioshake.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/indie.audioshake.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/indie.audioshake.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -672,7 +672,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to generate 5 free AI music tracks with a royalty-free license.",
       "category": "Instrumental Generator",
       "link": "https://www.beatoven.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beatoven.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beatoven.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -682,7 +682,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free access to AI-crafted lo-fi music for relaxation and focus without requiring registration.",
       "category": "Instrumental Generator",
       "link": "https://chillify.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chillify.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chillify.me-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -692,7 +692,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free credits for AI sample chopping and generation.",
       "category": "Instrumental Generator",
       "link": "https://thechoplab.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thechoplab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thechoplab.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -702,7 +702,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Day Pass to generate AI chord progressions and export files without requiring card details.",
       "category": "Instrumental Generator",
       "link": "https://chordcreate.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chordcreate.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chordcreate.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -712,7 +712,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free credits for new accounts to build custom soundworlds with a virtual composer.",
       "category": "Instrumental Generator",
       "link": "https://delphos.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/delphos.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/delphos.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -722,7 +722,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 90 free generations (up to 3 per day) to create full-length AI songs with vocals without login.",
       "category": "Instrumental Generator",
       "link": "https://diffrhythm.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/diffrhythm.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/diffrhythm.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -732,7 +732,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a Pro Trial to instantly turn musical ideas into studio-quality tracks.",
       "category": "Instrumental Generator",
       "link": "https://drumics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/drumics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/drumics.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -742,7 +742,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows free drum removal for the first minute of any song to create backing tracks.",
       "category": "Instrumental Generator",
       "link": "https://drumless.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/drumless.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/drumless.app-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -752,7 +752,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 6 free credits per day, enabling the creation of up to 3 custom songs.",
       "category": "Instrumental Generator",
       "link": "https://elevenmusicai.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/elevenmusicai.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/elevenmusicai.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -762,7 +762,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 2 free music generations per day without requiring a credit card to create royalty-free tracks.",
       "category": "Instrumental Generator",
       "link": "https://finetuning.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finetuning.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finetuning.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -772,7 +772,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to generate studio-quality AI music in seconds.",
       "category": "Instrumental Generator",
       "link": "https://himusic.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/himusic.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/himusic.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -782,7 +782,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free credits for new accounts to generate 3-minute custom tracks with prompt-first control.",
       "category": "Instrumental Generator",
       "link": "https://lyria3-pro.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lyria3-pro.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyria3-pro.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -792,7 +792,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enables the generation of 10 free royalty-free songs using its AI song generator and vocal remover tools.",
       "category": "Instrumental Generator",
       "link": "https://www.makesong.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/makesong.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makesong.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -802,7 +802,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 3 free AI music credits to generate music from text and remix audio.",
       "category": "Instrumental Generator",
       "link": "https://makebestmusic.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/makebestmusic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makebestmusic.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -812,7 +812,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial for AI video generation and auto scripting.",
       "category": "Instrumental Generator",
       "link": "https://mediapet.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mediapet.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mediapet.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -822,7 +822,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to generate royalty-free AI music and soundtracks for content.",
       "category": "Instrumental Generator",
       "link": "https://mubert.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mubert.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mubert.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -832,7 +832,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free 48-hour temporary storage and allows 2 concurrent processing jobs for stem separation.",
       "category": "Instrumental Generator",
       "link": "https://music.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/music.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/music.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -842,7 +842,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free music generations per month to create professional AI beats from text.",
       "category": "Instrumental Generator",
       "link": "https://musicfx.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicfx.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicfx.net-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -852,7 +852,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 3 free credits daily to generate AI songs from a single text prompt.",
       "category": "Instrumental Generator",
       "link": "https://www.musicmuse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmuse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmuse.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -862,7 +862,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to experience AI music generation and song cover creation.",
       "category": "Instrumental Generator",
       "link": "https://www.musicful.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -872,7 +872,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 free credits to generate full songs with vocals using text-to-music technology.",
       "category": "Instrumental Generator",
       "link": "https://musikalis.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musikalis.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musikalis.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -882,7 +882,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to generate instrumental and vocal songs with custom lyrics or prompts.",
       "category": "Instrumental Generator",
       "link": "https://apps.apple.com/app/id6496203696",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -892,7 +892,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 30-day free trial for realistic music playback in notation software without requiring sign-up or a credit card.",
       "category": "Instrumental Generator",
       "link": "https://noteperformer.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/noteperformer.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/noteperformer.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -902,7 +902,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides up to 10 GB of free storage for music organization along with access to AI mastering tools.",
       "category": "Instrumental Generator",
       "link": "https://www.ommuse.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ommuse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ommuse.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -912,7 +912,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers limited free music generation to convert text to songs using an AI singer.",
       "category": "Instrumental Generator",
       "link": "https://songdemo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songdemo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songdemo.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -922,7 +922,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to clean 2 songs for free by automatically detecting and removing explicit lyrics using AI.",
       "category": "Instrumental Generator",
       "link": "https://songcleaner.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songcleaner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songcleaner.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -932,7 +932,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows the generation of royalty-free AI tracks with one free MP3 download available per month.",
       "category": "Instrumental Generator",
       "link": "https://soundful.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundful.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundful.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -942,7 +942,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free credits to generate high-quality music and sound effects with lightning-fast creation.",
       "category": "Instrumental Generator",
       "link": "https://stableaudio.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stableaudio.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stableaudio.net-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -952,7 +952,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers completely free AI-generated, public-domain stock music that requires no attribution.",
       "category": "Instrumental Generator",
       "link": "https://stocktune.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stocktune.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stocktune.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -962,7 +962,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 4 free songs to generate AI music with custom style selection.",
       "category": "Instrumental Generator",
       "link": "https://story321.com/music",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/story321.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/story321.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -972,7 +972,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a completely free AI music generator extension for Chrome.",
       "category": "Instrumental Generator",
       "link": "https://chromewebstore.google.com/detail/suno-ai-music-generator-f/clfadkmcbfemcnmaekijcfgaaahpbhlb",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -982,7 +982,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides daily free credits to generate professional-quality music and extended 8-minute tracks.",
       "category": "Instrumental Generator",
       "link": "https://suno5.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/suno5.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno5.co-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -992,7 +992,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 30 free credits to generate commercially-usable AI songs.",
       "category": "Instrumental Generator",
       "link": "https://sunoapi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoapi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoapi.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1002,7 +1002,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 2 free music generations per day with download capabilities.",
       "category": "Instrumental Generator",
       "link": "https://sunocc.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunocc.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunocc.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1012,7 +1012,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to generate royalty-free songs and lyrics using AI.",
       "category": "Instrumental Generator",
       "link": "https://tad.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tad.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tad.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     }
@@ -1024,7 +1024,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free AI mastering to automatically improve sound quality, loudness, and dynamic range.",
       "category": "Mastering",
       "link": "https://aimastering.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimastering.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimastering.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1034,7 +1034,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI music generation, audio enhancement, and vocal removal tools.",
       "category": "Mastering",
       "link": "https://audiomuse.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiomuse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiomuse.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1044,7 +1044,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for creating fast and easy stems and instrumentals for sync licensing and remixing.",
       "category": "Mastering",
       "link": "https://indie.audioshake.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/indie.audioshake.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/indie.audioshake.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1054,7 +1054,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 3 free vocal isolations per month with noise removal capabilities.",
       "category": "Mastering",
       "link": "https://www.audiostrip.co.uk",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiostrip.co.uk-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiostrip.co.uk-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1064,7 +1064,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI mastering using text prompts to achieve studio-quality audio enhancement.",
       "category": "Mastering",
       "link": "https://diktatorial.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/diktatorial.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/diktatorial.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1074,7 +1074,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides unlimited free previews of AI mastering created by Grammy winners to improve sound quality.",
       "category": "Mastering",
       "link": "https://emastered.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/emastered.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/emastered.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1084,7 +1084,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial for automatic audio mixing, AI de-noising, and mastering.",
       "category": "Mastering",
       "link": "https://alexaudiobutler.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/alexaudiobutler.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alexaudiobutler.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1094,7 +1094,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free plan for AI voice cloning, singing generators, and mastering without requiring a credit card.",
       "category": "Mastering",
       "link": "https://kits.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kits.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kits.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1104,7 +1104,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free account that includes AI mastering, music distribution, and access to pro-grade plugins & samples.",
       "category": "Mastering",
       "link": "https://www.landr.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/landr.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/landr.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1114,7 +1114,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 free minutes per month for AI voice isolation, enhancement, and audio mastering.",
       "category": "Mastering",
       "link": "https://levelr.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/levelr.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/levelr.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1124,7 +1124,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 9 free mastered tracks to instantly optimize your music using an ultimate toolkit for producers.",
       "category": "Mastering",
       "link": "https://masterednow.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/masterednow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/masterednow.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1134,7 +1134,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free sample of fast and affordable AI audio mastering without the need for account creation.",
       "category": "Mastering",
       "link": "https://mastermallow.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mastermallow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mastermallow.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1144,7 +1144,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers completely free AI-powered mix and master analysis with actionable feedback to fix issues.",
       "category": "Mastering",
       "link": "https://mixcheck.studio",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mixcheck.studio-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mixcheck.studio-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1154,7 +1154,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free app with AI audio separation, a smart metronome, and tools for changing audio speed and pitch.",
       "category": "Mastering",
       "link": "https://moises.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moises.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moises.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1164,7 +1164,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free 48-hour temporary storage and 2 concurrent processing jobs for stem separation and classification.",
       "category": "Mastering",
       "link": "https://music.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/music.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/music.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1174,7 +1174,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers up to 10 GB of free storage for music organization, AI mastering, and NFT music distribution.",
       "category": "Mastering",
       "link": "https://www.ommuse.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ommuse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ommuse.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     }
@@ -1186,7 +1186,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to generate instrumental and vocal songs on iOS with a free trial subscription.",
       "category": "Melody Generator",
       "link": "https://apps.apple.com/app/id6496203696",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1196,7 +1196,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free credits daily for lightning-fast, studio-quality AI music generation.",
       "category": "Melody Generator",
       "link": "https://musicgeneratorai.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicgeneratorai.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicgeneratorai.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1206,7 +1206,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants new users 60 free credits to experiment with generating music from text or images.",
       "category": "Melody Generator",
       "link": "https://musicmaker.im/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1216,7 +1216,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 6 free credits daily, allowing the generation of up to 4 songs for free.",
       "category": "Melody Generator",
       "link": "https://automusic.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/automusic.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automusic.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1226,7 +1226,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to generate AI music and convert images to music, typically offering a free trial for new users.",
       "category": "Melody Generator",
       "link": "https://aimusician.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusician.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusician.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1236,7 +1236,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Crafts personalized AI-generated melodies and songs, typically available for free to try.",
       "category": "Melody Generator",
       "link": "https://aisong.ing/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisong.ing-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisong.ing-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1246,7 +1246,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to download 3 AI-generated songs per month for free with a high degree of customizability.",
       "category": "Melody Generator",
       "link": "https://www.aiva.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiva.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiva.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1256,7 +1256,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free, AI-crafted lo-fi music designed for relaxation, focus, and productivity without requiring registration.",
       "category": "Melody Generator",
       "link": "https://chillify.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chillify.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chillify.me-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1266,7 +1266,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Day Pass to generate AI chord progressions and export MIDI or WAV files.",
       "category": "Melody Generator",
       "link": "https://chordcreate.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chordcreate.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chordcreate.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1276,7 +1276,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to build custom soundworlds using a credit-based system that often includes free initial credits.",
       "category": "Melody Generator",
       "link": "https://delphos.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/delphos.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/delphos.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1286,7 +1286,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides unlimited free access to basic AI features for vocal removal, song splitting, and remixing.",
       "category": "Melody Generator",
       "link": "https://fadr.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fadr.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fadr.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1296,7 +1296,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides limited free access to AI mastering tools and chord progression generation for testing.",
       "category": "Melody Generator",
       "link": "https://orbplugins.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/orbplugins.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/orbplugins.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1306,7 +1306,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 6 free credits for text-to-music generation with royalty-free commercial licensing.",
       "category": "Melody Generator",
       "link": "https://musiceleven.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musiceleven.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musiceleven.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1316,7 +1316,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 3 free credits daily to generate AI songs with a single prompt.",
       "category": "Melody Generator",
       "link": "https://www.musicmuse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmuse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmuse.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1326,7 +1326,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 3 free generations to create original, high-quality music from text descriptions or lyrics.",
       "category": "Melody Generator",
       "link": "https://musicany.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicany.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicany.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1336,7 +1336,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enables AI music generation and song covers through a subscription service that usually offers a free trial period.",
       "category": "Melody Generator",
       "link": "https://www.musicful.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1346,7 +1346,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free, high-quality, and unlimited copyright-free music generation from text or melody prompts.",
       "category": "Melody Generator",
       "link": "https://musicgenai.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicgenai.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicgenai.org-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1356,7 +1356,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free access to a multilingual, multimodal AI chatbot for diverse conversational tasks.",
       "category": "Melody Generator",
       "link": "https://replican.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/replican.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/replican.co-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1366,7 +1366,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free credits for professional AI song generation and batch composition.",
       "category": "Melody Generator",
       "link": "https://songagent.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songagent.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songagent.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1376,7 +1376,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows limited free music generation to convert text to songs using an AI singer.",
       "category": "Melody Generator",
       "link": "https://songdemo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songdemo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songdemo.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1386,7 +1386,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free credits per month for high-quality music and sound effects creation.",
       "category": "Melody Generator",
       "link": "https://stableaudio.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stableaudio.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stableaudio.net-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1396,7 +1396,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers completely free, AI-generated, public-domain stock music that requires no attribution.",
       "category": "Melody Generator",
       "link": "https://stocktune.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stocktune.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stocktune.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1406,7 +1406,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 4 free songs to generate AI music with custom style selection upon sign-up.",
       "category": "Melody Generator",
       "link": "https://story321.com/music",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/story321.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/story321.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1416,7 +1416,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a completely free AI music generator for creating songs.",
       "category": "Melody Generator",
       "link": "https://chromewebstore.google.com/detail/suno-ai-music-generator-f/clfadkmcbfemcnmaekijcfgaaahpbhlb",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1426,7 +1426,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 3 free generations to create AI music from text prompts.",
       "category": "Melody Generator",
       "link": "https://sunoai.ai/sunoai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoai.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoai.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1436,7 +1436,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free credit to transform ideas, emotions, or images into songs using an AI composer.",
       "category": "Melody Generator",
       "link": "https://sunoify.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoify.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoify.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1446,7 +1446,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers AI music generation from a royalty-free library, typically accessible via a free trial to start.",
       "category": "Melody Generator",
       "link": "https://www.tempolor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tempolor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tempolor.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1456,7 +1456,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers conversational AI music creation capabilities available for free or as a free trial.",
       "category": "Melody Generator",
       "link": "https://www.tunee.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tunee.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tunee.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1466,7 +1466,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 15 free credits to generate and download royalty-free AI music tracks.",
       "category": "Melody Generator",
       "link": "https://unimusic.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unimusic.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unimusic.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     }
@@ -1478,7 +1478,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants new users 60 free credits to experiment with generating music from text or images.",
       "category": "Midi Generator",
       "link": "https://musicmaker.im",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1488,7 +1488,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to transcribe up to 20 seconds of audio into sheet music, TABs, and MIDI files for free without registration.",
       "category": "Midi Generator",
       "link": "https://klang.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/klang.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/klang.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1498,7 +1498,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free limited access to its AI mastering tools and chord progression generator, allowing users to test features before subscribing.",
       "category": "Midi Generator",
       "link": "https://orbplugins.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/orbplugins.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/orbplugins.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1508,7 +1508,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Gives users 20 free credits to generate full songs with vocals using its text-to-music AI technology.",
       "category": "Midi Generator",
       "link": "https://musikalis.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musikalis.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musikalis.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1518,7 +1518,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a free tier that enables the generation of royalty-free AI tracks with one free MP3 download allowed per month.",
       "category": "Midi Generator",
       "link": "https://soundful.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundful.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundful.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1528,7 +1528,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free and unlimited access to a comprehensive online piano community, sheet music library, and various music tools without requiring user login.",
       "category": "Midi Generator",
       "link": "https://tuneonmusic.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tuneonmusic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tuneonmusic.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1538,7 +1538,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 15 free credits for new users to generate and download royalty-free AI songs and music tracks.",
       "category": "Midi Generator",
       "link": "https://unimusic.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unimusic.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unimusic.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     }
@@ -1550,7 +1550,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 8 free credits daily for generating royalty-free AI songs from text.",
       "category": "Music Generator",
       "link": "https://www.aimakesong.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimakesong.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimakesong.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1560,7 +1560,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 2 free music generations per day to create unique songs from text or lyrics.",
       "category": "Music Generator",
       "link": "https://musicgeneratorai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicgeneratorai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicgeneratorai.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1570,7 +1570,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 60 free credits for new users to generate text-to-music and image-to-music.",
       "category": "Music Generator",
       "link": "https://musicmaker.im/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1580,7 +1580,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free credits per month to generate royalty-free music effortlessly.",
       "category": "Music Generator",
       "link": "https://www.aisongmaker.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongmaker.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongmaker.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1590,7 +1590,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 8 free credits daily for generating original melodies, lyrics, and full songs.",
       "category": "Music Generator",
       "link": "https://ai-song.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-song.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-song.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1600,7 +1600,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 6 free credits per day for generating lyrics to music without sign-up.",
       "category": "Music Generator",
       "link": "https://aimusicgen.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusicgen.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusicgen.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1610,7 +1610,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 6 free songs and 3 free generations for AI music and lyrics creation without sign-up.",
       "category": "Music Generator",
       "link": "https://aisong.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisong.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisong.org-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1620,7 +1620,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 3 free downloads per month of AI-generated songs with high customizability.",
       "category": "Music Generator",
       "link": "https://www.aiva.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiva.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiva.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1630,7 +1630,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 5 free generations of AI music with a royalty-free license.",
       "category": "Music Generator",
       "link": "https://www.beatoven.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beatoven.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beatoven.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1640,7 +1640,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 free credits daily for AI music generation from text and vocal removal.",
       "category": "Music Generator",
       "link": "https://brev.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/brev.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brev.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1650,7 +1650,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free access to basic AI-powered tools including vocal removal and song splitting.",
       "category": "Music Generator",
       "link": "https://fadr.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fadr.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fadr.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1660,7 +1660,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free API access for generating text, music, and video with real-time streaming output.",
       "category": "Music Generator",
       "link": "https://kie.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kie.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kie.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1670,7 +1670,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free plan for AI voice cloning and singing generators without requiring a credit card.",
       "category": "Music Generator",
       "link": "https://kits.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kits.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kits.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1680,7 +1680,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free online access to create songs from text with royalty-free commercial licenses.",
       "category": "Music Generator",
       "link": "https://lami.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lami.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lami.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1690,7 +1690,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 1 free music download per day and provides 30-second song previews.",
       "category": "Music Generator",
       "link": "https://loudly.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/loudly.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loudly.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1700,7 +1700,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free royalty-free songs generated by AI along with a vocal remover tool.",
       "category": "Music Generator",
       "link": "https://www.makesong.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/makesong.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makesong.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1710,7 +1710,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 3 free AI music credits for text-to-music generation, splitting, and remixing.",
       "category": "Music Generator",
       "link": "https://makebestmusic.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/makebestmusic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makebestmusic.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1720,7 +1720,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free AI tools for video and image generation.",
       "category": "Music Generator",
       "link": "https://www.media.io/ai/home",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/media.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/media.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1730,7 +1730,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 5 free executions per day to create unique and amusing AI-powered content.",
       "category": "Music Generator",
       "link": "https://melobytes.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/melobytes.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/melobytes.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1740,7 +1740,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free tier for creators to generate royalty-free AI soundtracks for content.",
       "category": "Music Generator",
       "link": "https://mubert.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mubert.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mubert.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1750,7 +1750,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to create their first AI-generated song for free, transforming lyrics and prompts into music.",
       "category": "Music Generator",
       "link": "https://www.mureka.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mureka.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mureka.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1760,7 +1760,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 2 free songs and 1 free music generation per month.",
       "category": "Music Generator",
       "link": "http://www.musiccreator.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musiccreator.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musiccreator.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1770,7 +1770,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI music generation and royalty-free song covers.",
       "category": "Music Generator",
       "link": "https://www.musicful.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1780,7 +1780,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 free credits daily for AI music generation, lyrics creation, and MP4 videos.",
       "category": "Music Generator",
       "link": "https://musichero.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musichero.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musichero.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1790,7 +1790,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a free trial to try groundbreaking plugins, instruments, and fast sample finding.",
       "category": "Music Generator",
       "link": "https://output.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/output.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/output.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1800,7 +1800,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free music generation from text prompts with remixing capabilities.",
       "category": "Music Generator",
       "link": "https://www.riffusion.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/riffusion.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/riffusion.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1810,7 +1810,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to generate music from audio files and create MP4 videos.",
       "category": "Music Generator",
       "link": "https://ilovesong.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ilovesong.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ilovesong.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1820,7 +1820,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 free credits daily for text-to-music generation and lyrics without login.",
       "category": "Music Generator",
       "link": "https://songgenerator.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songgenerator.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songgenerator.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1830,7 +1830,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 1 free MP3 download per month of royalty-free AI generated tracks.",
       "category": "Music Generator",
       "link": "https://soundful.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundful.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundful.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1840,7 +1840,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI music generation and song customization for personal use.",
       "category": "Music Generator",
       "link": "https://soundraw.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundraw.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundraw.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1850,7 +1850,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 1000 free tokens for AI music generation, voice assistance, and stem separation.",
       "category": "Music Generator",
       "link": "https://www.soundverse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundverse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundverse.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1860,7 +1860,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free tools for generating images, videos, 3D models, and audio.",
       "category": "Music Generator",
       "link": "https://stability.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stability.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stability.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1870,7 +1870,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers completely free AI-generated stock music that is public-domain and requires no attribution.",
       "category": "Music Generator",
       "link": "https://stocktune.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stocktune.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stocktune.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1880,7 +1880,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free AI-generated songs daily with 12-stem WAV export capabilities.",
       "category": "Music Generator",
       "link": "https://suno.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/suno.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1890,7 +1890,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a limited number of free songs generated from text prompts in various genres.",
       "category": "Music Generator",
       "link": "https://suno-ai.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/suno-ai.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno-ai.org-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1900,7 +1900,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 4 free credits for AI music generation with a commercial license.",
       "category": "Music Generator",
       "link": "https://sunoai-music.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoai-music.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoai-music.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1910,7 +1910,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free downloads of Suno AI music without requiring login.",
       "category": "Music Generator",
       "link": "https://www.sunodownloader.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunodownloader.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunodownloader.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1920,7 +1920,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free service to fast download Suno music including MP3, lyrics, and covers.",
       "category": "Music Generator",
       "link": "https://suno-top.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/suno-top.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno-top.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1930,7 +1930,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 free credits for AI video, image, and music generation without login.",
       "category": "Music Generator",
       "link": "https://supermaker.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/supermaker.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supermaker.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1940,7 +1940,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI music and lyrics generation with royalty-free song licenses.",
       "category": "Music Generator",
       "link": "https://tad.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tad.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tad.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1950,7 +1950,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free access to conversational AI music creation and generation tools.",
       "category": "Music Generator",
       "link": "https://www.tunee.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tunee.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tunee.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1960,7 +1960,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free tier for AI vocals, text-to-speech, and custom voice clones.",
       "category": "Music Generator",
       "link": "https://uberduck.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/uberduck.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uberduck.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1970,7 +1970,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a free plan for AI music generation, editing, and export capabilities.",
       "category": "Music Generator",
       "link": "https://www.udio.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/udio.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/udio.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -1980,7 +1980,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 3 free voice generation credits for AI music covers and text-to-speech.",
       "category": "Music Generator",
       "link": "https://vocalize.fm/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalize.fm-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalize.fm-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -1990,7 +1990,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free access to top AI models like Kling and Sora for face swap and upscaling.",
       "category": "Music Generator",
       "link": "https://www.weryai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/weryai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/weryai.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2000,7 +2000,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to co-create, iterate, and produce music with AI.",
       "category": "Music Generator",
       "link": "https://www.wondera.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wondera.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wondera.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2010,7 +2010,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 100 free AI credits for AI-powered video editing and access to creative assets.",
       "category": "Music Generator",
       "link": "https://filmora.wondershare.com.br/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/filmora.wondershare.com.br-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/filmora.wondershare.com.br-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2020,7 +2020,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 500 free credits instantly plus 30 daily for generating video, images, and music.",
       "category": "Music Generator",
       "link": "https://www.tomoviee.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tomoviee.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tomoviee.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     }
@@ -2032,7 +2032,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial with 50 tokens and 1 video creation to access AI music for videos.",
       "category": "Noise Cancellation",
       "link": "https://avmapping.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/avmapping.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/avmapping.co-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2042,7 +2042,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a free trial to test AI image enhancement, super resolution, and background removal features.",
       "category": "Noise Cancellation",
       "link": "https://www.aiarty.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiarty.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiarty.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2052,7 +2052,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows one free image export per session for AI background removal and image enhancement.",
       "category": "Noise Cancellation",
       "link": "https://jp.aiarty.com/aiarty-image-matting",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jp.aiarty.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jp.aiarty.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2062,7 +2062,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 5,000 free credits to use realistic AI voices and voice cloning without sign-up.",
       "category": "Noise Cancellation",
       "link": "https://anyspeech.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/anyspeech.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anyspeech.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2072,7 +2072,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows free enhancement of audio files up to 500 MB or 5 minutes in duration.",
       "category": "Noise Cancellation",
       "link": "https://audioenhancer.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audioenhancer.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioenhancer.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2082,7 +2082,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial or limited access to explore AI music generation, audio enhancement, and vocal removal tools.",
       "category": "Noise Cancellation",
       "link": "https://audiomuse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiomuse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiomuse.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2092,7 +2092,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 10,000 free credits per month for voice cloning, noise reduction, and audio translation.",
       "category": "Noise Cancellation",
       "link": "https://www.audiopod.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiopod.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiopod.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2102,7 +2102,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enables up to 3 free vocal isolations or noise removals per month.",
       "category": "Noise Cancellation",
       "link": "https://www.audiostrip.co.uk/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiostrip.co.uk-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiostrip.co.uk-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2112,7 +2112,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to enhance video and photo quality using AI-powered editing tools.",
       "category": "Noise Cancellation",
       "link": "https://www.avclabs.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/avclabs.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/avclabs.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2122,7 +2122,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides limited free access to AI-powered video creation and automatic captioning tools.",
       "category": "Noise Cancellation",
       "link": "https://www.captions.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/captions.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/captions.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2132,7 +2132,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 30 minutes of free audio cleaning to remove filler sounds and background noise without sign-up.",
       "category": "Noise Cancellation",
       "link": "https://cleanvoice.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cleanvoice.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cleanvoice.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2142,7 +2142,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to access AI video editing features including automatic background removal and subtitles.",
       "category": "Noise Cancellation",
       "link": "https://cloudstudio.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cloudstudio.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cloudstudio.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2152,7 +2152,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows a free 30-second trial per track for vocal removal, stem splitting, and key detection.",
       "category": "Noise Cancellation",
       "link": "https://coolo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/coolo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coolo.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2162,7 +2162,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial to access noise cancellation, screen recording, and meeting minutes features.",
       "category": "Noise Cancellation",
       "link": "https://crystalsound.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/crystalsound.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crystalsound.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2172,7 +2172,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enables users to extract vocals from files for free for up to 6 minutes.",
       "category": "Noise Cancellation",
       "link": "https://multimedia.easeus.com/vocal-remover",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/multimedia.easeus.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/multimedia.easeus.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2182,7 +2182,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers limited free voice effects and filters for real-time voice changing.",
       "category": "Noise Cancellation",
       "link": "https://fliflik.com/voice-changer",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fliflik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fliflik.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2192,7 +2192,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows free processing of 1 hour of media monthly to cut silences and generate AI captions.",
       "category": "Noise Cancellation",
       "link": "https://www.gling.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gling.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gling.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2202,7 +2202,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 30-day free trial including 30 minutes per week of speech separation for hearing assistance.",
       "category": "Noise Cancellation",
       "link": "https://heardthatapp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/heardthatapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heardthatapp.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2212,7 +2212,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enables users to preview video upscaling, unblurring, and colorizing effects for free.",
       "category": "Noise Cancellation",
       "link": "https://www.hitpaw.com/hitpaw-video-enhancer.html",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hitpaw.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hitpaw.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2222,7 +2222,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free access to a selection of voice effects and filters for real-time voice changing.",
       "category": "Noise Cancellation",
       "link": "https://www.irocketx.com/voice-changer",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/irocketx.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/irocketx.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2232,7 +2232,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 1,000 words, 10 media credits, and 10 minutes of free usage for AI content creation and video generation.",
       "category": "Noise Cancellation",
       "link": "https://klyra.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/klyra.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/klyra.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2242,7 +2242,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free noise cancellation for 60 minutes per day and 2 AI note-taking sessions daily.",
       "category": "Noise Cancellation",
       "link": "https://krisp.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/krisp.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/krisp.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2252,7 +2252,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to listen to 10 minutes of extracted audio for free to evaluate the stem separation quality.",
       "category": "Noise Cancellation",
       "link": "https://www.lalal.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lalal.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lalal.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2262,7 +2262,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 minutes of free voice isolation and enhancement per month.",
       "category": "Noise Cancellation",
       "link": "https://levelr.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/levelr.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/levelr.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2272,7 +2272,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enables users to master 9 tracks for free to instantly optimize their music.",
       "category": "Noise Cancellation",
       "link": "https://masterednow.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/masterednow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/masterednow.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2282,7 +2282,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows unlimited recording and exporting of videos with a watermark for free without sign-up.",
       "category": "Noise Cancellation",
       "link": "https://motionik.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/motionik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/motionik.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2292,7 +2292,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for video editing, media conversion, and screen recording.",
       "category": "Noise Cancellation",
       "link": "https://www.movavi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/movavi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/movavi.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2302,7 +2302,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free audio recording with studio quality and AI-powered editing features.",
       "category": "Noise Cancellation",
       "link": "https://podcastle.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podcastle.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podcastle.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2312,7 +2312,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 60 minutes of free processing time for AI video clipping and captioning.",
       "category": "Noise Cancellation",
       "link": "https://reap.video/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reap.video-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reap.video-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2322,7 +2322,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 14-day free trial to access AI-powered cloud communication and omnichannel support.",
       "category": "Noise Cancellation",
       "link": "https://www.ringflow.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ringflow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ringflow.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2332,7 +2332,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 30 minutes of free access to an all-in-one podcasting platform with AI audio enhancement.",
       "category": "Noise Cancellation",
       "link": "https://www.shanda.studio/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/shanda.studio-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shanda.studio-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2342,7 +2342,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 1 hour of free processing to remove background noise from audio and video files.",
       "category": "Noise Cancellation",
       "link": "https://simpleclean.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/simpleclean.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simpleclean.app-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2352,7 +2352,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free access to lossless cutting tools with AI transcripts and silence removal features.",
       "category": "Noise Cancellation",
       "link": "https://smartmediacutter.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/smartmediacutter.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartmediacutter.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2362,7 +2362,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free credits to automatically trim silent parts and generate video shorts.",
       "category": "Noise Cancellation",
       "link": "https://snapy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/snapy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snapy.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2372,7 +2372,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free audio uploads and a 1-day trial for AI stem separation and processing.",
       "category": "Noise Cancellation",
       "link": "https://splitter.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/splitter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/splitter.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2382,7 +2382,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants $10 in free credits to use for multistreaming and disconnect protection services.",
       "category": "Noise Cancellation",
       "link": "https://streamrun.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/streamrun.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/streamrun.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2392,7 +2392,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free credits to test super resolution, face enhancement, and tone adjustments.",
       "category": "Noise Cancellation",
       "link": "https://supares.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/supares.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supares.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2402,7 +2402,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for users to test AI accent neutralization and noise cancellation features.",
       "category": "Noise Cancellation",
       "link": "https://tomato.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tomato.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tomato.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2412,7 +2412,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows up to 3 free audio or video transcriptions daily with high accuracy.",
       "category": "Noise Cancellation",
       "link": "https://turboscribe.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/turboscribe.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/turboscribe.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2422,7 +2422,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day free trial with 3 free uses per module for video upscaling and audio upmixing.",
       "category": "Noise Cancellation",
       "link": "https://unifab.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unifab.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unifab.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2432,7 +2432,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free 30-second voice test to experience real-time accent filtering and noise reduction.",
       "category": "Noise Cancellation",
       "link": "https://utell.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/utell.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/utell.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2442,7 +2442,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 3 free trials for video upscaling and smoothing features.",
       "category": "Noise Cancellation",
       "link": "https://vance.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vance.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vance.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2452,7 +2452,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free credits upon sign-up to generate AI videos from photos with emotion control.",
       "category": "Noise Cancellation",
       "link": "https://www.visionstory.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/visionstory.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/visionstory.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2462,7 +2462,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free access to AI video enhancement and transformation tools without requiring sign-up.",
       "category": "Noise Cancellation",
       "link": "https://vmake.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vmake.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vmake.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2472,7 +2472,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 200 free credits to remove background noise and isolate vocals from audio files.",
       "category": "Noise Cancellation",
       "link": "https://www.voiceisolator.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voiceisolator.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiceisolator.org-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2482,7 +2482,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 100 free AI credits to experience AI-powered video editing and creative assets.",
       "category": "Noise Cancellation",
       "link": "https://filmora.wondershare.com.br/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/filmora.wondershare.com.br-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/filmora.wondershare.com.br-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2492,7 +2492,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial to test video conversion, compression, and AI tools.",
       "category": "Noise Cancellation",
       "link": "https://videoconverter.wondershare.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/videoconverter.wondershare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videoconverter.wondershare.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -2502,7 +2502,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides up to 30 minutes of free audio cleaning and background noise removal without requiring an account.",
       "category": "Noise Cancellation",
       "link": "https://xound.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/xound.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xound.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2512,7 +2512,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a completely free video creation app with filters, effects, royalty-free music, and auto-captions.",
       "category": "Noise Cancellation",
       "link": "https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.producer",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2522,7 +2522,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 40 minutes of free real-time voice translation per month.",
       "category": "Noise Cancellation",
       "link": "https://ztalk.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ztalk.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ztalk.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -2532,7 +2532,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Revolutionary AI-powered vocal separation and audio isolation technology that precisely extracts vocals and instrumentals from any audio track. Advanced stem separation capabilities deliver professional-quality results in seconds.",
       "category": "Noise Cancellation",
       "link": "https://www.lalal.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lalal.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lalal.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 9.8
     }
@@ -2545,7 +2545,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers access to AI voice cloning, singing generators, and mastering without requiring a credit card.",
             "category": "Singing Generator",
             "link": "https://kits.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/kits.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kits.ai-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 9.8
         },
@@ -2555,7 +2555,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 60 free seconds of audio credit to swap your vocals with those of iconic singers.",
             "category": "Singing Generator",
             "link": "https://voice-swap.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/voice-swap.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voice-swap.ai-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 9.7
         },
@@ -2565,7 +2565,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 60 free credits for new users to generate music from text or images.",
             "category": "Singing Generator",
             "link": "https://musicmaker.im/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2575,7 +2575,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI music and singing voice generation with custom lyrics and styles.",
             "category": "Singing Generator",
             "link": "https://aisinging.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aisinging.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisinging.ai-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 6
         },
@@ -2585,7 +2585,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10 free credits per month to generate royalty-free music effortlessly.",
             "category": "Singing Generator",
             "link": "https://www.aisongmaker.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongmaker.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongmaker.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2595,7 +2595,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free AI music generation from text or voice with MP3 and MP4 download options.",
             "category": "Singing Generator",
             "link": "https://suno-ai.me/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/suno-ai.me-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno-ai.me-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2605,7 +2605,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 15 free minutes of conversions to transform vocals with royalty-free voices.",
             "category": "Singing Generator",
             "link": "https://audimee.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audimee.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audimee.com-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 8
         },
@@ -2615,7 +2615,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 1 free song upon signup for AI music with lyrics, vocals, and native language support.",
             "category": "Singing Generator",
             "link": "https://creatorry.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/creatorry.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/creatorry.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2625,7 +2625,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 3 free AI music credits for text-to-music and AI singing generation.",
             "category": "Singing Generator",
             "link": "https://generatesongai.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/generatesongai.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/generatesongai.com-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 6
         },
@@ -2635,7 +2635,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free access to convert lyrics, text, or images to songs across 400+ genres.",
             "category": "Singing Generator",
             "link": "https://insmelo.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/insmelo.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insmelo.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2645,7 +2645,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 1 free voice clone and 4 free samples to transform songs using your own voice.",
             "category": "Singing Generator",
             "link": "https://instantsinger.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/instantsinger.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instantsinger.com-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 8
         },
@@ -2655,7 +2655,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10 free credits for AI image and video generation with viral effects.",
             "category": "Singing Generator",
             "link": "https://loova.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/loova.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loova.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2665,7 +2665,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10 free credits for text-to-music generation and lyrics-to-music conversion without sign-up.",
             "category": "Singing Generator",
             "link": "https://lyria3-ai.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/lyria3-ai.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyria3-ai.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2675,7 +2675,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Is free to try online for generating 3-minute full-length songs with structural awareness.",
             "category": "Singing Generator",
             "link": "https://lyria3pro.pro/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/lyria3pro.pro-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyria3pro.pro-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2685,7 +2685,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial to transform lyrics into songs with professional vocals and multi-genre support.",
             "category": "Singing Generator",
             "link": "https://lyricstosong.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/lyricstosong.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyricstosong.io-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 6
         },
@@ -2695,7 +2695,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free AI music credits for text-to-music generation, splitting, and remixing.",
             "category": "Singing Generator",
             "link": "https://makebestmusic.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/makebestmusic.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makebestmusic.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2705,7 +2705,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10 free generations per month for professional text-to-music AI beats.",
             "category": "Singing Generator",
             "link": "https://musicfx.net/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musicfx.net-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicfx.net-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2715,7 +2715,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI music generation, AI song covers, and royalty-free music.",
             "category": "Singing Generator",
             "link": "https://www.musicful.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2725,7 +2725,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial to create royalty-free AI music, including beats, lyrics, and vocals.",
             "category": "Singing Generator",
             "link": "https://musicstar.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musicstar.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicstar.ai-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 6
         },
@@ -2735,7 +2735,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for voice cloning, AI singing, and text-to-speech features.",
             "category": "Singing Generator",
             "link": "https://www.myvocal.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/myvocal.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myvocal.ai-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 6
         },
@@ -2745,7 +2745,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 5 free conversion minutes per month and 1 starter AI voice to create studio-quality vocals.",
             "category": "Singing Generator",
             "link": "https://www.revocalize.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/revocalize.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revocalize.ai-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 6
         },
@@ -2755,7 +2755,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free credits to create unique AI music tracks across various genres.",
             "category": "Singing Generator",
             "link": "https://singify.fineshare.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/fineshare.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fineshare.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2765,7 +2765,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 3 free song generations per day to create music from text.",
             "category": "Singing Generator",
             "link": "https://song.do/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/song.do-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/song.do-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2775,7 +2775,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial to generate music from audio files and create MP4 videos and MP3 songs.",
             "category": "Singing Generator",
             "link": "https://ilovesong.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/ilovesong.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ilovesong.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2785,7 +2785,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a 7-day free trial for text-to-vocals, AI lyric generation, and personalized music videos.",
             "category": "Singing Generator",
             "link": "https://songbot.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/songbot.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songbot.ai-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 6
         },
@@ -2795,7 +2795,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 4 free songs for AI music generation with custom style selection.",
             "category": "Singing Generator",
             "link": "https://story321.com/music",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/story321.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/story321.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2805,7 +2805,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows you to start for free to create singing pet videos and talking pet messages.",
             "category": "Singing Generator",
             "link": "https://talkingpets.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/talkingpets.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/talkingpets.ai-128x128__Estimated_.png",
             "icon": "Video",
             "score": 6
         },
@@ -2815,7 +2815,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for text-to-song and lyrics-to-music conversion with a commercial license.",
             "category": "Singing Generator",
             "link": "https://texttosong.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/texttosong.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/texttosong.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2825,7 +2825,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 200 free sound tokens for voice conversion, music separation, and custom voice cloning.",
             "category": "Singing Generator",
             "link": "https://www.toneshift.cc/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/toneshift.cc-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/toneshift.cc-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 8
         },
@@ -2835,7 +2835,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 15 free credits for AI music and song generation with royalty-free tracks.",
             "category": "Singing Generator",
             "link": "https://unimusic.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/unimusic.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unimusic.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2845,7 +2845,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free AI voice clones and 10 free audio clips per month with blockchain-based ownership.",
             "category": "Singing Generator",
             "link": "https://www.vagabondai.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/vagabondai.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vagabondai.com-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 8
         },
@@ -2855,7 +2855,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 15 free downloads per month for AI voice-to-voice generation with access to AI artists.",
             "category": "Singing Generator",
             "link": "https://vocs.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/vocs.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocs.ai-128x128__Estimated_.png",
             "icon": "Mic2",
             "score": 8
         }
@@ -2869,7 +2869,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free AI-generated songs daily with 12-stem WAV export capabilities.",
             "category": "Song Generator",
             "link": "https://suno.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/suno.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2879,7 +2879,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides a free plan for AI music generation, editing, and export capabilities.",
             "category": "Song Generator",
             "link": "https://www.udio.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/udio.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/udio.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2889,7 +2889,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 8 free credits per day for AI text-to-music generation and royalty-free music.",
             "category": "Music Generator",
             "link": "https://www.aimakesong.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aimakesong.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimakesong.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2899,7 +2899,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides a free trial with 2 generations per day for AI music creation with MP3 download.",
             "category": "Music Generator",
             "link": "https://ai-music-generator.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-music-generator.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-music-generator.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2909,7 +2909,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Is free to use for creating custom music with two flexible creation modes.",
             "category": "Music Generator",
             "link": "https://aisonggenerator.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aisonggenerator.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisonggenerator.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2919,7 +2919,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 6 free credits daily (equivalent to 4 songs) for AI music generation.",
             "category": "Music Generator",
             "link": "https://automusic.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/automusic.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automusic.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2929,7 +2929,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 8 free credits daily to generate original melodies, lyrics, and full songs without login.",
             "category": "Music Generator",
             "link": "https://ai-song.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-song.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-song.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2939,7 +2939,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers new users 150 free tokens to generate high-quality music from text, images, or lyrics.",
             "category": "Music Generator",
             "link": "https://aimusic.fm/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusic.fm-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusic.fm-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2949,7 +2949,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 6 free credits per day for generating 4-minute songs from text or lyrics without sign-up.",
             "category": "Music Generator",
             "link": "https://aimusicgen.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusicgen.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusicgen.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2959,7 +2959,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 6 free songs and 3 free generations for AI music and lyrics creation without sign-up.",
             "category": "Music Generator",
             "link": "https://aisong.org/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aisong.org-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisong.org-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2969,7 +2969,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 3 free downloads per month of AI-generated songs with high customizability.",
             "category": "Music Generator",
             "link": "https://www.aiva.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aiva.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiva.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2979,7 +2979,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI music generation and song creation.",
             "category": "Music Generator",
             "link": "https://anymusic.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/anymusic.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anymusic.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -2989,7 +2989,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 90 free generations (3 per day) of full-length AI songs with vocals and accompaniment.",
             "category": "Music Generator",
             "link": "https://diffrhythm.ai",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/diffrhythm.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/diffrhythm.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -2999,7 +2999,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 4 free songs per day for AI music and lyrics generation.",
             "category": "Music Generator",
             "link": "https://www.gsong.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/gsong.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gsong.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3009,7 +3009,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free access to convert lyrics, text, or images to songs across 400+ genres.",
             "category": "Music Generator",
             "link": "https://insmelo.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/insmelo.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insmelo.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3019,7 +3019,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial to transform lyrics into songs with professional vocals and multi-genre support.",
             "category": "Music Generator",
             "link": "https://lyricstosong.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/lyricstosong.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyricstosong.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3029,7 +3029,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free credits per month (equivalent to 4 songs) for AI song generation.",
             "category": "Music Generator",
             "link": "https://lyricstosongai.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/lyricstosongai.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyricstosongai.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3039,7 +3039,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free royalty-free songs generated by AI along with vocal removal features.",
             "category": "Music Generator",
             "link": "https://www.makesong.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/makesong.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makesong.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3049,7 +3049,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free AI music credits for text-to-music generation, splitting, and remixing.",
             "category": "Music Generator",
             "link": "https://makebestmusic.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/makebestmusic.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makebestmusic.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3059,7 +3059,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free preview and test for AI music generation with professional vocal synthesis.",
             "category": "Music Generator",
             "link": "https://meloflow.ai",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/meloflow.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/meloflow.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3069,7 +3069,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers unlimited AI soundtrack generation and 20 free credits per month for copyright-free music creation.",
             "category": "Music Generator",
             "link": "https://mix.audio/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/mix.audio-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mix.audio-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3079,7 +3079,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows users to create their first AI-generated song for free, transforming lyrics and prompts into music.",
             "category": "Music Generator",
             "link": "https://www.mureka.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/mureka.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mureka.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3089,7 +3089,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10 free text-to-music generations per month to create professional AI beats.",
             "category": "Music Generator",
             "link": "https://musicfx.net/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musicfx.net-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicfx.net-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3099,7 +3099,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free credits daily for one-prompt AI song creation.",
             "category": "Music Generator",
             "link": "https://www.musicmuse.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmuse.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmuse.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3109,7 +3109,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 2 free songs and 1 free music generation per month using AI.",
             "category": "Music Generator",
             "link": "http://www.musiccreator.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musiccreator.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musiccreator.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3119,7 +3119,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 90 free generations (3 per day) for AI music and song creation without login.",
             "category": "Music Generator",
             "link": "https://musick.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musick.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musick.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3129,7 +3129,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI music generation and composition.",
             "category": "Music Generator",
             "link": "https://nafy.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/nafy.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nafy.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3139,7 +3139,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers unlimited free music generation from text prompts with remixing capabilities.",
             "category": "Music Generator",
             "link": "https://www.riffusion.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/riffusion.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/riffusion.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3149,7 +3149,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free credits to create unique AI music tracks across various genres.",
             "category": "Music Generator",
             "link": "https://singify.fineshare.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/singify.fineshare.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/singify.fineshare.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3159,7 +3159,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 3 free song generations per day to create music from text.",
             "category": "Music Generator",
             "link": "https://song.do/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/song.do-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/song.do-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3169,7 +3169,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial or free tier to generate music from audio files and create MP4 videos and MP3 songs.",
             "category": "Music Generator",
             "link": "https://ilovesong.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/ilovesong.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ilovesong.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3179,7 +3179,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 free credits per day for text-to-music generation, lyrics creation, and vocal removal.",
             "category": "Music Generator",
             "link": "https://songgenerator.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/songgenerator.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songgenerator.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3189,7 +3189,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free creation of custom songs from keywords or lyrics in under a minute.",
             "category": "Music Generator",
             "link": "https://www.songr.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/songr.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songr.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3199,7 +3199,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides free credits to use the AI music studio for generating professional tracks.",
             "category": "Music Generator",
             "link": "https://sonurastudio.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/sonurastudio.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonurastudio.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3209,7 +3209,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 1 free MP3 download per month of royalty-free AI generated tracks.",
             "category": "Music Generator",
             "link": "https://soundful.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/soundful.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundful.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3219,7 +3219,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI music generation, song customization, and royalty-free music.",
             "category": "Music Generator",
             "link": "https://soundraw.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/soundraw.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundraw.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3229,7 +3229,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 1,000 free tokens for AI music generation, voice assistance, and stem separation.",
             "category": "Music Generator",
             "link": "https://www.soundverse.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/soundverse.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundverse.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3239,7 +3239,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers completely free AI-generated stock music that is public-domain and requires no attribution.",
             "category": "Music Generator",
             "link": "https://stocktune.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/stocktune.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stocktune.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3249,7 +3249,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 4 free AI-generated songs with custom style selection.",
             "category": "Music Generator",
             "link": "https://story321.com/music",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/story321.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/story321.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3259,7 +3259,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a limited number of free songs generated from text prompts in various genres.",
             "category": "Music Generator",
             "link": "https://suno-ai.org/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/suno-ai.org-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno-ai.org-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3269,7 +3269,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 4 free credits for AI music generation with a commercial license.",
             "category": "Music Generator",
             "link": "https://sunoai-music.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoai-music.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoai-music.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3279,7 +3279,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides a free trial for AI music generation from text prompts.",
             "category": "Music Generator",
             "link": "https://sunoaimusical.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoaimusical.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoaimusical.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3289,7 +3289,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free high-quality downloads of Suno music without registration.",
             "category": "Music Generator",
             "link": "https://sunodownload.net/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/sunodownload.net-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunodownload.net-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3299,7 +3299,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free service to fast download Suno music including MP3, lyrics, and covers.",
             "category": "Music Generator",
             "link": "https://suno-top.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/suno-top.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno-top.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3309,7 +3309,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 2 free music generation opportunities daily with download capabilities.",
             "category": "Music Generator",
             "link": "https://sunocc.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/sunocc.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunocc.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3319,7 +3319,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI music and lyrics generation with royalty-free song licenses.",
             "category": "Music Generator",
             "link": "https://tad.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/tad.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tad.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3329,7 +3329,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI music generation and access to a royalty-free music library.",
             "category": "Music Generator",
             "link": "https://www.tempolor.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/tempolor.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tempolor.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3339,7 +3339,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free access to conversational AI music creation and generation tools.",
             "category": "Music Generator",
             "link": "https://www.tunee.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/tunee.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tunee.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3349,7 +3349,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free credits for AI music and song generation, lyrics creation, and vocal separation.",
             "category": "Music Generator",
             "link": "https://vozart.ai",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/vozart.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vozart.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         }
@@ -3363,7 +3363,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows creation of 2 free custom sound effects instantly using AI Text-to-Sound technology.",
             "category": "Sound Effect Generator",
             "link": "https://soundeffectgenerator.org/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/soundeffectgenerator.org-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundeffectgenerator.org-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3373,7 +3373,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows making sounds for free with unlimited high-quality AI sound generation and text-to-sound effect creation.",
             "category": "Sound Effect Generator",
             "link": "https://www.optimizerai.xyz/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/optimizerai.xyz-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/optimizerai.xyz-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3383,7 +3383,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides a 14-day free trial with 50 tokens and 1 video creation for AI music mapping and film scoring.",
             "category": "Sound Effect Generator",
             "link": "https://avmapping.co/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/avmapping.co-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/avmapping.co-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3393,7 +3393,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI-powered audio generation and video-based sound effects.",
             "category": "Sound Effect Generator",
             "link": "https://adorno.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/adorno.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/adorno.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3403,7 +3403,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial to create high-quality ASMR videos with synchronized audio and visuals.",
             "category": "Sound Effect Generator",
             "link": "https://aiasmr.so/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aiasmr.so-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiasmr.so-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3413,7 +3413,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 60 free credits for new users to generate music from text or images.",
             "category": "Sound Effect Generator",
             "link": "https://musicmaker.im/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3423,7 +3423,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 50 free credits to use AI tools for scripting, designing, and producing films.",
             "category": "Sound Effect Generator",
             "link": "https://www.aiflixhub.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aiflixhub.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiflixhub.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3433,7 +3433,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a 10,000 credit signup bonus to generate scripts, voiceovers, visuals, and complete videos.",
             "category": "Sound Effect Generator",
             "link": "https://aivideo.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aivideo.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aivideo.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3443,7 +3443,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10,000 free tokens for AI video, image, music, audio effect, and content generation.",
             "category": "Sound Effect Generator",
             "link": "https://useapollo.app/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/useapollo.app-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/useapollo.app-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3453,7 +3453,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 100 free generations per month for state-of-the-art text-to-audio generation and royalty-free sounds.",
             "category": "Sound Effect Generator",
             "link": "https://www.audiogen.co/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audiogen.co-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiogen.co-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3463,7 +3463,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 30 free generations to transform inspiration into professional audio, music, and sound effects.",
             "category": "Sound Effect Generator",
             "link": "https://audiox.app/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audiox.app-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiox.app-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3473,7 +3473,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 free credits for creating AI animation videos with character and style consistency.",
             "category": "Sound Effect Generator",
             "link": "https://autodraft.in/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/autodraft.in-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autodraft.in-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3483,7 +3483,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 100 free credits for the AI music video generator with a music auto-sync engine.",
             "category": "Sound Effect Generator",
             "link": "https://beatviz.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/beatviz.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beatviz.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3493,7 +3493,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 free credits daily for AI music generation from text and vocal removal without sign-up.",
             "category": "Sound Effect Generator",
             "link": "https://brev.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/brev.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brev.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3503,7 +3503,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free access to personalized soundscapes based on weather and environment to help relax or concentrate.",
             "category": "Sound Effect Generator",
             "link": "https://www.getsound.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/getsound.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getsound.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3513,7 +3513,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free AI-powered sound customization for creating personalized alarms.",
             "category": "Sound Effect Generator",
             "link": "https://clockalarmonline.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/clockalarmonline.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clockalarmonline.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3523,7 +3523,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides unlimited free stock videos and music in HD & 4K without requiring sign-up.",
             "category": "Sound Effect Generator",
             "link": "https://coverr.co/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/coverr.co-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coverr.co-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3533,7 +3533,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10,000 free credits per month for realistic text-to-speech and AI voice generation.",
             "category": "Sound Effect Generator",
             "link": "https://elevenlabs.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/elevenlabs.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/elevenlabs.io-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3543,7 +3543,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers limited free voice effects for real-time voice changing with over 100 filters and 150 soundboard effects.",
             "category": "Sound Effect Generator",
             "link": "https://fliflik.com/voice-changer",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/fliflik.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fliflik.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3553,7 +3553,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free text-to-sound effects generation with high-quality audio without requiring sign-up.",
             "category": "Sound Effect Generator",
             "link": "https://gensfx.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/gensfx.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gensfx.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3563,7 +3563,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows creation of 2 free GIFs with automatically added smart sound effects.",
             "category": "Sound Effect Generator",
             "link": "https://gifwithsound.net/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/gifwithsound.net-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gifwithsound.net-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3573,7 +3573,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for AI image, video, and content generation tools.",
             "category": "Sound Effect Generator",
             "link": "https://imaginestudios.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/imaginestudios.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imaginestudios.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3583,7 +3583,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for real-time AI voice changing with 100,000+ voice effects.",
             "category": "Sound Effect Generator",
             "link": "https://www.irocketx.com/voice-changer",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/irocketx.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/irocketx.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3593,7 +3593,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free daily credits for text-to-video generation with native audio support.",
             "category": "Sound Effect Generator",
             "link": "https://kling26ai.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/kling26ai.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kling26ai.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3603,7 +3603,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free AI video and image generation tools.",
             "category": "Sound Effect Generator",
             "link": "https://www.media.io/ai/home",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/media.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/media.io-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3613,7 +3613,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 1 free trial per day for image-to-video, professional AI voiceovers, and video-to-audio synthesis.",
             "category": "Sound Effect Generator",
             "link": "https://www.mmaudio.pro/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/mmaudio.pro-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mmaudio.pro-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3623,7 +3623,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 1 free trial per day for AI-powered video-to-audio synthesis and environmental sound generation.",
             "category": "Sound Effect Generator",
             "link": "https://mmaudio.net/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/mmaudio.net-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mmaudio.net-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3633,7 +3633,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 free credits daily for AI music generation, lyrics creation, and MP4 lyric videos without sign-up.",
             "category": "Sound Effect Generator",
             "link": "https://musichero.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musichero.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musichero.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3643,7 +3643,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial to try groundbreaking plugins, instruments, and legendary FX.",
             "category": "Sound Effect Generator",
             "link": "https://output.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/output.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/output.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3653,7 +3653,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 3 free trials to transform multi-modal inputs into stunning AI videos from text and photos.",
             "category": "Sound Effect Generator",
             "link": "https://pixverse.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/pixverse.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pixverse.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3663,7 +3663,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 5 free credits per day (upon login) for multi-modal AI video generation with precise motion control.",
             "category": "Sound Effect Generator",
             "link": "https://seedance-2.org/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/seedance-2.org-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/seedance-2.org-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3673,7 +3673,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 1 daily free credit for multi-modal AI video generation with universal reference.",
             "category": "Sound Effect Generator",
             "link": "https://seedance-2.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/seedance-2.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/seedance-2.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3683,7 +3683,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 3 free credits for generating 100% royalty-free AI sound effects.",
             "category": "Sound Effect Generator",
             "link": "https://sfxengine.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/sfxengine.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sfxengine.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3693,7 +3693,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 free credits per day for text-to-music generation, lyrics creation, and vocal removal.",
             "category": "Sound Effect Generator",
             "link": "https://songgenerator.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/songgenerator.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songgenerator.io-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3703,7 +3703,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 1 free production (20 credits) for AI-powered audio production with automatic script and mixing.",
             "category": "Sound Effect Generator",
             "link": "https://sonificalabs.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/sonificalabs.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonificalabs.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3713,7 +3713,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free credits per month to generate unique AI sound effects instead of extracting them from videos.",
             "category": "Sound Effect Generator",
             "link": "https://www.image-effects.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/image-effects.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/image-effects.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3723,7 +3723,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 3 free sound effect generations to create unique audio from text descriptions.",
             "category": "Sound Effect Generator",
             "link": "https://soundifytext.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/soundifytext.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundifytext.io-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3733,7 +3733,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free access to generative AI tools for text-to-sound and infinite sample packs.",
             "category": "Sound Effect Generator",
             "link": "https://soundry.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/soundry.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundry.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3743,7 +3743,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free credits per month for high-quality music and sound effects creation.",
             "category": "Sound Effect Generator",
             "link": "https://stableaudio.net/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/stableaudio.net-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stableaudio.net-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3753,7 +3753,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free generation of audio samples up to 47 seconds using an open-source text-to-audio model.",
             "category": "Sound Effect Generator",
             "link": "https://stable-audio-open.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/stable-audio-open.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stable-audio-open.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3763,7 +3763,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free access to generate and download AI music using the Suno platform.",
             "category": "Sound Effect Generator",
             "link": "https://suno.works/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/suno.works-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno.works-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3773,7 +3773,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free credits for AI video generation with audio sync and cinematic control.",
             "category": "Sound Effect Generator",
             "link": "https://nano-banana.io/veo3-1",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/nano-banana.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nano-banana.io-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3783,7 +3783,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial to instantly generate unique, 100% royalty-free samples, loops, and one-shots.",
             "category": "Sound Effect Generator",
             "link": "https://vertate.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/vertate.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vertate.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3793,7 +3793,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free version for personal use featuring a real-time voice changer, soundboard, and voice creation tools.",
             "category": "Sound Effect Generator",
             "link": "https://www.voicemod.net/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemod.net-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemod.net-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3803,7 +3803,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free credits for AI music generation, lyrics creation, and vocal separation.",
             "category": "Sound Effect Generator",
             "link": "https://vozart.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/vozart.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vozart.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3813,7 +3813,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free PDF reader and online AI-powered tools for video and content creation.",
             "category": "Sound Effect Generator",
             "link": "https://wondershare.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/wondershare.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wondershare.com-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 6
         },
@@ -3823,7 +3823,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 500 free credits instantly plus 30 daily for generating video, images, music, and sound.",
             "category": "Sound Effect Generator",
             "link": "https://www.tomoviee.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/tomoviee.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tomoviee.ai-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         },
@@ -3833,7 +3833,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free points upon registration for text-to-video, text-to-image, and text-to-music generation.",
             "category": "Sound Effect Generator",
             "link": "https://www.tomoviee.cn/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/tomoviee.cn-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tomoviee.cn-128x128__Estimated_.png",
             "icon": "Volume2",
             "score": 8
         }
@@ -3847,7 +3847,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 10 minutes of free listening to extracted vocals and stems using precise music source separation.",
             "category": "Vocal Remover",
             "link": "https://www.lalal.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/lalal.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lalal.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3857,7 +3857,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free plan with access to AI audio separation, a smart metronome, and audio speed/pitch adjustment tools.",
             "category": "Vocal Remover",
             "link": "https://moises.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/moises.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moises.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3867,7 +3867,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 8 free credits per day for AI song generation and royalty-free music.",
             "category": "Vocal Remover",
             "link": "https://www.aimakesong.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aimakesong.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimakesong.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3877,7 +3877,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 2 free music generations per day to create unique songs from text or lyrics.",
             "category": "Vocal Remover",
             "link": "https://musicgeneratorai.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musicgeneratorai.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicgeneratorai.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3887,7 +3887,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free credits per month to generate royalty-free music effortlessly.",
             "category": "Vocal Remover",
             "link": "https://www.aisongmaker.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongmaker.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongmaker.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3897,7 +3897,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial with access to 1,000+ free voices for AI voice generation and cloning.",
             "category": "Vocal Remover",
             "link": "https://aivocal.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aivocal.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aivocal.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3907,7 +3907,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 6 free songs and 3 free generations for AI music and lyrics creation.",
             "category": "Vocal Remover",
             "link": "https://aisong.org/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/aisong.org-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisong.org-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3917,7 +3917,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides free credits for AI song generation and royalty-free music creation.",
             "category": "Vocal Remover",
             "link": "https://anymelo.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/anymelo.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anymelo.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3927,7 +3927,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 15 free minutes of conversions to transform vocals with royalty-free voices.",
             "category": "Vocal Remover",
             "link": "https://audimee.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audimee.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audimee.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3937,7 +3937,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free enhancement for audio files under 500MB and 5 minutes, including noise and vocal removal.",
             "category": "Vocal Remover",
             "link": "https://audioenhancer.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audioenhancer.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioenhancer.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3947,7 +3947,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free tier for AI music generation, audio enhancement, and vocal removal.",
             "category": "Vocal Remover",
             "link": "https://audiomuse.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audiomuse.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiomuse.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3957,7 +3957,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10,000 free credits per month for voice cloning, noise reduction, and audio translation.",
             "category": "Vocal Remover",
             "link": "https://www.audiopod.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audiopod.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiopod.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3967,7 +3967,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial for stem separation and lyric transcription services.",
             "category": "Vocal Remover",
             "link": "https://audioshake.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audioshake.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioshake.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3977,7 +3977,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 3 free vocal isolations per month with noise removal capabilities.",
             "category": "Vocal Remover",
             "link": "https://www.audiostrip.co.uk/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/audiostrip.co.uk-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiostrip.co.uk-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -3987,7 +3987,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 free credits per day for AI music generation from text and vocal removal without sign-up.",
             "category": "Vocal Remover",
             "link": "https://brev.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/brev.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brev.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -3997,7 +3997,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free trial processing 30 seconds per track for AI vocal removal and stem splitting.",
             "category": "Vocal Remover",
             "link": "https://coolo.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/coolo.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coolo.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4007,7 +4007,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides free access to an AI vocal remover and splitter tool without requiring registration.",
             "category": "Vocal Remover",
             "link": "https://devoice.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/devoice.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/devoice.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4017,7 +4017,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides free rotating voices for real-time AI voice changing and soundboard effects.",
             "category": "Vocal Remover",
             "link": "https://dubbingai.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/dubbingai.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dubbingai.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4027,7 +4027,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides a free version or trial for data recovery, backup, and partition management software.",
             "category": "Vocal Remover",
             "link": "https://www.easeus.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/easeus.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easeus.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4037,7 +4037,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 6 minutes of free usage to extract vocals from video or audio files.",
             "category": "Vocal Remover",
             "link": "https://multimedia.easeus.com/vocal-remover",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/multimedia.easeus.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/multimedia.easeus.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4047,7 +4047,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers unlimited free mastering previews for audio tracks created by Grammy-winning technology.",
             "category": "Vocal Remover",
             "link": "https://emastered.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/emastered.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/emastered.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4057,7 +4057,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides unlimited free access to basic AI-powered features including vocal removal and song splitting.",
             "category": "Vocal Remover",
             "link": "https://fadr.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/fadr.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fadr.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4067,7 +4067,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free credits for text-to-music generation and vocal removal.",
             "category": "Vocal Remover",
             "link": "https://www.generatoraimusic.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/generatoraimusic.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/generatoraimusic.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4077,7 +4077,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 4 free songs per day for AI song generation and lyrics creation.",
             "category": "Vocal Remover",
             "link": "https://www.gsong.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/gsong.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gsong.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4087,7 +4087,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free plan for AI voice cloning, singing generators, and mastering without requiring a credit card.",
             "category": "Vocal Remover",
             "link": "https://kits.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/kits.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kits.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4097,7 +4097,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 minutes of free usage per month for AI voice isolation, enhancement, and audio mastering.",
             "category": "Vocal Remover",
             "link": "https://levelr.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/levelr.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/levelr.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4107,7 +4107,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 10 free royalty-free songs generated by AI along with vocal removal.",
             "category": "Vocal Remover",
             "link": "https://www.makesong.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/makesong.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makesong.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4117,7 +4117,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free AI music credits for text-to-music generation, splitting, and remixing.",
             "category": "Vocal Remover",
             "link": "https://makebestmusic.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/makebestmusic.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makebestmusic.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4127,7 +4127,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers ultra-realistic AI voice generation in over 30 languages with the ability to read files and handle long text.",
             "category": "Vocal Remover",
             "link": "https://www.minimax.io/audio",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/minimax.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/minimax.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4137,7 +4137,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers free 48-hour temporary storage and 2 concurrent processing jobs for stem separation and classification.",
             "category": "Vocal Remover",
             "link": "https://music.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/music.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/music.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4147,7 +4147,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 free credits daily for AI music generation, lyrics creation, and MP4 lyric videos.",
             "category": "Vocal Remover",
             "link": "https://musichero.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/musichero.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musichero.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4157,7 +4157,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 10 free video exports per month with AI-powered vocal removal and real-time previews.",
             "category": "Vocal Remover",
             "link": "https://www.mykaraoke.video/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/mykaraoke.video-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mykaraoke.video-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4167,7 +4167,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 3 free songs per day for royalty-free music generation and AI vocal removal.",
             "category": "Vocal Remover",
             "link": "https://nafy.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/nafy.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nafy.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4177,7 +4177,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Enables free conversion of up to 70 audio files per day, including batch conversion and audio extraction from video.",
             "category": "Vocal Remover",
             "link": "https://online-audio-converter.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/online-audio-converter.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/online-audio-converter.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4187,7 +4187,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 2GB of free cloud storage, 5 free files, and a 1-minute AI feature trial for speech-to-text and video translation.",
             "category": "Vocal Remover",
             "link": "https://reccloud.cn/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/reccloud.cn-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reccloud.cn-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4197,7 +4197,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a limited number of free transformations per month to revitalize playlists with AI vocal removal.",
             "category": "Vocal Remover",
             "link": "https://remixly.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/remixly.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/remixly.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4207,7 +4207,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows separation of voice from music for 1 song per day for free.",
             "category": "Vocal Remover",
             "link": "https://vocalremover.co/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalremover.co-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalremover.co-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4217,7 +4217,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 3 free credits to create unique tracks across various genres using AI music and song generation.",
             "category": "Vocal Remover",
             "link": "https://singify.fineshare.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/singify.fineshare.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/singify.fineshare.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4227,7 +4227,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows cleaning 2 songs for free by automatically detecting and removing explicit lyrics.",
             "category": "Vocal Remover",
             "link": "https://songcleaner.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/songcleaner.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songcleaner.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4237,7 +4237,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 20 free credits per day for text-to-music generation, lyrics creation, and vocal removal.",
             "category": "Vocal Remover",
             "link": "https://songgenerator.io/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/songgenerator.io-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songgenerator.io-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4247,7 +4247,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a free upload and 1-day trial for AI audio processing and stem separation.",
             "category": "Vocal Remover",
             "link": "https://splitter.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/splitter.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/splitter.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4257,7 +4257,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 1,000 free characters and 2 free song covers for text-to-speech and AI cover generation.",
             "category": "Vocal Remover",
             "link": "https://topmediai.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/topmediai.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/topmediai.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4267,7 +4267,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers a 30-day free trial with 3 trials per module for AI video upscaling and audio upmixing.",
             "category": "Vocal Remover",
             "link": "https://unifab.ai/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/unifab.ai-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unifab.ai-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4277,7 +4277,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 10 free minutes of vocal removal and accompaniment extraction.",
             "category": "Vocal Remover",
             "link": "https://www.vocalremoveroak.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalremoveroak.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalremoveroak.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4287,7 +4287,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers 200 free credits to remove background noise and isolate vocals.",
             "category": "Vocal Remover",
             "link": "https://www.voiceisolator.org/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/voiceisolator.org-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiceisolator.org-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4297,7 +4297,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Allows 100 free conversions per week for commercial use with access to 1,000+ AI voices.",
             "category": "Vocal Remover",
             "link": "https://voicemaker.in/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemaker.in-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemaker.in-128x128__Estimated_.png",
             "icon": "Music",
             "score": 8
         },
@@ -4307,7 +4307,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Offers the first audio split for free to remove vocals and create karaoke tracks.",
             "category": "Vocal Remover",
             "link": "https://www.voicss.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/voicss.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicss.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4317,7 +4317,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides 100 free AI credits for AI-powered video editing and access to advanced functions.",
             "category": "Vocal Remover",
             "link": "https://filmora.wondershare.com.br/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/filmora.wondershare.com.br-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/filmora.wondershare.com.br-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         },
@@ -4327,7 +4327,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
             "description": "Provides a 7-day free trial for video conversion, compression, and AI tools.",
             "category": "Vocal Remover",
             "link": "https://videoconverter.wondershare.com/",
-            "iconUrl": "https://freeaitools.ct.ws/public/icons/videoconverter.wondershare.com-128x128__Estimated_.png",
+            "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videoconverter.wondershare.com-128x128__Estimated_.png",
             "icon": "Music",
             "score": 6
         }
@@ -4340,7 +4340,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional AI-powered audio recording and editing tools directly in your browser. Features advanced noise and echo removal.",
       "category": "Podcast",
       "link": "https://podcast.adobe.com/en",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podcast.adobe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podcast.adobe.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.8
     },
@@ -4350,7 +4350,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "High-definition podcast and video recording platform with separate audio and video tracks.",
       "category": "Podcast",
       "link": "https://riverside.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/riverside.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/riverside.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.7
     },
@@ -4360,7 +4360,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI-powered podcast and video creation platform with studio-quality recording.",
       "category": "Podcast",
       "link": "https://podcastle.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podcastle.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podcastle.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -4370,7 +4370,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Revolutionary text-based video and podcast editing platform. Edit audio and video by simply typing.",
       "category": "Podcast",
       "link": "https://www.descript.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/descript.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/descript.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.5
     },
@@ -4380,7 +4380,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-native platform for creating podcasts from text, blogs, PDFs, and existing content.",
       "category": "Podcast",
       "link": "https://www.wondercraft.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wondercraft.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wondercraft.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -4390,7 +4390,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered podcast app that automatically captures key insights and generates summaries.",
       "category": "Podcast",
       "link": "https://www.snipd.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/snipd.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snipd.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.3
     },
@@ -4400,7 +4400,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one podcast content repurposing tool with AI-powered transcription and summaries.",
       "category": "Podcast",
       "link": "https://podsqueeze.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podsqueeze.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podsqueeze.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.2
     },
@@ -4410,7 +4410,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered content generation system that transforms audio and video into 100+ content assets.",
       "category": "Podcast",
       "link": "https://www.castmagic.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/castmagic.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/castmagic.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -4420,7 +4420,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Premier AI learning platform for podcast lovers featuring intelligent transcripts and summaries.",
       "category": "Podcast",
       "link": "https://podwise.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podwise.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podwise.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9
     },
@@ -4430,7 +4430,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI content writer specifically designed for podcast producers and networks.",
       "category": "Podcast",
       "link": "https://www.swellai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/swellai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/swellai.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -4440,7 +4440,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive podcast content creation platform with AI-powered transcription and show notes.",
       "category": "Podcast",
       "link": "https://podium.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podium.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podium.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -4450,7 +4450,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced podcast transcription and repurposing platform that generates comprehensive content.",
       "category": "Podcast",
       "link": "https://podnotes.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podnotes.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podnotes.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -4460,7 +4460,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Transform any content into professional podcasts using advanced AI voices.",
       "category": "Podcast",
       "link": "https://podgen.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podgen.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podgen.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -4470,7 +4470,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered podcast editor that automatically removes filler words and enhances audio quality.",
       "category": "Podcast",
       "link": "https://createwise.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/createwise.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/createwise.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -4480,7 +4480,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Completely free AI-powered podcast generation platform offering rapid content creation.",
       "category": "Podcast",
       "link": "https://poddy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/poddy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/poddy.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -4490,7 +4490,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered podcast creation platform that transforms written content into engaging audio.",
       "category": "Podcast",
       "link": "https://echopod.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/echopod.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/echopod.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -4500,7 +4500,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Automated podcast marketing content generator with AI-powered transcript analysis.",
       "category": "Podcast",
       "link": "https://lemonspeak.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lemonspeak.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lemonspeak.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.2
     },
@@ -4510,7 +4510,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered text-to-podcast converter featuring natural conversational flows.",
       "category": "Podcast",
       "link": "https://podcastai.cc/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podcastai.cc-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podcastai.cc-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.1
     },
@@ -4520,7 +4520,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Open-source podcast platform with automatic episode transcripts and AI summaries.",
       "category": "Podcast",
       "link": "https://podverse.fm/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podverse.fm-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podverse.fm-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8
     },
@@ -4530,7 +4530,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered podcast research platform that transforms hours of research into minutes.",
       "category": "Podcast",
       "link": "https://podprepare.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podprepare.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podprepare.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.9
     },
@@ -4540,7 +4540,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered podcast creation platform with studio-quality enhancement tools.",
       "category": "Podcast",
       "link": "https://musajjel.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musajjel.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musajjel.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.8
     }
@@ -4552,7 +4552,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI transcription platform delivering 99% accuracy across 99+ languages.",
       "category": "Speech-to-Text",
       "link": "https://www.clipto.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clipto.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipto.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.8
     },
@@ -4562,7 +4562,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Intelligent meeting transcription and note-taking assistant powered by AI.",
       "category": "Speech-to-Text",
       "link": "https://www.notta.ai/en",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/notta.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/notta.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.7
     },
@@ -4572,7 +4572,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional audio transcription service with lightning-fast processing and 99% accuracy.",
       "category": "Speech-to-Text",
       "link": "https://transkriptor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/transkriptor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/transkriptor.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -4582,7 +4582,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enterprise-grade voice AI platform offering state-of-the-art speech-to-text APIs.",
       "category": "Speech-to-Text",
       "link": "https://deepgram.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deepgram.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepgram.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.5
     },
@@ -4592,7 +4592,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced speech AI platform delivering industry-leading transcription accuracy.",
       "category": "Speech-to-Text",
       "link": "https://www.assemblyai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/assemblyai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/assemblyai.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -4602,7 +4602,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI video solution with advanced transcription and enhancement tools.",
       "category": "Speech-to-Text",
       "link": "https://videoconverter.wondershare.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/videoconverter.wondershare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videoconverter.wondershare.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.3
     },
@@ -4612,7 +4612,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI transcription platform supporting 125+ languages with real-time capabilities.",
       "category": "Speech-to-Text",
       "link": "https://maestra.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/maestra.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/maestra.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.2
     },
@@ -4622,7 +4622,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Multimedia solutions provider offering comprehensive audio/video editing and transcription tools.",
       "category": "Speech-to-Text",
       "link": "https://www.apowersoft.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apowersoft.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apowersoft.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -4632,7 +4632,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered transcription service that converts audio and video to text with intelligent analysis.",
       "category": "Speech-to-Text",
       "link": "https://www.uniscribe.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/uniscribe.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uniscribe.co-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9
     },
@@ -4642,7 +4642,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Industry-leading automated transcription software with exceptional accuracy and speed.",
       "category": "Speech-to-Text",
       "link": "https://sonix.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sonix.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonix.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -4652,7 +4652,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered speech-to-text platform offering instant transcription in 100+ languages.",
       "category": "Speech-to-Text",
       "link": "https://reccloud.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reccloud.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reccloud.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -4662,7 +4662,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Dual-purpose AI platform combining accurate speech-to-text with natural-sounding text-to-speech.",
       "category": "Speech-to-Text",
       "link": "https://voiser.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voiser.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiser.net-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -4672,7 +4672,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Secure and lightning-fast transcription service designed for journalists and professionals.",
       "category": "Speech-to-Text",
       "link": "https://goodtape.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/goodtape.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goodtape.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -4682,7 +4682,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Revolutionary AI transcription tool delivering superhuman accuracy across 90+ languages.",
       "category": "Speech-to-Text",
       "link": "https://www.cockatoo.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cockatoo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cockatoo.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -4692,7 +4692,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Cost-effective AI transcription API powered by Whisper Large v3.",
       "category": "Speech-to-Text",
       "link": "https://salad.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/salad.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/salad.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -4702,7 +4702,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Modern note-taking application with built-in speech-to-text integration.",
       "category": "Speech-to-Text",
       "link": "https://dictanote.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dictanote.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dictanote.co-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -4712,7 +4712,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced audio transcription API with real-time capabilities and multilingual support.",
       "category": "Speech-to-Text",
       "link": "https://www.gladia.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gladia.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gladia.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.2
     },
@@ -4722,7 +4722,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI translation suite supporting document, image, and video translation.",
       "category": "Speech-to-Text",
       "link": "https://www.transmonkey.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/transmonkey.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/transmonkey.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.1
     },
@@ -4732,7 +4732,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Open-source generative AI platform providing easy-to-use APIs for text, image, and audio generation.",
       "category": "Speech-to-Text",
       "link": "https://pollinations.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pollinations.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pollinations.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8
     },
@@ -4742,7 +4742,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one CRM platform with integrated email marketing and contact management.",
       "category": "Speech-to-Text",
       "link": "https://www.nutshell.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nutshell.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nutshell.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.9
     },
@@ -4752,7 +4752,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video editing software with intuitive tools and advanced features.",
       "category": "Speech-to-Text",
       "link": "https://filmora.wondershare.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/filmora.wondershare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/filmora.wondershare.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.8
     },
@@ -4762,7 +4762,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered offline voice-to-text software for macOS that writes 3x faster than typing.",
       "category": "Speech-to-Text",
       "link": "https://superwhisper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/superwhisper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/superwhisper.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.7
     },
@@ -4772,7 +4772,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Industry-leading speech-to-text API with human transcription backup options.",
       "category": "Speech-to-Text",
       "link": "https://www.rev.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rev.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rev.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.6
     },
@@ -4782,7 +4782,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free forever AI transcription service supporting 90+ languages with 99.8% accuracy.",
       "category": "Speech-to-Text",
       "link": "https://soundwise.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundwise.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundwise.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.5
     },
@@ -4792,7 +4792,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered transcription platform with speaker identification and intelligent summarization.",
       "category": "Speech-to-Text",
       "link": "https://soundtype.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundtype.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundtype.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.4
     },
@@ -4802,7 +4802,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Lightning-fast AI transcription service with searchable note generation.",
       "category": "Speech-to-Text",
       "link": "https://inkr.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/inkr.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inkr.app-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.3
     },
@@ -4812,7 +4812,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-driven medical record system designed for aesthetic clinics and MedSpas.",
       "category": "Speech-to-Text",
       "link": "https://www.clinicminds.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clinicminds.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clinicminds.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.2
     },
@@ -4822,7 +4822,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Networked note-taking application with AI integration powered by GPT-4 and Whisper.",
       "category": "Speech-to-Text",
       "link": "https://reflect.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reflect.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reflect.app-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.1
     },
@@ -4832,7 +4832,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Specialized Persian (Farsi) transliteration and speech-to-text platform.",
       "category": "Speech-to-Text",
       "link": "https://behnevis.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/behnevis.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/behnevis.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7
     },
@@ -4842,7 +4842,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI speech-to-text mobile app that transforms voice into clear, structured text.",
       "category": "Speech-to-Text",
       "link": "https://letterly.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/letterly.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/letterly.app-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.9
     },
@@ -4852,7 +4852,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice cloning and text-to-speech platform with 3000 weekly credits.",
       "category": "Speech-to-Text",
       "link": "https://voicv.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicv.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicv.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.8
     },
@@ -4862,7 +4862,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional transcription service with 98+ language support and 99.9% accuracy.",
       "category": "Speech-to-Text",
       "link": "https://yescribe.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/yescribe.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yescribe.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.7
     },
@@ -4872,7 +4872,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Privacy-focused voice-to-text application using local AI models for instant transcription.",
       "category": "Speech-to-Text",
       "link": "https://tryvoiceink.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tryvoiceink.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tryvoiceink.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.6
     },
@@ -4882,7 +4882,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered speech-to-text tool delivering 99.9% accuracy across 100+ languages.",
       "category": "Speech-to-Text",
       "link": "https://www.videotowords.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/videotowords.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videotowords.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.5
     },
@@ -4892,7 +4892,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "High-precision AI transcription service achieving 99.8% accuracy across 134+ languages.",
       "category": "Speech-to-Text",
       "link": "https://accuratescribe.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/accuratescribe.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/accuratescribe.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.4
     },
@@ -4902,7 +4902,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free transcription service with automatic translation capabilities.",
       "category": "Speech-to-Text",
       "link": "https://freesubtitles.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/freesubtitles.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/freesubtitles.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.3
     },
@@ -4912,7 +4912,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "High-precision AI translation platform specialized for technical and medical fields.",
       "category": "Speech-to-Text",
       "link": "https://www.rosetta.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rosetta.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rosetta.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.2
     },
@@ -4922,7 +4922,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Privacy-focused transcription platform with 90+ language support and flawless accuracy.",
       "category": "Speech-to-Text",
       "link": "https://scribewave.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/scribewave.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scribewave.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.1
     },
@@ -4932,7 +4932,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Affordable speech-to-text solution powered by OpenAI Whisper.",
       "category": "Speech-to-Text",
       "link": "https://whisperui.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/whisperui.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whisperui.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6
     },
@@ -4942,7 +4942,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Leading AI medical scribe trusted by 90,000+ doctors.",
       "category": "Speech-to-Text",
       "link": "https://sunoh.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoh.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoh.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.9
     },
@@ -4952,7 +4952,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Powerful speech-to-text API offering top accuracy in 14 languages.",
       "category": "Speech-to-Text",
       "link": "https://speechflow.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechflow.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechflow.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.8
     },
@@ -4962,7 +4962,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Educational AI platform revolutionizing teaching with lesson plan generators.",
       "category": "Speech-to-Text",
       "link": "https://aiteacha.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiteacha.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiteacha.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.7
     },
@@ -4972,7 +4972,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered transcription service with 99% accuracy supporting 117+ languages.",
       "category": "Speech-to-Text",
       "link": "https://transcribetotext.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/transcribetotext.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/transcribetotext.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.6
     },
@@ -4982,7 +4982,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered speech-to-text infrastructure with over 95% accuracy.",
       "category": "Speech-to-Text",
       "link": "https://vatis.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vatis.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vatis.tech-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.5
     },
@@ -4992,7 +4992,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional human transcription service with fast turnaround and high accuracy.",
       "category": "Speech-to-Text",
       "link": "https://www.transcribeme.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/transcribeme.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/transcribeme.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.4
     },
@@ -5002,7 +5002,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered note-taking assistant transforming audio, video, and PDFs into organized notes.",
       "category": "Speech-to-Text",
       "link": "https://easynoteai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/easynoteai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easynoteai.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.3
     },
@@ -5012,7 +5012,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Automatic transcription software for businesses and organizations with 80-95% accuracy.",
       "category": "Speech-to-Text",
       "link": "https://www.audiotype.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiotype.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiotype.org-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.2
     }
@@ -5024,7 +5024,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Transform any text into natural-sounding speech with over 1,000 realistic voices.",
       "category": "Text-to-Speech",
       "link": "https://speechify.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechify.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechify.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.9
     },
@@ -5034,7 +5034,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Create professional voiceovers with commercial licenses using advanced AI voice technology.",
       "category": "Text-to-Speech",
       "link": "https://www.naturalreaders.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/naturalreaders.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/naturalreaders.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.8
     },
@@ -5044,7 +5044,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI audio generation platform featuring high-fidelity voice synthesis and cloning.",
       "category": "Text-to-Speech",
       "link": "https://www.minimax.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/minimax.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/minimax.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.7
     },
@@ -5054,7 +5054,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free online text-to-speech tool with 200+ high-quality voices in 70+ languages.",
       "category": "Text-to-Speech",
       "link": "https://luvvoice.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/luvvoice.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/luvvoice.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -5064,7 +5064,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI media tool suite featuring advanced text-to-speech and voice cloning.",
       "category": "Text-to-Speech",
       "link": "https://www.topmediai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/topmediai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/topmediai.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.5
     },
@@ -5074,7 +5074,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Industry-leading AI voice generator with the most expressive text-to-speech technology.",
       "category": "Text-to-Speech",
       "link": "https://elevenlabs.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/elevenlabs.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/elevenlabs.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -5084,7 +5084,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free online text-to-speech tool that supports 100+ languages and 1000+ voice styles.",
       "category": "Text-to-Speech",
       "link": "https://ttsmaker.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ttsmaker.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ttsmaker.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.3
     },
@@ -5094,7 +5094,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and effective online text-to-speech converter that turns text into professional audio files.",
       "category": "Text-to-Speech",
       "link": "https://ttsmp3.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ttsmp3.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ttsmp3.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.2
     },
@@ -5104,7 +5104,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Popular video editor with integrated AI text-to-speech and voice changing features.",
       "category": "Text-to-Speech",
       "link": "https://www.capcut.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/capcut.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/capcut.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.1
     },
@@ -5114,7 +5114,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI video generation platform with advanced text-to-speech and talking avatar capabilities.",
       "category": "Text-to-Speech",
       "link": "https://www.heygen.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/heygen.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heygen.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9
     },
@@ -5124,7 +5124,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional text-to-speech converter with a wide range of natural-sounding voices.",
       "category": "Text-to-Speech",
       "link": "https://voicemaker.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemaker.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemaker.in-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -5134,7 +5134,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Versatile AI voice generator that enables users to create studio-quality voiceovers in minutes.",
       "category": "Text-to-Speech",
       "link": "https://murf.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/murf.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/murf.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -5144,7 +5144,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Realistic AI voice generator that converts text into natural-sounding speech across multiple languages.",
       "category": "Text-to-Speech",
       "link": "https://speechgen.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechgen.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechgen.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -5154,7 +5154,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one podcast creation platform with integrated AI text-to-speech and audio editing.",
       "category": "Text-to-Speech",
       "link": "https://podcastle.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/podcastle.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podcastle.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -5164,7 +5164,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enterprise-grade voice AI platform offering high-performance text-to-speech APIs.",
       "category": "Text-to-Speech",
       "link": "https://deepgram.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deepgram.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepgram.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -5174,7 +5174,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI voice generation platform specializing in voice cloning and text-to-speech.",
       "category": "Text-to-Speech",
       "link": "https://www.resemble.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/resemble.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/resemble.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -5184,7 +5184,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Creative AI platform for generating unique voices and audio content from text.",
       "category": "Text-to-Speech",
       "link": "https://poppop.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/poppop.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/poppop.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -5194,7 +5194,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Next-generation AI voiceover and text-to-speech platform with a vast library of voices.",
       "category": "Text-to-Speech",
       "link": "https://lovo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lovo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lovo.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.2
     },
@@ -5204,7 +5204,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Open-source voice AI community featuring thousands of community-created voices.",
       "category": "Text-to-Speech",
       "link": "https://www.uberduck.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/uberduck.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uberduck.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.1
     },
@@ -5214,7 +5214,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered text-to-speech and podcasting platform for creators and businesses.",
       "category": "Text-to-Speech",
       "link": "https://www.listnr.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/listnr.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/listnr.tech-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8
     },
@@ -5224,7 +5224,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free online text-to-speech tool with natural-sounding voices for various applications.",
       "category": "Text-to-Speech",
       "link": "https://crikk.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/crikk.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crikk.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.9
     },
@@ -5234,7 +5234,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and fast text-to-speech converter for creating audio clips from written content.",
       "category": "Text-to-Speech",
       "link": "https://cliptics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cliptics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cliptics.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.8
     }
@@ -5246,7 +5246,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Lightning-fast AI transcription service converting unlimited audio and video files to accurate text.",
       "category": "Transcription",
       "link": "https://turboscribe.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/turboscribe.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/turboscribe.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.9
     },
@@ -5256,7 +5256,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI transcription platform delivering 99% accuracy across 99+ languages.",
       "category": "Transcription",
       "link": "https://www.clipto.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clipto.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipto.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.8
     },
@@ -5266,7 +5266,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional audio transcription service with lightning-fast processing and 99% accuracy.",
       "category": "Transcription",
       "link": "https://transkriptor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/transkriptor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/transkriptor.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.7
     },
@@ -5276,7 +5276,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional transcription and subtitle service offering both AI-powered and human transcription.",
       "category": "Transcription",
       "link": "https://www.happyscribe.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/happyscribe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/happyscribe.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -5286,7 +5286,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Leading AI meeting assistant that records, transcribes, and summarizes meetings in real-time.",
       "category": "Transcription",
       "link": "https://otter.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/otter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/otter.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.5
     },
@@ -5296,7 +5296,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI transcription platform supporting 125+ languages with real-time capabilities.",
       "category": "Transcription",
       "link": "https://maestra.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/maestra.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/maestra.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -5306,7 +5306,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Revolutionary AI notetaker for meetings with automatic transcription and intelligent summarization.",
       "category": "Transcription",
       "link": "https://fireflies.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fireflies.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fireflies.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.3
     },
@@ -5316,7 +5316,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one transcription and video editing platform that lets you edit audio by editing text.",
       "category": "Transcription",
       "link": "https://www.descript.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/descript.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/descript.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.2
     },
@@ -5326,7 +5326,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Industry-leading automated transcription service with advanced speech-to-text algorithms.",
       "category": "Transcription",
       "link": "https://sonix.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sonix.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonix.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -5336,7 +5336,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enterprise-grade speech-to-text API platform with industry-leading accuracy and real-time processing.",
       "category": "Transcription",
       "link": "https://deepgram.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deepgram.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepgram.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9
     },
@@ -5346,7 +5346,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI models for speech transcription and understanding with industry-leading accuracy.",
       "category": "Transcription",
       "link": "https://www.assemblyai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/assemblyai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/assemblyai.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -5356,7 +5356,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Privacy-focused real-time transcription tool with AI-powered summaries and action items.",
       "category": "Transcription",
       "link": "https://tactiq.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tactiq.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tactiq.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -5366,7 +5366,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive transcription platform with AI-generated summaries, mind maps, and key questions.",
       "category": "Transcription",
       "link": "https://uniscribe.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/uniscribe.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uniscribe.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -5376,7 +5376,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered subtitle and transcription platform with advanced translation capabilities.",
       "category": "Transcription",
       "link": "https://subeasy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/subeasy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/subeasy.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -5386,7 +5386,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered meeting transcription service with automatic recording and intelligent summaries.",
       "category": "Transcription",
       "link": "https://meetgeek.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/meetgeek.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/meetgeek.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -5396,7 +5396,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Smart meeting transcription platform with automated CRM updates and action item tracking.",
       "category": "Transcription",
       "link": "https://bluedot.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bluedot.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bluedot.me-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -5406,7 +5406,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered meeting assistant that automates note-taking and generates custom reports.",
       "category": "Transcription",
       "link": "https://noota.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/noota.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/noota.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -5416,7 +5416,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered meeting notes platform that automatically generates comprehensive summaries.",
       "category": "Transcription",
       "link": "https://supernormal.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/supernormal.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supernormal.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.2
     },
@@ -5426,7 +5426,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered audio and video transcription service with advanced speaker identification.",
       "category": "Transcription",
       "link": "https://soundtype.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundtype.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundtype.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.1
     },
@@ -5436,7 +5436,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Ultra-fast AI transcription service with lightning-speed processing and exceptional accuracy.",
       "category": "Transcription",
       "link": "https://inkr.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/inkr.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inkr.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8
     },
@@ -5446,7 +5446,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Privacy-focused transcription service with strong security measures and GDPR compliance.",
       "category": "Transcription",
       "link": "https://goodtape.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/goodtape.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goodtape.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.9
     }
@@ -5458,7 +5458,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered expense tracker that uses speech recognition to categorize your spending.",
       "category": "Speech Recognition",
       "link": "https://blahget.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/blahget.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blahget.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.9
     },
@@ -5468,7 +5468,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "The world's most advanced AI-powered English pronunciation coach.",
       "category": "Speech Recognition",
       "link": "https://elsaspeak.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/elsaspeak.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/elsaspeak.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.8
     },
@@ -5478,7 +5478,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Transform your accent with Hollywood-trained coaches and instant AI feedback.",
       "category": "Speech Recognition",
       "link": "https://www.boldvoice.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/boldvoice.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/boldvoice.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.7
     },
@@ -5488,7 +5488,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered Quran companion that helps you improve your recitation with real-time feedback.",
       "category": "Speech Recognition",
       "link": "https://www.tarteel.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tarteel.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tarteel.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -5498,7 +5498,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered meeting assistant that provides real-time transcription and insights.",
       "category": "Speech Recognition",
       "link": "https://lockedin.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lockedin.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lockedin.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.5
     },
@@ -5508,7 +5508,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Scalable infrastructure for running AI models, including advanced speech recognition.",
       "category": "Speech Recognition",
       "link": "https://deepinfra.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deepinfra.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepinfra.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -5518,7 +5518,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered pronunciation checker that helps you speak more clearly and confidently.",
       "category": "Speech Recognition",
       "link": "https://www.getpronounce.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getpronounce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getpronounce.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.3
     },
@@ -5528,7 +5528,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive language learning platform with advanced speech recognition technology.",
       "category": "Speech Recognition",
       "link": "https://speakai.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speakai.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speakai.co-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.2
     },
@@ -5538,7 +5538,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Industry-leading speech-to-text API with exceptional accuracy and real-time capabilities.",
       "category": "Speech Recognition",
       "link": "https://www.rev.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rev.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rev.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -5548,7 +5548,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI reading coach for kids that uses speech recognition to help them improve their skills.",
       "category": "Speech Recognition",
       "link": "https://www.ello.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ello.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ello.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9
     },
@@ -5558,7 +5558,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Leading AI medical scribe that uses speech recognition to automate clinical documentation.",
       "category": "Speech Recognition",
       "link": "https://sunoh.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoh.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoh.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -5568,7 +5568,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered speech recognition software for Windows that works across all applications.",
       "category": "Speech Recognition",
       "link": "https://speechpulse.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechpulse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechpulse.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -5578,7 +5578,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Powerful speech-to-text API offering top accuracy in multiple languages.",
       "category": "Speech Recognition",
       "link": "https://speechflow.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechflow.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechflow.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -5588,7 +5588,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Fun AI tool that uses speech recognition to guess your accent based on your voice.",
       "category": "Speech Recognition",
       "link": "https://accentguesser.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/accentguesser.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/accentguesser.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -5598,7 +5598,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered dictation software specifically designed for veterinary professionals.",
       "category": "Speech Recognition",
       "link": "https://talkingvet.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/talkingvet.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/talkingvet.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -5608,7 +5608,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive suite of AI tools for audio analysis and speech recognition.",
       "category": "Speech Recognition",
       "link": "https://audiorecognition.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiorecognition.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiorecognition.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -5618,7 +5618,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool that allows you to write code using only your voice.",
       "category": "Speech Recognition",
       "link": "https://serenade.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/serenade.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/serenade.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -5628,7 +5628,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered coding assistant that supports voice commands for faster development.",
       "category": "Speech Recognition",
       "link": "https://algochat.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/algochat.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/algochat.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.2
     },
@@ -5638,7 +5638,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for analyzing speech and providing actionable insights.",
       "category": "Speech Recognition",
       "link": "https://cyntra.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cyntra.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cyntra.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.1
     },
@@ -5648,7 +5648,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered IELTS preparation tool with advanced speech recognition for speaking practice.",
       "category": "Speech Recognition",
       "link": "https://ieltschamp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ieltschamp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ieltschamp.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8
     },
@@ -5658,7 +5658,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered language learning tool that uses speech recognition for pronunciation practice.",
       "category": "Speech Recognition",
       "link": "https://airepeater.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airepeater.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airepeater.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.9
     },
@@ -5668,7 +5668,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered OET preparation platform with speech recognition for healthcare professionals.",
       "category": "Speech Recognition",
       "link": "https://oetstudy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/oetstudy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/oetstudy.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.8
     },
@@ -5678,7 +5678,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered medical transcription and analysis tool for healthcare providers.",
       "category": "Speech Recognition",
       "link": "https://mediscoper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mediscoper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mediscoper.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.7
     },
@@ -5688,7 +5688,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Real-time AI transcription and translation service for live events and meetings.",
       "category": "Speech Recognition",
       "link": "https://maestra.ai/realtime",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/maestra.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/maestra.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.6
     },
@@ -5698,7 +5698,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for improving Chinese pronunciation with real-time feedback.",
       "category": "Speech Recognition",
       "link": "https://cpait.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cpait.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cpait.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.5
     },
@@ -5708,7 +5708,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI transcription service with high accuracy and fast turnaround times.",
       "category": "Speech Recognition",
       "link": "https://transcriptionplus.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/transcriptionplus.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/transcriptionplus.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.4
     },
@@ -5718,7 +5718,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered language coach for learning Chinese with advanced speech recognition.",
       "category": "Speech Recognition",
       "link": "https://ulanguagecoach.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ulanguagecoach.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ulanguagecoach.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.3
     },
@@ -5728,7 +5728,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool that automatically censors profanity in audio and video files.",
       "category": "Speech Recognition",
       "link": "https://bleepcensor.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bleepcensor.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bleepcensor.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.2
     },
@@ -5738,7 +5738,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for controlling your computer and applications using your voice.",
       "category": "Speech Recognition",
       "link": "https://voicemaster.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemaster.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemaster.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.1
     },
@@ -5748,7 +5748,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Browser extension that allows you to type using your voice across all websites.",
       "category": "Speech Recognition",
       "link": "https://voicetyping.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicetyping.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicetyping.net-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7
     },
@@ -5758,7 +5758,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for generating subtitles and captions for your videos.",
       "category": "Speech Recognition",
       "link": "https://subtitles.love/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/subtitles.love-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/subtitles.love-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6.9
     },
@@ -5768,7 +5768,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for analyzing and improving your public speaking skills.",
       "category": "Speech Recognition",
       "link": "https://lugs.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lugs.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lugs.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.8
     },
@@ -5778,7 +5778,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for evaluating and improving your speech and communication.",
       "category": "Speech Recognition",
       "link": "https://speechevalpro.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechevalpro.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechevalpro.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.7
     },
@@ -5788,7 +5788,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered language learning app that focuses on natural conversation and speech.",
       "category": "Speech Recognition",
       "link": "https://natulang.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/natulang.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/natulang.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.6
     },
@@ -5798,7 +5798,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for analyzing speech and providing deep insights into communication.",
       "category": "Speech Recognition",
       "link": "https://speechintellect.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechintellect.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechintellect.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.5
     },
@@ -5808,7 +5808,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered security solutions that use speech recognition for authentication.",
       "category": "Speech Recognition",
       "link": "https://clearchypher.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clearchypher.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clearchypher.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.4
     },
@@ -5818,7 +5818,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered app that identifies birds by their songs and calls using speech recognition.",
       "category": "Speech Recognition",
       "link": "https://merlin.allaboutbirds.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/merlin.allaboutbirds.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/merlin.allaboutbirds.org-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.3
     },
@@ -5828,7 +5828,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Lightning-fast AI transcription service with exceptional accuracy and speed.",
       "category": "Speech Recognition",
       "link": "https://turboscribe.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/turboscribe.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/turboscribe.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.2
     },
@@ -5838,7 +5838,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered task manager that supports voice commands for easy organization.",
       "category": "Speech Recognition",
       "link": "https://honeydo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/honeydo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/honeydo.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.1
     },
@@ -5848,7 +5848,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered meeting assistant that automatically transcribes and summarizes your calls.",
       "category": "Speech Recognition",
       "link": "https://fireflies.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fireflies.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fireflies.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6
     },
@@ -5858,7 +5858,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered safety tool for families that monitors audio for potential risks.",
       "category": "Speech Recognition",
       "link": "https://www.bark.us/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bark.us-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bark.us-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.9
     },
@@ -5868,7 +5868,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI models for speech recognition and understanding with high accuracy.",
       "category": "Speech Recognition",
       "link": "https://www.assemblyai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/assemblyai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/assemblyai.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.8
     },
@@ -5878,7 +5878,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Powerful language learning tool for Netflix and YouTube with advanced speech recognition.",
       "category": "Speech Recognition",
       "link": "https://www.languagereactor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/languagereactor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/languagereactor.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.7
     },
@@ -5888,7 +5888,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered language learning platform that focuses on speaking and listening skills.",
       "category": "Speech Recognition",
       "link": "https://fluently.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fluently.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fluently.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.6
     },
@@ -5898,7 +5898,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for transcribing music into sheet music and MIDI files.",
       "category": "Speech Recognition",
       "link": "https://klang.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/klang.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/klang.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 5.5
     },
@@ -5908,7 +5908,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered public speaking coach that provides real-time feedback on your communication.",
       "category": "Speech Recognition",
       "link": "https://yoodli.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/yoodli.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yoodli.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.4
     },
@@ -5918,7 +5918,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered language learning tool for YouTube and Netflix with advanced speech recognition.",
       "category": "Speech Recognition",
       "link": "https://www.trancy.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trancy.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trancy.org-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.3
     },
@@ -5928,7 +5928,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for analyzing and improving your speech and communication skills.",
       "category": "Speech Recognition",
       "link": "https://parakeetai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/parakeetai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/parakeetai.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.2
     },
@@ -5938,7 +5938,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered PTE preparation platform with advanced speech recognition for speaking practice.",
       "category": "Speech Recognition",
       "link": "https://www.apeuni.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apeuni.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apeuni.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.1
     },
@@ -5948,7 +5948,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice coaching app that helps you improve your voice and communication.",
       "category": "Speech Recognition",
       "link": "https://www.vocalimage.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalimage.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalimage.app-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5
     }
@@ -5960,7 +5960,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Industry-leading AI voice cloning technology that creates high-fidelity replicas of any voice.",
       "category": "Voice Cloning",
       "link": "https://speechify.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechify.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechify.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.9
     },
@@ -5970,7 +5970,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI video platform with integrated voice cloning for personalized content creation.",
       "category": "Voice Cloning",
       "link": "https://www.vidnoz.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vidnoz.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidnoz.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.8
     },
@@ -5980,7 +5980,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "High-performance AI audio platform offering professional-grade voice cloning and synthesis.",
       "category": "Voice Cloning",
       "link": "https://www.minimax.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/minimax.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/minimax.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.7
     },
@@ -5990,7 +5990,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Real-time AI voice changer and cloning platform with a massive library of community voices.",
       "category": "Voice Cloning",
       "link": "https://voice.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voice.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voice.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -6000,7 +6000,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional AI music platform specializing in studio-quality voice cloning for artists.",
       "category": "Voice Cloning",
       "link": "https://www.kits.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kits.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kits.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 9.5
     },
@@ -6010,7 +6010,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI voice solution with real-time voice changing and high-quality cloning.",
       "category": "Voice Cloning",
       "link": "https://www.fineshare.com/finevoice/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fineshare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fineshare.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -6020,7 +6020,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI virtual actor and voice cloning platform for creating engaging video content.",
       "category": "Voice Cloning",
       "link": "https://typecast.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/typecast.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/typecast.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.3
     },
@@ -6030,7 +6030,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enterprise-grade AI voice generation platform with advanced voice cloning capabilities.",
       "category": "Voice Cloning",
       "link": "https://murf.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/murf.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/murf.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.2
     },
@@ -6040,7 +6040,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Creative AI platform offering advanced voice cloning and audio generation tools.",
       "category": "Voice Cloning",
       "link": "https://www.basedlabs.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/basedlabs.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/basedlabs.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -6050,7 +6050,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI voice generation platform specializing in high-fidelity voice cloning.",
       "category": "Voice Cloning",
       "link": "https://www.resemble.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/resemble.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/resemble.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9
     },
@@ -6060,7 +6060,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered music creation platform with advanced voice cloning for musicians.",
       "category": "Voice Cloning",
       "link": "https://musicfy.lol/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicfy.lol-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicfy.lol-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8.9
     },
@@ -6070,7 +6070,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional AI voice generation platform with high-quality cloning in multiple languages.",
       "category": "Voice Cloning",
       "link": "https://vbee.vn/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vbee.vn-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vbee.vn-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -6080,7 +6080,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Next-generation AI voiceover platform with advanced voice cloning technology.",
       "category": "Voice Cloning",
       "link": "https://lovo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lovo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lovo.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -6090,7 +6090,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice transformation platform offering high-quality voice cloning.",
       "category": "Voice Cloning",
       "link": "https://audimee.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audimee.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audimee.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -6100,7 +6100,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI music platform that allows you to create song covers using cloned voices.",
       "category": "Voice Cloning",
       "link": "https://singify.fineshare.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/singify.fineshare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/singify.fineshare.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8.5
     },
@@ -6110,7 +6110,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI video localization platform with integrated voice cloning.",
       "category": "Voice Cloning",
       "link": "https://www.rask.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rask.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rask.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8.4
     },
@@ -6120,7 +6120,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "High-performance AI voice generation platform with real-time cloning capabilities.",
       "category": "Voice Cloning",
       "link": "https://cartesia.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cartesia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cartesia.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -6130,7 +6130,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video translation tool with integrated voice cloning for seamless dubbing.",
       "category": "Voice Cloning",
       "link": "https://www.blipcut.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/blipcut.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blipcut.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8.2
     },
@@ -6140,7 +6140,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered text-to-speech and voice cloning platform for creators.",
       "category": "Voice Cloning",
       "link": "https://www.listnr.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/listnr.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/listnr.tech-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.1
     },
@@ -6150,7 +6150,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for creating personalized video and audio content with voice cloning.",
       "category": "Voice Cloning",
       "link": "https://perso.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/perso.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/perso.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8
     },
@@ -6160,7 +6160,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI voice laboratory offering advanced cloning and synthesis tools.",
       "category": "Voice Cloning",
       "link": "https://allvoicelab.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/allvoicelab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/allvoicelab.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.9
     },
@@ -6170,7 +6170,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI voice transformation platform that allows you to swap your voice with professional singers.",
       "category": "Voice Cloning",
       "link": "https://voice-swap.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voice-swap.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voice-swap.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 7.8
     },
@@ -6180,7 +6180,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video generation platform with integrated voice cloning for storytelling.",
       "category": "Voice Cloning",
       "link": "https://visionstory.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/visionstory.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/visionstory.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.7
     },
@@ -6190,7 +6190,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice cloning and text-to-speech platform with high-fidelity output.",
       "category": "Voice Cloning",
       "link": "https://voicv.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicv.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicv.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.6
     },
@@ -6200,7 +6200,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional voice marketplace offering high-quality AI voice clones for creators.",
       "category": "Voice Cloning",
       "link": "https://www.respeecher.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/respeecher.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/respeecher.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.5
     },
@@ -6210,7 +6210,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video localization and dubbing platform with advanced voice cloning.",
       "category": "Voice Cloning",
       "link": "https://deepdub.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deepdub.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepdub.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.4
     },
@@ -6220,7 +6220,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and accessible online tool for creating basic voice clones for free.",
       "category": "Voice Cloning",
       "link": "https://freevoicecloning.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/freevoicecloning.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/freevoicecloning.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.3
     },
@@ -6230,7 +6230,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice generation platform with advanced cloning and synthesis features.",
       "category": "Voice Cloning",
       "link": "https://voispark.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voispark.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voispark.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.2
     },
@@ -6240,7 +6240,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for creating talking avatars with integrated voice cloning.",
       "category": "Voice Cloning",
       "link": "https://talkingavatar.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/talkingavatar.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/talkingavatar.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.1
     },
@@ -6250,7 +6250,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice transformation platform for musicians and creators.",
       "category": "Voice Cloning",
       "link": "https://www.revocalize.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/revocalize.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revocalize.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 7
     },
@@ -6260,7 +6260,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional AI voice studio offering advanced cloning and transformation tools.",
       "category": "Voice Cloning",
       "link": "https://www.altered.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/altered.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/altered.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.9
     },
@@ -6270,7 +6270,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice cloning platform specifically designed for singers and musicians.",
       "category": "Voice Cloning",
       "link": "https://myvocal.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myvocal.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myvocal.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6.8
     },
@@ -6280,7 +6280,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Creative AI platform offering advanced voice cloning and audio generation tools.",
       "category": "Voice Cloning",
       "link": "https://joypix.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/joypix.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/joypix.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.7
     },
@@ -6290,7 +6290,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Open-source high-fidelity text-to-speech and voice cloning model.",
       "category": "Voice Cloning",
       "link": "https://github.com/lifeiteng/f5-tts",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/github.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/github.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.6
     },
@@ -6300,7 +6300,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered text-to-speech and voice cloning platform with natural-sounding output.",
       "category": "Voice Cloning",
       "link": "https://verbatik.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/verbatik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/verbatik.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.5
     },
@@ -6310,7 +6310,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video generation platform with integrated voice cloning for personalized content.",
       "category": "Voice Cloning",
       "link": "https://similarvideo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/similarvideo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/similarvideo.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6.4
     },
@@ -6320,7 +6320,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video translation and dubbing platform with advanced voice cloning.",
       "category": "Voice Cloning",
       "link": "https://verbalate.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/verbalate.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/verbalate.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6.3
     },
@@ -6330,7 +6330,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered podcast generation platform with integrated voice cloning.",
       "category": "Voice Cloning",
       "link": "https://audiopod.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiopod.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiopod.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.2
     },
@@ -6340,7 +6340,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered storytelling platform with integrated voice cloning for narrating stories.",
       "category": "Voice Cloning",
       "link": "https://storybee.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/storybee.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/storybee.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6.1
     },
@@ -6350,7 +6350,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video editor with integrated voice cloning and audio enhancement tools.",
       "category": "Voice Cloning",
       "link": "https://falcocut.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/falcocut.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/falcocut.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6
     },
@@ -6360,7 +6360,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice generation platform with advanced cloning and synthesis features.",
       "category": "Voice Cloning",
       "link": "https://voicevector.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicevector.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicevector.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.9
     },
@@ -6370,7 +6370,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and effective online tool for creating high-quality voice clones.",
       "category": "Voice Cloning",
       "link": "https://clonemyvoice.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clonemyvoice.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clonemyvoice.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.8
     },
@@ -6380,7 +6380,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice transformation platform for creators and musicians.",
       "category": "Voice Cloning",
       "link": "https://toneshift.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/toneshift.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/toneshift.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 5.7
     },
@@ -6390,7 +6390,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for creating personalized videos at scale with voice cloning.",
       "category": "Voice Cloning",
       "link": "https://www.bhuman.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bhuman.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bhuman.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 5.6
     },
@@ -6400,7 +6400,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for creating personalized audio content with voice cloning.",
       "category": "Voice Cloning",
       "link": "https://maibrain.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/maibrain.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/maibrain.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.5
     },
@@ -6410,7 +6410,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Creative AI platform offering advanced voice cloning and audio generation tools.",
       "category": "Voice Cloning",
       "link": "https://vagabond.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vagabond.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vagabond.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.4
     },
@@ -6420,7 +6420,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and accessible online tool for creating basic voice clones.",
       "category": "Voice Cloning",
       "link": "https://myclony.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myclony.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myclony.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.3
     },
@@ -6430,7 +6430,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for improving your accent with integrated voice cloning.",
       "category": "Voice Cloning",
       "link": "https://yourbestaccent.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/yourbestaccent.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yourbestaccent.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.2
     },
@@ -6440,7 +6440,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered music platform with advanced voice cloning for musicians.",
       "category": "Voice Cloning",
       "link": "https://musicfool.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicfool.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicfool.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 5.1
     },
@@ -6450,7 +6450,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered audio generation platform with advanced cloning and synthesis features.",
       "category": "Voice Cloning",
       "link": "https://audiogenius.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiogenius.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiogenius.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5
     }
@@ -6462,7 +6462,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Transform your communication skills with AI-powered voice coaching technology.",
       "category": "Voice Enhancer",
       "link": "https://www.vocalimage.app/en/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalimage.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalimage.app-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -6472,7 +6472,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Elevate your screen recordings with intelligent AI-powered features like auto-zoom.",
       "category": "Voice Enhancer",
       "link": "https://www.canvid.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/canvid.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/canvid.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.5
     },
@@ -6482,7 +6482,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for improving audio quality and clarity in real-time.",
       "category": "Voice Enhancer",
       "link": "https://tomato.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tomato.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tomato.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -6492,7 +6492,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered audio enhancement platform for creators and professionals.",
       "category": "Voice Enhancer",
       "link": "https://utell.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/utell.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/utell.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.3
     },
@@ -6502,7 +6502,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for isolating voices from background noise in any audio recording.",
       "category": "Voice Enhancer",
       "link": "https://voiceisolator.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voiceisolator.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiceisolator.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.2
     },
@@ -6512,7 +6512,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered microphone enhancement tool for crystal-clear audio in calls and recordings.",
       "category": "Voice Enhancer",
       "link": "https://micvoice.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/micvoice.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/micvoice.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -6522,7 +6522,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional AI-powered audio enhancement platform for improving voice quality.",
       "category": "Voice Enhancer",
       "link": "https://audioenhancer.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audioenhancer.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioenhancer.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9
     },
@@ -6532,7 +6532,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered communication platform with integrated audio enhancement features.",
       "category": "Voice Enhancer",
       "link": "https://ringflow.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ringflow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ringflow.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -6542,7 +6542,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice transformation and enhancement platform for creators.",
       "category": "Voice Enhancer",
       "link": "https://www.revocalize.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/revocalize.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revocalize.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8.8
     },
@@ -6552,7 +6552,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered app that helps people with hearing loss hear better in noisy environments.",
       "category": "Voice Enhancer",
       "link": "https://heardthat.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/heardthat.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heardthat.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -6562,7 +6562,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered audio enhancement tool for improving the quality of your recordings.",
       "category": "Voice Enhancer",
       "link": "https://xsaudio.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/xsaudio.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xsaudio.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -6572,7 +6572,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for enhancing and transforming voice recordings.",
       "category": "Voice Enhancer",
       "link": "https://txtvoice.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/txtvoice.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/txtvoice.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -6582,7 +6582,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered audio enhancement tool for improving the final quality of your audio projects.",
       "category": "Voice Enhancer",
       "link": "https://endboost.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/endboost.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/endboost.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -6592,7 +6592,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for enhancing and editing voice recordings with ease.",
       "category": "Voice Enhancer",
       "link": "https://voicecanvas.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicecanvas.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicecanvas.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -6602,7 +6602,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for improving your speaking skills with integrated audio enhancement.",
       "category": "Voice Enhancer",
       "link": "https://speakbrightly.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speakbrightly.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speakbrightly.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.2
     }
@@ -6614,7 +6614,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Transform text into lifelike speech with advanced AI voice generation technology.",
       "category": "Voice Generator",
       "link": "https://elevenlabs.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/elevenlabs.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/elevenlabs.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.9
     },
@@ -6624,7 +6624,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI voiceover and video creation platform offering realistic voice cloning.",
       "category": "Voice Generator",
       "link": "https://www.dupdub.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dupdub.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dupdub.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.8
     },
@@ -6634,7 +6634,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI voice solution with real-time voice changing and high-quality cloning.",
       "category": "Voice Generator",
       "link": "https://www.fineshare.com/finevoice/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fineshare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fineshare.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.7
     },
@@ -6644,7 +6644,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI virtual actor and voice cloning platform for creating engaging video content.",
       "category": "Voice Generator",
       "link": "https://typecast.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/typecast.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/typecast.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.6
     },
@@ -6654,7 +6654,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI voice generation platform for creating high-quality audio content.",
       "category": "Voice Generator",
       "link": "https://play.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.5
     },
@@ -6664,7 +6664,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Versatile AI voice generator that enables users to create studio-quality voiceovers in minutes.",
       "category": "Voice Generator",
       "link": "https://murf.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/murf.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/murf.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -6674,7 +6674,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Popular online video editor with integrated AI voice generation and text-to-speech.",
       "category": "Voice Generator",
       "link": "https://www.veed.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/veed.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/veed.io-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.3
     },
@@ -6684,7 +6684,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI video creation suite with lifelike talking avatars and voice generation.",
       "category": "Voice Generator",
       "link": "https://www.vidnoz.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vidnoz.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidnoz.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.2
     },
@@ -6694,7 +6694,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enterprise-grade voice AI platform offering high-performance voice generation APIs.",
       "category": "Voice Generator",
       "link": "https://deepgram.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deepgram.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepgram.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -6704,7 +6704,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Create professional voiceovers with commercial licenses using advanced AI voice technology.",
       "category": "Voice Generator",
       "link": "https://www.naturalreaders.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/naturalreaders.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/naturalreaders.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9
     },
@@ -6714,7 +6714,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Real-time AI voice changer and soundboard for gamers and content creators.",
       "category": "Voice Generator",
       "link": "https://www.voicemod.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemod.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemod.net-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -6724,7 +6724,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional AI voice generation platform with high-quality synthesis in multiple languages.",
       "category": "Voice Generator",
       "link": "https://vbee.vn/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vbee.vn-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vbee.vn-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -6734,7 +6734,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free online text-to-speech tool with 200+ high-quality voices in 70+ languages.",
       "category": "Voice Generator",
       "link": "https://luvvoice.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/luvvoice.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/luvvoice.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -6744,7 +6744,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Leading AI video generation platform featuring realistic AI avatars and voice generation.",
       "category": "Voice Generator",
       "link": "https://www.synthesia.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/synthesia.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/synthesia.io-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8.6
     },
@@ -6754,7 +6754,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Next-generation AI voiceover and text-to-speech platform with a vast library of voices.",
       "category": "Voice Generator",
       "link": "https://lovo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lovo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lovo.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -6764,7 +6764,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free online text-to-speech tool that supports 100+ languages and 1000+ voice styles.",
       "category": "Voice Generator",
       "link": "https://ttsmaker.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ttsmaker.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ttsmaker.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -6774,7 +6774,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice changer for real-time voice transformation in calls and games.",
       "category": "Voice Generator",
       "link": "https://www.imobie.com/vozard/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/imobie.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imobie.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -6784,7 +6784,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI voice generation platform specializing in voice cloning and synthesis.",
       "category": "Voice Generator",
       "link": "https://www.resemble.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/resemble.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/resemble.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.2
     },
@@ -6794,7 +6794,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video creation platform with integrated voice generation for storytelling.",
       "category": "Voice Generator",
       "link": "https://makefilm.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/makefilm.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makefilm.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8.1
     },
@@ -6804,7 +6804,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice transformation platform offering high-quality voice generation.",
       "category": "Voice Generator",
       "link": "https://audimee.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audimee.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audimee.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8
     },
@@ -6814,7 +6814,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and effective online text-to-speech converter that turns text into professional audio files.",
       "category": "Voice Generator",
       "link": "https://ttsmp3.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ttsmp3.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ttsmp3.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.9
     },
@@ -6824,7 +6824,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional screen recording and video editing software with integrated AI voice tools.",
       "category": "Voice Generator",
       "link": "https://www.techsmith.com/camtasia.html",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/techsmith.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/techsmith.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.8
     },
@@ -6834,7 +6834,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional text-to-speech converter with a wide range of natural-sounding voices.",
       "category": "Voice Generator",
       "link": "https://voicemaker.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemaker.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemaker.in-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.7
     },
@@ -6844,7 +6844,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Open-source voice AI community featuring thousands of community-created voices.",
       "category": "Voice Generator",
       "link": "https://www.uberduck.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/uberduck.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uberduck.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.6
     },
@@ -6854,7 +6854,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video localization and dubbing platform with advanced voice generation.",
       "category": "Voice Generator",
       "link": "https://dubbing.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dubbing.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dubbing.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.5
     },
@@ -6864,7 +6864,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Realistic AI voice generator that converts text into natural-sounding speech across multiple languages.",
       "category": "Voice Generator",
       "link": "https://speechgen.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechgen.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechgen.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.4
     },
@@ -6874,7 +6874,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video generation platform with integrated voice generation and talking avatars.",
       "category": "Voice Generator",
       "link": "https://mangomarketing.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mangomarketing.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mangomarketing.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.3
     },
@@ -6884,7 +6884,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Creative AI suite featuring advanced voice generation and text-to-speech tools.",
       "category": "Voice Generator",
       "link": "https://designs.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/designs.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/designs.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.2
     },
@@ -6894,7 +6894,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "High-performance AI voice generation platform with real-time synthesis capabilities.",
       "category": "Voice Generator",
       "link": "https://cartesia.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cartesia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cartesia.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.1
     },
@@ -6904,7 +6904,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered text-to-speech and podcasting platform for creators and businesses.",
       "category": "Voice Generator",
       "link": "https://www.listnr.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/listnr.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/listnr.tech-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7
     },
@@ -6914,7 +6914,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered document and content creation platform with integrated voice tools.",
       "category": "Voice Generator",
       "link": "https://aidocmaker.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aidocmaker.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aidocmaker.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.9
     },
@@ -6924,7 +6924,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video localization and dubbing platform with advanced voice generation.",
       "category": "Voice Generator",
       "link": "https://wavel.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wavel.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wavel.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6.8
     },
@@ -6934,7 +6934,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered content generation platform with integrated voice tools for creators.",
       "category": "Voice Generator",
       "link": "https://autodraft.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/autodraft.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autodraft.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.7
     },
@@ -6944,7 +6944,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video generation platform featuring realistic AI avatars and voice generation.",
       "category": "Voice Generator",
       "link": "https://virbo.wondershare.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/virbo.wondershare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/virbo.wondershare.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6.6
     },
@@ -6954,7 +6954,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI voice generation platform offering high-quality synthesis and cloning.",
       "category": "Voice Generator",
       "link": "https://coefont.cloud/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/coefont.cloud-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coefont.cloud-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.5
     },
@@ -6964,7 +6964,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Creative AI platform for generating unique voices and audio content.",
       "category": "Voice Generator",
       "link": "https://poppop.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/poppop.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/poppop.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.4
     },
@@ -6974,7 +6974,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Dual-purpose AI platform combining accurate speech-to-text with natural-sounding text-to-speech.",
       "category": "Voice Generator",
       "link": "https://voiser.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voiser.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiser.net-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.3
     },
@@ -6984,7 +6984,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free online text-to-speech tool with natural-sounding voices for various applications.",
       "category": "Voice Generator",
       "link": "https://crikk.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/crikk.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crikk.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6.2
     },
@@ -6994,7 +6994,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video generation platform with integrated voice generation and talking avatars.",
       "category": "Voice Generator",
       "link": "https://www.kreadoai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kreadoai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kreadoai.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6.1
     },
@@ -7004,7 +7004,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Open-source AI voice community featuring thousands of community-created voices.",
       "category": "Voice Generator",
       "link": "https://weights.gg/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/weights.gg-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/weights.gg-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 6
     },
@@ -7014,7 +7014,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice changer and generation platform for real-time voice transformation.",
       "category": "Voice Generator",
       "link": "https://www.irocket.com/voice-changer/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/irocket.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/irocket.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.9
     },
@@ -7024,7 +7024,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Free online text-to-speech tool with natural-sounding voices for various applications.",
       "category": "Voice Generator",
       "link": "https://lovevoice.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lovevoice.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lovevoice.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.8
     },
@@ -7034,7 +7034,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice generation platform specialized for Indian languages.",
       "category": "Voice Generator",
       "link": "https://desivocal.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/desivocal.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/desivocal.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.7
     },
@@ -7044,7 +7044,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI voice laboratory offering advanced generation and synthesis tools.",
       "category": "Voice Generator",
       "link": "https://allvoicelab.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/allvoicelab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/allvoicelab.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.6
     },
@@ -7054,7 +7054,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional voice marketplace offering high-quality AI voice generation for creators.",
       "category": "Voice Generator",
       "link": "https://www.respeecher.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/respeecher.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/respeecher.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.5
     },
@@ -7064,7 +7064,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice generation platform with advanced synthesis and cloning features.",
       "category": "Voice Generator",
       "link": "https://voispark.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voispark.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voispark.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.4
     },
@@ -7074,7 +7074,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI video and voice generation platform for creating professional content.",
       "category": "Voice Generator",
       "link": "https://synthesys.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/synthesys.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/synthesys.io-128x128__Estimated_.png",
       "icon": "Video",
       "score": 5.3
     },
@@ -7084,7 +7084,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and effective online voice changer for real-time voice transformation.",
       "category": "Voice Generator",
       "link": "https://voicechanger.im/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicechanger.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicechanger.im-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.2
     },
@@ -7094,7 +7094,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered voice generation platform with advanced synthesis and cloning features.",
       "category": "Voice Generator",
       "link": "https://bith.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bith.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bith.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 5.1
     }
@@ -7106,7 +7106,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional AI voiceover platform with high-fidelity synthesis and cloning.",
       "category": "Voice Over",
       "link": "https://speechify.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechify.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechify.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.9
     },
@@ -7116,7 +7116,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI virtual actor and voice cloning platform for creating engaging voiceovers.",
       "category": "Voice Over",
       "link": "https://typecast.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/typecast.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/typecast.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.8
     },
@@ -7126,7 +7126,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI voice generation platform for creating high-quality voiceovers.",
       "category": "Voice Over",
       "link": "https://play.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.7
     },
@@ -7136,7 +7136,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Versatile AI voice generator that enables users to create studio-quality voiceovers in minutes.",
       "category": "Voice Over",
       "link": "https://murf.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/murf.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/murf.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -7146,7 +7146,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered text-to-speech and voiceover platform for creators and businesses.",
       "category": "Voice Over",
       "link": "https://www.listnr.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/listnr.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/listnr.tech-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.5
     },
@@ -7156,7 +7156,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI voiceover platform featuring advanced dubbing technology.",
       "category": "Voice Over",
       "link": "https://unmixr.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unmixr.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unmixr.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.4
     },
@@ -7166,7 +7166,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Human-like automated voice generation platform offering over 200 voices.",
       "category": "Voice Over",
       "link": "https://www.lazybird.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lazybird.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lazybird.app-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.3
     },
@@ -7176,7 +7176,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video localization and dubbing platform with advanced voiceover tools.",
       "category": "Voice Over",
       "link": "https://dubformer.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dubformer.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dubformer.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.2
     },
@@ -7186,7 +7186,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered podcast generation platform with integrated voiceover tools.",
       "category": "Voice Over",
       "link": "https://audiopod.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiopod.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiopod.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -7196,7 +7196,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered video narration platform with integrated voiceover generation.",
       "category": "Voice Over",
       "link": "https://narratevideo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/narratevideo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/narratevideo.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9
     },
@@ -7206,7 +7206,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI audio generation platform offering high-fidelity voiceover synthesis.",
       "category": "Voice Over",
       "link": "https://mmaudio.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mmaudio.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mmaudio.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -7216,7 +7216,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered audio synchronization platform with integrated voiceover tools.",
       "category": "Voice Over",
       "link": "https://aimi.fm/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimi.fm-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimi.fm-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -7226,7 +7226,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Creative AI platform offering advanced voiceover and audio generation tools.",
       "category": "Voice Over",
       "link": "https://epicly.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/epicly.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/epicly.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -7236,7 +7236,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered audio production studio with integrated voiceover tools.",
       "category": "Voice Over",
       "link": "https://tight.studio/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tight.studio-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tight.studio-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -7246,7 +7246,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered content generation platform with integrated voiceover tools for creators.",
       "category": "Voice Over",
       "link": "https://ideaaize.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ideaaize.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ideaaize.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -7256,7 +7256,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and effective online tool for creating high-quality voiceovers.",
       "category": "Voice Over",
       "link": "https://clonemyvoice.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clonemyvoice.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clonemyvoice.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -7266,7 +7266,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered speech generation platform with advanced voiceover synthesis.",
       "category": "Voice Over",
       "link": "https://speechlab.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speechlab.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speechlab.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.3
     },
@@ -7276,7 +7276,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered presentation platform with integrated voiceover generation.",
       "category": "Voice Over",
       "link": "https://deckbird.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deckbird.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deckbird.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8.2
     },
@@ -7286,7 +7286,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and effective online voice changer for creating unique voiceovers.",
       "category": "Voice Over",
       "link": "https://voicechanger.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicechanger.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicechanger.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.1
     },
@@ -7296,7 +7296,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Industry-leading AI voice generator with the most expressive voiceover technology.",
       "category": "Voice Over",
       "link": "https://elevenlabs.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/elevenlabs.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/elevenlabs.io-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8
     },
@@ -7306,7 +7306,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI voice solution with high-quality voiceover generation.",
       "category": "Voice Over",
       "link": "https://www.fineshare.com/finevoice/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fineshare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fineshare.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 7.9
     },
@@ -7316,7 +7316,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered demo creation platform with integrated voiceover generation.",
       "category": "Voice Over",
       "link": "https://supademo.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/supademo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supademo.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.8
     },
@@ -7326,7 +7326,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered course creation platform with integrated voiceover generation.",
       "category": "Voice Over",
       "link": "https://aicoursify.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aicoursify.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aicoursify.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 7.7
     }
@@ -7338,7 +7338,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional podcast recording platform with highly accurate AI-powered audio-to-text transcription.",
       "category": "Audio to Text",
       "link": "https://riverside.fm/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/riverside.fm-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/riverside.fm-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.9
     },
@@ -7348,7 +7348,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Advanced AI transcription tool that converts audio to text with high precision and speed.",
       "category": "Audio to Text",
       "link": "https://www.notta.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/notta.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/notta.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.8
     },
@@ -7358,7 +7358,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI meeting assistant that automatically transcribes and summarizes audio conversations.",
       "category": "Audio to Text",
       "link": "https://fireflies.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fireflies.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fireflies.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.7
     },
@@ -7368,7 +7368,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Smart AI transcription and note-taking tool for meetings, interviews, and lectures.",
       "category": "Audio to Text",
       "link": "https://otter.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/otter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/otter.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.6
     },
@@ -7378,7 +7378,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Leading transcription service offering both AI-powered and human-refined audio-to-text solutions.",
       "category": "Audio to Text",
       "link": "https://www.rev.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rev.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rev.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.5
     },
@@ -7388,7 +7388,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "All-in-one audio and video editor with powerful AI-driven transcription and text-based editing.",
       "category": "Audio to Text",
       "link": "https://www.descript.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/descript.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/descript.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 9.4
     },
@@ -7398,7 +7398,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Fast and accurate automated transcription service that supports over 40 languages.",
       "category": "Audio to Text",
       "link": "https://sonix.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sonix.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonix.ai-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.3
     },
@@ -7408,7 +7408,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered transcription platform designed for journalists and content creators.",
       "category": "Audio to Text",
       "link": "https://trint.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trint.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trint.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.2
     },
@@ -7418,7 +7418,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Versatile transcription and subtitling platform offering high-quality AI audio-to-text conversion.",
       "category": "Audio to Text",
       "link": "https://www.happyscribe.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/happyscribe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/happyscribe.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9.1
     },
@@ -7428,7 +7428,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Simple and affordable AI-powered transcription service for quick audio-to-text needs.",
       "category": "Audio to Text",
       "link": "https://www.temi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/temi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/temi.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 9
     },
@@ -7438,7 +7438,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered transcription tool that helps users convert audio and video files into text efficiently.",
       "category": "Audio to Text",
       "link": "https://vocalmatic.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalmatic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalmatic.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.9
     },
@@ -7448,7 +7448,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Professional transcription service offering high-accuracy AI and human-powered solutions.",
       "category": "Audio to Text",
       "link": "https://www.transcribeme.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/transcribeme.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/transcribeme.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.8
     },
@@ -7458,7 +7458,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Reliable transcription service providing fast and accurate audio-to-text conversion.",
       "category": "Audio to Text",
       "link": "https://scribie.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/scribie.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scribie.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.7
     },
@@ -7468,7 +7468,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Comprehensive transcription service offering a wide range of audio-to-text solutions.",
       "category": "Audio to Text",
       "link": "https://gotranscript.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gotranscript.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gotranscript.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.6
     },
@@ -7478,7 +7478,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Smart online transcription tool that uses AI to convert audio to text quickly and accurately.",
       "category": "Audio to Text",
       "link": "https://audext.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audext.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audext.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.5
     },
@@ -7488,7 +7488,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered platform for automatic transcription, captioning, and voiceovers.",
       "category": "Audio to Text",
       "link": "https://maestratext.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/maestratext.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/maestratext.com-128x128__Estimated_.png",
       "icon": "Mic2",
       "score": 8.4
     },
@@ -7498,7 +7498,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered transcription and translation platform for video professionals.",
       "category": "Audio to Text",
       "link": "https://www.simonsays.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/simonsays.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simonsays.ai-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8.3
     },
@@ -7508,7 +7508,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Popular online video editor with integrated AI-powered audio-to-text transcription.",
       "category": "Audio to Text",
       "link": "https://www.veed.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/veed.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/veed.io-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8.2
     },
@@ -7518,7 +7518,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Collaborative online video editor with built-in AI tools for audio-to-text conversion.",
       "category": "Audio to Text",
       "link": "https://www.kapwing.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kapwing.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kapwing.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8.1
     },
@@ -7528,7 +7528,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI-powered tool for automatically adding captions and transcribing audio for social media videos.",
       "category": "Audio to Text",
       "link": "https://zubtitle.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zubtitle.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zubtitle.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 8
     }
@@ -7540,7 +7540,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants new users 60 free credits to generate music from text or images.",
       "category": "Audio Splitter",
       "link": "https://musicmaker.im",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 8
     },
@@ -7550,7 +7550,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Makes core audio/video repetition and pronunciation assessment features available for free during public beta.",
       "category": "Audio Splitter",
       "link": "https://www.airepeater.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airepeater.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airepeater.com-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 8
     },
@@ -7560,7 +7560,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a trial to experience fast and easy stem creation for remixing and sampling.",
       "category": "Audio Splitter",
       "link": "https://indie.audioshake.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/indie.audioshake.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/indie.audioshake.ai-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7570,7 +7570,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free credits for AI sample chopping and generation.",
       "category": "Audio Splitter",
       "link": "https://thechoplab.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thechoplab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thechoplab.com-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7580,7 +7580,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 30-second free trial per track for vocal removal, stem splitting, and key detection.",
       "category": "Audio Splitter",
       "link": "https://coolo.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/coolo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coolo.ai-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7590,7 +7590,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free access to vocal removal and splitting features without requiring registration.",
       "category": "Audio Splitter",
       "link": "https://devoice.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/devoice.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/devoice.io-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 8
     },
@@ -7600,7 +7600,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows free drum removal for the first minute of any song to create backing tracks.",
       "category": "Audio Splitter",
       "link": "https://drumless.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/drumless.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/drumless.app-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7610,7 +7610,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to record and organize music ideas through a free trial of its auto-split and transcription features.",
       "category": "Audio Splitter",
       "link": "https://apps.apple.com/us/app/dubnote-record-music-ideas/id6445849526",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7620,7 +7620,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Gives 3 free AI credits for generating music from text and remixing audio.",
       "category": "Audio Splitter",
       "link": "https://makebestmusic.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/makebestmusic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makebestmusic.com-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7630,7 +7630,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 5 free credits to generate interior design ideas and perform virtual staging.",
       "category": "Audio Splitter",
       "link": "https://www.reimaginehome.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reimaginehome.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reimaginehome.ai-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7640,7 +7640,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enables users to separate vocals from one song per day for free.",
       "category": "Audio Splitter",
       "link": "https://vocalremover.co",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalremover.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalremover.co-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7650,7 +7650,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 5 free credits to remove vocals and split music into clean instrumental tracks.",
       "category": "Audio Splitter",
       "link": "https://singify.fineshare.com/vocal-remover",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/singify.fineshare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/singify.fineshare.com-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7660,7 +7660,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free audio uploads and a 1-day trial for AI stem separation and audio processing.",
       "category": "Audio Splitter",
       "link": "https://splitter.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/splitter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/splitter.ai-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7670,7 +7670,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free minutes of vocal removal and accompaniment extraction.",
       "category": "Audio Splitter",
       "link": "https://www.vocalremoveroak.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalremoveroak.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalremoveroak.com-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     },
@@ -7680,7 +7680,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants a free first audio split without sign-up to create karaoke tracks and remove vocals.",
       "category": "Audio Splitter",
       "link": "https://www.voicss.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voicss.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicss.com-128x128__Estimated_.png",
       "icon": "Scissors",
       "score": 6
     }
@@ -7692,7 +7692,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for personalized text-to-song creation on mobile devices.",
       "category": "Beat Generator",
       "link": "https://apps.apple.com/us/app/ai-music-creator-text-to-song/id6477145709",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7702,7 +7702,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants new users 60 free credits to generate music from text or images.",
       "category": "Beat Generator",
       "link": "https://musicmaker.im/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7712,7 +7712,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free credits daily to generate royalty-free songs from text or lyrics.",
       "category": "Beat Generator",
       "link": "https://musicmakerapp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmakerapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmakerapp.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7722,7 +7722,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides unlimited free generation of rap lyrics and AI rap songs.",
       "category": "Beat Generator",
       "link": "https://airapgenerator.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airapgenerator.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airapgenerator.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7732,7 +7732,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows free music generation from text or lyrics without requiring sign-up.",
       "category": "Beat Generator",
       "link": "https://aisongcreator.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongcreator.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongcreator.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7742,7 +7742,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 100 free text-to-audio generations per month to create royalty-free sounds.",
       "category": "Beat Generator",
       "link": "https://www.audiogen.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audiogen.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiogen.co-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7752,7 +7752,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 5 free AI-generated audio tracks for personalized binaural beats and subliminals.",
       "category": "Beat Generator",
       "link": "https://binauralbeatsfactory.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/binauralbeatsfactory.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/binauralbeatsfactory.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7762,7 +7762,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free access to AI-crafted lo-fi music for relaxation and focus without registration.",
       "category": "Beat Generator",
       "link": "https://chillify.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chillify.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chillify.me-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7772,7 +7772,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free credits for AI sample chopping and generation.",
       "category": "Beat Generator",
       "link": "https://thechoplab.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thechoplab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thechoplab.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7782,7 +7782,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free credits to build a custom soundworld with a virtual composer that learns your style.",
       "category": "Beat Generator",
       "link": "https://delphos.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/delphos.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/delphos.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7792,7 +7792,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a Pro Trial to instantly turn musical ideas into studio-quality tracks.",
       "category": "Beat Generator",
       "link": "https://drumics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/drumics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/drumics.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7802,7 +7802,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free access to basic features for AI vocal removal and stem splitting.",
       "category": "Beat Generator",
       "link": "https://fadr.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fadr.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fadr.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7812,7 +7812,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 2 free music generations per day without requiring a credit card.",
       "category": "Beat Generator",
       "link": "https://finetuning.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finetuning.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finetuning.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7822,7 +7822,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a free account with limited access to AI mastering and music distribution tools.",
       "category": "Beat Generator",
       "link": "https://www.landr.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/landr.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/landr.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7832,7 +7832,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial to access AI video generation and auto scripting tools.",
       "category": "Beat Generator",
       "link": "https://mediapet.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mediapet.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mediapet.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7842,7 +7842,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free preview and testing mode for its AI music generation and vocal synthesis tools.",
       "category": "Beat Generator",
       "link": "https://meloflow.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/meloflow.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/meloflow.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7852,7 +7852,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free music generations per month to create professional AI beats from text.",
       "category": "Beat Generator",
       "link": "https://musicfx.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicfx.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicfx.net-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7862,7 +7862,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 3 free credits daily to generate AI songs from a single prompt.",
       "category": "Beat Generator",
       "link": "https://www.musicmuse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmuse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmuse.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7872,7 +7872,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to generate AI music and song covers with royalty-free usage.",
       "category": "Beat Generator",
       "link": "https://www.musicful.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7882,7 +7882,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides completely free and unlimited high-quality music generation from text, melody, or audio prompts.",
       "category": "Beat Generator",
       "link": "https://musicgenai.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicgenai.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicgenai.org-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7892,7 +7892,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for creating royalty-free music, including beats, lyrics, and vocals.",
       "category": "Beat Generator",
       "link": "https://musicstar.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicstar.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicstar.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7902,7 +7902,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows the generation of 3 royalty-free songs per day for free along with AI vocal removal features.",
       "category": "Beat Generator",
       "link": "https://nafy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nafy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nafy.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7912,7 +7912,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows free arranging and jamming with beats to create royalty-free music.",
       "category": "Beat Generator",
       "link": "https://www.overtune.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/overtune.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/overtune.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7922,7 +7922,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free access to generate rap lyrics and songs with AI.",
       "category": "Beat Generator",
       "link": "https://rapgenerator.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rapgenerator.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rapgenerator.net-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7932,7 +7932,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants free credits to generate professional, royalty-free tracks in its AI music studio.",
       "category": "Beat Generator",
       "link": "https://sonurastudio.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sonurastudio.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonurastudio.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7942,7 +7942,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Enables the generation of royalty-free AI tracks with one free MP3 download allowed per month.",
       "category": "Beat Generator",
       "link": "https://soundful.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundful.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundful.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7952,7 +7952,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free personal plan for generating and customizing unlimited royalty-free music.",
       "category": "Beat Generator",
       "link": "https://soundraw.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundraw.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundraw.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7962,7 +7962,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 10 free monthly track generations to create music and sound effects via text prompts.",
       "category": "Beat Generator",
       "link": "https://stableaudio.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stableaudio.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stableaudio.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7972,7 +7972,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers completely free AI-generated stock music that is in the public domain and requires no attribution.",
       "category": "Beat Generator",
       "link": "https://stocktune.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stocktune.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stocktune.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -7982,7 +7982,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Grants 4 free songs to generate AI music with custom style selection.",
       "category": "Beat Generator",
       "link": "https://story321.com/music",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/story321.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/story321.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -7992,7 +7992,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows users to generate 10 songs daily for free using its AI music generation technology.",
       "category": "Beat Generator",
       "link": "https://suno.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/suno.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     }
@@ -8004,7 +8004,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 8 free credits daily for AI song making and royalty-free music.",
       "category": "Lyrics Generator",
       "link": "https://www.aimakesong.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimakesong.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimakesong.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8014,7 +8014,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 2 free generations per day to create unique music from text or lyrics.",
       "category": "Lyrics Generator",
       "link": "https://musicgeneratorai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicgeneratorai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicgeneratorai.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8024,7 +8024,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 60 free credits for new users for text-to-music and image-to-music generation.",
       "category": "Lyrics Generator",
       "link": "https://musicmaker.im/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8034,7 +8034,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free credits per month to generate royalty-free music.",
       "category": "Lyrics Generator",
       "link": "https://www.aisongmaker.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongmaker.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongmaker.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8044,7 +8044,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 8 free credits daily to generate original melodies, lyrics, and songs without login.",
       "category": "Lyrics Generator",
       "link": "https://ai-song.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-song.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-song.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8054,7 +8054,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Is 100% forever free for AI writing, image generation, and content creation.",
       "category": "Lyrics Generator",
       "link": "https://aifreebox.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aifreebox.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aifreebox.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8064,7 +8064,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 25 free credits per month for AI music generation and image-to-music creation.",
       "category": "Lyrics Generator",
       "link": "https://aimusician.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusician.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusician.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8074,7 +8074,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 6 free songs and 3 free generations for AI music and lyrics creation without sign-up.",
       "category": "Lyrics Generator",
       "link": "https://aisong.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisong.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisong.org-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8084,7 +8084,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 4 free AI song generations every day with lyrics generation and vocal removal.",
       "category": "Lyrics Generator",
       "link": "https://anymusic.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/anymusic.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anymusic.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8094,7 +8094,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free access to 6+ AI assistants for streamlining writing and image generation tasks.",
       "category": "Lyrics Generator",
       "link": "https://www.autolancer.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/autolancer.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autolancer.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8104,7 +8104,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 20 free credits per day for AI music generation from text without requiring sign-up.",
       "category": "Lyrics Generator",
       "link": "https://brev.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/brev.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brev.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8114,7 +8114,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a 10-day free trial for an AI writing assistant with genre-specific rhymes.",
       "category": "Lyrics Generator",
       "link": "https://writewithchorus.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/writewithchorus.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/writewithchorus.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8124,7 +8124,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free tools to find rhymes, synonyms, and write lyrics with an AI ghostwriter.",
       "category": "Lyrics Generator",
       "link": "https://fastrhymes.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fastrhymes.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fastrhymes.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8134,7 +8134,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Is a free tool for crafting compelling, unique rap lyrics.",
       "category": "Lyrics Generator",
       "link": "https://chromewebstore.google.com/detail/ai-song-lyrics-generator/nnolhabjnginmkpbokjiobchklnhjndh",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8144,7 +8144,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 2 free credits for generating copyright-free songs with studio-quality sound.",
       "category": "Lyrics Generator",
       "link": "https://gensong.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gensong.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gensong.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8154,7 +8154,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows generating 4 free songs per day with AI lyrics generation.",
       "category": "Lyrics Generator",
       "link": "https://www.gsong.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gsong.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gsong.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8164,7 +8164,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free AI tools to create professional graphics and pictures without login.",
       "category": "Lyrics Generator",
       "link": "https://hotpot.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hotpot.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hotpot.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8174,7 +8174,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI music platform for personalized soundscapes.",
       "category": "Lyrics Generator",
       "link": "https://insmelo.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/insmelo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insmelo.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8184,7 +8184,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to generate AI lyric ideas in multiple genres and languages.",
       "category": "Lyrics Generator",
       "link": "https://jarvis-lyrics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jarvis-lyrics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jarvis-lyrics.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8194,7 +8194,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers AI-generated lyrics and access to a lyrics marketplace.",
       "category": "Lyrics Generator",
       "link": "https://www.lycris.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lycris.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lycris.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8204,7 +8204,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free generation of unique and catchy lyrics without signup.",
       "category": "Lyrics Generator",
       "link": "https://lyricsgenerator.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lyricsgenerator.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyricsgenerator.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8214,7 +8214,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited lyric suggestions and rhyme assistance to help overcome writer's block.",
       "category": "Lyrics Generator",
       "link": "https://lyricstudio.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lyricstudio.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyricstudio.net-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8224,7 +8224,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial for writing songs, making poetry, and taking notes.",
       "category": "Lyrics Generator",
       "link": "https://lyrist.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lyrist.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyrist.app-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8234,7 +8234,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows generating 6 free songs per day with AI vocals and instrumentals.",
       "category": "Lyrics Generator",
       "link": "https://makesongai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/makesongai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makesongai.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8244,7 +8244,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free 100% royalty-free songs generated by AI.",
       "category": "Lyrics Generator",
       "link": "https://www.makesong.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/makesong.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makesong.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8254,7 +8254,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows the first AI music creation for free, transforming lyrics and prompts into songs.",
       "category": "Lyrics Generator",
       "link": "https://www.mureka.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mureka.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mureka.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8264,7 +8264,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "AI Music Generator for creating tracks and lyrics.",
       "category": "Lyrics Generator",
       "link": "https://musegen.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musegen.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musegen.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8274,7 +8274,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 2 free songs and 1 free music generation per month.",
       "category": "Lyrics Generator",
       "link": "http://www.musiccreator.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musiccreator.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musiccreator.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8284,7 +8284,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers AI music generation and AI song covers with a royalty-free music library.",
       "category": "Lyrics Generator",
       "link": "https://www.musicful.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8294,7 +8294,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 free credits daily for AI music generation, lyrics creation, and MP4 lyrics video without sign-up.",
       "category": "Lyrics Generator",
       "link": "https://musichero.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musichero.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musichero.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8304,7 +8304,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides a way to create royalty-free AI music, including beats, lyrics, and vocals.",
       "category": "Lyrics Generator",
       "link": "https://musicstar.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/musicstar.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicstar.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8314,7 +8314,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 3 free songs per day for royalty-free music generation and AI vocal removal.",
       "category": "Lyrics Generator",
       "link": "https://nafy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nafy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nafy.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8324,7 +8324,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a freemium model for text-to-video and audio-reactive AI animations.",
       "category": "Lyrics Generator",
       "link": "https://www.neuralframes.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/neuralframes.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/neuralframes.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8334,7 +8334,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Is a free tool to generate quotes from favorite songs and become a quote creator.",
       "category": "Lyrics Generator",
       "link": "https://www.songwords.xyz/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songwords.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songwords.xyz-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8344,7 +8344,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows free generation of 3 full-length rap songs per day in specific rapper styles.",
       "category": "Lyrics Generator",
       "link": "https://rhyme.cool/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rhyme.cool-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rhyme.cool-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8354,7 +8354,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 2,000 free words for AI writing and text generation.",
       "category": "Lyrics Generator",
       "link": "https://seapik.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/seapik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/seapik.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8364,7 +8364,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 3 free credits to create unique AI music tracks across various genres.",
       "category": "Lyrics Generator",
       "link": "https://singify.fineshare.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/singify.fineshare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/singify.fineshare.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8374,7 +8374,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows 3 free song generations per day to create music from text.",
       "category": "Lyrics Generator",
       "link": "https://song.do/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/song.do-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/song.do-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8384,7 +8384,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for text-to-vocals, AI lyric generation, and personalized music videos.",
       "category": "Lyrics Generator",
       "link": "https://songbot.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songbot.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songbot.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8394,7 +8394,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 20 free credits daily for text-to-music generation and lyrics without login.",
       "category": "Lyrics Generator",
       "link": "https://songgenerator.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songgenerator.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songgenerator.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8404,7 +8404,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers 60 credits to generate custom songs with AI and full customization.",
       "category": "Lyrics Generator",
       "link": "https://songguru.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/songguru.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songguru.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8414,7 +8414,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 1,000 free tokens for AI music generation, voice assistance, and stem separation.",
       "category": "Lyrics Generator",
       "link": "https://www.soundverse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soundverse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundverse.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8424,7 +8424,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Generates lyrics for 10 songs daily without requiring login.",
       "category": "Lyrics Generator",
       "link": "https://sunoaimusic.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoaimusic.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoaimusic.org-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8434,7 +8434,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 4 free credits for AI music generation with a commercial license.",
       "category": "Lyrics Generator",
       "link": "https://sunoai-music.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoai-music.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoai-music.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8444,7 +8444,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Allows unlimited free downloads of Suno AI music without requiring login.",
       "category": "Lyrics Generator",
       "link": "https://www.sunodownloader.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sunodownloader.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunodownloader.io-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8454,7 +8454,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free, fast downloads of Suno music including MP3, lyrics, and covers.",
       "category": "Lyrics Generator",
       "link": "https://suno-top.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/suno-top.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno-top.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8464,7 +8464,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free AI music and lyrics generation with royalty-free song licenses.",
       "category": "Lyrics Generator",
       "link": "https://tad.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tad.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tad.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8474,7 +8474,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides free AI tools for humanizing text, summarizing PDFs, and writing content.",
       "category": "Lyrics Generator",
       "link": "https://ai.tenorshare.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai.tenorshare.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai.tenorshare.com-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8484,7 +8484,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Offers free access to conversational AI music creation and generation.",
       "category": "Lyrics Generator",
       "link": "https://www.tunee.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tunee.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tunee.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     },
@@ -8494,7 +8494,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 10 free credits for AI music generation, lyrics creation, and vocal separation without login.",
       "category": "Lyrics Generator",
       "link": "https://vozart.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vozart.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vozart.ai-128x128__Estimated_.png",
       "icon": "Music",
       "score": 6
     },
@@ -8504,7 +8504,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
       "description": "Provides 4,000 free words per month for AI content, image, and code generation.",
       "category": "Lyrics Generator",
       "link": "https://aiwritertool.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiwritertool.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiwritertool.org-128x128__Estimated_.png",
       "icon": "Music",
       "score": 8
     }
@@ -8516,7 +8516,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants 8 free credits daily to generate royalty-free AI songs from text prompts.",
           "category": "Rap Generator",
           "link": "https://www.aimakesong.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aimakesong.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimakesong.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8526,7 +8526,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 60 free credits for new users to generate music from text or images.",
           "category": "Rap Generator",
           "link": "https://musicmaker.im",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8536,7 +8536,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides free unlimited generation of rap lyrics along with AI rap creation and beat integration.",
           "category": "Rap Generator",
           "link": "https://airapgenerator.io",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/airapgenerator.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airapgenerator.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8546,7 +8546,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free access to AI-crafted lyrics and a library of beats, voices, and filters to create rap songs.",
           "category": "Rap Generator",
           "link": "https://apps.apple.com/us/app/ai-rap-song-generator/id6448916248",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/apple.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apple.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8556,7 +8556,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 6 free credits daily, allowing the creation of up to 4 AI-generated songs.",
           "category": "Rap Generator",
           "link": "https://automusic.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/automusic.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automusic.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8566,7 +8566,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 20 free AI completion suggestions per day with smart autocompletion features.",
           "category": "Rap Generator",
           "link": "https://cowriter.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/cowriter.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cowriter.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8576,7 +8576,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a Pro Trial to instantly turn musical ideas into studio-quality tracks.",
           "category": "Rap Generator",
           "link": "https://drumics.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/drumics.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/drumics.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8586,7 +8586,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows users to experience AI music generation and song cover creation with a free trial.",
           "category": "Rap Generator",
           "link": "https://www.musicful.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8596,7 +8596,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 20 free credits to generate full songs with vocals using text-to-music technology.",
           "category": "Rap Generator",
           "link": "https://musikalis.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musikalis.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musikalis.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8606,7 +8606,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free trial to generate rap lyrics and songs.",
           "category": "Rap Generator",
           "link": "https://rapgenerator.net",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/rapgenerator.net-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rapgenerator.net-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8616,7 +8616,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Enables the generation of 3 free rap songs per day in specific rapper styles using AI.",
           "category": "Rap Generator",
           "link": "https://rhyme.cool",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/rhyme.cool-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rhyme.cool-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       }
@@ -8628,7 +8628,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants new users 60 free credits to generate music from text or images.",
           "category": "Rap Lyrics Generator",
           "link": "https://musicmaker.im",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8638,7 +8638,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free unlimited generation of rap lyrics and AI beat integration for song creation.",
           "category": "Rap Lyrics Generator",
           "link": "https://airapgenerator.io",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/airapgenerator.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airapgenerator.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8648,7 +8648,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows free creation of rap songs using AI-crafted lyrics and a library of beats and filters.",
           "category": "Rap Lyrics Generator",
           "link": "https://apps.apple.com/us/app/ai-rap-song-generator/id6448916248",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/apple.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apple.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8658,7 +8658,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides a completely free browser extension to craft compelling and unique song lyrics.",
           "category": "Rap Lyrics Generator",
           "link": "https://chromewebstore.google.com/detail/ai-song-lyrics-generator/nnolhabjnginmkpbokjiobchklnhjndh",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8668,7 +8668,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows unlimited free generation of unique and meaningful lyrics without requiring sign-up.",
           "category": "Rap Lyrics Generator",
           "link": "https://lyricsgenerator.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/lyricsgenerator.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyricsgenerator.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8678,7 +8678,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free trial to experience AI music generation and song cover creation features.",
           "category": "Rap Lyrics Generator",
           "link": "https://www.musicful.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8688,7 +8688,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 5 free credits to generate AI-powered interior design ideas and perform virtual staging.",
           "category": "Rap Lyrics Generator",
           "link": "https://www.reimaginehome.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/reimaginehome.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reimaginehome.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8698,7 +8698,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Enables the generation of 3 free rap songs per day with AI-powered lyrics in specific rapper styles.",
           "category": "Rap Lyrics Generator",
           "link": "https://rhyme.cool",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/rhyme.cool-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rhyme.cool-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8708,7 +8708,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides free access to AI-generated, detailed, and personalized plans for categories like business, travel, and lessons.",
           "category": "Rap Lyrics Generator",
           "link": "https://www.supremeplans.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/supremeplans.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supremeplans.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       }
@@ -8720,7 +8720,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Adobe Podcast provides access to 2 free AI-powered quick tools for audio recording, editing, and noise removal.",
           "category": "Song Cover",
           "link": "https://podcast.adobe.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/podcast.adobe.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podcast.adobe.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8730,7 +8730,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "AI Mastering offers unlimited free mastering to automatically improve sound quality, loudness, and dynamic range.",
           "category": "Song Cover",
           "link": "https://aimastering.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aimastering.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimastering.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8740,7 +8740,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "AI Music Maker offers 60 free credits for new users for text-to-music and image-to-music generation.",
           "category": "Song Cover",
           "link": "https://musicmaker.im",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8750,7 +8750,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "AnySpeech offers 5,000 free credits for realistic AI voice cloning and dubbing without signup.",
           "category": "Song Cover",
           "link": "https://anyspeech.io",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/anyspeech.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anyspeech.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8760,7 +8760,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Audio AI Dynamics - AAID is completely free and offers AI-powered detection of key, BPM, mood, and genre.",
           "category": "Song Cover",
           "link": "https://audioaidynamics.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audioaidynamics.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioaidynamics.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8770,7 +8770,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Audio Enhancer allows free enhancement, noise removal, and vocal removal for audio files under 500MB and 5 minutes.",
           "category": "Song Cover",
           "link": "https://audioenhancer.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audioenhancer.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioenhancer.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8780,7 +8780,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Audio Muse offers a free trial for AI music generation, audio enhancement, and vocal removal.",
           "category": "Song Cover",
           "link": "https://audiomuse.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audiomuse.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiomuse.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8790,7 +8790,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "AudioPod AI offers 10,000 free credits per month for voice cloning, noise reduction, and audio translation.",
           "category": "Song Cover",
           "link": "https://www.audiopod.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audiopod.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiopod.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8800,7 +8800,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "AudioShake offers a free trial for AI stem separation, lyric transcription, and alignment.",
           "category": "Song Cover",
           "link": "https://audioshake.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audioshake.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioshake.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8810,7 +8810,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "AudioX offers 30 free generations to transform inspiration into professional audio, music, and sound effects.",
           "category": "Song Cover",
           "link": "https://audiox.app",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audiox.app-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiox.app-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8820,7 +8820,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Capsule offers a free plan or trial for AI-powered video editing and creating stunning videos faster.",
           "category": "Song Cover",
           "link": "https://capsule.video",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/capsule.video-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/capsule.video-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8830,7 +8830,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Cleanvoice AI provides 30 free minutes to remove filler sounds, stuttering, and background noise.",
           "category": "Song Cover",
           "link": "https://cleanvoice.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/cleanvoice.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cleanvoice.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8840,7 +8840,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Coolo AI provides a free trial processing 30 seconds per track for AI vocal removal and stem splitting.",
           "category": "Song Cover",
           "link": "https://coolo.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/coolo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coolo.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8850,7 +8850,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "CrystalSound provides a free 7-day trial for noise cancellation, screen recording, and meeting minutes.",
           "category": "Song Cover",
           "link": "https://crystalsound.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/crystalsound.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crystalsound.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8860,7 +8860,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Decrackle offers 1,500 free minutes and 1 GB of storage for noise reduction, speech enhancement, and transcription.",
           "category": "Song Cover",
           "link": "https://decrackle.io",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/decrackle.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/decrackle.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8870,7 +8870,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Descript offers 1 free transcription hour to edit videos and podcasts by editing text.",
           "category": "Song Cover",
           "link": "https://www.descript.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/descript.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/descript.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8880,7 +8880,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "DIKTATORIAL Suite offers a free trial for AI mastering with text prompts and studio-quality audio enhancement.",
           "category": "Song Cover",
           "link": "https://diktatorial.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/diktatorial.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/diktatorial.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8890,7 +8890,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "End Boost offers a 7-day free trial for automatic audio mixing, AI de-noising, and mastering.",
           "category": "Song Cover",
           "link": "https://alexaudiobutler.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/alexaudiobutler.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alexaudiobutler.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8900,7 +8900,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Framia offers a free trial for conversational editing and character consistency features.",
           "category": "Song Cover",
           "link": "https://framia.pro",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/framia.pro-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/framia.pro-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8910,7 +8910,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "HeardThat offers a 30-day free trial with 30 free minutes per week to separate speech from noise.",
           "category": "Song Cover",
           "link": "https://heardthatapp.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/heardthatapp.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heardthatapp.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8920,7 +8920,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "HitPaw VoicePea allows 3 free daily text-to-speech attempts to change voice in real-time.",
           "category": "Song Cover",
           "link": "https://www.hitpaw.com/voice-changer.html",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/hitpaw.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hitpaw.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8930,7 +8930,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Journi offers 1 year of commissions-free guide creation with immersive audio tours and interactive maps.",
           "category": "Song Cover",
           "link": "https://journi.pro",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/journi.pro-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/journi.pro-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8940,7 +8940,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "koolio.ai provides up to 30 minutes of free audio content creation per project with AI co-pilot assistance.",
           "category": "Song Cover",
           "link": "https://www.koolio.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/koolio.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/koolio.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8950,7 +8950,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Levelr provides 20 free minutes per month for AI voice isolation, enhancement, and audio mastering.",
           "category": "Song Cover",
           "link": "https://levelr.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/levelr.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/levelr.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8960,7 +8960,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Lyria 3 Pro offers free credits for new accounts to generate 3-minute custom tracks with prompt control.",
           "category": "Song Cover",
           "link": "https://lyria3-pro.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/lyria3-pro.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyria3-pro.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8970,7 +8970,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "MasteredNow provides 9 free mastered tracks to instantly optimize your music.",
           "category": "Song Cover",
           "link": "https://masterednow.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/masterednow.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/masterednow.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -8980,7 +8980,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Mastermallow AI Audio Mastering provides a free sample of fast AI audio mastering without account creation.",
           "category": "Song Cover",
           "link": "https://mastermallow.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/mastermallow.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mastermallow.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -8990,7 +8990,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Minvo allows uploading up to 1 hour of video for free to extract viral shorts using AI.",
           "category": "Song Cover",
           "link": "https://minvo.pro",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/minvo.pro-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/minvo.pro-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9000,7 +9000,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Mix Check Studio is completely free and provides AI-powered mix and master analysis with actionable feedback.",
           "category": "Song Cover",
           "link": "https://mixcheck.studio",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/mixcheck.studio-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mixcheck.studio-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9010,7 +9010,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Musajjel allows up to 40 minutes of free recording with AI-powered studio-quality enhancement.",
           "category": "Song Cover",
           "link": "https://www.musajjel.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musajjel.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musajjel.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9020,7 +9020,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Noiz Agent provides 100,000 free credits for lifelike voice cloning, multilingual dubbing, and AI podcast generation.",
           "category": "Song Cover",
           "link": "https://agent.noiz.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/agent.noiz.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/agent.noiz.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9030,7 +9030,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "NotePerformer offers a 30-day free trial for realistic playback for notation software without sign-up.",
           "category": "Song Cover",
           "link": "https://noteperformer.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/noteperformer.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/noteperformer.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9040,7 +9040,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Online Audio Converter allows converting up to 70 audio files per day for free, including batch conversion.",
           "category": "Song Cover",
           "link": "https://online-audio-converter.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/online-audio-converter.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/online-audio-converter.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9050,7 +9050,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Podhome offers a 30-day free trial for unlimited podcast hosting, AI features, and easy distribution.",
           "category": "Song Cover",
           "link": "https://www.podhome.fm",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/podhome.fm-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/podhome.fm-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9060,7 +9060,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Sequence offers free AI-powered translation and multilingual screen capture tools.",
           "category": "Song Cover",
           "link": "https://chromewebstore.google.com/detail/adoptsequence-video-captu/efilmcdicjeepghphcgeifjggjafacgf",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9070,7 +9070,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Shanda Studio provides 30 free minutes of AI-powered audio enhancement on its all-in-one podcasting platform.",
           "category": "Song Cover",
           "link": "https://www.shanda.studio",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/shanda.studio-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shanda.studio-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9080,7 +9080,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "SimpleClean offers 1 free hour of background noise removal from audio and video.",
           "category": "Song Cover",
           "link": "https://simpleclean.app",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/simpleclean.app-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simpleclean.app-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9090,7 +9090,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Sound Effects AI provides 3 free credits per month to generate unique AI sound effects.",
           "category": "Song Cover",
           "link": "https://www.image-effects.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/image-effects.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/image-effects.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9100,7 +9100,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "SpeakPerfect allows generating AI audio from 500 words for free to create perfect scripts and remove filler words.",
           "category": "Song Cover",
           "link": "https://speakperfect.co",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/speakperfect.co-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speakperfect.co-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9110,7 +9110,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Splitter.ai offers a free upload and a 1-day trial for AI audio processing and stem separation.",
           "category": "Song Cover",
           "link": "https://splitter.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/splitter.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/splitter.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9120,7 +9120,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "TurboScribe offers 3 free transcripts daily with 99.8% accuracy for audio and video transcription.",
           "category": "Song Cover",
           "link": "https://turboscribe.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/turboscribe.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/turboscribe.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9130,7 +9130,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "UniFab provides a 30-day free trial with 3 trials per module for AI video upscaling and audio upmixing.",
           "category": "Song Cover",
           "link": "https://unifab.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/unifab.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unifab.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9140,7 +9140,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Utell AI offers a free 30-second voice test for real-time accent filtering and noise reduction.",
           "category": "Song Cover",
           "link": "https://utell.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/utell.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/utell.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9150,7 +9150,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "VoCut offers 120 free minutes of voice credits to delete silent clips and filler words automatically.",
           "category": "Song Cover",
           "link": "https://www.vocut.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/vocut.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocut.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9160,7 +9160,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Voice Isolator offers 200 free credits to remove background noise and isolate vocals.",
           "category": "Song Cover",
           "link": "https://www.voiceisolator.org",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/voiceisolator.org-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiceisolator.org-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9170,7 +9170,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Voicemaker allows 100 free conversions per week for commercial use with access to 1,000+ AI voices.",
           "category": "Song Cover",
           "link": "https://voicemaker.in",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemaker.in-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemaker.in-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9180,7 +9180,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Voices AI offers 100 free credits to transform text into authentic speech and clone your own voice.",
           "category": "Song Cover",
           "link": "https://apps.apple.com/us/app/voices-ai-change-your-voice/id6461268224",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9190,7 +9190,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Xound.io offers up to 30 minutes of free audio cleaning to remove background noise and correct pitch without a credit card.",
           "category": "Song Cover",
           "link": "https://xound.io",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/xound.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xound.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9200,7 +9200,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "XSAudio offers 1,000 free credits for AI-powered text-to-speech and voice cloning without a credit card.",
           "category": "Song Cover",
           "link": "https://XSAUDIO.PRO",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/xsaudio.pro-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xsaudio.pro-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       }
@@ -9212,7 +9212,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 60 free credits for new users to generate music from text or images.",
           "category": "Song Remixer",
           "link": "https://musicmaker.im",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9222,7 +9222,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants 10 free credits per month to effortlessly generate royalty-free music.",
           "category": "Song Remixer",
           "link": "https://www.aisongmaker.io",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongmaker.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongmaker.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9232,7 +9232,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides unlimited free access to basic AI features for vocal removal, song splitting, and creating remixes or mashups.",
           "category": "Song Remixer",
           "link": "https://fadr.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/fadr.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fadr.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9242,7 +9242,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants 3 free AI music credits to generate text-to-music tracks and AI singing.",
           "category": "Song Remixer",
           "link": "https://generatesongai.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/generatesongai.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/generatesongai.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9252,7 +9252,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows one free music download per day and provides 30-second previews of AI-generated tracks.",
           "category": "Song Remixer",
           "link": "https://loudly.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/loudly.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loudly.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9262,7 +9262,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 20 free credits per month along with unlimited AI soundtrack generation for copyright-free music.",
           "category": "Song Remixer",
           "link": "https://mix.audio",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/mix.audio-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mix.audio-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9272,7 +9272,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 minutes of free audio processing or 6,000 credits to generate unique sample packs and extract stems.",
           "category": "Song Remixer",
           "link": "https://nendo.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/nendo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nendo.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9282,7 +9282,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows limited monthly transformations to revitalize playlists using AI vocal removal and custom cover features.",
           "category": "Song Remixer",
           "link": "https://remixly.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/remixly.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/remixly.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9292,7 +9292,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Enables unlimited free generation of music from text prompts that can be remixed and shared.",
           "category": "Song Remixer",
           "link": "https://www.riffusion.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/riffusion.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/riffusion.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9302,7 +9302,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows the generation of 10 songs daily using its AI music generation technology.",
           "category": "Song Remixer",
           "link": "https://suno.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/suno.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       }
@@ -9314,7 +9314,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 8 free credits daily to generate royalty-free AI songs from text.",
           "category": "AI Splitter",
           "link": "https://www.aimakesong.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aimakesong.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimakesong.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9324,7 +9324,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides completely free AI-generated image search and text-to-image generation tools.",
           "category": "AI Splitter",
           "link": "https://aiuphouse.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aiuphouse.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiuphouse.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9334,7 +9334,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows users to create one project and demo AI features once every 24 hours for free.",
           "category": "AI Splitter",
           "link": "https://ampedstudio.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/ampedstudio.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ampedstudio.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9344,7 +9344,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows free enhancement of audio files up to 500 MB or 5 minutes in duration to remove noise and vocals.",
           "category": "AI Splitter",
           "link": "https://audioenhancer.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audioenhancer.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audioenhancer.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9354,7 +9354,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants 10,000 free credits per month for voice cloning, noise reduction, and audio translation.",
           "category": "AI Splitter",
           "link": "https://www.audiopod.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audiopod.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiopod.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9364,7 +9364,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free batch cropping of up to 10 images per day with automatic photo detection.",
           "category": "AI Splitter",
           "link": "https://autocropper.io",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/autocropper.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autocropper.io-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9374,7 +9374,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows free cutting and trimming of up to 6 files without watermarks, featuring AI smart cut to remove silent parts.",
           "category": "AI Splitter",
           "link": "https://chromewebstore.google.com/detail/video-cutter-and-trimmer/aplaanaglajmhedajaodpokhlcenflih",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9384,7 +9384,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free AI-powered receipt scanning with smart splitting options and instant payment links.",
           "category": "AI Splitter",
           "link": "https://cheqpls.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/cheqpls.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cheqpls.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9394,7 +9394,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free 30-second trial per track for AI vocal removal, stem splitting, and key detection.",
           "category": "AI Splitter",
           "link": "https://coolo.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/coolo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coolo.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9404,7 +9404,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides free access to AI vocal removal and splitting features without requiring user registration.",
           "category": "AI Splitter",
           "link": "https://devoice.io",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/devoice.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/devoice.io-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9414,7 +9414,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants 3 free AI music credits to generate text-to-music tracks and AI singing.",
           "category": "AI Splitter",
           "link": "https://generatesongai.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/generatesongai.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/generatesongai.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9424,7 +9424,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Enables the generation of 10 free royalty-free songs and includes vocal removal features.",
           "category": "AI Splitter",
           "link": "https://www.makesong.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/makesong.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makesong.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9434,7 +9434,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides a completely free tool to split Midjourney grids into single downloadable JPEG images.",
           "category": "AI Splitter",
           "link": "https://www.mjsplitter.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/mjsplitter.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mjsplitter.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9444,7 +9444,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows unlimited video exports with AI transcripts and silence cutting capabilities for free.",
           "category": "AI Splitter",
           "link": "https://smartmediacutter.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/smartmediacutter.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartmediacutter.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9454,7 +9454,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides a free tool to divide long text into smaller pieces for easy entry into ChatGPT.",
           "category": "AI Splitter",
           "link": "https://textdivider.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/textdivider.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/textdivider.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       }
@@ -9466,7 +9466,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 2 free songs per month of royalty-free AI music with a commercial license.",
           "category": "Stems Splitter",
           "link": "https://aisongcreator.app/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongcreator.app-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongcreator.app-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9476,7 +9476,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 10 free credits per month to generate royalty-free music effortlessly.",
           "category": "Stems Splitter",
           "link": "https://www.aisongmaker.io/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongmaker.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongmaker.io-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9486,7 +9486,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides free credits for AI song generation, royalty-free music, and vocal removal.",
           "category": "Stems Splitter",
           "link": "https://anymelo.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/anymelo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anymelo.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9496,7 +9496,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free tier for AI music generation, audio enhancement, and vocal removal.",
           "category": "Stems Splitter",
           "link": "https://audiomuse.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audiomuse.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiomuse.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9506,7 +9506,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 10,000 free credits per month for voice cloning, noise reduction, and audio translation.",
           "category": "Stems Splitter",
           "link": "https://www.audiopod.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audiopod.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiopod.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9516,7 +9516,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free trial for creating fast and easy stems and instrumentals for sync licensing and remixing.",
           "category": "Stems Splitter",
           "link": "https://indie.audioshake.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/indie.audioshake.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/indie.audioshake.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9526,7 +9526,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 3 free vocal isolations per month with noise removal capabilities.",
           "category": "Stems Splitter",
           "link": "https://www.audiostrip.co.uk/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/audiostrip.co.uk-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audiostrip.co.uk-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9536,7 +9536,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free credits for AI sample chopping and generation.",
           "category": "Stems Splitter",
           "link": "https://thechoplab.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/thechoplab.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thechoplab.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9546,7 +9546,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free trial processing 30 seconds per track for AI vocal removal and stem splitting.",
           "category": "Stems Splitter",
           "link": "https://coolo.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/coolo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coolo.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9556,7 +9556,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides free AI vocal remover and splitter tools without requiring registration.",
           "category": "Stems Splitter",
           "link": "https://devoice.io/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/devoice.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/devoice.io-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9566,7 +9566,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows the first minute of any song to be processed for free to remove drums and create backing tracks.",
           "category": "Stems Splitter",
           "link": "https://drumless.app/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/drumless.app-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/drumless.app-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9576,7 +9576,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free rotating voices for real-time AI voice changing and soundboard effects.",
           "category": "Stems Splitter",
           "link": "https://dubbingai.io/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/dubbingai.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dubbingai.io-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9586,7 +9586,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 6 free minutes to extract vocals from video or audio files.",
           "category": "Stems Splitter",
           "link": "https://multimedia.easeus.com/vocal-remover",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/multimedia.easeus.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/multimedia.easeus.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9596,7 +9596,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers unlimited free mastering previews for audio tracks created by Grammy-winning technology.",
           "category": "Stems Splitter",
           "link": "https://emastered.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/emastered.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/emastered.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9606,7 +9606,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers unlimited free basic features including AI-powered vocal removal and song splitting.",
           "category": "Stems Splitter",
           "link": "https://fadr.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/fadr.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fadr.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9616,7 +9616,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers creative AI tools for video generation on an infinite canvas starting from a free trial.",
           "category": "Stems Splitter",
           "link": "https://kaiber.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/kaiber.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kaiber.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9626,7 +9626,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free plan for AI voice cloning, singing generators, and mastering without requiring a credit card.",
           "category": "Stems Splitter",
           "link": "https://kits.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/kits.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kits.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9636,7 +9636,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free minutes for listening to vocal and music stems using precise AI source separation.",
           "category": "Stems Splitter",
           "link": "https://www.lalal.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/lalal.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lalal.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9646,7 +9646,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free account with AI mastering, music distribution, and access to pro-grade plugins.",
           "category": "Stems Splitter",
           "link": "https://www.landr.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/landr.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/landr.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9656,7 +9656,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows 1 free music download per day and provides 0.5-minute song previews.",
           "category": "Stems Splitter",
           "link": "https://loudly.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/loudly.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loudly.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9666,7 +9666,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free app for AI audio separation, smart metronome, audio speed changing, and key detection.",
           "category": "Stems Splitter",
           "link": "https://moises.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/moises.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moises.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9676,7 +9676,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free 48-hour temporary storage and 2 concurrent processing jobs for stem separation and classification.",
           "category": "Stems Splitter",
           "link": "https://music.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/music.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/music.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9686,7 +9686,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free credits to compose release-ready songs or extend and remix uploads.",
           "category": "Stems Splitter",
           "link": "https://music-ai.studio/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/music-ai.studio-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/music-ai.studio-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9696,7 +9696,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers access to AI voice cloning, music generation, and stem splitting without requiring a credit card.",
           "category": "Stems Splitter",
           "link": "https://musicfy.lol/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicfy.lol-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicfy.lol-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9706,7 +9706,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free minutes of audio or 6,000 credits to generate sample packs and extract stems.",
           "category": "Stems Splitter",
           "link": "https://nendo.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/nendo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nendo.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9716,7 +9716,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a limited number of free transformations per month to revitalize playlists with AI.",
           "category": "Stems Splitter",
           "link": "https://remixly.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/remixly.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/remixly.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9726,7 +9726,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows separating voice from music for 1 song per day for free.",
           "category": "Stems Splitter",
           "link": "https://vocalremover.co/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalremover.co-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalremover.co-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9736,7 +9736,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers unlimited free music generation from text prompts with remixing capabilities.",
           "category": "Stems Splitter",
           "link": "https://www.riffusion.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/riffusion.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/riffusion.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9746,7 +9746,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers limited free music generation for text-to-music conversion with an AI singer.",
           "category": "Stems Splitter",
           "link": "https://songdemo.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/songdemo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songdemo.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9756,7 +9756,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free credits to use the AI music studio for generating professional tracks.",
           "category": "Stems Splitter",
           "link": "https://sonurastudio.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/sonurastudio.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonurastudio.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9766,7 +9766,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free upload and 1-day trial for AI audio processing and stem separation.",
           "category": "Stems Splitter",
           "link": "https://splitter.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/splitter.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/splitter.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9776,7 +9776,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free AI-generated songs daily with 12-stem WAV export capabilities.",
           "category": "Stems Splitter",
           "link": "https://suno.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/suno.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suno.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9786,7 +9786,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 30 free credits for AI music generation of commercially-usable songs.",
           "category": "Stems Splitter",
           "link": "https://sunoapi.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoapi.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoapi.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9796,7 +9796,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 200 free sound tokens for voice conversion, music separation, and custom voice cloning.",
           "category": "Stems Splitter",
           "link": "https://www.toneshift.cc/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/toneshift.cc-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/toneshift.cc-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9806,7 +9806,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 15 free credits for AI music and song generation.",
           "category": "Stems Splitter",
           "link": "https://unimusic.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/unimusic.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unimusic.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9816,7 +9816,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free minutes of vocal removal and accompaniment extraction.",
           "category": "Stems Splitter",
           "link": "https://www.vocalremoveroak.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/vocalremoveroak.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vocalremoveroak.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9826,7 +9826,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 200 free credits to remove background noise and isolate vocals.",
           "category": "Stems Splitter",
           "link": "https://www.voiceisolator.org/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/voiceisolator.org-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiceisolator.org-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9836,7 +9836,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows 100 free conversions per week for commercial use with access to 1,000+ AI voices.",
           "category": "Stems Splitter",
           "link": "https://voicemaker.in/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemaker.in-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemaker.in-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 8
       },
@@ -9846,7 +9846,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers the first audio split for free to remove vocals and create karaoke tracks.",
           "category": "Stems Splitter",
           "link": "https://www.voicss.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/voicss.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicss.com-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       },
@@ -9856,7 +9856,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 10 free credits for AI music generation, lyrics creation, and vocal separation.",
           "category": "Stems Splitter",
           "link": "https://vozart.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/vozart.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vozart.ai-128x128__Estimated_.png",
           "icon": "Scissors",
           "score": 6
       }
@@ -9868,7 +9868,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Includes a 14-day free trial with 50 tokens and one video creation for AI music scoring.",
           "category": "Text-to-Music",
           "link": "https://avmapping.co/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/avmapping.co-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/avmapping.co-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9878,7 +9878,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows two free music generations per day with MP3 downloads and no sign-up requirement.",
           "category": "Text-to-Music",
           "link": "https://ai-music-generator.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-music-generator.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-music-generator.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9888,7 +9888,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants 60 credits for new users to generate music from text and images.",
           "category": "Text-to-Music",
           "link": "https://musicmaker.im/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmaker.im-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmaker.im-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9898,7 +9898,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 4 free song generations daily that are 100% copyright-safe and royalty-free.",
           "category": "Text-to-Music",
           "link": "https://aisongcreator.pro/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongcreator.pro-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongcreator.pro-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9908,7 +9908,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides free access to create custom music with two flexible creation modes.",
           "category": "Text-to-Music",
           "link": "https://aisonggenerator.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aisonggenerator.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisonggenerator.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9918,7 +9918,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 6 daily credits (equivalent to 4 songs) for AI song creation.",
           "category": "Text-to-Music",
           "link": "https://automusic.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/automusic.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automusic.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9928,7 +9928,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Enables instant creation of unique MP3 songs with customizable styles for free.",
           "category": "Text-to-Music",
           "link": "https://aimusic.one/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusic.one-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusic.one-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9938,7 +9938,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 6 free credits daily to generate 4-minute songs from text or lyrics without sign-up.",
           "category": "Text-to-Music",
           "link": "https://aimusicgen.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aimusicgen.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimusicgen.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9948,7 +9948,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Enables music generation from text or lyrics without requiring sign-up.",
           "category": "Text-to-Music",
           "link": "https://aisongcreator.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/aisongcreator.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisongcreator.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9958,7 +9958,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free credits for AI song generation and vocal removal with royalty-free music.",
           "category": "Text-to-Music",
           "link": "https://anymelo.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/anymelo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anymelo.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9968,7 +9968,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers five free music generations with a royalty-free license for content creators.",
           "category": "Text-to-Music",
           "link": "https://www.beatoven.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/beatoven.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beatoven.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -9978,7 +9978,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free credits for AI sample chopping and generation.",
           "category": "Text-to-Music",
           "link": "https://thechoplab.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/thechoplab.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thechoplab.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9988,7 +9988,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers AI tools for video and image generation with a starting credit package.",
           "category": "Text-to-Music",
           "link": "https://crano.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/crano.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crano.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -9998,7 +9998,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants 90 free generations (3 per day) for full-length songs with vocals without requiring login.",
           "category": "Text-to-Music",
           "link": "https://diffrhythm.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/diffrhythm.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/diffrhythm.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10008,7 +10008,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants six free credits per day, allowing users to create up to three custom songs daily.",
           "category": "Text-to-Music",
           "link": "https://elevenmusicai.io/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/elevenmusicai.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/elevenmusicai.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10018,7 +10018,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides free access to its professional AI music creation tools without subscription requirements.",
           "category": "Text-to-Music",
           "link": "https://www.genmusic.im/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/genmusic.im-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/genmusic.im-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10028,7 +10028,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Includes 10 free credits for text-to-music generation and vocal removal features.",
           "category": "Text-to-Music",
           "link": "https://www.generatoraimusic.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/generatoraimusic.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/generatoraimusic.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10038,7 +10038,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows users to turn words into music and create custom songs in seconds.",
           "category": "Text-to-Music",
           "link": "https://heymusic.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/heymusic.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heymusic.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10048,7 +10048,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 1,000 words, 10 media credits, and 10 minutes of free AI content creation.",
           "category": "Text-to-Music",
           "link": "https://klyra.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/klyra.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/klyra.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10058,7 +10058,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Lami.ai provides a web-based AI music generator that transforms text prompts into original music tracks, including options for vocal removal and commercial use.",
           "category": "Text-to-Music",
           "link": "https://lami.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/lami.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lami.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10068,7 +10068,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Includes 10 credits for AI image and video generation with viral effects.",
           "category": "Text-to-Music",
           "link": "https://loova.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/loova.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loova.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10078,7 +10078,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides AI music creation capabilities with a limit of one download per day and 30-second song previews.",
           "category": "Text-to-Music",
           "link": "https://loudly.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/loudly.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loudly.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10088,7 +10088,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides free credits for new accounts to create 3-minute custom tracks with prompt-based control.",
           "category": "Text-to-Music",
           "link": "https://lyria3-pro.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/lyria3-pro.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyria3-pro.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10098,7 +10098,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 2 free credits daily to transform lyrics into songs with style customization.",
           "category": "Text-to-Music",
           "link": "https://lyricstosong.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/lyricstosong.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lyricstosong.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10108,7 +10108,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Grants 3 free AI music credits for generating music from text, splitting, and remixing.",
           "category": "Text-to-Music",
           "link": "https://makebestmusic.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/makebestmusic.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makebestmusic.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10118,7 +10118,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Includes a 3-day free trial for Halloween AI filters, video enhancement, and image enhancement.",
           "category": "Text-to-Music",
           "link": "https://www.media.io/image-effects/halloween-effect-templates.html",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/media.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/media.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10128,7 +10128,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Includes a 7-day free trial for AI video generation and auto-scripting.",
           "category": "Text-to-Music",
           "link": "https://mediapet.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/mediapet.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mediapet.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10138,7 +10138,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Permits five daily executions of its AI-powered creative tools to generate unique content.",
           "category": "Text-to-Music",
           "link": "https://melobytes.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/melobytes.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/melobytes.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10148,7 +10148,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Features unlimited AI soundtrack generation and 20 credits per month for copyright-free music creation.",
           "category": "Text-to-Music",
           "link": "https://mix.audio/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/mix.audio-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mix.audio-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10158,7 +10158,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free tier for AI-generated, royalty-free music suitable for content creators.",
           "category": "Text-to-Music",
           "link": "https://mubert.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/mubert.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mubert.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10168,7 +10168,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free music generations monthly for creating professional AI beats.",
           "category": "Text-to-Music",
           "link": "https://musicfx.net/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicfx.net-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicfx.net-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10178,7 +10178,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides three daily credits for creating songs using one-prompt music generation.",
           "category": "Text-to-Music",
           "link": "https://www.musicmuse.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicmuse.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicmuse.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10188,7 +10188,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides AI music generation and song cover creation with a royalty-free license.",
           "category": "Text-to-Music",
           "link": "https://www.musicful.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/musicful.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/musicful.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10198,7 +10198,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers free, instant, and personalized music mixes powered by AI from a library of 100 million songs.",
           "category": "Text-to-Music",
           "link": "https://apps.apple.com/us/app/otto-ai/id6451088753",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10208,7 +10208,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows for unlimited free song generation from text prompts with remixing capabilities.",
           "category": "Text-to-Music",
           "link": "https://www.riffusion.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/riffusion.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/riffusion.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10218,7 +10218,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Includes 3 free credits for generating 100% royalty-free AI sound effects.",
           "category": "Text-to-Music",
           "link": "https://sfxengine.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/sfxengine.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sfxengine.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10228,7 +10228,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 10 free credits for professional song generation and batch composition.",
           "category": "Text-to-Music",
           "link": "https://songagent.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/songagent.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songagent.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10238,7 +10238,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers limited free music generation for text-to-music conversion with AI singing capabilities.",
           "category": "Text-to-Music",
           "link": "https://songdemo.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/songdemo.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songdemo.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10248,7 +10248,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows users to generate up to three AI songs from text per day for free.",
           "category": "Text-to-Music",
           "link": "https://song.do/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/song.do-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/song.do-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10258,7 +10258,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Enables users to create and share custom songs from keywords or lyrics completely for free.",
           "category": "Text-to-Music",
           "link": "https://www.songr.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/songr.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/songr.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10268,7 +10268,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 2 free sound effect generations using AI text-to-sound technology.",
           "category": "Text-to-Music",
           "link": "https://soundeffectgenerator.org/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/soundeffectgenerator.org-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundeffectgenerator.org-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10278,7 +10278,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides generative AI tools for text-to-sound and infinite sample packs with a free access option.",
           "category": "Text-to-Music",
           "link": "https://soundry.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/soundry.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soundry.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10288,7 +10288,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers 4 free songs for AI music generation with custom style selection.",
           "category": "Text-to-Music",
           "link": "https://story321.com/music",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/story321.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/story321.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10298,7 +10298,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides 4 free credits for AI music generation with a commercial license option.",
           "category": "Text-to-Music",
           "link": "https://sunoai-music.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoai-music.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoai-music.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10308,7 +10308,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Enables unlimited downloads of Suno AI music and lyrics without login.",
           "category": "Text-to-Music",
           "link": "https://www.sunodownloader.io/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/sunodownloader.io-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunodownloader.io-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10318,7 +10318,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides three free generations per day for AI music creation from text prompts.",
           "category": "Text-to-Music",
           "link": "https://sunoai.ai/sunoai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/sunoai.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sunoai.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10328,7 +10328,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Features AI music generation and access to a library of royalty-free music.",
           "category": "Text-to-Music",
           "link": "https://www.tempolor.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/tempolor.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tempolor.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10338,7 +10338,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a quick way to turn text into tunes, accessible with a free trial option.",
           "category": "Text-to-Music",
           "link": "https://apps.apple.com/app/ujam-ai-turn-text-to-tunes/id6463497290",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10348,7 +10348,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "UniMusic AI is a generative music platform that provides 15 free credits for creating unique AI-generated songs and soundtracks across various genres.",
           "category": "Text-to-Music",
           "link": "https://unimusic.ai/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/unimusic.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unimusic.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10358,7 +10358,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Features a free real-time voice changer and soundboard with voice creation capabilities.",
           "category": "Text-to-Music",
           "link": "https://www.voicemod.net/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/voicemod.net-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicemod.net-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       },
@@ -10368,7 +10368,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Allows for unlimited generation of AI images and videos without requiring login.",
           "category": "Text-to-Music",
           "link": "https://www.voooai.com/",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/voooai.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voooai.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       }
@@ -10380,7 +10380,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers one free song analysis per day with a maximum duration of 30 seconds for automatic chord recognition and PDF worksheet generation.",
           "category": "Chord AI",
           "link": "https://chordidentifier.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/chordidentifier.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chordidentifier.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10390,7 +10390,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Provides a complimentary 24-hour day pass to generate AI chord progressions and export to MIDI or WAV without requiring credit card details.",
           "category": "Chord AI",
           "link": "https://chordcreate.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/chordcreate.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chordcreate.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10400,7 +10400,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Offers a free trial period for new users to access AI chord progression generation, mastering, and music distribution services.",
           "category": "Chord AI",
           "link": "https://orbplugins.com",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/orbplugins.com-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/orbplugins.com-128x128__Estimated_.png",
           "icon": "Music",
           "score": 6
       },
@@ -10410,7 +10410,7 @@ export const music_audio_tools: Record<string, Tool[]> = {
           "description": "Includes a free plan that allows users to access AI audio separation, smart metronome, audio speed adjustment, and key detection features.",
           "category": "Chord AI",
           "link": "https://moises.ai",
-          "iconUrl": "https://freeaitools.ct.ws/public/icons/moises.ai-128x128__Estimated_.png",
+          "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moises.ai-128x128__Estimated_.png",
           "icon": "Music",
           "score": 8
       }

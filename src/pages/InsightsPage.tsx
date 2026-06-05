@@ -51,7 +51,7 @@ export default function InsightsPage() {
         <title>AI Tool Insights & Trends 2026 - Data Analysis</title>
         <meta name="description" content="In-depth analysis of the AI tools ecosystem in 2026. Discover creation trends, top-performing models, and market growth data." />
         <meta name="keywords" content="ai insights, ai trends 2026, ai market analysis, top ai models" />
-        <link rel="canonical" href="https://freeaitools.ct.ws/insights" />
+        <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/insights" />
       </Helmet>
       <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">

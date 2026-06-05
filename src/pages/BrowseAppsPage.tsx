@@ -61,7 +61,7 @@ const BrowseAppsPage: FC = () => {
         <title>Browse All Free AI Tools - Complete Directory</title>
         <meta name="description" content="Browse our complete directory of free AI tools. Search and filter through hundreds of vetted AI solutions for every use case." />
         <meta name="keywords" content="all ai tools, free ai directory, search ai tools, ai tool list" />
-        <link rel="canonical" href="https://freeaitools.ct.ws/browse" />
+        <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/browse" />
       </Helmet>
       <GridBackground className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

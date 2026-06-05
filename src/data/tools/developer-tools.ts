@@ -8,7 +8,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "The AI assistant that builds with you. Generate code, manage tasks, and explore your projects with GPT-4 directly in your editor.",
       "category": "Code Assistant",
       "link": "https://github.com/features/copilot",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/github.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/github.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.9
     },
@@ -18,7 +18,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "The AI Code Editor built to make you extraordinarily productive with code completion, codebase Q&A, and natural language editing.",
       "category": "Code Assistant",
       "link": "https://cursor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cursor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cursor.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.8
     },
@@ -28,7 +28,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI code completion and AI chat with code privacy & IP protection. Accelerate software development while keeping code private.",
       "category": "Code Assistant",
       "link": "https://www.tabnine.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tabnine.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tabnine.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.7
     },
@@ -38,7 +38,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI Editor Assistant with powerful code search capabilities. Search, navigate, and review code across all repositories.",
       "category": "Code Assistant",
       "link": "https://sourcegraph.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sourcegraph.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sourcegraph.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.6
     },
@@ -48,7 +48,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered coding assistance with automatic code completions using Google's advanced AI technology.",
       "category": "Code Assistant",
       "link": "https://codeassist.google/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codeassist.google-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codeassist.google-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.5
     },
@@ -58,7 +58,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Autonomous Coding Agent with access to all AI models. Features web IDE and integrations to all local IDEs.",
       "category": "Code Assistant",
       "link": "https://www.blackbox.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/blackbox.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blackbox.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.4
     },
@@ -68,7 +68,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI Search Engine and Pair Programmer that writes rich, visual, and interactive answers for development queries.",
       "category": "Code Assistant",
       "link": "https://www.phind.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/phind.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/phind.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.3
     },
@@ -78,7 +78,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Context Engine with MCP & Native Tools offering unlimited Next Edits & Completions with advanced context awareness.",
       "category": "Code Assistant",
       "link": "https://www.augmentcode.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/augmentcode.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/augmentcode.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.2
     },
@@ -88,7 +88,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI coding assistant for JetBrains IDEs with Next-Edit Autocomplete. Automate software chores with intelligent code generation.",
       "category": "Code Assistant",
       "link": "https://sweep.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sweep.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sweep.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.1
     },
@@ -98,7 +98,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered terminal with built-in team knowledge and advanced AI tools for a revolutionized command line experience.",
       "category": "Code Assistant",
       "link": "https://www.warp.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/warp.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/warp.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9
     },
@@ -108,7 +108,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI for Presentations, Writing, and Coding with comprehensive capabilities. Access multiple AI models without authentication.",
       "category": "Code Assistant",
       "link": "https://z.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/z.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/z.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.9
     },
@@ -118,7 +118,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered full-stack development platform with end-to-end testing capabilities within Google's environment.",
       "category": "Code Assistant",
       "link": "https://firebase.google.com/products/studio",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/firebase.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/firebase.google.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.8
     },
@@ -128,7 +128,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Agentic Coding Platform with enhanced context engineering capabilities for complex software development tasks.",
       "category": "Code Assistant",
       "link": "https://qoder.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/qoder.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/qoder.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.7
     },
@@ -138,7 +138,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Spec-driven development with agent hooks and multimodal chat capabilities for structured development processes.",
       "category": "Code Assistant",
       "link": "https://kiro.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kiro.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kiro.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.6
     },
@@ -148,7 +148,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "CI/CD with AI capabilities and Jira integration for seamless team collaboration and code management.",
       "category": "Code Assistant",
       "link": "https://bitbucket.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bitbucket.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bitbucket.org-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.5
     },
@@ -158,7 +158,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered code generation and task automation platform for clean, efficient code and intelligent assistance.",
       "category": "Code Assistant",
       "link": "https://kilocode.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kilocode.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kilocode.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.4
     },
@@ -168,7 +168,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered code snippet manager with Long-Term Memory technology for intelligent context awareness.",
       "category": "Code Assistant",
       "link": "https://pieces.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pieces.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pieces.app-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.3
     },
@@ -178,7 +178,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Code with latest frontier models using AI code agent capabilities. Perfect for rapid prototyping.",
       "category": "Code Assistant",
       "link": "https://cto.new/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cto.new-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cto.new-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.2
     },
@@ -188,7 +188,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI documentation you can talk to that understands codebase structure and provides intelligent insights.",
       "category": "Code Assistant",
       "link": "https://deepwiki.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deepwiki.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepwiki.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.1
     },
@@ -198,7 +198,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered IDE with human-AI collaboration and smart autocompletion for seamless development.",
       "category": "Code Assistant",
       "link": "https://trae.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trae.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trae.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8
     },
@@ -208,7 +208,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI for Backend & Frontend Code Development with context-driven AI assistance for full-stack developers.",
       "category": "Code Assistant",
       "link": "https://workik.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/workik.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/workik.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.9
     },
@@ -218,7 +218,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI Coding Assistant that automates code reviews and provides intelligent suggestions for teams.",
       "category": "Code Assistant",
       "link": "https://codegpt.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codegpt.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codegpt.co-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.8
     },
@@ -228,7 +228,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI Interview & Meeting Copilot with coding copilot capabilities for real-time technical assistance.",
       "category": "Code Assistant",
       "link": "https://lockedin.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lockedin.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lockedin.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.7
     },
@@ -238,7 +238,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate UI Using AI with human-like codebase understanding and deep context awareness.",
       "category": "Code Assistant",
       "link": "https://purecode.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/purecode.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/purecode.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.6
     },
@@ -248,7 +248,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Command line enhancement with intelligent command suggestions and autocomplete for terminal productivity.",
       "category": "Code Assistant",
       "link": "https://fig.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fig.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fig.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.5
     },
@@ -258,7 +258,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Online Pseudocode Editor & Compiler with AI conversion to Python, JavaScript & high-level languages.",
       "category": "Code Assistant",
       "link": "https://pseudoeditor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pseudoeditor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pseudoeditor.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.4
     },
@@ -268,7 +268,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI IDE Core with an individual plan at $0/month for agent-first development.",
       "category": "Code Assistant",
       "link": "https://antigravity.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/antigravity.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/antigravity.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.3
     },
@@ -278,7 +278,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free tool for side-by-side AI coding comparison and exporting to GitHub or IDE.",
       "category": "Code Assistant",
       "link": "https://www.codearena.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codearena.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codearena.app-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.2
     },
@@ -288,7 +288,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Discover custom Cursor rules and MCP servers with a 3-month free team plan.",
       "category": "Code Assistant",
       "link": "https://cursor.directory/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cursor.directory-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cursor.directory-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.1
     },
@@ -298,7 +298,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "All-in-one security platform offering a free tier for 2 users and 10 repositories.",
       "category": "Code Assistant",
       "link": "https://www.aikido.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aikido.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aikido.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7
     },
@@ -308,7 +308,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Make AI coding agents 5x more effective with a free one-slot capacity and 7-day Pro trial.",
       "category": "Code Assistant",
       "link": "https://traycer.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/traycer.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/traycer.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.9
     },
@@ -318,7 +318,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-first automation platform with a free tier allowing 1,000 tasks per month.",
       "category": "Code Assistant",
       "link": "https://www.activepieces.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/activepieces.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/activepieces.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.8
     },
@@ -328,7 +328,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate and run code cells with natural language using their free trial for full notebook automation.",
       "category": "Code Assistant",
       "link": "https://runcell.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/runcell.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/runcell.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.7
     },
@@ -338,7 +338,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free plan for real-time, undetectable coding assistance during technical interviews.",
       "category": "Code Assistant",
       "link": "https://interviewcoder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewcoder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewcoder.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.6
     },
@@ -348,7 +348,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Access multiple AI models for coding and web search with an unlimited free tier.",
       "category": "Code Assistant",
       "link": "https://writingmate.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/writingmate.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/writingmate.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.5
     },
@@ -358,7 +358,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build full-stack apps from prompts with 5 free daily messages and no coding required.",
       "category": "Code Assistant",
       "link": "https://vitara.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vitara.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vitara.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.4
     },
@@ -368,7 +368,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI coding assistant providing 5,000 free coins for code completion and refactoring.",
       "category": "Code Assistant",
       "link": "https://refact.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/refact.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/refact.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.3
     },
@@ -378,7 +378,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Monitor and fix Sentry.io issues with 20 free AI-powered investigations per month.",
       "category": "Code Assistant",
       "link": "https://sourcery.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sourcery.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sourcery.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.2
     },
@@ -388,7 +388,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Solve Leetcode style problems invisibly with audio transcription and a free trial.",
       "category": "Code Assistant",
       "link": "https://interviewsolver.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewsolver.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewsolver.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.1
     },
@@ -398,7 +398,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered code generator and unit-test writer with a 7-day free trial.",
       "category": "Code Assistant",
       "link": "https://askcodi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askcodi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askcodi.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6
     },
@@ -408,7 +408,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Automate code documentation and test suite generation with a 5-day free trial.",
       "category": "Code Assistant",
       "link": "https://docuwriter.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/docuwriter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docuwriter.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.9
     },
@@ -418,7 +418,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Fast AI code editor for applying edits with code-specific embeddings and reranking.",
       "category": "Code Assistant",
       "link": "https://morph.so/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/morph.so-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/morph.so-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.8
     },
@@ -428,7 +428,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free forever for developers to uncover regressions and resolve performance issues.",
       "category": "Code Assistant",
       "link": "https://www.digma.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/digma.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/digma.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.7
     },
@@ -438,7 +438,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free AI-powered research tool for code documentation and entity clarification.",
       "category": "Code Assistant",
       "link": "https://codewiki.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codewiki.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codewiki.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.6
     },
@@ -448,7 +448,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Comprehensive tool for text-to-code generation, code review, and bug detection.",
       "category": "Code Assistant",
       "link": "https://codepal.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codepal.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codepal.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.5
     },
@@ -458,7 +458,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Learn through structured, real-world projects with limited free projects and step-by-step guidance.",
       "category": "Code Assistant",
       "link": "https://projectai.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/projectai.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/projectai.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.4
     },
@@ -468,7 +468,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Open-source AI code editor with integrated AI tools and a comprehensive free trial.",
       "category": "Code Assistant",
       "link": "https://pearai.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pearai.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pearai.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.3
     },
@@ -478,7 +478,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Save 5 snippets to your library for free with AI-powered snippet management.",
       "category": "Code Assistant",
       "link": "https://codesnippets.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codesnippets.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codesnippets.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.2
     },
@@ -488,7 +488,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Chat with codebases and generate documentation with 50k free GPT tokens.",
       "category": "Code Assistant",
       "link": "https://gitloop.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gitloop.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gitloop.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.1
     },
@@ -498,7 +498,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Real-time collaborative coding with 30 free agent requests per month.",
       "category": "Code Assistant",
       "link": "https://codebanana.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codebanana.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codebanana.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5
     }
@@ -510,7 +510,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "World's most popular AI coding assistant providing intelligent code completions and function generation.",
       "category": "Code Generator",
       "link": "https://github.com/features/copilot",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/github.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/github.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.9
     },
@@ -520,7 +520,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Private and uncensored AI platform for generating text, images, characters and code with generous free limits.",
       "category": "Code Generator",
       "link": "https://venice.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/venice.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/venice.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.8
     },
@@ -530,7 +530,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered IDE with human-AI collaboration features and smart autocompletion for accelerated development.",
       "category": "Code Generator",
       "link": "https://www.trae.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trae.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trae.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.7
     },
@@ -540,7 +540,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Spec-driven development platform with agent hooks and multimodal chat for comprehensive workflows.",
       "category": "Code Generator",
       "link": "https://kiro.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kiro.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kiro.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.6
     },
@@ -550,7 +550,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Industry-leading context engine with unlimited next edits and completions for comprehensive codebase generation.",
       "category": "Code Generator",
       "link": "https://www.augmentcode.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/augmentcode.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/augmentcode.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.5
     },
@@ -560,7 +560,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Realtime reactive database with full-stack TypeScript backend and AI integration for scalable applications.",
       "category": "Code Generator",
       "link": "https://www.convex.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/convex.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/convex.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.4
     },
@@ -570,7 +570,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI Design to Code platform that converts Figma designs into React/HTML code instantly.",
       "category": "Code Generator",
       "link": "https://www.animaapp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/animaapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/animaapp.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.3
     },
@@ -580,7 +580,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Google's AI-powered coding assistant with automatic code completions and intelligent understanding.",
       "category": "Code Generator",
       "link": "https://codeassist.google/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codeassist.google-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codeassist.google-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.2
     },
@@ -590,7 +590,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI code completion with enhanced privacy and IP protection for faster, secure development.",
       "category": "Code Generator",
       "link": "https://www.tabnine.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tabnine.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tabnine.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.1
     },
@@ -600,7 +600,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI agent specialized in frontend development that understands and codes UI like human developers.",
       "category": "Code Generator",
       "link": "https://kombai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kombai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kombai.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9
     },
@@ -610,7 +610,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Completely free AI code agent using latest frontier models. No credit card or API keys required.",
       "category": "Code Generator",
       "link": "https://cto.new/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cto.new-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cto.new-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.9
     },
@@ -620,7 +620,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI assistant for code generation and technical content with GitHub integration and online IDE.",
       "category": "Code Generator",
       "link": "https://www.getbind.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getbind.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getbind.co-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.8
     },
@@ -630,7 +630,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Convert designs to production-ready code supporting Figma/Adobe XD to React, Next.js and more.",
       "category": "Code Generator",
       "link": "https://www.locofy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/locofy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/locofy.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.7
     },
@@ -640,7 +640,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Turn any question into code with advanced AI capabilities and extract code from videos.",
       "category": "Code Generator",
       "link": "https://www.blackbox.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/blackbox.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blackbox.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.6
     },
@@ -650,7 +650,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate editable UI designs from text with mobile & web UI generation capabilities.",
       "category": "Code Generator",
       "link": "https://usegalileo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/usegalileo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usegalileo.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.5
     },
@@ -660,7 +660,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI Web App Builder with no coding required. Build full-stack apps by describing your vision.",
       "category": "Code Generator",
       "link": "https://softgen.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/softgen.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/softgen.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.4
     },
@@ -670,7 +670,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Advanced reasoning AI with superior performance on math, code, and reasoning tasks.",
       "category": "Code Generator",
       "link": "https://www.deepseek.com/en",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deepseek.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepseek.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.3
     },
@@ -680,7 +680,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered app generation with full source code ownership. Generate production-ready web applications.",
       "category": "Code Generator",
       "link": "https://flatlogic.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/flatlogic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flatlogic.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.2
     },
@@ -690,7 +690,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build and launch fully functional web applications without writing code using state-of-the-art generation.",
       "category": "Code Generator",
       "link": "https://vly.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vly.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vly.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.1
     },
@@ -700,7 +700,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Text to App generation in minutes with full ownership of code using advanced frontier models.",
       "category": "Code Generator",
       "link": "https://co.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/co.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/co.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8
     },
@@ -710,7 +710,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI code review, testing, and generation platform with context-aware analysis and multi-agent experience.",
       "category": "Code Generator",
       "link": "https://www.qodo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/qodo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/qodo.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.9
     },
@@ -720,7 +720,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI development platform powered by 14 specialized agents for full-stack apps.",
       "category": "Code Generator",
       "link": "https://www.pythagora.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pythagora.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pythagora.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.8
     },
@@ -730,7 +730,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Turn prompts or screenshots into production-ready React code with AI-powered generation.",
       "category": "Code Generator",
       "link": "https://heroui.chat/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/heroui.chat-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heroui.chat-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.7
     },
@@ -740,7 +740,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website cloning with clean React/TypeScript code generation in seconds.",
       "category": "Code Generator",
       "link": "https://openlovable.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/openlovable.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/openlovable.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.6
     },
@@ -750,7 +750,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free tool for side-by-side AI coding comparison and exporting to GitHub or IDE.",
       "category": "Code Generator",
       "link": "https://www.codearena.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codearena.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codearena.app-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.5
     },
@@ -760,7 +760,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered design to code platform with 100 free credits for natural language design.",
       "category": "Code Generator",
       "link": "https://readdy.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/readdy.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/readdy.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.4
     },
@@ -770,7 +770,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI for Backend & Frontend Code Development with 10 free requests daily.",
       "category": "Code Generator",
       "link": "https://www.workik.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/workik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/workik.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.3
     },
@@ -780,7 +780,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI coding assistant with 6 free tasks per day for research, writing, and code generation.",
       "category": "Code Generator",
       "link": "https://ninjaai.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ninjaai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ninjaai.app-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.2
     },
@@ -790,7 +790,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Convert screenshots and PDFs to Figma designs and code with 5 free AI Transform Credits per month.",
       "category": "Code Generator",
       "link": "https://www.codia.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codia.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.1
     },
@@ -800,7 +800,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI platform for game concept and 3D asset generation with 30 free credits.",
       "category": "Code Generator",
       "link": "https://ludo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ludo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ludo.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7
     },
@@ -810,7 +810,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website builder with a free plan for up to 3 websites.",
       "category": "Code Generator",
       "link": "https://codedesign.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codedesign.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codedesign.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.9
     },
@@ -820,7 +820,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate UI Using AI with 50 free chat messages per month and human-like codebase understanding.",
       "category": "Code Generator",
       "link": "https://purecode.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/purecode.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/purecode.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.8
     },
@@ -830,7 +830,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free plan for real-time, undetectable coding assistance during technical interviews.",
       "category": "Code Generator",
       "link": "https://interviewcoder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewcoder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewcoder.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.7
     },
@@ -840,7 +840,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free forever platform for AI-powered collaborative prototyping and design system management.",
       "category": "Code Generator",
       "link": "https://www.supernova.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/supernova.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supernova.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.6
     },
@@ -850,7 +850,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered code generation for React with 30 free prompts (max 5 per day).",
       "category": "Code Generator",
       "link": "https://tempolabs.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tempolabs.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tempolabs.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.5
     },
@@ -860,7 +860,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Visually build and deploy logic with unlimited free public projects and 3 AI generations per month.",
       "category": "Code Generator",
       "link": "https://stately.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stately.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stately.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.4
     },
@@ -870,7 +870,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build full-stack apps from prompts with 5 free daily messages and no coding required.",
       "category": "Code Generator",
       "link": "https://vitara.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vitara.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vitara.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.3
     },
@@ -880,7 +880,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Convert prompts into production-ready React Native code with 20 free requests per month.",
       "category": "Code Generator",
       "link": "https://rapidnative.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rapidnative.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rapidnative.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.2
     },
@@ -890,7 +890,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Text to SQL conversion with 5 free queries per month and SQL optimization.",
       "category": "Code Generator",
       "link": "https://www.ai2sql.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai2sql.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai2sql.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.1
     },
@@ -900,7 +900,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free to start platform for autonomous company management and 24/7 AI coding.",
       "category": "Code Generator",
       "link": "https://polsia.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/polsia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/polsia.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6
     },
@@ -910,7 +910,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generative AI app building with 5 free daily credits and hands-on editing tools.",
       "category": "Code Generator",
       "link": "https://dazl.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dazl.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dazl.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.9
     },
@@ -920,7 +920,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI Frontend Engineer with 5 free messages per day for Figma-to-Code conversion.",
       "category": "Code Generator",
       "link": "https://dualite.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dualite.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dualite.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.8
     },
@@ -930,7 +930,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate and optimize SQL queries with a 7-day free trial.",
       "category": "Code Generator",
       "link": "https://sqlai.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sqlai.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sqlai.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.7
     },
@@ -940,7 +940,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered image to HTML/CSS/JS conversion with a 3-day free trial.",
       "category": "Code Generator",
       "link": "https://img2html.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/img2html.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/img2html.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.6
     },
@@ -950,7 +950,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Comprehensive tool for text-to-code generation, code review, and bug detection.",
       "category": "Code Generator",
       "link": "https://codepal.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codepal.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codepal.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.5
     },
@@ -960,7 +960,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI coding assistant providing 5,000 free coins for code completion and refactoring.",
       "category": "Code Generator",
       "link": "https://refact.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/refact.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/refact.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.4
     },
@@ -970,7 +970,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Python spreadsheet automation and AI code generation with 50 free AI completions per month.",
       "category": "Code Generator",
       "link": "https://trymito.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trymito.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trymito.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.3
     },
@@ -980,7 +980,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered code generator and unit-test writer with a 7-day free trial.",
       "category": "Code Generator",
       "link": "https://askcodi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askcodi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askcodi.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.2
     },
@@ -990,7 +990,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered code generation and task automation with free $20 credits.",
       "category": "Code Generator",
       "link": "https://kilocode.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kilocode.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kilocode.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.1
     },
@@ -1000,7 +1000,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered formula generator for Excel, Google Sheets, and apps with 5 free generations per month.",
       "category": "Code Generator",
       "link": "https://www.formulashq.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/formulashq.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/formulashq.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5
     },
@@ -1010,7 +1010,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free forever for developers to uncover code regressions and resolve performance issues.",
       "category": "Code Generator",
       "link": "https://www.digma.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/digma.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/digma.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 4.9
     },
@@ -1020,7 +1020,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Copy CSS from any website and generate AI UI with a one-day free trial.",
       "category": "Code Generator",
       "link": "https://csspicker.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/csspicker.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/csspicker.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 4.8
     },
@@ -1030,7 +1030,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI text, image, and code generator with a 7-day free trial.",
       "category": "Code Generator",
       "link": "https://aikeeda.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aikeeda.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aikeeda.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 4.7
     }
@@ -1042,7 +1042,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Zero code website design and publishing with AI-powered site creation. Design freely and publish fast.",
       "category": "No-Code",
       "link": "https://www.framer.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/framer.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/framer.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.8
     },
@@ -1052,7 +1052,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Unifies Data, AI, CRM, Development, and Security with low code development and automation capabilities.",
       "category": "Low-Code",
       "link": "https://www.salesforce.com/platform/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/salesforce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/salesforce.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.7
     },
@@ -1062,7 +1062,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered workflow automation with code & no-code flexibility. Connect 400+ integrations and build AI agents.",
       "category": "No-Code",
       "link": "https://n8n.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/n8n.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/n8n.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.6
     },
@@ -1072,7 +1072,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build custom apps without code and turn data into portals & tools. Perfect for internal tools and client portals.",
       "category": "No-Code",
       "link": "https://www.softr.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/softr.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/softr.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.5
     },
@@ -1082,7 +1082,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-Code Mobile and Web App Builder with drag and drop platform. Publish directly to App Stores or Web.",
       "category": "No-Code",
       "link": "https://www.adalo.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/adalo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/adalo.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.4
     },
@@ -1092,7 +1092,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create custom, AI-powered apps and automate manual work with no coding required for business apps.",
       "category": "No-Code",
       "link": "https://www.glideapps.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/glideapps.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/glideapps.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.3
     },
@@ -1102,7 +1102,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build fast, full-stack web apps with intuitive code editor and instant deployment for prototyping.",
       "category": "No-Code",
       "link": "https://glitch.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/glitch.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/glitch.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.2
     },
@@ -1112,7 +1112,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No coding required website builder with AI-powered creation for stunning websites and landing pages.",
       "category": "No-Code",
       "link": "https://tilda.cc/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tilda.cc-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tilda.cc-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.1
     },
@@ -1122,7 +1122,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website generation with 3D animated websites and immersive user experiences.",
       "category": "No-Code",
       "link": "https://www.dora.run/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dora.run-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dora.run-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9
     },
@@ -1132,7 +1132,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Visual Builder with headless CMS integrations and Figma to Code conversion for clean HTML/CSS.",
       "category": "No-Code",
       "link": "https://teleporthq.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/teleporthq.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/teleporthq.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.9
     },
@@ -1142,7 +1142,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build apps with AI in minutes using no-code approach with integrated backend and database system.",
       "category": "No-Code",
       "link": "https://base44.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/base44.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/base44.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.8
     },
@@ -1152,7 +1152,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Collaborative docs with integrated apps & data and AI assistance. Build documents that behave like apps.",
       "category": "No-Code",
       "link": "https://coda.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/coda.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coda.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.7
     },
@@ -1162,7 +1162,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Fast website building with integrated CRM capabilities for professional websites and landing pages.",
       "category": "No-Code",
       "link": "https://onepage.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/onepage.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/onepage.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.6
     },
@@ -1172,7 +1172,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate content, images, videos, and voice while crafting automated workflows and custom AI apps.",
       "category": "No-Code",
       "link": "https://www.anakin.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/anakin.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anakin.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.5
     },
@@ -1182,7 +1182,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build your AI workforce to automate processes and deliver human-quality work with intelligent agents.",
       "category": "No-Code",
       "link": "https://relevanceai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/relevanceai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/relevanceai.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.4
     },
@@ -1192,7 +1192,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate websites with AI using no-code building with customizable templates for small businesses.",
       "category": "No-Code",
       "link": "https://mobirise.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mobirise.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mobirise.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.3
     },
@@ -1202,7 +1202,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI web designer and developer that creates and modifies websites via chat with no coding required.",
       "category": "No-Code",
       "link": "https://wegic.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wegic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wegic.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.2
     },
@@ -1212,7 +1212,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "One platform for the whole company with no-code customizable workspace and AI assistant.",
       "category": "No-Code",
       "link": "https://fibery.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fibery.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fibery.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.1
     },
@@ -1222,7 +1222,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Extract data from any website, monitor for changes, and turn any website into an API without code.",
       "category": "No-Code",
       "link": "https://browseai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/browseai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/browseai.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8
     },
@@ -1232,7 +1232,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Scalable no-code backend with AI agent builder and no-code API builder for powerful backends.",
       "category": "No-Code",
       "link": "https://xano.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/xano.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xano.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.9
     },
@@ -1242,7 +1242,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered web & mobile app building with Figma to Code conversion and intelligent automation.",
       "category": "No-Code",
       "link": "https://dhiwise.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dhiwise.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dhiwise.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.8
     },
@@ -1252,7 +1252,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate web apps with AI using visual low-code editor for internal tools and dashboards.",
       "category": "Low-Code",
       "link": "https://uibakery.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/uibakery.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uibakery.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.7
     },
@@ -1262,7 +1262,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-assisted building with visual drag & drop editor for web applications and customer portals.",
       "category": "No-Code",
       "link": "https://www.weweb.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/weweb.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/weweb.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.6
     },
@@ -1272,7 +1272,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code web scraping with AI assistant. Extract data from websites automatically with visual interface.",
       "category": "No-Code",
       "link": "https://www.octoparse.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/octoparse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octoparse.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.5
     },
@@ -1282,7 +1282,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create beautiful forms and receive submissions straight into Notion with seamless integration.",
       "category": "No-Code",
       "link": "https://noteforms.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/noteforms.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/noteforms.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.4
     },
@@ -1292,7 +1292,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI app builder with no coding required, local & open-source solution for rapid prototyping.",
       "category": "No-Code",
       "link": "https://dyad.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dyad.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dyad.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.3
     },
@@ -1302,7 +1302,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code chatbot creation with multichannel deployment for websites, WhatsApp, and more.",
       "category": "No-Code",
       "link": "https://typebot.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/typebot.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/typebot.co-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.2
     },
@@ -1312,7 +1312,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create powerful APIs, scheduled jobs, and backend tasks while automating complex workflows without code.",
       "category": "No-Code",
       "link": "https://buildship.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/buildship.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/buildship.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.1
     },
@@ -1322,7 +1322,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Email marketing and automation platform with a free plan for up to 1,000 subscribers.",
       "category": "No-Code",
       "link": "https://www.mailerlite.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mailerlite.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mailerlite.com-128x128__Estimated_.png",
       "icon": "Mail",
       "score": 7
     },
@@ -1332,7 +1332,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create unlimited animated videos (3 min duration) with 100MB storage on the free plan.",
       "category": "No-Code",
       "link": "https://www.powtoon.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/powtoon.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/powtoon.com-128x128__Estimated_.png",
       "icon": "Video",
       "score": 6.9
     },
@@ -1342,7 +1342,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Centralized multi-channel communication for customer support with a 7-day free trial.",
       "category": "No-Code",
       "link": "https://callbell.eu/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/callbell.eu-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/callbell.eu-128x128__Estimated_.png",
       "icon": "MessageSquare",
       "score": 6.8
     },
@@ -1352,7 +1352,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Automate data collection and outreach with a 14-day free trial and 1k AI credits.",
       "category": "No-Code",
       "link": "https://phantombuster.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/phantombuster.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/phantombuster.com-128x128__Estimated_.png",
       "icon": "Zap",
       "score": 6.7
     },
@@ -1362,7 +1362,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "E-commerce solution with a free plan featuring 1-click checkout and automated payments.",
       "category": "No-Code",
       "link": "https://easycart.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/easycart.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easycart.app-128x128__Estimated_.png",
       "icon": "ShoppingCart",
       "score": 6.6
     },
@@ -1372,7 +1372,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Landing page builder with AI optimization and A/B testing, available via a 14-day free trial.",
       "category": "No-Code",
       "link": "https://unbounce.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unbounce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unbounce.com-128x128__Estimated_.png",
       "icon": "Layout",
       "score": 6.5
     },
@@ -1382,7 +1382,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Turn ideas into working apps with 5 daily credits and built-in full stack support.",
       "category": "No-Code",
       "link": "https://blink.tools/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/blink.tools-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blink.tools-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.4
     },
@@ -1392,7 +1392,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate and test apps on your phone with prompting and limited free messages.",
       "category": "No-Code",
       "link": "https://vibecode.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vibecode.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vibecode.ai-128x128__Estimated_.png",
       "icon": "Smartphone",
       "score": 6.3
     },
@@ -1402,7 +1402,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered no-code app builder with 120 free credits and 1 app deployment.",
       "category": "No-Code",
       "link": "https://www.mocha.world/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mocha.world-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mocha.world-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.2
     },
@@ -1412,7 +1412,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI web scraping and social media automation with 1,000 free credits per month.",
       "category": "No-Code",
       "link": "https://gumloop.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gumloop.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gumloop.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.1
     },
@@ -1422,7 +1422,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code automation platform with 100 free transactions per month and 800+ app integrations.",
       "category": "No-Code",
       "link": "https://www.albato.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/albato.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/albato.com-128x128__Estimated_.png",
       "icon": "Zap",
       "score": 6
     },
@@ -1432,7 +1432,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build stunning websites and AI apps with 30 free messages per month.",
       "category": "No-Code",
       "link": "https://trickleai.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trickleai.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trickleai.io-128x128__Estimated_.png",
       "icon": "Layout",
       "score": 5.9
     },
@@ -1442,7 +1442,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build custom AI apps with natural language using 30 free credits per month.",
       "category": "No-Code",
       "link": "https://creao.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/creao.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/creao.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.8
     },
@@ -1452,7 +1452,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Document workflow automation and multi-modal data extraction for AI training.",
       "category": "No-Code",
       "link": "https://www.v7labs.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/v7labs.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/v7labs.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 5.7
     },
@@ -1462,7 +1462,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Browser automation and web scraping with 2 hours of runtime free and no credit card required.",
       "category": "No-Code",
       "link": "https://axiom.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/axiom.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/axiom.ai-128x128__Estimated_.png",
       "icon": "MousePointer",
       "score": 5.6
     },
@@ -1472,7 +1472,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Turn content into private podcasts with a 7-day free trial and automatic video-to-audio conversion.",
       "category": "No-Code",
       "link": "https://helloaudio.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/helloaudio.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/helloaudio.com-128x128__Estimated_.png",
       "icon": "Mic",
       "score": 5.5
     },
@@ -1482,7 +1482,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Connect apps and automate business processes with a 14-day free trial and 400+ integrations.",
       "category": "No-Code",
       "link": "https://apix-drive.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apix-drive.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apix-drive.com-128x128__Estimated_.png",
       "icon": "Zap",
       "score": 5.4
     },
@@ -1492,7 +1492,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered test creation for web and mobile with a free forever plan and 30-day trial.",
       "category": "No-Code",
       "link": "https://katalon.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/katalon.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/katalon.com-128x128__Estimated_.png",
       "icon": "CheckCircle",
       "score": 5.3
     },
@@ -1502,7 +1502,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build full-stack apps via chat with 25 free credits per month and multi-agent AI team.",
       "category": "No-Code",
       "link": "https://atoms.sh/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/atoms.sh-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/atoms.sh-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.2
     },
@@ -1512,7 +1512,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Omnichannel chatbot maker with a free forever plan including 12,000 messages.",
       "category": "No-Code",
       "link": "https://www.botpenguin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/botpenguin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/botpenguin.com-128x128__Estimated_.png",
       "icon": "MessageSquare",
       "score": 5.1
     },
@@ -1522,7 +1522,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Open-source no-code automation with 1,000 free tasks per month and AI agents.",
       "category": "No-Code",
       "link": "https://www.activepieces.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/activepieces.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/activepieces.com-128x128__Estimated_.png",
       "icon": "Zap",
       "score": 5
     },
@@ -1532,7 +1532,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code website builder with 5 free image/text generations and online store features.",
       "category": "No-Code",
       "link": "https://www.onuniverse.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/onuniverse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/onuniverse.com-128x128__Estimated_.png",
       "icon": "Layout",
       "score": 4.9
     },
@@ -1542,7 +1542,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI website generation and no-code builder with 5 websites free on the starter plan.",
       "category": "No-Code",
       "link": "https://www.dorik.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dorik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dorik.com-128x128__Estimated_.png",
       "icon": "Layout",
       "score": 4.8
     },
@@ -1552,7 +1552,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-based self-healing test automation with a 14-day free trial using plain English.",
       "category": "No-Code",
       "link": "https://testrigor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/testrigor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/testrigor.com-128x128__Estimated_.png",
       "icon": "CheckCircle",
       "score": 4.7
     }
@@ -1564,7 +1564,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "An efficient MoE model for the agentic era, optimized specifically for coding and agentic workflows.",
       "category": "Developer Tools",
       "link": "https://www.minimax.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/minimax.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/minimax.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.9
     },
@@ -1574,7 +1574,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Multimodal generative AI models with 2M token context window. Fastest way to build AI-first applications.",
       "category": "Developer Tools",
       "link": "https://aistudio.google.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aistudio.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aistudio.google.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.8
     },
@@ -1584,7 +1584,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI model experiment tracking, evaluations, and assets registry. Visualize ML models with minimal code.",
       "category": "Developer Tools",
       "link": "https://wandb.ai/site/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wandb.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wandb.ai-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.7
     },
@@ -1594,7 +1594,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-assisted data annotation, hosted model training & deployment for computer vision applications.",
       "category": "Developer Tools",
       "link": "https://roboflow.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/roboflow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/roboflow.com-128x128__Estimated_.png",
       "icon": "Image",
       "score": 9.6
     },
@@ -1604,7 +1604,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build, train, and deploy Vision AI models with a no-code platform featuring state-of-the-art YOLO models.",
       "category": "Developer Tools",
       "link": "https://www.ultralytics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ultralytics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ultralytics.com-128x128__Estimated_.png",
       "icon": "Image",
       "score": 9.5
     },
@@ -1614,7 +1614,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Fast inference, fine-tuning & training with scalable GPU clusters and 200+ generative AI models.",
       "category": "Developer Tools",
       "link": "https://www.together.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/together.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/together.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.4
     },
@@ -1624,7 +1624,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "High-performance AI infrastructure with serverless pay-per-second compute and sub-second cold starts.",
       "category": "Developer Tools",
       "link": "https://modal.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/modal.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/modal.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.3
     },
@@ -1634,7 +1634,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build models and full-stack AI apps with train, deploy, and serve capabilities in an all-in-one platform.",
       "category": "Developer Tools",
       "link": "https://lightning.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lightning.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lightning.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.2
     },
@@ -1644,7 +1644,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Flexible data labeling for all data types with ML-assisted labeling & LLM fine-tuning capabilities.",
       "category": "Developer Tools",
       "link": "https://labelstud.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/labelstud.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/labelstud.io-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.1
     },
@@ -1654,7 +1654,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Real-time analytics backend with scalable REST APIs for building data-intensive software with SQL.",
       "category": "Developer Tools",
       "link": "https://www.tinybird.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tinybird.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tinybird.co-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9
     },
@@ -1664,7 +1664,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "CI/CD with AI capabilities and Jira integration for complete code management and team collaboration.",
       "category": "Developer Tools",
       "link": "https://bitbucket.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bitbucket.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bitbucket.org-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.9
     },
@@ -1674,7 +1674,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Realtime reactive database with full-stack TypeScript backend and seamless AI integration.",
       "category": "Developer Tools",
       "link": "https://convex.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/convex.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/convex.dev-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.8
     },
@@ -1684,7 +1684,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered terminal with built-in team knowledge for a revolutionized command line experience.",
       "category": "Developer Tools",
       "link": "https://www.warp.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/warp.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/warp.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.7
     },
@@ -1694,7 +1694,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Integrate AI agents & LLMs with 250+ tools using managed authentication for sophisticated apps.",
       "category": "Developer Tools",
       "link": "https://composio.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/composio.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/composio.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.6
     },
@@ -1704,7 +1704,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Manage GPU clusters and streamline AI/ML workflows with comprehensive experiment tracking and MLOps.",
       "category": "Developer Tools",
       "link": "https://clear.ml/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clear.ml-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clear.ml-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.5
     },
@@ -1714,7 +1714,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Fully managed Milvus with billion-scale vector search for semantic search and recommendation systems.",
       "category": "Developer Tools",
       "link": "https://zilliz.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zilliz.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zilliz.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.4
     },
@@ -1724,7 +1724,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Open-source data integration with 600+ connectors for moving data between databases and warehouses.",
       "category": "Developer Tools",
       "link": "https://airbyte.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airbyte.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airbyte.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.3
     },
@@ -1734,7 +1734,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Self-hosted cloud development environment with faster build times and reduced cloud costs.",
       "category": "Developer Tools",
       "link": "https://coder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/coder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coder.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.2
     },
@@ -1744,7 +1744,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Deploy LLMs & multimodal models with fine-tuning capabilities and pay-as-you-go pricing.",
       "category": "Developer Tools",
       "link": "https://siliconflow.cn/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/siliconflow.cn-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/siliconflow.cn-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.1
     },
@@ -1754,7 +1754,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI observability suite with AI gateway and prompt engineering tools for monitoring and optimization.",
       "category": "Developer Tools",
       "link": "https://portkey.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/portkey.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/portkey.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8
     },
@@ -1764,7 +1764,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Supercharge your AI platform to build, run and scale AI applications built on Ray for distributed computing.",
       "category": "Developer Tools",
       "link": "https://www.anyscale.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/anyscale.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anyscale.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.9
     },
@@ -1774,7 +1774,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Enterprise-grade low-code platform with a 30-day free trial for AI and CRM development.",
       "category": "Developer Tools",
       "link": "https://www.salesforce.com/platform/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/salesforce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/salesforce.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.8
     },
@@ -1784,7 +1784,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Individual plan at $0/month for agent-first development and AI IDE core.",
       "category": "Developer Tools",
       "link": "https://antigravity.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/antigravity.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/antigravity.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.7
     },
@@ -1794,7 +1794,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Unlimited Jams and AI debugger for auto-capturing debug info with a free plan.",
       "category": "Developer Tools",
       "link": "https://jam.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jam.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jam.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.6
     },
@@ -1804,7 +1804,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free trial with automatic scaling and painless deployment for AI projects.",
       "category": "Developer Tools",
       "link": "https://zeabur.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zeabur.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zeabur.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.5
     },
@@ -1814,7 +1814,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free access during preview for an agentic coding platform with enhanced context.",
       "category": "Developer Tools",
       "link": "https://www.qoder.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/qoder.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/qoder.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.4
     },
@@ -1824,7 +1824,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered digital asset management with a free tier for image and video optimization.",
       "category": "Developer Tools",
       "link": "https://imagekit.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/imagekit.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imagekit.io-128x128__Estimated_.png",
       "icon": "Image",
       "score": 7.3
     },
@@ -1834,7 +1834,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Permanent free plan for up to 5 profiles with secure browser fingerprints.",
       "category": "Developer Tools",
       "link": "https://roxybrowser.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/roxybrowser.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/roxybrowser.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.2
     },
@@ -1844,7 +1844,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "30-day free trial for a headless rich text editor with real-time AI collaboration.",
       "category": "Developer Tools",
       "link": "https://tiptap.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tiptap.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tiptap.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.1
     },
@@ -1854,7 +1854,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "10,000 free minutes every month for low-latency AI communication infrastructure.",
       "category": "Developer Tools",
       "link": "https://www.videosdk.live/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/videosdk.live-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videosdk.live-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7
     },
@@ -1864,7 +1864,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "5-hour audio transcription free trial for deploying AI/ML production models.",
       "category": "Developer Tools",
       "link": "https://salad.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/salad.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/salad.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.9
     },
@@ -1874,7 +1874,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free access to all AI hackathons and a global community of makers.",
       "category": "Developer Tools",
       "link": "https://lablab.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lablab.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lablab.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.8
     },
@@ -1884,7 +1884,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "10,000 free credits for building knowledge assistants and document parsing.",
       "category": "Developer Tools",
       "link": "https://www.llamaindex.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/llamaindex.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/llamaindex.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.7
     },
@@ -1894,7 +1894,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "9 months of free individual context for AI-powered code snippet management.",
       "category": "Developer Tools",
       "link": "https://pieces.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pieces.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pieces.app-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.6
     },
@@ -1904,7 +1904,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "$5 free credits for cloud-native platform with one-click Docker deployment.",
       "category": "Developer Tools",
       "link": "https://clawcloud.run/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clawcloud.run-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clawcloud.run-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.5
     },
@@ -1914,7 +1914,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free trial for streamlining AI data workflows and annotation pipelines.",
       "category": "Developer Tools",
       "link": "https://www.superannotate.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/superannotate.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/superannotate.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.4
     },
@@ -1924,7 +1924,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "10,000 free minutes for voice, video, and chat APIs with real-time interaction.",
       "category": "Developer Tools",
       "link": "https://www.zegocloud.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zegocloud.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zegocloud.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.3
     },
@@ -1934,7 +1934,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "30-day free trial for unified control plane of AI and data pipelines.",
       "category": "Developer Tools",
       "link": "https://dagster.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dagster.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dagster.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.2
     },
@@ -1944,7 +1944,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free individual tier for command line migration to Amazon Q with faster reliability.",
       "category": "Developer Tools",
       "link": "https://fig.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fig.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fig.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.1
     },
@@ -1954,7 +1954,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "10 free requests daily for context-driven AI assistance in backend and frontend.",
       "category": "Developer Tools",
       "link": "https://www.workik.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/workik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/workik.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6
     },
@@ -1964,7 +1964,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Always free tool to generate high-quality UI code from designs without manual tags.",
       "category": "Developer Tools",
       "link": "https://kombai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kombai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kombai.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.9
     },
@@ -1974,7 +1974,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free trial for AI-powered automatic captcha solving for various types.",
       "category": "Developer Tools",
       "link": "https://www.capsolver.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/capsolver.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/capsolver.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.8
     },
@@ -1984,7 +1984,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free framework for model-agnostic AI development with memory and knowledge tools.",
       "category": "Developer Tools",
       "link": "https://agno.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/agno.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/agno.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.7
     },
@@ -1994,7 +1994,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "10 minutes of free text-to-speech with realistic AI voices and development toolkit.",
       "category": "Developer Tools",
       "link": "https://elevenlabs.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/elevenlabs.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/elevenlabs.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.6
     },
@@ -2004,7 +2004,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered web accessibility platform with litigation support and free trial.",
       "category": "Developer Tools",
       "link": "https://accessibe.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/accessibe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/accessibe.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.5
     },
@@ -2014,7 +2014,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "14-day free trial for software localization on autopilot with automated translations.",
       "category": "Developer Tools",
       "link": "https://localazy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/localazy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/localazy.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.4
     },
@@ -2024,7 +2024,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free plan limited to 1 project and 5 test runs per week for LLM evaluation.",
       "category": "Developer Tools",
       "link": "https://confident-ai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/confident-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/confident-ai.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.3
     },
@@ -2034,7 +2034,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free tier with monthly cap for AI-driven personal assistants and chat apps.",
       "category": "Developer Tools",
       "link": "https://brilliantlabs.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/brilliantlabs.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brilliantlabs.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.2
     },
@@ -2044,7 +2044,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free database diagram editor with AI-powered DDL script generation.",
       "category": "Developer Tools",
       "link": "https://chartdb.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chartdb.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chartdb.io-128x128__Estimated_.png",
       "icon": "Database",
       "score": 5.1
     },
@@ -2054,7 +2054,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free to use locally for AI-assisted automated testing of mobile and web apps.",
       "category": "Developer Tools",
       "link": "https://maestro.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/maestro.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/maestro.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5
     },
@@ -2064,7 +2064,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "14 days free for unlimited access to PWA installation and push notifications.",
       "category": "Developer Tools",
       "link": "https://progressier.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/progressier.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/progressier.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 4.9
     },
@@ -2074,7 +2074,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "40 free PR reviews per month with an AI code review agent for faster merging.",
       "category": "Developer Tools",
       "link": "https://www.cubic.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cubic.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cubic.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 4.8
     },
@@ -2084,7 +2084,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "10,000 free requests for LLM observability, cost tracking, and agent tracing.",
       "category": "Developer Tools",
       "link": "https://www.helicone.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/helicone.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/helicone.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 4.7
     }
@@ -2096,7 +2096,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Transform your ideas into professional web apps and websites with AI-powered development through natural conversation.",
       "category": "App Builder",
       "link": "https://replit.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/replit.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/replit.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.9
     },
@@ -2106,7 +2106,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Google's AI-powered full-stack development environment that accelerates app creation with intelligent assistance.",
       "category": "App Builder",
       "link": "https://firebase.studio/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/firebase.studio-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/firebase.studio-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.8
     },
@@ -2116,7 +2116,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Open-source platform for orchestrating LLM applications with visual workflows and AI agent support.",
       "category": "App Builder",
       "link": "https://dify.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dify.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dify.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.7
     },
@@ -2126,7 +2126,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create stunning custom, AI-powered apps without any coding knowledge. Transform your data into beautiful mobile and web apps.",
       "category": "App Builder",
       "link": "https://www.glideapps.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/glideapps.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/glideapps.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.6
     },
@@ -2136,7 +2136,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Revolutionary AI-native platform for building complete applications through conversational interface and intelligent data analysis.",
       "category": "App Builder",
       "link": "https://www.airtable.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airtable.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airtable.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.5
     },
@@ -2146,7 +2146,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build fully-functional applications in minutes using only natural language. description: describe your vision and AI creates the app.",
       "category": "App Builder",
       "link": "https://base44.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/base44.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/base44.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.4
     },
@@ -2156,7 +2156,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Next-generation platform for browsing and creating AI-powered digital services with instant AI app creation.",
       "category": "App Builder",
       "link": "https://www.vondy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vondy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vondy.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.3
     },
@@ -2166,7 +2166,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "All-in-one platform for content creation, custom AI apps, and intelligent agents with automated workflows.",
       "category": "App Builder",
       "link": "https://anakin.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/anakin.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anakin.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.2
     },
@@ -2176,7 +2176,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Transform your ideas into mobile and web applications through simple prompting. No coding experience required.",
       "category": "App Builder",
       "link": "https://www.createanything.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/createanything.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/createanything.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.1
     },
@@ -2186,7 +2186,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Enterprise-grade low-code platform that unifies data, AI, CRM, development, and security with comprehensive automation.",
       "category": "App Builder",
       "link": "https://www.salesforce.com/platform/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/salesforce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/salesforce.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9
     },
@@ -2196,7 +2196,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Cloud-based ComfyUI platform for creating and publishing AI applications. Edit and run workflows online.",
       "category": "App Builder",
       "link": "https://www.runninghub.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/runninghub.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/runninghub.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.9
     },
@@ -2206,7 +2206,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Discover and create free AI-powered mini applications and chatbots across various categories without any coding.",
       "category": "App Builder",
       "link": "https://miniapps.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/miniapps.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/miniapps.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.8
     },
@@ -2216,7 +2216,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Collaborative AI-powered workspace for notebook-based data exploration and interactive data applications.",
       "category": "App Builder",
       "link": "https://hex.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hex.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hex.tech-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.7
     },
@@ -2226,7 +2226,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build full-stack web and mobile applications from plain text descriptions with instant deployment capabilities.",
       "category": "App Builder",
       "link": "https://www.dhiwise.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dhiwise.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dhiwise.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.6
     },
@@ -2236,7 +2236,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build custom business applications, portals, and internal tools without coding using AI-powered automation.",
       "category": "App Builder",
       "link": "https://www.softr.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/softr.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/softr.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.5
     },
@@ -2246,7 +2246,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Visual low-code platform for building web applications with AI assistance and drag-and-drop interface.",
       "category": "App Builder",
       "link": "https://uibakery.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/uibakery.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uibakery.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.4
     },
@@ -2256,7 +2256,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-assisted no-code web application builder with visual drag-and-drop editor and responsive design tools.",
       "category": "App Builder",
       "link": "https://www.weweb.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/weweb.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/weweb.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.3
     },
@@ -2266,7 +2266,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free, local, open-source AI app builder that runs on your computer. Maintain complete privacy and control.",
       "category": "App Builder",
       "link": "https://www.dyad.sh/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dyad.sh-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dyad.sh-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.2
     },
@@ -2276,7 +2276,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered mobile app builder that generates applications through simple prompting with real-time phone testing.",
       "category": "App Builder",
       "link": "https://www.vibecodeapp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vibecodeapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vibecodeapp.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.1
     },
@@ -2286,7 +2286,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered no-code app builder that transforms ideas into live websites in minutes using natural language.",
       "category": "App Builder",
       "link": "https://getmocha.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getmocha.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getmocha.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8
     },
@@ -2296,7 +2296,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "World's fastest iOS & Android app builder that deploys directly to app stores with built-in image and LLM APIs.",
       "category": "App Builder",
       "link": "https://a0.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/a0.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/a0.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.9
     },
@@ -2306,7 +2306,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-generated 3D game creation platform with no coding required. Build and deploy games using simple prompts.",
       "category": "App Builder",
       "link": "https://rosebud.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rosebud.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rosebud.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.8
     },
@@ -2316,7 +2316,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI workflow automation platform for building intelligent chatbots and AI tools without coding.",
       "category": "App Builder",
       "link": "https://www.flowhunt.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/flowhunt.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flowhunt.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.7
     },
@@ -2326,7 +2326,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Amazon Bedrock-powered platform for building AI-generated applications in a fun playground environment.",
       "category": "App Builder",
       "link": "https://partyrock.aws/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/partyrock.aws-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/partyrock.aws-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.6
     },
@@ -2336,7 +2336,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered code generation for React applications with visual drag-and-drop editor for faster development.",
       "category": "App Builder",
       "link": "https://www.tempo.new/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tempo.new-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tempo.new-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.5
     },
@@ -2346,7 +2346,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "World's first vibe coding canvas for building stunning websites, AI apps, and forms with built-in AI models.",
       "category": "App Builder",
       "link": "https://trickle.so/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trickle.so-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trickle.so-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.4
     },
@@ -2356,7 +2356,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build AI applications, products, and online businesses without coding using magic builder technology.",
       "category": "App Builder",
       "link": "https://buildai.space/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/buildai.space-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/buildai.space-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.3
     },
@@ -2366,7 +2366,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI web application builder that creates full-stack applications without coding from everyday language descriptions.",
       "category": "App Builder",
       "link": "https://softgen.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/softgen.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/softgen.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.2
     },
@@ -2376,7 +2376,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI builds React frontends and Python backends from natural language descriptions for complete SaaS products.",
       "category": "App Builder",
       "link": "https://databutton.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/databutton.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/databutton.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.1
     },
@@ -2386,7 +2386,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Turn ideas into full-stack apps with 5 free daily credits. Features self-correcting code and instant deployment.",
       "category": "App Builder",
       "link": "https://blink.tools/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/blink.tools-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blink.tools-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7
     },
@@ -2396,7 +2396,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build apps from ideas or screenshots in minutes. Offers a free tier for no-code AI app development.",
       "category": "App Builder",
       "link": "https://onspace.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/onspace.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/onspace.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.9
     },
@@ -2406,7 +2406,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create custom AI apps using natural language with 30 free monthly credits. No credit card required to start.",
       "category": "App Builder",
       "link": "https://creao.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/creao.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/creao.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.8
     },
@@ -2416,7 +2416,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate apps and integrations through chat with a generous 10k credit starter pack for new users.",
       "category": "App Builder",
       "link": "https://create.xyz/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/create.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/create.xyz-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.7
     },
@@ -2426,7 +2426,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build full-stack applications via chat with 25 free monthly credits. Leverages a multi-agent AI team for development.",
       "category": "App Builder",
       "link": "https://atoms.sh/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/atoms.sh-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/atoms.sh-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.6
     },
@@ -2436,7 +2436,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Design mobile apps for free with AI assistance. Easily export your designs to Figma or production-ready code.",
       "category": "App Builder",
       "link": "https://sleek.design/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sleek.design-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sleek.design-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.5
     },
@@ -2446,7 +2446,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build and ship App Store-ready mobile apps with 1,000 free monthly credits and powerful visual editing tools.",
       "category": "App Builder",
       "link": "https://tile.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tile.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tile.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.4
     },
@@ -2456,7 +2456,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate full-stack web applications quickly with 15 free credits. Simplifies complex development into simple prompts.",
       "category": "App Builder",
       "link": "https://zoer.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zoer.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zoer.app-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.3
     },
@@ -2466,7 +2466,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Get a 6,000 credit bonus upon signup to build AI apps in minutes. A comprehensive all-in-one development platform.",
       "category": "App Builder",
       "link": "https://floot.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/floot.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/floot.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.2
     },
@@ -2476,7 +2476,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Visually build logic and diagrams with unlimited free public projects and 3 AI-powered generations per month.",
       "category": "App Builder",
       "link": "https://stately.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stately.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stately.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.1
     },
@@ -2486,7 +2486,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build full-stack apps from a single prompt with 5 free daily messages. No coding knowledge required.",
       "category": "App Builder",
       "link": "https://vitara.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vitara.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vitara.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6
     },
@@ -2496,7 +2496,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build AI-powered apps and agents with one free AI customization. Includes API access and visual action flows.",
       "category": "App Builder",
       "link": "https://momen.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/momen.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/momen.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.9
     },
@@ -2506,7 +2506,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build generative AI applications with 5 free daily credits. Features hands-on editing tools for precise control.",
       "category": "App Builder",
       "link": "https://dazl.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dazl.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dazl.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.8
     },
@@ -2516,7 +2516,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "An AI frontend engineer that offers 5 free messages. Supports Figma-to-code conversion and GitHub synchronization.",
       "category": "App Builder",
       "link": "https://dualite.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dualite.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dualite.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.7
     },
@@ -2526,7 +2526,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate and modify applications with 5 free monthly credits. You maintain full ownership of the generated source code.",
       "category": "App Builder",
       "link": "https://flatlogic.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/flatlogic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flatlogic.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.6
     },
@@ -2536,7 +2536,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build production-grade full-stack web apps using natural language. Offers a free tier for no-code development.",
       "category": "App Builder",
       "link": "https://capacity.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/capacity.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/capacity.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.5
     },
@@ -2546,7 +2546,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Transform your app into a PWA with a 14-day free trial including unlimited access and push notifications.",
       "category": "App Builder",
       "link": "https://progressier.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/progressier.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/progressier.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.4
     },
@@ -2556,7 +2556,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create AI-powered forms and web apps with 100 free monthly submissions. Includes membership portals and analytics.",
       "category": "App Builder",
       "link": "https://formaloo.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/formaloo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/formaloo.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.3
     },
@@ -2566,7 +2566,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build AI apps and automate workflows with 1,000 free non-AI actions per month. Perfect for custom chatbots.",
       "category": "App Builder",
       "link": "https://vectorshift.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vectorshift.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vectorshift.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.2
     },
@@ -2576,7 +2576,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build custom business applications with a free plan for one app and one user. Includes a 14-day premium trial.",
       "category": "App Builder",
       "link": "https://jetadmin.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jetadmin.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jetadmin.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.1
     }
@@ -2588,7 +2588,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Revolutionary AI browser that acts as your personal assistant for research and navigation.",
       "category": "AI Browsers",
       "link": "https://www.perplexity.ai/comet/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/perplexity.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/perplexity.ai-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.9
     },
@@ -2598,7 +2598,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-first agentic browser combining deep research capabilities with built-in AI tools.",
       "category": "AI Browsers",
       "link": "https://www.sigmabrowser.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sigmabrowser.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sigmabrowser.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.8
     },
@@ -2608,7 +2608,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Cloud-based browser infrastructure for AI agents and applications with serverless automation.",
       "category": "AI Browsers",
       "link": "https://www.browserbase.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/browserbase.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/browserbase.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.7
     },
@@ -2618,7 +2618,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI automation agent combining ChatGPT, Claude, Gemini, and Perplexity for web work.",
       "category": "AI Browsers",
       "link": "https://harpa.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/harpa.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/harpa.ai-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.6
     },
@@ -2628,7 +2628,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Intelligent notebook browser that brings files and web content directly into your stream of thought.",
       "category": "AI Browsers",
       "link": "https://deta.surf/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deta.surf-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deta.surf-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.5
     },
@@ -2638,7 +2638,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "First AI browser engine with built-in Airis assistant for interactive summaries and navigation.",
       "category": "AI Browsers",
       "link": "https://sigmaos.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sigmaos.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sigmaos.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.4
     },
@@ -2648,7 +2648,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered vertical tabs manager with intelligent tab grouping and smart workflow management.",
       "category": "AI Browsers",
       "link": "https://www.sidespace.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sidespace.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sidespace.app-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.3
     },
@@ -2658,7 +2658,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI browser assistant supporting ChatGPT, Claude, Gemini across any site.",
       "category": "AI Browsers",
       "link": "https://www.viinyx.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/viinyx.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/viinyx.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.2
     },
@@ -2668,7 +2668,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "ChatGPT Chrome extension for seamless AI integration with page-focused search and summarization.",
       "category": "AI Browsers",
       "link": "https://chippyai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chippyai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chippyai.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9.1
     },
@@ -2678,7 +2678,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-based automatic tab grouping and vertical sidebar management for intelligent workspace creation.",
       "category": "AI Browsers",
       "link": "https://phewtab.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/phewtab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/phewtab.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 9
     },
@@ -2688,7 +2688,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered reading assistant with sourced answers for complex questions and fact-checking.",
       "category": "AI Browsers",
       "link": "https://wiseone.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wiseone.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wiseone.io-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.9
     },
@@ -2698,7 +2698,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI chat assistant and agent with contextual browsing capabilities and YouTube video summaries.",
       "category": "AI Browsers",
       "link": "https://browsewiz.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/browsewiz.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/browsewiz.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.8
     },
@@ -2708,7 +2708,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Open-source AI assistant Chrome extension with customizable prompts for interactive Q&A.",
       "category": "AI Browsers",
       "link": "https://askman.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askman.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askman.dev-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.7
     },
@@ -2718,7 +2718,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI vision co-pilot powered by GPT-4V for advanced web analysis and content understanding.",
       "category": "AI Browsers",
       "link": "https://chromewebstore.google.com/detail/blenny-ai-vision-co-pilot/dofojeaoockndffbaacclfbkppbehlgj",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.6
     },
@@ -2728,7 +2728,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Intelligent browser automation platform for AI agents with natural language control.",
       "category": "AI Browsers",
       "link": "https://www.airtop.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airtop.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airtop.ai-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.5
     },
@@ -2738,7 +2738,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Open-source AI browser automation using computer vision for complex web workflows.",
       "category": "AI Browsers",
       "link": "https://www.skyvern.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skyvern.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skyvern.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.4
     },
@@ -2748,7 +2748,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI browser agent platform for automation, web scraping, and internet intelligence.",
       "category": "AI Browsers",
       "link": "https://www.browser.cash/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/browser.cash-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/browser.cash-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.3
     },
@@ -2758,7 +2758,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Web3 AI browser with cryptocurrency earning capabilities and built-in multi-chain wallet.",
       "category": "AI Browsers",
       "link": "https://www.broearn.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/broearn.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/broearn.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.2
     },
@@ -2768,7 +2768,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered bilingual translation extension supporting 142+ languages for web content.",
       "category": "AI Browsers",
       "link": "https://deeptranslate.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deeptranslate.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deeptranslate.ai-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8.1
     },
@@ -2778,7 +2778,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Smart organization browser with distraction-free productivity features and tab management.",
       "category": "AI Browsers",
       "link": "https://polabrowser.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/polabrowser.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/polabrowser.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 8
     },
@@ -2788,7 +2788,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Kid-safe AI browser with parental controls and personalized content filtering.",
       "category": "AI Browsers",
       "link": "https://w.hellowonder.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/w.hellowonder.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/w.hellowonder.ai-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.9
     },
@@ -2798,7 +2798,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Lightweight super browser with Spotlight-like UI for quick access to AI tools.",
       "category": "AI Browsers",
       "link": "https://www.airlight.pro/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airlight.pro-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airlight.pro-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.8
     },
@@ -2808,7 +2808,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-augmented browser with automatic content classification and topic-based labeling.",
       "category": "AI Browsers",
       "link": "https://aiplix.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiplix.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiplix.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.7
     },
@@ -2818,7 +2818,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered browser for work with split views and intelligent workspace management.",
       "category": "AI Browsers",
       "link": "https://www.floutwork.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/floutwork.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/floutwork.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.6
     },
@@ -2828,7 +2828,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "On-site ChatGPT access for instant content generation and productivity across any site.",
       "category": "AI Browsers",
       "link": "https://quickaccessai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/quickaccessai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quickaccessai.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.5
     },
@@ -2838,7 +2838,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI browser automation with natural language control and privacy protection.",
       "category": "AI Browsers",
       "link": "https://www.claudechrome.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/claudechrome.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/claudechrome.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.4
     },
@@ -2848,7 +2848,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-enhanced searchable browsing history with intelligent content organization.",
       "category": "AI Browsers",
       "link": "https://chromewebstore.google.com/detail/remember-never-lose-anyth/efnhbjlmpcmpmmgbopddeckejkdedpbd",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.3
     },
@@ -2858,7 +2858,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Multiplayer browser with AI-powered organization and infinite rewind for collaboration.",
       "category": "AI Browsers",
       "link": "https://www.feelmuddy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/feelmuddy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feelmuddy.com-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.2
     },
@@ -2868,7 +2868,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI assistance in any text field with multi-language functionality for browser inputs.",
       "category": "AI Browsers",
       "link": "https://wou.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wou.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wou.ai-128x128__Estimated_.png",
       "icon": "Globe",
       "score": 7.1
     }
@@ -2880,7 +2880,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Full-stack web scraping platform with 10,000+ ready-made tools and AI agents.",
       "category": "Web Scraping",
       "link": "https://apify.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apify.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apify.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.9
     },
@@ -2890,7 +2890,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered no-code web scraper that monitors websites and turns them into APIs.",
       "category": "Web Scraping",
       "link": "https://www.browse.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/browse.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/browse.ai-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.8
     },
@@ -2900,7 +2900,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "User-friendly web scraping tool with AI assistant for no-code data extraction.",
       "category": "Web Scraping",
       "link": "https://www.octoparse.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/octoparse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octoparse.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.7
     },
@@ -2910,7 +2910,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Enterprise-grade web scraping API with 150M+ proxies and real-time data extraction.",
       "category": "Web Scraping",
       "link": "https://brightdata.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/brightdata.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brightdata.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.6
     },
@@ -2920,7 +2920,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered web scraping API designed for autonomous agents with LLM-powered extraction.",
       "category": "Web Scraping",
       "link": "https://scrapegraphai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/scrapegraphai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scrapegraphai.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.5
     },
@@ -2930,7 +2930,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Connect LLMs to web data with precise extraction and self-healing selectors.",
       "category": "Web Scraping",
       "link": "https://www.agentql.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/agentql.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/agentql.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.4
     },
@@ -2940,7 +2940,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI web scraper that extracts data from any website in just 2 clicks without coding.",
       "category": "Web Scraping",
       "link": "https://thunderbit.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thunderbit.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thunderbit.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.3
     },
@@ -2950,7 +2950,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Web scraping and workflow automation platform with 100+ pre-built automations.",
       "category": "Web Scraping",
       "link": "https://hexomatic.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hexomatic.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hexomatic.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.2
     },
@@ -2960,7 +2960,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered data extraction platform that eliminates coding and proxy management.",
       "category": "Web Scraping",
       "link": "https://flowqy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/flowqy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flowqy.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9.1
     },
@@ -2970,7 +2970,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Intelligent Chrome extension that collects data from any website into Google Sheets.",
       "category": "Web Scraping",
       "link": "https://www.extracto.bot/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/extracto.bot-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/extracto.bot-128x128__Estimated_.png",
       "icon": "Database",
       "score": 9
     },
@@ -2980,7 +2980,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Unbreakable web scraping solution with no-code setup and resilient architecture.",
       "category": "Web Scraping",
       "link": "https://no-codescraper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/no-codescraper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/no-codescraper.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.9
     },
@@ -2990,7 +2990,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Modern web crawling framework with AI-powered processing for LLM-ready data.",
       "category": "Web Scraping",
       "link": "https://watercrawl.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/watercrawl.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/watercrawl.dev-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.8
     },
@@ -3000,7 +3000,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered web scraping API perfect for RAG systems and AI training.",
       "category": "Web Scraping",
       "link": "https://skrape.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skrape.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skrape.ai-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.7
     },
@@ -3010,7 +3010,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Reliable web scraping API that manages proxies and headless browsers automatically.",
       "category": "Web Scraping",
       "link": "https://www.scrapingdog.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/scrapingdog.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scrapingdog.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.6
     },
@@ -3020,7 +3020,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Cloud-based headless browser service for scraping and automation with bot bypass.",
       "category": "Web Scraping",
       "link": "https://www.browserless.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/browserless.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/browserless.io-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.5
     },
@@ -3030,7 +3030,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code browser automation platform for building web scrapers and automating tasks.",
       "category": "Web Scraping",
       "link": "https://axiom.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/axiom.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/axiom.ai-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.4
     },
@@ -3040,7 +3040,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Access 100+ data APIs in under 3 clicks for automated data collection and enrichment.",
       "category": "Web Scraping",
       "link": "https://databar.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/databar.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/databar.ai-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.3
     },
@@ -3050,7 +3050,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Intelligent web scraping with Google search capabilities and document conversion.",
       "category": "Web Scraping",
       "link": "https://www.dumplingai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dumplingai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dumplingai.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.2
     },
@@ -3060,7 +3060,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered GTM data automation for web scraping, research, and CRM enrichment.",
       "category": "Web Scraping",
       "link": "https://www.promptloop.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/promptloop.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/promptloop.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8.1
     },
@@ -3070,7 +3070,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Instantly convert any webpage into structured data with built-in CAPTCHA bypass.",
       "category": "Web Scraping",
       "link": "https://instantapi.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/instantapi.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instantapi.ai-128x128__Estimated_.png",
       "icon": "Database",
       "score": 8
     },
@@ -3080,7 +3080,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Extract local business data from Google Maps and other platforms with CSV export.",
       "category": "Web Scraping",
       "link": "https://mapsleadscraper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mapsleadscraper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mapsleadscraper.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.9
     },
@@ -3090,7 +3090,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code email scraping tool for verified B2B and B2C leads from social media.",
       "category": "Web Scraping",
       "link": "https://igleads.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/igleads.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/igleads.io-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.8
     },
@@ -3100,7 +3100,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Specialized tool for extracting emails from websites and social media profiles.",
       "category": "Web Scraping",
       "link": "https://myemailextractor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myemailextractor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myemailextractor.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.7
     },
@@ -3110,7 +3110,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered business data extraction from maps with email and social enrichment.",
       "category": "Web Scraping",
       "link": "https://mapsscraperai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mapsscraperai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mapsscraperai.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.6
     },
@@ -3120,7 +3120,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered web scraping with natural language interface and automated pagination.",
       "category": "Web Scraping",
       "link": "https://chat4data.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chat4data.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chat4data.io-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.5
     },
@@ -3130,7 +3130,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered custom parsers with high-speed deterministic API for structured data.",
       "category": "Web Scraping",
       "link": "https://parseium.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/parseium.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/parseium.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.4
     },
@@ -3140,7 +3140,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code data collection automation that's easy to use and configure for businesses.",
       "category": "Web Scraping",
       "link": "https://webscrapeai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/webscrapeai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/webscrapeai.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.3
     },
@@ -3150,7 +3150,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Fast web scraping service with full browser rendering for complex JavaScript sites.",
       "category": "Web Scraping",
       "link": "https://webscraper.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/webscraper.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/webscraper.io-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.2
     },
@@ -3160,7 +3160,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered product data extraction without coding, IP bans, or CAPTCHAs.",
       "category": "Web Scraping",
       "link": "https://productfetcher.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/productfetcher.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/productfetcher.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7.1
     },
@@ -3170,7 +3170,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Premium proxy service with 80M+ residential IPs for large-scale scraping operations.",
       "category": "Web Scraping",
       "link": "https://bestproxy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bestproxy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bestproxy.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 7
     },
@@ -3180,7 +3180,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Intuitive flow-based scraper with automatic anti-bot protection and visual interface.",
       "category": "Web Scraping",
       "link": "https://flowscraper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/flowscraper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flowscraper.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.9
     },
@@ -3190,7 +3190,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Automated data crawling with real-time analytics and user-friendly interface.",
       "category": "Web Scraping",
       "link": "https://crawlora.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/crawlora.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crawlora.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.8
     },
@@ -3200,7 +3200,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Instant G2 review extraction with AI-powered summaries and structured review data.",
       "category": "Web Scraping",
       "link": "https://extractg2.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/extractg2.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/extractg2.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.7
     },
@@ -3210,7 +3210,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Serverless retrieval for AI applications with ML-first web crawler for RAG.",
       "category": "Web Scraping",
       "link": "https://hyperllm.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hyperllm.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hyperllm.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.6
     },
@@ -3220,7 +3220,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Natural language web scraping that requires no manual highlighting or coding.",
       "category": "Web Scraping",
       "link": "https://aipoweredwebscraper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aipoweredwebscraper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aipoweredwebscraper.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.5
     },
@@ -3230,7 +3230,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered data extraction with instant export to Excel/CSV formats.",
       "category": "Web Scraping",
       "link": "https://instantdatascraper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/instantdatascraper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instantdatascraper.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.4
     },
@@ -3240,7 +3240,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "A.I. powered pattern recognition with simple yet powerful graphical interface.",
       "category": "Web Scraping",
       "link": "https://anypicker.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/anypicker.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anypicker.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.3
     },
@@ -3250,7 +3250,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Designed specifically for LLM and RAG applications to cut retrieval time significantly.",
       "category": "Web Scraping",
       "link": "https://hypercrawl.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hypercrawl.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hypercrawl.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.2
     },
@@ -3260,7 +3260,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered web scraper that extracts any data from any website using just a prompt.",
       "category": "Web Scraping",
       "link": "https://fetchfox.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fetchfox.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fetchfox.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6.1
     },
@@ -3270,7 +3270,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Convert files and websites to structured data without code, mappings, or IT skills.",
       "category": "Web Scraping",
       "link": "https://datatera.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/datatera.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/datatera.ai-128x128__Estimated_.png",
       "icon": "Database",
       "score": 6
     },
@@ -3280,7 +3280,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Premium proxy service with 60M+ residential proxies optimized for AI applications.",
       "category": "Web Scraping",
       "link": "https://thordata.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thordata.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thordata.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 5.9
     },
@@ -3290,7 +3290,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Import unlimited products with ChatGPT enhancement and translation capabilities.",
       "category": "Web Scraping",
       "link": "https://poky.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/poky.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/poky.io-128x128__Estimated_.png",
       "icon": "Database",
       "score": 5.8
     },
@@ -3300,7 +3300,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered extraction with both no-code and API options for rapid data collection.",
       "category": "Web Scraping",
       "link": "https://scrapefully.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/scrapefully.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scrapefully.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 5.7
     },
@@ -3310,7 +3310,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Spreadsheet that fills itself with automated data collection for programmatic SEO.",
       "category": "Web Scraping",
       "link": "https://capgo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/capgo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/capgo.ai-128x128__Estimated_.png",
       "icon": "Database",
       "score": 5.6
     },
@@ -3320,7 +3320,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Business image automation for downloading and editing images at scale for scraping.",
       "category": "Web Scraping",
       "link": "https://imgkit.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/imgkit.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imgkit.io-128x128__Estimated_.png",
       "icon": "Database",
       "score": 5.5
     },
@@ -3330,7 +3330,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Turn websites into datasets for LLMs with no-code scraping and AI chatbot building.",
       "category": "Web Scraping",
       "link": "https://webtranspose.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/webtranspose.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/webtranspose.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 5.4
     },
@@ -3340,7 +3340,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI meeting assistant that transcribes, translates, and analyzes content from audio/video.",
       "category": "Web Scraping",
       "link": "https://speakai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speakai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speakai.com-128x128__Estimated_.png",
       "icon": "Database",
       "score": 5.3
     }
@@ -3352,7 +3352,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Industry-leading landing page platform with AI-powered optimization and built-in A/B testing.",
       "category": "Landing Page",
       "link": "https://unbounce.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unbounce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unbounce.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.9
     },
@@ -3362,7 +3362,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Comprehensive landing page solution with AI optimization features and high-converting templates.",
       "category": "Landing Page",
       "link": "https://www.leadpages.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/leadpages.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/leadpages.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.8
     },
@@ -3372,7 +3372,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website builder that creates professional landing pages from simple prompts with zero coding.",
       "category": "Landing Page",
       "link": "https://codedesign.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codedesign.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codedesign.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.7
     },
@@ -3382,7 +3382,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Ultimate AI landing page generator that crafts professional websites in minutes with AI design and copywriting.",
       "category": "Landing Page",
       "link": "https://rollout.site/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rollout.site-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rollout.site-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.6
     },
@@ -3392,7 +3392,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered Shopify landing page builder with psychological triggers and AI ad copy generation.",
       "category": "Landing Page",
       "link": "https://pagepilot.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pagepilot.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pagepilot.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.5
     },
@@ -3402,7 +3402,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI website builder that generates landing pages in seconds from your business idea to validate concepts.",
       "category": "Landing Page",
       "link": "https://www.mixo.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mixo.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mixo.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.4
     },
@@ -3412,7 +3412,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Lightning-fast AI website builder that creates professional landing pages in under 60 seconds.",
       "category": "Landing Page",
       "link": "https://60sec.site/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/60sec.site-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/60sec.site-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.3
     },
@@ -3422,7 +3422,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered sales funnel platform that launches profitable websites in 5 minutes with built-in AI assistance.",
       "category": "Landing Page",
       "link": "https://plugandpay.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/plugandpay.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plugandpay.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.2
     },
@@ -3432,7 +3432,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered no-code landing page builder that creates high-converting pages from idea to signups in 15 minutes.",
       "category": "Landing Page",
       "link": "https://yep.so/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/yep.so-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yep.so-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.1
     },
@@ -3442,7 +3442,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered landing page builder with stunning templates and SEO optimization powered by Vercel.",
       "category": "Landing Page",
       "link": "https://www.turbosite.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/turbosite.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/turbosite.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9
     },
@@ -3452,7 +3452,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "World's best landing page platform with AI content generation and real-time collaboration.",
       "category": "Landing Page",
       "link": "https://instapage.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/instapage.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instapage.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.9
     },
@@ -3462,7 +3462,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Hyper-personalized AI sales pages for outreach and ABM campaigns to captivate prospects.",
       "category": "Landing Page",
       "link": "https://www.genpage.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/genpage.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/genpage.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.8
     },
@@ -3472,7 +3472,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI landing page generator that creates conversion rate optimized pages in seconds.",
       "category": "Landing Page",
       "link": "https://permar.xyz/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/permar.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/permar.xyz-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.7
     },
@@ -3482,7 +3482,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI ecommerce landing page generator that builds high-converting stores and product pages in minutes.",
       "category": "Landing Page",
       "link": "https://www.xpage.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/xpage.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xpage.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.6
     },
@@ -3492,7 +3492,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate high-converting Shopify pages in seconds for dropshippers with AI-powered content.",
       "category": "Landing Page",
       "link": "https://persuva.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/persuva.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/persuva.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.5
     },
@@ -3502,7 +3502,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI marketing assistant that creates landing pages, promo videos, and marketing copy.",
       "category": "Landing Page",
       "link": "https://marketingblocks.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/marketingblocks.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/marketingblocks.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.4
     },
@@ -3512,7 +3512,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI landing page generator requiring no coding or design skills to scale your marketing.",
       "category": "Landing Page",
       "link": "https://landing.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/landing.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/landing.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.3
     },
@@ -3522,7 +3522,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "1:1 landing page builder for outbound and ABM campaigns to boost response rates.",
       "category": "Landing Page",
       "link": "https://liftpilot.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/liftpilot.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/liftpilot.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.2
     },
@@ -3532,7 +3532,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Instantly create stunning landing pages for your startup with built-in waitlist and email features.",
       "category": "Landing Page",
       "link": "https://lampbuilder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lampbuilder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lampbuilder.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.1
     },
@@ -3542,7 +3542,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered landing page builder for marketers that creates effortless, high-converting pages automatically.",
       "category": "Landing Page",
       "link": "https://dmunity.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dmunity.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dmunity.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8
     },
@@ -3552,7 +3552,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create instant landing pages for unused domains with AI-generated content and free SSL.",
       "category": "Landing Page",
       "link": "https://yourdomainsite.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/yourdomainsite.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yourdomainsite.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.9
     },
@@ -3562,7 +3562,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI landing page generator with customizable templates and intuitive interface for quick creation.",
       "category": "Landing Page",
       "link": "https://pagen.so/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pagen.so-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pagen.so-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.8
     },
@@ -3572,7 +3572,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered mobile landing page builder with 30+ interactive widgets and link-in-bio tools.",
       "category": "Landing Page",
       "link": "https://wiz.link/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wiz.link-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wiz.link-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.7
     },
@@ -3582,7 +3582,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "All-in-one AI marketing platform that builds entire online businesses and sales funnels.",
       "category": "Landing Page",
       "link": "https://www.autofunnel.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/autofunnel.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autofunnel.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.6
     },
@@ -3592,7 +3592,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered ad-to-page personalization at scale for Google and LinkedIn ads without coding.",
       "category": "Landing Page",
       "link": "https://ai.pipedata.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai.pipedata.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai.pipedata.co-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.5
     },
@@ -3602,7 +3602,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-generated unique sales-oriented landing pages that save time and money on designers.",
       "category": "Landing Page",
       "link": "https://lndr.pro/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lndr.pro-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lndr.pro-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.4
     },
@@ -3612,7 +3612,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Shopify app that generates high-converting landing pages in seconds with compelling copy.",
       "category": "Landing Page",
       "link": "https://60sec.store/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/60sec.store-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/60sec.store-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.3
     },
@@ -3622,7 +3622,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate high-converting landing pages with AI-driven, SEO-optimized templates and persuasive copy.",
       "category": "Landing Page",
       "link": "https://kurt-converts.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kurt-converts.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kurt-converts.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.2
     },
@@ -3632,7 +3632,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free AI content layout tool for developers and marketing experts to enhance SEO and engagement.",
       "category": "Landing Page",
       "link": "https://contentcanvas.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/contentcanvas.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contentcanvas.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.1
     },
@@ -3642,7 +3642,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI website platform for founders and small businesses that generates SEO-optimized websites from prompts.",
       "category": "Landing Page",
       "link": "https://www.macaly.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/macaly.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/macaly.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7
     },
@@ -3652,7 +3652,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI landing page builder and website redesign platform with modern high-converting layouts.",
       "category": "Landing Page",
       "link": "https://www.redesignwithai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/redesignwithai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/redesignwithai.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.9
     },
@@ -3662,7 +3662,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered marketing automation platform that segments visitors and streamlines ecommerce.",
       "category": "Landing Page",
       "link": "https://lazycom.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lazycom.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lazycom.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.8
     },
@@ -3672,7 +3672,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered content optimization platform for rapid idea validation and conversion performance.",
       "category": "Landing Page",
       "link": "https://burnerpage.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/burnerpage.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/burnerpage.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.7
     },
@@ -3682,7 +3682,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Super simple AI-powered landing page builder that creates optimized pages in under 1 minute.",
       "category": "Landing Page",
       "link": "https://reaady.site/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reaady.site-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reaady.site-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.6
     },
@@ -3692,7 +3692,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered link-in-bio platform with free page creation and text/image generation.",
       "category": "Landing Page",
       "link": "https://hiiit.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hiiit.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hiiit.me-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.5
     }
@@ -3704,7 +3704,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build software products and websites using an intelligent chat interface with granular edits.",
       "category": "Website Builder",
       "link": "https://lovable.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lovable.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lovable.dev-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.9
     },
@@ -3714,7 +3714,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create beautiful websites with AI-powered design tools, layout generation, and automatic translation.",
       "category": "Website Builder",
       "link": "https://www.framer.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/framer.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/framer.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.8
     },
@@ -3724,7 +3724,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create stunning websites with AI-powered content generation and block-based design system.",
       "category": "Website Builder",
       "link": "https://tilda.cc/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tilda.cc-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tilda.cc-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.7
     },
@@ -3734,7 +3734,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate AI presentations, webpages, and documents with effortless design through natural language.",
       "category": "Website Builder",
       "link": "https://gamma.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gamma.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gamma.app-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.6
     },
@@ -3744,7 +3744,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Empower marketers to create on-brand pages fast with AI assistance and headless CMS capabilities.",
       "category": "Website Builder",
       "link": "https://prismic.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prismic.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prismic.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.5
     },
@@ -3754,7 +3754,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI site builder with Webflow library integration to generate sitemaps and wireframes in minutes.",
       "category": "Website Builder",
       "link": "https://www.relume.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/relume.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/relume.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.4
     },
@@ -3764,7 +3764,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI website builder with automated WordPress hosting and 90+ PageSpeed optimizations.",
       "category": "Website Builder",
       "link": "https://10web.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/10web.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/10web.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.3
     },
@@ -3774,7 +3774,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Transform your ideas into stunning websites with AI design and natural language processing.",
       "category": "Website Builder",
       "link": "https://readdy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/readdy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/readdy.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.2
     },
@@ -3784,7 +3784,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate a complete website in 30 seconds with automated marketing tools, CRM, and invoicing.",
       "category": "Website Builder",
       "link": "https://durable.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/durable.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/durable.co-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.1
     },
@@ -3794,7 +3794,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-augmented design with multi-step task automation and responsive design capabilities.",
       "category": "Website Builder",
       "link": "https://studio.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/studio.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/studio.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9
     },
@@ -3804,7 +3804,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate stunning websites with AI without coding using customizable templates and professional tools.",
       "category": "Website Builder",
       "link": "https://ai.mobirise.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai.mobirise.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai.mobirise.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.9
     },
@@ -3814,7 +3814,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI web designer and developer that creates and modifies websites via chat. No coding required.",
       "category": "Website Builder",
       "link": "https://wegic.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wegic.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wegic.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.8
     },
@@ -3824,7 +3824,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website builder that streamlines business operations and professional design.",
       "category": "Website Builder",
       "link": "https://www.b12.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/b12.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/b12.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.7
     },
@@ -3834,7 +3834,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Generate, customize, and deploy 3D animated websites with AI in just one prompt.",
       "category": "Website Builder",
       "link": "https://www.dora.run/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dora.run-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dora.run-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.6
     },
@@ -3844,7 +3844,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Launch profitable websites with AI-powered sales funnels and payment integration.",
       "category": "Website Builder",
       "link": "https://plugandpay.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/plugandpay.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plugandpay.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.5
     },
@@ -3854,7 +3854,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Visual builder with AI website generation, headless CMS integrations, and Figma to code conversion.",
       "category": "Website Builder",
       "link": "https://teleporthq.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/teleporthq.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/teleporthq.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.4
     },
@@ -3864,7 +3864,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI website generation with no-code website builder capabilities and automated content creation.",
       "category": "Website Builder",
       "link": "https://dorik.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dorik.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dorik.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.3
     },
@@ -3874,7 +3874,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website builder with AI sales funnels and intelligent design automation.",
       "category": "Website Builder",
       "link": "https://codedesign.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/codedesign.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codedesign.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.2
     },
@@ -3884,7 +3884,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build full-stack web and mobile apps from plain text descriptions with instant deployment.",
       "category": "Website Builder",
       "link": "https://www.dhiwise.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dhiwise.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dhiwise.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8.1
     },
@@ -3894,7 +3894,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI design to code conversion with Figma to React/HTML generation and intelligent automation.",
       "category": "Website Builder",
       "link": "https://www.animaapp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/animaapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/animaapp.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 8
     },
@@ -3904,7 +3904,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code website builder with AI integration for creating online stores with drag-and-drop blocks.",
       "category": "Website Builder",
       "link": "https://universeapp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/universeapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/universeapp.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.9
     },
@@ -3914,7 +3914,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website builder with SEO and lead generation capabilities for professional businesses.",
       "category": "Website Builder",
       "link": "https://www.zarla.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zarla.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zarla.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.8
     },
@@ -3924,7 +3924,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Website builder designed for non-techies with AI-powered creation and intelligent automation.",
       "category": "Website Builder",
       "link": "https://www.brizy.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/brizy.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brizy.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.7
     },
@@ -3934,7 +3934,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build websites instantly through AI chat with multi-language support and built-in database.",
       "category": "Website Builder",
       "link": "https://lumi.new/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lumi.new-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lumi.new-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.6
     },
@@ -3944,7 +3944,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website builder with integrated subscriber management and conversion optimization.",
       "category": "Website Builder",
       "link": "https://www.mixo.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mixo.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mixo.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.5
     },
@@ -3954,7 +3954,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-designed business websites with sales and marketing tools and free hosting included.",
       "category": "Website Builder",
       "link": "https://hocoos.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hocoos.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hocoos.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.4
     },
@@ -3964,7 +3964,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Mozilla's AI website creator for solopreneurs with free custom domain connection.",
       "category": "Website Builder",
       "link": "https://soloist.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/soloist.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soloist.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.3
     },
@@ -3974,7 +3974,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "No-code website builder with AI-assisted design capabilities and professional templates.",
       "category": "Website Builder",
       "link": "https://www.ucraft.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ucraft.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ucraft.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.2
     },
@@ -3984,7 +3984,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI website builder to build your dream site with narrative-driven design and automation.",
       "category": "Website Builder",
       "link": "https://typedream.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/typedream.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/typedream.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7.1
     },
@@ -3994,7 +3994,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI content creation with best-in-class SEO tools for e-commerce store optimization.",
       "category": "Website Builder",
       "link": "https://wizishop.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wizishop.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wizishop.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 7
     },
@@ -4004,7 +4004,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered website development with a free trial for Replit Agent and 3 development apps.",
       "category": "Website Builder",
       "link": "https://replit.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/replit.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/replit.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.9
     },
@@ -4014,7 +4014,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered logo design and brand kit generator for marketing materials with free previews.",
       "category": "Website Builder",
       "link": "https://looka.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/looka.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/looka.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.8
     },
@@ -4024,7 +4024,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build mobile and web apps without coding using 5k free credits and simple prompting.",
       "category": "Website Builder",
       "link": "https://anything.build/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/anything.build-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anything.build-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.7
     },
@@ -4034,7 +4034,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Turn ideas into working apps with 5 daily credits and built-in full stack support.",
       "category": "Website Builder",
       "link": "https://blink.tools/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/blink.tools-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blink.tools-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.6
     },
@@ -4044,7 +4044,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build stunning websites and forms with 30 free messages per month and seamless data management.",
       "category": "Website Builder",
       "link": "https://trickleai.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trickleai.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trickleai.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.5
     },
@@ -4054,7 +4054,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered no-code app builder with 120 free credits and unique design generation.",
       "category": "Website Builder",
       "link": "https://www.mocha.world/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mocha.world-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mocha.world-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.4
     },
@@ -4064,7 +4064,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free AI-built store generator that builds your store with 10 winning products loaded.",
       "category": "Website Builder",
       "link": "https://storebuild.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/storebuild.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/storebuild.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.3
     },
@@ -4074,7 +4074,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Complete applications faster using AI with a 7-day free trial for automated applications.",
       "category": "Website Builder",
       "link": "https://skip.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skip.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skip.app-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.2
     },
@@ -4084,7 +4084,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build full-stack apps via chat with 25 free credits per month and multi-agent AI team.",
       "category": "Website Builder",
       "link": "https://atoms.sh/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/atoms.sh-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/atoms.sh-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6.1
     },
@@ -4094,7 +4094,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI dropshipping software with a 14-day free trial for product discovery and store automation.",
       "category": "Website Builder",
       "link": "https://sellthetrend.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sellthetrend.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sellthetrend.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 6
     },
@@ -4104,7 +4104,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Conversion-optimized AI landing page builder with free access to full website building.",
       "category": "Website Builder",
       "link": "https://landingpage.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/landingpage.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/landingpage.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.9
     },
@@ -4114,7 +4114,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI web app builder with 100K free tokens for building full-stack apps without coding.",
       "category": "Website Builder",
       "link": "https://softgen.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/softgen.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/softgen.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.8
     },
@@ -4124,7 +4124,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Instant website building with AI-generated images and copy with a free tier available.",
       "category": "Website Builder",
       "link": "https://butternut.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/butternut.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/butternut.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.7
     },
@@ -4134,7 +4134,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free trial for AI-powered store building with unlimited stores and 57+ sections.",
       "category": "Website Builder",
       "link": "https://dropmagic.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dropmagic.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dropmagic.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.6
     },
@@ -4144,7 +4144,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Build apps in minutes with AI using a 6,000 credit signup bonus and all-in-one platform.",
       "category": "Website Builder",
       "link": "https://floot.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/floot.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/floot.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.5
     },
@@ -4154,7 +4154,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI-powered design and copywriting for websites with multilingual support and free trial.",
       "category": "Website Builder",
       "link": "https://rollout.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rollout.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rollout.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.4
     },
@@ -4164,7 +4164,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI Frontend Engineer with 5 free messages per day for Figma-to-Code conversion.",
       "category": "Website Builder",
       "link": "https://dualite.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dualite.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dualite.ai-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.3
     },
@@ -4174,7 +4174,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Free AI website generation and SEO optimization for professional web presence.",
       "category": "Website Builder",
       "link": "https://www.macaly.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/macaly.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/macaly.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.2
     },
@@ -4184,7 +4184,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "AI website builder with 1 free AI page generation and SEO optimization tools.",
       "category": "Website Builder",
       "link": "https://www.pineapplebuilder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pineapplebuilder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pineapplebuilder.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5.1
     },
@@ -4194,7 +4194,7 @@ export const developer_tools_tools: Record<string, Tool[]> = {
       "description": "Create full-stack web apps with AI and natural language with no coding required.",
       "category": "Website Builder",
       "link": "https://capacity.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/capacity.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/capacity.com-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 5
     }

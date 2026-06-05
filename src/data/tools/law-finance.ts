@@ -8,7 +8,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free plan for budgeting, investing, and financial guidance.",
       "category": "Law & Finance",
       "link": "https://useorigin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/useorigin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/useorigin.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -18,7 +18,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides free access or a free trial for dynamic charts, global economic data, and analysis.",
       "category": "Law & Finance",
       "link": "https://en.macromicro.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/en.macromicro.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/en.macromicro.me-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -28,7 +28,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free settlement for up to 200,000 RMB on multi-currency business accounts.",
       "category": "Law & Finance",
       "link": "https://www.xtransfer.com/hscode",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/xtransfer.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xtransfer.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -38,7 +38,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial and a basic free plan forever for AI insights and financial reporting.",
       "category": "Law & Finance",
       "link": "https://www.syftanalytics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/syftanalytics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/syftanalytics.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -48,7 +48,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to automate planning and reporting with ERP integrations.",
       "category": "Law & Finance",
       "link": "https://insightsoftware.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/insightsoftware.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insightsoftware.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -58,7 +58,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day trial for $1 for AI-driven guidance and an AI stock picker.",
       "category": "Law & Finance",
       "link": "https://intellectia.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/intellectia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/intellectia.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -68,7 +68,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides many free tools for forex, crypto, and stocks education and trading indicators.",
       "category": "Law & Finance",
       "link": "https://tradingfinder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradingfinder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradingfinder.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -78,7 +78,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free plan for unlimited basic indicator building and strategy backtesting on TradingView.",
       "category": "Law & Finance",
       "link": "https://pineify.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pineify.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pineify.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -88,7 +88,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI-powered insights and tax optimization.",
       "category": "Law & Finance",
       "link": "https://portfoliopilot.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/portfoliopilot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/portfoliopilot.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -98,7 +98,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows tracking and managing wealth with AI-powered investment insights and opportunity finding.",
       "category": "Law & Finance",
       "link": "https://moning.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moning.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moning.co-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -108,7 +108,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to find M&A targets 10x faster with AI and comprehensive company data.",
       "category": "Law & Finance",
       "link": "https://inven.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/inven.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inven.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -118,7 +118,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 25 free AI requests per month and one free business plan generation.",
       "category": "Law & Finance",
       "link": "https://prometai.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prometai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prometai.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -128,7 +128,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is completely free for AI to purchase the most cost-efficient commitments via group buying.",
       "category": "Law & Finance",
       "link": "https://www.pump.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pump.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pump.co-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -138,7 +138,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial with 200 free pages for financial data extraction.",
       "category": "Law & Finance",
       "link": "https://www.docuclipper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/docuclipper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docuclipper.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -148,7 +148,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free Starter plan for AI investor matching and an investor readiness score.",
       "category": "Law & Finance",
       "link": "https://www.evalyze.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/evalyze.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/evalyze.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -158,7 +158,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides an AI-powered API platform for digital customer onboarding and risk management.",
       "category": "Law & Finance",
       "link": "https://www.digitap.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/digitap.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/digitap.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -168,7 +168,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI bookkeeping and financials.",
       "category": "Law & Finance",
       "link": "https://digits.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/digits.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/digits.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -178,7 +178,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 10 free Copilot prompts per month for AI-powered stock research.",
       "category": "Law & Finance",
       "link": "https://finchat.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finchat.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finchat.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -188,7 +188,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 100 free meaningful conversations per month for AI agent automation.",
       "category": "Law & Finance",
       "link": "https://moveo.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moveo.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moveo.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -198,7 +198,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 500 free high-speed credits for stock screening, backtesting, and data API access.",
       "category": "Law & Finance",
       "link": "https://simfin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/simfin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simfin.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -208,7 +208,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 15,000 free monthly requests for AI-powered fraud prevention and payment analysis.",
       "category": "Law & Finance",
       "link": "https://greip.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/greip.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/greip.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -218,7 +218,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides tax-loss harvesting and AI-driven investment insights.",
       "category": "Law & Finance",
       "link": "https://mezzi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mezzi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mezzi.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -228,7 +228,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free access to data for 5,000+ companies for simplified financial statement analysis.",
       "category": "Law & Finance",
       "link": "https://papermoney.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/papermoney.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/papermoney.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -238,7 +238,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Acts as a digital family office with access to private markets and smart investment tools.",
       "category": "Law & Finance",
       "link": "https://www.artafinance.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/artafinance.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/artafinance.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -248,7 +248,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered analytics for institutional-grade equity research and global financial data.",
       "category": "Law & Finance",
       "link": "https://www.monexa.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/monexa.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monexa.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -258,7 +258,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free AI CFO requests for git-native, AI-assisted bookkeeping.",
       "category": "Law & Finance",
       "link": "https://beancount.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beancount.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beancount.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -268,7 +268,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free customized funding matches and AI-generated grant applications.",
       "category": "Law & Finance",
       "link": "https://granter.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/granter.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/granter.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -278,7 +278,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes a free basic version for AI-powered financial advice and planning.",
       "category": "Law & Finance",
       "link": "https://tendi.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tendi.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tendi.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -288,7 +288,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows 15 free expense entries per month for AI-powered financial decisions.",
       "category": "Law & Finance",
       "link": "https://zummafinancial.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zummafinancial.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zummafinancial.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -298,7 +298,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI Risk Agents for advanced document fraud detection and compliance task automation.",
       "category": "Law & Finance",
       "link": "https://inscribe.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/inscribe.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inscribe.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -308,7 +308,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free tier for alternative data insights and exploding trends discovery.",
       "category": "Law & Finance",
       "link": "https://tickertrends.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tickertrends.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tickertrends.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -318,7 +318,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free forever plan to manage all finances in one dashboard with AI insights.",
       "category": "Law & Finance",
       "link": "https://kniru.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kniru.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kniru.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -328,7 +328,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers limited free access to an AI-powered search engine for extracting financial insights.",
       "category": "Law & Finance",
       "link": "https://alpharesearch.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/alpharesearch.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alpharesearch.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -338,7 +338,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for real-time cash flow monitoring and predictive forecasting.",
       "category": "Law & Finance",
       "link": "https://www.trezy.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trezy.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trezy.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -348,7 +348,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day trial for intelligent AI analysis to bring clarity to financial analysis.",
       "category": "Law & Finance",
       "link": "https://amsflow.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/amsflow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/amsflow.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -358,7 +358,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides generative AI for financial analysis, data-driven insights, and expert knowledge.",
       "category": "Law & Finance",
       "link": "https://financegpt.uk/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/financegpt.uk-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/financegpt.uk-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -368,7 +368,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers unified retail analytics and AI-powered optimization for demand forecasting.",
       "category": "Law & Finance",
       "link": "https://retalon.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/retalon.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/retalon.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -378,7 +378,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Tracks and analyzes options volatility metrics with a proprietary AI Trading Copilot.",
       "category": "Law & Finance",
       "link": "https://moontower.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moontower.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moontower.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -388,7 +388,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows signing up for free for AI-powered invoices and day-to-day admin tasks.",
       "category": "Law & Finance",
       "link": "https://jinna.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jinna.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jinna.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -398,7 +398,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes a Free Basic plan for AI-driven financial news and personalized due diligence.",
       "category": "Law & Finance",
       "link": "https://cityfalcon.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cityfalcon.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cityfalcon.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -408,7 +408,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows 5 free searches per day for AI-powered financial research without hallucinations.",
       "category": "Law & Finance",
       "link": "https://www.askstockgpt.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/askstockgpt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askstockgpt.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -418,7 +418,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is a free tool for AI-powered bill analysis and real-time rate comparison.",
       "category": "Law & Finance",
       "link": "https://www.iacompara.es/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/iacompara.es-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iacompara.es-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -428,7 +428,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free, accurate, and quick car valuation by registration number.",
       "category": "Law & Finance",
       "link": "https://valuemycar.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/valuemycar.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/valuemycar.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -438,7 +438,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free analysis per day for AI-powered technical chart analysis.",
       "category": "Law & Finance",
       "link": "https://tradingwizard.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradingwizard.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradingwizard.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -448,7 +448,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows tracking 3 subscriptions for free forever with AI optimization and bill splitting.",
       "category": "Law & Finance",
       "link": "https://payping.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/payping.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/payping.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -458,7 +458,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for budget planning, net worth tracking, and retirement projections.",
       "category": "Law & Finance",
       "link": "https://opesway.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/opesway.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/opesway.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -468,7 +468,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is a free, all-in-one financial management tool powered by AI.",
       "category": "Law & Finance",
       "link": "https://evrythink.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/evrythink.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/evrythink.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -478,7 +478,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for 15 days for budgeting without linking a bank account.",
       "category": "Law & Finance",
       "link": "https://skwad.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skwad.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skwad.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -488,7 +488,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a free trial to automate advisor workflows and capture AI-generated meeting notes and follow-ups.",
       "category": "Law & Finance",
       "link": "https://www.jump.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jump.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jump.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -498,7 +498,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 20 transactions per month free for voice message expense tracking.",
       "category": "Law & Finance",
       "link": "https://get-monai.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/get-monai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/get-monai.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -508,7 +508,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 6,000 free exports per quarter for AI-powered email crafting.",
       "category": "Law & Finance",
       "link": "https://raizer.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/raizer.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/raizer.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -518,7 +518,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Tax Plan to cut taxes in 60 Seconds.",
       "category": "Law & Finance",
       "link": "https://rally.tax/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rally.tax-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rally.tax-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -528,7 +528,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes a free personalized AI copilot with unlimited account linking and real-time balance updates.",
       "category": "Law & Finance",
       "link": "https://wefire.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wefire.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wefire.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -538,7 +538,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free AI-powered analysis for DAX40 stocks, portfolio checks, and stock comparison tools.",
       "category": "Law & Finance",
       "link": "https://leeway.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/leeway.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/leeway.tech-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -548,7 +548,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered financial research and earnings call summaries with a free access tier.",
       "category": "Law & Finance",
       "link": "https://www.beebee.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beebee.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beebee.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -558,7 +558,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free AI-driven expense tracker to help manage personal finances and daily spending.",
       "category": "Law & Finance",
       "link": "https://amigo.finance/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/amigo.finance-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/amigo.finance-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     }
@@ -570,7 +570,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI-powered expense categorization.",
       "category": "Law & Finance",
       "link": "https://expensesorted.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/expensesorted.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/expensesorted.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -580,7 +580,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides free access or a free trial for dynamic charts, global economic data, and analysis.",
       "category": "Law & Finance",
       "link": "https://en.macromicro.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/en.macromicro.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/en.macromicro.me-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -590,7 +590,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI Stock Screener and AI-Powered Stock Analysis.",
       "category": "Law & Finance",
       "link": "https://www.ainvest.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ainvest.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ainvest.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -600,7 +600,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day trial for $1 for AI-driven guidance and an AI stock picker.",
       "category": "Law & Finance",
       "link": "https://intellectia.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/intellectia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/intellectia.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -610,7 +610,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides an AI Stock Picker to find the best stocks and optimize portfolios.",
       "category": "Law & Finance",
       "link": "https://danelfin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/danelfin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/danelfin.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -620,7 +620,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free plan for budgeting, investing, and financial guidance.",
       "category": "Law & Finance",
       "link": "https://useorigin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/useorigin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/useorigin.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -630,7 +630,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered crypto trading and market intelligence with real-time trading insights.",
       "category": "Law & Finance",
       "link": "https://www.edgen.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/edgen.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/edgen.tech-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -640,7 +640,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows tracking and managing wealth with AI-powered investment insights and opportunity finding.",
       "category": "Law & Finance",
       "link": "https://moning.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moning.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moning.co-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -650,7 +650,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for real-time options order flow and dark pool orders.",
       "category": "Law & Finance",
       "link": "https://cheddarflow.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cheddarflow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cheddarflow.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -660,7 +660,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 14-day free trial to build trading algorithms with AI.",
       "category": "Law & Finance",
       "link": "https://www.composer.trade/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/composer.trade-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/composer.trade-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -670,7 +670,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes a free plan with 20 dashboard visits, 2 portfolio stocks, and 1 AI stock pick.",
       "category": "Law & Finance",
       "link": "https://altindex.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/altindex.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/altindex.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -680,7 +680,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free basic access to premium options flow data and AI strategies.",
       "category": "Law & Finance",
       "link": "https://tradytics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradytics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradytics.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -690,7 +690,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides free AI stock analysis, real-time insights, and stock prediction.",
       "category": "Law & Finance",
       "link": "https://inciteai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/inciteai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inciteai.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -700,7 +700,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free AI summaries and 10 free searches per month for deep dive analysis.",
       "category": "Law & Finance",
       "link": "https://www.stockinsights.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockinsights.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockinsights.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -710,7 +710,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers intrinsic value tools and a stock screener with backtesting.",
       "category": "Law & Finance",
       "link": "https://valuesense.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/valuesense.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/valuesense.io-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -720,7 +720,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free credits upon sign-up for AI-based predictive investments and venture matching.",
       "category": "Law & Finance",
       "link": "https://parsers.vc/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/parsers.vc-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/parsers.vc-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -730,7 +730,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free AI-powered analysis and high-potential stock picks.",
       "category": "Law & Finance",
       "link": "https://www.prospero.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prospero.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prospero.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -740,7 +740,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows 8 free AI questions per month for comprehensive financial research tools.",
       "category": "Law & Finance",
       "link": "https://decodeinvesting.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/decodeinvesting.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/decodeinvesting.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -750,7 +750,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free support, analytics, and referrals connecting investors with experts.",
       "category": "Law & Finance",
       "link": "https://www.getchalet.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getchalet.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getchalet.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -760,7 +760,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 6,000 free exports per quarter for AI-powered email crafting.",
       "category": "Law & Finance",
       "link": "https://raizer.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/raizer.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/raizer.app-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -770,7 +770,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes limited daily AI messages for personalized insights and portfolio monitoring.",
       "category": "Law & Finance",
       "link": "https://rafa.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rafa.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rafa.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -780,7 +780,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 1-week free trial for AI stock analysis and trading signals.",
       "category": "Law & Finance",
       "link": "https://goai.digital/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/goai.digital-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goai.digital-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -790,7 +790,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 2-week trial for AI data-driven tools, options flow, and real-time alerts.",
       "category": "Law & Finance",
       "link": "https://tradeui.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradeui.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradeui.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -800,7 +800,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 10 free connects or saves per day for AI matchmaking and deal flow management.",
       "category": "Law & Finance",
       "link": "https://www.goglobal.world/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/goglobal.world-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goglobal.world-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -810,7 +810,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free AI questions and 5 web searches per month for investment analysis.",
       "category": "Law & Finance",
       "link": "https://www.siriusinvestors.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/siriusinvestors.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/siriusinvestors.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -820,7 +820,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides 1 year of free institutional investor 13F holdings history.",
       "category": "Law & Finance",
       "link": "https://13finsight.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/13finsight.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/13finsight.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -830,7 +830,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides an Agentic AI for Stock Research with Conversational Search.",
       "category": "Law & Finance",
       "link": "https://www.ipick.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ipick.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ipick.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -840,7 +840,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free stock market analysis, investment suggestions, and trend prediction.",
       "category": "Law & Finance",
       "link": "https://stockai.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockai.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockai.io-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -850,7 +850,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides the first report for free to save costs and control risks.",
       "category": "Law & Finance",
       "link": "https://insightfol.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/insightfol.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insightfol.io-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -860,7 +860,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI-powered insights and tax optimization.",
       "category": "Law & Finance",
       "link": "https://portfoliopilot.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/portfoliopilot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/portfoliopilot.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -870,7 +870,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 10 free Copilot prompts per month for AI-powered stock research.",
       "category": "Law & Finance",
       "link": "https://finchat.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finchat.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finchat.io-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -880,7 +880,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Acts as a digital family office with access to private markets and smart investment tools.",
       "category": "Law & Finance",
       "link": "https://www.artafinance.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/artafinance.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/artafinance.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -890,7 +890,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free tier for alternative data insights and exploding trends discovery.",
       "category": "Law & Finance",
       "link": "https://tickertrends.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tickertrends.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tickertrends.io-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -900,7 +900,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides tax-loss harvesting and AI-driven investment insights.",
       "category": "Law & Finance",
       "link": "https://mezzi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mezzi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mezzi.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -910,7 +910,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Tracks and analyzes options volatility metrics with a proprietary AI Trading Copilot.",
       "category": "Law & Finance",
       "link": "https://moontower.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moontower.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moontower.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -920,7 +920,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day money-back guarantee to build AI-driven trading strategies.",
       "category": "Law & Finance",
       "link": "https://horizon-trade.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/horizon-trade.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/horizon-trade.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -930,7 +930,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered analytics for institutional-grade equity research and global financial data.",
       "category": "Law & Finance",
       "link": "https://www.monexa.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/monexa.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monexa.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -940,7 +940,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Acts as an AI Investment Analyst with real-time data, financial models, and company analysis.",
       "category": "Law & Finance",
       "link": "https://www.alfieinvest.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/alfieinvest.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alfieinvest.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -950,7 +950,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free queries per day for AI-powered portfolio generation and risk profiling.",
       "category": "Law & Finance",
       "link": "https://www.portfoliogpt.xyz/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/portfoliogpt.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/portfoliogpt.xyz-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -960,7 +960,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Advanced AI investment platform offering free tools for portfolio optimization and market analysis.",
       "category": "Law & Finance",
       "link": "https://www.platvix.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/platvix.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/platvix.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -970,7 +970,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Matches startups with compatible investors for investment banking and capital raises.",
       "category": "Law & Finance",
       "link": "https://web.thunder.vc/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/web.thunder.vc-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/web.thunder.vc-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -980,7 +980,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides curated video intelligence with AI-distilled summaries and transcript chat.",
       "category": "Law & Finance",
       "link": "https://aitakeaway.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aitakeaway.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitakeaway.net-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -990,7 +990,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers limited free access to an AI-powered search engine for extracting financial insights.",
       "category": "Law & Finance",
       "link": "https://alpharesearch.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/alpharesearch.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alpharesearch.io-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -1000,7 +1000,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 40 free credits for AI-powered investment research reports.",
       "category": "Law & Finance",
       "link": "https://theanalystai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/theanalystai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/theanalystai.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -1010,7 +1010,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 14-day free trial for AI-powered trade strategy and analysis.",
       "category": "Law & Finance",
       "link": "https://www.optimumvertex.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/optimumvertex.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/optimumvertex.io-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -1020,7 +1020,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 3 free AI uses per week for stock screening.",
       "category": "Law & Finance",
       "link": "https://otterquant.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/otterquant.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/otterquant.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -1030,7 +1030,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 3 free Copilot prompts per month for AI-powered stock analysis.",
       "category": "Law & Finance",
       "link": "https://beststock.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beststock.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beststock.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -1040,7 +1040,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free AI-powered financial insights per month for investment research automation.",
       "category": "Law & Finance",
       "link": "https://easyfin.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/easyfin.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easyfin.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -1050,7 +1050,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 3 monthly free TradeGPT trials for stock and crypto tracking.",
       "category": "Law & Finance",
       "link": "https://stockbits.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockbits.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockbits.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -1060,7 +1060,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Serves as an AI-Powered Investment Analyzer for Open Source Projects.",
       "category": "Law & Finance",
       "link": "https://www.repobase.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/repobase.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/repobase.co-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -1070,7 +1070,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides Stock Portfolio Management and Graphical Analysis.",
       "category": "Law & Finance",
       "link": "https://stockkhata.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockkhata.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockkhata.in-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -1080,7 +1080,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Comprehensive AI tool for venture capital professionals available with a free tier for deal sourcing.",
       "category": "Law & Finance",
       "link": "https://aloangels.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aloangels.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aloangels.me-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     }
@@ -1092,7 +1092,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Acts as an AI Investment Analyst with real-time data, financial models, and company analysis.",
       "category": "Law & Finance",
       "link": "https://alfieinvest.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/alfieinvest.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alfieinvest.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1102,7 +1102,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free queries per day for AI-powered portfolio generation and risk profiling.",
       "category": "Law & Finance",
       "link": "https://portfoliogpt.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/portfoliogpt.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/portfoliogpt.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1112,7 +1112,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day money-back guarantee to build AI-driven trading strategies.",
       "category": "Law & Finance",
       "link": "https://usehorizon.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/usehorizon.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usehorizon.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1122,7 +1122,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 14-day free trial for AI-powered trade strategy and analysis.",
       "category": "Law & Finance",
       "link": "https://optimumvertex.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/optimumvertex.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/optimumvertex.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1132,7 +1132,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Tracks and analyzes options volatility metrics with a proprietary AI Trading Copilot.",
       "category": "Law & Finance",
       "link": "https://moontower.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/moontower.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moontower.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1142,7 +1142,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows 15 free expense entries per month for AI-powered financial decisions.",
       "category": "Law & Finance",
       "link": "https://zumma.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zumma.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zumma.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1152,7 +1152,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Matches startups with compatible investors for investment banking and capital raises.",
       "category": "Law & Finance",
       "link": "https://thunder.vc",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thunder.vc-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thunder.vc-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1162,7 +1162,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 40 free credits for AI-powered investment research reports.",
       "category": "Law & Finance",
       "link": "https://theanalystai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/theanalystai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/theanalystai.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1172,7 +1172,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 3 free AI uses per week for natural language stock screening.",
       "category": "Law & Finance",
       "link": "https://otterquant.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/otterquant.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/otterquant.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1182,7 +1182,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides curated video intelligence with AI-distilled summaries and transcript chat.",
       "category": "Law & Finance",
       "link": "https://aitakeaway.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aitakeaway.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitakeaway.io-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1192,7 +1192,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 3 free Copilot prompts per month for AI-powered stock analysis.",
       "category": "Law & Finance",
       "link": "https://beststock.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beststock.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beststock.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1202,7 +1202,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free AI-powered financial insights per month for investment research automation.",
       "category": "Law & Finance",
       "link": "https://easyfin.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/easyfin.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easyfin.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1212,7 +1212,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 3 monthly free TradeGPT trials for stock and crypto tracking.",
       "category": "Law & Finance",
       "link": "https://stockbits.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockbits.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockbits.io-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1222,7 +1222,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Serves as an AI-Powered Investment Analyzer for Open Source Projects.",
       "category": "Law & Finance",
       "link": "https://repobase.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/repobase.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/repobase.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1232,7 +1232,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides stock portfolio management and graphical analysis.",
       "category": "Law & Finance",
       "link": "https://stockkhata.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockkhata.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockkhata.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1242,7 +1242,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides cutting-edge technology solutions with a professional-grade GenAI assistant.",
       "category": "Law & Finance",
       "link": "https://www.thomsonreuters.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thomsonreuters.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thomsonreuters.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1252,7 +1252,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day trial for $1 for AI-powered contract drafting and review.",
       "category": "Law & Finance",
       "link": "https://www.lawinsider.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lawinsider.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lawinsider.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1262,7 +1262,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial to draft and review contracts 10x faster.",
       "category": "Law & Finance",
       "link": "https://www.spellbook.legal/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/spellbook.legal-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spellbook.legal-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1272,7 +1272,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for legal case management with AI-powered solutions.",
       "category": "Law & Finance",
       "link": "https://www.filevine.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/filevine.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/filevine.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1282,7 +1282,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for Legal AI with the largest legal database.",
       "category": "Law & Finance",
       "link": "https://justis.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/justis.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/justis.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1292,7 +1292,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides expert legal advice and rapid legal research.",
       "category": "Law & Finance",
       "link": "https://ailawyer.pro/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ailawyer.pro-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ailawyer.pro-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1302,7 +1302,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-Powered web accessibility for ADA & WCAG compliance.",
       "category": "Law & Finance",
       "link": "https://accessibe.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/accessibe.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/accessibe.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1312,7 +1312,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for legal research and case law analysis.",
       "category": "Law & Finance",
       "link": "https://predictice.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/predictice.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/predictice.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1322,7 +1322,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows starting for free to incorporate globally and manage fundraising.",
       "category": "Law & Finance",
       "link": "https://skala.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skala.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skala.io-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1332,7 +1332,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free downloads per month for AI-powered legal document generation.",
       "category": "Law & Finance",
       "link": "https://go-legal.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/go-legal.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/go-legal.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1342,7 +1342,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows getting started for free to organize and draft immigration petitions 90% faster.",
       "category": "Law & Finance",
       "link": "https://quickfiling.us/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/quickfiling.us-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quickfiling.us-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1352,7 +1352,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free 7-day trial for AI legal drafting to reduce drafting time.",
       "category": "Law & Finance",
       "link": "https://www.ai.law/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai.law-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai.law-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1362,7 +1362,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes $5 of included monthly credits to draft and review contracts with AI.",
       "category": "Law & Finance",
       "link": "https://git.law/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/git.law-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/git.law-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1372,7 +1372,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free documents for AI-powered legal document creation and jurisprudence search.",
       "category": "Law & Finance",
       "link": "https://lawdeck.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lawdeck.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lawdeck.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1382,7 +1382,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides 500 GB of free storage for document and email management with Document AI.",
       "category": "Law & Finance",
       "link": "https://lexworkplace.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lexworkplace.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexworkplace.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1392,7 +1392,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free Legacy Score for AI-powered estate planning.",
       "category": "Law & Finance",
       "link": "https://my-legacy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/my-legacy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/my-legacy.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1402,7 +1402,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial with limited insights for AI-powered contract reviews.",
       "category": "Law & Finance",
       "link": "https://www.goheather.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/goheather.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goheather.io-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1412,7 +1412,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 14-day free trial for trade compliance screening and supply chain risk mitigation.",
       "category": "Law & Finance",
       "link": "https://bitedata.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bitedata.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bitedata.io-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1422,7 +1422,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI-powered legal drafts backed by 50,000 legal documents.",
       "category": "Law & Finance",
       "link": "https://www.unwildered.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/unwildered.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/unwildered.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1432,7 +1432,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free contracts to instantly spot risks and understand legal jargon.",
       "category": "Law & Finance",
       "link": "https://speedlegal.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speedlegal.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speedlegal.io-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1442,7 +1442,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides immediate accident help via an AI lawyer app and professional medical assistance.",
       "category": "Law & Finance",
       "link": "https://owchbuddy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/owchbuddy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/owchbuddy.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1452,7 +1452,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for an AI-powered communication platform for intake calls.",
       "category": "Law & Finance",
       "link": "https://casegen.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/casegen.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/casegen.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1462,7 +1462,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free document for property document analysis and risk uncovering.",
       "category": "Law & Finance",
       "link": "https://s32.com.au/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/s32.com.au-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/s32.com.au-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1472,7 +1472,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to simplify legal jargon and translate legal docs to plain English.",
       "category": "Law & Finance",
       "link": "https://legalesedecoder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legalesedecoder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalesedecoder.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1482,7 +1482,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for 24/7 instant legal assistance and document drafting.",
       "category": "Law & Finance",
       "link": "https://aidejuridique.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aidejuridique.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aidejuridique.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1492,7 +1492,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Analyzes documents, extracts insights, and automates tasks.",
       "category": "Law & Finance",
       "link": "https://arguai.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/arguai.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/arguai.co-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1502,7 +1502,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free conversions per month to simplify legal language.",
       "category": "Law & Finance",
       "link": "https://layman.law/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/layman.law-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/layman.law-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1512,7 +1512,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Waives the first month for AI-assisted legal support with attorney-reviewed documents.",
       "category": "Law & Finance",
       "link": "https://paralex.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/paralex.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/paralex.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1522,7 +1522,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Automates case law research and document review for legal teams.",
       "category": "Law & Finance",
       "link": "https://advomate.cz/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/advomate.cz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/advomate.cz-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1532,7 +1532,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5,000 free pageviews per month for AI-driven cookie management.",
       "category": "Law & Finance",
       "link": "https://cookiechimp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cookiechimp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cookiechimp.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1542,7 +1542,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a no-code innovation lab to turn legal expertise into AI solutions.",
       "category": "Law & Finance",
       "link": "https://ailawyerlab.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ailawyerlab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ailawyerlab.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1552,7 +1552,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for an AI-first workspace for legal teams to automate signing and notarization.",
       "category": "Law & Finance",
       "link": "https://platus.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/platus.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/platus.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1562,7 +1562,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free queries per day for a German law AI assistant.",
       "category": "Law & Finance",
       "link": "https://leges.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/leges.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/leges.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1572,7 +1572,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered demand letters and medical chronologies.",
       "category": "Law & Finance",
       "link": "https://tavrn.art/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tavrn.art-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tavrn.art-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1582,7 +1582,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides instant contract risk detection and redlining in Microsoft Word.",
       "category": "Law & Finance",
       "link": "https://legalgraph.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legalgraph.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalgraph.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1592,7 +1592,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free personalized legal document creation and AI-driven research.",
       "category": "Law & Finance",
       "link": "https://eadvocate4you.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eadvocate4you.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eadvocate4you.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1602,7 +1602,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows trying for free for AI Mediation and AI-powered Demand Letters.",
       "category": "Law & Finance",
       "link": "https://dyspute.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dyspute.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dyspute.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1612,7 +1612,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI-powered verification tool for legally compliant content and documents.",
       "category": "Law & Finance",
       "link": "https://chekable.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chekable.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chekable.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1622,7 +1622,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for Legal Research AI and contract review.",
       "category": "Law & Finance",
       "link": "https://www.caseway.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/caseway.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/caseway.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1632,7 +1632,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows drafting a Will for free with visual design and scenario testing.",
       "category": "Law & Finance",
       "link": "https://www.willhero.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/willhero.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/willhero.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1642,7 +1642,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Collaboration platform for legal teams with AI-driven document organization and task management.",
       "category": "Law & Finance",
       "link": "https://www.kolabrya.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kolabrya.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kolabrya.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1652,7 +1652,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for advanced case law search and document review.",
       "category": "Law & Finance",
       "link": "https://www.lexence.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lexence.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexence.tech-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1662,7 +1662,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides 500 MB of free storage for life for online will and estate planning.",
       "category": "Law & Finance",
       "link": "https://www.cruxlegacy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cruxlegacy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cruxlegacy.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1672,7 +1672,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers over 10,000 free legal templates and AI-native document drafting.",
       "category": "Law & Finance",
       "link": "https://www.yanna.pro/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/yanna.pro-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yanna.pro-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1682,7 +1682,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free messages per week for accurate legal advice based on French law.",
       "category": "Law & Finance",
       "link": "https://www.monavocat.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/monavocat.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monavocat.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1692,7 +1692,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers trial access for legal research and document drafting.",
       "category": "Law & Finance",
       "link": "https://www.propria.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/propria.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/propria.ai-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 6
     },
@@ -1702,7 +1702,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free evaluations per month for AI-powered evaluation.",
       "category": "Law & Finance",
       "link": "https://wiseoptin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wiseoptin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wiseoptin.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1712,7 +1712,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free until $2M raised for legal document management and due diligence.",
       "category": "Law & Finance",
       "link": "https://aerialops.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aerialops.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aerialops.io-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1722,7 +1722,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Chinese legal AI assistant helping with research, case law analysis, and document drafting.",
       "category": "Law & Finance",
       "link": "https://lvji.tensorbounce.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lvji.tensorbounce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lvji.tensorbounce.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     },
@@ -1732,7 +1732,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-Powered Research and analysis of legal documents.",
       "category": "Law & Finance",
       "link": "https://legalgemini.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legalgemini.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalgemini.com-128x128__Estimated_.png",
       "icon": "Scale",
       "score": 8
     }
@@ -1744,7 +1744,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Acts as an AI-Powered Case Notes Assistant with investigative questions and real-time insights.",
       "category": "Law & Finance",
       "link": "https://nighthawkai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nighthawkai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nighthawkai.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1754,7 +1754,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for advanced case law search and document review.",
       "category": "Law & Finance",
       "link": "https://lexence.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lexence.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexence.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1764,7 +1764,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows trying for free for AI Mediation and AI-powered Demand Letters.",
       "category": "Law & Finance",
       "link": "https://dyspute.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dyspute.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dyspute.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1774,7 +1774,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides 500 MB of free storage for life for online will and estate planning.",
       "category": "Law & Finance",
       "link": "https://cruxlegacy.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cruxlegacy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cruxlegacy.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1784,7 +1784,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers over 10,000 free legal templates and AI-native document drafting.",
       "category": "Law & Finance",
       "link": "https://yanna.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/yanna.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yanna.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1794,7 +1794,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free messages per week for accurate legal advice based on French law.",
       "category": "Law & Finance",
       "link": "https://monavocat.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/monavocat.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monavocat.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1804,7 +1804,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers trial access for legal research and document drafting.",
       "category": "Law & Finance",
       "link": "https://juris.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/juris.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/juris.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1814,7 +1814,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for Legal Research AI and contract review.",
       "category": "Law & Finance",
       "link": "https://caseway.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/caseway.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/caseway.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1824,7 +1824,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free evaluations per month with automatic detection and an AI-powered chatbot.",
       "category": "Law & Finance",
       "link": "https://wiseoptin.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wiseoptin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wiseoptin.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1834,7 +1834,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows drafting a Will for free with visual design and scenario testing.",
       "category": "Law & Finance",
       "link": "https://willhero.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/willhero.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/willhero.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1844,7 +1844,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free until $2M raised for legal document management and due diligence.",
       "category": "Law & Finance",
       "link": "https://aerial.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aerial.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aerial.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1854,7 +1854,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free quick review for intelligent contract review and drafting.",
       "category": "Law & Finance",
       "link": "https://lawzz.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lawzz.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lawzz.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1864,7 +1864,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-Powered Research and analysis of legal documents.",
       "category": "Law & Finance",
       "link": "https://legalgemini.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legalgemini.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalgemini.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1874,7 +1874,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial with unlimited contact info and an AI-powered dialer.",
       "category": "Law & Finance",
       "link": "https://dealmachine.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dealmachine.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dealmachine.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1884,7 +1884,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-Day Free Trial for AI Takeoff and estimating capabilities.",
       "category": "Law & Finance",
       "link": "https://www.kreo.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kreo.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kreo.net-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1894,7 +1894,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free demo for AI-powered dynamic pricing and hotel management.",
       "category": "Law & Finance",
       "link": "https://hotelincloud.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hotelincloud.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hotelincloud.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1904,7 +1904,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides 3D Generative Design and Property Research (free for sites up to 2000m2).",
       "category": "Law & Finance",
       "link": "https://archistar.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/archistar.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/archistar.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1914,7 +1914,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is completely free for AI-driven analytics and dynamic pricing on market data.",
       "category": "Law & Finance",
       "link": "https://www.airroi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/airroi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airroi.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1924,7 +1924,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 2 free uses to upload photos for redesigns and chat-to-image concepts.",
       "category": "Law & Finance",
       "link": "https://collov.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/collov.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/collov.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1934,7 +1934,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free tries for AI Virtual Staging and photo editing.",
       "category": "Law & Finance",
       "link": "https://aihomedesign.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aihomedesign.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aihomedesign.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1944,7 +1944,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "One-click staging with highly realistic furnishings and a 10-second turnaround.",
       "category": "Law & Finance",
       "link": "https://aihomedesign.com/virtual-staging",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aihomedesign.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aihomedesign.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1954,7 +1954,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for the first image for virtual staging and photo editing.",
       "category": "Law & Finance",
       "link": "https://www.styldod.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/styldod.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/styldod.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -1964,7 +1964,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered Investment Property Lists and Real Estate APIs.",
       "category": "Law & Finance",
       "link": "https://homesage.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/homesage.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/homesage.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1974,7 +1974,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 100,000 contacts or 50 locations free for AI-Powered Segmentation.",
       "category": "Law & Finance",
       "link": "https://www.spatial.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/spatial.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spatial.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1984,7 +1984,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides unlimited late fee calculations and multi-property management tools.",
       "category": "Law & Finance",
       "link": "https://www.rentlatefee.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rentlatefee.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rentlatefee.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -1994,7 +1994,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows uploading an image for free for AI-Powered Virtual Staging.",
       "category": "Law & Finance",
       "link": "https://edensign.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/edensign.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/edensign.io-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2004,7 +2004,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-Day Free Trial to automate social media with AI-powered CRM.",
       "category": "Law & Finance",
       "link": "https://propertysimple.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/propertysimple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/propertysimple.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2014,7 +2014,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is a free all-in-one vacation rental property management tool with AI and automation.",
       "category": "Law & Finance",
       "link": "https://jurny.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jurny.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jurny.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2024,7 +2024,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants the first video free for AI-powered real estate video creation.",
       "category": "Law & Finance",
       "link": "https://www.amplifiles.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/amplifiles.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/amplifiles.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2034,7 +2034,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free 7-day trial for AI-powered CMAs and AI-remodels.",
       "category": "Law & Finance",
       "link": "https://saleswise.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/saleswise.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/saleswise.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2044,7 +2044,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free renders for AI Interior Design and virtual home staging.",
       "category": "Law & Finance",
       "link": "https://sofabrain.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sofabrain.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sofabrain.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2054,7 +2054,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free Predictive Audiences Lists for AI-powered personalization.",
       "category": "Law & Finance",
       "link": "https://aidaptive.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aidaptive.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aidaptive.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2064,7 +2064,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers Virtual Staging and Image Enhancement.",
       "category": "Law & Finance",
       "link": "https://revivoto.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/revivoto.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revivoto.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2074,7 +2074,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free 14-day trial to predict likely sellers and update missing contact info.",
       "category": "Law & Finance",
       "link": "https://likely.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/likely.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/likely.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2084,7 +2084,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for consumers and agents to connect with top 1% real estate agents.",
       "category": "Law & Finance",
       "link": "https://agentmatch.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/agentmatch.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/agentmatch.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2094,7 +2094,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers one free zipcode for AI-driven forecasts and analytics.",
       "category": "Law & Finance",
       "link": "https://www.zipsmart.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zipsmart.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zipsmart.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2104,7 +2104,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free daily prompts for AI-powered property matching.",
       "category": "Law & Finance",
       "link": "https://homesales.com.au/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/homesales.com.au-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/homesales.com.au-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2114,7 +2114,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows viewing 20 days of past sales history per day for free.",
       "category": "Law & Finance",
       "link": "https://urbalytics.jp/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/urbalytics.jp-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/urbalytics.jp-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2124,7 +2124,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day trial for AI-powered enhancements for real estate photos.",
       "category": "Law & Finance",
       "link": "https://colossis.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/colossis.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/colossis.io-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2134,7 +2134,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI-powered text messages and an automated voice agent.",
       "category": "Law & Finance",
       "link": "https://realassist.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/realassist.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/realassist.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2144,7 +2144,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 2 free staging images per month for AI Virtual Staging and videos.",
       "category": "Law & Finance",
       "link": "https://roomxai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/roomxai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/roomxai.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2154,7 +2154,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for a 96% accurate AVM and listing description writer.",
       "category": "Law & Finance",
       "link": "https://smartbids.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/smartbids.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartbids.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2164,7 +2164,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free listing generation for AI-powered real estate descriptions.",
       "category": "Law & Finance",
       "link": "https://thelistly.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thelistly.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thelistly.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2174,7 +2174,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-Day Free Trial with 1000 credits to automate property listings.",
       "category": "Law & Finance",
       "link": "https://ailliot.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ailliot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ailliot.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2184,7 +2184,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 14 days free for an all-in-one AI assistant and automated guest messaging.",
       "category": "Law & Finance",
       "link": "https://prohost.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prohost.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prohost.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2194,7 +2194,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides virtual interior and exterior home staging with AI-powered photo and video enhancement.",
       "category": "Law & Finance",
       "link": "https://iacrea.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/iacrea.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iacrea.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2204,7 +2204,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides accurate data analysis and actionable insights to maximize property rent yields.",
       "category": "Law & Finance",
       "link": "https://proptyai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/proptyai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/proptyai.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2214,7 +2214,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14 Day Free Trial for SEO-optimized blogs and AI-powered image generation.",
       "category": "Law & Finance",
       "link": "https://jude.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jude.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jude.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2224,7 +2224,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is completely free for an AI-powered creative suite for real estate marketing.",
       "category": "Law & Finance",
       "link": "https://gena.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gena.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gena.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2234,7 +2234,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Streamlines the listing process with AI-generated ad copy.",
       "category": "Law & Finance",
       "link": "https://listingcopy.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/listingcopy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/listingcopy.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2244,7 +2244,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free start for AI-powered spam blocking and RERA-verified agent matching.",
       "category": "Law & Finance",
       "link": "https://www.reclarify.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/reclarify.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reclarify.app-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2254,7 +2254,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for property valuation and market insights.",
       "category": "Law & Finance",
       "link": "https://ippi.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ippi.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ippi.io-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2264,7 +2264,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers an extended 60-day free trial for streamlined property management.",
       "category": "Law & Finance",
       "link": "https://zenrent.co.uk/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zenrent.co.uk-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zenrent.co.uk-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2274,7 +2274,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a limited free trial to virtually stage property photos using AI-driven furniture placement.",
       "category": "Law & Finance",
       "link": "https://www.virtualstagingai.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/virtualstagingai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/virtualstagingai.app-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2284,7 +2284,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free support, analytics, and referrals connecting investors with experts.",
       "category": "Law & Finance",
       "link": "https://www.getchalet.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/getchalet.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getchalet.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2294,7 +2294,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free AI Tax Assistant and No Fee 1031 Exchange services.",
       "category": "Law & Finance",
       "link": "https://www.deferred.com/real-estate-tax-chatbot",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deferred.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deferred.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2304,7 +2304,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free AI-powered evaluation tool to score and analyze property investment potential.",
       "category": "Law & Finance",
       "link": "https://www.homescore.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/homescore.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/homescore.co-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2314,7 +2314,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows listing up to 5 properties for free for property management tools.",
       "category": "Law & Finance",
       "link": "https://realtyverse.xyz/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/realtyverse.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/realtyverse.xyz-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2324,7 +2324,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers AI-powered virtual property tours with multilingual narration.",
       "category": "Law & Finance",
       "link": "https://realtourai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/realtourai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/realtourai.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2334,7 +2334,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows trying for free for AI-powered homebuying mentors and scenario simulations.",
       "category": "Law & Finance",
       "link": "https://roleplayrealty.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/roleplayrealty.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/roleplayrealty.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2344,7 +2344,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for 24/7 AI property management and revenue optimization.",
       "category": "Law & Finance",
       "link": "https://jekky.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jekky.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jekky.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2354,7 +2354,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI-Powered Descriptions and Smart Staging Tips.",
       "category": "Law & Finance",
       "link": "https://realtorbuddy.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/realtorbuddy.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/realtorbuddy.net-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2364,7 +2364,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-Day Free Trial to find abandoned websites.",
       "category": "Law & Finance",
       "link": "https://foliofindr.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/foliofindr.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/foliofindr.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2374,7 +2374,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-Day Free Trial for AI-Powered Tools and live consulting.",
       "category": "Law & Finance",
       "link": "https://actionhoa.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/actionhoa.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/actionhoa.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 6
     },
@@ -2384,7 +2384,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free predictions for predicting real estate prices in Dubai.",
       "category": "Law & Finance",
       "link": "https://dubaiai.estate/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dubaiai.estate-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dubaiai.estate-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2394,7 +2394,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a free trial for AI-driven real estate data analysis and predictive market insights.",
       "category": "Law & Finance",
       "link": "https://pollox.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pollox.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pollox.ai-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2404,7 +2404,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free access via its app to discover AI-vetted fractional real estate investment opportunities.",
       "category": "Law & Finance",
       "link": "https://apps.apple.com/us/app/realpha/id6502771973",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apple.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2414,7 +2414,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants free access to an AI-powered search platform for property listings and market discovery.",
       "category": "Law & Finance",
       "link": "https://paseet.sa/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/paseet.sa-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/paseet.sa-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     },
@@ -2424,7 +2424,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a free trial for an AI-powered marketing suite designed for real estate professionals.",
       "category": "Law & Finance",
       "link": "https://creativehublatam.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/creativehublatam.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/creativehublatam.com-128x128__Estimated_.png",
       "icon": "Home",
       "score": 8
     }
@@ -2436,7 +2436,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows listing up to 5 properties for free for property management tools.",
       "category": "Law & Finance",
       "link": "https://www.realtyverse.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/realtyverse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/realtyverse.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2446,7 +2446,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers AI-powered virtual property tours with multilingual narration.",
       "category": "Law & Finance",
       "link": "https://propzella.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/propzella.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/propzella.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2456,7 +2456,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows trying for free for AI-powered homebuying mentors and scenario simulations.",
       "category": "Law & Finance",
       "link": "https://roleplayrealty.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/roleplayrealty.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/roleplayrealty.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2466,7 +2466,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for 24/7 AI property management and revenue optimization.",
       "category": "Law & Finance",
       "link": "https://jekky.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jekky.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jekky.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2476,7 +2476,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI-Powered Descriptions and Smart Staging Tips.",
       "category": "Law & Finance",
       "link": "https://realtorbuddy.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/realtorbuddy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/realtorbuddy.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2486,7 +2486,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-Day Free Trial to find abandoned websites.",
       "category": "Law & Finance",
       "link": "https://foliofindr.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/foliofindr.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/foliofindr.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2496,7 +2496,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-Day Free Trial for AI-Powered Tools and live consulting.",
       "category": "Law & Finance",
       "link": "https://actionhoa.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/actionhoa.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/actionhoa.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2506,7 +2506,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free predictions for predicting real estate prices in Dubai.",
       "category": "Law & Finance",
       "link": "https://www.dubai-ai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/dubai-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dubai-ai.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2516,7 +2516,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides voice-based AI expense tracking with smart categorization.",
       "category": "Law & Finance",
       "link": "https://itunes.apple.com/app/id6473291180",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2526,7 +2526,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial and a basic free plan forever for AI insights and financial reporting.",
       "category": "Law & Finance",
       "link": "https://www.syftanalytics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/syftanalytics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/syftanalytics.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2536,7 +2536,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day full feature trial with unlimited e-invoices and 5 expense scans.",
       "category": "Law & Finance",
       "link": "https://accountable.de/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/accountable.de-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/accountable.de-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2546,7 +2546,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial to automate planning and reporting with ERP integrations.",
       "category": "Law & Finance",
       "link": "https://insightsoftware.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/insightsoftware.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insightsoftware.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2556,7 +2556,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to use for self-driving bookkeeping and tax-ready financials.",
       "category": "Law & Finance",
       "link": "https://kick.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/kick.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kick.co-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2566,7 +2566,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for an AI tax assistant to boost productivity.",
       "category": "Law & Finance",
       "link": "https://taxgpt.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/taxgpt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taxgpt.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2576,7 +2576,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI bookkeeping and financials.",
       "category": "Law & Finance",
       "link": "https://digits.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/digits.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/digits.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2586,7 +2586,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 15 free AI scans per month for receipt scanning and bank statement extraction.",
       "category": "Law & Finance",
       "link": "https://sparkreceipt.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sparkreceipt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sparkreceipt.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2596,7 +2596,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial with 200 free pages for financial data extraction.",
       "category": "Law & Finance",
       "link": "https://www.docuclipper.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/docuclipper.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docuclipper.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2606,7 +2606,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial to streamline workflows with AI-powered tools.",
       "category": "Law & Finance",
       "link": "https://clienthub.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clienthub.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clienthub.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2616,7 +2616,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-days free trial for automated receipt and invoice extraction.",
       "category": "Law & Finance",
       "link": "https://receiptor.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/receiptor.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/receiptor.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2626,7 +2626,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free forever for AI Bookkeeping, automated expense tracking, and tax-ready reports.",
       "category": "Law & Finance",
       "link": "https://usetabby.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/usetabby.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usetabby.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2636,7 +2636,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Automates 95% of Bookkeeping via chat to complete financial tasks.",
       "category": "Law & Finance",
       "link": "https://bookeeping.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bookeeping.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bookeeping.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2646,7 +2646,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 20 transactions per month free for voice message expense tracking.",
       "category": "Law & Finance",
       "link": "https://get-monai.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/get-monai.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/get-monai.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2656,7 +2656,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-Day Trial for $0 for real-time accounting and a dedicated expert.",
       "category": "Law & Finance",
       "link": "https://www.usequanta.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/usequanta.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usequanta.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2666,7 +2666,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AP Automation and Automated Procurement.",
       "category": "Law & Finance",
       "link": "https://zapro.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zapro.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zapro.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2676,7 +2676,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI-powered financial management.",
       "category": "Law & Finance",
       "link": "https://www.nuvio.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nuvio.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nuvio.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2686,7 +2686,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows processing 50 invoices per month for free to automate data entry.",
       "category": "Law & Finance",
       "link": "https://turbodoc.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/turbodoc.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/turbodoc.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2696,7 +2696,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered invoicing for faster payments.",
       "category": "Law & Finance",
       "link": "https://chargezoom.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chargezoom.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chargezoom.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2706,7 +2706,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-Day Free Trial for AI Bookkeeping with human support.",
       "category": "Law & Finance",
       "link": "https://www.cashflowy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cashflowy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cashflowy.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2716,7 +2716,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Automatically extracts invoices from emails and 7,000+ sources to upload to ERPs.",
       "category": "Law & Finance",
       "link": "https://vualapp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/vualapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vualapp.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2726,7 +2726,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered accounting automation and multi-bank financial analysis.",
       "category": "Law & Finance",
       "link": "https://www.fortune.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fortune.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fortune.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2736,7 +2736,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 2,500 free monthly tokens for natural language answers and AI Financial Analysis.",
       "category": "Law & Finance",
       "link": "https://www.oly.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/oly.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/oly.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2746,7 +2746,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides automated receipt retrieval and centralized digital receipt management.",
       "category": "Law & Finance",
       "link": "https://receiptify.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/receiptify.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/receiptify.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2756,7 +2756,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides B2B Billing & Revenue Management with automated invoicing.",
       "category": "Law & Finance",
       "link": "https://received.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/received.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/received.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2766,7 +2766,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Solves accounting problems and automates bookkeeping.",
       "category": "Law & Finance",
       "link": "https://accountingsolver.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/accountingsolver.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/accountingsolver.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2776,7 +2776,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 20 free documents per year for AI-powered Invoice Creation.",
       "category": "Law & Finance",
       "link": "https://invoicemint.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/invoicemint.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/invoicemint.in-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2786,7 +2786,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for automated AI crypto accounting.",
       "category": "Law & Finance",
       "link": "https://entendre.finance/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/entendre.finance-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/entendre.finance-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2796,7 +2796,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 invoices per month for free for invoice processing automation.",
       "category": "Law & Finance",
       "link": "https://www.get-invoice.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/get-invoice.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/get-invoice.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2806,7 +2806,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for an AI-powered accounting dashboard.",
       "category": "Law & Finance",
       "link": "https://www.workfusionapp.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/workfusionapp.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/workfusionapp.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2816,7 +2816,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Trial for an AI-Powered CFO and financial review.",
       "category": "Law & Finance",
       "link": "https://financialfusion.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/financialfusion.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/financialfusion.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2826,7 +2826,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 3 months free for effortless reimbursement and receipt organization.",
       "category": "Law & Finance",
       "link": "https://www.snaptobook.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/snaptobook.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snaptobook.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2836,7 +2836,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows starting for free for AI-powered transaction matching.",
       "category": "Law & Finance",
       "link": "https://audittrail.online/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/audittrail.online-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/audittrail.online-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2846,7 +2846,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day free trial for AI-powered accounting automation.",
       "category": "Law & Finance",
       "link": "https://cranstonai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cranstonai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cranstonai.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2856,7 +2856,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial to manage AI costs and optimize spending.",
       "category": "Law & Finance",
       "link": "https://www.aicosts.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aicosts.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aicosts.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2866,7 +2866,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free forever for up to 4 projects and 1 bank account with AI-Powered Insights.",
       "category": "Law & Finance",
       "link": "https://finjy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finjy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finjy.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2876,7 +2876,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Automates PDF bank statements to Excel using AI-powered conversion.",
       "category": "Law & Finance",
       "link": "https://bankstatementconvert.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bankstatementconvert.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bankstatementconvert.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2886,7 +2886,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Generates the first invoice for free using AI.",
       "category": "Law & Finance",
       "link": "https://invoices.dev/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/invoices.dev-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/invoices.dev-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2896,7 +2896,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for AI-powered expense tracking, receipt scanning, and monthly summaries.",
       "category": "Law & Finance",
       "link": "https://apps.apple.com/tr/app/scanio-ai-expense-tracking/id6733252508",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2906,7 +2906,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 48-hour free trial for AI-powered expense tracking.",
       "category": "Law & Finance",
       "link": "https://www.showmemoney.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/showmemoney.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/showmemoney.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2916,7 +2916,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for up to 10 clients and 5 expense categories with AI receipt uploads.",
       "category": "Law & Finance",
       "link": "https://lance.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lance.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lance.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2926,7 +2926,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free AI CFO requests for git-native, AI-assisted bookkeeping.",
       "category": "Law & Finance",
       "link": "https://beancount.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beancount.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beancount.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2936,7 +2936,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for 15 days for budgeting without linking a bank account.",
       "category": "Law & Finance",
       "link": "https://skwad.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skwad.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skwad.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2946,7 +2946,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI-powered expense categorization.",
       "category": "Law & Finance",
       "link": "https://www.expensesorted.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/expensesorted.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/expensesorted.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2956,7 +2956,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for real-time cash flow monitoring and predictive forecasting.",
       "category": "Law & Finance",
       "link": "https://www.trezy.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/trezy.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trezy.io-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -2966,7 +2966,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Powerful free AI tool for Accounting.",
       "category": "Law & Finance",
       "link": "https://www.thefreelance.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/thefreelance.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thefreelance.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2976,7 +2976,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to send online invoices and automate receipt data entry.",
       "category": "Law & Finance",
       "link": "https://chromewebstore.google.com/detail/free-accounting-software/oalnjhnakfpklfbnmnbgidfhemncplef",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2986,7 +2986,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Powerful free AI tool for Accounting.",
       "category": "Law & Finance",
       "link": "https://www.joinbackdrop.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/joinbackdrop.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/joinbackdrop.com-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -2996,7 +2996,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14 Day Free Trial for AI Invoicing and faster payments.",
       "category": "Law & Finance",
       "link": "http://slayed.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/slayed.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/slayed.ai-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 6
     },
@@ -3006,7 +3006,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to send and receive invoices with AI-powered billing automation.",
       "category": "Law & Finance",
       "link": "https://myinvoicer.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myinvoicer.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myinvoicer.app-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     },
@@ -3016,7 +3016,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides effortless invoice generation using Natural Language Processing.",
       "category": "Law & Finance",
       "link": "https://easydo.ing/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/easydo.ing-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easydo.ing-128x128__Estimated_.png",
       "icon": "Banknote",
       "score": 8
     }
@@ -3028,7 +3028,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to send online invoices and automate receipt data entry.",
       "category": "Law & Finance",
       "link": "https://slickpie.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/slickpie.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/slickpie.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3038,7 +3038,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14 Day Free Trial for AI Invoicing and faster payments.",
       "category": "Law & Finance",
       "link": "https://slayed.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/slayed.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/slayed.ai-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3048,7 +3048,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to send and receive invoices with AI-powered billing automation.",
       "category": "Law & Finance",
       "link": "https://myinvoicer.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/myinvoicer.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myinvoicer.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3058,7 +3058,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides effortless invoice generation using Natural Language Processing.",
       "category": "Law & Finance",
       "link": "https://easydoing.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/easydoing.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/easydoing.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3068,7 +3068,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Demo for automated expense management.",
       "category": "Law & Finance",
       "link": "https://clyr.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clyr.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clyr.io-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3078,7 +3078,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is the world’s first exchange with in-built free crypto trading bots.",
       "category": "Law & Finance",
       "link": "https://www.pionex.com/en/signUp?r=7bYd5fOw",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/pionex.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pionex.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3088,7 +3088,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 14-day free trial to build trading algorithms with AI.",
       "category": "Law & Finance",
       "link": "https://www.composer.trade/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/composer.trade-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/composer.trade-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3098,7 +3098,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free AI assistant requests per day to automate crypto strategy.",
       "category": "Law & Finance",
       "link": "https://www.octobot.cloud/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/octobot.cloud-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octobot.cloud-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3108,7 +3108,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free one-day trial for crypto arbitrage scanning and wallet analysis.",
       "category": "Law & Finance",
       "link": "https://arbitragescanner.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/arbitragescanner.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/arbitragescanner.io-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3118,7 +3118,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day Premium Subscription for AI Trading Bots.",
       "category": "Law & Finance",
       "link": "https://www.growlonix.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/growlonix.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/growlonix.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3128,7 +3128,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers Unlimited Free Access to AI Trading Bots and Research.",
       "category": "Law & Finance",
       "link": "https://themisforcrypto.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/themisforcrypto.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/themisforcrypto.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3138,7 +3138,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a Free Account and Demo Mode for AI-Powered Automated Trading.",
       "category": "Law & Finance",
       "link": "https://quantumaiplatform.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/quantumaiplatform.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quantumaiplatform.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3148,7 +3148,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers Trial Access and a Free Discord Community for AI Scanning.",
       "category": "Law & Finance",
       "link": "https://rocketscooter.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rocketscooter.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rocketscooter.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3158,7 +3158,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for Professional Stock Analysis.",
       "category": "Law & Finance",
       "link": "https://www.tradinglens.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradinglens.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradinglens.ai-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3168,7 +3168,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free try for Automated Algorithmic Trading.",
       "category": "Law & Finance",
       "link": "https://cryptomatic.bot/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cryptomatic.bot-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cryptomatic.bot-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3178,7 +3178,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free plan for AI-powered crypto trading bots and portfolio management.",
       "category": "Law & Finance",
       "link": "https://cryptotrademate.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cryptotrademate.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cryptotrademate.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3188,7 +3188,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for a No-Code Strategy Builder.",
       "category": "Law & Finance",
       "link": "https://quantle.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/quantle.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quantle.net-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3198,7 +3198,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 7 days free to build, backtest, and deploy AI trading bots.",
       "category": "Law & Finance",
       "link": "https://tradergpt.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradergpt.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradergpt.co-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3208,7 +3208,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants a registration gift of 100 USDT experience gold for AI Quantitative Trading.",
       "category": "Law & Finance",
       "link": "https://nitg.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/nitg.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nitg.ai-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3218,7 +3218,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered Signals with real-time responses.",
       "category": "Law & Finance",
       "link": "https://apexalgo.xyz/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apexalgo.xyz-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apexalgo.xyz-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3228,7 +3228,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for an AI-driven bot marketplace.",
       "category": "Law & Finance",
       "link": "https://robotalife.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/robotalife.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/robotalife.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3238,7 +3238,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides automated trading portfolios with AI-powered guidance.",
       "category": "Law & Finance",
       "link": "https://lendalcopy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lendalcopy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lendalcopy.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3248,7 +3248,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers unlimited free use for a limited time for building indicators and launching bots.",
       "category": "Law & Finance",
       "link": "https://www.chaplin.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chaplin.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chaplin.app-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3258,7 +3258,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Starts free with intelligent algorithms and 24/7 market monitoring.",
       "category": "Law & Finance",
       "link": "https://bonsai.trade/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bonsai.trade-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bonsai.trade-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3268,7 +3268,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered crypto trading automation and copy-trading.",
       "category": "Law & Finance",
       "link": "https://eosifinance.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/eosifinance.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eosifinance.org-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3278,7 +3278,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free Spot Trading Live Bots for multi-exchange smart trading.",
       "category": "Law & Finance",
       "link": "https://quadency.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/quadency.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quadency.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3288,7 +3288,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to build AI strategies for crypto, stocks, or ETFs.",
       "category": "Law & Finance",
       "link": "https://quinetics.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/quinetics.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quinetics.net-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3298,7 +3298,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides advanced analytical tools with high-level security.",
       "category": "Law & Finance",
       "link": "https://tradevector-ai.com/base",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradevector-ai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradevector-ai.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3308,7 +3308,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 3-day free trial for actionable insights and 24/7 monitoring.",
       "category": "Law & Finance",
       "link": "https://www.coinsignal.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/coinsignal.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coinsignal.app-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3318,7 +3318,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 60K Tokens and 75-100 free calls per month for AI-powered trading.",
       "category": "Law & Finance",
       "link": "https://chartchatai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chartchatai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chartchatai.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3328,7 +3328,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free Explore plan and a 7-day trial for an Automated Investment System.",
       "category": "Law & Finance",
       "link": "https://tiblio.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tiblio.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tiblio.ai-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3338,7 +3338,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides free tools for AI trading indicators and backtesting.",
       "category": "Law & Finance",
       "link": "https://www.luxalgo.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/luxalgo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/luxalgo.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3348,7 +3348,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides many free tools for forex, crypto, and stocks education and trading indicators.",
       "category": "Law & Finance",
       "link": "https://tradingfinder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradingfinder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradingfinder.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3358,7 +3358,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free research per day and 2 per week for crypto insights.",
       "category": "Law & Finance",
       "link": "https://asksurf.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/asksurf.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/asksurf.ai-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3368,7 +3368,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free Sibyl AI questions/day for automated crypto trading.",
       "category": "Law & Finance",
       "link": "https://secretenergy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/secretenergy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/secretenergy.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3378,7 +3378,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 2-week trial for AI data-driven tools, options flow, and real-time alerts.",
       "category": "Law & Finance",
       "link": "https://tradeui.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradeui.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradeui.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3388,7 +3388,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day money-back guarantee to build AI-driven trading strategies.",
       "category": "Law & Finance",
       "link": "https://horizon-trade.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/horizon-trade.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/horizon-trade.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3398,7 +3398,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants weekly market analysis and 7-Day Lagged Quantitative Indicators for free.",
       "category": "Law & Finance",
       "link": "https://www.biyond.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/biyond.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/biyond.co-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3408,7 +3408,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers Early Access to revolutionize trading and research with Web3 communities.",
       "category": "Law & Finance",
       "link": "https://octavia.one/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/octavia.one-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octavia.one-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3418,7 +3418,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Trial for an AI Broker Copilot.",
       "category": "Law & Finance",
       "link": "https://jfgenius.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jfgenius.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jfgenius.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3428,7 +3428,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides Daily Crypto Intelligence and Weekly Sophia's Thoughts free forever.",
       "category": "Law & Finance",
       "link": "https://www.indicia.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/indicia.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/indicia.io-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     },
@@ -3438,7 +3438,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7 Days FREE Trial for automated market scanning.",
       "category": "Law & Finance",
       "link": "https://automarketscanner.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/automarketscanner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automarketscanner.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3448,7 +3448,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI analysis of financial news.",
       "category": "Law & Finance",
       "link": "https://tradepost.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradepost.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradepost.ai-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 6
     },
@@ -3458,7 +3458,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for AI-powered financial forecasting with visualizations.",
       "category": "Law & Finance",
       "link": "https://aitradingpredictor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aitradingpredictor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitradingpredictor.com-128x128__Estimated_.png",
       "icon": "Bot",
       "score": 8
     }
@@ -3470,7 +3470,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants weekly market analysis and 7-Day Lagged Quantitative Indicators for free.",
       "category": "Law & Finance",
       "link": "https://biyond.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/biyond.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/biyond.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3480,7 +3480,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day Money-Back Guarantee to build AI-Driven Trading Strategies.",
       "category": "Law & Finance",
       "link": "https://usehorizon.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/usehorizon.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usehorizon.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3490,7 +3490,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers Early Access to revolutionize trading and research with Web3 communities.",
       "category": "Law & Finance",
       "link": "https://octavia.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/octavia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octavia.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3500,7 +3500,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Trial for an AI Broker Copilot.",
       "category": "Law & Finance",
       "link": "https://jiffgenius.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jiffgenius.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jiffgenius.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3510,7 +3510,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides Daily Crypto Intelligence and Weekly Sophia's Thoughts free forever.",
       "category": "Law & Finance",
       "link": "https://indicialabs.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/indicialabs.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/indicialabs.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3520,7 +3520,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7 Days FREE Trial for automated market scanning.",
       "category": "Law & Finance",
       "link": "https://automarketscanner.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/automarketscanner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automarketscanner.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3530,7 +3530,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI analysis of financial news.",
       "category": "Law & Finance",
       "link": "https://tradepost.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradepost.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradepost.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3540,7 +3540,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for AI-powered financial forecasting with visualizations.",
       "category": "Law & Finance",
       "link": "https://aitradingpredictor.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aitradingpredictor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitradingpredictor.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3550,7 +3550,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Quick & Easy Tax Return option for maximum refund.",
       "category": "Law & Finance",
       "link": "https://taxtim.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/taxtim.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taxtim.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3560,7 +3560,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day full feature trial with unlimited e-invoices and 5 expense scans.",
       "category": "Law & Finance",
       "link": "https://accountable.de/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/accountable.de-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/accountable.de-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3570,7 +3570,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for an AI tax assistant to boost productivity.",
       "category": "Law & Finance",
       "link": "https://taxgpt.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/taxgpt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taxgpt.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3580,7 +3580,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI-powered insights and tax optimization.",
       "category": "Law & Finance",
       "link": "https://portfoliopilot.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/portfoliopilot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/portfoliopilot.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3590,7 +3590,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free forever for AI Bookkeeping, automated expense tracking, and tax-ready reports.",
       "category": "Law & Finance",
       "link": "https://usetabby.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/usetabby.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usetabby.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3600,7 +3600,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Tax Plan to cut taxes in 60 Seconds.",
       "category": "Law & Finance",
       "link": "https://rally.tax/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rally.tax-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rally.tax-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3610,7 +3610,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-Day Free Trial with 20 messages for tax research.",
       "category": "Law & Finance",
       "link": "https://www.cpapilot.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cpapilot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cpapilot.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3620,7 +3620,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free AI Tax Assistant and No Fee 1031 Exchange services.",
       "category": "Law & Finance",
       "link": "https://www.deferred.com/real-estate-tax-chatbot",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deferred.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deferred.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3630,7 +3630,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is 100% free for individuals for AI-powered Canadian income tax advice.",
       "category": "Law & Finance",
       "link": "https://cantax.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cantax.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cantax.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3640,7 +3640,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free search for AI-powered customs tariff number search.",
       "category": "Law & Finance",
       "link": "https://www.zolltarifnummer.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zolltarifnummer.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zolltarifnummer.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3650,7 +3650,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows starting for free for Spanish Tax AI and automated document extraction.",
       "category": "Law & Finance",
       "link": "https://haciendaiq.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/haciendaiq.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/haciendaiq.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3660,7 +3660,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to analyze tax returns and generate recommendations.",
       "category": "Law & Finance",
       "link": "https://decode.tax/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/decode.tax-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/decode.tax-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3670,7 +3670,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI-powered tax and accounting advice.",
       "category": "Law & Finance",
       "link": "https://www.simpla.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/simpla.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simpla.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3680,7 +3680,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for an all-in-one Finance, Tax & Accounting AI search.",
       "category": "Law & Finance",
       "link": "https://www.mesha.club/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mesha.club-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mesha.club-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3690,7 +3690,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day PRO trial for multi-source AI sync and generation.",
       "category": "Law & Finance",
       "link": "https://www.surfsense.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/surfsense.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/surfsense.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3700,7 +3700,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides tax-loss harvesting and AI-driven investment insights.",
       "category": "Law & Finance",
       "link": "https://mezzi.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mezzi.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mezzi.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3710,7 +3710,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-Day Free Trial for intelligent receipt and invoice scanning.",
       "category": "Law & Finance",
       "link": "https://www.receiptcat.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/receiptcat.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/receiptcat.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3720,7 +3720,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for up to 10 invoices and up to 5 clients.",
       "category": "Law & Finance",
       "link": "https://aiinvoicer.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiinvoicer.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiinvoicer.in-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3730,7 +3730,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 15 free AI scans per month for receipt scanning and bank statement extraction.",
       "category": "Law & Finance",
       "link": "https://sparkreceipt.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/sparkreceipt.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sparkreceipt.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3740,7 +3740,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers AI-powered tax form automation with free tier options for simplified filing.",
       "category": "Law & Finance",
       "link": "https://instafill.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/instafill.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instafill.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3750,7 +3750,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-days free trial for automated receipt and invoice extraction.",
       "category": "Law & Finance",
       "link": "https://receiptor.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/receiptor.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/receiptor.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3760,7 +3760,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Automates 95% of Bookkeeping via chat to complete financial tasks.",
       "category": "Law & Finance",
       "link": "https://bookeeping.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bookeeping.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bookeeping.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3770,7 +3770,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides unlimited late fee calculations and multi-property management tools.",
       "category": "Law & Finance",
       "link": "https://www.rentlatefee.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rentlatefee.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rentlatefee.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3780,7 +3780,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-Day Free Trial for AI Bookkeeping with human support.",
       "category": "Law & Finance",
       "link": "https://www.cashflowy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cashflowy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cashflowy.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3790,7 +3790,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows signing up for free for AI-powered invoices and day-to-day admin tasks.",
       "category": "Law & Finance",
       "link": "https://jinna.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jinna.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jinna.ai-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3800,7 +3800,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides an AI legal and tax assistant with free search and analysis features.",
       "category": "Law & Finance",
       "link": "https://deskclaw.net/&utm_medium=directory&utm_campaign=ai_listing",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/deskclaw.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deskclaw.net-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3810,7 +3810,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free 30 Day Trial for AI insights and real-time analysis.",
       "category": "Law & Finance",
       "link": "https://rupease.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rupease.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rupease.co-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     },
@@ -3820,7 +3820,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day free trial for AI-powered accounting automation.",
       "category": "Law & Finance",
       "link": "https://cranstonai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cranstonai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cranstonai.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3830,7 +3830,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free forever for up to 4 projects and 1 bank account with AI-Powered Insights.",
       "category": "Law & Finance",
       "link": "https://finjy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finjy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finjy.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3840,7 +3840,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 3 months free for effortless reimbursement and receipt organization.",
       "category": "Law & Finance",
       "link": "https://www.snaptobook.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/snaptobook.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snaptobook.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 8
     },
@@ -3850,7 +3850,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for estimated shipping dates and tax rates.",
       "category": "Law & Finance",
       "link": "https://www.covonyx.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/covonyx.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/covonyx.com-128x128__Estimated_.png",
       "icon": "Calculator",
       "score": 6
     }
@@ -3862,7 +3862,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free 30 Day Trial for AI insights and real-time analysis.",
       "category": "Law & Finance",
       "link": "https://rupease.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rupease.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rupease.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -3872,7 +3872,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for estimated shipping dates and tax rates.",
       "category": "Law & Finance",
       "link": "https://convertlogistics.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/convertlogistics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/convertlogistics.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -3882,7 +3882,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free & Unlimited NDA Checks with AI-powered risk visualization.",
       "category": "Law & Finance",
       "link": "https://ai-con.lawyer/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-con.lawyer-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-con.lawyer-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -3892,7 +3892,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 25 free runs for an AI legal assistant and contract redlining.",
       "category": "Law & Finance",
       "link": "https://www.gavel.io/exec",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/gavel.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gavel.io-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -3902,7 +3902,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Trial for RFP software and AI Writing Assistant.",
       "category": "Law & Finance",
       "link": "https://visiblethread.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/visiblethread.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/visiblethread.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -3912,7 +3912,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI Contract Review and Data Extraction via workflows.",
       "category": "Law & Finance",
       "link": "https://bryter.com/extract/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bryter.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bryter.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -3922,7 +3922,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 documents for free to extract data points and classify types.",
       "category": "Law & Finance",
       "link": "https://zuva.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zuva.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zuva.ai-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -3932,7 +3932,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free review to analyze and summarize contracts into one-page extracts.",
       "category": "Law & Finance",
       "link": "https://contractcrab.com/?utm_source=website&utm_medium=directory&utm_campaign=toolify.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/contractcrab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contractcrab.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -3942,7 +3942,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Highlights the top 3 risks for free with an instant AI Contract Review.",
       "category": "Law & Finance",
       "link": "https://legalcheckpro.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legalcheckpro.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalcheckpro.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -3952,7 +3952,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 2,000 Free Lines of Code for AI-Powered Smart Contract Audits.",
       "category": "Law & Finance",
       "link": "https://cybersanctus.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cybersanctus.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cybersanctus.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -3962,7 +3962,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 33 pages free for AI-Powered Document Analysis and Risk Analysis.",
       "category": "Law & Finance",
       "link": "https://erayaha.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/erayaha.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/erayaha.ai-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -3972,7 +3972,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 50 Pages Free for AI-driven document reviews.",
       "category": "Law & Finance",
       "link": "https://personas.work/dashboard/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/personas.work-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/personas.work-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -3982,7 +3982,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free contract scans per month for Instant AI Contract Analysis.",
       "category": "Law & Finance",
       "link": "https://foundersagree.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/foundersagree.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/foundersagree.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -3992,7 +3992,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 2 free teaming partners and 2 AI Q&A consultations.",
       "category": "Law & Finance",
       "link": "https://bidsense.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bidsense.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bidsense.ai-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4002,7 +4002,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Basic plan for AI-powered Contract Analysis.",
       "category": "Law & Finance",
       "link": "https://www.clarifyr.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clarifyr.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clarifyr.tech-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4012,7 +4012,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered contract review for missing clauses with lawyer-backed finalization.",
       "category": "Law & Finance",
       "link": "https://loya.legal/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/loya.legal-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loya.legal-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4022,7 +4022,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-Powered Contract Review to turn legal jargon into insights.",
       "category": "Law & Finance",
       "link": "https://docu.review/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/docu.review-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docu.review-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4032,7 +4032,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Summarizes legal documents and identifies red flags.",
       "category": "Law & Finance",
       "link": "https://docses.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/docses.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docses.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4042,7 +4042,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows trying for free to simplify complex contracts.",
       "category": "Law & Finance",
       "link": "https://mypocketlawyer.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mypocketlawyer.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mypocketlawyer.ai-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4052,7 +4052,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI-powered productivity tool for summarizing content and generating ideas.",
       "category": "Law & Finance",
       "link": "https://www.code-genie.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/code-genie.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/code-genie.ai-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4062,7 +4062,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10,000 words free for Contract Analysis and Drafting.",
       "category": "Law & Finance",
       "link": "https://www.legaliser.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legaliser.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legaliser.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4072,7 +4072,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Analyzes documents, extracts insights, and automates tasks.",
       "category": "Law & Finance",
       "link": "https://arguai.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/arguai.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/arguai.co-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4082,7 +4082,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides instant contract risk detection and redlining in Microsoft Word.",
       "category": "Law & Finance",
       "link": "https://legalgraph.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legalgraph.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalgraph.ai-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4092,7 +4092,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-driven contract management with E-signing and automation.",
       "category": "Law & Finance",
       "link": "https://www.contractify.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/contractify.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contractify.io-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4102,7 +4102,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-Day Free Trial for an AI proofreader for legal documents.",
       "category": "Law & Finance",
       "link": "https://www.draftcheck.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/draftcheck.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/draftcheck.io-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4112,7 +4112,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free contracts to instantly spot risks and understand legal jargon.",
       "category": "Law & Finance",
       "link": "https://speedlegal.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/speedlegal.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/speedlegal.io-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4122,7 +4122,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free conversions per month to simplify legal language.",
       "category": "Law & Finance",
       "link": "https://layman.law/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/layman.law-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/layman.law-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4132,7 +4132,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a no-code innovation lab to turn legal expertise into AI solutions.",
       "category": "Law & Finance",
       "link": "https://ailawyerlab.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ailawyerlab.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ailawyerlab.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4142,7 +4142,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free 30-day trial with unlimited basic contract reviews.",
       "category": "Law & Finance",
       "link": "https://www.cloudcontracts365.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cloudcontracts365.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cloudcontracts365.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4152,7 +4152,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered document analysis to highlight key details.",
       "category": "Law & Finance",
       "link": "https://apps.apple.com/app/id6738056515",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4162,7 +4162,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-Powered Security Audits and vulnerability detection.",
       "category": "Law & Finance",
       "link": "https://securedai.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/securedai.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/securedai.io-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4172,7 +4172,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free evaluations per month for AI-powered evaluation.",
       "category": "Law & Finance",
       "link": "https://wiseoptin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wiseoptin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wiseoptin.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4182,7 +4182,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Chinese legal AI assistant helping with research, case law analysis, and document drafting.",
       "category": "Law & Finance",
       "link": "https://lvji.tensorbounce.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lvji.tensorbounce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lvji.tensorbounce.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4192,7 +4192,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30 day free trial for Risk Assessment and Task Assignment.",
       "category": "Law & Finance",
       "link": "https://contractee.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/contractee.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contractee.net-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4202,7 +4202,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides Document Analysis and Summarization.",
       "category": "Law & Finance",
       "link": "https://legalysis.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legalysis.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalysis.co-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4212,7 +4212,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30-day PRO trial for multi-source AI sync and generation.",
       "category": "Law & Finance",
       "link": "https://www.surfsense.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/surfsense.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/surfsense.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4222,7 +4222,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Allows starting for free to incorporate globally and manage fundraising.",
       "category": "Law & Finance",
       "link": "https://skala.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/skala.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skala.io-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4232,7 +4232,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 Automations, 3 Apps, and 3 AI Agents free.",
       "category": "Law & Finance",
       "link": "https://www.diaflow.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/diaflow.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/diaflow.io-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4242,7 +4242,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides unlimited late fee calculations and multi-property management tools.",
       "category": "Law & Finance",
       "link": "https://www.rentlatefee.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rentlatefee.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rentlatefee.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4252,7 +4252,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to summarize, analyze, and dive into content.",
       "category": "Law & Finance",
       "link": "https://mapdeduce.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mapdeduce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mapdeduce.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4262,7 +4262,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5,000 Words/Month free for AI Drafting Suggestions.",
       "category": "Law & Finance",
       "link": "https://amtoai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/amtoai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/amtoai.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4272,7 +4272,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free document for property document analysis and risk uncovering.",
       "category": "Law & Finance",
       "link": "https://s32.com.au/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/s32.com.au-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/s32.com.au-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4282,7 +4282,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to simplify legal jargon and translate legal docs to plain English.",
       "category": "Law & Finance",
       "link": "https://legalesedecoder.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legalesedecoder.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalesedecoder.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4292,7 +4292,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Waives the first month for AI-assisted legal support with attorney-reviewed documents.",
       "category": "Law & Finance",
       "link": "https://paralex.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/paralex.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/paralex.ai-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4302,7 +4302,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for advanced case law search and document review.",
       "category": "Law & Finance",
       "link": "https://www.lexence.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lexence.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexence.tech-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4312,7 +4312,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for AI-powered contract deconstruction.",
       "category": "Law & Finance",
       "link": "https://lawformer.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lawformer.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lawformer.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4322,7 +4322,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial to draft and review contracts 10x faster.",
       "category": "Law & Finance",
       "link": "https://www.spellbook.legal/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/spellbook.legal-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spellbook.legal-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4332,7 +4332,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day trial for $1 for AI-powered contract drafting and review.",
       "category": "Law & Finance",
       "link": "https://www.lawinsider.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lawinsider.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lawinsider.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4342,7 +4342,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes $5 of included monthly credits to draft and review contracts with AI.",
       "category": "Law & Finance",
       "link": "https://git.law/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/git.law-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/git.law-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     },
@@ -4352,7 +4352,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial with limited insights for AI-powered contract reviews.",
       "category": "Law & Finance",
       "link": "https://www.goheather.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/goheather.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goheather.io-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4362,7 +4362,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free downloads per month for AI-powered legal document generation.",
       "category": "Law & Finance",
       "link": "https://go-legal.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/go-legal.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/go-legal.ai-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 6
     },
@@ -4372,7 +4372,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free AI team chat prompts for automated document analysis.",
       "category": "Law & Finance",
       "link": "https://www.giveflag.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/giveflag.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/giveflag.com-128x128__Estimated_.png",
       "icon": "Gavel",
       "score": 8
     }
@@ -4384,7 +4384,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free AI team chat prompts for automated document analysis.",
       "category": "Law & Finance",
       "link": "https://giveflag.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/giveflag.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/giveflag.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4394,7 +4394,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides free tools for AI trading indicators and backtesting.",
       "category": "Law & Finance",
       "link": "https://www.luxalgo.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/luxalgo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/luxalgo.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4404,7 +4404,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides an AI Stock Picker to find the best stocks and optimize portfolios.",
       "category": "Law & Finance",
       "link": "https://danelfin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/danelfin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/danelfin.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4414,7 +4414,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for real-time options order flow and dark pool orders.",
       "category": "Law & Finance",
       "link": "https://cheddarflow.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cheddarflow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cheddarflow.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4424,7 +4424,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3,000 free executions per month for a trading journal.",
       "category": "Law & Finance",
       "link": "https://www.tradesviz.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradesviz.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradesviz.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4434,7 +4434,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free basic access to premium options flow data and AI strategies.",
       "category": "Law & Finance",
       "link": "https://tradytics.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradytics.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradytics.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4444,7 +4444,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides free AI stock analysis, real-time insights, and stock prediction.",
       "category": "Law & Finance",
       "link": "https://inciteai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/inciteai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inciteai.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4454,7 +4454,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free AI-powered analysis and high-potential stock picks.",
       "category": "Law & Finance",
       "link": "https://www.prospero.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prospero.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prospero.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4464,7 +4464,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers Free BETA access for real-time alerts and AI-driven signals.",
       "category": "Law & Finance",
       "link": "https://ai-signals.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-signals.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-signals.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4474,7 +4474,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-Powered Stock Signals and a custom AI watchlist.",
       "category": "Law & Finance",
       "link": "https://www.marketalerts.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/marketalerts.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/marketalerts.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4484,7 +4484,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free Watchlist, 3 Price Alerts, and 10 Bulk Downloads.",
       "category": "Law & Finance",
       "link": "https://stocknear.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stocknear.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stocknear.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4494,7 +4494,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 10 free AI requests monthly for stock analysis.",
       "category": "Law & Finance",
       "link": "https://capitalcompanion.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/capitalcompanion.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/capitalcompanion.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4504,7 +4504,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Starts free with intelligent algorithms and 24/7 market monitoring.",
       "category": "Law & Finance",
       "link": "https://bonsai.trade/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bonsai.trade-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bonsai.trade-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4514,7 +4514,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides Automated Stock Scanning with seamless Backtesting.",
       "category": "Law & Finance",
       "link": "https://prosperse.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prosperse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prosperse.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4524,7 +4524,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for an AI Options Picker with proven algorithms.",
       "category": "Law & Finance",
       "link": "https://optionsfy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/optionsfy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/optionsfy.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4534,7 +4534,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free access to limited historical data for gap and run analysis.",
       "category": "Law & Finance",
       "link": "https://www.runstocks.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/runstocks.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/runstocks.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4544,7 +4544,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free random Congress member delayed alert per month.",
       "category": "Law & Finance",
       "link": "https://politichook.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/politichook.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/politichook.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4554,7 +4554,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30 DAYS FREE TRIAL for an AI Stock/Crypto Market Analyst Report.",
       "category": "Law & Finance",
       "link": "https://aifelixhub.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aifelixhub.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aifelixhub.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4564,7 +4564,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for stock analysis from Telegram social data.",
       "category": "Law & Finance",
       "link": "https://chromewebstore.google.com/detail/%D8%A7%D9%81%D8%B2%D9%83%D9%86%D9%87-%D8%A8%D9%88%D8%B1%D8%B3-%D8%B3%D9%87%D9%87%D9%85%D8%AA%D9%88-sahmeto/mnnkkdhkjbcnjljenmicbmlojmnpmaaf",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4574,7 +4574,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free alerts for an AI-powered stock sentiment dashboard.",
       "category": "Law & Finance",
       "link": "https://www.uptrends.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/uptrends.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uptrends.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4584,7 +4584,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7 Day Free Trial for AI Stock Analysis and a Daily Newsletter.",
       "category": "Law & Finance",
       "link": "https://stockquakes.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockquakes.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockquakes.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4594,7 +4594,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered stock predictions, trade action signals, and news insights.",
       "category": "Law & Finance",
       "link": "https://folikoinsights.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/folikoinsights.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/folikoinsights.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4604,7 +4604,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for AI powered stock summaries and AI stock alerts.",
       "category": "Law & Finance",
       "link": "https://withfluid.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/withfluid.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/withfluid.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4614,7 +4614,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free credits for AI-Powered Real-Time Stock Market Insights.",
       "category": "Law & Finance",
       "link": "https://www.risklabsai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/risklabsai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/risklabsai.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4624,7 +4624,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Visual Strategy Editor and Backtesting tool.",
       "category": "Law & Finance",
       "link": "https://algovue.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/algovue.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/algovue.app-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4634,7 +4634,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free Explore plan and a 7-day trial for an Automated Investment System.",
       "category": "Law & Finance",
       "link": "https://tiblio.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tiblio.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tiblio.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4644,7 +4644,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 1 free analysis per day for AI-powered technical chart analysis.",
       "category": "Law & Finance",
       "link": "https://tradingwizard.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradingwizard.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradingwizard.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4654,7 +4654,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a 2-week trial for AI data-driven tools, options flow, and real-time alerts.",
       "category": "Law & Finance",
       "link": "https://tradeui.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradeui.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradeui.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4664,7 +4664,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers Trial Access and a Free Discord Community for AI Scanning.",
       "category": "Law & Finance",
       "link": "https://rocketscooter.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rocketscooter.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rocketscooter.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4674,7 +4674,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides an Agentic AI for Stock Research with Conversational Search.",
       "category": "Law & Finance",
       "link": "https://www.ipick.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ipick.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ipick.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4684,7 +4684,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers free stock market analysis, investment suggestions, and trend prediction.",
       "category": "Law & Finance",
       "link": "https://stockai.vn/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockai.vn-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockai.vn-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4694,7 +4694,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for Professional Stock Analysis.",
       "category": "Law & Finance",
       "link": "https://www.tradinglens.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradinglens.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradinglens.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4704,7 +4704,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 3 free AI uses per week for stock screening.",
       "category": "Law & Finance",
       "link": "https://otterquant.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/otterquant.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/otterquant.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4714,7 +4714,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes 3 free Copilot prompts per month for AI-powered stock analysis.",
       "category": "Law & Finance",
       "link": "https://beststock.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/beststock.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beststock.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4724,7 +4724,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 3 monthly free TradeGPT trials for stock and crypto tracking.",
       "category": "Law & Finance",
       "link": "https://stockbits.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockbits.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockbits.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4734,7 +4734,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free for AI-powered financial forecasting with visualizations.",
       "category": "Law & Finance",
       "link": "https://aitradingpredictor.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aitradingpredictor.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitradingpredictor.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4744,7 +4744,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides Stock Portfolio Management and Graphical Analysis.",
       "category": "Law & Finance",
       "link": "https://stockkhata.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/stockkhata.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stockkhata.in-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4754,7 +4754,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Live Demo for an AI market scanner.",
       "category": "Law & Finance",
       "link": "https://tradyse.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradyse.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradyse.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4764,7 +4764,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 7 days free to build, backtest, and deploy AI trading bots.",
       "category": "Law & Finance",
       "link": "https://tradergpt.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradergpt.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradergpt.co-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4774,7 +4774,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Trial for an AI Broker Copilot.",
       "category": "Law & Finance",
       "link": "https://jfgenius.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jfgenius.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jfgenius.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4784,7 +4784,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to get AI-augmented insights on your stock portfolio.",
       "category": "Law & Finance",
       "link": "https://www.finterpret.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finterpret.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finterpret.co-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4794,7 +4794,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 60K Tokens and 75-100 free calls per month for AI-powered trading.",
       "category": "Law & Finance",
       "link": "https://chartchatai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chartchatai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chartchatai.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4804,7 +4804,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Analyzes stocks and summarizes news to provide trading ideas.",
       "category": "Law & Finance",
       "link": "https://chromewebstore.google.com/detail/aime-the-chatgpt-in-finan/okahapggajdikpemgnlbmblihmphhnpo",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4814,7 +4814,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free stock grades per day for comprehensive ratings.",
       "category": "Law & Finance",
       "link": "https://alchemyze.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/alchemyze.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alchemyze.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4824,7 +4824,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI analysis of financial news.",
       "category": "Law & Finance",
       "link": "https://tradepost.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradepost.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradepost.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4834,7 +4834,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Helps generate knowledge on-the-spot to create portfolios 20X faster.",
       "category": "Law & Finance",
       "link": "https://earnai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/earnai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/earnai.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4844,7 +4844,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides GPT-4 financial analysis and portfolio building.",
       "category": "Law & Finance",
       "link": "https://www.lemonstocks.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lemonstocks.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lemonstocks.tech-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4854,7 +4854,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7 Days FREE Trial for automated market scanning.",
       "category": "Law & Finance",
       "link": "https://automarketscanner.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/automarketscanner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automarketscanner.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     },
@@ -4864,7 +4864,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides automated trading portfolios with AI-powered guidance.",
       "category": "Law & Finance",
       "link": "https://lendalcopy.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lendalcopy.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lendalcopy.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4874,7 +4874,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI Stock Screener and AI-Powered Stock Analysis.",
       "category": "Law & Finance",
       "link": "https://www.ainvest.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ainvest.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ainvest.com-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 8
     },
@@ -4884,7 +4884,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day trial for $1 for AI-driven guidance and an AI stock picker.",
       "category": "Law & Finance",
       "link": "https://intellectia.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/intellectia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/intellectia.ai-128x128__Estimated_.png",
       "icon": "TrendingUp",
       "score": 6
     }
@@ -4896,7 +4896,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial to draft and review contracts 10x faster.",
     "category": "Law & Finance",
     "link": "https://www.spellbook.legal/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/spellbook.legal-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spellbook.legal-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -4906,7 +4906,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day trial for $1 for AI-powered contract drafting and review.",
     "category": "Law & Finance",
     "link": "https://www.lawinsider.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lawinsider.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lawinsider.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -4916,7 +4916,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Includes $5 of included monthly credits to draft and review contracts with AI.",
     "category": "Law & Finance",
     "link": "https://git.law/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/git.law-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/git.law-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -4926,7 +4926,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial with limited insights for AI-powered contract reviews.",
     "category": "Law & Finance",
     "link": "https://www.goheather.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/goheather.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goheather.io-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -4936,7 +4936,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Harness the power of AI to generate, manage, and sign legal contracts effortlessly for free.",
     "category": "Law & Finance",
     "link": "https://agreee.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/agreee.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/agreee.ai-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -4946,7 +4946,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Allows starting for free to incorporate globally and manage fundraising.",
     "category": "Law & Finance",
     "link": "https://skala.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/skala.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skala.io-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -4956,7 +4956,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for AI-powered contract deconstruction.",
     "category": "Law & Finance",
     "link": "https://lawformer.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lawformer.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lawformer.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -4966,7 +4966,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Advanced AI legal assistant designed to help you generate and refine legal documents at no cost.",
     "category": "Law & Finance",
     "link": "https://lexiai.in/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lexiai.in-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexiai.in-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -4976,7 +4976,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Intelligent contract drafting tool that speeds up document creation through free AI templates.",
     "category": "Law & Finance",
     "link": "https://smartpress.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/smartpress.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartpress.ai-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -4986,7 +4986,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "No-code AI platform that enables free smart contract generation for various blockchain networks.",
     "category": "Law & Finance",
     "link": "https://cryptodo.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/cryptodo.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cryptodo.app-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -4996,7 +4996,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Comprehensive AI document suite that includes free tools for contract drafting and legal analysis.",
     "category": "Law & Finance",
     "link": "https://www.docuya.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/docuya.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docuya.ai-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5006,7 +5006,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Simplified AI-driven platform for generating custom legal documents and agreements for free.",
     "category": "Law & Finance",
     "link": "https://docudraft.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/docudraft.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docudraft.app-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5016,7 +5016,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Utilize AI to create legal documents and manage compliance tasks with free starter options.",
     "category": "Law & Finance",
     "link": "https://lipana.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lipana.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lipana.app-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5026,7 +5026,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a free 30-day trial with unlimited basic contract reviews.",
     "category": "Law & Finance",
     "link": "https://www.cloudcontracts365.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/cloudcontracts365.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cloudcontracts365.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5036,7 +5036,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Provides a no-code innovation lab to turn legal expertise into AI solutions.",
     "category": "Law & Finance",
     "link": "https://ailawyerlab.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ailawyerlab.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ailawyerlab.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5046,7 +5046,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "AI-powered legal platform providing free document generation and automated legal assistance.",
     "category": "Law & Finance",
     "link": "https://docwelo.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/docwelo.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docwelo.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5056,7 +5056,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for AI-powered text messages and an automated voice agent.",
     "category": "Law & Finance",
     "link": "https://realassist.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/realassist.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/realassist.ai-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5066,7 +5066,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Chinese legal AI assistant helping with research, case law analysis, and document drafting.",
     "category": "Law & Finance",
     "link": "https://lvji.tensorbounce.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lvji.tensorbounce.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lvji.tensorbounce.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5076,7 +5076,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a 30 day free trial for Risk Assessment and Task Assignment.",
     "category": "Law & Finance",
     "link": "https://contractee.net/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/contractee.net-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contractee.net-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5086,7 +5086,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a 30-Day Free Trial for an AI proofreader for legal documents.",
     "category": "Law & Finance",
     "link": "https://www.draftcheck.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/draftcheck.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/draftcheck.io-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5096,7 +5096,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Versatile AI tool that simplifies the creation of legal forms and contracts for free.",
     "category": "Law & Finance",
     "link": "https://www.aidocumentmaker.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/aidocumentmaker.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aidocumentmaker.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5106,7 +5106,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Grants 10,000 words free for Contract Analysis and Drafting.",
     "category": "Law & Finance",
     "link": "https://www.legaliser.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/legaliser.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legaliser.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5116,7 +5116,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Grants 5,000 Words/Month free for AI Drafting Suggestions.",
     "category": "Law & Finance",
     "link": "https://amtoai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/amtoai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/amtoai.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5126,7 +5126,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Provides cutting-edge technology solutions with a professional-grade GenAI assistant.",
     "category": "Law & Finance",
     "link": "https://www.thomsonreuters.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/thomsonreuters.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thomsonreuters.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5136,7 +5136,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Grants 25 free runs for an AI legal assistant and contract redlining.",
     "category": "Law & Finance",
     "link": "https://www.gavel.io/exec",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gavel.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gavel.io-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5146,7 +5146,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Modern AI legal documentation platform offering free tools for agreement generation.",
     "category": "Law & Finance",
     "link": "https://www.nextdocs.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/nextdocs.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nextdocs.io-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5156,7 +5156,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Grants 3 free downloads per month for AI-powered legal document generation.",
     "category": "Law & Finance",
     "link": "https://go-legal.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/go-legal.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/go-legal.ai-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5166,7 +5166,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Is free to use with secure e-signature and integrated invoicing.",
     "category": "Law & Finance",
     "link": "https://agree.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/agree.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/agree.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5176,7 +5176,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers free personalized legal document creation and AI-driven research.",
     "category": "Law & Finance",
     "link": "https://eadvocate4you.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/eadvocate4you.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eadvocate4you.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5186,7 +5186,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Accessible AI-powered legal tool for generating compliant contracts and agreements for free.",
     "category": "Law & Finance",
     "link": "https://ramen.legal/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ramen.legal-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ramen.legal-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5196,7 +5196,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Analyzes documents, extracts insights, and automates tasks.",
     "category": "Law & Finance",
     "link": "https://arguai.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/arguai.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/arguai.co-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5206,7 +5206,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Allows trying for free for AI Mediation and AI-powered Demand Letters.",
     "category": "Law & Finance",
     "link": "https://dyspute.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dyspute.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dyspute.ai-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5216,7 +5216,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "AI-driven legal drafting assistant providing free solutions for document preparation.",
     "category": "Law & Finance",
     "link": "https://spellmint.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/spellmint.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spellmint.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5226,7 +5226,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Waives the first month for AI-assisted legal support with attorney-reviewed documents.",
     "category": "Law & Finance",
     "link": "https://paralex.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/paralex.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/paralex.ai-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5236,7 +5236,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers over 10,000 free legal templates and AI-native document drafting.",
     "category": "Law & Finance",
     "link": "https://www.yanna.pro/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/yanna.pro-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yanna.pro-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5246,7 +5246,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for an AI-first workspace for legal teams to automate signing and notarization.",
     "category": "Law & Finance",
     "link": "https://platus.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/platus.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/platus.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5256,7 +5256,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Streamlined AI tool focused on providing free legal contract generation and analysis.",
     "category": "Law & Finance",
     "link": "https://pollox.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/pollox.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pollox.ai-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5266,7 +5266,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "User-friendly AI legal aid providing free document drafting and legal query support.",
     "category": "Law & Finance",
     "link": "https://legalassistai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/legalassistai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legalassistai.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5276,7 +5276,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Specialized AI generator for creating privacy policies and legal agreements for free.",
     "category": "Law & Finance",
     "link": "https://policiesbyai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/policiesbyai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/policiesbyai.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5286,7 +5286,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Fast AI-based form and contract generator available with free drafting tools.",
     "category": "Law & Finance",
     "link": "https://apaceforms.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/apaceforms.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apaceforms.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5296,7 +5296,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for advanced case law search and document review.",
     "category": "Law & Finance",
     "link": "https://www.lexence.tech/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lexence.tech-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexence.tech-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 6
   },
@@ -5306,7 +5306,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "AI legal assistant that helps small businesses generate essential legal documents for free.",
     "category": "Law & Finance",
     "link": "https://criya.site/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/criya.site-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/criya.site-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   },
@@ -5316,7 +5316,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
     "description": "Collaborative AI platform for creating and negotiating legal agreements with free options.",
     "category": "Law & Finance",
     "link": "https://www.tangoagreements.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/tangoagreements.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tangoagreements.com-128x128__Estimated_.png",
     "icon": "FileText",
     "score": 8
   }
@@ -5328,7 +5328,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers 7 days free to build, backtest, and deploy AI trading bots.",
       "category": "Law & Finance",
       "link": "https://tradergpt.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradergpt.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradergpt.io-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5338,7 +5338,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a Free Trial for an AI Broker Copilot.",
       "category": "Law & Finance",
       "link": "https://jiffgenius.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/jiffgenius.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jiffgenius.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5348,7 +5348,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to get AI-augmented insights on your stock portfolio.",
       "category": "Law & Finance",
       "link": "https://finterpret.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/finterpret.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finterpret.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5358,7 +5358,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 60K Tokens and 75-100 free calls per month for AI-Powered Trading.",
       "category": "Law & Finance",
       "link": "https://chartchatai.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/chartchatai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chartchatai.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5368,7 +5368,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Analyzes stocks and summarizes news to provide trading ideas.",
       "category": "Law & Finance",
       "link": "https://aime.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aime.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aime.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5378,7 +5378,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 5 free stock grades per day for comprehensive ratings.",
       "category": "Law & Finance",
       "link": "https://alchemyze.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/alchemyze.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alchemyze.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5388,7 +5388,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AI analysis of financial news.",
       "category": "Law & Finance",
       "link": "https://tradepost.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tradepost.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tradepost.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5398,7 +5398,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Helps generate knowledge on-the-spot to create portfolios 20X faster.",
       "category": "Law & Finance",
       "link": "https://earngpt.io",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/earngpt.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/earngpt.io-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5408,7 +5408,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides GPT-4 financial analysis and portfolio building.",
       "category": "Law & Finance",
       "link": "https://lemonstocks.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lemonstocks.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lemonstocks.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5418,7 +5418,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7 Days FREE Trial for automated market scanning.",
       "category": "Law & Finance",
       "link": "https://automarketscanner.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/automarketscanner.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automarketscanner.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5428,7 +5428,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides Automated Trading Portfolios with AI guidance.",
       "category": "Law & Finance",
       "link": "https://lendalpro.com",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lendalpro.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lendalpro.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5438,7 +5438,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI Stock Screener and AI-Powered Stock Analysis.",
       "category": "Law & Finance",
       "link": "https://ainvest.app",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ainvest.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ainvest.app-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5448,7 +5448,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day trial for $1 for AI-driven guidance and an AI Stock Picker.",
       "category": "Law & Finance",
       "link": "https://intellectia.ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/intellectia.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/intellectia.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5458,7 +5458,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Includes unlimited signature requests for legally binding eSignatures.",
       "category": "Law & Finance",
       "link": "https://www.hellosign.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hellosign.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hellosign.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5468,7 +5468,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for legal case management with AI-powered solutions.",
       "category": "Law & Finance",
       "link": "https://www.filevine.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/filevine.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/filevine.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5478,7 +5478,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Is free to use with secure e-signature and integrated invoicing.",
       "category": "Law & Finance",
       "link": "https://agree.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/agree.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/agree.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5488,7 +5488,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-days risk free trial for AI-enabled HR apps.",
       "category": "Law & Finance",
       "link": "https://www.apps365.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps365.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps365.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5498,7 +5498,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for Effortless and Secure Contract Management.",
       "category": "Law & Finance",
       "link": "https://zefort.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zefort.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zefort.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5508,7 +5508,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a free trial for AI contract analysis and professional legal grading.",
       "category": "Law & Finance",
       "link": "https://legaliser.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/legaliser.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/legaliser.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5518,7 +5518,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-driven contract management with E-signing and automation.",
       "category": "Law & Finance",
       "link": "https://www.contractify.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/contractify.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contractify.io-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5528,7 +5528,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI-powered legal platform that automates the redlining and screening process of business contracts.",
       "category": "Law & Finance",
       "link": "https://www.screens.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/screens.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/screens.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5538,7 +5538,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free 30-day trial with unlimited basic contract reviews.",
       "category": "Law & Finance",
       "link": "https://www.cloudcontracts365.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cloudcontracts365.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cloudcontracts365.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5548,7 +5548,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 14-day free trial for AP Automation and Automated Procurement.",
       "category": "Law & Finance",
       "link": "https://zapro.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zapro.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zapro.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5558,7 +5558,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 30 day free trial for Risk Assessment and Task Assignment.",
       "category": "Law & Finance",
       "link": "https://contractee.net/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/contractee.net-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contractee.net-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5568,7 +5568,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI-powered knowledge platform that helps lawyers draft contracts using their firm's data.",
       "category": "Law & Finance",
       "link": "https://www.draftwise.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/draftwise.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/draftwise.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5578,7 +5578,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI Copilot for MS Word designed to help legal professionals review and draft agreements.",
       "category": "Law & Finance",
       "link": "https://www.contractken.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/contractken.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contractken.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5588,7 +5588,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a demo and trial for its end-to-end contract lifecycle management software.",
       "category": "Law & Finance",
       "link": "https://www.spotdraft.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/spotdraft.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spotdraft.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5598,7 +5598,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free version to compare and understand thousands of standard contract terms.",
       "category": "Law & Finance",
       "link": "https://www.termscout.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/termscout.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/termscout.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5608,7 +5608,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a free trial for version control and collaboration on Microsoft Word documents.",
       "category": "Law & Finance",
       "link": "https://www.simuldocs.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/simuldocs.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simuldocs.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5618,7 +5618,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a 7-day free trial for AI-powered document refining and professional editing.",
       "category": "Law & Finance",
       "link": "https://draftsmith.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/draftsmith.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/draftsmith.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5628,7 +5628,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a demo and trial for integrated contract management within Teams and Slack.",
       "category": "Law & Finance",
       "link": "https://summize.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/summize.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summize.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5638,7 +5638,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI-driven legal assistant that speeds up contract drafting and simplifies legal language.",
       "category": "Law & Finance",
       "link": "https://www.robinai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/robinai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/robinai.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5648,7 +5648,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial for its AI clause library that integrates directly with MS Word.",
       "category": "Law & Finance",
       "link": "https://www.henchman.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/henchman.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/henchman.io-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5658,7 +5658,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides a demo and trial for AI-powered operations and automated legal workflows.",
       "category": "Law & Finance",
       "link": "https://www.lexion.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lexion.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexion.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5668,7 +5668,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Blockchain-based compliance engine for managing security tokens and digital contracts.",
       "category": "Law & Finance",
       "link": "https://tokeny.techxh.cn/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tokeny.techxh.cn-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tokeny.techxh.cn-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5678,7 +5678,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Offers a free trial with limited insights for AI-powered contract reviews.",
       "category": "Law & Finance",
       "link": "https://www.goheather.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/goheather.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goheather.io-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5688,7 +5688,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 2 free teaming partners and 2 AI Q&A consultations.",
       "category": "Law & Finance",
       "link": "https://bidsense.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bidsense.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bidsense.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5698,7 +5698,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI real estate assistant that automates lease management and property-related contracts.",
       "category": "Law & Finance",
       "link": "https://www.bryckel.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/bryckel.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bryckel.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5708,7 +5708,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides B2B Billing & Revenue Management with automated invoicing.",
       "category": "Law & Finance",
       "link": "https://received.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/received.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/received.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5718,7 +5718,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 3 free contract scans per month for Instant AI Contract Analysis.",
       "category": "Law & Finance",
       "link": "https://foundersagree.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/foundersagree.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/foundersagree.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5728,7 +5728,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Grants 20 free documents per year for AI-powered Invoice Creation.",
       "category": "Law & Finance",
       "link": "https://invoicemint.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/invoicemint.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/invoicemint.in-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5738,7 +5738,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Chinese legal AI assistant helping with research, case law analysis, and document drafting.",
       "category": "Law & Finance",
       "link": "https://lvji.tensorbounce.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lvji.tensorbounce.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lvji.tensorbounce.com-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5748,7 +5748,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Provides AI-powered contract review for missing clauses with lawyer-backed finalization.",
       "category": "Law & Finance",
       "link": "https://loya.legal/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/loya.legal-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loya.legal-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 6
     },
@@ -5758,7 +5758,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "Modern AI platform for tracking and managing the full lifecycle of business agreements.",
       "category": "Law & Finance",
       "link": "https://zetpe.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/zetpe.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zetpe.co-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5768,7 +5768,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI tool that helps teams organize and audit their software and service subscriptions.",
       "category": "Law & Finance",
       "link": "https://forescribe.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/forescribe.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/forescribe.ai-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     },
@@ -5778,7 +5778,7 @@ export const law_finance_tools: Record<string, Tool[]> = {
       "description": "AI-driven contract repository that automates data extraction and deadline tracking.",
       "category": "Law & Finance",
       "link": "https://prodify.it/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/prodify.it-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prodify.it-128x128__Estimated_.png",
       "icon": "FileText",
       "score": 8
     }

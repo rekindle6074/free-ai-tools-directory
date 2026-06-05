@@ -8,7 +8,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Comprehensive free CRM platform with marketing, sales, and service tools.",
     "category": "Free AI CRM",
     "link": "https://hubspot.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hubspot.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hubspot.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -18,7 +18,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-native CRM with an adaptive data model (14-day trial).",
     "category": "Free AI CRM",
     "link": "https://attio.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/attio.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/attio.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -28,7 +28,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Unifies data and AI with low-code automation (30-day trial).",
     "category": "Free AI CRM",
     "link": "https://force.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/force.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/force.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -38,7 +38,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Omnichannel team inbox and AI chatbot (Free plan for 2 seats).",
     "category": "Free AI CRM",
     "link": "https://crisp.chat",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/crisp.chat-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crisp.chat-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -48,7 +48,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Recruitment ATS and CRM with workflow automation (Unlimited trial).",
     "category": "Free AI CRM",
     "link": "https://recruitcrm.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/recruitcrm.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recruitcrm.io-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -58,7 +58,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automatically organizes, syncs, and updates network contacts.",
     "category": "Free AI CRM",
     "link": "https://clay.earth",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/clay.earth-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clay.earth-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -68,7 +68,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI recruitment software and applicant tracking system (14-day trial).",
     "category": "Free AI CRM",
     "link": "https://www.manatal.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/manatal.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/manatal.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -78,7 +78,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "User-friendly sales CRM with automation and calendar sync (14-day trial).",
     "category": "Free AI CRM",
     "link": "https://www.nutshell.com/crm",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/nutshell.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nutshell.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -88,7 +88,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered CRM and sales automation (15-day trial).",
     "category": "Free AI CRM",
     "link": "https://salesmate.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/salesmate.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/salesmate.io-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -98,7 +98,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI WhatsApp chatbots and CRM automation for social profiles.",
     "category": "Free AI CRM",
     "link": "https://notbot.in",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/notbot.in-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/notbot.in-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -108,7 +108,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI CRM with collaborative pipelines and sales assistant (14-day trial).",
     "category": "Free AI CRM",
     "link": "https://www.folk.app",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/folk.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/folk.app-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -118,7 +118,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "WhatsApp customer management with multi-account operation (3-day trial).",
     "category": "Free AI CRM",
     "link": "https://wadesk.io/whatsapp-crm",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/wadesk.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wadesk.io-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -128,7 +128,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Meeting notes, summaries, and CRM updates via AI (7-day trial).",
     "category": "Free AI CRM",
     "link": "https://www.gojiberry.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gojiberry.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gojiberry.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -138,7 +138,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI translation (3000 chars/month), auto-replies, and scheduling.",
     "category": "Free AI CRM",
     "link": "https://waplus.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/waplus.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/waplus.io-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -148,7 +148,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automates pipeline creation and repetitive tasks (2500 free credits).",
     "category": "Free AI CRM",
     "link": "https://clarify.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/clarify.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clarify.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -158,7 +158,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Recruitment software with hiring automation and tracking.",
     "category": "Free AI CRM",
     "link": "https://www.ismartrecruit.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ismartrecruit.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ismartrecruit.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -168,7 +168,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI CRM and multichannel marketing automation (Free plan up to 3 users).",
     "category": "Free AI CRM",
     "link": "https://zixflow.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/zixflow.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zixflow.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -178,7 +178,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Meeting assistant, CRM, and knowledge base (30-day trial).",
     "category": "Free AI CRM",
     "link": "https://day.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/day.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/day.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -188,7 +188,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automates dialers and audits calls via AI (14-day trial).",
     "category": "Free AI CRM",
     "link": "https://salesrender.com/en",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/salesrender.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/salesrender.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -198,7 +198,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Organizes data and builds apps via tables (20 AI credits/month).",
     "category": "Free AI CRM",
     "link": "https://aitable.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/aitable.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitable.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -208,7 +208,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automates prospecting on X (Twitter) with response tracking.",
     "category": "Free AI CRM",
     "link": "https://xreacher.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/xreacher.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xreacher.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -218,7 +218,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Unified communication platform to simplify professional interactions.",
     "category": "Free AI CRM",
     "link": "https://lazycom.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lazycom.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lazycom.io-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -228,7 +228,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Customizable digital workspace with AI integration.",
     "category": "Free AI CRM",
     "link": "https://hylark.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hylark.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hylark.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -238,7 +238,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Manage CRM via voice and chat, integrated with HubSpot and Salesforce.",
     "category": "Free AI CRM",
     "link": "https://crmchat.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/crmchat.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crmchat.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -248,7 +248,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Free starter plan with WhatsApp AI translation and CRM features.",
     "category": "Free AI CRM",
     "link": "https://wadeck.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/wadeck.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wadeck.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -258,7 +258,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI website builder with automated marketing and CRM tools included.",
     "category": "Free AI CRM",
     "link": "https://durable.co",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/durable.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/durable.co-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -268,7 +268,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI recruitment ATS and CRM (Unlimited free trial).",
     "category": "Free AI CRM",
     "link": "https://atzcrm.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/atzcrm.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/atzcrm.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -278,7 +278,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "iMessage API with typing indicators and automatic fallback.",
     "category": "Free AI CRM",
     "link": "https://blooio.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/blooio.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blooio.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -288,7 +288,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered no-code data management (100 MB cloud storage free).",
     "category": "Free AI CRM",
     "link": "https://mementodatabase.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/mementodatabase.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mementodatabase.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -298,7 +298,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Lead extraction tool and automatic CRM enrichment.",
     "category": "Free AI CRM",
     "link": "https://ditlead.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ditlead.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ditlead.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -308,7 +308,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Meeting summaries and relationship intelligence (20-credit trial).",
     "category": "Free AI CRM",
     "link": "https://www.bloks.app",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/bloks.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bloks.app-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -318,7 +318,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "All-in-one RevOps CRM (One year free access for startups).",
     "category": "Free AI CRM",
     "link": "https://www.corefactors.in",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/corefactors.in-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/corefactors.in-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -328,7 +328,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automatically updates CRM using natural language.",
     "category": "Free AI CRM",
     "link": "https://www.drymerge.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/drymerge.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/drymerge.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -338,7 +338,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Productize services via a personalized web app.",
     "category": "Free AI CRM",
     "link": "https://retainr.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/retainr.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/retainr.io-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -348,7 +348,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Buyer segmentation and insights via AI (14-day trial).",
     "category": "Free AI CRM",
     "link": "https://tresl.co",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/tresl.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tresl.co-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -358,7 +358,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Suite of specialized professional tools with free access.",
     "category": "Free AI CRM",
     "link": "https://apptrop.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/apptrop.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apptrop.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -368,7 +368,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automates tedious tasks and simplifies workflows (30-day proof of value).",
     "category": "Free AI CRM",
     "link": "https://gptfy.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gptfy.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gptfy.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   },
@@ -378,7 +378,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "CRM and fundraising automation for founders.",
     "category": "Free AI CRM",
     "link": "https://www.trustfinta.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/trustfinta.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/trustfinta.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -388,7 +388,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Intelligent real estate CRM centered on customer lead management.",
     "category": "Free AI CRM",
     "link": "https://www.propflo.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/propflo.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/propflo.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -398,7 +398,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI HubSpot workflow actions and B2B data enrichment.",
     "category": "Free AI CRM",
     "link": "https://www.resonatehq.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/resonatehq.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/resonatehq.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -408,7 +408,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Omnichannel customer service and CRM interaction management.",
     "category": "Free AI CRM",
     "link": "https://whelp.co",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/whelp.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whelp.co-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -418,7 +418,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Sales CRM with prospect search and AI email writing.",
     "category": "Free AI CRM",
     "link": "https://acvire.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/acvire.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/acvire.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -428,7 +428,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Converts prospects via AI communication (10 credits/month).",
     "category": "Free AI CRM",
     "link": "https://cuelab.app",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/cuelab.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cuelab.app-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -438,7 +438,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "WhatsApp CRM, website builder, and Ads campaigns (Free up to 30 contacts).",
     "category": "Free AI CRM",
     "link": "https://spicytool.net/en",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/spicytool.net-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spicytool.net-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -448,7 +448,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI recruitment and candidate engagement via intelligent CRM.",
     "category": "Free AI CRM",
     "link": "https://www.humbird.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/humbird.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/humbird.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -458,7 +458,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI CRM, project management, and automated sales operations.",
     "category": "Free AI CRM",
     "link": "https://wurkzen.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/wurkzen.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wurkzen.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -468,7 +468,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "WhatsApp service and payment automation (1000 free conv/month).",
     "category": "Free AI CRM",
     "link": "https://luminouscrm.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/luminouscrm.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/luminouscrm.com-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -478,7 +478,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Lead capture and intelligent CRM synchronization.",
     "category": "Free AI CRM",
     "link": "https://snapss.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/snapss.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snapss.io-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -488,7 +488,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Advanced data management and automated CRM workflows.",
     "category": "Free AI CRM",
     "link": "https://flowgrid.info",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/flowgrid.info-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flowgrid.info-128x128__Estimated_.png",
     "icon": "Users",
     "score": 8
   },
@@ -498,7 +498,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI CRM with content generation and intelligent chats (7-day trial).",
     "category": "Free AI CRM",
     "link": "https://bibit.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/bibit.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bibit.ai-128x128__Estimated_.png",
     "icon": "Users",
     "score": 6
   }
@@ -510,7 +510,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Collaborative online whiteboard platform with AI features for brainstorming and project planning.",
     "category": "Free AI Project Management",
     "link": "https://miro.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/miro.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/miro.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -520,7 +520,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "All-in-one collaboration platform including project management, mail, and messenger.",
     "category": "Free AI Project Management",
     "link": "https://gov-dooray.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gov-dooray.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gov-dooray.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -530,7 +530,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Unified workspace for visual collaboration, combining whiteboards, wireframes, and mind maps.",
     "category": "Free AI Project Management",
     "link": "https://whimsical.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/whimsical.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whimsical.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -540,7 +540,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Robotic capture and AI-powered visibility platform for construction and site management.",
     "category": "Free AI Project Management",
     "link": "https://dronedeploy.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dronedeploy.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dronedeploy.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -550,7 +550,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered tool to organize and manage project documentation and assets.",
     "category": "Free AI Project Management",
     "link": "https://paperclip.ing",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/paperclip.ing-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/paperclip.ing-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -560,7 +560,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Collaborative work management platform to plan, track, and manage any business process.",
     "category": "Free AI Project Management",
     "link": "https://www.smartsuite.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/smartsuite.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartsuite.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -570,7 +570,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered project staffing and talent management platform for professional services.",
     "category": "Free AI Project Management",
     "link": "https://whoz.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/whoz.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whoz.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -580,7 +580,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-driven supply chain management platform connecting brands with manufacturers.",
     "category": "Free AI Project Management",
     "link": "https://www.keychain.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/keychain.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/keychain.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -590,7 +590,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI productivity platform to manage projects, tasks, and goals with specialized AI agents.",
     "category": "Free AI Project Management",
     "link": "https://kroolo.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/kroolo.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kroolo.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -600,7 +600,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "All-in-one project management tool to consolidate tasks, docs, and communication.",
     "category": "Free AI Project Management",
     "link": "https://niftypm.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/niftypm.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/niftypm.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -610,7 +610,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered project management tool designed to automate workflows and task tracking.",
     "category": "Free AI Project Management",
     "link": "http://dartai.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dartai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dartai.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -620,7 +620,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-driven takeoff and estimating software for construction project management.",
     "category": "Free AI Project Management",
     "link": "https://www.kreo.net",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/kreo.net-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kreo.net-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -630,7 +630,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Video review and creative project management platform for production teams.",
     "category": "Free AI Project Management",
     "link": "https://krock.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/krock.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/krock.io-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -640,7 +640,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Innovation management software to track trends and manage strategic project portfolios.",
     "category": "Free AI Project Management",
     "link": "https://www.itonics-innovation.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/itonics-innovation.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/itonics-innovation.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -650,7 +650,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered platform for strategic planning and execution tracking.",
     "category": "Free AI Project Management",
     "link": "https://atono.io/?utm_campaign=181306054-Partnership%20Program%20%E2%80%93%202025-11-15-ai&utm_medium=directory",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/atono.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/atono.io-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -660,7 +660,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Framework for building and managing real-world data science and ML projects.",
     "category": "Free AI Project Management",
     "link": "https://metaflow.org",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/metaflow.org-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/metaflow.org-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -670,7 +670,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Open-source project management system with AI-driven task prioritization.",
     "category": "Free AI Project Management",
     "link": "https://plexo.app",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/plexo.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plexo.app-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -680,7 +680,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Project management tool for agile teams to improve productivity and deliver results.",
     "category": "Free AI Project Management",
     "link": "https://gitscrum.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gitscrum.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gitscrum.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -690,7 +690,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered production management tool for film and video projects.",
     "category": "Free AI Project Management",
     "link": "https://www.rivetai.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/rivetai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rivetai.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -700,7 +700,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "User story mapping and product roadmap tool for Jira and agile teams.",
     "category": "Free AI Project Management",
     "link": "https://userstorymap.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/userstorymap.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/userstorymap.io-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -710,7 +710,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Project tracking and management tool designed for simplicity and efficiency.",
     "category": "Free AI Project Management",
     "link": "https://progr.io",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/progr.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/progr.io-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -720,7 +720,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI meeting assistant that takes notes and tracks action items for projects.",
     "category": "Free AI Project Management",
     "link": "https://www.cogram.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/cogram.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cogram.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -730,7 +730,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Agile project management tool for scrum teams to manage backlogs and sprints.",
     "category": "Free AI Project Management",
     "link": "https://scrumdesk.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/scrumdesk.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scrumdesk.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -740,7 +740,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered Gantt chart generator for automated project scheduling.",
     "category": "Free AI Project Management",
     "link": "https://www.ganttchart.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ganttchart.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ganttchart.ai-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -750,7 +750,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI project management assistant to streamline task delegation and tracking.",
     "category": "Free AI Project Management",
     "link": "https://www.quila.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/quila.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quila.ai-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -760,7 +760,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered workspace aggregator to summarize project updates across tools.",
     "category": "Free AI Project Management",
     "link": "https://www.spoke.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/spoke.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spoke.ai-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -770,7 +770,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Project management and task tracking tool focused on simplicity and clarity.",
     "category": "Free AI Project Management",
     "link": "https://siddhify.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/siddhify.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/siddhify.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -780,7 +780,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Analytics and BI platform for software delivery and project management.",
     "category": "Free AI Project Management",
     "link": "https://www.plandek.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/plandek.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plandek.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -790,7 +790,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Comprehensive project management and employee tracking software.",
     "category": "Free AI Project Management",
     "link": "https://managelify.com/en",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/managelify.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/managelify.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -800,7 +800,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Collaborative workspace for teams to manage projects and shared knowledge.",
     "category": "Free AI Project Management",
     "link": "https://www.ledgerteams.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ledgerteams.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ledgerteams.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -810,7 +810,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered tool for quick and accurate project cost estimations.",
     "category": "Free AI Project Management",
     "link": "https://getestimate.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getestimate.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getestimate.ai-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -820,7 +820,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Project management platform designed for developers and technical teams.",
     "category": "Free AI Project Management",
     "link": "https://devokr.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/devokr.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/devokr.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -830,7 +830,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-driven task management and project planning tool for creative professionals.",
     "category": "Free AI Project Management",
     "link": "https://usecrafter.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/usecrafter.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usecrafter.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -840,7 +840,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Visual project management tool that integrates with Google Workspace.",
     "category": "Free AI Project Management",
     "link": "https://korgiboard.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/korgiboard.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/korgiboard.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -850,7 +850,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered OKR tracking and strategic project management platform.",
     "category": "Free AI Project Management",
     "link": "https://10xwinners.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/10xwinners.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/10xwinners.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -860,7 +860,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Project management tool focused on team rhythm and consistent delivery.",
     "category": "Free AI Project Management",
     "link": "https://gorhythmic.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gorhythmic.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gorhythmic.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -870,7 +870,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Unified workspace for project management, CRM, and team collaboration.",
     "category": "Free AI Project Management",
     "link": "https://www.monodesk.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/monodesk.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monodesk.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -880,7 +880,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered project management and resource planning for enterprises.",
     "category": "Free AI Project Management",
     "link": "https://missionx.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/missionx.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/missionx.ai-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -890,7 +890,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-driven task management and team collaboration platform.",
     "category": "Free AI Project Management",
     "link": "https://swatle.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/swatle.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/swatle.ai-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -900,7 +900,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered agile estimation and project planning tool.",
     "category": "Free AI Project Management",
     "link": "https://planfa.st",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/planfa.st-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planfa.st-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -910,7 +910,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Project management and workflow automation for printing businesses.",
     "category": "Free AI Project Management",
     "link": "https://make-print.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/make-print.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/make-print.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -920,7 +920,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Brand project management and design collaboration platform.",
     "category": "Free AI Project Management",
     "link": "https://dotbrand.design",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dotbrand.design-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dotbrand.design-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -930,7 +930,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered project management and documentation tool for startups.",
     "category": "Free AI Project Management",
     "link": "https://spellmint.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/spellmint.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spellmint.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -940,7 +940,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Collaborative project management tool for events and creative projects.",
     "category": "Free AI Project Management",
     "link": "https://projectmela.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/projectmela.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/projectmela.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -950,7 +950,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-driven business scaling and project management platform.",
     "category": "Free AI Project Management",
     "link": "https://www.scalenowai.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/scalenowai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scalenowai.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -960,7 +960,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered predictive analytics for project timelines and risks.",
     "category": "Free AI Project Management",
     "link": "https://prediktai.com",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/prediktai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prediktai.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -970,7 +970,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI personal assistant for project coordination and task management.",
     "category": "Free AI Project Management",
     "link": "https://sachiv.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/sachiv.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sachiv.ai-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -980,7 +980,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Visual project planning and task management tool for teams.",
     "category": "Free AI Project Management",
     "link": "https://planelo.app",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/planelo.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planelo.app-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -990,7 +990,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered task manager and project organizer for iOS.",
     "category": "Free AI Project Management",
     "link": "https://apps.apple.com/gb/app/chaos/id6752716616",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   },
@@ -1000,7 +1000,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered professional services automation and project management.",
     "category": "Free AI Project Management",
     "link": "https://octayne.ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/octayne.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octayne.ai-128x128__Estimated_.png",
     "icon": "Layout",
     "score": 8
   }
@@ -1012,7 +1012,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers AI-powered workflow automation with code and no-code flexibility for self-host or cloud deployment.",
     "category": "Free AI Workflow",
     "link": "https://n8n.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/n8n.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/n8n.io-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1022,7 +1022,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes 100 free tasks per month for AI workflows, AI agents, and AI chatbots.",
     "category": "Free AI Workflow",
     "link": "https://zapier.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/zapier.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zapier.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1032,7 +1032,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a free platform to generate video, images, 3D, and audio with full node-based control.",
     "category": "Free AI Workflow",
     "link": "https://www.comfy.org/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/comfy.org-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/comfy.org-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1042,7 +1042,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 150 free monthly credits for AI models and professional editing tools on a node-based platform.",
     "category": "Free AI Workflow",
     "link": "https://weavy.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/weavy.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/weavy.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1052,7 +1052,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides 3 free editable boards for an online collaborative whiteboard with AI-powered features.",
     "category": "Free AI Workflow",
     "link": "https://miro.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/miro.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/miro.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1062,7 +1062,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day trial for real-time collaboration with rich annotations.",
     "category": "Free AI Workflow",
     "link": "https://syncsketch.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/syncsketch.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/syncsketch.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1072,7 +1072,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 2,000 free words in chat to generate high-quality copy and automate GTM tasks.",
     "category": "Free AI Workflow",
     "link": "https://www.copy.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/copy.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/copy.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1082,7 +1082,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 200 free messages to orchestrate LLM apps with a RAG engine.",
     "category": "Free AI Workflow",
     "link": "https://dify.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dify.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dify.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1092,7 +1092,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial to streamline AI data workflows and build feedback-driven annotation pipelines.",
     "category": "Free AI Workflow",
     "link": "https://www.superannotate.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/superannotate.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/superannotate.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1102,7 +1102,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a cloud-based ComfyUI to edit and run workflows online and publish AI apps.",
     "category": "Free AI Workflow",
     "link": "https://www.runninghub.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/runninghub.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/runninghub.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1112,7 +1112,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1,000 free credits per month for AI web scraping and social media automation.",
     "category": "Free AI Workflow",
     "link": "https://www.gumloop.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gumloop.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gumloop.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1122,7 +1122,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows 3 free queries per day for AI summarization and workflow automation.",
     "category": "Free AI Workflow",
     "link": "https://www.iweaver.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/iweaver.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iweaver.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1132,7 +1132,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for document and software localization with AI-powered translation.",
     "category": "Free AI Workflow",
     "link": "https://phrase.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/phrase.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/phrase.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1142,7 +1142,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Helps build an AI workforce to automate processes and deliver human-quality work.",
     "category": "Free AI Workflow",
     "link": "https://relevanceai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/relevanceai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/relevanceai.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1152,7 +1152,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free, fast, and easy platform with high-speed GPUs for reproducible workflows.",
     "category": "Free AI Workflow",
     "link": "https://www.runcomfy.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/runcomfy.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/runcomfy.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1162,7 +1162,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes 150 free tasks per month for AI agents and workflow automation in a unified workspace.",
     "category": "Free AI Workflow",
     "link": "https://www.taskade.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/taskade.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taskade.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1172,7 +1172,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes up to 300 free credits per month to connect APIs, AI, and databases.",
     "category": "Free AI Workflow",
     "link": "https://pipedream.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/pipedream.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pipedream.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1182,7 +1182,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 3 users and a 14-day trial for collaborative work management.",
     "category": "Free AI Workflow",
     "link": "https://www.smartsuite.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/smartsuite.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartsuite.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1192,7 +1192,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants $200 worth of free credits to automate manual data entry using AI.",
     "category": "Free AI Workflow",
     "link": "https://nanonets.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/nanonets.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nanonets.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1202,7 +1202,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1,000 free tasks per month for AI-first automation and no-code agents.",
     "category": "Free AI Workflow",
     "link": "https://www.activepieces.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/activepieces.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/activepieces.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1212,7 +1212,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 30 free credits per day to generate content and craft automated workflows.",
     "category": "Free AI Workflow",
     "link": "https://anakin.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/anakin.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anakin.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1222,7 +1222,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides 3 free flows for no-code storyboard and universal API integration.",
     "category": "Free AI Workflow",
     "link": "https://tines.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/tines.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tines.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1232,7 +1232,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 100 free credits per month for AI-powered workflow automation with 200+ integrations.",
     "category": "Free AI Workflow",
     "link": "https://www.bardeen.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/bardeen.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bardeen.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1242,7 +1242,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial with 5 credits to build intelligent chatbots and AI tools.",
     "category": "Free AI Workflow",
     "link": "https://flowhunt.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/flowhunt.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flowhunt.io-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1252,7 +1252,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants $5 in free credits for a cloud-native platform with one-click Docker deployment.",
     "category": "Free AI Workflow",
     "link": "https://run.claw.cloud/?referralCode=Q7T3Y8M4K6VX",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/run.claw.cloud-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/run.claw.cloud-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1262,7 +1262,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Is always free for brands to use AI-powered CPG supply chain management and connect with partners.",
     "category": "Free AI Workflow",
     "link": "https://www.keychain.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/keychain.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/keychain.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1272,7 +1272,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides document workflow automation and multi-modal data extraction.",
     "category": "Free AI Workflow",
     "link": "https://www.v7labs.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/v7labs.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/v7labs.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1282,7 +1282,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 100 free creations plus 20 daily recurring creations to automate tasks.",
     "category": "Free AI Workflow",
     "link": "https://textcortex.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/textcortex.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/textcortex.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1292,7 +1292,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 100 free transactions on a no-code automation platform with 800+ apps.",
     "category": "Free AI Workflow",
     "link": "https://albato.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/albato.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/albato.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1302,7 +1302,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes 200 free steps per month for AI agents and human-in-the-loop collaboration.",
     "category": "Free AI Workflow",
     "link": "https://relay.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/relay.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/relay.app-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1312,7 +1312,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 1,000 free tasks per month to orchestrate content and build powerful LLM workflows.",
     "category": "Free AI Workflow",
     "link": "https://www.airops.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/airops.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/airops.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1322,7 +1322,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 20 minutes of FloTime free per day with full ComfyUI power and unlimited workflow editing.",
     "category": "Free AI Workflow",
     "link": "https://www.floyo.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/floyo.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/floyo.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1332,7 +1332,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 30-day free trial for a unified control plane for AI and data pipelines.",
     "category": "Free AI Workflow",
     "link": "https://www.dagster.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dagster.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dagster.io-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1342,7 +1342,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides 500 free credits for a low-code AI workflow platform with unified API access.",
     "category": "Free AI Workflow",
     "link": "https://gooey.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gooey.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gooey.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1352,7 +1352,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants $10 in free credits for 3 months for AI planning and solving complex tasks.",
     "category": "Free AI Workflow",
     "link": "https://www.ai21.com/maestro",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ai21.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai21.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1362,7 +1362,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Enables actions across 600+ apps in AI chat with universal intelligence.",
     "category": "Free AI Workflow",
     "link": "https://rube.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/rube.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rube.app-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1372,7 +1372,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free tool to create messages and update forms instantly.",
     "category": "Free AI Workflow",
     "link": "https://www.getmagical.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getmagical.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getmagical.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1382,7 +1382,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers an open-source (free) AI browser automation tool that adapts to webpages.",
     "category": "Free AI Workflow",
     "link": "https://www.skyvern.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/skyvern.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skyvern.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1392,7 +1392,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Workflow features.",
     "category": "Free AI Workflow",
     "link": "https://digitalfirst.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/digitalfirst.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/digitalfirst.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1402,7 +1402,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides low-code automation with AI-enhanced decisioning.",
     "category": "Free AI Workflow",
     "link": "https://decisions.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/decisions.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/decisions.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1412,7 +1412,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows starting for free to use AI prototyping for product management.",
     "category": "Free AI Workflow",
     "link": "https://alloy.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/alloy.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/alloy.app-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1422,7 +1422,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 20 free AI message credits per month to organize data and build AI apps.",
     "category": "Free AI Workflow",
     "link": "https://aitable.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/aitable.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitable.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1432,7 +1432,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers unlimited public projects free and 3 AI generations per month for visual logic building.",
     "category": "Free AI Workflow",
     "link": "https://stately.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/stately.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stately.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1442,7 +1442,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day trial for AI document processing and automated transactional workflows.",
     "category": "Free AI Workflow",
     "link": "https://rossum.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/rossum.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rossum.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1452,7 +1452,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial for web scraping, workflow automation, and AI work automation.",
     "category": "Free AI Workflow",
     "link": "https://hexomatic.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hexomatic.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hexomatic.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 6
   },
@@ -1462,7 +1462,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a transportation management system and workforce automation platform.",
     "category": "Free AI Workflow",
     "link": "https://www.datatruck.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/datatruck.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/datatruck.io-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1472,7 +1472,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Workflow features.",
     "category": "Free AI Workflow",
     "link": "https://team-gpt.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/team-gpt.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/team-gpt.com-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1482,7 +1482,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides 25 free videos of 5 minutes each for AI-generated transcriptions and metadata.",
     "category": "Free AI Workflow",
     "link": "https://www.dadan.io/features/ai-assist",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dadan.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dadan.io-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1492,7 +1492,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Workflow features.",
     "category": "Free AI Workflow",
     "link": "https://clienthub.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/clienthub.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clienthub.app-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   },
@@ -1502,7 +1502,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 1,000 free non-AI actions per month for no-code AI app building.",
     "category": "Free AI Workflow",
     "link": "https://www.vectorshift.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/vectorshift.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vectorshift.ai-128x128__Estimated_.png",
     "icon": "Zap",
     "score": 8
   }
@@ -1514,7 +1514,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers an unlimited free trial for an ATS and CRM with AI-powered recruitment.",
     "category": "Free AI Recruiting",
     "link": "https://recruitcrm.io/+listing&utm_medium=organic+listing",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/recruitcrm.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recruitcrm.io-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1524,7 +1524,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free tier for AI-powered learning, hiring solutions, and skills assessments.",
     "category": "Free AI Recruiting",
     "link": "https://codesignal.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/codesignal.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/codesignal.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1534,7 +1534,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 2-week risk-free trial to access vetted global talent with an AI recruiter.",
     "category": "Free AI Recruiting",
     "link": "https://arc.dev/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/arc.dev-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/arc.dev-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1544,7 +1544,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for AI recruitment software and applicant tracking.",
     "category": "Free AI Recruiting",
     "link": "https://www.manatal.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/manatal.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/manatal.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1554,7 +1554,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial for an AI-powered ATS to simplify candidate tracking.",
     "category": "Free AI Recruiting",
     "link": "https://pyjamahr.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/pyjamahr.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pyjamahr.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1564,7 +1564,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for AI-powered talent matching and automated candidate outreach.",
     "category": "Free AI Recruiting",
     "link": "https://www.goperfect.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/goperfect.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goperfect.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1574,7 +1574,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Features no starting costs for end-to-end automated recruiting with an AI-powered ATS.",
     "category": "Free AI Recruiting",
     "link": "https://www.helio-ai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/helio-ai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/helio-ai.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1584,7 +1584,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 20 free minutes of video or audio processing per month with AI-powered chatbots.",
     "category": "Free AI Recruiting",
     "link": "https://videoask.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/videoask.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videoask.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1594,7 +1594,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI recruitment software with hiring automation and applicant tracking.",
     "category": "Free AI Recruiting",
     "link": "https://www.ismartrecruit.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ismartrecruit.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ismartrecruit.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1604,7 +1604,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-powered job search automation to automatically apply for jobs.",
     "category": "Free AI Recruiting",
     "link": "https://www.sonara.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/sonara.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sonara.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1614,7 +1614,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides 10 free personal job searches and 2 AI cover letters for automated applications.",
     "category": "Free AI Recruiting",
     "link": "https://www.wobo.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/wobo.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wobo.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1624,7 +1624,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free forever plan and a 30-day trial for AI-powered recruiting and payroll automation.",
     "category": "Free AI Recruiting",
     "link": "https://www.loubby.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/loubby.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loubby.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1634,7 +1634,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 25 free conversations per month to automatically write interview notes.",
     "category": "Free AI Recruiting",
     "link": "https://www.metaview.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/metaview.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/metaview.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1644,7 +1644,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides an AI-powered ATS with interview automation and candidate sourcing.",
     "category": "Free AI Recruiting",
     "link": "https://www.pitchnhire.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/pitchnhire.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pitchnhire.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1654,7 +1654,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for 100 candidates for job-simulation assessments and anti-cheating.",
     "category": "Free AI Recruiting",
     "link": "https://www.canditech.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/canditech.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/canditech.io-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1664,7 +1664,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-moderated interviews with built-in recruiting features.",
     "category": "Free AI Recruiting",
     "link": "https://voicepanel.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/voicepanel.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicepanel.co-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1674,7 +1674,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI-powered hiring automation with access to job sites.",
     "category": "Free AI Recruiting",
     "link": "https://hirebee.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hirebee.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hirebee.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1684,7 +1684,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers limited free searches for AI-powered natural language people search and email outreach.",
     "category": "Free AI Recruiting",
     "link": "https://juicebox.work/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/juicebox.work-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/juicebox.work-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1694,7 +1694,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Gives 14 free credits at signup and 1 daily for collaboration and performance AI.",
     "category": "Free AI Recruiting",
     "link": "https://getmarlee.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getmarlee.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getmarlee.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1704,7 +1704,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 5 free interviews for AI-powered video interview intelligence and unbiased feedback.",
     "category": "Free AI Recruiting",
     "link": "https://barraiser.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/barraiser.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/barraiser.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1714,7 +1714,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers AI recruitment with data-driven assessments and learning management.",
     "category": "Free AI Recruiting",
     "link": "https://talenttitan.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/talenttitan.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/talenttitan.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1724,7 +1724,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for an end-to-end AI video interview platform and candidate screening.",
     "category": "Free AI Recruiting",
     "link": "https://interviewer.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewer.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewer.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1734,7 +1734,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 30 free AI-powered interviews to access global pre-vetted talent.",
     "category": "Free AI Recruiting",
     "link": "https://sourcebae.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/sourcebae.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sourcebae.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1744,7 +1744,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 50 free profiles sourced for AI-powered candidate sourcing and matching.",
     "category": "Free AI Recruiting",
     "link": "https://fidforward.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/fidforward.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fidforward.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1754,7 +1754,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free AI-powered interviewer for high-volume recruiting and unbiased candidate evaluations.",
     "category": "Free AI Recruiting",
     "link": "https://www.heymilo.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/heymilo.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heymilo.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1764,7 +1764,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Is free for 1 or 2 candidates for pre-employment talent assessment and competency measurement.",
     "category": "Free AI Recruiting",
     "link": "https://getpera.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getpera.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getpera.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1774,7 +1774,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 3-day free trial for AI recruitment sourcing with semantic search and automated outreach.",
     "category": "Free AI Recruiting",
     "link": "https://recruitryte.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/recruitryte.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recruitryte.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1784,7 +1784,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free platform with 100+ pre-built tests to validate any format.",
     "category": "Free AI Recruiting",
     "link": "https://onewayinterview.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/onewayinterview.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/onewayinterview.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1794,7 +1794,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows 3 free CV submissions to automate job search and auto-apply.",
     "category": "Free AI Recruiting",
     "link": "https://www.liftmycv.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/liftmycv.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/liftmycv.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1804,7 +1804,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Crafts comprehensive CVs in 10 minutes using AI-powered talent ranking.",
     "category": "Free AI Recruiting",
     "link": "https://usevampai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/usevampai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usevampai.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1814,7 +1814,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 30-day free trial to combine networks and find warm intros.",
     "category": "Free AI Recruiting",
     "link": "https://www.theswarm.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/theswarm.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/theswarm.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1824,7 +1824,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for an end-to-end assessment platform with AI interviews.",
     "category": "Free AI Recruiting",
     "link": "https://algobash.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/algobash.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/algobash.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1834,7 +1834,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers AI-driven smart hiring software to reduce hiring time and cost.",
     "category": "Free AI Recruiting",
     "link": "https://haire.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/haire.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/haire.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1844,7 +1844,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 5-day free trial for AI video screenings and behavioral assessments.",
     "category": "Free AI Recruiting",
     "link": "https://www.potis.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/potis.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/potis.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1854,7 +1854,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Recruiting features.",
     "category": "Free AI Recruiting",
     "link": "https://www.candidately.com/candidate-search-ai",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/candidately.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/candidately.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1864,7 +1864,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Recruiting features.",
     "category": "Free AI Recruiting",
     "link": "https://www.candidately.com/ai-resume-builder",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/candidately.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/candidately.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1874,7 +1874,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 2-week free trial to match startups with top 1% software engineering talent.",
     "category": "Free AI Recruiting",
     "link": "https://remotebase.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/remotebase.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/remotebase.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1884,7 +1884,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 1-month free trial for LinkedIn automation and AI-driven candidate sourcing.",
     "category": "Free AI Recruiting",
     "link": "https://www.sourcegeek.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/sourcegeek.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sourcegeek.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1894,7 +1894,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-powered applicant screening to reduce screening time by 80%.",
     "category": "Free AI Recruiting",
     "link": "https://www.applicantai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/applicantai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/applicantai.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1904,7 +1904,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers advanced resume parsing and bias-free screening with intelligent talent matching.",
     "category": "Free AI Recruiting",
     "link": "https://www.recrew.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/recrew.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/recrew.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1914,7 +1914,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for a human-like AI interviewer and autopilot video interviews.",
     "category": "Free AI Recruiting",
     "link": "https://hyring.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hyring.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hyring.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1924,7 +1924,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants $50 in free credits for AI-driven interviews and technical assessments.",
     "category": "Free AI Recruiting",
     "link": "https://reppls.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/reppls.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reppls.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1934,7 +1934,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers AI-powered recruiting that delivers engaged tech talent and cost savings.",
     "category": "Free AI Recruiting",
     "link": "https://celential.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/celential.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/celential.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1944,7 +1944,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Recruiting features.",
     "category": "Free AI Recruiting",
     "link": "https://mtesthub.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/mtesthub.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mtesthub.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1954,7 +1954,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 3 months of free access for AI-powered sourcing and precise candidate matching.",
     "category": "Free AI Recruiting",
     "link": "https://glozo.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/glozo.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/glozo.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1964,7 +1964,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 25 free interviews per month for AI-powered hiring solutions.",
     "category": "Free AI Recruiting",
     "link": "https://quickrecruit.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/quickrecruit.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quickrecruit.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1974,7 +1974,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Recruiting features.",
     "category": "Free AI Recruiting",
     "link": "https://www.hiringcycle.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hiringcycle.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hiringcycle.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -1984,7 +1984,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for 25 candidates for AI-driven resume screening and ATS integration.",
     "category": "Free AI Recruiting",
     "link": "https://www.brainner.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/brainner.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brainner.ai-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   },
@@ -1994,7 +1994,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Recruiting features.",
     "category": "Free AI Recruiting",
     "link": "https://humanflow.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/humanflow.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/humanflow.app-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 8
   },
@@ -2004,7 +2004,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers an unlimited free trial for an AI-powered recruitment ATS and CRM with resume parsing.",
     "category": "Free AI Recruiting",
     "link": "https://atzcrm.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/atzcrm.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/atzcrm.com-128x128__Estimated_.png",
     "icon": "Briefcase",
     "score": 6
   }
@@ -2016,7 +2016,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 2 operators including live chat, chatbots, and a knowledge base.",
     "category": "Free AI Customer Service",
     "link": "https://chaport.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/chaport.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chaport.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2026,7 +2026,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI-powered communications with unlimited calls and meetings.",
     "category": "Free AI Customer Service",
     "link": "https://www.dialpad.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dialpad.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dialpad.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2036,7 +2036,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes 5 free AI agents for 24/7 automated customer service.",
     "category": "Free AI Customer Service",
     "link": "https://www.jotform.com/try/ai-agents/&utm_medium=referral&utm_campaign=ai-agents-launch",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/jotform.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jotform.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2046,7 +2046,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial to hire chat agents for 24/7 availability and lead generation.",
     "category": "Free AI Customer Service",
     "link": "https://tawk.to/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/tawk.to-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tawk.to-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2056,7 +2056,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for a human-quality AI agent and AI-first customer service platform.",
     "category": "Free AI Customer Service",
     "link": "https://intercom.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/intercom.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/intercom.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2066,7 +2066,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan with a 7-day trial for an AI customer service chatbot and live chat.",
     "category": "Free AI Customer Service",
     "link": "https://www.tidio.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/tidio.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tidio.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2076,7 +2076,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial for a business phone system with an AI-powered answering agent.",
     "category": "Free AI Customer Service",
     "link": "https://www.openphone.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/openphone.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/openphone.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2086,7 +2086,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automates support with an AI agent and centralized helpdesk to drive sales.",
     "category": "Free AI Customer Service",
     "link": "https://www.gorgias.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gorgias.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gorgias.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2096,7 +2096,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial for AI-powered customer conversation management and chat automation.",
     "category": "Free AI Customer Service",
     "link": "https://respond.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/respond.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/respond.io-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2106,7 +2106,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for a shared inbox helpdesk with live chat and chatbots.",
     "category": "Free AI Customer Service",
     "link": "https://reamaze.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/reamaze.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reamaze.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2116,7 +2116,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 2 seats featuring an omnichannel team inbox and an AI chatbot.",
     "category": "Free AI Customer Service",
     "link": "https://crisp.chat/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/crisp.chat-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crisp.chat-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2126,7 +2126,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free tier to get instant AI answers from your docs.",
     "category": "Free AI Customer Service",
     "link": "https://docsbot.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/docsbot.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docsbot.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2136,7 +2136,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial for centralized multi-channel communication and automated support.",
     "category": "Free AI Customer Service",
     "link": "https://callbell.eu/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/callbell.eu-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/callbell.eu-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2146,7 +2146,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for AI-powered phone systems and SMS solutions with a voice agent.",
     "category": "Free AI Customer Service",
     "link": "https://justcall.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/justcall.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/justcall.io-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2156,7 +2156,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 100 free credits to build and deploy AI agents with collaborative design.",
     "category": "Free AI Customer Service",
     "link": "https://voiceflow.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/voiceflow.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiceflow.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2166,7 +2166,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-powered customer service with multichannel management and self-service automation.",
     "category": "Free AI Customer Service",
     "link": "https://www.richpanel.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/richpanel.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/richpanel.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2176,7 +2176,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 30-day free trial for AI-powered unified messaging and omnichannel ticketing.",
     "category": "Free AI Customer Service",
     "link": "https://www.glassix.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/glassix.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/glassix.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2186,7 +2186,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for omnichat chat commerce and AI-powered conversational suites.",
     "category": "Free AI Customer Service",
     "link": "https://www.omnichat.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/omnichat.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/omnichat.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2196,7 +2196,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-personalized workflows and an omnichannel inbox to automate interactions.",
     "category": "Free AI Customer Service",
     "link": "https://sleekflow.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/sleekflow.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sleekflow.io-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2206,7 +2206,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 25 free messages for multi-channel communication management and AI-driven support.",
     "category": "Free AI Customer Service",
     "link": "https://responso.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/responso.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/responso.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2216,7 +2216,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial to unify tickets and order data with AI automations.",
     "category": "Free AI Customer Service",
     "link": "https://www.edesk.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/edesk.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/edesk.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2226,7 +2226,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes 100 free message credits per month to build and deploy AI agents.",
     "category": "Free AI Customer Service",
     "link": "https://www.chatbase.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/chatbase.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chatbase.co-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2236,7 +2236,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automates the support ticket lifecycle with multi-agent CX automation.",
     "category": "Free AI Customer Service",
     "link": "https://forethought.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/forethought.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/forethought.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2246,7 +2246,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for user insights, engagement, and feedback.",
     "category": "Free AI Customer Service",
     "link": "https://userpilot.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/userpilot.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/userpilot.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2256,7 +2256,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 15-day free trial for AI-powered automations, efficient ticketing, and live chat.",
     "category": "Free AI Customer Service",
     "link": "https://www.bolddesk.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/bolddesk.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bolddesk.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2266,7 +2266,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Helps negotiate bills, cancel subscriptions, and file complaints.",
     "category": "Free AI Customer Service",
     "link": "https://www.19pine.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/19pine.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/19pine.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2276,7 +2276,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI-powered customer support, visual bug reporting, and roadmaps.",
     "category": "Free AI Customer Service",
     "link": "https://gleap.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gleap.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gleap.io-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2286,7 +2286,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes 100 free CRM contacts for an omnichannel contact center with AI automation.",
     "category": "Free AI Customer Service",
     "link": "https://www.klink.cloud/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/klink.cloud-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/klink.cloud-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2296,7 +2296,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides generative and conversational AI-powered customer service agents with a Copilot.",
     "category": "Free AI Customer Service",
     "link": "https://www.cognigy.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/cognigy.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cognigy.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2306,7 +2306,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI assistance for Amazon and Shopify sellers with review analysis and optimization.",
     "category": "Free AI Customer Service",
     "link": "https://www.voc.ai/tools/chatgpt-copilot",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/voc.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voc.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2316,7 +2316,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI assistance for Amazon and Shopify sellers with review analysis and optimization.",
     "category": "Free AI Customer Service",
     "link": "https://www.voc.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/voc.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voc.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2326,7 +2326,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI assistance for Amazon and Shopify sellers with review analysis and optimization.",
     "category": "Free AI Customer Service",
     "link": "https://www.voc.ai/tools/ai-chatbot",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/voc.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voc.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2336,7 +2336,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 100 members with customizable community platforms and AI-powered engagement.",
     "category": "Free AI Customer Service",
     "link": "https://bettermode.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/bettermode.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bettermode.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2346,7 +2346,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial to build custom AI chatbots from your content with accurate responses.",
     "category": "Free AI Customer Service",
     "link": "https://customgpt.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/customgpt.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/customgpt.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2356,7 +2356,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 50 free comments for AI-powered social customer support and automated responses.",
     "category": "Free AI Customer Service",
     "link": "https://replient.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/replient.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/replient.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2366,7 +2366,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 5,000 free points (1,000 messages) for a no-code AI chatbot.",
     "category": "Free AI Customer Service",
     "link": "https://botnoi.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/botnoi.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/botnoi.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2376,7 +2376,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 100 free AI credits to build a no-code AI chatbot trained on your data.",
     "category": "Free AI Customer Service",
     "link": "https://chatling.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/chatling.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chatling.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2386,7 +2386,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial to automate sales and support, turning doubters into customers.",
     "category": "Free AI Customer Service",
     "link": "https://zipchat.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/zipchat.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zipchat.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2396,7 +2396,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI-powered product tours and in-app onboarding.",
     "category": "Free AI Customer Service",
     "link": "https://www.userflow.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/userflow.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/userflow.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2406,7 +2406,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 50 free messages per month to build custom AI chatbots trained on your data.",
     "category": "Free AI Customer Service",
     "link": "https://fastbots.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/fastbots.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fastbots.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2416,7 +2416,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Delivers instant responses and tailored suggestions for cross-selling and upselling.",
     "category": "Free AI Customer Service",
     "link": "https://www.octocom.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/octocom.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/octocom.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2426,7 +2426,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 250 free GPT-4o messages for an AI chatbot trained on your content.",
     "category": "Free AI Customer Service",
     "link": "https://livechatai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/livechatai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/livechatai.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2436,7 +2436,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 10 free messages to build custom AI chatbots for self-serve customer support.",
     "category": "Free AI Customer Service",
     "link": "https://wonderchat.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/wonderchat.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wonderchat.io-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2446,7 +2446,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 30-day free trial for AI-powered customer service automation with a generative AI chatbot.",
     "category": "Free AI Customer Service",
     "link": "https://www.kommunicate.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/kommunicate.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kommunicate.io-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2456,7 +2456,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Customer Service features.",
     "category": "Free AI Customer Service",
     "link": "https://moveo.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/moveo.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/moveo.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2466,7 +2466,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Customer Service features.",
     "category": "Free AI Customer Service",
     "link": "https://help.center/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/help.center-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/help.center-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2476,7 +2476,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for AI-powered marketing automation and unified customer data.",
     "category": "Free AI Customer Service",
     "link": "https://ortto.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ortto.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ortto.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2486,7 +2486,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for AI phone call agents and 24/7 customer support.",
     "category": "Free AI Customer Service",
     "link": "https://notevibes.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/notevibes.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/notevibes.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   },
@@ -2496,7 +2496,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI assistance for Amazon and Shopify sellers with review analysis and optimization.",
     "category": "Free AI Customer Service",
     "link": "https://shulex.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/shulex.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shulex.com-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 8
   },
@@ -2506,7 +2506,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 30-day free trial to automate customer support and improve efficiency.",
     "category": "Free AI Customer Service",
     "link": "https://yuma.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/yuma.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yuma.ai-128x128__Estimated_.png",
     "icon": "Headset",
     "score": 6
   }
@@ -2518,7 +2518,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a real-time AI interview assistant with full coding interview support.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.parakeet-ai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/parakeet-ai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/parakeet-ai.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2528,7 +2528,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 10 free minutes daily for an AI interview and meeting copilot with coding support.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.lockedinai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lockedinai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lockedinai.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2538,7 +2538,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a trial up to 5 minutes for a real-time interview AI copilot for end-to-end preparation.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.finalroundai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/finalroundai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/finalroundai.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2548,7 +2548,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides 3 free files, transcriptions, and 1 project for AI-powered customer research.",
     "category": "Free AI Interview Assistant",
     "link": "https://insight7.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/insight7.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insight7.io-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2558,7 +2558,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants up to 5 free Yoodlis for private, real-time AI speech coaching.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.yoodli.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/yoodli.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yoodli.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2568,7 +2568,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 30-minute free trial for mock interviews with real-time AI responses.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.linkjob.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/linkjob.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/linkjob.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2578,7 +2578,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers free AI job search tools for career coaching and resume revision.",
     "category": "Free AI Interview Assistant",
     "link": "https://wonsulting.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/wonsulting.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wonsulting.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2588,7 +2588,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for real-time coding assistance that is undetectable during technical interviews.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.interviewcoder.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewcoder.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewcoder.co-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2598,7 +2598,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 30 free credits for a real-time AI interview copilot with tailored practice.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.interviews.chat/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviews.chat-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviews.chat-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2608,7 +2608,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial for an AI-powered ATS to simplify candidate tracking.",
     "category": "Free AI Interview Assistant",
     "link": "https://pyjamahr.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/pyjamahr.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pyjamahr.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2618,7 +2618,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 3 free 15-minute copilot sessions and 5 AI mock interviews for real-time assistance.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.vervecopilot.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/vervecopilot.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vervecopilot.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2628,7 +2628,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 3 free credits daily for AI interview prep with real questions from top companies.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.interviewpal.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewpal.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewpal.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2638,7 +2638,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 5 free interviews for AI-powered video interview intelligence and unbiased feedback.",
     "category": "Free AI Interview Assistant",
     "link": "https://barraiser.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/barraiser.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/barraiser.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2648,7 +2648,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants free 15-minute copilot sessions for a real-time interview assistant.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.senseicopilot.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/senseicopilot.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/senseicopilot.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2658,7 +2658,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows 3 free questions per month for tailored interview questions and instant AI feedback.",
     "category": "Free AI Interview Assistant",
     "link": "https://interviewsby.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewsby.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewsby.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2668,7 +2668,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial for automated video, audio, and file screening.",
     "category": "Free AI Interview Assistant",
     "link": "https://hirevire.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hirevire.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hirevire.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2678,7 +2678,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free forever plan and a 30-day trial for AI-powered recruiting and payroll automation.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.loubby.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/loubby.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/loubby.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2688,7 +2688,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-moderated interviews with built-in recruiting features.",
     "category": "Free AI Interview Assistant",
     "link": "https://voicepanel.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/voicepanel.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voicepanel.co-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2698,7 +2698,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1 free live interview and 2 mock interviews per month for real-time talking points.",
     "category": "Free AI Interview Assistant",
     "link": "https://interviewbee.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewbee.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewbee.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2708,7 +2708,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for an end-to-end AI video interview platform and candidate screening.",
     "category": "Free AI Interview Assistant",
     "link": "https://interviewer.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewer.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewer.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2718,7 +2718,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides an AI-powered ATS with interview automation and candidate sourcing.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.pitchnhire.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/pitchnhire.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pitchnhire.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2728,7 +2728,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free basic plan for AI-powered resumes and interview training.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.resufit.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/resufit.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/resufit.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2738,7 +2738,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 3 free tokens for real-time AI assistance for technical interviews.",
     "category": "Free AI Interview Assistant",
     "link": "https://techscreen.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/techscreen.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/techscreen.app-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2748,7 +2748,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 3 free 10-minute interview sessions for real-time assistance and personalized answers.",
     "category": "Free AI Interview Assistant",
     "link": "https://jobbridge.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/jobbridge.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jobbridge.io-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2758,7 +2758,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Instantly provides answers to Leetcode problems via an invisible desktop app.",
     "category": "Free AI Interview Assistant",
     "link": "https://leetcodewizard.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/leetcodewizard.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/leetcodewizard.io-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2768,7 +2768,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers AI recruitment with data-driven assessments and learning management.",
     "category": "Free AI Interview Assistant",
     "link": "https://talenttitan.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/talenttitan.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/talenttitan.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2778,7 +2778,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free AI-powered interviewer for high-volume recruiting and unbiased candidate evaluations.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.heymilo.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/heymilo.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heymilo.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2788,7 +2788,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 10 free uses for a real-time AI interview assistant that is 100% undetectable.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.ctrlpotato.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ctrlpotato.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ctrlpotato.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2798,7 +2798,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free platform with 100+ pre-built tests to validate any format.",
     "category": "Free AI Interview Assistant",
     "link": "https://onewayinterview.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/onewayinterview.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/onewayinterview.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2808,7 +2808,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Solves all Leetcode style problems and is invisible to screen sharing.",
     "category": "Free AI Interview Assistant",
     "link": "https://interviewsolver.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewsolver.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewsolver.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2818,7 +2818,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI feedback and practice from job descriptions.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.huru.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/huru.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/huru.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2828,7 +2828,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for an end-to-end assessment platform with AI interviews.",
     "category": "Free AI Interview Assistant",
     "link": "https://algobash.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/algobash.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/algobash.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2838,7 +2838,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 30 free AI-powered interviews to access global pre-vetted talent.",
     "category": "Free AI Interview Assistant",
     "link": "https://sourcebae.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/sourcebae.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sourcebae.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2848,7 +2848,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered productivity tool for summarizing content and generating ideas.",
     "category": "Free AI Interview Assistant",
     "link": "https://offergenie.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/offergenie.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/offergenie.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2858,7 +2858,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers free resume and cover letter tailoring, job tracking, and interview practice.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.wonsulting.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/wonsulting.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wonsulting.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2868,7 +2868,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows trying it for free for AI-moderated voice interviews and automated qualitative analysis.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.usercall.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/usercall.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usercall.co-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2878,7 +2878,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1 free AI interview for customizable mocks and instant feedback.",
     "category": "Free AI Interview Assistant",
     "link": "https://skillora.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/skillora.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skillora.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2888,7 +2888,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Creates AI-powered cover letters, tailored resumes, and personalized interview prep.",
     "category": "Free AI Interview Assistant",
     "link": "https://behired.net/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/behired.net-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/behired.net-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2898,7 +2898,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 1 free interview simulation with 12 questions to simulate real interviews.",
     "category": "Free AI Interview Assistant",
     "link": "https://interviewprep-ai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewprep-ai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewprep-ai.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2908,7 +2908,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 1 free token for AI-based tailored questions and performance feedback.",
     "category": "Free AI Interview Assistant",
     "link": "https://interviewai.me/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewai.me-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewai.me-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2918,7 +2918,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for a human-like AI interviewer and autopilot video interviews.",
     "category": "Free AI Interview Assistant",
     "link": "https://hyring.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hyring.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hyring.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2928,7 +2928,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 25 free customer conversations for AI-powered conversation analysis and reports.",
     "category": "Free AI Interview Assistant",
     "link": "https://getperspective.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getperspective.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getperspective.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2938,7 +2938,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 100 free credits per month to automate human-like interviews and process data.",
     "category": "Free AI Interview Assistant",
     "link": "https://yasna.ai/&utm_medium=listing",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/yasna.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yasna.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2948,7 +2948,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Interview Assistant features.",
     "category": "Free AI Interview Assistant",
     "link": "https://boterview.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/boterview.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/boterview.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2958,7 +2958,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Interview Assistant features.",
     "category": "Free AI Interview Assistant",
     "link": "https://polygr.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/polygr.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/polygr.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2968,7 +2968,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Is free for small businesses for AI-powered structured interviews and automated notetaking.",
     "category": "Free AI Interview Assistant",
     "link": "https://hireguide.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hireguide.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hireguide.com-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2978,7 +2978,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free taster course for expert Amazon interview prep and AI tools.",
     "category": "Free AI Interview Assistant",
     "link": "https://dayone.careers/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dayone.careers-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dayone.careers-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -2988,7 +2988,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows trying it free for 7 days for human-like AI interviews.",
     "category": "Free AI Interview Assistant",
     "link": "https://screenify.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/screenify.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/screenify.ai-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   },
@@ -2998,7 +2998,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Interview Assistant features.",
     "category": "Free AI Interview Assistant",
     "link": "https://apply-ai.work/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/apply-ai.work-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apply-ai.work-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 8
   },
@@ -3008,7 +3008,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows sending up to 10 free invites for GitHub-based technical assessments.",
     "category": "Free AI Interview Assistant",
     "link": "https://www.hatchways.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/hatchways.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hatchways.io-128x128__Estimated_.png",
     "icon": "UserCheck",
     "score": 6
   }
@@ -3020,7 +3020,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for AI-powered phone systems and SMS solutions with a voice agent.",
     "category": "Free AI Call Center",
     "link": "https://justcall.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/justcall.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/justcall.io-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3030,7 +3030,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial for a business phone system with an AI-powered answering agent.",
     "category": "Free AI Call Center",
     "link": "https://www.openphone.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/openphone.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/openphone.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3040,7 +3040,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 3 users and a 10-day free trial for a virtual phone system.",
     "category": "Free AI Call Center",
     "link": "https://callhippo.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/callhippo.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/callhippo.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3050,7 +3050,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Automates phone calls with conversational AI and human-sounding agents.",
     "category": "Free AI Call Center",
     "link": "https://bland.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/bland.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bland.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3060,7 +3060,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes 100 free CRM contacts for an omnichannel contact center with AI automation.",
     "category": "Free AI Call Center",
     "link": "https://www.klink.cloud/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/klink.cloud-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/klink.cloud-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3070,7 +3070,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial with unlimited contact info for an AI-powered dialer.",
     "category": "Free AI Call Center",
     "link": "https://dealmachine.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dealmachine.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dealmachine.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3080,7 +3080,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 3 minutes of free calls for an AI-driven voice assistant and white label platform.",
     "category": "Free AI Call Center",
     "link": "https://callin.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/callin.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/callin.io-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3090,7 +3090,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers AI-powered analytics and a smart PBX system.",
     "category": "Free AI Call Center",
     "link": "https://miitel.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/miitel.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/miitel.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3100,7 +3100,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial to automate phone calls with AI voice agents without coding.",
     "category": "Free AI Call Center",
     "link": "https://synthflow.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/synthflow.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/synthflow.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3110,7 +3110,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI-powered cloud communication with omnichannel support.",
     "category": "Free AI Call Center",
     "link": "https://www.ringflow.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ringflow.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ringflow.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3120,7 +3120,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI Phone Receptionist. Offers a 7-day free trial for an AI phone receptionist to automate calls and schedule appointments.",
     "category": "Free AI Call Center",
     "link": "https://myaifrontdesk.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/myaifrontdesk.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myaifrontdesk.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 7
   },
@@ -3130,7 +3130,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for an omnichannel experience and cloud contact center.",
     "category": "Free AI Call Center",
     "link": "https://teloz.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/teloz.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/teloz.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3140,7 +3140,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial for a cloud phone system with AI voice agents.",
     "category": "Free AI Call Center",
     "link": "https://diallink.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/diallink.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/diallink.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3150,7 +3150,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for AI phone call agents and 24/7 customer support.",
     "category": "Free AI Call Center",
     "link": "https://notevibes.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/notevibes.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/notevibes.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3160,7 +3160,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants $10 in free credits to automate calls and chats with 24/7 AI agents.",
     "category": "Free AI Call Center",
     "link": "https://insighto.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/insighto.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insighto.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3170,7 +3170,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial to automate dialers and audit calls with AI.",
     "category": "Free AI Call Center",
     "link": "https://salesrender.com/en",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/salesrender.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/salesrender.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3180,7 +3180,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers the first 500 minutes free for AI-powered answering services with voice cloning.",
     "category": "Free AI Call Center",
     "link": "https://phonely.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/phonely.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/phonely.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3190,7 +3190,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-powered phone calls with hyper-realistic voice agents speaking 29 languages.",
     "category": "Free AI Call Center",
     "link": "https://www.usesimple.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/usesimple.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/usesimple.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3200,7 +3200,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers the first month free to capture lost phone orders and increase revenue.",
     "category": "Free AI Call Center",
     "link": "https://strideq.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/strideq.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/strideq.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3210,7 +3210,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Includes 100 free message credits per month for an AI chatbot builder and human-like calls.",
     "category": "Free AI Call Center",
     "link": "https://www.newoaks.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/newoaks.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/newoaks.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3220,7 +3220,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Call Center features.",
     "category": "Free AI Call Center",
     "link": "https://getdolphin.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getdolphin.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getdolphin.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3230,7 +3230,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Call Center features.",
     "category": "Free AI Call Center",
     "link": "https://www.fix-it.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/fix-it.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fix-it.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3240,7 +3240,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial to set up an AI call center in under 5 minutes with human-like agents.",
     "category": "Free AI Call Center",
     "link": "https://www.telewizard.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/telewizard.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/telewizard.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3250,7 +3250,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for automated client communication and 24/7 availability.",
     "category": "Free AI Call Center",
     "link": "https://bookedsolid.co.uk/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/bookedsolid.co.uk-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bookedsolid.co.uk-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3260,7 +3260,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for automated inbound and outbound voice AI with CRM integrations.",
     "category": "Free AI Call Center",
     "link": "https://www.fluents.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/fluents.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fluents.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3270,7 +3270,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial with 25 minutes included for AI voice assistants and outbound calls.",
     "category": "Free AI Call Center",
     "link": "https://adola.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/adola.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/adola.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3280,7 +3280,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-powered automation for appointments and cold calling with Arabic voice agents.",
     "category": "Free AI Call Center",
     "link": "https://callab.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/callab.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/callab.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3290,7 +3290,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day trial for automated call audits and agent performance management.",
     "category": "Free AI Call Center",
     "link": "https://callzen.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/callzen.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/callzen.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3300,7 +3300,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 10 free minutes for AI-powered answering and outbound calls with a 24/7 AI receptionist.",
     "category": "Free AI Call Center",
     "link": "https://callsupport.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/callsupport.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/callsupport.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3310,7 +3310,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Call Center features.",
     "category": "Free AI Call Center",
     "link": "https://www.thunai.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/thunai.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thunai.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3320,7 +3320,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for AI call center training with voice AI roleplay and immediate feedback.",
     "category": "Free AI Call Center",
     "link": "https://www.blobfish-ai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/blobfish-ai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blobfish-ai.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3330,7 +3330,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Call Center features.",
     "category": "Free AI Call Center",
     "link": "https://teleiq.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/teleiq.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/teleiq.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3340,7 +3340,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 30-day trial for $1 for realistic AI call simulations and instant grading.",
     "category": "Free AI Call Center",
     "link": "https://callflow.dev/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/callflow.dev-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/callflow.dev-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3350,7 +3350,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 20 free minutes and an agent for 24/7 AI call answering with human-like conversations.",
     "category": "Free AI Call Center",
     "link": "https://rxpt.us/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/rxpt.us-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rxpt.us-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3360,7 +3360,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 100 free test calls for AI-driven natural conversations to boost conversions.",
     "category": "Free AI Call Center",
     "link": "https://build-on.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/build-on.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/build-on.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3370,7 +3370,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 20 free minutes for AI-powered phone answering with human-like AI.",
     "category": "Free AI Call Center",
     "link": "https://flowon.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/flowon.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flowon.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3380,7 +3380,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 200 free credits for no-code real-time voice AI agent creation.",
     "category": "Free AI Call Center",
     "link": "https://quantz.thinkxinc.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/quantz.thinkxinc.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quantz.thinkxinc.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3390,7 +3390,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 3 free calls for real-time call uploads and analysis.",
     "category": "Free AI Call Center",
     "link": "https://www.qualint.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/qualint.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/qualint.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3400,7 +3400,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a limited time of AI calls to make and answer phone calls.",
     "category": "Free AI Call Center",
     "link": "https://www.langcall.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/langcall.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/langcall.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3410,7 +3410,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides an AI call answering service with intelligent scheduling and local numbers.",
     "category": "Free AI Call Center",
     "link": "https://answering.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/answering.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/answering.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3420,7 +3420,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 30-day trial for automated call answering with no-code scenario flow building.",
     "category": "Free AI Call Center",
     "link": "https://suggest.gift/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/suggest.gift-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/suggest.gift-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3430,7 +3430,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 10 free minutes per month for human-like AI phone calls to improve satisfaction.",
     "category": "Free AI Call Center",
     "link": "http://brilo.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/brilo.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brilo.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3440,7 +3440,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for an integrated customer contact system with a 24/7 AI assistant.",
     "category": "Free AI Call Center",
     "link": "https://www.instadesk.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/instadesk.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instadesk.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3450,7 +3450,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 20 minutes of free access for an AI-powered voice bot to automate support.",
     "category": "Free AI Call Center",
     "link": "https://www.precallai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/precallai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/precallai.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3460,7 +3460,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for an AI-powered communication platform to handle intake calls.",
     "category": "Free AI Call Center",
     "link": "https://casegen.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/casegen.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/casegen.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3470,7 +3470,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial to answer calls using AI with a customizable voice agent.",
     "category": "Free AI Call Center",
     "link": "https://simplephones.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/simplephones.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simplephones.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3480,7 +3480,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for AI voice agents for calls and website interactions.",
     "category": "Free AI Call Center",
     "link": "https://aqx.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/aqx.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aqx.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 6
   },
@@ -3490,7 +3490,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Uses AI to have full 10-40 minute phone calls that sound human with infinite memory.",
     "category": "Free AI Call Center",
     "link": "https://air.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/air.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/air.ai-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3500,7 +3500,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 60 free minutes of credits to automate phone calls with AI voice agents.",
     "category": "Free AI Call Center",
     "link": "https://autonomousagent.in/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/autonomousagent.in-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autonomousagent.in-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   },
@@ -3510,7 +3510,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 60 free minutes of credits to automate business calls with human-like AI voice agents.",
     "category": "Free AI Call Center",
     "link": "https://nexavoxa.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/nexavoxa.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nexavoxa.com-128x128__Estimated_.png",
     "icon": "PhoneCall",
     "score": 8
   }
@@ -3522,7 +3522,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 50 free feedback notes to understand customer needs and prioritize features.",
     "category": "Free AI Product Manager",
     "link": "https://www.productboard.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/productboard.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/productboard.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3532,7 +3532,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Acts as an AI copilot for product managers to draft docs and coach on PM skills.",
     "category": "Free AI Product Manager",
     "link": "https://www.chatprd.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/chatprd.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chatprd.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3542,7 +3542,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free platform for AI-powered GTM plans, competitive intelligence, and product roadmaps.",
     "category": "Free AI Product Manager",
     "link": "https://haveignition.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/haveignition.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/haveignition.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3552,7 +3552,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI product management software with voice of customer insights.",
     "category": "Free AI Product Manager",
     "link": "https://zeda.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/zeda.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zeda.io-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3562,7 +3562,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows analyzing up to 25 feedback items free for AI feedback analysis and widgets.",
     "category": "Free AI Product Manager",
     "link": "https://olvy.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/olvy.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/olvy.co-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3572,7 +3572,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial to automate product documentation with AI.",
     "category": "Free AI Product Manager",
     "link": "https://www.narratize.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/narratize.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/narratize.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3582,7 +3582,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for a real-time AI assistant to transform meeting conversations into deliverables.",
     "category": "Free AI Product Manager",
     "link": "https://www.tryearmark.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/tryearmark.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tryearmark.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3592,7 +3592,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-powered product documentation to streamline the development process.",
     "category": "Free AI Product Manager",
     "link": "https://proddy.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/proddy.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/proddy.io-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3602,7 +3602,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 15,000 free tokens for a voice AI-powered assistant to generate product requirements.",
     "category": "Free AI Product Manager",
     "link": "https://boggl.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/boggl.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/boggl.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3612,7 +3612,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Serves as an AI co-pilot for product strategy and opportunity mapping.",
     "category": "Free AI Product Manager",
     "link": "https://www.velocitipm.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/velocitipm.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/velocitipm.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3622,7 +3622,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Visualizes workflows and tickets with AI to supercharge ideation and writing.",
     "category": "Free AI Product Manager",
     "link": "https://nostic.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/nostic.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nostic.app-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3632,7 +3632,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 10 free credits for AI-powered PRDs and visual user flows.",
     "category": "Free AI Product Manager",
     "link": "https://prdkit.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/prdkit.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prdkit.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3642,7 +3642,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a forever free plan to inspire creativity and streamline product development.",
     "category": "Free AI Product Manager",
     "link": "https://productcore.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/productcore.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/productcore.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3652,7 +3652,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a free forever tool with senior-level product skills and proven frameworks.",
     "category": "Free AI Product Manager",
     "link": "https://baselinestudio.design/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/baselinestudio.design-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/baselinestudio.design-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3662,7 +3662,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan to automate customer profiles, personas, and journey maps.",
     "category": "Free AI Product Manager",
     "link": "https://product-lab.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/product-lab.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/product-lab.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3672,7 +3672,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial to collect, prioritize, and act on feedback with AI.",
     "category": "Free AI Product Manager",
     "link": "https://visionari.me/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/visionari.me-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/visionari.me-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3682,7 +3682,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free forever AI requirement generation tool for the fastest editor.",
     "category": "Free AI Product Manager",
     "link": "https://metastory.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/metastory.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/metastory.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3692,7 +3692,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free forever plan for AI-powered requirements generation and developer-approved specs.",
     "category": "Free AI Product Manager",
     "link": "https://full.cx/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/full.cx-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/full.cx-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3702,7 +3702,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1 free project for structured product plans with AI-ready prompts.",
     "category": "Free AI Product Manager",
     "link": "https://rocknroll.dev/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/rocknroll.dev-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rocknroll.dev-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3712,7 +3712,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1 active project and 1 hour of audio transcription free for AI-generated trees.",
     "category": "Free AI Product Manager",
     "link": "https://prodely.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/prodely.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prodely.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3722,7 +3722,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 7-day free trial for an AI-powered product manager to generate requirements.",
     "category": "Free AI Product Manager",
     "link": "https://enzzo.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/enzzo.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/enzzo.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3732,7 +3732,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI-powered conversational feedback and intelligent insight reports.",
     "category": "Free AI Product Manager",
     "link": "https://iterato.in/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/iterato.in-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iterato.in-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3742,7 +3742,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free 30-day trial or lifetime access for single users for AI-powered productivity.",
     "category": "Free AI Product Manager",
     "link": "https://penome.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/penome.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/penome.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3752,7 +3752,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 3 users and 3 projects for AI ticket generation and sprint planning.",
     "category": "Free AI Product Manager",
     "link": "https://subseq.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/subseq.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/subseq.io-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3762,7 +3762,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Uses generative AI to automate routine tasks and integrate with GitHub and Jira.",
     "category": "Free AI Product Manager",
     "link": "https://prodops.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/prodops.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/prodops.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3772,7 +3772,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 3-month free trial for AI-driven insights and streamlined workflows.",
     "category": "Free AI Product Manager",
     "link": "https://discoveryoutcomes.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/discoveryoutcomes.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/discoveryoutcomes.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3782,7 +3782,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial to automatically find, log, and summarize product feedback.",
     "category": "Free AI Product Manager",
     "link": "https://www.mistlyai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/mistlyai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mistlyai.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3792,7 +3792,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Acts as an AI-first co-pilot for product managers with simulated user research.",
     "category": "Free AI Product Manager",
     "link": "https://www.insightq.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/insightq.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insightq.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3802,7 +3802,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 100 free products to sync to marketplaces and fill specifications automatically.",
     "category": "Free AI Product Manager",
     "link": "https://syncbob.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/syncbob.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/syncbob.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3812,7 +3812,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 100 free credits to generate PRDs and technical specifications.",
     "category": "Free AI Product Manager",
     "link": "https://signlz.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/signlz.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/signlz.co-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3822,7 +3822,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day trial with 10 free AI searches per month to extract insights.",
     "category": "Free AI Product Manager",
     "link": "https://www.feedbacksync.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/feedbacksync.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feedbacksync.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3832,7 +3832,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Product Manager features.",
     "category": "Free AI Product Manager",
     "link": "https://www.pmtoolsai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/pmtoolsai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pmtoolsai.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3842,7 +3842,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows trying for free for AI-powered PRD creation and customer insights.",
     "category": "Free AI Product Manager",
     "link": "https://getblackray.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getblackray.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getblackray.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3852,7 +3852,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "AI-powered productivity tool for summarizing content and generating ideas.",
     "category": "Free AI Product Manager",
     "link": "https://genie.pm/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/genie.pm-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/genie.pm-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3862,7 +3862,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1 free product and team member to collect feedback and prioritize features.",
     "category": "Free AI Product Manager",
     "link": "https://leanbe.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/leanbe.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/leanbe.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3872,7 +3872,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows starting for free for customer feedback analysis and AI-powered insights.",
     "category": "Free AI Product Manager",
     "link": "https://www.monterey.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/monterey.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monterey.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3882,7 +3882,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 1,800 free words per month for deep AI analysis of user feedback.",
     "category": "Free AI Product Manager",
     "link": "https://www.kraftful.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/kraftful.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kraftful.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3892,7 +3892,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-powered strategy canvas generation and business model illustration.",
     "category": "Free AI Product Manager",
     "link": "https://www.canvasai.de/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/canvasai.de-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/canvasai.de-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3902,7 +3902,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers AI-powered resume analysis and 32,000+ PM questions.",
     "category": "Free AI Product Manager",
     "link": "https://nextsprints.com/resume-review",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/nextsprints.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nextsprints.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3912,7 +3912,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial to unify analytics and feedback with AI-powered insights.",
     "category": "Free AI Product Manager",
     "link": "https://crowdapp.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/crowdapp.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crowdapp.io-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3922,7 +3922,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 15 free credits for AI-powered review analysis and personas.",
     "category": "Free AI Product Manager",
     "link": "https://www.metabees.org/redstone",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/metabees.org-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/metabees.org-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3932,7 +3932,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-driven efficiency for product decisions with centralized workflows.",
     "category": "Free AI Product Manager",
     "link": "https://augmeta.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/augmeta.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/augmeta.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3942,7 +3942,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 50 free messages to turn conversations into actionable product features.",
     "category": "Free AI Product Manager",
     "link": "https://choicechaser.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/choicechaser.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/choicechaser.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3952,7 +3952,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 50 free user stories per month for AI-powered user story generation.",
     "category": "Free AI Product Manager",
     "link": "https://qikpm.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/qikpm.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/qikpm.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3962,7 +3962,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 2-week risk-free trial to access vetted global talent with an AI recruiter.",
     "category": "Free AI Product Manager",
     "link": "https://arc.dev/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/arc.dev-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/arc.dev-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3972,7 +3972,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 100 free credits per month to automate human-like interviews and process data.",
     "category": "Free AI Product Manager",
     "link": "https://yasna.ai/&utm_medium=listing",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/yasna.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/yasna.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -3982,7 +3982,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 10 free credits upon registration to generate authentic UGC ad videos.",
     "category": "Free AI Product Manager",
     "link": "https://ugcmaker.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ugcmaker.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ugcmaker.io-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -3992,7 +3992,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 14-day free trial for AI-powered competitor monitoring and strategic plans.",
     "category": "Free AI Product Manager",
     "link": "https://www.lensmor.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/lensmor.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lensmor.com-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   },
@@ -4002,7 +4002,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows 50 free queries per day with a persistent AI memory layer and cognitive framework.",
     "category": "Free AI Product Manager",
     "link": "https://olivares.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/olivares.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/olivares.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 8
   },
@@ -4012,7 +4012,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1 free question and answer for AI-powered interviews with personalized feedback.",
     "category": "Free AI Product Manager",
     "link": "https://mockaroni.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/mockaroni.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mockaroni.ai-128x128__Estimated_.png",
     "icon": "Target",
     "score": 6
   }
@@ -4024,7 +4024,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 100 MB of cloud storage and 3 libraries free for AI-powered, no-code data management.",
     "category": "Free AI ERP",
     "link": "https://mementodatabase.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/mementodatabase.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mementodatabase.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4034,7 +4034,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 10 users, 1,000 agent credits, and 1,000 records for AI-powered applications.",
     "category": "Free AI ERP",
     "link": "https://www.erp.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/erp.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/erp.ai-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4044,7 +4044,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows sending 2,000 emails for free to build landing pages and create online courses.",
     "category": "Free AI ERP",
     "link": "https://tribearc.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/tribearc.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tribearc.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4054,7 +4054,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free trial for AI-powered education administration and accreditation optimization.",
     "category": "Free AI ERP",
     "link": "https://edmin.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/edmin.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/edmin.co-128x128__Estimated_.png",
     "icon": "Database",
     "score": 6
   },
@@ -4064,7 +4064,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides AI-driven commerce operations to unify and automate platforms.",
     "category": "Free AI ERP",
     "link": "https://stateset.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/stateset.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/stateset.io-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4074,7 +4074,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers all-in-one business management to automate business operations.",
     "category": "Free AI ERP",
     "link": "https://mejerpai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/mejerpai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mejerpai.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4084,7 +4084,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI-powered inventory management with multichannel integration.",
     "category": "Free AI ERP",
     "link": "https://inventory365.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/inventory365.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inventory365.co-128x128__Estimated_.png",
     "icon": "Database",
     "score": 6
   },
@@ -4094,7 +4094,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers an all-in-one business solution to optimize processes with intelligent workflows.",
     "category": "Free AI ERP",
     "link": "https://gaussbox.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gaussbox.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gaussbox.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4104,7 +4104,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://duosoft.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/duosoft.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/duosoft.co-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4114,7 +4114,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://www.dxyfer.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/dxyfer.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dxyfer.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4124,7 +4124,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://www.docuclipper.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/docuclipper.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/docuclipper.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4134,7 +4134,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a transportation management system and workforce automation platform.",
     "category": "Free AI ERP",
     "link": "https://www.datatruck.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/datatruck.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/datatruck.io-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4144,7 +4144,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://www.logistify.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/logistify.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/logistify.ai-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4154,7 +4154,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://folderr.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/folderr.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/folderr.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4164,7 +4164,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "http://financeops.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/financeops.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/financeops.ai-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4174,7 +4174,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://www.documentpro.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/documentpro.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/documentpro.ai-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4184,7 +4184,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://chromewebstore.google.com/detail/%E5%BA%97%E5%B0%8F%E5%AE%9D/mpejmbnlbgamjhgnoongmdnpmhoeilje",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chromewebstore.google.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4194,7 +4194,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://getpersona.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getpersona.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getpersona.app-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   },
@@ -4204,7 +4204,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic ERP features.",
     "category": "Free AI ERP",
     "link": "https://rok-solution.com/en",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/rok-solution.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rok-solution.com-128x128__Estimated_.png",
     "icon": "Database",
     "score": 8
   }
@@ -4216,7 +4216,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 50 free feedback notes to understand customer needs and prioritize features.",
     "category": "Free AI Roadmap",
     "link": "https://www.productboard.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/productboard.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/productboard.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4226,7 +4226,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://skillai.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/skillai.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/skillai.io-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4236,7 +4236,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 14-day free trial for AI product management software with voice of customer insights.",
     "category": "Free AI Roadmap",
     "link": "https://zeda.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/zeda.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zeda.io-128x128__Estimated_.png",
     "icon": "Map",
     "score": 6
   },
@@ -4246,7 +4246,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "http://productroadmap.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/productroadmap.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/productroadmap.ai-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4256,7 +4256,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://productbridge.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/productbridge.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/productbridge.io-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4266,7 +4266,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://www.getnudger.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getnudger.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getnudger.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4276,7 +4276,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://plani.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/plani.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plani.ai-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4286,7 +4286,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows 2 free prototype generations to predict software costs and hire vetted developers.",
     "category": "Free AI Roadmap",
     "link": "https://pre.dev/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/pre.dev-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pre.dev-128x128__Estimated_.png",
     "icon": "Map",
     "score": 6
   },
@@ -4296,7 +4296,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a 30-day free trial and is free for up to 10 users for user story maps and roadmaps.",
     "category": "Free AI Roadmap",
     "link": "https://userstorymap.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/userstorymap.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/userstorymap.io-128x128__Estimated_.png",
     "icon": "Map",
     "score": 6
   },
@@ -4306,7 +4306,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://validea.co/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/validea.co-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/validea.co-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4316,7 +4316,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Grants 15,000 free tokens for a voice AI-powered assistant to generate product requirements.",
     "category": "Free AI Roadmap",
     "link": "https://boggl.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/boggl.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/boggl.ai-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4326,7 +4326,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides a 7-day free trial to collect, prioritize, and act on feedback with AI.",
     "category": "Free AI Roadmap",
     "link": "https://visionari.me/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/visionari.me-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/visionari.me-128x128__Estimated_.png",
     "icon": "Map",
     "score": 6
   },
@@ -4336,7 +4336,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1 free project for structured product plans with AI-ready prompts.",
     "category": "Free AI Roadmap",
     "link": "https://rocknroll.dev/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/rocknroll.dev-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rocknroll.dev-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4346,7 +4346,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://www.spectiveinnovation.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/spectiveinnovation.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spectiveinnovation.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4356,7 +4356,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://getexistential.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/getexistential.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getexistential.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4366,7 +4366,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers 1 free product and team member to collect feedback and prioritize features.",
     "category": "Free AI Roadmap",
     "link": "https://leanbe.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/leanbe.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/leanbe.ai-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4376,7 +4376,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides 3 free editable boards for an online collaborative whiteboard with AI-powered features.",
     "category": "Free AI Roadmap",
     "link": "https://miro.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/miro.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/miro.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4386,7 +4386,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Provides 30 days free access to foresight, ideation, and portfolio management tools.",
     "category": "Free AI Roadmap",
     "link": "https://www.itonics-innovation.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/itonics-innovation.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/itonics-innovation.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 6
   },
@@ -4396,7 +4396,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free platform for AI-powered GTM plans, competitive intelligence, and product roadmaps.",
     "category": "Free AI Roadmap",
     "link": "https://haveignition.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/haveignition.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/haveignition.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4406,7 +4406,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://produxtgenius.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/produxtgenius.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/produxtgenius.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4416,7 +4416,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://aptibuildai.replit.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/aptibuildai.replit.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aptibuildai.replit.app-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4426,7 +4426,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Allows 50 free queries per day with a persistent AI memory layer and cognitive framework.",
     "category": "Free AI Roadmap",
     "link": "https://olivares.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/olivares.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/olivares.ai-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4436,7 +4436,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://www.grain99.cc/en/home?hmsr=toolify",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/grain99.cc-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/grain99.cc-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4446,7 +4446,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 3 users and 3 projects for AI ticket generation and sprint planning.",
     "category": "Free AI Roadmap",
     "link": "https://subseq.io/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/subseq.io-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/subseq.io-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4456,7 +4456,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://www.epicstart.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/epicstart.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/epicstart.ai-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4466,7 +4466,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://info.whenable.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/info.whenable.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/info.whenable.app-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4476,7 +4476,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Acts as an AI-first co-pilot for product managers with simulated user research.",
     "category": "Free AI Roadmap",
     "link": "https://www.insightq.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/insightq.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insightq.ai-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4486,7 +4486,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://ai.wiz.link/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/ai.wiz.link-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai.wiz.link-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4496,7 +4496,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://gromaply.app/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/gromaply.app-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gromaply.app-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4506,7 +4506,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free plan for 4 users for Scrum project management with an AI Copilot.",
     "category": "Free AI Roadmap",
     "link": "https://scrumdesk.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/scrumdesk.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scrumdesk.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4516,7 +4516,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://choptask.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/choptask.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/choptask.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4526,7 +4526,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free 30-day trial or lifetime access for single users for AI-powered productivity.",
     "category": "Free AI Roadmap",
     "link": "https://penome.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/penome.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/penome.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4536,7 +4536,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://matchthatroleai.com/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/matchthatroleai.com-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/matchthatroleai.com-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4546,7 +4546,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://appflows.ai/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/appflows.ai-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/appflows.ai-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   },
@@ -4556,7 +4556,7 @@ export const business_management_tools: Record<string, Tool[]> = {
     "description": "Offers a free version for small teams and individuals with basic Roadmap features.",
     "category": "Free AI Roadmap",
     "link": "https://plans.quest/",
-    "iconUrl": "https://freeaitools.ct.ws/public/icons/plans.quest-128x128__Estimated_.png",
+    "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plans.quest-128x128__Estimated_.png",
     "icon": "Map",
     "score": 8
   }

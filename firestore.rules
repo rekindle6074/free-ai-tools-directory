@@ -61,6 +61,13 @@ service cloud.firestore {
              (!('note' in data) || (data.note is string && data.note.size() < 2000));
     }
 
+    function isValidFolder(data) {
+      return data.keys().hasAll(['name', 'toolIds', 'createdAt']) &&
+             data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+             data.toolIds is list && data.toolIds.size() <= 100 &&
+             data.createdAt is timestamp;
+    }
+
     // Rules
     match /tools/{toolId} {
       allow read: if true; // Publicly readable
@@ -80,6 +87,12 @@ service cloud.firestore {
       match /favorites/{toolId} {
         allow read: if isOwner(userId);
         allow create, update: if isOwner(userId) && isValidFavorite(request.resource.data);
+        allow delete: if isOwner(userId);
+      }
+
+      match /folders/{folderId} {
+        allow read: if isOwner(userId);
+        allow create, update: if isOwner(userId) && isValidFolder(request.resource.data);
         allow delete: if isOwner(userId);
       }
     }

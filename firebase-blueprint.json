@@ -36,6 +36,17 @@
       },
       "required": ["uid", "email"]
     },
+    "Folder": {
+      "title": "Custom Folder",
+      "description": "A user-created custom folder to organize favorite tools.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the folder" },
+        "toolIds": { "type": "array", "items": { "type": "string" }, "description": "IDs of tools contained inside this folder" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "When the folder was created" }
+      },
+      "required": ["name", "toolIds"]
+    },
     "Favorite": {
       "title": "User Favorite",
       "description": "A tool favorited by a user with an optional note.",
@@ -64,6 +75,10 @@
     "/users/{userId}/favorites/{toolId}": {
       "schema": "Favorite",
       "description": "User's favorited tools with notes"
+    },
+    "/users/{userId}/folders/{folderId}": {
+      "schema": "Folder",
+      "description": "User's custom folders to organize favorites"
     },
     "/stats/{statId}": {
       "schema": {

@@ -428,7 +428,7 @@ const HomePage: FC = () => {
         <title>FreeAI Tools - Best Free AI Directory & Alternatives</title>
         <meta name="description" content="Discover the best free AI tools and alternatives to expensive SaaS. Curated directory for developers, creators, and students. No tracking, privacy first." />
         <meta name="keywords" content="free ai tools, ai directory, free ai alternatives, ai for developers, free ai image generator, ai music generator" />
-        <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : "https://freeaitools.ct.ws/"} />
+        <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : "https://free-ai-tools-directory.vercel.app/"} />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>

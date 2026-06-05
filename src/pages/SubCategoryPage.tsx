@@ -61,19 +61,19 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://freeaitools.ct.ws/"
+        "item": "https://free-ai-tools-directory.vercel.app/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Categories",
-        "item": "https://freeaitools.ct.ws/categories"
+        "item": "https://free-ai-tools-directory.vercel.app/categories"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": displayTitle,
-        "item": `https://freeaitools.ct.ws/category/${currentPath}`
+        "item": `https://free-ai-tools-directory.vercel.app/category/${currentPath}`
       }
     ]
   };
@@ -84,7 +84,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
         <title>{displayTitle} Tools - Best Free Alternatives 2026</title>
         <meta name="description" content={`Access ${subCategory.count}+ best free AI tools for ${cleanName.toLowerCase()}. Save money with vetted free alternatives in the ${parentCategoryName.toLowerCase()} space. Updated for 2026.`} />
         <meta name="keywords" content={`free ai ${cleanName.toLowerCase()}, best free ${cleanName.toLowerCase()} ai, ${subCategory.tag}, free ai tools 2026, ${parentCategoryName.toLowerCase()} free software`} />
-        <link rel="canonical" href={`https://freeaitools.ct.ws/category/${currentPath}`} />
+        <link rel="canonical" href={`https://free-ai-tools-directory.vercel.app/category/${currentPath}`} />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
         </script>

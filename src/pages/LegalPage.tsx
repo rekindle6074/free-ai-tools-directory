@@ -35,7 +35,7 @@ const LegalPage: FC = () => {
                   <h2 className="text-xl font-bold text-slate-900">1. Site Ownership</h2>
                 </div>
                 <p className="text-slate-600 leading-relaxed">
-                  This website, accessible at <span className="font-medium text-slate-900">https://freeaitools.ct.ws/</span>, is owned and operated by <span className="font-medium text-slate-900">Max Rivera</span>.
+                  This website, accessible at <span className="font-medium text-slate-900">https://free-ai-tools-directory.vercel.app/</span>, is owned and operated by <span className="font-medium text-slate-900">Max Rivera</span>.
                 </p>
               </section>
 

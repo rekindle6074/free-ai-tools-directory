@@ -10,6 +10,7 @@ export const FavoritesSyncManager: FC = () => {
     if (!auth || !db) return;
 
     let unsubscribeSnapshot: (() => void) | null = null;
+    let unsubscribeFoldersSnapshot: (() => void) | null = null;
 
     const unsubscribeAuth = onAuthStateChanged(auth, async (user) => {
       // If user logs out, stop subscription
@@ -17,6 +18,10 @@ export const FavoritesSyncManager: FC = () => {
         if (unsubscribeSnapshot) {
           unsubscribeSnapshot();
           unsubscribeSnapshot = null;
+        }
+        if (unsubscribeFoldersSnapshot) {
+          unsubscribeFoldersSnapshot();
+          unsubscribeFoldersSnapshot = null;
         }
         return;
       }
@@ -26,7 +31,7 @@ export const FavoritesSyncManager: FC = () => {
       isSyncingRef.current = true;
 
       try {
-        // --- 1. INITIAL SYNC / MERGE ---
+        // --- 1. INITIAL SYNC / MERGE FAVORITES ---
         // Get local favorites first
         let localIds: string[] = [];
         try {
@@ -70,7 +75,42 @@ export const FavoritesSyncManager: FC = () => {
           );
         }
 
-        // --- 2. SET UP LIVE COLLECTION SUBSCRIPTION (ONE-WAY CLOUD SOURCE OF TRUTH) ---
+        // --- 2. INITIAL SYNC / MERGE FOLDERS ---
+        let localFolders: any[] = [];
+        try {
+          const stored = localStorage.getItem("vetted_ai_folders");
+          if (stored) {
+            localFolders = JSON.parse(stored) || [];
+          }
+        } catch (e) {}
+
+        const foldersRef = collection(db, "users", user.uid, "folders");
+        const foldersSnapshot = await getDocs(foldersRef);
+        const dbFolderIds = foldersSnapshot.docs.map(docSnap => docSnap.id);
+        const dbFolderSet = new Set(dbFolderIds);
+
+        // Find folders in local storage that don't exist in db
+        const missingFolders = localFolders.filter(f => f.id && !dbFolderSet.has(f.id));
+
+        if (missingFolders.length > 0) {
+          console.log(`[Sync] Uploading ${missingFolders.length} offline/local folders to Firestore...`);
+          await Promise.all(
+            missingFolders.map(async (folder) => {
+              const folderDocRef = doc(db, "users", user.uid, "folders", folder.id);
+              try {
+                await setDoc(folderDocRef, {
+                  name: folder.name,
+                  toolIds: folder.toolIds || [],
+                  createdAt: serverTimestamp()
+                }, { merge: true });
+              } catch (err) {
+                console.warn(`[Sync] Failed to upload folder ${folder.id}:`, err);
+              }
+            })
+          );
+        }
+
+        // --- 3. SET UP LIVE COLLECTION SUBSCRIPTION (ONE-WAY CLOUD SOURCE OF TRUTH) ---
         if (unsubscribeSnapshot) {
           unsubscribeSnapshot();
         }
@@ -102,6 +142,32 @@ export const FavoritesSyncManager: FC = () => {
           handleFirestoreError(error, OperationType.GET, `users/${user.uid}/favorites`);
         });
 
+        // --- 4. SET UP LIVE FOLDERS SUBSCRIPTION ---
+        if (unsubscribeFoldersSnapshot) {
+          unsubscribeFoldersSnapshot();
+        }
+
+        unsubscribeFoldersSnapshot = onSnapshot(foldersRef, (subSnapshot) => {
+          const folderList = subSnapshot.docs.map(docSnap => {
+            const data = docSnap.data();
+            return {
+              id: docSnap.id,
+              name: data.name || "",
+              toolIds: data.toolIds || [],
+              createdAt: data.createdAt
+            };
+          });
+
+          try {
+            localStorage.setItem("vetted_ai_folders", JSON.stringify(folderList));
+          } catch (e) {}
+
+          window.dispatchEvent(new Event("vetted_folders_changed"));
+        }, (error) => {
+          console.error("[Sync] Firestore folders listener error:", error);
+          handleFirestoreError(error, OperationType.GET, `users/${user.uid}/folders`);
+        });
+
       } catch (error) {
         console.error("[Sync] Error during initial sync setup:", error);
       } finally {
@@ -113,6 +179,9 @@ export const FavoritesSyncManager: FC = () => {
       unsubscribeAuth();
       if (unsubscribeSnapshot) {
         unsubscribeSnapshot();
+      }
+      if (unsubscribeFoldersSnapshot) {
+        unsubscribeFoldersSnapshot();
       }
     };
   }, []);

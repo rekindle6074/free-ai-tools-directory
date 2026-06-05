@@ -8,7 +8,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://hullo.dating/ai-bio-generator",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/hullo.dating-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hullo.dating-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -18,7 +18,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.lovegenius.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lovegenius.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lovegenius.io-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -28,7 +28,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.styldod.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/styldod.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/styldod.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -38,7 +38,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.writemybio.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/writemybio.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/writemybio.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -48,7 +48,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://propresence.com.au/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/propresence.com.au-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/propresence.com.au-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -58,7 +58,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.biographystudio.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/biographystudio.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/biographystudio.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -68,7 +68,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "A free-to-download mobile application offering essential AI bio generator tools for users on the go.",
       "category": "Social Growth Hub",
       "link": "https://apps.apple.com/app/ai-bio-generator/id6742098679",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -78,7 +78,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://socialmediabiogenerator.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/socialmediabiogenerator.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialmediabiogenerator.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -88,7 +88,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://introai.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/introai.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/introai.me-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -98,7 +98,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.twitterbio.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/twitterbio.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/twitterbio.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -108,7 +108,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://threadgenius.tech/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/threadgenius.tech-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/threadgenius.tech-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -118,7 +118,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://10xtechinfinity.in/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/10xtechinfinity.in-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/10xtechinfinity.in-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -128,7 +128,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://growfol.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/growfol.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/growfol.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -138,7 +138,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://firstpic.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/firstpic.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/firstpic.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -148,7 +148,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://plano.ly/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/plano.ly-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plano.ly-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -158,7 +158,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "A free-to-download mobile application offering essential AI bio generator tools for users on the go.",
       "category": "Social Growth Hub",
       "link": "https://play.google.com/store/apps/details?id=com.superusersam.resumepro",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -168,7 +168,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "A free-to-download mobile application offering essential AI bio generator tools for users on the go.",
       "category": "Social Growth Hub",
       "link": "https://apps.apple.com/us/app/cosmic/id1636153304",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -178,7 +178,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://aiwritertool.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aiwritertool.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiwritertool.org-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -188,7 +188,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://summaryin.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/summaryin.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summaryin.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -198,7 +198,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "A free-to-download mobile application offering essential AI bio generator tools for users on the go.",
       "category": "Social Growth Hub",
       "link": "https://apps.apple.com/ee/app/date-ai/id6446651710",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -208,7 +208,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.meetmillie.app/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/meetmillie.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/meetmillie.app-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -218,7 +218,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://wizgenerator.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/wizgenerator.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wizgenerator.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -228,7 +228,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial for AI-powered content creation and detailed analytics.",
       "category": "Social Growth Hub",
       "link": "https://taplio.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/taplio.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taplio.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -238,7 +238,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.headshotpro.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/headshotpro.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/headshotpro.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -248,7 +248,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Offers 20 credits per month to generate engaging tweets with tailored tone control.",
       "category": "Social Growth Hub",
       "link": "https://www.tweetstorm.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetstorm.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetstorm.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -258,7 +258,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://robopost.app/en/features/robopost-ai",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/robopost.app-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/robopost.app-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -268,7 +268,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.rizzai.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/rizzai.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rizzai.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -278,7 +278,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial for AI-powered content creation, smart scheduling, and follower growth.",
       "category": "Social Growth Hub",
       "link": "https://postwise.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/postwise.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postwise.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -288,7 +288,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a 7-day free trial to track, analyze, and explore TikTok, Reels, and Shorts.,",
       "category": "Social Growth Hub",
       "link": "https://www.shortimize.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/shortimize.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shortimize.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 6
     },
@@ -298,7 +298,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Free forever website builder that includes an email address.",
       "category": "Social Growth Hub",
       "link": "https://ace.me/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/ace.me-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ace.me-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -308,7 +308,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://scripai.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/scripai.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scripai.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -318,7 +318,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://lunroo.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/lunroo.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lunroo.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -328,7 +328,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://fibr.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/fibr.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fibr.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -338,7 +338,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.tweetradar.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetradar.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetradar.io-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -348,7 +348,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.celavii.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/celavii.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/celavii.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -358,7 +358,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://voiceresume.pro/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/voiceresume.pro-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voiceresume.pro-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -368,7 +368,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.interviewprepnow.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/interviewprepnow.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/interviewprepnow.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -378,7 +378,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://www.estatetext.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/estatetext.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/estatetext.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -388,7 +388,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://simplebio.co/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/simplebio.co-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simplebio.co-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -398,7 +398,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://tinderguru.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/tinderguru.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tinderguru.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -408,7 +408,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://cohesive.so/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/cohesive.so-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cohesive.so-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -418,7 +418,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://clevopy.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/clevopy.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clevopy.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -428,7 +428,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://logiclister.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/logiclister.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/logiclister.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -438,7 +438,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://heyopenspot.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/heyopenspot.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heyopenspot.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -448,7 +448,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://characterheadcanongenerator.org/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/characterheadcanongenerator.org-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/characterheadcanongenerator.org-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -458,7 +458,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://becomechad.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/becomechad.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/becomechad.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -468,7 +468,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://mujtama.ai/en",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/mujtama.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mujtama.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -478,7 +478,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://aisocialmediamanager.io/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/aisocialmediamanager.io-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aisocialmediamanager.io-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -488,7 +488,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://schedulewave.com/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/schedulewave.com-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/schedulewave.com-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     },
@@ -498,7 +498,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
       "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven bio generator features.",
       "category": "Social Growth Hub",
       "link": "https://socialdude.ai/",
-      "iconUrl": "https://freeaitools.ct.ws/public/icons/socialdude.ai-128x128__Estimated_.png",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialdude.ai-128x128__Estimated_.png",
       "icon": "User",
       "score": 8
     }
@@ -510,7 +510,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI facebook tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/friendflow/ddlldepdbcgjcabhjmbigoonnepidnnh",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -520,7 +520,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://copycopai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/copycopai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/copycopai.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -530,7 +530,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://post5s.autowork.com.vn/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/post5s.autowork.com.vn-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/post5s.autowork.com.vn-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -540,7 +540,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI facebook tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/nerdy-panda-fb-marketplac/glloldghmglalkoajdffnflknceacogg",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -550,7 +550,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI facebook tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/marketplace-buddy/koljgbpdfhikhfgilmenjhkmdkbhdnmi",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -560,7 +560,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI facebook tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/adlibnote-video-downloade/icphfngeemckldjnnoemfadfploieehk",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -570,7 +570,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://findlostvehicle.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/findlostvehicle.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/findlostvehicle.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -580,7 +580,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI captions and subtitles tool offering AI video dubbing and AI avatars.",
         "category": "Social Growth Hub",
         "link": "https://dubs.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/dubs.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dubs.io-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -590,7 +590,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://www.pipiads.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pipiads.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pipiads.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -600,7 +600,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Powerful AI-powered moderation tool that automatically hides or deletes spam and offensive comments on social media.",
         "category": "Social Growth Hub",
         "link": "https://commentguard.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentguard.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentguard.io-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -610,7 +610,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://marpipe.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/marpipe.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/marpipe.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -620,7 +620,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 300 credits per month (100 per day/3 days) to automate campaigns and analyze data.",
         "category": "Social Growth Hub",
         "link": "https://toffu.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/toffu.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/toffu.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -630,7 +630,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://scripai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scripai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scripai.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -640,7 +640,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered social media monitoring and lead generation tool that finds potential customers across various platforms.",
         "category": "Social Growth Hub",
         "link": "https://ddevi.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ddevi.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ddevi.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -650,7 +650,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://lexilexi.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/lexilexi.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexilexi.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -660,7 +660,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://www.somny.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/somny.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/somny.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -670,7 +670,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://adscan.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/adscan.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/adscan.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -680,7 +680,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://imagetocaption.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/imagetocaption.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imagetocaption.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -690,7 +690,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://viraldashboard.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/viraldashboard.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/viraldashboard.io-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -700,7 +700,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://mygomseo.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mygomseo.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mygomseo.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -710,7 +710,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -720,7 +720,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://dancebetter.org/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/dancebetter.org-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dancebetter.org-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -730,7 +730,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://www.chatagents.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/chatagents.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chatagents.io-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -740,7 +740,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://www.commentbounce.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentbounce.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentbounce.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -750,7 +750,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://bharatbot.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/bharatbot.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bharatbot.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -760,7 +760,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://socialmate.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialmate.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialmate.app-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -770,7 +770,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://didoo.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/didoo.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/didoo.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -780,7 +780,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://cuelab.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cuelab.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cuelab.app-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -790,7 +790,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://peeksta.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/peeksta.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/peeksta.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -800,7 +800,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://atochat.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/atochat.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/atochat.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -810,7 +810,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://www.aiengager.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aiengager.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiengager.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -820,7 +820,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI facebook tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/socialboost-ad-manager/kodpamgfnoipjbfkfdhagafianppccgc",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -830,7 +830,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://heep.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/heep.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heep.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -840,7 +840,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://hippomod.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hippomod.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hippomod.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -850,7 +850,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://genads.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/genads.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/genads.app-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -860,7 +860,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://socialbee.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialbee.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialbee.io-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -870,7 +870,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://whatmore.live/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/whatmore.live-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/whatmore.live-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -880,7 +880,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://www.fusionos.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/fusionos.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fusionos.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -890,7 +890,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://socialdude.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialdude.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialdude.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -900,7 +900,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://www.tubtic.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubtic.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubtic.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -910,7 +910,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI facebook tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/dropship-ecommerce-spypro/achijecdaokoahclipncimpjnanpjbpe",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -920,7 +920,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI facebook tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/click2ai/ccdmhhbpdngohbollmgmplbbdjlphddb",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -930,7 +930,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://postergpt.xyz/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postergpt.xyz-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postergpt.xyz-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -940,7 +940,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://macbeth.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/macbeth.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/macbeth.ai-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     },
@@ -950,7 +950,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven facebook features.",
         "category": "Social Growth Hub",
         "link": "https://giveawayai.org/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/giveawayai.org-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/giveawayai.org-128x128__Estimated_.png",
         "icon": "Facebook",
         "score": 8
     }
@@ -962,7 +962,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 50 free posts to create, plan, and collaborate on social media campaigns without a credit card.",
         "category": "Social Growth Hub",
         "link": "http://planable.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/planable.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planable.io-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -972,7 +972,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 3-day free trial for Instagram keywords & hashtags search and AI assistant.",
         "category": "Social Growth Hub",
         "link": "https://iqhashtags.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/iqhashtags.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iqhashtags.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 6
     },
@@ -982,7 +982,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free AI-driven content generation tool for LinkedIn post scheduling and personal brand building.",
         "category": "Social Growth Hub",
         "link": "https://reachifyme.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/reachifyme.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reachifyme.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -992,7 +992,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.aistockkeywords.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aistockkeywords.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aistockkeywords.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1002,7 +1002,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-generated trending hashtags daily with multi-platform hashtag generation.",
         "category": "Social Growth Hub",
         "link": "https://hashtagenius.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hashtagenius.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hashtagenius.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1012,7 +1012,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.weddinghashtag.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/weddinghashtag.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/weddinghashtag.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1022,7 +1022,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI hashtag tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/app/hashtag-guru-ai-assist-for-ig/id6503111467",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1032,7 +1032,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI hashtag tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://play.google.com/store/apps/details?id=com.mycompany.instatagsgpt&pcampaignid=web_share",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1042,7 +1042,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://tagalyticspro.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tagalyticspro.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tagalyticspro.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1052,7 +1052,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://growfol.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/growfol.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/growfol.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1062,7 +1062,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free beta access for automated video content processing and AI-generated SEO-friendly titles.",
         "category": "Social Growth Hub",
         "link": "https://sanchay.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sanchay.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sanchay.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1072,7 +1072,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI hashtag tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/visualvibe-ai/id6474441097",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1082,7 +1082,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://captionary.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/captionary.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/captionary.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1092,7 +1092,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.taggy.com.mx/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taggy.com.mx-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taggy.com.mx-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1102,7 +1102,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for unified social media management and AI-powered content creation.",
         "category": "Social Growth Hub",
         "link": "https://contentstudio.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/contentstudio.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contentstudio.io-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 6
     },
@@ -1112,7 +1112,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://submagic.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/submagic.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/submagic.co-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1122,7 +1122,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://streamladder.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/streamladder.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/streamladder.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1132,7 +1132,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.flick.social/tools/ai-social-media-post-generator",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/flick.social-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flick.social-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1142,7 +1142,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI assistance for Amazon & Shopify sellers providing review analysis and listing optimization.",
         "category": "Social Growth Hub",
         "link": "https://www.voc.ai/tools/ai-chatbot",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/voc.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voc.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1152,7 +1152,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered social media management, scheduling, and analytics.,",
         "category": "Social Growth Hub",
         "link": "https://www.feedhive.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/feedhive.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feedhive.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 6
     },
@@ -1162,7 +1162,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://zapcap.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/zapcap.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zapcap.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1172,7 +1172,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://ai.tenorshare.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ai.tenorshare.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai.tenorshare.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1182,7 +1182,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 20 credits per month to generate engaging tweets with tailored tone control.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetstorm.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetstorm.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetstorm.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1192,7 +1192,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://timeskip.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/timeskip.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/timeskip.io-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1202,7 +1202,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://zubtitle.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/zubtitle.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zubtitle.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1212,7 +1212,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://robopost.app/en/features/robopost-ai",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/robopost.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/robopost.app-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1222,7 +1222,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.celebrateally.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/celebrateally.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/celebrateally.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1232,7 +1232,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered content creation, smart scheduling, and follower growth.",
         "category": "Social Growth Hub",
         "link": "https://postwise.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postwise.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postwise.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 6
     },
@@ -1242,7 +1242,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://streamgen.cc/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/streamgen.cc-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/streamgen.cc-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1252,7 +1252,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://fanster.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/fanster.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fanster.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1262,7 +1262,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://post5s.autowork.com.vn/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/post5s.autowork.com.vn-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/post5s.autowork.com.vn-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1272,7 +1272,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://feedhive.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/feedhive.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feedhive.io-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1282,7 +1282,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://capit.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/capit.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/capit.app-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1292,7 +1292,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free forever tool with 5 daily content ideas, 5 personalized captions, and 10 public account searches.",
         "category": "Social Growth Hub",
         "link": "https://hivehubai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hivehubai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hivehubai.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1302,7 +1302,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://ai-suggests.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-suggests.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-suggests.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1312,7 +1312,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://fellowtool.nl/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/fellowtool.nl-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fellowtool.nl-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1322,7 +1322,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://mygomseo.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mygomseo.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mygomseo.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1332,7 +1332,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.celavii.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/celavii.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/celavii.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1342,7 +1342,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1352,7 +1352,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://taghoney.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taghoney.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taghoney.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1362,7 +1362,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://plano.ly/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/plano.ly-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plano.ly-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1372,7 +1372,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://captiwiz.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/captiwiz.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/captiwiz.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1382,7 +1382,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial for AI-generated SEO timestamps, hashtags, and descriptions.",
         "category": "Social Growth Hub",
         "link": "https://www.monteracreative.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/monteracreative.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monteracreative.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 6
     },
@@ -1392,7 +1392,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI hashtag tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/ai-image-to-caption-generator/id6451452769",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1402,7 +1402,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://imcaption.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/imcaption.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imcaption.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1412,7 +1412,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.cretorial.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cretorial.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cretorial.ai-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1422,7 +1422,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI hashtag tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/at/app/feedai-content-creator/id6447683736",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1432,7 +1432,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan for social media scheduling, analytics, and AI post generation.",
         "category": "Social Growth Hub",
         "link": "https://postfity.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postfity.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postfity.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1442,7 +1442,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.aikeeda.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aikeeda.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aikeeda.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     },
@@ -1452,7 +1452,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven hashtag features.",
         "category": "Social Growth Hub",
         "link": "https://www.tubtic.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubtic.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubtic.com-128x128__Estimated_.png",
         "icon": "Hash",
         "score": 8
     }
@@ -1464,7 +1464,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered matching finds the perfect creators for your product niche.",
         "category": "Social Growth Hub",
         "link": "https://www.topyappers.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/topyappers.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/topyappers.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1474,7 +1474,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial for 150 creator analyses and 10,000 profile searches.",
         "category": "Social Growth Hub",
         "link": "https://www.infludata.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/infludata.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/infludata.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 6
     },
@@ -1484,7 +1484,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free recommended creators and 10 discovery searches in its AI-powered influencer marketplace.",
         "category": "Social Growth Hub",
         "link": "https://1stcollab.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/1stcollab.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/1stcollab.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1494,7 +1494,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free AI agent credits, 10 email unlocks, and a 3-day trial for influencer discovery.",
         "category": "Social Growth Hub",
         "link": "https://www.scrumball.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scrumball.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scrumball.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 6
     },
@@ -1504,7 +1504,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial for 24h for AI-powered influencer discovery and bulk email outreach.",
         "category": "Social Growth Hub",
         "link": "https://eezycollab.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/eezycollab.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/eezycollab.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 6
     },
@@ -1514,7 +1514,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-driven insights providing smart influencer discovery and campaign management.",
         "category": "Social Growth Hub",
         "link": "https://starbuzz.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/starbuzz.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/starbuzz.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1524,7 +1524,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 7 days access, 10 creators, and 1 campaign to scale influencer & affiliate programs.",
         "category": "Social Growth Hub",
         "link": "https://www.uplodio.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/uplodio.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uplodio.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 6
     },
@@ -1534,7 +1534,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://inflyx.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/inflyx.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inflyx.co-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1544,7 +1544,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://twinning.me/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/twinning.me-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/twinning.me-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1554,7 +1554,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://socialtalk.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialtalk.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialtalk.io-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1564,7 +1564,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Get 5 influencers weekly for ultra-specific influencer discovery via AI-powered recommendations.",
         "category": "Social Growth Hub",
         "link": "https://www.wayde.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/wayde.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wayde.io-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1574,7 +1574,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://thehypebridge.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thehypebridge.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thehypebridge.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1584,7 +1584,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://hivesight.so/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hivesight.so-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hivesight.so-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1594,7 +1594,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://aifluencerpro.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aifluencerpro.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aifluencerpro.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1604,7 +1604,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered influencer discovery providing real-time insights and natural language understanding.",
         "category": "Social Growth Hub",
         "link": "https://starscout.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/starscout.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/starscout.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1614,7 +1614,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI influencer tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/scrumball-lite/eajjholbfflapmaiiodeohaiabfmgjne",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1624,7 +1624,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 free credits to create and manage AI influencers.",
         "category": "Social Growth Hub",
         "link": "https://www.forgefluencer.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/forgefluencer.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/forgefluencer.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1634,7 +1634,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://ivee.so/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ivee.so-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ivee.so-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1644,7 +1644,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://relay.club/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/relay.club-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/relay.club-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1654,7 +1654,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "http://www.boostbot.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/boostbot.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/boostbot.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1664,7 +1664,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://chatme.at/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/chatme.at-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chatme.at-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1674,7 +1674,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://mindshiftai.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mindshiftai.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mindshiftai.app-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1684,7 +1684,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 50 free credits upon sign up to turn product URLs into UGC video ads.",
         "category": "Social Growth Hub",
         "link": "https://muku.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/muku.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/muku.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1694,7 +1694,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://www.affable.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/affable.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/affable.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1704,7 +1704,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://zaver.one/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/zaver.one-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zaver.one-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1714,7 +1714,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://ninjainfluence.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ninjainfluence.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ninjainfluence.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1724,7 +1724,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI character creation tool for chatbot interactions and media generation.",
         "category": "Social Growth Hub",
         "link": "https://kaley.ai/&utm_medium=referral",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kaley.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kaley.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1734,7 +1734,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Automates influencer search, outreach, and campaign management with hyper-personalized messages.",
         "category": "Social Growth Hub",
         "link": "https://www.simplegen.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/simplegen.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simplegen.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1744,7 +1744,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://myinfluencer.net/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/myinfluencer.net-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myinfluencer.net-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1754,7 +1754,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://www.idealy.ca/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/idealy.ca-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/idealy.ca-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1764,7 +1764,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free book providing real-world AI use cases and strategies.",
         "category": "Social Growth Hub",
         "link": "https://aiinactionbook.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aiinactionbook.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiinactionbook.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1774,7 +1774,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://www.rekonito.xyz/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/rekonito.xyz-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rekonito.xyz-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1784,7 +1784,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Chat with 1000s of influencers and celebrities powered by OpenAI's GPT-3.5.",
         "category": "Social Growth Hub",
         "link": "https://fortytwotalk.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/fortytwotalk.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fortytwotalk.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1794,7 +1794,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI image and video creator providing access to the best AI models.",
         "category": "Social Growth Hub",
         "link": "https://www.basedlabs.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/basedlabs.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/basedlabs.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1804,7 +1804,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://nanobanana.im/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/nanobanana.im-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nanobanana.im-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1814,7 +1814,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to track, analyze, and explore TikTok, Reels, and Shorts.,",
         "category": "Social Growth Hub",
         "link": "https://www.shortimize.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/shortimize.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shortimize.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 6
     },
@@ -1824,7 +1824,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://framia.pro/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/framia.pro-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/framia.pro-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1834,7 +1834,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://www.aha.inc/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aha.inc-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aha.inc-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1844,7 +1844,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for AI image tools, AI video tools, and AI text generation.",
         "category": "Social Growth Hub",
         "link": "https://postcrest.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postcrest.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postcrest.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 6
     },
@@ -1854,7 +1854,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://www.somny.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/somny.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/somny.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1864,7 +1864,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://photoai.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/photoai.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/photoai.io-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1874,7 +1874,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://sprello.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sprello.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sprello.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1884,7 +1884,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Professional studio quality AI headshots for individuals and teams to save time and money.",
         "category": "Social Growth Hub",
         "link": "https://www.tryitonai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tryitonai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tryitonai.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1894,7 +1894,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://bestcreator.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/bestcreator.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bestcreator.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1904,7 +1904,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 1-day trial of 1,000 messages to automate TikTok Shop affiliate outreach.",
         "category": "Social Growth Hub",
         "link": "https://revueai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/revueai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revueai.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 6
     },
@@ -1914,7 +1914,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://www.aistory.video/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aistory.video-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aistory.video-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1924,7 +1924,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://www.celavii.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/celavii.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/celavii.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1934,7 +1934,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1944,7 +1944,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven influencer features.",
         "category": "Social Growth Hub",
         "link": "https://dancebetter.org/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/dancebetter.org-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dancebetter.org-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     },
@@ -1954,7 +1954,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI automation for smarter marketing and growth with low-code tools.",
         "category": "Social Growth Hub",
         "link": "https://www.naturobot.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/naturobot.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/naturobot.com-128x128__Estimated_.png",
         "icon": "Users",
         "score": 8
     }
@@ -1966,7 +1966,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 7-day free trial to get real, organic Instagram followers with AI and experts.",
         "category": "Social Growth Hub",
         "link": "https://gainsty.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/gainsty.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gainsty.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 6
     },
@@ -1976,7 +1976,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://coolcaptionideas.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/coolcaptionideas.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/coolcaptionideas.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -1986,7 +1986,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://captionit.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/captionit.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/captionit.ai-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -1996,7 +1996,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://captionmaster.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/captionmaster.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/captionmaster.io-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2006,7 +2006,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.copywritergpt.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/copywritergpt.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/copywritergpt.io-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2016,7 +2016,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI instagram caption generator tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/captions-for-photos-captioned/id6472856464",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2026,7 +2026,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI instagram caption generator tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/ai-image-to-caption-generator/id6451452769",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2036,7 +2036,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.captionslab.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/captionslab.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/captionslab.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2046,7 +2046,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI instagram caption generator tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/id1661372840",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2056,7 +2056,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI instagram caption generator tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/captionr-ai-generated-caption/id6447811994",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2066,7 +2066,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://apple.co/4bQRLPo",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apple.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2076,7 +2076,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 3-day free trial for Instagram keywords & hashtags search and AI assistant.",
         "category": "Social Growth Hub",
         "link": "https://iqhashtags.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/iqhashtags.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iqhashtags.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 6
     },
@@ -2086,7 +2086,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://askoptimo.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/askoptimo.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askoptimo.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2096,7 +2096,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://imagetocaption.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/imagetocaption.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imagetocaption.ai-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2106,7 +2106,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://contentflashai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/contentflashai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contentflashai.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2116,7 +2116,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://ai-suggests.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-suggests.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-suggests.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2126,7 +2126,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.typeframes.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/typeframes.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/typeframes.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2136,7 +2136,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://freelino.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/freelino.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/freelino.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2146,7 +2146,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://image-to-caption.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/image-to-caption.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/image-to-caption.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2156,7 +2156,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://ai-speeder.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-speeder.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-speeder.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2166,7 +2166,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.aistory.video/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aistory.video-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aistory.video-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2176,7 +2176,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.celavii.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/celavii.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/celavii.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2186,7 +2186,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2196,7 +2196,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://buenote.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/buenote.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/buenote.app-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2206,7 +2206,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://pictocaption.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pictocaption.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pictocaption.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2216,7 +2216,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://plano.ly/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/plano.ly-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/plano.ly-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2226,7 +2226,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://imcaption.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/imcaption.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imcaption.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2236,7 +2236,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://spot.buzz/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/spot.buzz-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spot.buzz-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2246,7 +2246,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.aikeeda.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aikeeda.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aikeeda.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2256,7 +2256,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://zaayve.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/zaayve.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zaayve.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2266,7 +2266,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://postdit.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postdit.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postdit.co-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2276,7 +2276,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://socialcaptain.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialcaptain.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialcaptain.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2286,7 +2286,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://hopprz.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hopprz.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hopprz.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2296,7 +2296,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://askjinni.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/askjinni.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askjinni.ai-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2306,7 +2306,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://macbeth.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/macbeth.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/macbeth.ai-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2316,7 +2316,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://pleasureye.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pleasureye.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pleasureye.com-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2326,7 +2326,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://realtywrite.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/realtywrite.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/realtywrite.ai-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2336,7 +2336,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.revrite.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/revrite.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revrite.ai-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     },
@@ -2346,7 +2346,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram caption generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.giti.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/giti.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/giti.ai-128x128__Estimated_.png",
         "icon": "Camera",
         "score": 8
     }
@@ -2358,7 +2358,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Start for free with AI-powered Instagram growth to get real IG followers.,",
         "category": "Social Growth Hub",
         "link": "https://upgrow.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/upgrow.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/upgrow.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2368,7 +2368,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "100% free AI-powered Instagram tools and marketing resources.",
         "category": "Social Growth Hub",
         "link": "https://grum.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/grum.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/grum.co-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2378,7 +2378,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://www.inro.social/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/inro.social-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inro.social-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2388,7 +2388,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 3-day free trial for Instagram keywords & hashtags search and AI assistant.",
         "category": "Social Growth Hub",
         "link": "https://iqhashtags.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/iqhashtags.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/iqhashtags.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 6
     },
@@ -2398,7 +2398,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 2000 free contacts for comment to DM automation and chat automation.",
         "category": "Social Growth Hub",
         "link": "https://linktodm.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/linktodm.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/linktodm.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2408,7 +2408,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 7-day free trial to get real, organic Instagram followers with AI and experts.",
         "category": "Social Growth Hub",
         "link": "https://gainsty.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/gainsty.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gainsty.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 6
     },
@@ -2418,7 +2418,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial for AI-powered Instagram post creation and automatic social media publishing.",
         "category": "Social Growth Hub",
         "link": "https://galilai.com.br/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/galilai.com.br-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/galilai.com.br-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 6
     },
@@ -2428,7 +2428,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://socialfollow.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialfollow.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialfollow.co-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2438,7 +2438,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free forever tool with 5 daily content ideas, 5 personalized captions, and 10 public account searches.",
         "category": "Social Growth Hub",
         "link": "https://hivehubai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hivehubai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hivehubai.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2448,7 +2448,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 free content ideas for AI-driven Instagram content and product idea generation.",
         "category": "Social Growth Hub",
         "link": "https://inmagic.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/inmagic.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/inmagic.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2458,7 +2458,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free basic analysis for Instagram personality analysis and celebrity lookalikes.",
         "category": "Social Growth Hub",
         "link": "https://myinstapersonality.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/myinstapersonality.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myinstapersonality.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2468,7 +2468,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://pleaseroast.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pleaseroast.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pleaseroast.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2478,7 +2478,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://roborder.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/roborder.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/roborder.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2488,7 +2488,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI instagram tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/instagram-unfollow-ai/lbanojlcfgehondfpeipfpmdfipbjlhh",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2498,7 +2498,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free tool to analyze Instagram profiles with AI and get instant insights.",
         "category": "Social Growth Hub",
         "link": "https://gramlyzer.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/gramlyzer.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gramlyzer.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2508,7 +2508,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 50 free DMs/month to automate Instagram DMs and target followers.",
         "category": "Social Growth Hub",
         "link": "https://wizzdm.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/wizzdm.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wizzdm.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2518,7 +2518,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://socialcaptain.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialcaptain.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialcaptain.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2528,7 +2528,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://igsummit.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/igsummit.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/igsummit.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2538,7 +2538,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://zenithchat.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/zenithchat.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zenithchat.co-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2548,7 +2548,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://www.comment-generator.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/comment-generator.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/comment-generator.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2558,7 +2558,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://snaptap.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/snaptap.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snaptap.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2568,7 +2568,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://exie.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/exie.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/exie.app-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2578,7 +2578,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial to create shoppable content and target campaigns.",
         "category": "Social Growth Hub",
         "link": "https://www.buzzinspots.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/buzzinspots.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/buzzinspots.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 6
     },
@@ -2588,7 +2588,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://myneko.studio/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/myneko.studio-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/myneko.studio-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2598,7 +2598,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-generated trending hashtags daily with multi-platform hashtag generation.",
         "category": "Social Growth Hub",
         "link": "https://hashtagenius.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hashtagenius.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hashtagenius.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2608,7 +2608,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 1 free website to create instant websites from Instagram with AI content generation.",
         "category": "Social Growth Hub",
         "link": "https://gramsite.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/gramsite.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gramsite.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2618,7 +2618,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://www.pygma.me/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pygma.me-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pygma.me-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2628,7 +2628,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI instagram tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/instanote-download-and-sa/fbccnclbchlcnpdlhdjfhbhdehoaafeg",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2638,7 +2638,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 3-day free trial for unlimited Instagram leads with built-in filters.",
         "category": "Social Growth Hub",
         "link": "https://igleadgen.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/igleadgen.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/igleadgen.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 6
     },
@@ -2648,7 +2648,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI instagram tools for your users on the go.",
         "category": "Social Growth Hub",
         "link": "https://play.google.com/store/apps/details?id=com.mycompany.instatagsgpt&pcampaignid=web_share",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/play.google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/play.google.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2658,7 +2658,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI instagram tools for your users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/moji-writing-assistant/id6443924609",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2668,7 +2668,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI captions and subtitles tool offering AI video dubbing and AI avatars.",
         "category": "Social Growth Hub",
         "link": "https://dubs.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/dubs.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dubs.io-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2678,7 +2678,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free AI image and text generations for a customizable link-in-bio page with real-time analytics.",
         "category": "Social Growth Hub",
         "link": "https://beacons.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/beacons.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beacons.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2688,7 +2688,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://www.flick.social/tools/ai-social-media-post-generator",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/flick.social-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flick.social-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2698,7 +2698,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://www.aicut.pro/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aicut.pro-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aicut.pro-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2708,7 +2708,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://zapcap.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/zapcap.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zapcap.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2718,7 +2718,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Powerful AI-powered moderation tool that automatically hides or deletes spam and offensive comments on social media.",
         "category": "Social Growth Hub",
         "link": "https://commentguard.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentguard.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentguard.io-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2728,7 +2728,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to track, analyze, and explore TikTok, Reels, and Shorts.,",
         "category": "Social Growth Hub",
         "link": "https://www.shortimize.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/shortimize.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shortimize.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 6
     },
@@ -2738,7 +2738,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI assistance for Amazon & Shopify sellers providing review analysis and listing optimization.",
         "category": "Social Growth Hub",
         "link": "https://www.voc.ai/tools/chatgpt-copilot",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/voc.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voc.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2748,7 +2748,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free $1 trial for real engagement, followers, and SMM panel services.",
         "category": "Social Growth Hub",
         "link": "https://getmylikes.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/getmylikes.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getmylikes.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 6
     },
@@ -2758,7 +2758,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 300 credits per month (100 per day/3 days) to automate campaigns and analyze data.",
         "category": "Social Growth Hub",
         "link": "https://toffu.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/toffu.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/toffu.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2768,7 +2768,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://framia.pro/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/framia.pro-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/framia.pro-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2778,7 +2778,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://scripai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scripai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scripai.com-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2788,7 +2788,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://aident.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aident.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aident.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2798,7 +2798,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Trend discovery and content optimization platform that helps users identify what is likely to go viral on social media.",
         "category": "Social Growth Hub",
         "link": "https://viral.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/viral.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/viral.app-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2808,7 +2808,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day trial for AI-powered video performance tracking and multi-platform social media monitoring.",
         "category": "Social Growth Hub",
         "link": "https://www.monetize.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/monetize.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monetize.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 6
     },
@@ -2818,7 +2818,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://streamgen.cc/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/streamgen.cc-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/streamgen.cc-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2828,7 +2828,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://lexilexi.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/lexilexi.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lexilexi.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2838,7 +2838,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven instagram features.",
         "category": "Social Growth Hub",
         "link": "https://www.vidmax.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidmax.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidmax.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     },
@@ -2848,7 +2848,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Strategic AI listening and influencer discovery tool that helps brands find the right voices and monitor brand sentiment.",
         "category": "Social Growth Hub",
         "link": "https://xpoz.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xpoz.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xpoz.ai-128x128__Estimated_.png",
         "icon": "Instagram",
         "score": 8
     }
@@ -2860,7 +2860,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free minutes of auto-subtitling for AI-powered video creation and collaborative editing.,",
         "category": "Social Growth Hub",
         "link": "https://kapwing.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kapwing.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kapwing.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2870,7 +2870,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free AI memes for AI meme generation with multilingual support.,",
         "category": "Social Growth Hub",
         "link": "https://supermeme.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/supermeme.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supermeme.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2880,7 +2880,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "http://meme-gen.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/meme-gen.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/meme-gen.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2890,7 +2890,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://kirkified.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kirkified.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kirkified.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2900,7 +2900,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://kirkify.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kirkify.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kirkify.io-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2910,7 +2910,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://memeclip.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/memeclip.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/memeclip.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2920,7 +2920,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free videos to download and edit content from 50+ sites.,",
         "category": "Social Growth Hub",
         "link": "https://sludge.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sludge.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sludge.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2930,7 +2930,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.createa.meme/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/createa.meme-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/createa.meme-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2940,7 +2940,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered video creation for social media to create viral memes in seconds.,",
         "category": "Social Growth Hub",
         "link": "https://automemes.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/automemes.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/automemes.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2950,7 +2950,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free AI-generated memes daily for AI-powered meme generation.",
         "category": "Social Growth Hub",
         "link": "https://gottameme.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/gottameme.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gottameme.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2960,7 +2960,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial to turn yourself into memes with affordable cloud servers.",
         "category": "Social Growth Hub",
         "link": "https://www.mememorph.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mememorph.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mememorph.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 6
     },
@@ -2970,7 +2970,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free memes per month to turn text into memes in seconds.",
         "category": "Social Growth Hub",
         "link": "https://www.text2meme.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/text2meme.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/text2meme.io-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2980,7 +2980,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://aigif.net/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aigif.net-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aigif.net-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -2990,7 +2990,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.reelify.lol/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/reelify.lol-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reelify.lol-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3000,7 +3000,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://genmeme.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/genmeme.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/genmeme.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3010,7 +3010,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free days to sell products online and manage your business.",
         "category": "Social Growth Hub",
         "link": "https://memeface.me/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/memeface.me-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/memeface.me-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 6
     },
@@ -3020,7 +3020,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free generations for Disney Pixar-style posters and personalized dog art.",
         "category": "Social Growth Hub",
         "link": "https://www.pixarai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pixarai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pixarai.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3030,7 +3030,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free requests for hilarious AI photo roasts.",
         "category": "Social Growth Hub",
         "link": "https://www.roastthatface.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/roastthatface.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/roastthatface.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3040,7 +3040,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "http://italian-brainrot.space/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/italian-brainrot.space-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/italian-brainrot.space-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3050,7 +3050,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://freeviggleai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/freeviggleai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/freeviggleai.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3060,7 +3060,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Create lip-synced, deepfake videos by uploading and using your own videos.",
         "category": "Social Growth Hub",
         "link": "https://deepfakes.lol/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/deepfakes.lol-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/deepfakes.lol-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3070,7 +3070,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free tool to mimic generative AI UI and specify chatbot responses.",
         "category": "Social Growth Hub",
         "link": "https://spoofgpt.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/spoofgpt.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spoofgpt.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3080,7 +3080,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 daily relaxed mode videos for controllable AI video generation and motion capture.",
         "category": "Social Growth Hub",
         "link": "https://viggle.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/viggle.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/viggle.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3090,7 +3090,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 days free trial with 10 credits for seamless face swaps.",
         "category": "Social Growth Hub",
         "link": "https://www.insmind.com/face-swap/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/insmind.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insmind.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 6
     },
@@ -3100,7 +3100,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI image and video creator providing access to the best AI models.",
         "category": "Social Growth Hub",
         "link": "https://www.basedlabs.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/basedlabs.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/basedlabs.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3110,7 +3110,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 50 trial credits refresh everyday for the AI agent marketplace.",
         "category": "Social Growth Hub",
         "link": "https://mulerun.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mulerun.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mulerun.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3120,7 +3120,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://vidmage.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidmage.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidmage.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3130,7 +3130,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://aifaceswapper.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aifaceswapper.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aifaceswapper.io-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3140,7 +3140,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://aitubo.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aitubo.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aitubo.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3150,7 +3150,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://tweetgrok.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetgrok.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetgrok.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3160,7 +3160,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.nano-banana.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/nano-banana.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nano-banana.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3170,7 +3170,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 40 credits for new users and 20 credits daily check-in for AI video, image, and music generation.",
         "category": "Social Growth Hub",
         "link": "https://videoweb.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/videoweb.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videoweb.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3180,7 +3180,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free images per day for AI-powered image generation.",
         "category": "Social Growth Hub",
         "link": "https://www.ipic.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ipic.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ipic.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3190,7 +3190,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Thousands of free PFPs and an AI PFP maker.",
         "category": "Social Growth Hub",
         "link": "https://www.memepfp.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/memepfp.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/memepfp.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3200,7 +3200,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free enhanced text-to-image generation with multimodal capabilities.",
         "category": "Social Growth Hub",
         "link": "https://sdxlturbo.ai/stable-diffusion3",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sdxlturbo.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sdxlturbo.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3210,7 +3210,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 credits per month for AI image enhancement and upscaling.",
         "category": "Social Growth Hub",
         "link": "https://magickimg.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/magickimg.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/magickimg.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3220,7 +3220,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3230,7 +3230,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://nanobanana2.love/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/nanobanana2.love-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nanobanana2.love-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3240,7 +3240,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://muse.nero.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/muse.nero.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/muse.nero.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3250,7 +3250,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.oneimg.online/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/oneimg.online-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/oneimg.online-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3260,7 +3260,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free online AI face swap for instant face swaps and quick meme creation.",
         "category": "Social Growth Hub",
         "link": "https://face-swap.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/face-swap.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/face-swap.io-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3270,7 +3270,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://aifaceswapvideo.online/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aifaceswapvideo.online-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aifaceswapvideo.online-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3280,7 +3280,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 80 credits monthly for AI content generation, carousel creation, and video scripts.",
         "category": "Social Growth Hub",
         "link": "https://www.fenpost.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/fenpost.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fenpost.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3290,7 +3290,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://seoroast.co/tools/ai-roast-generator",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/seoroast.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/seoroast.co-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3300,7 +3300,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://fotoai.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/fotoai.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fotoai.app-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3310,7 +3310,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.scholarrank.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scholarrank.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scholarrank.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3320,7 +3320,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://nanomaker.im/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/nanomaker.im-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nanomaker.im-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3330,7 +3330,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven meme generator features.",
         "category": "Social Growth Hub",
         "link": "https://20.vision/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/20.vision-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/20.vision-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3340,7 +3340,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 20 free credits to train AI models and generate images & videos.",
         "category": "Social Growth Hub",
         "link": "https://www.makeanyimage.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/makeanyimage.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/makeanyimage.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     },
@@ -3350,7 +3350,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI meme generator tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/piccraft-ai-picture-maker/id1666809631",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Zap",
         "score": 8
     }
@@ -3362,7 +3362,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 50 free posts to create, plan, and collaborate on social media campaigns without a credit card.",
         "category": "Social Growth Hub",
         "link": "http://planable.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/planable.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planable.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3372,7 +3372,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered content creation and detailed analytics.",
         "category": "Social Growth Hub",
         "link": "https://taplio.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taplio.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taplio.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3382,7 +3382,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Allows users to make logos, business cards, and social designs using professionally curated templates.",
         "category": "Social Growth Hub",
         "link": "https://www.brandcrowd.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/brandcrowd.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brandcrowd.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3392,7 +3392,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://postel.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postel.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postel.app-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3402,7 +3402,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides 1000 free clicks for AI-powered DeepLinking, AI post generation, and deal catalog access.",
         "category": "Social Growth Hub",
         "link": "https://joylink.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/joylink.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/joylink.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3412,7 +3412,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.flick.social/tools/ai-social-media-post-generator",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/flick.social-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flick.social-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3422,7 +3422,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan for social media management, Twitter account management, and AI-powered content generation.",
         "category": "Social Growth Hub",
         "link": "https://circleboom.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/circleboom.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/circleboom.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3432,7 +3432,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for unified social media management and AI-powered content creation.",
         "category": "Social Growth Hub",
         "link": "https://contentstudio.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/contentstudio.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contentstudio.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3442,7 +3442,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free tool to create professional-looking carousels with an AI writing assistant, no sign-up required.",
         "category": "Social Growth Hub",
         "link": "https://www.aicarousels.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aicarousels.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aicarousels.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3452,7 +3452,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://blaze.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/blaze.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blaze.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3462,7 +3462,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://picsee.io/en",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/picsee.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/picsee.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3472,7 +3472,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 15 AI credits for AI ad creatives, social posts, and content scheduling.",
         "category": "Social Growth Hub",
         "link": "https://predis.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/predis.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/predis.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3482,7 +3482,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan with 50 posts and 20k AI text credits for AI social media management and ads.",
         "category": "Social Growth Hub",
         "link": "https://postly.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postly.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postly.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3492,7 +3492,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 3-day trial to schedule posts to 9 platforms and generate short-form content.",
         "category": "Social Growth Hub",
         "link": "https://socialrails.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialrails.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialrails.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3502,7 +3502,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.supergrow.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/supergrow.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supergrow.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3512,7 +3512,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://tweetgrok.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetgrok.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetgrok.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3522,7 +3522,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for social media scheduling and AI automation.",
         "category": "Social Growth Hub",
         "link": "https://nuelink.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/nuelink.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nuelink.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3532,7 +3532,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://redactai.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/redactai.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/redactai.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3542,7 +3542,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides multi-platform scheduling for audience growth and monetization.",
         "category": "Social Growth Hub",
         "link": "https://hypefury.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hypefury.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hypefury.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3552,7 +3552,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "High-speed AI carousel generator that creates stunning, engagement-focused slides for Instagram and LinkedIn.",
         "category": "Social Growth Hub",
         "link": "https://postnitro.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postnitro.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postnitro.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3562,7 +3562,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 12 free generations per month to generate Pinterest pins fast with an AI text writer.",
         "category": "Social Growth Hub",
         "link": "https://pingenerator.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pingenerator.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pingenerator.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3572,7 +3572,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "All-in-one social media management and collaboration platform designed for small businesses and digital agencies.",
         "category": "Social Growth Hub",
         "link": "https://www.radaar.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/radaar.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/radaar.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3582,7 +3582,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://robopost.app/en/features/robopost-ai",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/robopost.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/robopost.app-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3592,7 +3592,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-driven social media growth platform that helps creators and brands generate viral content and increase engagement.",
         "category": "Social Growth Hub",
         "link": "https://virlo.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/virlo.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/virlo.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3602,7 +3602,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan with 2 accounts, 40 monthly posts, and 1 user for social media management.,",
         "category": "Social Growth Hub",
         "link": "https://socialbu.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialbu.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialbu.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3612,7 +3612,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://flowpost.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/flowpost.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flowpost.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3622,7 +3622,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Personal AI ghostwriter to write LinkedIn posts 10x faster with an endless idea generator.",
         "category": "Social Growth Hub",
         "link": "https://contentin.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/contentin.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contentin.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3632,7 +3632,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 free downloads per month to write, design, and publish viral social media posts.",
         "category": "Social Growth Hub",
         "link": "https://contentdrips.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/contentdrips.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contentdrips.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3642,7 +3642,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Turns long videos into short videos effortlessly for TikTok, Instagram, and YouTube.",
         "category": "Social Growth Hub",
         "link": "https://flowjin.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/flowjin.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/flowjin.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3652,7 +3652,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 500 words free for high-converting emails and SEO-optimized blogs.",
         "category": "Social Growth Hub",
         "link": "https://www.scribowriter.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scribowriter.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scribowriter.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3662,7 +3662,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI caption generation and post previews.,",
         "category": "Social Growth Hub",
         "link": "https://postplanify.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postplanify.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postplanify.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3672,7 +3672,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Intelligent AI social media manager that automates content creation, optimal scheduling, and community interaction.",
         "category": "Social Growth Hub",
         "link": "https://mymarky.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mymarky.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mymarky.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3682,7 +3682,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered social media management, scheduling, and analytics.,",
         "category": "Social Growth Hub",
         "link": "https://www.feedhive.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/feedhive.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feedhive.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3692,7 +3692,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered content creation, smart scheduling, and follower growth.",
         "category": "Social Growth Hub",
         "link": "https://postwise.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postwise.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postwise.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3702,7 +3702,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI video repurposing platform that automatically extracts the most engaging clips from long-form video content for social media.",
         "category": "Social Growth Hub",
         "link": "https://www.munchstudio.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/munchstudio.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/munchstudio.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3712,7 +3712,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial (2,500 words) for AI copywriting with performance prediction scores.",
         "category": "Social Growth Hub",
         "link": "https://anyword.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/anyword.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/anyword.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3722,7 +3722,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://instories.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/instories.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instories.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3732,7 +3732,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for an AI LinkedIn post generator to create engaging content.",
         "category": "Social Growth Hub",
         "link": "https://2pr.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/2pr.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/2pr.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3742,7 +3742,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free AI logo maker, brand kit, and website generator requiring no sign-up.",
         "category": "Social Growth Hub",
         "link": "https://www.logome.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/logome.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/logome.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3752,7 +3752,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free runs per month for AI content creation, demand creation, and campaign creation.",
         "category": "Social Growth Hub",
         "link": "https://storylab.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/storylab.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/storylab.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3762,7 +3762,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial for AI-powered Instagram post creation and automatic social media publishing.",
         "category": "Social Growth Hub",
         "link": "https://galilai.com.br/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/galilai.com.br-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/galilai.com.br-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 6
     },
@@ -3772,7 +3772,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Repurposes longform content with AI-powered social post generation and employee advocacy.",
         "category": "Social Growth Hub",
         "link": "https://www.lately.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/lately.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lately.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3782,7 +3782,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free until June 12th to generate viral LinkedIn posts, personalized content, and schedule posts.",
         "category": "Social Growth Hub",
         "link": "https://kawaak.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kawaak.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kawaak.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3792,7 +3792,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered LinkedIn posts tool featuring voice-to-content and personalized content.",
         "category": "Social Growth Hub",
         "link": "https://scripe.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scripe.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scripe.io-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3802,7 +3802,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://scripai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scripai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scripai.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3812,7 +3812,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free AI-driven content generation tool for LinkedIn post scheduling and personal brand building.",
         "category": "Social Growth Hub",
         "link": "https://reachifyme.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/reachifyme.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reachifyme.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3822,7 +3822,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered social media post generation tool accessing multiple leading AI models.",
         "category": "Social Growth Hub",
         "link": "https://bestcontent.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/bestcontent.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bestcontent.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3832,7 +3832,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free unlimited AI-assisted comments, 3 custom tones, and prospect monitoring for LinkedIn.",
         "category": "Social Growth Hub",
         "link": "https://engage-ai.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/engage-ai.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/engage-ai.co-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3842,7 +3842,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media post generator features.",
         "category": "Social Growth Hub",
         "link": "https://dynal.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/dynal.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dynal.ai-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     },
@@ -3852,7 +3852,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Smart social media scheduler that uses AI to determine the best times to post for maximum audience reach and engagement.",
         "category": "Social Growth Hub",
         "link": "https://scheduloid.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scheduloid.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scheduloid.com-128x128__Estimated_.png",
         "icon": "Layout",
         "score": 8
     }
@@ -3864,7 +3864,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 50 free posts to create, plan, and collaborate on social media campaigns without a credit card.",
         "category": "Social Growth Hub",
         "link": "http://planable.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/planable.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planable.io-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -3874,7 +3874,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for unified social media management and AI-powered content creation.",
         "category": "Social Growth Hub",
         "link": "https://contentstudio.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/contentstudio.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/contentstudio.io-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -3884,7 +3884,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 250 free views and 50 real likes daily as a free TikTok likes and views generator.",
         "category": "Social Growth Hub",
         "link": "https://countik.com/tiktok-likes-generator",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/countik.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/countik.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -3894,7 +3894,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered content creation and detailed analytics.",
         "category": "Social Growth Hub",
         "link": "https://taplio.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taplio.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taplio.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -3904,7 +3904,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free forever plan with 5000 AI words for AI content creation and social media management.",
         "category": "Social Growth Hub",
         "link": "https://simplified.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/simplified.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simplified.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -3914,7 +3914,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 75 credits per month to turn videos into viral clips, generate posts, and handle scheduling.",
         "category": "Social Growth Hub",
         "link": "http://quso.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/quso.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quso.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -3924,7 +3924,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan with 50 posts and 20k AI text credits for AI social media management and ads.",
         "category": "Social Growth Hub",
         "link": "https://postly.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postly.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postly.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -3934,7 +3934,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 3-day trial to schedule posts to 9 platforms and generate short-form content.",
         "category": "Social Growth Hub",
         "link": "https://socialrails.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialrails.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialrails.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -3944,7 +3944,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 14-day free trial for omnichannel chat commerce and AI-powered conversational suites.",
         "category": "Social Growth Hub",
         "link": "https://www.omnichat.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/omnichat.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/omnichat.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -3954,7 +3954,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Advanced open-source social media management and scheduling platform that helps teams streamline their social presence.",
         "category": "Social Growth Hub",
         "link": "https://postiz.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postiz.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postiz.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -3964,7 +3964,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for social media scheduling and AI automation.",
         "category": "Social Growth Hub",
         "link": "https://nuelink.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/nuelink.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nuelink.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -3974,7 +3974,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan for social media management, Twitter account management, and AI-powered content generation.",
         "category": "Social Growth Hub",
         "link": "https://circleboom.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/circleboom.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/circleboom.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -3984,7 +3984,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides multi-platform scheduling for audience growth and monetization.",
         "category": "Social Growth Hub",
         "link": "https://hypefury.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hypefury.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hypefury.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -3994,7 +3994,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Start for free with AI-powered Instagram growth to get real IG followers.,",
         "category": "Social Growth Hub",
         "link": "https://upgrow.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/upgrow.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/upgrow.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4004,7 +4004,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free tool to create professional-looking carousels with an AI writing assistant, no sign-up required.",
         "category": "Social Growth Hub",
         "link": "https://www.aicarousels.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aicarousels.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aicarousels.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4014,7 +4014,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial with 3 posts/month for AI comment/reply and dwell time analysis.,",
         "category": "Social Growth Hub",
         "link": "https://hyperclapper.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hyperclapper.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hyperclapper.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4024,7 +4024,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for unlimited AI video generation and unlimited team collaboration.,",
         "category": "Social Growth Hub",
         "link": "https://postsyncer.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postsyncer.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postsyncer.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4034,7 +4034,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "All-in-one social media management and collaboration platform designed for small businesses and digital agencies.",
         "category": "Social Growth Hub",
         "link": "https://www.radaar.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/radaar.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/radaar.io-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4044,7 +4044,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-driven social media growth platform that helps creators and brands generate viral content and increase engagement.",
         "category": "Social Growth Hub",
         "link": "https://virlo.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/virlo.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/virlo.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4054,7 +4054,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Collects social media feeds and reviews to showcase social walls for events.,",
         "category": "Social Growth Hub",
         "link": "https://taggbox.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taggbox.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taggbox.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4064,7 +4064,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free scheduled posts per account for social media management, scheduling, and analytics.,",
         "category": "Social Growth Hub",
         "link": "https://publer.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/publer.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/publer.io-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4074,7 +4074,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Powerful AI-powered moderation tool that automatically hides or deletes spam and offensive comments on social media.",
         "category": "Social Growth Hub",
         "link": "https://commentguard.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentguard.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentguard.io-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4084,7 +4084,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan with 2 accounts, 40 monthly posts, and 1 user for social media management.,",
         "category": "Social Growth Hub",
         "link": "https://socialbu.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialbu.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialbu.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4094,7 +4094,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "100% forever free AI writing, image generation, and content creation tool.,",
         "category": "Social Growth Hub",
         "link": "https://aifreebox.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aifreebox.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aifreebox.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4104,7 +4104,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI caption generation and post previews.,",
         "category": "Social Growth Hub",
         "link": "https://postplanify.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postplanify.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postplanify.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4114,7 +4114,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Intelligent AI social media manager that automates content creation, optimal scheduling, and community interaction.",
         "category": "Social Growth Hub",
         "link": "https://mymarky.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mymarky.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mymarky.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4124,7 +4124,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Intelligent AI social media manager that automates content creation, optimal scheduling, and community interaction.",
         "category": "Social Growth Hub",
         "link": "https://www.mymarky.ai/home-alt",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mymarky.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mymarky.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4134,7 +4134,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered social media management, scheduling, and analytics.,",
         "category": "Social Growth Hub",
         "link": "https://www.feedhive.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/feedhive.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feedhive.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4144,7 +4144,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI video repurposing platform that automatically extracts the most engaging clips from long-form video content for social media.",
         "category": "Social Growth Hub",
         "link": "https://www.munchstudio.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/munchstudio.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/munchstudio.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4154,7 +4154,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for authentic content creation in your voice and one-click publishing.,",
         "category": "Social Growth Hub",
         "link": "https://www.pressmaster.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pressmaster.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pressmaster.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4164,7 +4164,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "High-speed AI carousel generator that creates stunning, engagement-focused slides for Instagram and LinkedIn.",
         "category": "Social Growth Hub",
         "link": "https://postnitro.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postnitro.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postnitro.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4174,7 +4174,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 50 free comments for AI-powered social customer support and automated responses.,",
         "category": "Social Growth Hub",
         "link": "https://replient.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/replient.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/replient.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4184,7 +4184,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to track, analyze, and explore TikTok, Reels, and Shorts.,",
         "category": "Social Growth Hub",
         "link": "https://www.shortimize.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/shortimize.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shortimize.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4194,7 +4194,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free $1 trial for real engagement, followers, and SMM panel services.",
         "category": "Social Growth Hub",
         "link": "https://getmylikes.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/getmylikes.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getmylikes.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4204,7 +4204,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial for AI-powered comment management and 24/7 social media engagement.,",
         "category": "Social Growth Hub",
         "link": "https://www.brandbastion.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/brandbastion.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brandbastion.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4214,7 +4214,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Specialized AI platform for Twitter (X) growth, focusing on automated thread generation and audience building.",
         "category": "Social Growth Hub",
         "link": "https://xreacher.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xreacher.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xreacher.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4224,7 +4224,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Processes up to 100 comments monthly for free with AI comment moderation and replies.,",
         "category": "Social Growth Hub",
         "link": "https://brandwise.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/brandwise.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brandwise.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4234,7 +4234,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Smart social media scheduler that uses AI to determine the best times to post for maximum audience reach and engagement.",
         "category": "Social Growth Hub",
         "link": "https://scheduloid.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scheduloid.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scheduloid.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4244,7 +4244,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered social media monitoring and lead generation tool that finds potential customers across various platforms.",
         "category": "Social Growth Hub",
         "link": "https://ddevi.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ddevi.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ddevi.com-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4254,7 +4254,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for an AI LinkedIn post generator to create engaging content.",
         "category": "Social Growth Hub",
         "link": "https://2pr.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/2pr.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/2pr.io-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 6
     },
@@ -4264,7 +4264,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Strategic AI listening and influencer discovery tool that helps brands find the right voices and monitor brand sentiment.",
         "category": "Social Growth Hub",
         "link": "https://xpoz.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xpoz.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xpoz.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4274,7 +4274,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media features.",
         "category": "Social Growth Hub",
         "link": "https://www.socialecho.net/share/toolifyaien",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialecho.net-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialecho.net-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4284,7 +4284,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Comprehensive AI trend analysis tool that monitors social media conversations to identify rising topics and brand mentions.",
         "category": "Social Growth Hub",
         "link": "https://buzzabout.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/buzzabout.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/buzzabout.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4294,7 +4294,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI social media management platform providing AI-powered content creation, automated scheduling, and advanced analytics.,",
         "category": "Social Growth Hub",
         "link": "https://followr.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/followr.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/followr.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4304,7 +4304,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI lead generation and automation tool specifically built for LinkedIn to enhance professional outreach and networking.",
         "category": "Social Growth Hub",
         "link": "https://www.powerin.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/powerin.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/powerin.io-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4314,7 +4314,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Trend discovery and content optimization platform that helps users identify what is likely to go viral on social media.",
         "category": "Social Growth Hub",
         "link": "https://viral.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/viral.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/viral.app-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4324,7 +4324,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free unlimited AI-assisted comments, 3 custom tones, and prospect monitoring for LinkedIn.",
         "category": "Social Growth Hub",
         "link": "https://engage-ai.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/engage-ai.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/engage-ai.co-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4334,7 +4334,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 2 free keyword alerts on Reddit & Hacker News to monitor social media conversations.",
         "category": "Social Growth Hub",
         "link": "https://kwatch.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kwatch.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kwatch.io-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4344,7 +4344,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free all-in-one social media management tool with AI-enhanced content creation.",
         "category": "Social Growth Hub",
         "link": "https://socialplus.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/socialplus.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/socialplus.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     },
@@ -4354,7 +4354,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven social media features.",
         "category": "Social Growth Hub",
         "link": "https://b150.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/b150.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/b150.ai-128x128__Estimated_.png",
         "icon": "Share2",
         "score": 8
     }
@@ -4366,7 +4366,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.pipiads.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pipiads.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pipiads.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4376,7 +4376,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered matching finds the perfect creators for your product niche.",
         "category": "Social Growth Hub",
         "link": "https://www.topyappers.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/topyappers.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/topyappers.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4386,7 +4386,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.gloda.vip/en",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/gloda.vip-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gloda.vip-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4396,7 +4396,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.sadcaptcha.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sadcaptcha.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sadcaptcha.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4406,7 +4406,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.cut3.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cut3.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cut3.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4416,7 +4416,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.talentask.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/talentask.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/talentask.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4426,7 +4426,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI tiktok tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/tikgpt-tiktok-listing-opt/bhbjjhpgpiljcinblahaeaijeofhknka",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4436,7 +4436,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://slidestorm.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/slidestorm.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/slidestorm.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4446,7 +4446,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 1-day trial of 1,000 messages to automate TikTok Shop affiliate outreach.",
         "category": "Social Growth Hub",
         "link": "https://revueai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/revueai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/revueai.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 6
     },
@@ -4456,7 +4456,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://superstudentai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/superstudentai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/superstudentai.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4466,7 +4466,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-generated trending hashtags daily with multi-platform hashtag generation.",
         "category": "Social Growth Hub",
         "link": "https://hashtagenius.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hashtagenius.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hashtagenius.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4476,7 +4476,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free analyses for instant, unbiased feedback and actionable insights.",
         "category": "Social Growth Hub",
         "link": "https://goviralvid.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/goviralvid.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goviralvid.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4486,7 +4486,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://uptik.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/uptik.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/uptik.app-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4496,7 +4496,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI tiktok tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/tiktok-customer-service-h/bdkogigofdpjbplcphfikldoejopkemf",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4506,7 +4506,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI tiktok tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/tiktok-ai-script-generato/fhbibaofbmghcofnficlmfaoobacbnlm",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4516,7 +4516,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://dropscale.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/dropscale.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dropscale.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4526,7 +4526,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.captionslab.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/captionslab.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/captionslab.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4536,7 +4536,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://streamladder.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/streamladder.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/streamladder.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4546,7 +4546,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://faceless.video/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/faceless.video-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/faceless.video-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4556,7 +4556,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free AI image and text generations for a customizable link-in-bio page with real-time analytics.",
         "category": "Social Growth Hub",
         "link": "https://beacons.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/beacons.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beacons.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4566,7 +4566,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://typecast.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/typecast.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/typecast.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4576,7 +4576,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "http://autoshorts.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/autoshorts.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autoshorts.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4586,7 +4586,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.short.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/short.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/short.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4596,7 +4596,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://tiktokvoice.net/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tiktokvoice.net-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tiktokvoice.net-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4606,7 +4606,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-driven social media growth platform that helps creators and brands generate viral content and increase engagement.",
         "category": "Social Growth Hub",
         "link": "https://virlo.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/virlo.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/virlo.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4616,7 +4616,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://zapcap.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/zapcap.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/zapcap.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4626,7 +4626,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI assistance for Amazon & Shopify sellers providing review analysis and listing optimization.",
         "category": "Social Growth Hub",
         "link": "https://www.voc.ai/tools/chatgpt-copilot",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/voc.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voc.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4636,7 +4636,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI assistance for Amazon & Shopify sellers providing review analysis and listing optimization.",
         "category": "Social Growth Hub",
         "link": "https://www.voc.ai/tools/ai-chatbot",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/voc.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/voc.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4646,7 +4646,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://autocaption.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/autocaption.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/autocaption.io-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4656,7 +4656,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to track, analyze, and explore TikTok, Reels, and Shorts.,",
         "category": "Social Growth Hub",
         "link": "https://www.shortimize.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/shortimize.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shortimize.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 6
     },
@@ -4666,7 +4666,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 300 credits per month (100 per day/3 days) to automate campaigns and analyze data.",
         "category": "Social Growth Hub",
         "link": "https://toffu.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/toffu.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/toffu.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4676,7 +4676,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day trial for AI-powered video performance tracking and multi-platform social media monitoring.",
         "category": "Social Growth Hub",
         "link": "https://www.monetize.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/monetize.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monetize.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 6
     },
@@ -4686,7 +4686,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.playlistai.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/playlistai.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/playlistai.app-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4696,7 +4696,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://streamgen.cc/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/streamgen.cc-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/streamgen.cc-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4706,7 +4706,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.vidmax.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidmax.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidmax.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4716,7 +4716,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Strategic AI listening and influencer discovery tool that helps brands find the right voices and monitor brand sentiment.",
         "category": "Social Growth Hub",
         "link": "https://xpoz.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xpoz.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xpoz.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4726,7 +4726,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://taletok.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taletok.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taletok.io-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4736,7 +4736,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://adscan.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/adscan.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/adscan.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4746,7 +4746,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://imagetocaption.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/imagetocaption.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imagetocaption.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4756,7 +4756,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://shortsbot.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/shortsbot.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shortsbot.app-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4766,7 +4766,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://feedbackbyai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/feedbackbyai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feedbackbyai.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4776,7 +4776,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://fastshorts.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/fastshorts.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/fastshorts.app-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4786,7 +4786,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.aistory.video/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aistory.video-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aistory.video-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4796,7 +4796,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4806,7 +4806,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://dancebetter.org/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/dancebetter.org-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/dancebetter.org-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4816,7 +4816,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://shoorts.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/shoorts.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/shoorts.ai-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4826,7 +4826,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://www.chatagents.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/chatagents.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chatagents.io-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4836,7 +4836,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://tiktok-emoji.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tiktok-emoji.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tiktok-emoji.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4846,7 +4846,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tiktok features.",
         "category": "Social Growth Hub",
         "link": "https://latercut.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/latercut.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/latercut.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     },
@@ -4856,7 +4856,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI tiktok tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/us/app/reverie-unique-things-to-do/id6448396396",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Video",
         "score": 8
     }
@@ -4868,7 +4868,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://postel.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postel.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postel.app-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4878,7 +4878,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered content creation, scheduling, and automations.",
         "category": "Social Growth Hub",
         "link": "https://tweethunter.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweethunter.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweethunter.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 6
     },
@@ -4888,7 +4888,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://tweetgrok.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetgrok.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetgrok.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4898,7 +4898,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 20 credits per month to generate engaging tweets with tailored tone control.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetstorm.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetstorm.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetstorm.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4908,7 +4908,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://xbeast.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xbeast.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xbeast.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4918,7 +4918,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://tweetai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetai.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4928,7 +4928,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://snowball.club/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/snowball.club-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snowball.club-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4938,7 +4938,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to write expressive tweets and generate article threads.",
         "category": "Social Growth Hub",
         "link": "https://tweetemote.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetemote.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetemote.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 6
     },
@@ -4948,7 +4948,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.creatweet.online/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/creatweet.online-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/creatweet.online-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4958,7 +4958,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://tweet.xundan.in/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweet.xundan.in-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweet.xundan.in-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4968,7 +4968,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://scria.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scria.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scria.app-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4978,7 +4978,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI tweet generator tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/leaf-twitter-content-temp/ehgopjhikefmcndmcclneecpmjglelea",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4988,7 +4988,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.viralxpost.xyz/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/viralxpost.xyz-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/viralxpost.xyz-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -4998,7 +4998,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://xthreads.pro/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xthreads.pro-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xthreads.pro-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5008,7 +5008,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://posthunt.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/posthunt.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/posthunt.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5018,7 +5018,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://xtweetify.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xtweetify.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xtweetify.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5028,7 +5028,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetsi.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetsi.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetsi.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5038,7 +5038,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://rsstotweet.xyz/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/rsstotweet.xyz-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rsstotweet.xyz-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5048,7 +5048,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 8 free posts for an AI-powered Twitter bot for hourly tweets.",
         "category": "Social Growth Hub",
         "link": "https://promptrally.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/promptrally.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/promptrally.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5058,7 +5058,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://tweeets.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweeets.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweeets.app-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5068,7 +5068,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetradar.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetradar.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetradar.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5078,7 +5078,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://blogtweet.xyz/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/blogtweet.xyz-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blogtweet.xyz-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5088,7 +5088,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://marketingcopilotai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/marketingcopilotai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/marketingcopilotai.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5098,7 +5098,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://chrome.google.com/webstore/detail/gptweet-twitter-replies-w/dhjbdoaddaillhhngldldpklbogfblif",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5108,7 +5108,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://pickrsocial.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pickrsocial.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pickrsocial.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5118,7 +5118,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to convert YouTube videos to text in multiple formats.",
         "category": "Social Growth Hub",
         "link": "https://ytcopycat.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ytcopycat.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ytcopycat.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 6
     },
@@ -5128,7 +5128,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered tweet generation and viral tweet ideas.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetlio.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetlio.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetlio.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 6
     },
@@ -5138,7 +5138,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://tweeteasy.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweeteasy.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweeteasy.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5148,7 +5148,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.aiwebpageanalyzer.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aiwebpageanalyzer.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiwebpageanalyzer.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5158,7 +5158,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 free tweets per month for AI-generated tweets and an easy approval process.",
         "category": "Social Growth Hub",
         "link": "https://cocoleco.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cocoleco.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cocoleco.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5168,7 +5168,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.aiengager.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aiengager.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiengager.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5178,7 +5178,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://threadgenius.tech/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/threadgenius.tech-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/threadgenius.tech-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5188,7 +5188,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free forever AI-powered writing assistant seamlessly integrated with Gmail & LinkedIn.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/futurewrite-ai-for-writin/emdgdppbafhfembkbpokbbedmjpcbime",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5198,7 +5198,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.brevy.social/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/brevy.social-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brevy.social-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5208,7 +5208,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://getbirdie.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/getbirdie.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getbirdie.co-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5218,7 +5218,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://aramind.space/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aramind.space-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aramind.space-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5228,7 +5228,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://chrome.google.com/webstore/detail/chatgpt-for-twitter/ihabhmefjiipbmppmjoleclimdeompdc",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5238,7 +5238,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://kittytweet.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kittytweet.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kittytweet.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5248,7 +5248,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://introai.me/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/introai.me-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/introai.me-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5258,7 +5258,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan for social media management, Twitter account management, and AI-powered content generation.",
         "category": "Social Growth Hub",
         "link": "https://circleboom.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/circleboom.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/circleboom.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5268,7 +5268,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 summary credits for an AI-powered summarizer and bookmark manager.",
         "category": "Social Growth Hub",
         "link": "https://kome.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kome.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kome.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5278,7 +5278,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://godofprompt.ai/solopreneurs-mega-prompts",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/godofprompt.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/godofprompt.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5288,7 +5288,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 300 credits per month (100 per day/3 days) to automate campaigns and analyze data.",
         "category": "Social Growth Hub",
         "link": "https://toffu.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/toffu.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/toffu.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5298,7 +5298,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.blinklabs.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/blinklabs.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blinklabs.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5308,7 +5308,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Smart social media scheduler that uses AI to determine the best times to post for maximum audience reach and engagement.",
         "category": "Social Growth Hub",
         "link": "https://scheduloid.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scheduloid.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scheduloid.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5318,7 +5318,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.reengage.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/reengage.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/reengage.app-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5328,7 +5328,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://ai-suggests.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ai-suggests.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai-suggests.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5338,7 +5338,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven tweet generator features.",
         "category": "Social Growth Hub",
         "link": "https://tweetsync-ai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetsync-ai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetsync-ai.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5348,7 +5348,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI tweet generator tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/dank-ai/kkmmfcnailgcdgmkchnehgoknlicobie",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     }
@@ -5360,7 +5360,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered content creation, scheduling, and automations.",
         "category": "Social Growth Hub",
         "link": "https://tweethunter.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweethunter.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweethunter.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 6
     },
@@ -5370,7 +5370,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://postel.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postel.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postel.app-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5380,7 +5380,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://tweetgrok.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetgrok.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetgrok.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5390,7 +5390,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Specialized AI platform for Twitter (X) growth, focusing on automated thread generation and audience building.",
         "category": "Social Growth Hub",
         "link": "https://xreacher.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xreacher.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xreacher.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5400,7 +5400,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://twitterspacegpt.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/twitterspacegpt.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/twitterspacegpt.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5410,7 +5410,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 20 credits per month to generate engaging tweets with tailored tone control.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetstorm.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetstorm.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetstorm.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5420,7 +5420,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://owlead.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/owlead.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/owlead.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5430,7 +5430,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered content creation, smart scheduling, and follower growth.",
         "category": "Social Growth Hub",
         "link": "https://postwise.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postwise.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postwise.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 6
     },
@@ -5440,7 +5440,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://threadnavigator.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/threadnavigator.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/threadnavigator.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5450,7 +5450,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://xautodm.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xautodm.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xautodm.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5460,7 +5460,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://drippi.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/drippi.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/drippi.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5470,7 +5470,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://xbeast.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xbeast.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xbeast.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5480,7 +5480,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI lead generation and automation tool specifically built for LinkedIn to enhance professional outreach and networking.",
         "category": "Social Growth Hub",
         "link": "https://www.powerin.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/powerin.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/powerin.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5490,7 +5490,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://www.soaster.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/soaster.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soaster.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5500,7 +5500,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial for AI-powered tweet generation and viral tweet ideas.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetlio.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetlio.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetlio.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 6
     },
@@ -5510,7 +5510,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://spacemake.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/spacemake.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/spacemake.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5520,7 +5520,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://tweeteasy.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweeteasy.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweeteasy.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5530,7 +5530,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://cold-hunt.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cold-hunt.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cold-hunt.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5540,7 +5540,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://xspacestream.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xspacestream.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xspacestream.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5550,7 +5550,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://xtreeks.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xtreeks.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xtreeks.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5560,7 +5560,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://threadgenius.tech/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/threadgenius.tech-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/threadgenius.tech-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5570,7 +5570,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://tweetsync-ai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetsync-ai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetsync-ai.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5580,7 +5580,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://oomfmap.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/oomfmap.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/oomfmap.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5590,7 +5590,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://getbirdie.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/getbirdie.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/getbirdie.co-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5600,7 +5600,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://www.sortbird.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sortbird.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sortbird.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5610,7 +5610,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://chrome.google.com/webstore/detail/chatgpt-for-twitter/ihabhmefjiipbmppmjoleclimdeompdc",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5620,7 +5620,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://kittytweet.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kittytweet.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kittytweet.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5630,7 +5630,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://tweetai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetai.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5640,7 +5640,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 free tweets per month for AI-generated tweets and an easy approval process.",
         "category": "Social Growth Hub",
         "link": "https://cocoleco.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cocoleco.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cocoleco.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5650,7 +5650,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetradar.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetradar.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetradar.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5660,7 +5660,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://snowball.club/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/snowball.club-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snowball.club-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5670,7 +5670,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://www.replypulse.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/replypulse.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/replypulse.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5680,7 +5680,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to write expressive tweets and generate article threads.",
         "category": "Social Growth Hub",
         "link": "https://tweetemote.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetemote.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetemote.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 6
     },
@@ -5690,7 +5690,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://www.creatweet.online/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/creatweet.online-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/creatweet.online-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5700,7 +5700,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://tweet.xundan.in/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweet.xundan.in-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweet.xundan.in-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5710,7 +5710,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://scria.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scria.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scria.app-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5720,7 +5720,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI twitter tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/leaf-twitter-content-temp/ehgopjhikefmcndmcclneecpmjglelea",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5730,7 +5730,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://www.viralxpost.xyz/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/viralxpost.xyz-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/viralxpost.xyz-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5740,7 +5740,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI twitter tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/veritweets-fact-check-twe/dceeoediacfkkkkcpahbomjilgjingpn",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5750,7 +5750,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI twitter tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/dank-ai/kkmmfcnailgcdgmkchnehgoknlicobie",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5760,7 +5760,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://xthreads.pro/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xthreads.pro-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xthreads.pro-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5770,7 +5770,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI twitter tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/slicex-ai-tweet-analyzer/dddoigfjjbceljhbepekplcidnabkdhf",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5780,7 +5780,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI twitter tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/bot-sentinel/eadmnplpcakhnmjbaioeholpakbknhgc",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5790,7 +5790,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://posthunt.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/posthunt.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/posthunt.ai-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5800,7 +5800,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://www.brevy.social/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/brevy.social-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brevy.social-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5810,7 +5810,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://xtweetify.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/xtweetify.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/xtweetify.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5820,7 +5820,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://www.tweetsi.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tweetsi.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tweetsi.io-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5830,7 +5830,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://rsstotweet.xyz/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/rsstotweet.xyz-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rsstotweet.xyz-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     },
@@ -5840,7 +5840,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven twitter features.",
         "category": "Social Growth Hub",
         "link": "https://birdbanner.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/birdbanner.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/birdbanner.com-128x128__Estimated_.png",
         "icon": "Twitter",
         "score": 8
     }
@@ -5852,7 +5852,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Summarizes videos, audio, PDFs, and websites into perfect summaries.",
         "category": "Social Growth Hub",
         "link": "https://lilys.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/lilys.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lilys.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5862,7 +5862,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Converts audio, text, files, and YouTube videos into formatted notes, quizzes, and flashcards.",
         "category": "Social Growth Hub",
         "link": "https://thetawave.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thetawave.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thetawave.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5872,7 +5872,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 summary credits for an AI-powered summarizer and bookmark manager.",
         "category": "Social Growth Hub",
         "link": "https://kome.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/kome.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/kome.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5882,7 +5882,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://noiz.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/noiz.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/noiz.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5892,7 +5892,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 40,000 tokens/day for YouTube video summary, Google search summary, and PDF summary.",
         "category": "Social Growth Hub",
         "link": "https://glarity.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/glarity.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/glarity.app-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5902,7 +5902,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://www.noteai.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/noteai.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/noteai.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5912,7 +5912,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free channel subscriptions and 60 minutes per month for AI-driven summaries and content repurposing.",
         "category": "Social Growth Hub",
         "link": "https://www.tubeonai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubeonai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubeonai.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5922,7 +5922,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://timeskip.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/timeskip.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/timeskip.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5932,7 +5932,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://tubly.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubly.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubly.app-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5942,7 +5942,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers up to 50 video summaries per day for instant YouTube video summaries, TLDR, and mind maps.",
         "category": "Social Growth Hub",
         "link": "https://summarize.ing/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/summarize.ing-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summarize.ing-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5952,7 +5952,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Chat with any YouTube video to extract insights from video content.",
         "category": "Social Growth Hub",
         "link": "https://www.askvideo.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/askvideo.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askvideo.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5962,7 +5962,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://www.summarize.tech/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/summarize.tech-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summarize.tech-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5972,7 +5972,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free video summaries for AI-powered YouTube video summarization and multi-language captioning.",
         "category": "Social Growth Hub",
         "link": "https://summarizeyou.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/summarizeyou.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summarizeyou.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5982,7 +5982,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Summarizes YouTube videos using AI with customizable summary styles and timestamps.",
         "category": "Social Growth Hub",
         "link": "https://summarify.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/summarify.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summarify.app-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -5992,7 +5992,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 free daily credits for bulk playlist and channel extraction with clean TXT.",
         "category": "Social Growth Hub",
         "link": "https://ytvidhub.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ytvidhub.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ytvidhub.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6002,7 +6002,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 summaries in total for AI summaries and visual mind maps.",
         "category": "Social Growth Hub",
         "link": "https://ytsummary.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ytsummary.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ytsummary.app-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6012,7 +6012,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to convert YouTube videos to text in multiple formats.",
         "category": "Social Growth Hub",
         "link": "https://ytcopycat.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ytcopycat.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ytcopycat.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6022,7 +6022,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to summarize YouTube videos with accurate summaries.",
         "category": "Social Growth Hub",
         "link": "https://youtubesummarized.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/youtubesummarized.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/youtubesummarized.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6032,7 +6032,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://overshot.in.net/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/overshot.in.net-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/overshot.in.net-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6042,7 +6042,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://askyoutube.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/askyoutube.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/askyoutube.app-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6052,7 +6052,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 7-day free trial that allows you to generate chapters for up to 100 videos.",
         "category": "Social Growth Hub",
         "link": "https://www.instantchapters.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/instantchapters.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instantchapters.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6062,7 +6062,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a free plan with 3 sessions per week and access to basic AI interview coaching techniques.",
         "category": "Social Growth Hub",
         "link": "https://youzeno.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/youzeno.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/youzeno.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6072,7 +6072,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free instant video summaries and transcript extraction with pro features requiring in-app credits.",
         "category": "Social Growth Hub",
         "link": "https://www.summifyai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/summifyai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/summifyai.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6082,7 +6082,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free summaries per day to summarize YouTube videos and video recommendations.",
         "category": "Social Growth Hub",
         "link": "https://tubesum.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubesum.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubesum.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6092,7 +6092,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 30 queries per day to answer complex questions and summarize YouTube videos.",
         "category": "Social Growth Hub",
         "link": "https://walles.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/walles.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/walles.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6102,7 +6102,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "The free version provides access to basic keyword recommendations and daily AI video ideas.",
         "category": "Social Growth Hub",
         "link": "https://videoiq-ai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/videoiq-ai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videoiq-ai.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6112,7 +6112,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://www.777ccc.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/777ccc.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/777ccc.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6122,7 +6122,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://feedix.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/feedix.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/feedix.app-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6132,7 +6132,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 150 minutes free per month for clear summaries under 1 minute with fact-checking.",
         "category": "Social Growth Hub",
         "link": "https://gistilo.com/youtube-summarizer",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/gistilo.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gistilo.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6142,7 +6142,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://www.insightkeeper.ai/youtube-ai-summarizer-free-tool",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/insightkeeper.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/insightkeeper.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6152,7 +6152,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://commentlensai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentlensai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentlensai.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6162,7 +6162,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-created ~5 min audio podcasts to summarize YouTube content daily.",
         "category": "Social Growth Hub",
         "link": "https://www.mydailypod.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mydailypod.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mydailypod.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6172,7 +6172,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://knowledge-ai.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/knowledge-ai.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/knowledge-ai.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6182,7 +6182,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 100 free analyses for AI-powered YouTube summaries with key insights and timelines.,",
         "category": "Social Growth Hub",
         "link": "https://clarity.tube/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clarity.tube-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clarity.tube-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6192,7 +6192,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube summary tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/vidsum-youtube-video-summ/lnlncmgmjnbhbiijhigaekcfgenpmepg",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6202,7 +6202,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube summary tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/strawberry-for-youtube/aaejgclmcghlibddomjmglcmnhcggaao",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6212,7 +6212,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://textape.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/textape.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/textape.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6222,7 +6222,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://seedup.fr/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/seedup.fr-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/seedup.fr-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6232,7 +6232,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 100 free credits for detailed video summaries and note export to Notion.",
         "category": "Social Growth Hub",
         "link": "https://www.videonotestldr.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/videonotestldr.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videonotestldr.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6242,7 +6242,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://mediabrief.space/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mediabrief.space-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mediabrief.space-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6252,7 +6252,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube summary tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/awesum-ai-youtube-video-s/koondlfjikdhcncnheknlhhmnngiedhk",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6262,7 +6262,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube summary tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/summify-ai-youtube-summar/lejingbdigbgngpfhckdmjajmgjhnala",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6272,7 +6272,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-use bio-link tool for social media with streamlined link management.",
         "category": "Social Growth Hub",
         "link": "https://www.balise.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/balise.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/balise.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6282,7 +6282,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube summary features.",
         "category": "Social Growth Hub",
         "link": "https://lookie.so/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/lookie.so-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lookie.so-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6292,7 +6292,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 50 free AI credits weekly to process 16 video hours of AI-powered summarization.",
         "category": "Social Growth Hub",
         "link": "https://tubememo.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubememo.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubememo.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6302,7 +6302,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a free 7-day trial to summarize YouTube videos with a Chrome extension and roasting feature.",
         "category": "Social Growth Hub",
         "link": "https://tubed.pro/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubed.pro-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubed.pro-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6312,7 +6312,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Includes daily free credits for AI summarization, transcription, and short-form clip generation.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/wayin-ai-understanding-vi/cedgndijpacnfbdggppddacngjfdkaca",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6322,7 +6322,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube summary tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/youtube-summary-with-chat/leidjgpcaiceoeebkdjfcaeboidcjiea",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6332,7 +6332,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube summary tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/chatgpt-for-chrome-youtub/cdjifpfganmhoojfclednjdnnpooaojb",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6342,7 +6342,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube summary tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/transcribe-youtube-video/dlcncgfmpjblcgppbgjccpaopneelkoi",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     }
@@ -6354,7 +6354,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 suggested shorts and AI-powered video optimization tools for YouTube SEO.",
         "category": "Social Growth Hub",
         "link": "https://tubebuddy.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubebuddy.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubebuddy.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6364,7 +6364,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial that typically includes about 5 high-quality AI-generated thumbnails with watermarks.",
         "category": "Social Growth Hub",
         "link": "https://pikzels.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pikzels.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pikzels.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6374,7 +6374,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited credits and storage to start generating designs effortlessly.",
         "category": "Social Growth Hub",
         "link": "https://sivi.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sivi.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sivi.ai-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6384,7 +6384,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Operates on a freemium model with a free plan for basic AI thumbnail generation and customization.",
         "category": "Social Growth Hub",
         "link": "https://aithumbnail.so/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aithumbnail.so-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aithumbnail.so-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6394,7 +6394,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "The free tier includes 5 credits per month, allowing for up to 2 variations per generation.",
         "category": "Social Growth Hub",
         "link": "https://thumbfa.st/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thumbfa.st-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thumbfa.st-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6404,7 +6404,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a free account that grants full feature access with a limit on high-definition downloads.",
         "category": "Social Growth Hub",
         "link": "https://thumbmachine.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thumbmachine.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thumbmachine.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6414,7 +6414,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://magicthumbnails.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/magicthumbnails.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/magicthumbnails.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6424,7 +6424,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://thumbspot.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thumbspot.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thumbspot.io-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6434,7 +6434,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://videosnapshot.site/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/videosnapshot.site-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videosnapshot.site-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6444,7 +6444,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial that typically includes about 5 high-quality AI-generated thumbnails with watermarks.",
         "category": "Social Growth Hub",
         "link": "https://pikzels.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pikzels.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pikzels.ai-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6454,7 +6454,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://aiyoutubethumbnails.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aiyoutubethumbnails.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiyoutubethumbnails.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6464,7 +6464,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://crazyfaceai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/crazyfaceai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/crazyfaceai.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6474,7 +6474,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://ultimateapp.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ultimateapp.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ultimateapp.io-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6484,7 +6484,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free beta access for automated video content processing and AI-generated SEO-friendly titles.",
         "category": "Social Growth Hub",
         "link": "https://sanchay.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sanchay.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sanchay.ai-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6494,7 +6494,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://viro.so/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/viro.so-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/viro.so-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6504,7 +6504,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a limited free plan that includes a set number of electronic document signatures and templates.",
         "category": "Social Growth Hub",
         "link": "https://scrive.pro/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/scrive.pro-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/scrive.pro-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6514,7 +6514,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to generate YouTube timestamped chapters and optimize tags.",
         "category": "Social Growth Hub",
         "link": "https://vidchapter.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidchapter.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidchapter.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 6
     },
@@ -6524,7 +6524,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 100 free credits for AI thumbnail generation, face swap, and style recreation.",
         "category": "Social Growth Hub",
         "link": "https://thumbnailmakerr.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thumbnailmakerr.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thumbnailmakerr.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6534,7 +6534,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Often provides the first AI thumbnail for free to allow creators to test its professional value.",
         "category": "Social Growth Hub",
         "link": "https://www.thumbnailslabs.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thumbnailslabs.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thumbnailslabs.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6544,7 +6544,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.thumbgo.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thumbgo.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thumbgo.co-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6554,7 +6554,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://thumbnail.bot/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thumbnail.bot-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thumbnail.bot-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6564,7 +6564,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a robust free tier with access to essential photo editing tools and a limited set of assets.",
         "category": "Social Growth Hub",
         "link": "https://pixlr.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pixlr.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pixlr.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6574,7 +6574,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free 7-day trial to turn one video into social posts and act as an AI-powered YouTube SEO expert.",
         "category": "Social Growth Hub",
         "link": "https://taja.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taja.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taja.ai-128x128__Estimated_.png",
         "icon": "Image",
         "score": 6
     },
@@ -6584,7 +6584,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Operates on a credit-based system and often provides free testing credits via social media promotions.",
         "category": "Social Growth Hub",
         "link": "https://cloneviral.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cloneviral.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cloneviral.ai-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6594,7 +6594,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Acts as a free AI-powered image editor for background removal and selective image tuning.",
         "category": "Social Growth Hub",
         "link": "https://www.underlayx.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/underlayx.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/underlayx.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6604,7 +6604,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for AI image tools, AI video tools, and AI text generation.",
         "category": "Social Growth Hub",
         "link": "https://postcrest.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postcrest.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postcrest.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 6
     },
@@ -6614,7 +6614,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6624,7 +6624,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Markets itself as a free stock image platform for generating and downloading realistic AI images.",
         "category": "Social Growth Hub",
         "link": "https://snapby.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/snapby.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snapby.ai-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6634,7 +6634,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube thumbnail generator features.",
         "category": "Social Growth Hub",
         "link": "https://nanomaker.im/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/nanomaker.im-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nanomaker.im-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     },
@@ -6644,7 +6644,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free version that typically includes a limited word count for monthly content generation.",
         "category": "Social Growth Hub",
         "link": "https://smartlyq.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/smartlyq.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/smartlyq.com-128x128__Estimated_.png",
         "icon": "Image",
         "score": 8
     }
@@ -6656,7 +6656,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free video ideas, 3 thumbnail generations, and 3 keyword research uses for AI-powered optimization.",
         "category": "Social Growth Hub",
         "link": "https://vidiq.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidiq.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidiq.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6666,7 +6666,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 suggested shorts and AI-powered video optimization tools for YouTube SEO.",
         "category": "Social Growth Hub",
         "link": "https://tubebuddy.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubebuddy.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubebuddy.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6676,7 +6676,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI-powered YouTube niche finder providing faceless channel tools.",
         "category": "Social Growth Hub",
         "link": "https://nexlev.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/nexlev.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/nexlev.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6686,7 +6686,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Comprehensive directory and guide to find the best AI tools and software.",
         "category": "Social Growth Hub",
         "link": "https://futurepedia.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/futurepedia.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/futurepedia.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6696,7 +6696,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Processes 1 hour of media monthly for free to cut silences, bad takes, and generate AI captions.",
         "category": "Social Growth Hub",
         "link": "https://www.gling.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/gling.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/gling.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6706,7 +6706,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers the first script free for its AI script writer and YouTube automation tool.",
         "category": "Social Growth Hub",
         "link": "https://subscribr.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/subscribr.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/subscribr.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6716,7 +6716,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free credits for YouTube competitor analysis and low-competition keyword finding.",
         "category": "Social Growth Hub",
         "link": "https://outlierkit.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/outlierkit.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/outlierkit.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6726,7 +6726,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "New users can chat with a limited number of YouTube videos per day with a message cap per video.",
         "category": "Social Growth Hub",
         "link": "https://chattube.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/chattube.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/chattube.io-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6736,7 +6736,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free 7-day trial to turn one video into social posts and act as an AI-powered YouTube SEO expert.",
         "category": "Social Growth Hub",
         "link": "https://taja.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taja.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taja.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6746,7 +6746,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free downloads and 5 AI scripts monthly for fast HD Shorts downloading and script conversion.",
         "category": "Social Growth Hub",
         "link": "https://ytshortsdl.net/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ytshortsdl.net-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ytshortsdl.net-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6756,7 +6756,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free for 7 days, providing optimized YouTube script generation and content analysis.",
         "category": "Social Growth Hub",
         "link": "https://maekersuite.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/maekersuite.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/maekersuite.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6766,7 +6766,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free 60-minute trial to convert YouTube videos into your language using natural voice options.",
         "category": "Social Growth Hub",
         "link": "https://heywatcher.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/heywatcher.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/heywatcher.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6776,7 +6776,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://creator-tools.com/en",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/creator-tools.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/creator-tools.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6786,7 +6786,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://vidstats.pro/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidstats.pro-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidstats.pro-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6796,7 +6796,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 2 starting credits to transform comments into actionable insights with deep sentiment analysis.",
         "category": "Social Growth Hub",
         "link": "https://commentmod.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentmod.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentmod.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6806,7 +6806,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://mymp3.net/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mymp3.net-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mymp3.net-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6816,7 +6816,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://replymaster.in/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/replymaster.in-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/replymaster.in-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6826,7 +6826,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to generate YouTube timestamped chapters and optimize tags.",
         "category": "Social Growth Hub",
         "link": "https://vidchapter.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidchapter.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidchapter.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6836,7 +6836,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://titlegen.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/titlegen.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/titlegen.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6846,7 +6846,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a credit-based free tier for AI-powered YouTube comment and sentiment analysis.",
         "category": "Social Growth Hub",
         "link": "https://www.commentscope.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentscope.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentscope.co-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6856,7 +6856,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 7-day free trial for its advanced YouTube analytics and growth tools.",
         "category": "Social Growth Hub",
         "link": "https://tubeiq.site/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubeiq.site-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubeiq.site-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6866,7 +6866,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan with limited AI voice generation minutes and basic voice styles with watermarks.",
         "category": "Social Growth Hub",
         "link": "https://tubevoice.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubevoice.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubevoice.app-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6876,7 +6876,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free 3 keyword research uses per day for keyword research, SEO scoring, and daily video ideas.",
         "category": "Social Growth Hub",
         "link": "https://www.ytrank.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ytrank.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ytrank.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6886,7 +6886,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/youtube-addiction-rehab/egjcbfpcghillmioipjehaikmekemilk",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6896,7 +6896,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/free-ai-youtube-video-tag/hpigmiaeankdpoafmfleolailbekciae",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6906,7 +6906,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A completely free and open-source browser extension to skip sponsored segments in YouTube videos.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/sponsor-skipper-for-youtu/achoncmlomeamkfiaoonjnipkjkpomkl",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6916,7 +6916,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI youtube tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/youtube-video-tags-summar/ppfomhocaedogacikjldipgomjdjalol",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6926,7 +6926,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free extension for AI-powered comment generation, sentiment analysis, and giveaway winner selection.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/youtube-comment-generator/hpncbpdkbckdknghjlnephibcallkpim",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6936,7 +6936,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Start for free to understand, manage, and grow your YouTube audience using generative AI.",
         "category": "Social Growth Hub",
         "link": "https://supareel.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/supareel.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/supareel.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6946,7 +6946,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://www.tubehorizon.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubehorizon.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubehorizon.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6956,7 +6956,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial for AI-generated SEO timestamps, hashtags, and descriptions.",
         "category": "Social Growth Hub",
         "link": "https://www.monteracreative.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/monteracreative.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monteracreative.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 6
     },
@@ -6966,7 +6966,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Analyzes YouTube comments with AI-powered insights and ChatGPT integration.",
         "category": "Social Growth Hub",
         "link": "https://www.commentexplorer.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentexplorer.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentexplorer.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6976,7 +6976,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://rankuapp.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/rankuapp.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/rankuapp.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6986,7 +6986,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free tool to analyze YouTube comments with sentiment analysis and real-time results.",
         "category": "Social Growth Hub",
         "link": "https://www.commentanalyzer.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/commentanalyzer.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/commentanalyzer.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -6996,7 +6996,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://www.videomuse.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/videomuse.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/videomuse.app-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7006,7 +7006,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a free paraphrasing tool with daily limits on word counts and advanced modes.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/rewordee-ai-chatgpt-for-y/goggcpmlebgpfjecedpppoefjcggblgm",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7016,7 +7016,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free beta access for automated video content processing and AI-generated SEO-friendly titles.",
         "category": "Social Growth Hub",
         "link": "https://sanchay.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sanchay.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sanchay.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7026,7 +7026,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://www.mobbydownload.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mobbydownload.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mobbydownload.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7036,7 +7036,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 7-day free trial that allows you to generate chapters for up to 100 videos.",
         "category": "Social Growth Hub",
         "link": "https://www.instantchapters.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/instantchapters.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/instantchapters.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7046,7 +7046,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://tubeletter.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubeletter.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubeletter.ai-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7056,7 +7056,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free AI-powered transcription tool supporting 100+ languages without sign-up.",
         "category": "Social Growth Hub",
         "link": "https://transcriptal.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/transcriptal.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/transcriptal.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7066,7 +7066,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 100 free credits for AI thumbnail generation, face swap, and style recreation.",
         "category": "Social Growth Hub",
         "link": "https://thumbnailmakerr.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/thumbnailmakerr.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/thumbnailmakerr.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7076,7 +7076,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://cursio.com.br/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cursio.com.br-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cursio.com.br-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7086,7 +7086,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free daily posting to convert YouTube videos into SEO-friendly blog posts with multi-language support.",
         "category": "Social Growth Hub",
         "link": "https://youblogify.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/youblogify.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/youblogify.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7096,7 +7096,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://seoroast.co/tools/youtube-title-generator",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/seoroast.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/seoroast.co-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7106,7 +7106,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://vidquestai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidquestai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidquestai.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7116,7 +7116,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free analyses for instant, unbiased feedback and actionable insights.",
         "category": "Social Growth Hub",
         "link": "https://goviralvid.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/goviralvid.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/goviralvid.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7126,7 +7126,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI youtube tools for users on the go.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/tr/app/tubeboost-ai-seo-for-youtuber/id6578414866",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7136,7 +7136,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven youtube features.",
         "category": "Social Growth Hub",
         "link": "https://cloudnein.cloud/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/cloudnein.cloud-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/cloudnein.cloud-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     },
@@ -7146,7 +7146,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free Chrome extension that generates AI-driven YouTube titles, tags, and hooks in 25 languages.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/free-ai-youtube-video-tit/holfnplikookkjkmdjodchnobhknkhmj",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Youtube",
         "score": 8
     }
@@ -7158,7 +7158,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 10 free AI image and text generations for a customizable link-in-bio page with real-time analytics.",
         "category": "Social Growth Hub",
         "link": "https://beacons.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/beacons.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/beacons.ai-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7168,7 +7168,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan including 1 website and 3 pages for fast website building with integrated CRM.",
         "category": "Social Growth Hub",
         "link": "https://onepage.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/onepage.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/onepage.io-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7178,7 +7178,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free bio link features.",
         "category": "Social Growth Hub",
         "link": "https://pillar.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/pillar.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/pillar.io-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7188,7 +7188,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides free full-stack web apps (that sleep after 5 mins) and unlimited static sites with an intuitive code editor.",
         "category": "Social Growth Hub",
         "link": "https://glitch.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/glitch.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/glitch.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7198,7 +7198,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free forever website builder that includes an email address.",
         "category": "Social Growth Hub",
         "link": "https://ace.me/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ace.me-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ace.me-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7208,7 +7208,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free bio link features.",
         "category": "Social Growth Hub",
         "link": "https://twittmad.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/twittmad.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/twittmad.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7218,7 +7218,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free to claim for short link and minipage creation with AI-generated QR codes and business cards.",
         "category": "Social Growth Hub",
         "link": "https://mi.nimax.me/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mi.nimax.me-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mi.nimax.me-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7228,7 +7228,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers one free live project to showcase with AI-powered project descriptions and boosted visibility.",
         "category": "Social Growth Hub",
         "link": "https://www.snzzle.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/snzzle.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/snzzle.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7238,7 +7238,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a free forever plan with basic bio-link features and limited analytics.",
         "category": "Social Growth Hub",
         "link": "https://linkable.so/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/linkable.so-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/linkable.so-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7248,7 +7248,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free bio link features.",
         "category": "Social Growth Hub",
         "link": "https://simplebio.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/simplebio.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/simplebio.co-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7258,7 +7258,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan for social media scheduling, analytics, and AI post generation.",
         "category": "Social Growth Hub",
         "link": "https://postfity.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/postfity.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/postfity.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7268,7 +7268,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 5 free biolink pages including bio links, shortened links, and QR codes.",
         "category": "Social Growth Hub",
         "link": "https://lynklet.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/lynklet.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/lynklet.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7278,7 +7278,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free for life, offering short links, bio pages, and AI tools.",
         "category": "Social Growth Hub",
         "link": "https://omnes.link/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/omnes.link-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/omnes.link-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7288,7 +7288,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free link-in-bio page with AI text generation and AI image generation.",
         "category": "Social Growth Hub",
         "link": "https://hiiit.me/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hiiit.me-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hiiit.me-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7298,7 +7298,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for dynamic QR codes, landing pages, and scan analytics.",
         "category": "Social Growth Hub",
         "link": "https://www.linkstac.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/linkstac.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/linkstac.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 6
     },
@@ -7308,7 +7308,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free bio link features.",
         "category": "Social Growth Hub",
         "link": "https://jjam.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/jjam.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/jjam.co-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7318,7 +7318,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI free bio link tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/save-to-gleans-%E2%9C%A8/lkmpgdbkiagaaeoimapobmpfdibhinnd",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7328,7 +7328,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free bio link features.",
         "category": "Social Growth Hub",
         "link": "https://brfly.us/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/brfly.us-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brfly.us-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7338,7 +7338,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free version with 350 cards for an AI-powered bookmark manager and note-taking app.",
         "category": "Social Growth Hub",
         "link": "https://www.itsimple.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/itsimple.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/itsimple.ai-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7348,7 +7348,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Free tool allowing up to 100 job postings on a unique and easy-to-share bio link.",
         "category": "Social Growth Hub",
         "link": "https://wearehiring.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/wearehiring.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wearehiring.ai-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7358,7 +7358,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 1 free biolink page, 50 shortened links, and 5 QR codes with AI writing assistance.",
         "category": "Social Growth Hub",
         "link": "https://weesify.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/weesify.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/weesify.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7368,7 +7368,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides 1000 free clicks for AI-powered DeepLinking, AI post generation, and deal catalog access.",
         "category": "Social Growth Hub",
         "link": "https://joylink.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/joylink.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/joylink.io-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7378,7 +7378,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Allows users to make logos, business cards, and social designs using professionally curated templates.",
         "category": "Social Growth Hub",
         "link": "https://www.brandcrowd.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/brandcrowd.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/brandcrowd.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7388,7 +7388,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan to build and host your first mobile-pro website.",
         "category": "Social Growth Hub",
         "link": "https://univer.se/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/univer.se-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/univer.se-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7398,7 +7398,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "AI website builder designed to help you build your dream site.",
         "category": "Social Growth Hub",
         "link": "https://typedream.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/typedream.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/typedream.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7408,7 +7408,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 14-day free trial for auto-publishing, advanced analytics, and unified engagement.",
         "category": "Social Growth Hub",
         "link": "https://planly.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/planly.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/planly.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 6
     },
@@ -7418,7 +7418,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a free 3-day trial for customizable and trackable QR codes.",
         "category": "Social Growth Hub",
         "link": "https://qr-kode.no/en",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/qr-kode.no-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/qr-kode.no-128x128__Estimated_.png",
         "icon": "Link",
         "score": 6
     },
@@ -7428,7 +7428,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 25 free Relax QR Art generations with customizable designs and advanced tracking.",
         "category": "Social Growth Hub",
         "link": "https://quickqr.art/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/quickqr.art-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/quickqr.art-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7438,7 +7438,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free basic plan including automation, analytics, and DMCA protection.",
         "category": "Social Growth Hub",
         "link": "https://streamersuite.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/streamersuite.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/streamersuite.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7448,7 +7448,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a 7-day free trial for an all-in-one digital home with powerful widgets and an AI writing companion.",
         "category": "Social Growth Hub",
         "link": "https://living.so/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/living.so-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/living.so-128x128__Estimated_.png",
         "icon": "Link",
         "score": 6
     },
@@ -7458,7 +7458,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Helps launch personalized merch stores with AI-matched sponsorships.",
         "category": "Social Growth Hub",
         "link": "https://imerch.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/imerch.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/imerch.ai-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7468,7 +7468,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "No-code builder to create a web-profile and CV online.",
         "category": "Social Growth Hub",
         "link": "https://4pm.app/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/4pm.app-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/4pm.app-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7478,7 +7478,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free bio link features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7488,7 +7488,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A mobile bio-link app offering a free tier for personalized social profiles and links.",
         "category": "Social Growth Hub",
         "link": "https://soniclink.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/soniclink.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/soniclink.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7498,7 +7498,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free bio link features.",
         "category": "Social Growth Hub",
         "link": "https://www.bondu.in/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/bondu.in-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/bondu.in-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7508,7 +7508,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan with limits, featuring 0% fees and data ownership.",
         "category": "Social Growth Hub",
         "link": "https://wallafan.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/wallafan.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/wallafan.com-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7518,7 +7518,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a free trial for AI chatbots and automated customer interactions.",
         "category": "Social Growth Hub",
         "link": "https://ohmybot.co/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ohmybot.co-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ohmybot.co-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     },
@@ -7528,7 +7528,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free basic features for personal branding and AI-powered profile optimization.",
         "category": "Social Growth Hub",
         "link": "https://home.ceeya.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/home.ceeya.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/home.ceeya.io-128x128__Estimated_.png",
         "icon": "Link",
         "score": 8
     }
@@ -7540,7 +7540,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free video ideas, 3 thumbnail generations, and 3 keyword research uses for AI-powered optimization.",
         "category": "Social Growth Hub",
         "link": "https://vidiq.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidiq.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidiq.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7550,7 +7550,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free 7-day trial to turn one video into social posts and act as an AI-powered YouTube SEO expert.",
         "category": "Social Growth Hub",
         "link": "https://taja.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/taja.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/taja.ai-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 6
     },
@@ -7560,7 +7560,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI free youtube tags generator tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/tagistaan/dgkmdainpjphbdicfabajkghdbfofkkh",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7570,7 +7570,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI free youtube tags generator tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/free-ai-tag-generator-for/oojmepkmiepcfpkkcjlhacagadhencdk",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7580,7 +7580,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free online tool to generate optimized tags and keywords for YouTube videos.",
         "category": "Social Growth Hub",
         "link": "https://tagifynow.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tagifynow.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tagifynow.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7590,7 +7590,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a 7-day free trial to generate YouTube timestamped chapters and optimize tags.",
         "category": "Social Growth Hub",
         "link": "https://vidchapter.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/vidchapter.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vidchapter.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 6
     },
@@ -7600,7 +7600,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI free youtube tags generator tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/free-ai-youtube-video-tag/hpigmiaeankdpoafmfleolailbekciae",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7610,7 +7610,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free beta access for automated video content processing and AI-generated SEO-friendly titles.",
         "category": "Social Growth Hub",
         "link": "https://sanchay.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/sanchay.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/sanchay.ai-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7620,7 +7620,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free plan for basic AI video creation and editing tools with usage limits.",
         "category": "Social Growth Hub",
         "link": "https://www.blitzvideo.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/blitzvideo.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/blitzvideo.ai-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7630,7 +7630,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers free 3 keyword research uses per day for keyword research, SEO scoring, and daily video ideas.",
         "category": "Social Growth Hub",
         "link": "https://www.ytrank.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ytrank.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ytrank.ai-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7640,7 +7640,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free Chrome extension that generates AI-driven YouTube titles, tags, and hooks in 25 languages.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/free-ai-youtube-video-tit/holfnplikookkjkmdjodchnobhknkhmj",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7650,7 +7650,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-install browser extension providing essential AI free youtube tags generator tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://chromewebstore.google.com/detail/youtube-video-tags-summar/ppfomhocaedogacikjldipgomjdjalol",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/google.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/google.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7660,7 +7660,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free trial for AI-generated SEO timestamps, hashtags, and descriptions.",
         "category": "Social Growth Hub",
         "link": "https://www.monteracreative.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/monteracreative.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/monteracreative.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 6
     },
@@ -7670,7 +7670,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free youtube tags generator features.",
         "category": "Social Growth Hub",
         "link": "https://aiwritertool.org/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aiwritertool.org-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aiwritertool.org-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7680,7 +7680,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free youtube tags generator features.",
         "category": "Social Growth Hub",
         "link": "https://timeskip.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/timeskip.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/timeskip.io-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7690,7 +7690,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers 3 free runs per month for AI content creation, demand creation, and campaign creation.",
         "category": "Social Growth Hub",
         "link": "https://storylab.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/storylab.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/storylab.ai-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7700,7 +7700,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free youtube tags generator features.",
         "category": "Social Growth Hub",
         "link": "https://clipmake.ai/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/clipmake.ai-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/clipmake.ai-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7710,7 +7710,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a free trial or credit-based plan for AI-powered social media post generation.",
         "category": "Social Growth Hub",
         "link": "https://writeturbo.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/writeturbo.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/writeturbo.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7720,7 +7720,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free youtube tags generator features.",
         "category": "Social Growth Hub",
         "link": "https://www.tubtic.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/tubtic.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/tubtic.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7730,7 +7730,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free-to-download mobile application offering essential AI free youtube tags generator tools for your workflow.",
         "category": "Social Growth Hub",
         "link": "https://apps.apple.com/tr/app/tubeboost-ai-seo-for-youtuber/id6578414866",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/apps.apple.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/apps.apple.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7740,7 +7740,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free youtube tags generator features.",
         "category": "Social Growth Hub",
         "link": "https://aimeduza.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/aimeduza.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/aimeduza.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7750,7 +7750,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free youtube tags generator features.",
         "category": "Social Growth Hub",
         "link": "https://impulseai.io/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/impulseai.io-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/impulseai.io-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7760,7 +7760,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Provides a freemium plan with limited daily usage to explore professional AI-driven free youtube tags generator features.",
         "category": "Social Growth Hub",
         "link": "https://mindmeldcanvas.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/mindmeldcanvas.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/mindmeldcanvas.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7770,7 +7770,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "Offers a free basic plan for AI social media scheduling and content discovery.",
         "category": "Social Growth Hub",
         "link": "https://hoshai.com/",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/hoshai.com-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/hoshai.com-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     },
@@ -7780,7 +7780,7 @@ export const social_growth_tools: Record<string, Tool[]> = {
         "description": "A free playground to explore various AI models for text and image generation.",
         "category": "Social Growth Hub",
         "link": "https://ai.jat.link/locale/en",
-        "iconUrl": "https://freeaitools.ct.ws/public/icons/ai.jat.link-128x128__Estimated_.png",
+        "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/ai.jat.link-128x128__Estimated_.png",
         "icon": "Tag",
         "score": 8
     }
