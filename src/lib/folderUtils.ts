@@ -1,5 +1,5 @@
 import { doc, setDoc, deleteDoc, serverTimestamp } from "firebase/firestore";
-import { auth, db } from "../firebase";
+import { auth, db, handleFirestoreError, OperationType } from "../firebase";
 
 export interface Folder {
   id: string;
@@ -147,22 +147,39 @@ export const shareFolder = async (folderId: string): Promise<string> => {
   // Generate a shareId if it doesn't already exist on this folder
   const shareId = folder.shareId || "s_" + generateId();
   
-  // Set in Firestore shared_folders
-  const sharedRef = doc(db, "shared_folders", shareId);
-  await setDoc(sharedRef, {
-    name: folder.name,
-    toolIds: folder.toolIds || [],
-    creatorUid: user.uid,
-    createdAt: serverTimestamp()
-  });
+  try {
+    console.log(`[Share] Step 1: Writing shared folder to shared_folders/${shareId}`);
+    // Set in Firestore shared_folders
+    const sharedRef = doc(db, "shared_folders", shareId);
+    await setDoc(sharedRef, {
+      name: folder.name,
+      toolIds: folder.toolIds || [],
+      creatorUid: user.uid,
+      createdAt: serverTimestamp()
+    });
+  } catch (error) {
+    console.error("[Share] Error writing to shared_folders doc:", error);
+    handleFirestoreError(error, OperationType.WRITE, `shared_folders/${shareId}`);
+  }
 
   // Save the shareId to the local folder as well
   folder.shareId = shareId;
   saveLocalFolders(folders);
 
-  // Save the shareId to the user's private folder in Firestore
-  const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-  await setDoc(folderDocRef, { shareId }, { merge: true });
+  try {
+    console.log(`[Share] Step 2: Saving shareId and folder schema to user folders collection`);
+    // Save the complete folder payload to Firestore to comply with isValidFolder rules
+    const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
+    await setDoc(folderDocRef, {
+      name: folder.name,
+      toolIds: folder.toolIds || [],
+      shareId,
+      createdAt: serverTimestamp()
+    }, { merge: true });
+  } catch (error) {
+    console.error("[Share] Error of updating user folder document with share info:", error);
+    handleFirestoreError(error, OperationType.WRITE, `users/${user.uid}/folders/${folderId}`);
+  }
 
   return shareId;
 };
@@ -181,19 +198,28 @@ export const unshareFolder = async (folderId: string): Promise<void> => {
     await deleteDoc(sharedRef);
   } catch (error) {
     console.error("Error deleting shared folder database document:", error);
+    try {
+      handleFirestoreError(error, OperationType.DELETE, `shared_folders/${folder.shareId}`);
+    } catch (e) {}
   }
 
+  const oldShareId = folder.shareId;
   delete folder.shareId;
   saveLocalFolders(folders);
 
   const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
   try {
+    // Write full properties to maintain schema valid properties but omit shareId
     await setDoc(folderDocRef, {
       name: folder.name,
-      toolIds: folder.toolIds || []
+      toolIds: folder.toolIds || [],
+      createdAt: serverTimestamp()
     }); // This resets the doc shape and removes shareId field from Firestore
   } catch (error) {
     console.error("Error clearing shareId on Firestore folder:", error);
+    try {
+      handleFirestoreError(error, OperationType.WRITE, `users/${user.uid}/folders/${folderId}`);
+    } catch (e) {}
   }
 };
 
