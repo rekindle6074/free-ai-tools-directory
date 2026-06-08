@@ -93,14 +93,27 @@ const SharedFolderPage: FC = () => {
   }
 
   if (error || !sharedData) {
+    const isOfflineError = 
+      error?.toLowerCase().includes("offline") || 
+      error?.toLowerCase().includes("timed out") || 
+      error?.toLowerCase().includes("network") ||
+      error?.toLowerCase().includes("connection");
+
+    const errorTitle = isOfflineError ? "Database Connection Issue" : "Collection Not Found";
+    const errorDescription = isOfflineError
+      ? "Could not establish a connection to Firestore. This commonly occurs because of security sandboxing or WebSocket restrictions inside iframe previews. We have automatically fallback-reconfigured the connection to HTTP long polling. Please click 'Try Again' below to reconnect."
+      : (error || "The requested favorite folder link is invalid or no longer active.");
+
     return (
       <div className="max-w-2xl mx-auto px-4 py-16 text-center">
-        <div className="inline-flex items-center justify-center w-16 h-16 bg-rose-50 rounded-full text-rose-500 mb-6 border border-rose-150">
+        <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full mb-6 border ${isOfflineError ? 'bg-amber-50 text-amber-500 border-amber-150' : 'bg-rose-50 text-rose-500 border-rose-150'}`}>
           <AlertCircle className="w-8 h-8" />
         </div>
-        <h1 className="text-2xl font-black text-slate-950 uppercase tracking-tight mb-3">Collection Not Found</h1>
-        <p className="text-slate-500 leading-relaxed max-w-md mx-auto mb-8">
-          {error || "The requested favorite folder link is invalid or no longer active."}
+        <h1 className="text-2xl font-black text-slate-950 uppercase tracking-tight mb-3">
+          {errorTitle}
+        </h1>
+        <p className="text-slate-500 leading-relaxed max-w-md mx-auto mb-8 text-sm">
+          {errorDescription}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button
