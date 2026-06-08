@@ -11,8 +11,8 @@ export interface Folder {
 // Generate random ID for offline usage
 const generateId = () => Math.random().toString(36).substring(2, 15);
 
-// Helper function to prevent infinite hangs in Firestore setDoc/deleteDoc operations
-const withTimeout = <T>(promise: Promise<T>, timeoutMs = 8000, errorMsg = "Operation timed out after 8 seconds."): Promise<T> => {
+// Helper function to prevent infinite hangs in Firestore operations
+const withTimeout = <T>(promise: Promise<T>, timeoutMs = 8000, errorMsg = "Operation timed out. Please check your internet connection and try again."): Promise<T> => {
   return Promise.race([
     promise,
     new Promise<never>((_, reject) =>
@@ -41,7 +41,7 @@ export const saveLocalFolders = (folders: Folder[]) => {
   } catch (e) {}
 };
 
-// Create a new folder
+// Create a new folder (Awaited Sync & Rollback enabled)
 export const createFolder = async (name: string): Promise<string> => {
   const folderId = "f_" + generateId();
   const folders = getLocalFolders();
@@ -51,222 +51,266 @@ export const createFolder = async (name: string): Promise<string> => {
     toolIds: []
   };
 
-  folders.push(newFolder);
-  saveLocalFolders(folders);
+  // Optimistic local update
+  saveLocalFolders([...folders, newFolder]);
 
   const user = auth?.currentUser;
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    // Sync to Firestore in the background
-    (async () => {
-      try {
-        await withTimeout(
-          setDoc(folderDocRef, {
-            name,
-            toolIds: [],
-            createdAt: serverTimestamp()
-          }),
-          6500,
-          "Creating folder in Firestore timed out."
-        );
-      } catch (error) {
-        console.error("Error saving folder to Firestore in background:", error);
-      }
-    })();
+    try {
+      await withTimeout(
+        setDoc(folderDocRef, {
+          name,
+          toolIds: [],
+          createdAt: serverTimestamp()
+        }),
+        7500,
+        "Firestore timed out while creating folder."
+      );
+    } catch (error) {
+      // Rollback local state on sync failure
+      const rollbackFolders = getLocalFolders().filter(f => f.id !== folderId);
+      saveLocalFolders(rollbackFolders);
+      console.error("[Sync-Error] Folder creation failed. Rolled back.", error);
+      throw error;
+    }
   }
 
   return folderId;
 };
 
-// Delete folder
+// Delete folder (Awaited Sync & Rollback enabled)
 export const deleteFolder = async (folderId: string): Promise<void> => {
-  const folders = getLocalFolders().filter(f => f.id !== folderId);
-  saveLocalFolders(folders);
+  const folders = getLocalFolders();
+  const folderToDelete = folders.find(f => f.id === folderId);
+  if (!folderToDelete) return;
+
+  // Optimistic local update
+  saveLocalFolders(folders.filter(f => f.id !== folderId));
 
   const user = auth?.currentUser;
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    // Sync to Firestore in the background
-    (async () => {
-      try {
-        await withTimeout(
-          deleteDoc(folderDocRef),
-          6500,
-          "Deleting folder from Firestore timed out."
-        );
-      } catch (error) {
-        console.error("Error deleting folder from Firestore in background:", error);
+    try {
+      await withTimeout(
+        deleteDoc(folderDocRef),
+        7500,
+        "Firestore timed out while deleting folder."
+      );
+    } catch (error) {
+      // Rollback local state on sync failure
+      const rollbackFolders = getLocalFolders();
+      if (!rollbackFolders.some(f => f.id === folderId)) {
+        saveLocalFolders([...rollbackFolders, folderToDelete]);
       }
-    })();
+      console.error("[Sync-Error] Folder deletion failed. Rolled back.", error);
+      throw error;
+    }
   }
 };
 
-// Rename folder
+// Rename folder (Awaited Sync & Rollback enabled)
 export const renameFolder = async (folderId: string, name: string): Promise<void> => {
-  const folders = getLocalFolders().map(f => {
-    if (f.id === folderId) {
-      return { ...f, name };
-    }
-    return f;
-  });
-  saveLocalFolders(folders);
+  const folders = getLocalFolders();
+  const folderIndex = folders.findIndex(f => f.id === folderId);
+  if (folderIndex === -1) return;
+  
+  const originalFolder = folders[folderIndex];
+  const originalName = originalFolder.name;
+
+  // Optimistic local update
+  const updatedFolders = [...folders];
+  updatedFolders[folderIndex] = { ...originalFolder, name };
+  saveLocalFolders(updatedFolders);
 
   const user = auth?.currentUser;
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    // Sync to Firestore in the background
-    (async () => {
-      try {
-        await withTimeout(
-          setDoc(folderDocRef, { name }, { merge: true }),
-          6500,
-          "Renaming folder in Firestore timed out."
-        );
-      } catch (error) {
-        console.error("Error renaming folder in Firestore in background:", error);
+    try {
+      await withTimeout(
+        setDoc(folderDocRef, { name }, { merge: true }),
+        7500,
+        "Firestore timed out while renaming folder."
+      );
+    } catch (error) {
+      // Rollback local state on sync failure
+      const rollbackFolders = getLocalFolders();
+      const rollbackIndex = rollbackFolders.findIndex(f => f.id === folderId);
+      if (rollbackIndex !== -1) {
+        rollbackFolders[rollbackIndex].name = originalName;
+        saveLocalFolders(rollbackFolders);
       }
-    })();
+      console.error("[Sync-Error] Folder renaming failed. Rolled back.", error);
+      throw error;
+    }
   }
 };
 
-// Add / Remove tool from folder
+// Add / Remove tool from folder (Awaited Sync & Rollback enabled)
 export const toggleToolInFolder = async (folderId: string, toolId: string): Promise<boolean> => {
+  const folders = getLocalFolders();
+  const folderIndex = folders.findIndex(f => f.id === folderId);
+  if (folderIndex === -1) return false;
+
+  const folder = folders[folderIndex];
+  const originalToolIds = [...(folder.toolIds || [])];
+  
   let isAdded = false;
-  const folders = getLocalFolders().map(f => {
-    if (f.id === folderId) {
-      const toolIds = f.toolIds || [];
-      if (toolIds.includes(toolId)) {
-        f.toolIds = toolIds.filter(id => id !== toolId);
-        isAdded = false;
-      } else {
-        f.toolIds = [...toolIds, toolId];
-        isAdded = true;
-      }
-    }
-    return f;
-  });
-  saveLocalFolders(folders);
+  let newToolIds = [...originalToolIds];
+  if (newToolIds.includes(toolId)) {
+    newToolIds = newToolIds.filter(id => id !== toolId);
+    isAdded = false;
+  } else {
+    newToolIds.push(toolId);
+    isAdded = true;
+  }
+
+  // Optimistic local update
+  const updatedFolders = [...folders];
+  updatedFolders[folderIndex] = { ...folder, toolIds: newToolIds };
+  saveLocalFolders(updatedFolders);
 
   const user = auth?.currentUser;
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    const folder = folders.find(f => f.id === folderId);
-    if (folder) {
-      // Sync to Firestore in the background
-      (async () => {
-        try {
-          await withTimeout(
-            setDoc(folderDocRef, {
-              toolIds: folder.toolIds
-            }, { merge: true }),
-            6500,
-            "Updating folder's tool list in Firestore timed out."
-          );
-        } catch (error) {
-          console.error("Error updating tool list inside Firestore folder in background:", error);
-        }
-      })();
+    try {
+      await withTimeout(
+        setDoc(folderDocRef, {
+          toolIds: newToolIds
+        }, { merge: true }),
+        7500,
+        "Firestore timed out while updating tools inside the folder."
+      );
+    } catch (error) {
+      // Rollback local state on sync failure
+      const rollbackFolders = getLocalFolders();
+      const rollbackIndex = rollbackFolders.findIndex(f => f.id === folderId);
+      if (rollbackIndex !== -1) {
+        rollbackFolders[rollbackIndex].toolIds = originalToolIds;
+        saveLocalFolders(rollbackFolders);
+      }
+      console.error("[Sync-Error] Updating tools in folder failed. Rolled back.", error);
+      throw error;
     }
   }
   return isAdded;
 };
 
-// Share custom folder/collection publicly
+// Share custom folder/collection publicly (Awaited Sync & ROLLBACK enabled)
 export const shareFolder = async (folderId: string): Promise<string> => {
   const folders = getLocalFolders();
-  const folder = folders.find(f => f.id === folderId);
-  if (!folder) throw new Error("Folder not found");
+  const folderIndex = folders.findIndex(f => f.id === folderId);
+  if (folderIndex === -1) throw new Error("Folder not found");
+  
+  const folder = folders[folderIndex];
+  const user = auth?.currentUser;
+  if (!user || !db) {
+    throw new Error("You must be logged in to share a folder publicly.");
+  }
+
+  const shareId = folder.shareId || "s_" + generateId();
+  const originalShareId = folder.shareId;
+
+  // Optimistic local update of local storage
+  const updatedFolders = [...folders];
+  updatedFolders[folderIndex] = { ...folder, shareId };
+  saveLocalFolders(updatedFolders);
+
+  try {
+    console.log(`[Share-Sync] Step 1: Writing shared folder document to shared_folders/${shareId}`);
+    const sharedRef = doc(db, "shared_folders", shareId);
+    await withTimeout(
+      setDoc(sharedRef, {
+        name: folder.name,
+        toolIds: folder.toolIds || [],
+        creatorUid: user.uid,
+        createdAt: serverTimestamp()
+      }),
+      8000,
+      "Failed to register the public shared collection. Plase check your connection."
+    );
+
+    console.log(`[Share-Sync] Step 2: Saving shareId and folder schema to user folders collection`);
+    const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
+    await withTimeout(
+      setDoc(folderDocRef, {
+        name: folder.name,
+        toolIds: folder.toolIds || [],
+        shareId: shareId,
+        createdAt: serverTimestamp()
+      }, { merge: true }),
+      8000,
+      "Failed to bind the shared link reference to your profile."
+    );
+
+    console.log(`[Share-Sync] Successfully synced shared folder to Firestore! ID: ${shareId}`);
+    return shareId;
+  } catch (error: any) {
+    // ROLLBACK optimistic update immediately on any error!
+    console.error("[Share-Sync-Error] Failed to share folder. Rolling back local state...", error);
+    const rollbackFolders = getLocalFolders();
+    const rollbackIndex = rollbackFolders.findIndex(f => f.id === folderId);
+    if (rollbackIndex !== -1) {
+      if (originalShareId) {
+        rollbackFolders[rollbackIndex].shareId = originalShareId;
+      } else {
+        delete rollbackFolders[rollbackIndex].shareId;
+      }
+      saveLocalFolders(rollbackFolders);
+    }
+    throw error;
+  }
+};
+
+// Remove public share link of a collection (Awaited Sync & ROLLBACK enabled)
+export const unshareFolder = async (folderId: string): Promise<void> => {
+  const folders = getLocalFolders();
+  const folderIndex = folders.findIndex(f => f.id === folderId);
+  if (folderIndex === -1) return;
+  
+  const folder = folders[folderIndex];
+  const shareId = folder.shareId;
+  if (!shareId) return;
 
   const user = auth?.currentUser;
   if (!user || !db) {
-    throw new Error("You must be logged in to share a folder");
+    throw new Error("You must be logged in to unshare folders.");
   }
 
-  // Generate a shareId if it doesn't already exist on this folder
-  const shareId = folder.shareId || "s_" + generateId();
-  
-  // IMMEDIATELY update local storage so the UI updates and displays the share link instantly
-  folder.shareId = shareId;
-  saveLocalFolders(folders);
+  // Optimistic local update
+  const updatedFolders = [...folders];
+  delete updatedFolders[folderIndex].shareId;
+  saveLocalFolders(updatedFolders);
 
-  // Sync to Firestore securely in the background
-  (async () => {
-    try {
-      console.log(`[Share-BG] Step 1: Writing shared folder to shared_folders/${shareId}`);
-      const sharedRef = doc(db, "shared_folders", shareId);
-      await withTimeout(
-        setDoc(sharedRef, {
-          name: folder.name,
-          toolIds: folder.toolIds || [],
-          creatorUid: user.uid,
-          createdAt: serverTimestamp()
-        }),
-        6500,
-        "Step 1 of sharing timed out. Firestore took too long to write the shared collection."
-      );
+  try {
+    console.log(`[Unshare-Sync] Step 1: Deleting shared collection link`);
+    const sharedRef = doc(db, "shared_folders", shareId);
+    await withTimeout(
+      deleteDoc(sharedRef),
+      8000,
+      "Failed to delete the public shared link."
+    );
 
-      console.log(`[Share-BG] Step 2: Saving shareId and folder schema to user folders collection`);
-      const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-      await withTimeout(
-        setDoc(folderDocRef, {
-          name: folder.name,
-          toolIds: folder.toolIds || [],
-          shareId,
-          createdAt: serverTimestamp()
-        }, { merge: true }),
-        6500,
-        "Step 2 of sharing timed out. User's personal collection folder write took too long."
-      );
-      console.log(`[Share-BG] Successfully synced shared folder to Firestore!`);
-    } catch (error) {
-      console.error("[Share-BG] Background Firestore write failed:", error);
+    console.log(`[Unshare-Sync] Step 2: Resetting user folder document to omit shareId`);
+    const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
+    await withTimeout(
+      setDoc(folderDocRef, {
+        shareId: null,
+        updatedAt: serverTimestamp()
+      }, { merge: true }),
+      8000,
+      "Failed to remove the shared reference from your profile."
+    );
+    console.log(`[Unshare-Sync] Successfully unshared folder on Firestore!`);
+  } catch (error: any) {
+    console.error("[Unshare-Sync-Error] Failed to unshare folder. Rolling back...", error);
+    // Rollback
+    const rollbackFolders = getLocalFolders();
+    const rollbackIndex = rollbackFolders.findIndex(f => f.id === folderId);
+    if (rollbackIndex !== -1) {
+      rollbackFolders[rollbackIndex].shareId = shareId;
+      saveLocalFolders(rollbackFolders);
     }
-  })();
-
-  return shareId;
+    throw error;
+  }
 };
-
-// Remove public share link of a collection
-export const unshareFolder = async (folderId: string): Promise<void> => {
-  const folders = getLocalFolders();
-  const folder = folders.find(f => f.id === folderId);
-  if (!folder || !folder.shareId) return;
-
-  const user = auth?.currentUser;
-  if (!user || !db) return;
-
-  const shareId = folder.shareId;
-
-  // IMMEDIATELY clear the shareId from local storage so UI resets instantly
-  delete folder.shareId;
-  saveLocalFolders(folders);
-
-  // Sync to Firestore in the background
-  (async () => {
-    try {
-      console.log(`[Unshare-BG] Step 1: Deleting shared collection link`);
-      const sharedRef = doc(db, "shared_folders", shareId);
-      await withTimeout(
-        deleteDoc(sharedRef),
-        6500,
-        "Deleting shared collection link timed out."
-      );
-
-      console.log(`[Unshare-BG] Step 2: Resetting user folder document to omit shareId`);
-      const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-      await withTimeout(
-        setDoc(folderDocRef, {
-          name: folder.name,
-          toolIds: folder.toolIds || [],
-          createdAt: serverTimestamp()
-        }),
-        6500,
-        "Updating user folders during unshare timed out."
-      );
-      console.log(`[Unshare-BG] Successfully unshared folder on Firestore!`);
-    } catch (error) {
-      console.error("[Unshare-BG] Background Firestore unshare failed:", error);
-    }
-  })();
-};
-

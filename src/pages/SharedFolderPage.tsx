@@ -32,7 +32,14 @@ const SharedFolderPage: FC = () => {
       try {
         setLoading(true);
         const sharedRef = doc(db, "shared_folders", shareId);
-        const docSnap = await getDoc(sharedRef);
+        
+        // Wrap the getDoc call with a 10 seconds timeout to prevent endless spinner hangs
+        const docSnap = await Promise.race([
+          getDoc(sharedRef),
+          new Promise<never>((_, reject) =>
+            setTimeout(() => reject(new Error("Database fetch timed out. Please check your internet connection and try reloading.")), 10000)
+          )
+        ]);
 
         if (!docSnap.exists()) {
           setError("This shared collection does not exist or has been deleted by its owner.");
@@ -58,9 +65,9 @@ const SharedFolderPage: FC = () => {
 
         setResolvedTools(mapped);
         setError(null);
-      } catch (err) {
+      } catch (err: any) {
         console.error("Error fetching shared folder:", err);
-        setError("Could not load shared folder. Please try again later.");
+        setError(err instanceof Error ? err.message : "Could not load shared folder. Please try again later.");
       } finally {
         setLoading(false);
       }

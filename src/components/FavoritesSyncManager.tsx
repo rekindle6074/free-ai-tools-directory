@@ -86,10 +86,14 @@ export const FavoritesSyncManager: FC = () => {
 
         const foldersRef = collection(db, "users", user.uid, "folders");
         const foldersSnapshot = await getDocs(foldersRef);
-        const dbFolderIds = foldersSnapshot.docs.map(docSnap => docSnap.id);
+        const dbFolders = foldersSnapshot.docs.reduce((acc, docSnap) => {
+          acc[docSnap.id] = { id: docSnap.id, ...docSnap.data() };
+          return acc;
+        }, {} as Record<string, any>);
+        const dbFolderIds = Object.keys(dbFolders);
         const dbFolderSet = new Set(dbFolderIds);
 
-        // Find folders in local storage that don't exist in db
+        // A. Upload folders that are in local memory but completely missing from DB
         const missingFolders = localFolders.filter(f => f.id && !dbFolderSet.has(f.id));
 
         if (missingFolders.length > 0) {
@@ -106,6 +110,45 @@ export const FavoritesSyncManager: FC = () => {
                 }, { merge: true });
               } catch (err) {
                 console.warn(`[Sync] Failed to upload folder ${folder.id}:`, err);
+              }
+            })
+          );
+        }
+
+        // B. Reconcile existing folders (present both locally and on DB) to resolve offline conflicts
+        const existingFoldersToReconcile = localFolders.filter(f => f.id && dbFolderSet.has(f.id));
+        if (existingFoldersToReconcile.length > 0) {
+          console.log(`[Sync] Reconciling ${existingFoldersToReconcile.length} common folders...`);
+          await Promise.all(
+            existingFoldersToReconcile.map(async (localFolder) => {
+              const dbFolder = dbFolders[localFolder.id];
+              const localToolIds = localFolder.toolIds || [];
+              const dbToolIds = dbFolder.toolIds || [];
+              
+              // Perform mathematical Set union of tool IDs (advanced CRDT strategy)
+              const unionToolIds = Array.from(new Set([...localToolIds, ...dbToolIds]));
+              
+              const toolIdsChanged = localToolIds.length !== unionToolIds.length || dbToolIds.length !== unionToolIds.length;
+              const nameChanged = localFolder.name !== dbFolder.name;
+              const shareIdChanged = localFolder.shareId !== dbFolder.shareId;
+
+              if (toolIdsChanged || nameChanged || shareIdChanged) {
+                const folderDocRef = doc(db, "users", user.uid, "folders", localFolder.id);
+                try {
+                  const targetName = localFolder.name || dbFolder.name || "Untitled Folder";
+                  const targetShareId = localFolder.shareId || dbFolder.shareId || null;
+                  
+                  await setDoc(folderDocRef, {
+                    name: targetName,
+                    toolIds: unionToolIds,
+                    shareId: targetShareId,
+                    updatedAt: serverTimestamp()
+                  }, { merge: true });
+                  
+                  console.log(`[Sync] Bidirectionally reconciled folder: ${localFolder.id} ("${targetName}")`);
+                } catch (err) {
+                  console.warn(`[Sync] Failed to reconcile folder ${localFolder.id}:`, err);
+                }
               }
             })
           );
