@@ -17,26 +17,29 @@ const AuthButton: FC = () => {
       setLoading(false);
       return;
     }
-    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
+      setLoading(false); // Call immediately to avoid blocking user display!
+      
       if (currentUser) {
-        try {
-          // Ensure user document exists in Firestore
-          const userRef = doc(db, "users", currentUser.uid);
-          const userSnap = await getDoc(userRef);
-          if (!userSnap.exists()) {
-            await setDoc(userRef, {
-              uid: currentUser.uid,
-              email: currentUser.email,
-              displayName: currentUser.displayName,
-              createdAt: serverTimestamp(),
-            });
+        // Run Firestore profile registration in the background so it doesn't delay auth state restore
+        (async () => {
+          try {
+            const userRef = doc(db, "users", currentUser.uid);
+            const userSnap = await getDoc(userRef);
+            if (!userSnap.exists()) {
+              await setDoc(userRef, {
+                uid: currentUser.uid,
+                email: currentUser.email,
+                displayName: currentUser.displayName,
+                createdAt: serverTimestamp(),
+              });
+            }
+          } catch (error) {
+            console.error("Error updating user profile in Firestore:", error);
           }
-        } catch (error) {
-          console.error("Error updating user profile in Firestore:", error);
-        }
+        })();
       }
-      setLoading(false);
     });
     return () => unsubscribe();
   }, []);

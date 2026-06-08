@@ -33,11 +33,11 @@ const SharedFolderPage: FC = () => {
         setLoading(true);
         const sharedRef = doc(db, "shared_folders", shareId);
         
-        // Wrap the getDoc call with a 10 seconds timeout to prevent endless spinner hangs
+        // Wrap the getDoc call with a 25 seconds timeout to prevent endless spinner hangs on poor connections while giving Firestore ample time to establish its initial connection pool
         const docSnap = await Promise.race([
           getDoc(sharedRef),
           new Promise<never>((_, reject) =>
-            setTimeout(() => reject(new Error("Database fetch timed out. Please check your internet connection and try reloading.")), 10000)
+            setTimeout(() => reject(new Error("Database fetch timed out. Please check your internet connection and try reloading.")), 25000)
           )
         ]);
 
