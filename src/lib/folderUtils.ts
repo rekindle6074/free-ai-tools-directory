@@ -12,7 +12,7 @@ export interface Folder {
 const generateId = () => Math.random().toString(36).substring(2, 15);
 
 // Helper function to prevent infinite hangs in Firestore operations
-const withTimeout = <T>(promise: Promise<T>, timeoutMs = 8000, errorMsg = "Operation timed out. Please check your internet connection and try again."): Promise<T> => {
+const withTimeout = <T>(promise: Promise<T>, timeoutMs = 25000, errorMsg = "Operation timed out. Please check your internet connection and try again."): Promise<T> => {
   return Promise.race([
     promise,
     new Promise<never>((_, reject) =>
@@ -64,7 +64,7 @@ export const createFolder = async (name: string): Promise<string> => {
           toolIds: [],
           createdAt: serverTimestamp()
         }),
-        7500,
+        25000,
         "Firestore timed out while creating folder."
       );
     } catch (error) {
@@ -94,7 +94,7 @@ export const deleteFolder = async (folderId: string): Promise<void> => {
     try {
       await withTimeout(
         deleteDoc(folderDocRef),
-        7500,
+        25000,
         "Firestore timed out while deleting folder."
       );
     } catch (error) {
@@ -129,7 +129,7 @@ export const renameFolder = async (folderId: string, name: string): Promise<void
     try {
       await withTimeout(
         setDoc(folderDocRef, { name }, { merge: true }),
-        7500,
+        25000,
         "Firestore timed out while renaming folder."
       );
     } catch (error) {
@@ -178,7 +178,7 @@ export const toggleToolInFolder = async (folderId: string, toolId: string): Prom
         setDoc(folderDocRef, {
           toolIds: newToolIds
         }, { merge: true }),
-        7500,
+        25000,
         "Firestore timed out while updating tools inside the folder."
       );
     } catch (error) {
@@ -226,8 +226,8 @@ export const shareFolder = async (folderId: string): Promise<string> => {
         creatorUid: user.uid,
         createdAt: serverTimestamp()
       }),
-      8000,
-      "Failed to register the public shared collection. Plase check your connection."
+      25000,
+      "Failed to register the public shared collection. Please check your connection."
     );
 
     console.log(`[Share-Sync] Step 2: Saving shareId and folder schema to user folders collection`);
@@ -239,7 +239,7 @@ export const shareFolder = async (folderId: string): Promise<string> => {
         shareId: shareId,
         createdAt: serverTimestamp()
       }, { merge: true }),
-      8000,
+      25000,
       "Failed to bind the shared link reference to your profile."
     );
 
@@ -287,7 +287,7 @@ export const unshareFolder = async (folderId: string): Promise<void> => {
     const sharedRef = doc(db, "shared_folders", shareId);
     await withTimeout(
       deleteDoc(sharedRef),
-      8000,
+      25000,
       "Failed to delete the public shared link."
     );
 
@@ -298,7 +298,7 @@ export const unshareFolder = async (folderId: string): Promise<void> => {
         shareId: null,
         updatedAt: serverTimestamp()
       }, { merge: true }),
-      8000,
+      25000,
       "Failed to remove the shared reference from your profile."
     );
     console.log(`[Unshare-Sync] Successfully unshared folder on Firestore!`);
