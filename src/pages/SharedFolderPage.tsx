@@ -20,6 +20,11 @@ const SharedFolderPage: FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [sharedData, setSharedData] = useState<SharedFolderData | null>(null);
   const [resolvedTools, setResolvedTools] = useState<Tool[]>([]);
+  const [retryTrigger, setRetryTrigger] = useState(0);
+
+  const handleRetry = () => {
+    setRetryTrigger(prev => prev + 1);
+  };
 
   useEffect(() => {
     const fetchSharedFolder = async () => {
@@ -74,7 +79,7 @@ const SharedFolderPage: FC = () => {
     };
 
     fetchSharedFolder();
-  }, [shareId]);
+  }, [shareId, retryTrigger]);
 
   if (loading) {
     return (
@@ -97,12 +102,20 @@ const SharedFolderPage: FC = () => {
         <p className="text-slate-500 leading-relaxed max-w-md mx-auto mb-8">
           {error || "The requested favorite folder link is invalid or no longer active."}
         </p>
-        <Link
-          to="/"
-          className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold px-6 py-3 rounded-2xl transition-all shadow-md"
-        >
-          <Compass className="w-4 h-4" /> Go back to Home
-        </Link>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <button
+            onClick={handleRetry}
+            className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-2xl transition-all shadow-md cursor-pointer hover:shadow-emerald-100/40 text-sm active:scale-98"
+          >
+            <Share2 className="w-4 h-4" /> Try Again
+          </button>
+          <Link
+            to="/"
+            className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold px-6 py-3 rounded-2xl transition-all shadow-md text-sm active:scale-98"
+          >
+            <Compass className="w-4 h-4" /> Go back to Home
+          </Link>
+        </div>
       </div>
     );
   }
