@@ -62,9 +62,9 @@ export const createFolder = async (name: string): Promise<string> => {
         setDoc(folderDocRef, {
           name,
           toolIds: [],
-          createdAt: serverTimestamp()
+          createdAt: new Date()
         }),
-        25000,
+        60000,
         "Firestore timed out while creating folder."
       );
     } catch (error) {
@@ -94,7 +94,7 @@ export const deleteFolder = async (folderId: string): Promise<void> => {
     try {
       await withTimeout(
         deleteDoc(folderDocRef),
-        25000,
+        60000,
         "Firestore timed out while deleting folder."
       );
     } catch (error) {
@@ -129,7 +129,7 @@ export const renameFolder = async (folderId: string, name: string): Promise<void
     try {
       await withTimeout(
         setDoc(folderDocRef, { name }, { merge: true }),
-        25000,
+        60000,
         "Firestore timed out while renaming folder."
       );
     } catch (error) {
@@ -178,7 +178,7 @@ export const toggleToolInFolder = async (folderId: string, toolId: string): Prom
         setDoc(folderDocRef, {
           toolIds: newToolIds
         }, { merge: true }),
-        25000,
+        60000,
         "Firestore timed out while updating tools inside the folder."
       );
     } catch (error) {
@@ -224,9 +224,9 @@ export const shareFolder = async (folderId: string): Promise<string> => {
         name: folder.name,
         toolIds: folder.toolIds || [],
         creatorUid: user.uid,
-        createdAt: serverTimestamp()
+        createdAt: new Date()
       }),
-      25000,
+      60000,
       "Failed to register the public shared collection. Please check your connection."
     );
 
@@ -237,9 +237,9 @@ export const shareFolder = async (folderId: string): Promise<string> => {
         name: folder.name,
         toolIds: folder.toolIds || [],
         shareId: shareId,
-        createdAt: serverTimestamp()
+        createdAt: new Date()
       }, { merge: true }),
-      25000,
+      60000,
       "Failed to bind the shared link reference to your profile."
     );
 
@@ -287,7 +287,7 @@ export const unshareFolder = async (folderId: string): Promise<void> => {
     const sharedRef = doc(db, "shared_folders", shareId);
     await withTimeout(
       deleteDoc(sharedRef),
-      25000,
+      60000,
       "Failed to delete the public shared link."
     );
 
@@ -296,9 +296,9 @@ export const unshareFolder = async (folderId: string): Promise<void> => {
     await withTimeout(
       setDoc(folderDocRef, {
         shareId: null,
-        updatedAt: serverTimestamp()
+        updatedAt: new Date()
       }, { merge: true }),
-      25000,
+      60000,
       "Failed to remove the shared reference from your profile."
     );
     console.log(`[Unshare-Sync] Successfully unshared folder on Firestore!`);
