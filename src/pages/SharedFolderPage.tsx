@@ -28,7 +28,7 @@ const SharedFolderPage: FC = () => {
 
   useEffect(() => {
     const fetchSharedFolder = async () => {
-      if (!shareId || !db) {
+      if (!shareId) {
         setLoading(false);
         setError("Invalid link or database not configured.");
         return;
@@ -36,23 +36,48 @@ const SharedFolderPage: FC = () => {
 
       try {
         setLoading(true);
-        const sharedRef = doc(db, "shared_folders", shareId);
-        
-        // Wrap the getDoc call with a 25 seconds timeout to prevent endless spinner hangs on poor connections while giving Firestore ample time to establish its initial connection pool
-        const docSnap = await Promise.race([
-          getDoc(sharedRef),
-          new Promise<never>((_, reject) =>
-            setTimeout(() => reject(new Error("Database fetch timed out. Please check your internet connection and try reloading.")), 25000)
-          )
-        ]);
+        let data: SharedFolderData | null = null;
 
-        if (!docSnap.exists()) {
-          setError("This shared collection does not exist or has been deleted by its owner.");
-          setLoading(false);
-          return;
+        // Try reading from the server proxy API first — bypassing iframe connectivity issues entirely
+        try {
+          const response = await fetch(`/api/shared-folders/${shareId}`);
+          if (response.ok) {
+            data = await response.json();
+            console.log("[SharedFolderPage] Successfully retrieved shared folder data from server proxy API.");
+          } else if (response.status === 404) {
+            setError("This shared collection does not exist or has been deleted by its owner.");
+            setLoading(false);
+            return;
+          } else {
+            console.warn(`[SharedFolderPage] Server proxy returned non-200 status: ${response.status}`);
+          }
+        } catch (fetchErr) {
+          console.warn("[SharedFolderPage] Server API proxy fetch failed or not running, falling back to direct Firestore fetch:", fetchErr);
         }
 
-        const data = docSnap.data() as SharedFolderData;
+        // Fallback to client-side Firestore connection if server API query failed
+        if (!data) {
+          if (!db) {
+            throw new Error("Local database instance is unconfigured and server proxy API is offline.");
+          }
+
+          const sharedRef = doc(db, "shared_folders", shareId);
+          const docSnap = await Promise.race([
+            getDoc(sharedRef),
+            new Promise<never>((_, reject) =>
+              setTimeout(() => reject(new Error("Database fetch timed out. Please check your internet connection and try reloading.")), 15000)
+            )
+          ]);
+
+          if (!docSnap.exists()) {
+            setError("This shared collection does not exist or has been deleted by its owner.");
+            setLoading(false);
+            return;
+          }
+
+          data = docSnap.data() as SharedFolderData;
+        }
+
         setSharedData(data);
 
         // Resolve tool IDs back to Tool objects
