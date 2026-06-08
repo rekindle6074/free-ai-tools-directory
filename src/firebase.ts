@@ -27,21 +27,30 @@ if (app) {
   try {
     authInstance = getAuth(app);
     const dbId = firebaseAppConfig?.firestoreDatabaseId;
+    const dbIdToUse = (dbId && dbId.trim() !== "" && dbId !== "(default)" && dbId !== "undefined")
+      ? dbId.trim()
+      : null;
+
     const settings = {
       experimentalForceLongPolling: true,
     };
-    if (dbId && dbId.trim() !== "" && dbId !== "(default)" && dbId !== "undefined") {
-      dbInstance = initializeFirestore(app, settings, dbId.trim());
-    } else {
-      dbInstance = initializeFirestore(app, settings);
+
+    try {
+      if (dbIdToUse) {
+        dbInstance = initializeFirestore(app, settings, dbIdToUse);
+      } else {
+        dbInstance = initializeFirestore(app, settings);
+      }
+    } catch (initError) {
+      console.warn("Firestore already initialized or error encountered, attempting to retrieve existing instance:", initError);
+      if (dbIdToUse) {
+        dbInstance = getFirestore(app, dbIdToUse);
+      } else {
+        dbInstance = getFirestore(app);
+      }
     }
   } catch (error) {
-    console.error("Error initializing Firebase services:", error);
-    try {
-      dbInstance = getFirestore(app);
-    } catch (innerError) {
-      console.error("Fallback initialization also failed:", innerError);
-    }
+    console.error("Critical error initializing Firebase services:", error);
   }
 }
 
