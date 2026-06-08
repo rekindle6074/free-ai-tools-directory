@@ -11,14 +11,33 @@ export interface Folder {
 // Generate random ID for offline usage
 const generateId = () => Math.random().toString(36).substring(2, 15);
 
-// Helper function to prevent infinite hangs in Firestore operations
-const withTimeout = <T>(promise: Promise<T>, timeoutMs = 25000, errorMsg = "Operation timed out. Please check your internet connection and try again."): Promise<T> => {
-  return Promise.race([
-    promise,
-    new Promise<never>((_, reject) =>
-      setTimeout(() => reject(new Error(errorMsg)), timeoutMs)
-    )
-  ]);
+// Helper to await a Firestore write promise for a short time, proceeding gracefully if it delays.
+// This leverages Firestore's native offline-first architecture, preventing false-positive network timeouts.
+const withWriteSync = async (promise: Promise<any>, gracePeriodMs = 3000): Promise<void> => {
+  return new Promise<void>((resolve, reject) => {
+    let completed = false;
+    promise.then(
+      () => {
+        if (!completed) {
+          completed = true;
+          resolve();
+        }
+      },
+      (err) => {
+        if (!completed) {
+          completed = true;
+          reject(err);
+        }
+      }
+    );
+    setTimeout(() => {
+      if (!completed) {
+        completed = true;
+        console.warn(`[Firestore-Sync] Write operation took longer than ${gracePeriodMs}ms. Proceeding via background synchronization.`);
+        resolve();
+      }
+    }, gracePeriodMs);
+  });
 };
 
 // Get current folders from localStorage
@@ -58,14 +77,13 @@ export const createFolder = async (name: string): Promise<string> => {
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
     try {
-      await withTimeout(
+      await withWriteSync(
         setDoc(folderDocRef, {
           name,
           toolIds: [],
           createdAt: new Date()
         }),
-        60000,
-        "Firestore timed out while creating folder."
+        4500
       );
     } catch (error) {
       // Rollback local state on sync failure
@@ -92,10 +110,9 @@ export const deleteFolder = async (folderId: string): Promise<void> => {
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
     try {
-      await withTimeout(
+      await withWriteSync(
         deleteDoc(folderDocRef),
-        60000,
-        "Firestore timed out while deleting folder."
+        4500
       );
     } catch (error) {
       // Rollback local state on sync failure
@@ -127,10 +144,9 @@ export const renameFolder = async (folderId: string, name: string): Promise<void
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
     try {
-      await withTimeout(
+      await withWriteSync(
         setDoc(folderDocRef, { name }, { merge: true }),
-        60000,
-        "Firestore timed out while renaming folder."
+        4500
       );
     } catch (error) {
       // Rollback local state on sync failure
@@ -174,12 +190,11 @@ export const toggleToolInFolder = async (folderId: string, toolId: string): Prom
   if (user && db) {
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
     try {
-      await withTimeout(
+      await withWriteSync(
         setDoc(folderDocRef, {
           toolIds: newToolIds
         }, { merge: true }),
-        60000,
-        "Firestore timed out while updating tools inside the folder."
+        4500
       );
     } catch (error) {
       // Rollback local state on sync failure
@@ -219,28 +234,26 @@ export const shareFolder = async (folderId: string): Promise<string> => {
   try {
     console.log(`[Share-Sync] Step 1: Writing shared folder document to shared_folders/${shareId}`);
     const sharedRef = doc(db, "shared_folders", shareId);
-    await withTimeout(
+    await withWriteSync(
       setDoc(sharedRef, {
         name: folder.name,
         toolIds: folder.toolIds || [],
         creatorUid: user.uid,
         createdAt: new Date()
       }),
-      60000,
-      "Failed to register the public shared collection. Please check your connection."
+      5000
     );
 
     console.log(`[Share-Sync] Step 2: Saving shareId and folder schema to user folders collection`);
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    await withTimeout(
+    await withWriteSync(
       setDoc(folderDocRef, {
         name: folder.name,
         toolIds: folder.toolIds || [],
         shareId: shareId,
         createdAt: new Date()
       }, { merge: true }),
-      60000,
-      "Failed to bind the shared link reference to your profile."
+      5000
     );
 
     console.log(`[Share-Sync] Successfully synced shared folder to Firestore! ID: ${shareId}`);
@@ -285,21 +298,19 @@ export const unshareFolder = async (folderId: string): Promise<void> => {
   try {
     console.log(`[Unshare-Sync] Step 1: Deleting shared collection link`);
     const sharedRef = doc(db, "shared_folders", shareId);
-    await withTimeout(
+    await withWriteSync(
       deleteDoc(sharedRef),
-      60000,
-      "Failed to delete the public shared link."
+      5000
     );
 
     console.log(`[Unshare-Sync] Step 2: Resetting user folder document to omit shareId`);
     const folderDocRef = doc(db, "users", user.uid, "folders", folderId);
-    await withTimeout(
+    await withWriteSync(
       setDoc(folderDocRef, {
         shareId: null,
         updatedAt: new Date()
       }, { merge: true }),
-      60000,
-      "Failed to remove the shared reference from your profile."
+      5000
     );
     console.log(`[Unshare-Sync] Successfully unshared folder on Firestore!`);
   } catch (error: any) {
