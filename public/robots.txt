@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://free-ai-tools-directory.vercel.app/sitemap.xml
+Sitemap: https://free-ai-tools-directory.vercel.app/sitemap1.xml
