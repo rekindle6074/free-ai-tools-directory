@@ -1205,6 +1205,16 @@ export const creative_design_tools: Record<string, Tool[]> = {
       "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/protopie.io-128x128__Estimated_.png",
       "icon": "Code2",
       "score": 9.6
+    },
+    {
+      "id": "roblox-gui-maker",
+      "name": "Roblox GUI Maker",
+      "description": "Free AI-assisted Roblox Studio GUI generator for drafting game menus, HUDs, shop panels, inventory screens and Lua starter code from prompts.",
+      "category": "Interface & UX",
+      "link": "https://robloxguimaker.dev/",
+      "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/robloxguimaker.dev-128x128__Estimated_.png",
+      "icon": "Code2",
+      "score": 9.1
     }
   ],
   "ai-architecture-interior": [

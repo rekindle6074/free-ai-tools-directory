@@ -149,7 +149,7 @@ export const categories: Category[] = [
       { name: "AI Editing & Stock Tools", tag: "ai-editing-stock", path: "ai-editing-stock", count: 19 },
       { name: "AI Design & Presentations", tag: "ai-design-presentation", path: "ai-design-presentation", count: 14 },
       { name: "AI Logo & Brand Identity", tag: "ai-logo-brand", path: "ai-logo-brand", count: 12 },
-      { name: "AI Interface & UX Design", tag: "ai-interface-ux", path: "ai-interface-ux", count: 8 },
+      { name: "AI Interface & UX Design", tag: "ai-interface-ux", path: "ai-interface-ux", count: 9 },
       { name: "AI Architecture & Interior", tag: "ai-architecture-interior", path: "ai-architecture-interior", count: 8 },
       { name: "AI Visual & Mockup Generators", tag: "ai-visual-mockup", path: "ai-visual-mockup", count: 14 },
       { name: "AI Web & E-commerce", tag: "ai-web-ecommerce", path: "ai-web-ecommerce", count: 8 },
