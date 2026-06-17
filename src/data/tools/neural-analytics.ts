@@ -1003,6 +1003,16 @@ export const neuralAnalyticsTools: Record<string, Tool[]> = {
         "iconUrl": "https://free-ai-tools-directory.vercel.app/public/icons/vizgpt.ai-128x128__Estimated_.png",
         "icon": "BarChart",
         "score": 6
+    },
+    {
+        "id": "fpvtune",
+        "name": "FPVTune",
+        "description": "Free and open-source AI-assisted Betaflight blackbox flight log analysis with practical PID and filter tuning suggestions for FPV drones.",
+        "category": "Neural Analytics Hub",
+        "link": "https://fpvtune.com/",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=fpvtune.com&sz=128",
+        "icon": "BarChart",
+        "score": 8
     }
 ],
   "free-ai-papers": [

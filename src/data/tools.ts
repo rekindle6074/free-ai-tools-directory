@@ -362,7 +362,7 @@ export const categories: Category[] = [
     color: "emerald",
     subCategories: [
       { name: "Free AI Data Mining", tag: "free-ai-data-mining", path: "free-ai-data-mining", count: 50 },
-      { name: "Free AI For Data Analytics", tag: "free-ai-for-data-analytics", path: "free-ai-for-data-analytics", count: 50 },
+      { name: "Free AI For Data Analytics", tag: "free-ai-for-data-analytics", path: "free-ai-for-data-analytics", count: 51 },
       { name: "Free AI Papers", tag: "free-ai-papers", path: "free-ai-papers", count: 27 },
       { name: "Free AI Predictions", tag: "free-ai-predictions", path: "free-ai-predictions", count: 50 },
       { name: "Free AI Research Papers", tag: "free-ai-research-papers", path: "free-ai-research-papers", count: 46 },
