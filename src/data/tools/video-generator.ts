@@ -33,6 +33,16 @@ export const video_generator_tools: Record<string, Tool[]> = {
       "score": 9.8
     },
     {
+      "id": "imagineclip",
+      "name": "ImagineClip",
+      "description": "ImagineClip offers a free plan for generating avatar clips, stylized scenes, and social-ready AI videos from prompts, images, and effects.",
+      "category": "Video Generator",
+      "link": "https://imagineclip.com",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=imagineclip.com&sz=128",
+      "icon": "Video",
+      "score": 9.7
+    },
+    {
       "id": "luma-dream-machine",
       "name": "Luma Dream Machine",
       "description": "Luma Dream Machine offers free monthly generations for creating realistic, high-quality videos from text and images.",
