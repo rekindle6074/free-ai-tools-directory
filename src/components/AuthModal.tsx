@@ -16,12 +16,19 @@ import { motion, AnimatePresence } from "motion/react";
 interface AuthModalProps {
   isOpen: boolean;
   onClose: () => void;
+  allowSignup?: boolean;
+  initialMode?: AuthMode;
 }
 
 type AuthMode = "login" | "signup" | "reset";
 
-const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
-  const [mode, setMode] = useState<AuthMode>("login");
+const AuthModal: FC<AuthModalProps> = ({ 
+  isOpen, 
+  onClose, 
+  allowSignup = false, 
+  initialMode = "login" 
+}) => {
+  const [mode, setMode] = useState<AuthMode>(initialMode);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [displayName, setDisplayName] = useState("");
@@ -29,6 +36,17 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      // If signup is not allowed and mode was somehow set to signup, fallback to login
+      if (!allowSignup && mode === "signup") {
+        setMode("login");
+      } else if (allowSignup && initialMode) {
+        setMode(initialMode);
+      }
+    }
+  }, [isOpen, allowSignup, initialMode]);
 
   useEffect(() => {
     setMounted(true);
@@ -142,8 +160,8 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
                   {mode === "reset" && "Reset Password"}
                 </h2>
                 <p className="text-slate-500 text-sm mt-2">
-                  {mode === "login" && "Log in to save your favorite tools"}
-                  {mode === "signup" && "Join our community of AI enthusiasts"}
+                  {mode === "login" && (allowSignup ? "Log in to save your favorite tools" : "Authorized member login")}
+                  {mode === "signup" && "Register authorized member account"}
                   {mode === "reset" && "We'll send you a link to reset your password"}
                 </p>
               </div>
@@ -260,22 +278,30 @@ const AuthModal: FC<AuthModalProps> = ({ isOpen, onClose }) => {
               )}
 
               <div className="mt-8 text-center">
-                <p className="text-sm text-slate-500">
-                  {mode === "login" ? "Don't have an account?" : "Already have an account?"}
-                  <button 
-                    onClick={() => setMode(mode === "login" ? "signup" : "login")}
-                    className="ml-2 text-emerald-600 font-bold hover:text-emerald-700"
-                  >
-                    {mode === "login" ? "Sign Up" : "Log In"}
-                  </button>
-                </p>
+                {allowSignup ? (
+                  <p className="text-sm text-slate-500">
+                    {mode === "login" ? "Don't have an account?" : "Already have an account?"}
+                    <button 
+                      onClick={() => setMode(mode === "login" ? "signup" : "login")}
+                      className="ml-2 text-emerald-600 font-bold hover:text-emerald-700"
+                    >
+                      {mode === "login" ? "Sign Up" : "Log In"}
+                    </button>
+                  </p>
+                ) : (
+                  <div className="text-xs text-slate-400 font-medium py-1 px-3 bg-slate-50 rounded-xl border border-slate-100/80 inline-block">
+                    Public registrations are restricted to authorized members.
+                  </div>
+                )}
                 {mode === "reset" && (
-                  <button 
-                    onClick={() => setMode("login")}
-                    className="mt-4 text-sm text-slate-400 font-medium hover:text-slate-600"
-                  >
-                    Back to Login
-                  </button>
+                  <div>
+                    <button 
+                      onClick={() => setMode("login")}
+                      className="mt-4 text-sm text-slate-400 font-medium hover:text-slate-600"
+                    >
+                      Back to Login
+                    </button>
+                  </div>
                 )}
               </div>
             </div>

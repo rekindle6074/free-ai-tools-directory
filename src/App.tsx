@@ -11,6 +11,7 @@ import WeeklyPicksPage from "./pages/WeeklyPicksPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import LegalPage from "./pages/LegalPage";
 import SharedFolderPage from "./pages/SharedFolderPage";
+import AdminRegisterPage from "./pages/AdminRegisterPage";
 
 import BackToTop from "./components/BackToTop";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -50,6 +51,10 @@ function AnimatedRoutes({ openSubmitForm }: { openSubmitForm: () => void }) {
           <Route path="/shared-folder/:shareId" element={<SharedFolderPage />} />
           <Route path="/legal" element={<LegalPage />} />
           <Route path="/avatar-generator" element={<SubCategoryPage forcedPath="free-ai-avatar-generator" />} />
+          {/* Private Unlisted Admin Registration Routes */}
+          <Route path="/admin-portal-signup-7829x" element={<AdminRegisterPage />} />
+          <Route path="/portal-admin-signup-key-8410" element={<AdminRegisterPage />} />
+          <Route path="/admin-auth-register-9824" element={<AdminRegisterPage />} />
         </Routes>
       </motion.div>
     </AnimatePresence>

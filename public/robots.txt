@@ -1,4 +1,7 @@
 User-agent: *
+Disallow: /admin-*
+Disallow: /portal-admin-*
+Disallow: /shared-folder/*
 Allow: /
 
 Sitemap: https://free-ai-tools-directory.vercel.app/sitemap1.xml
