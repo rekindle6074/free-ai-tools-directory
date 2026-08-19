@@ -23,6 +23,7 @@ import { collection, onSnapshot, query, orderBy, doc, setDoc, serverTimestamp } 
 import { onAuthStateChanged } from "firebase/auth";
 import { featuredTools, toolsByTag, Tool } from "../data/tools";
 import ToolCard from "../components/ToolCard";
+import AuthModal from "../components/AuthModal";
 import { Link } from "react-router-dom";
 import { Folder as FolderType, getLocalFolders, createFolder, deleteFolder, renameFolder, shareFolder, unshareFolder } from "../lib/folderUtils";
 
@@ -59,6 +60,7 @@ const FavoritesPage: FC = () => {
   const [shareLoadingFolderId, setShareLoadingFolderId] = useState<string | null>(null);
   const [copiedFolderId, setCopiedFolderId] = useState<string | null>(null);
   const [shareError, setShareError] = useState<string | null>(null);
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
 
   useEffect(() => {
     const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
@@ -231,18 +233,21 @@ const FavoritesPage: FC = () => {
           </div>
           <h2 className="text-2xl font-bold text-slate-900 mb-4">Login Required</h2>
           <p className="text-slate-500 mb-8">
-            Please log in to view and manage your favorite AI tools and personal notes.
+            Please log in with your authorized account to view and manage your favorite AI tools and personal notes.
           </p>
           <button 
-            onClick={() => {
-              const loginBtn = document.getElementById('login-button');
-              if (loginBtn) loginBtn.click();
-            }}
-            className="w-full bg-emerald-600 text-white px-8 py-4 rounded-2xl font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/20 flex items-center justify-center gap-2"
+            onClick={() => setIsLoginModalOpen(true)}
+            className="w-full bg-emerald-600 text-white px-8 py-4 rounded-2xl font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/20 flex items-center justify-center gap-2 cursor-pointer"
           >
             Sign In Now <ArrowRight className="w-5 h-5" />
           </button>
         </motion.div>
+
+        <AuthModal 
+          isOpen={isLoginModalOpen}
+          onClose={() => setIsLoginModalOpen(false)}
+          allowSignup={false}
+        />
       </div>
     );
   }

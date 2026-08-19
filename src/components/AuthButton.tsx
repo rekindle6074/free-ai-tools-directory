@@ -84,23 +84,8 @@ const AuthButton: FC = () => {
     );
   }
 
-  return (
-    <>
-      <button 
-        id="login-button"
-        onClick={() => setIsModalOpen(true)}
-        className="px-3 py-1 text-[10px] font-black uppercase tracking-widest bg-slate-50 text-slate-600 border border-slate-200 hover:border-emerald-500/30 hover:text-emerald-600 hover:bg-emerald-50/50 rounded-full shadow-sm transition-all flex items-center justify-center gap-1.5 active:scale-95 shrink-0"
-      >
-        <LoginIcon size={10} />
-        <span>LogIn</span>
-      </button>
-
-      <AuthModal 
-        isOpen={isModalOpen} 
-        onClose={() => setIsModalOpen(false)} 
-      />
-    </>
-  );
+  // When not logged in, do not display any public login button in the header
+  return null;
 };
 
 export default AuthButton;

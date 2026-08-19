@@ -46,14 +46,14 @@ export default function Footer({ openSubmitForm }: FooterProps) {
         { label: "Browse Apps", to: "/browse" },
         { label: "Categories", to: "/categories" },
         { label: "Weekly Picks", to: "/weekly-picks" },
-        { label: "My Favorites", to: "/favorites" },
+        { label: "AI Insights", to: "/insights" },
       ]
     },
     {
       title: "Resources",
       links: [
         { label: "BestAI", href: "https://bestai.66ghz.com/" },
-        { label: "AI Insights", to: "/insights" },
+        { label: "Avatar Generator", to: "/avatar-generator" },
         { label: "Submit Tool", onClick: openSubmitForm },
       ]
     },

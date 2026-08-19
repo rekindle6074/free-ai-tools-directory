@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import AuthButton from './AuthButton';
+import { auth } from '../firebase';
+import { onAuthStateChanged, User } from 'firebase/auth';
 
 const AnimatedNavLink: React.FC<{ to: string; children: React.ReactNode }> = ({ to, children }) => {
   const defaultTextColor = 'text-slate-600';
@@ -23,8 +25,17 @@ interface NavbarProps {
 
 export function Navbar({ openSubmitForm }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const [user, setUser] = useState<User | null>(null);
   const [headerShapeClass, setHeaderShapeClass] = useState('rounded-full');
   const shapeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    if (!auth) return;
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unsubscribe();
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -59,7 +70,8 @@ export function Navbar({ openSubmitForm }: NavbarProps) {
   const navLinksData = [
     { label: 'Browse Apps', href: '/browse' },
     { label: 'Categories', href: '/categories' },
-    { label: 'My Favorites', href: '/favorites' },
+    { label: 'Weekly Picks', href: '/weekly-picks' },
+    ...(user ? [{ label: 'My Favorites', href: '/favorites' }] : []),
   ];
 
   const authButtonElement = (
