@@ -37,9 +37,8 @@ import {
   Plus
 } from "lucide-react";
 import { Tool } from "../data/tools";
-import { auth, db, handleFirestoreError, OperationType } from "../firebase";
-import { doc, setDoc, deleteDoc, onSnapshot, serverTimestamp } from "firebase/firestore";
-import { Folder, getLocalFolders, toggleToolInFolder, createFolder } from "../lib/folderUtils";
+import { useFavorites } from "../context/FavoritesContext";
+import { FOLDER_COLORS, getFolderColor } from "../lib/folderColors";
 
 import { Button } from "./ui/Button";
 import { ExploreToolIcon, SaveIcon } from "./ui/Icons";
@@ -78,35 +77,27 @@ interface ToolCardProps {
 }
 
 const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
-  const [isFavorite, setIsFavorite] = useState(() => {
-    if (initiallyFavorite) return true;
-    try {
-      const localFavs = localStorage.getItem("vetted_ai_favorites");
-      if (localFavs) {
-        const parsed = JSON.parse(localFavs);
-        return Array.isArray(parsed) && parsed.includes(tool.id);
-      }
-    } catch (e) {}
-    return false;
-  });
+  const { 
+    user, 
+    isFavorite: checkIsFavorite, 
+    getNote, 
+    toggleFavorite, 
+    saveNote, 
+    folders, 
+    createFolder, 
+    toggleToolInFolder, 
+    openAuthModal 
+  } = useFavorites();
 
-  const [note, setNote] = useState(() => {
-    try {
-      const localNotes = localStorage.getItem("vetted_ai_notes");
-      if (localNotes) {
-        const parsed = JSON.parse(localNotes);
-        return parsed[tool.id] || "";
-      }
-    } catch (e) {}
-    return "";
-  });
+  const isFavorite = checkIsFavorite(tool.id) || (initiallyFavorite && !user);
+  const note = getNote(tool.id);
 
   const [isEditingNote, setIsEditingNote] = useState(false);
   const [tempNote, setTempNote] = useState("");
-  const [user, setUser] = useState(auth?.currentUser || null);
-  const [folders, setFolders] = useState<Folder[]>(getLocalFolders());
   const [showFolderSelector, setShowFolderSelector] = useState(false);
   const [newFolderName, setNewFolderName] = useState("");
+  const [selectedFolderColor, setSelectedFolderColor] = useState("emerald");
+  const [isActionPending, setIsActionPending] = useState(false);
 
   const [imageError, setImageError] = useState(false);
   const Icon = IconMap[tool.icon] || Zap;
@@ -138,178 +129,49 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
     }
   };
 
-  useEffect(() => {
-    if (!auth) return;
-    const unsubscribeAuth = auth.onAuthStateChanged((u) => {
-      setUser(u);
-    });
-
-    return () => unsubscribeAuth();
-  }, []);
-
-  useEffect(() => {
-    const handleSync = () => {
-      try {
-        const localFavs = localStorage.getItem("vetted_ai_favorites");
-        if (localFavs) {
-          const parsed = JSON.parse(localFavs);
-          const isFav = Array.isArray(parsed) && parsed.includes(tool.id);
-          setIsFavorite(isFav);
-        } else {
-          setIsFavorite(false);
-        }
-
-        const localNotes = localStorage.getItem("vetted_ai_notes");
-        if (localNotes) {
-          const parsed = JSON.parse(localNotes);
-          setNote(parsed[tool.id] || "");
-        } else {
-          setNote("");
-        }
-      } catch (e) {}
-    };
-
-    window.addEventListener("vetted_favorites_changed", handleSync);
-    // Initial sync
-    handleSync();
-
-    return () => window.removeEventListener("vetted_favorites_changed", handleSync);
-  }, [tool.id]);
-
-  useEffect(() => {
-    const handleFoldersSync = () => {
-      try {
-        const localFolders = localStorage.getItem("vetted_ai_folders");
-        if (localFolders) {
-          setFolders(JSON.parse(localFolders));
-        } else {
-          setFolders([]);
-        }
-      } catch (e) {}
-    };
-
-    window.addEventListener("vetted_folders_changed", handleFoldersSync);
-    handleFoldersSync();
-    return () => window.removeEventListener("vetted_folders_changed", handleFoldersSync);
-  }, []);
-
   const handleCreateFolderInline = async () => {
-    if (!newFolderName.trim()) return;
+    if (!user) {
+      openAuthModal();
+      return;
+    }
+    const name = newFolderName.trim();
+    if (!name) return;
     try {
-      const folderId = await createFolder(newFolderName.trim());
+      const folderId = await createFolder(name, selectedFolderColor);
       await toggleToolInFolder(folderId, tool.id);
       setNewFolderName("");
+      setSelectedFolderColor("emerald");
     } catch (e) {
       console.error("Error creating inline folder:", e);
     }
   };
 
-  const toggleFavorite = async () => {
-    // 1. Update localStorage instantly for instant UI responsiveness
-    let localIds: string[] = [];
-    try {
-      localIds = JSON.parse(localStorage.getItem("vetted_ai_favorites") || "[]");
-    } catch (e) {}
-
-    const nextFavoriteStatus = !isFavorite;
-    setIsFavorite(nextFavoriteStatus);
-
-    if (nextFavoriteStatus) {
-      if (!localIds.includes(tool.id)) {
-        localIds.push(tool.id);
-      }
-    } else {
-      localIds = localIds.filter(id => id !== tool.id);
-    }
-
-    try {
-      localStorage.setItem("vetted_ai_favorites", JSON.stringify(localIds));
-      window.dispatchEvent(new Event("vetted_favorites_changed"));
-    } catch (e) {}
-
-    if (!nextFavoriteStatus) {
-      try {
-        const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
-        delete notesObj[tool.id];
-        localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
-        window.dispatchEvent(new Event("vetted_favorites_changed"));
-      } catch (e) {}
-    }
-
+  const handleToggleFavorite = async () => {
     if (!user) {
-      const loginBtn = document.getElementById('login-button');
-      if (loginBtn) {
-        loginBtn.click();
-      } else {
-        alert("Please log in to add favorites.");
-      }
+      openAuthModal();
       return;
     }
-
-    if (!db) {
-      return;
-    }
-
-    const path = `users/${user.uid}/favorites/${tool.id}`;
-    const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
-    
+    if (isActionPending) return;
+    setIsActionPending(true);
     try {
-      if (!nextFavoriteStatus) {
-        await deleteDoc(favDocRef);
-      } else {
-        await setDoc(favDocRef, {
-          toolId: tool.id,
-          note: note || "",
-          createdAt: serverTimestamp()
-        });
-      }
-    } catch (error) {
-      setIsFavorite(!nextFavoriteStatus);
-      try {
-        let revertedIds = JSON.parse(localStorage.getItem("vetted_ai_favorites") || "[]");
-        if (nextFavoriteStatus) {
-          revertedIds = revertedIds.filter((id: string) => id !== tool.id);
-        } else {
-          revertedIds.push(tool.id);
-        }
-        localStorage.setItem("vetted_ai_favorites", JSON.stringify(revertedIds));
-        window.dispatchEvent(new Event("vetted_favorites_changed"));
-      } catch (e) {}
-      handleFirestoreError(error, !nextFavoriteStatus ? OperationType.DELETE : OperationType.WRITE, path);
+      await toggleFavorite(tool.id, note);
+    } catch (err) {
+      console.error("Failed to toggle favorite on Firestore:", err);
+    } finally {
+      setIsActionPending(false);
     }
   };
 
-  const saveNote = async () => {
-    // 1. Update localStorage instantly
+  const handleSaveNote = async () => {
+    if (!user) {
+      openAuthModal();
+      return;
+    }
     try {
-      const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
-      notesObj[tool.id] = tempNote;
-      localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
-      window.dispatchEvent(new Event("vetted_favorites_changed"));
-    } catch (e) {}
-
-    setNote(tempNote);
-    setIsEditingNote(false);
-
-    if (!user || !db) return;
-
-    const path = `users/${user.uid}/favorites/${tool.id}`;
-    const favDocRef = doc(db, "users", user.uid, "favorites", tool.id);
-    try {
-      await setDoc(favDocRef, { 
-        toolId: tool.id,
-        note: tempNote,
-        createdAt: serverTimestamp() 
-      }, { merge: true });
-    } catch (error) {
-      setNote(note);
-      try {
-        const notesObj = JSON.parse(localStorage.getItem("vetted_ai_notes") || "{}");
-        notesObj[tool.id] = note;
-        localStorage.setItem("vetted_ai_notes", JSON.stringify(notesObj));
-        window.dispatchEvent(new Event("vetted_favorites_changed"));
-      } catch (e) {}
-      handleFirestoreError(error, OperationType.WRITE, path);
+      await saveNote(tool.id, tempNote);
+      setIsEditingNote(false);
+    } catch (err) {
+      console.error("Failed to save note on Firestore:", err);
     }
   };
 
@@ -335,12 +197,13 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
             {tool.stars ? `★ ${tool.stars}` : `SCORE: ${tool.score}`}
           </div>
           <button 
-            onClick={toggleFavorite}
+            onClick={handleToggleFavorite}
+            disabled={isActionPending}
             className={`p-2 rounded-full transition-all duration-300 ${
               isFavorite 
                 ? "bg-rose-50 text-rose-600 border border-rose-100 shadow-sm" 
                 : "bg-white/50 text-slate-400 border border-slate-100 hover:text-rose-600 hover:bg-rose-50 hover:border-rose-100 shadow-sm"
-            }`}
+            } ${isActionPending ? "opacity-60 cursor-not-allowed" : ""}`}
             title={isFavorite ? "Remove from favorites" : "Add to favorites"}
           >
             <Heart className={`w-3.5 h-3.5 ${isFavorite ? "fill-current" : ""}`} />
@@ -400,7 +263,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
                       <X className="w-4 h-4" />
                     </button>
                     <button 
-                      onClick={saveNote}
+                      onClick={handleSaveNote}
                       className="flex items-center gap-2 bg-slate-900 text-white text-xs font-bold px-4 py-2 rounded-xl hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10"
                     >
                       <Save className="w-3 h-3" /> Save Note
@@ -448,62 +311,93 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
               </div>
 
               {!showFolderSelector && (
-                <div className="flex flex-wrap gap-1 mb-1 max-h-[48px] overflow-y-auto">
+                <div className="flex flex-wrap gap-1.5 mb-1 max-h-[52px] overflow-y-auto">
                   {folders.filter(f => f.toolIds?.includes(tool.id)).length > 0 ? (
-                    folders.filter(f => f.toolIds?.includes(tool.id)).map(f => (
-                      <span key={f.id} className="inline-flex items-center px-2 py-0.5 rounded-full text-[9px] font-bold bg-white text-emerald-700 border border-emerald-200 shadow-sm">
-                        {f.name}
-                      </span>
-                    ))
+                    folders.filter(f => f.toolIds?.includes(tool.id)).map(f => {
+                      const colorCfg = getFolderColor(f.color);
+                      return (
+                        <span 
+                          key={f.id} 
+                          className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[9px] font-bold border transition-all ${colorCfg.badgeClass}`}
+                        >
+                          <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${colorCfg.dotColor}`} />
+                          {f.name}
+                        </span>
+                      );
+                    })
                   ) : (
-                    <span className="text-[10px] text-slate-400 italic">No folders</span>
+                    <span className="text-[10px] text-slate-400 italic">Aucun dossier</span>
                   )}
                 </div>
               )}
 
               {showFolderSelector && (
-                <div className="space-y-3 bg-white/60 p-3 rounded-2xl border border-emerald-100/50">
-                  <div className="max-h-[100px] overflow-y-auto space-y-1.5 pr-1 scrollbar-thin">
+                <div className="space-y-3 bg-white/80 p-3 rounded-2xl border border-slate-200/80 shadow-xs">
+                  <div className="max-h-[110px] overflow-y-auto space-y-1 pr-1 scrollbar-thin">
                     {folders.length > 0 ? (
                       folders.map(f => {
                         const isInFolder = f.toolIds?.includes(tool.id);
+                        const colorCfg = getFolderColor(f.color);
                         return (
-                          <label key={f.id} className="flex items-center gap-2 cursor-pointer p-1.5 hover:bg-emerald-50/50 rounded-lg transition-all border border-transparent hover:border-emerald-100/30">
+                          <label 
+                            key={f.id} 
+                            className="flex items-center gap-2 cursor-pointer p-1.5 hover:bg-slate-50 rounded-lg transition-all border border-transparent hover:border-slate-100"
+                          >
                             <input
                               type="checkbox"
                               checked={isInFolder}
                               onChange={() => toggleToolInFolder(f.id, tool.id)}
-                              className="rounded text-emerald-600 focus:ring-emerald-500/20 border-emerald-300 h-3.5 w-3.5"
+                              className="rounded text-emerald-600 focus:ring-emerald-500/20 border-slate-300 h-3.5 w-3.5"
                             />
+                            <span className={`w-2.5 h-2.5 rounded-full shrink-0 ${colorCfg.dotColor}`} />
                             <span className="text-xs text-slate-700 font-medium truncate">{f.name}</span>
                           </label>
                         );
                       })
                     ) : (
-                      <p className="text-[10px] text-slate-400 italic">No folders available.</p>
+                      <p className="text-[10px] text-slate-400 italic">Aucun dossier créé.</p>
                     )}
                   </div>
 
-                  <div className="pt-2 border-t border-slate-100 flex gap-2">
-                    <input
-                      type="text"
-                      placeholder="New folder name..."
-                      value={newFolderName}
-                      onChange={(e) => setNewFolderName(e.target.value)}
-                      onKeyDown={(e) => {
-                        if (e.key === 'Enter') {
-                          e.preventDefault();
-                          handleCreateFolderInline();
-                        }
-                      }}
-                      className="w-full text-xs px-2.5 py-1.5 bg-white border border-emerald-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 placeholder-slate-400 transition-all font-sans"
-                    />
-                    <button
-                      onClick={handleCreateFolderInline}
-                      className="bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl p-1.5 focus:outline-none flex items-center justify-center transition-colors shadow-sm"
-                    >
-                      <Plus className="w-4 h-4" />
-                    </button>
+                  <div className="pt-2 border-t border-slate-100 space-y-2">
+                    <div className="flex items-center gap-1.5 px-0.5">
+                      {FOLDER_COLORS.slice(0, 7).map((c) => (
+                        <button
+                          key={c.id}
+                          type="button"
+                          onClick={() => setSelectedFolderColor(c.id)}
+                          className={`w-4 h-4 rounded-full ${c.dotColor} transition-all cursor-pointer ${
+                            selectedFolderColor === c.id 
+                              ? "scale-110 ring-2 ring-offset-1 ring-slate-400" 
+                              : "opacity-60 hover:opacity-100"
+                          }`}
+                          title={c.name}
+                        />
+                      ))}
+                    </div>
+
+                    <div className="flex gap-2">
+                      <input
+                        type="text"
+                        placeholder="Nouveau dossier..."
+                        value={newFolderName}
+                        onChange={(e) => setNewFolderName(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') {
+                            e.preventDefault();
+                            handleCreateFolderInline();
+                          }
+                        }}
+                        className="w-full text-xs px-2.5 py-1.5 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 placeholder-slate-400 transition-all font-sans"
+                      />
+                      <button
+                        onClick={handleCreateFolderInline}
+                        className="bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl px-2.5 py-1.5 focus:outline-none flex items-center justify-center transition-colors shadow-xs shrink-0 cursor-pointer"
+                        title="Créer le dossier"
+                      >
+                        <Plus className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
                   </div>
                 </div>
               )}

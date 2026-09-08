@@ -25,7 +25,7 @@ declare global {
 import { Navbar } from "./components/Navbar";
 import { BgradientAnim } from "./components/BgradientAnim";
 import Footer from "./components/Footer";
-import { FavoritesSyncManager } from "./components/FavoritesSyncManager";
+import { FavoritesProvider } from "./context/FavoritesContext";
 
 function AnimatedRoutes({ openSubmitForm }: { openSubmitForm: () => void }) {
   const location = useLocation();
@@ -113,12 +113,13 @@ export default function App() {
         </div>
 
         <ErrorBoundary>
-          <FavoritesSyncManager />
-          <Layout openSubmitForm={openSubmitForm} />
+          <FavoritesProvider>
+            <Layout openSubmitForm={openSubmitForm} />
 
-          <BackToTop />
+            <BackToTop />
 
-          <Footer openSubmitForm={openSubmitForm} />
+            <Footer openSubmitForm={openSubmitForm} />
+          </FavoritesProvider>
         </ErrorBoundary>
       </div>
     </Router>

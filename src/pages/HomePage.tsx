@@ -48,6 +48,7 @@ const HomePage: FC = () => {
   const navigate = useNavigate();
 
   const containerRef = useRef<HTMLDivElement>(null);
+  const orbTargetRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const grainCanvasRef = useRef<HTMLCanvasElement>(null);
   const frameRef = useRef(0);
@@ -246,8 +247,9 @@ const HomePage: FC = () => {
       timeRef.current += 0.016;
       const time = timeRef.current;
       
-      const w = window.innerWidth || 1;
-      const h = window.innerHeight || 1;
+      const container = containerRef.current;
+      const w = container ? container.clientWidth : (window.innerWidth || 1);
+      const h = container ? container.clientHeight : (window.innerHeight || 1);
       
       if (w <= 0 || h <= 0 || isNaN(w) || isNaN(h)) {
         frameRef.current = requestAnimationFrame(render);
@@ -261,13 +263,24 @@ const HomePage: FC = () => {
       ctx.fillRect(0, 0, width, height);
       
       const isDesktop = width >= 1024;
-      const centerX = isDesktop ? width * 0.72 : width / 2;
-      const centerY = isDesktop ? Math.min(height * 0.44, 430) : height / 2;
-      const radius = isDesktop ? Math.min(width * 0.17, 210) : Math.min(width, height) * 0.2;
+      let centerX = width / 2;
+      let centerY = Math.min(height * 0.35, 340);
+      
+      if (isDesktop && orbTargetRef.current && container) {
+        const secRect = container.getBoundingClientRect();
+        const orbRect = orbTargetRef.current.getBoundingClientRect();
+        centerX = orbRect.left - secRect.left + orbRect.width / 2;
+        centerY = orbRect.top - secRect.top + orbRect.height / 2;
+      } else if (isDesktop) {
+        centerX = width * 0.72;
+        centerY = Math.min(height * 0.42, 420);
+      }
+      
+      const radius = isDesktop ? Math.min(width * 0.15, 200) : Math.min(width, height) * 0.2;
       
       const bgGradient = ctx.createRadialGradient(
         centerX, centerY - 40, 0,
-        centerX, centerY, isDesktop ? width * 0.5 : Math.max(width, height) * 0.8
+        centerX, centerY, isDesktop ? width * 0.45 : Math.max(width, height) * 0.8
       );
       
       const hue = 135 + params.atmosphereShift * 30; // Emerald hues using #a2efb3 style
@@ -542,7 +555,7 @@ const HomePage: FC = () => {
             </motion.div>
 
             {/* Right Column: Visual area dedicated to the background canvas animation on desktop */}
-            <div className="hidden lg:flex lg:col-span-5 items-center justify-center relative min-h-[460px] pointer-events-none">
+            <div ref={orbTargetRef} className="hidden lg:flex lg:col-span-5 items-center justify-center relative min-h-[460px] pointer-events-none">
               <div className="w-full h-full flex items-center justify-center relative">
                 <div className="w-72 h-72 rounded-full border border-emerald-500/10 pointer-events-none" />
               </div>

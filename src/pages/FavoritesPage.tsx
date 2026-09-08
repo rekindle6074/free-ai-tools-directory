@@ -1,123 +1,63 @@
-import { FC, useState, useEffect } from "react";
+import { FC, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Helmet } from "react-helmet-async";
 import { 
   Heart, 
   Search, 
-  Zap,
-  LogIn,
-  ArrowRight,
-  FolderHeart,
-  FolderPlus,
-  Plus,
-  Trash2,
-  Edit2,
-  Check,
-  X,
-  Share2,
-  Copy,
-  ExternalLink
+  LogIn, 
+  ArrowRight, 
+  FolderHeart, 
+  FolderPlus, 
+  Trash2, 
+  Edit2, 
+  Check, 
+  X, 
+  Share2, 
+  Copy, 
+  ExternalLink,
+  Loader2
 } from "lucide-react";
-import { auth, db, handleFirestoreError, OperationType } from "../firebase";
-import { collection, onSnapshot, query, orderBy, doc, setDoc, serverTimestamp } from "firebase/firestore";
-import { onAuthStateChanged } from "firebase/auth";
 import { featuredTools, toolsByTag, Tool } from "../data/tools";
 import ToolCard from "../components/ToolCard";
-import AuthModal from "../components/AuthModal";
 import { Link } from "react-router-dom";
-import { Folder as FolderType, getLocalFolders, createFolder, deleteFolder, renameFolder, shareFolder, unshareFolder } from "../lib/folderUtils";
+import { useFavorites, Folder as FolderType } from "../context/FavoritesContext";
+import { FOLDER_COLORS, getFolderColor } from "../lib/folderColors";
 
 const FavoritesPage: FC = () => {
-  const [user, setUser] = useState(auth?.currentUser || null);
-  const [authLoading, setAuthLoading] = useState(true);
-  const [favoriteIds, setFavoriteIds] = useState<string[]>(() => {
-    try {
-      const localFavs = localStorage.getItem("vetted_ai_favorites");
-      if (localFavs) {
-        const parsed = JSON.parse(localFavs);
-        if (Array.isArray(parsed)) return parsed;
-      }
-    } catch (e) {}
-    return [];
-  });
-  const [loading, setLoading] = useState(() => {
-    try {
-      const localFavs = localStorage.getItem("vetted_ai_favorites");
-      if (localFavs) {
-        const parsed = JSON.parse(localFavs);
-        if (Array.isArray(parsed) && parsed.length > 0) return false;
-      }
-    } catch (e) {}
-    return true;
-  });
+  const {
+    user,
+    authLoading,
+    favoriteIds,
+    folders,
+    loading,
+    createFolder,
+    deleteFolder,
+    renameFolder,
+    updateFolderColor,
+    shareFolder,
+    unshareFolder,
+    openAuthModal
+  } = useFavorites();
+
   const [searchQuery, setSearchQuery] = useState("");
-  const [folders, setFolders] = useState<FolderType[]>(getLocalFolders());
   const [activeFolderId, setActiveFolderId] = useState<string | null>(null);
   const [isCreatingFolder, setIsCreatingFolder] = useState(false);
   const [newFolderName, setNewFolderName] = useState("");
+  const [newFolderColor, setNewFolderColor] = useState("emerald");
   const [editingFolderId, setEditingFolderId] = useState<string | null>(null);
   const [editingFolderName, setEditingFolderName] = useState("");
+  const [editingFolderColor, setEditingFolderColor] = useState("emerald");
   const [shareLoadingFolderId, setShareLoadingFolderId] = useState<string | null>(null);
   const [copiedFolderId, setCopiedFolderId] = useState<string | null>(null);
   const [shareError, setShareError] = useState<string | null>(null);
-  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
-
-  useEffect(() => {
-    const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser);
-      setAuthLoading(false);
-    });
-
-    return () => unsubscribeAuth();
-  }, []);
-
-  useEffect(() => {
-    const handleSync = () => {
-      try {
-        const localFavs = localStorage.getItem("vetted_ai_favorites");
-        if (localFavs) {
-          const parsed = JSON.parse(localFavs);
-          if (Array.isArray(parsed)) {
-            setFavoriteIds(parsed);
-          }
-        } else {
-          setFavoriteIds([]);
-        }
-      } catch (e) {}
-      setLoading(false);
-    };
-
-    window.addEventListener("vetted_favorites_changed", handleSync);
-    // Initial sync load
-    handleSync();
-
-    return () => window.removeEventListener("vetted_favorites_changed", handleSync);
-  }, []);
-
-  useEffect(() => {
-    const handleFoldersSync = () => {
-      try {
-        const localFolders = localStorage.getItem("vetted_ai_folders");
-        if (localFolders) {
-          setFolders(JSON.parse(localFolders));
-        } else {
-          setFolders([]);
-        }
-      } catch (e) {}
-    };
-
-    window.addEventListener("vetted_folders_changed", handleFoldersSync);
-    handleFoldersSync();
-
-    return () => window.removeEventListener("vetted_folders_changed", handleFoldersSync);
-  }, []);
 
   const handleCreateFolder = async () => {
     if (!newFolderName.trim()) return;
     try {
-      const folderId = await createFolder(newFolderName.trim());
+      const folderId = await createFolder(newFolderName.trim(), newFolderColor);
       setActiveFolderId(folderId);
       setNewFolderName("");
+      setNewFolderColor("emerald");
       setIsCreatingFolder(false);
     } catch (e) {
       console.error("Error creating folder on FavoritesPage:", e);
@@ -125,7 +65,7 @@ const FavoritesPage: FC = () => {
   };
 
   const handleDeleteFolder = async (folderId: string) => {
-    if (confirm("Are you sure you want to delete this folder? The tools inside will not be removed from your favorites.")) {
+    if (confirm("Voulez-vous vraiment supprimer ce dossier ? Les outils favoris qu'il contient ne seront pas supprimés de vos favoris.")) {
       try {
         await deleteFolder(folderId);
         if (activeFolderId === folderId) {
@@ -140,12 +80,13 @@ const FavoritesPage: FC = () => {
   const handleStartRename = (folder: FolderType) => {
     setEditingFolderId(folder.id);
     setEditingFolderName(folder.name);
+    setEditingFolderColor(folder.color || "emerald");
   };
 
   const handleSaveRename = async () => {
     if (!editingFolderId || !editingFolderName.trim()) return;
     try {
-      await renameFolder(editingFolderId, editingFolderName.trim());
+      await renameFolder(editingFolderId, editingFolderName.trim(), editingFolderColor);
       setEditingFolderId(null);
       setEditingFolderName("");
     } catch (e) {
@@ -160,14 +101,14 @@ const FavoritesPage: FC = () => {
       await shareFolder(folderId);
     } catch (err: any) {
       console.error("Error sharing folder:", err);
-      setShareError(err?.message || "Failed to generate share link.");
+      setShareError(err?.message || "Impossible de générer le lien de partage.");
     } finally {
       setShareLoadingFolderId(null);
     }
   };
 
   const handleUnshareFolder = async (folderId: string) => {
-    if (confirm("Are you sure you want to disable the public sharing link for this collection?")) {
+    if (confirm("Voulez-vous vraiment désactiver le lien de partage public pour cette collection ?")) {
       try {
         setShareLoadingFolderId(folderId);
         await unshareFolder(folderId);
@@ -193,11 +134,9 @@ const FavoritesPage: FC = () => {
 
   // Map favorite IDs to actual Tool objects
   const favoriteTools = favoriteIds.map(id => {
-    // Search in featuredTools
     const featured = featuredTools.find(t => t.id === id);
     if (featured) return featured;
 
-    // Search in toolsByTag
     for (const tools of Object.values(toolsByTag)) {
       const found = tools.find(t => t.id === id);
       if (found) return found;
@@ -220,7 +159,18 @@ const FavoritesPage: FC = () => {
     tool.category.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  if (!user && !loading) {
+  if (authLoading) {
+    return (
+      <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
+        <div className="flex flex-col items-center gap-3">
+          <Loader2 className="w-10 h-10 text-emerald-600 animate-spin" />
+          <p className="text-slate-500 font-medium">Chargement de votre compte...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!user) {
     return (
       <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
         <motion.div 
@@ -231,23 +181,17 @@ const FavoritesPage: FC = () => {
           <div className="w-20 h-20 bg-emerald-50 rounded-full flex items-center justify-center mx-auto mb-6">
             <LogIn className="w-10 h-10 text-emerald-600" />
           </div>
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Login Required</h2>
-          <p className="text-slate-500 mb-8">
-            Please log in with your authorized account to view and manage your favorite AI tools and personal notes.
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Connexion requise</h2>
+          <p className="text-slate-500 mb-8 leading-relaxed">
+            Vos favoris et dossiers sont sauvegardés en direct dans le Cloud Firestore. Connectez-vous avec votre compte pour gérer votre sélection sans risque de perte.
           </p>
           <button 
-            onClick={() => setIsLoginModalOpen(true)}
+            onClick={openAuthModal}
             className="w-full bg-emerald-600 text-white px-8 py-4 rounded-2xl font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/20 flex items-center justify-center gap-2 cursor-pointer"
           >
-            Sign In Now <ArrowRight className="w-5 h-5" />
+            Se connecter <ArrowRight className="w-5 h-5" />
           </button>
         </motion.div>
-
-        <AuthModal 
-          isOpen={isLoginModalOpen}
-          onClose={() => setIsLoginModalOpen(false)}
-          allowSignup={false}
-        />
       </div>
     );
   }
@@ -302,36 +246,65 @@ const FavoritesPage: FC = () => {
                       exit={{ opacity: 0, height: 0 }}
                       className="overflow-hidden mb-6"
                     >
-                      <div className="bg-slate-50 border border-slate-100 rounded-xl p-3 flex flex-col sm:flex-row gap-2 max-w-lg">
-                        <input
-                          type="text"
-                          placeholder="Folder name (e.g., Writing, Design...)"
-                          value={newFolderName}
-                          onChange={(e) => setNewFolderName(e.target.value)}
-                          onKeyDown={(e) => {
-                            if (e.key === "Enter") {
-                              e.preventDefault();
-                              handleCreateFolder();
-                            }
-                          }}
-                          className="flex-grow text-xs px-3 py-2 bg-white border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 placeholder-slate-400 font-sans transition-all"
-                        />
-                        <div className="flex gap-1.5">
-                          <button
-                            onClick={handleCreateFolder}
-                            className="bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-4 py-2 rounded-lg transition-colors"
-                          >
-                            Create
-                          </button>
-                          <button
-                            onClick={() => {
-                              setIsCreatingFolder(false);
-                              setNewFolderName("");
+                      <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 flex flex-col gap-3 max-w-xl shadow-xs">
+                        <div className="flex flex-col sm:flex-row gap-2">
+                          <input
+                            type="text"
+                            placeholder="Nom du dossier (ex: Rédaction, Design, Dev...)"
+                            value={newFolderName}
+                            onChange={(e) => setNewFolderName(e.target.value)}
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") {
+                                e.preventDefault();
+                                handleCreateFolder();
+                              }
                             }}
-                            className="text-slate-500 hover:text-slate-700 text-xs font-bold px-3 py-2 rounded-lg transition-colors border border-slate-200"
-                          >
-                            Cancel
-                          </button>
+                            className="flex-grow text-xs px-3.5 py-2.5 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 placeholder-slate-400 font-sans transition-all"
+                            autoFocus
+                          />
+                          <div className="flex gap-1.5">
+                            <button
+                              onClick={handleCreateFolder}
+                              className="bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition-colors cursor-pointer"
+                            >
+                              Créer
+                            </button>
+                            <button
+                              onClick={() => {
+                                setIsCreatingFolder(false);
+                                setNewFolderName("");
+                                setNewFolderColor("emerald");
+                              }}
+                              className="text-slate-500 hover:text-slate-700 text-xs font-bold px-3 py-2.5 rounded-xl transition-colors border border-slate-200 bg-white cursor-pointer"
+                            >
+                              Annuler
+                            </button>
+                          </div>
+                        </div>
+
+                        {/* Color Selector */}
+                        <div className="flex items-center gap-2 pt-1 border-t border-slate-200/60 flex-wrap">
+                          <span className="text-[10px] font-black uppercase tracking-wider text-slate-400">Couleur :</span>
+                          <div className="flex items-center gap-2 flex-wrap">
+                            {FOLDER_COLORS.map((c) => {
+                              const isSelected = newFolderColor === c.id;
+                              return (
+                                <button
+                                  key={c.id}
+                                  type="button"
+                                  onClick={() => setNewFolderColor(c.id)}
+                                  className={`w-5 h-5 rounded-full ${c.dotColor} transition-all cursor-pointer flex items-center justify-center ${
+                                    isSelected 
+                                      ? "ring-2 ring-offset-2 ring-slate-800 scale-110 shadow-xs" 
+                                      : "opacity-65 hover:opacity-100 hover:scale-105"
+                                  }`}
+                                  title={c.name}
+                                >
+                                  {isSelected && <Check className="w-3 h-3 text-white stroke-[3]" />}
+                                </button>
+                              );
+                            })}
+                          </div>
                         </div>
                       </div>
                     </motion.div>
@@ -342,23 +315,24 @@ const FavoritesPage: FC = () => {
                 <div className="flex flex-wrap items-center gap-2">
                   <button
                     onClick={() => setActiveFolderId(null)}
-                    className={`px-4 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-wider transition-all border ${
+                    className={`px-4 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-wider transition-all border cursor-pointer ${
                       activeFolderId === null
-                        ? "bg-slate-900 text-white border-slate-900 shadow-sm"
+                        ? "bg-slate-900 text-white border-slate-900 shadow-xs"
                         : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
                     }`}
                   >
-                    All ({favoriteTools.length})
+                    Tous ({favoriteTools.length})
                   </button>
 
                   {folders.map(folder => {
                     const isActive = activeFolderId === folder.id;
                     const isEditing = editingFolderId === folder.id;
                     const count = favoriteTools.filter(t => folder.toolIds?.includes(t.id)).length;
+                    const colorCfg = getFolderColor(folder.color);
 
                     if (isEditing) {
                       return (
-                        <div key={folder.id} className="flex items-center gap-1.5 bg-white border border-emerald-300 rounded-xl px-2.5 py-1.5 shadow-sm">
+                        <div key={folder.id} className="flex flex-col sm:flex-row items-start sm:items-center gap-2 bg-white border border-slate-300 rounded-2xl p-2.5 shadow-sm">
                           <input
                             type="text"
                             value={editingFolderName}
@@ -369,15 +343,32 @@ const FavoritesPage: FC = () => {
                                 handleSaveRename();
                               }
                             }}
-                            className="text-xs font-bold text-slate-800 focus:outline-none border-b border-emerald-500 px-1 py-0.5 max-w-[100px]"
+                            className="text-xs font-bold text-slate-800 focus:outline-none border-b border-slate-400 px-1 py-0.5 max-w-[120px]"
                             autoFocus
                           />
-                          <button onClick={handleSaveRename} className="p-1 text-emerald-600 hover:text-emerald-700">
-                            <Check className="w-3.5 h-3.5" />
-                          </button>
-                          <button onClick={() => setEditingFolderId(null)} className="p-1 text-rose-600 hover:text-rose-700">
-                            <X className="w-3.5 h-3.5" />
-                          </button>
+                          <div className="flex items-center gap-1">
+                            {FOLDER_COLORS.map(c => (
+                              <button
+                                key={c.id}
+                                type="button"
+                                onClick={() => setEditingFolderColor(c.id)}
+                                className={`w-3.5 h-3.5 rounded-full ${c.dotColor} cursor-pointer transition-transform ${
+                                  editingFolderColor === c.id 
+                                    ? "ring-2 ring-offset-1 ring-slate-800 scale-110" 
+                                    : "opacity-60 hover:opacity-100"
+                                }`}
+                                title={c.name}
+                              />
+                            ))}
+                          </div>
+                          <div className="flex items-center gap-1">
+                            <button onClick={handleSaveRename} className="p-1 text-emerald-600 hover:text-emerald-700 cursor-pointer" title="Enregistrer">
+                              <Check className="w-3.5 h-3.5" />
+                            </button>
+                            <button onClick={() => setEditingFolderId(null)} className="p-1 text-rose-600 hover:text-rose-700 cursor-pointer" title="Annuler">
+                              <X className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
                         </div>
                       );
                     }
@@ -387,35 +378,37 @@ const FavoritesPage: FC = () => {
                         key={folder.id}
                         className={`inline-flex items-center gap-1 rounded-xl border transition-all ${
                           isActive
-                            ? "bg-emerald-650 text-emerald-600 font-bold border-emerald-300 bg-emerald-50/50 shadow-sm"
-                            : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
+                            ? `${colorCfg.activeTabClass} font-bold shadow-xs`
+                            : "bg-white text-slate-700 border-slate-200 hover:border-slate-300 hover:bg-slate-50/80 shadow-2xs"
                         }`}
                       >
                         <button
                           onClick={() => setActiveFolderId(folder.id)}
-                          className={`pl-4 pr-2 py-2.5 text-[10px] font-black uppercase tracking-wider text-left transition-colors ${
-                            isActive ? "text-emerald-700" : "text-slate-600"
-                          }`}
+                          className="pl-3.5 pr-2 py-2.5 text-[10px] font-black uppercase tracking-wider text-left transition-colors flex items-center gap-2 cursor-pointer"
                         >
-                          {folder.name} ({count})
+                          <span className={`w-2.5 h-2.5 rounded-full shrink-0 ${isActive ? "bg-white ring-2 ring-white/30" : colorCfg.dotColor}`} />
+                          <span>{folder.name}</span>
+                          <span className={`text-[9px] px-1.5 py-0.2 rounded-full font-bold ${isActive ? "bg-black/20 text-white" : "bg-slate-100 text-slate-500"}`}>
+                            {count}
+                          </span>
                         </button>
                         
-                        <div className="flex items-center pr-1.5 border-l border-slate-200/50 my-1 py-0.5">
+                        <div className={`flex items-center pr-1.5 border-l my-1 py-0.5 ${isActive ? "border-white/30" : "border-slate-200/60"}`}>
                           <button
                             onClick={() => handleStartRename(folder)}
-                            className={`p-1 rounded-lg transition-colors ${
-                              isActive ? "text-emerald-600 hover:bg-emerald-100" : "text-slate-400 hover:text-slate-600"
+                            className={`p-1 rounded-lg transition-colors cursor-pointer ${
+                              isActive ? "text-white/80 hover:text-white hover:bg-white/15" : "text-slate-400 hover:text-slate-600"
                             }`}
-                            title="Rename"
+                            title="Renommer et changer la couleur"
                           >
                             <Edit2 className="w-3 h-3" />
                           </button>
                           <button
                             onClick={() => handleDeleteFolder(folder.id)}
-                            className={`p-1 rounded-lg transition-colors ${
-                              isActive ? "text-rose-500 hover:bg-rose-50" : "text-rose-400 hover:text-rose-600"
+                            className={`p-1 rounded-lg transition-colors cursor-pointer ${
+                              isActive ? "text-white/80 hover:text-rose-200 hover:bg-rose-500/30" : "text-rose-400 hover:text-rose-600"
                             }`}
-                            title="Delete"
+                            title="Supprimer"
                           >
                             <Trash2 className="w-3 h-3" />
                           </button>
@@ -426,78 +419,104 @@ const FavoritesPage: FC = () => {
                 </div>
 
                 {/* Active Folder Share Manager */}
-                {activeFolder && (
-                  <div className="mt-6 bg-emerald-50/40 border border-emerald-150 rounded-2xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
-                    <div>
-                      <h3 className="text-xs font-black uppercase tracking-wider text-emerald-950 flex items-center gap-1.5">
-                        <Share2 className="w-4 h-4 text-emerald-600 shrink-0" /> Share Collection: "{activeFolder.name}"
-                      </h3>
-                      <p className="text-[10px] text-emerald-800/80 mt-0.5">
-                        {activeFolder.shareId 
-                          ? "This custom collection is now public! Copy the link to share." 
-                          : "Generate a unique public link to share this selection of favorite tools."}
-                      </p>
-                    </div>
+                {activeFolder && (() => {
+                  const activeColorCfg = getFolderColor(activeFolder.color);
+                  return (
+                    <div className={`mt-6 rounded-2xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4 border transition-all ${activeColorCfg.cardClass}`}>
+                      <div>
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className={`w-3 h-3 rounded-full shrink-0 ${activeColorCfg.dotColor}`} />
+                          <h3 className="text-xs font-black uppercase tracking-wider text-slate-900 flex items-center gap-1.5">
+                            <Share2 className="w-4 h-4 shrink-0 text-slate-700" /> Dossier : "{activeFolder.name}"
+                          </h3>
+                        </div>
+                        <p className="text-[11px] text-slate-600">
+                          {activeFolder.shareId 
+                            ? "Ce dossier personnalisé est public ! Copiez le lien pour le partager." 
+                            : "Générez un lien public unique pour partager cette sélection d'outils favoris."}
+                        </p>
 
-                    <div className="flex flex-wrap items-center gap-2">
-                      {activeFolder.shareId ? (
-                        <>
-                          <div className="flex items-center bg-white border border-emerald-250 rounded-xl px-2.5 py-1.5">
-                            <input
-                              type="text"
-                              readOnly
-                              value={`${window.location.origin}/shared-folder/${activeFolder.shareId}`}
-                              className="text-[9px] text-slate-500 font-mono focus:outline-none truncate w-36 sm:w-48"
-                              onClick={(e) => (e.target as HTMLInputElement).select()}
-                            />
-                            <button
-                              onClick={() => handleCopyLink(activeFolder)}
-                              className="p-1 text-emerald-600 hover:text-emerald-700 ml-1 transition-colors"
-                              title="Copy Link"
-                            >
-                              {copiedFolderId === activeFolder.id ? (
-                                <Check className="w-3.5 h-3.5 text-emerald-600" />
-                              ) : (
-                                <Copy className="w-3.5 h-3.5" />
-                              )}
-                            </button>
+                        {/* Quick Color Changer */}
+                        <div className="flex items-center gap-2 mt-2 pt-2 border-t border-slate-200/50">
+                          <span className="text-[9px] font-bold uppercase tracking-wider text-slate-500">Changer la couleur :</span>
+                          <div className="flex items-center gap-1.5">
+                            {FOLDER_COLORS.map(c => (
+                              <button
+                                key={c.id}
+                                type="button"
+                                onClick={() => updateFolderColor(activeFolder.id, c.id)}
+                                className={`w-3.5 h-3.5 rounded-full ${c.dotColor} cursor-pointer transition-transform ${
+                                  activeFolder.color === c.id 
+                                    ? "scale-125 ring-2 ring-offset-1 ring-slate-800" 
+                                    : "opacity-60 hover:opacity-100"
+                                }`}
+                                title={c.name}
+                              />
+                            ))}
                           </div>
+                        </div>
+                      </div>
 
-                          <Link
-                            to={`/shared-folder/${activeFolder.shareId}`}
-                            className="inline-flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-emerald-700 bg-emerald-100 hover:bg-emerald-200 px-3 py-2.5 rounded-lg transition-all"
-                          >
-                            View <ExternalLink className="w-3 h-3" />
-                          </Link>
+                      <div className="flex flex-wrap items-center gap-2 shrink-0">
+                        {activeFolder.shareId ? (
+                          <>
+                            <div className="flex items-center bg-white border border-slate-200 rounded-xl px-2.5 py-1.5 shadow-2xs">
+                              <input
+                                type="text"
+                                readOnly
+                                value={`${window.location.origin}/shared-folder/${activeFolder.shareId}`}
+                                className="text-[9px] text-slate-500 font-mono focus:outline-none truncate w-36 sm:w-48"
+                                onClick={(e) => (e.target as HTMLInputElement).select()}
+                              />
+                              <button
+                                onClick={() => handleCopyLink(activeFolder)}
+                                className="p-1 text-slate-600 hover:text-slate-900 ml-1 transition-colors cursor-pointer"
+                                title="Copier le lien"
+                              >
+                                {copiedFolderId === activeFolder.id ? (
+                                  <Check className="w-3.5 h-3.5 text-emerald-600" />
+                                ) : (
+                                  <Copy className="w-3.5 h-3.5" />
+                                )}
+                              </button>
+                            </div>
 
+                            <Link
+                              to={`/shared-folder/${activeFolder.shareId}`}
+                              className="inline-flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-slate-800 bg-white border border-slate-200 hover:bg-slate-50 px-3 py-2.5 rounded-xl transition-all shadow-2xs"
+                            >
+                              Voir <ExternalLink className="w-3 h-3" />
+                            </Link>
+
+                            <button
+                              onClick={() => handleUnshareFolder(activeFolder.id)}
+                              className="text-[9px] font-black uppercase tracking-widest text-rose-650 hover:text-rose-700 bg-white border border-rose-200 hover:border-rose-300 px-3 py-2.5 rounded-xl transition-all cursor-pointer"
+                            >
+                              Désactiver
+                            </button>
+                          </>
+                        ) : (
                           <button
-                            onClick={() => handleUnshareFolder(activeFolder.id)}
-                            className="text-[9px] font-black uppercase tracking-widest text-rose-650 hover:text-rose-700 bg-white border border-rose-200 hover:border-rose-300 px-3 py-2.5 rounded-lg transition-all"
+                            onClick={() => handleShareFolder(activeFolder.id)}
+                            disabled={shareLoadingFolderId === activeFolder.id}
+                            className="inline-flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-white text-[9.5px] font-black uppercase tracking-wider px-4 py-2.5 rounded-xl transition-all shadow-md shadow-slate-900/10 cursor-pointer"
                           >
-                            Unshare
+                            {shareLoadingFolderId === activeFolder.id ? (
+                              <>
+                                <div className="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                Partage...
+                              </>
+                            ) : (
+                              <>
+                                <Share2 className="w-3.5 h-3.5" /> Partager ce dossier
+                              </>
+                            )}
                           </button>
-                        </>
-                      ) : (
-                        <button
-                          onClick={() => handleShareFolder(activeFolder.id)}
-                          disabled={shareLoadingFolderId === activeFolder.id}
-                          className="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-[9.5px] font-black uppercase tracking-wider px-4 py-2.5 rounded-xl transition-all shadow-md shadow-emerald-600/10"
-                        >
-                          {shareLoadingFolderId === activeFolder.id ? (
-                            <>
-                              <div className="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                              Sharing...
-                            </>
-                          ) : (
-                            <>
-                              <Share2 className="w-3.5 h-3.5" /> Share List
-                            </>
-                          )}
-                        </button>
-                      )}
+                        )}
+                      </div>
                     </div>
-                  </div>
-                )}
+                  );
+                })()}
 
                 {shareError && (
                   <div className="mt-3 text-[10px] font-bold text-rose-600 bg-rose-50 border border-rose-100 p-2.5 rounded-xl flex items-center justify-between">

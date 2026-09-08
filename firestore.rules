@@ -65,7 +65,8 @@ service cloud.firestore {
       return data.keys().hasAll(['name', 'toolIds', 'createdAt']) &&
              data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
              data.toolIds is list && data.toolIds.size() <= 100 &&
-             data.createdAt is timestamp;
+             data.createdAt is timestamp &&
+             (!('color' in data) || (data.color is string && data.color.size() <= 50));
     }
 
     function isValidSharedFolder(data) {
@@ -73,7 +74,8 @@ service cloud.firestore {
              data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
              data.toolIds is list && data.toolIds.size() <= 100 &&
              (request.auth != null && data.creatorUid == request.auth.uid) &&
-             data.createdAt is timestamp;
+             data.createdAt is timestamp &&
+             (!('color' in data) || (data.color is string && data.color.size() <= 50));
     }
 
     // Rules

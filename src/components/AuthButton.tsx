@@ -52,6 +52,8 @@ const AuthButton: FC = () => {
       try {
         localStorage.removeItem("vetted_ai_favorites");
         localStorage.removeItem("vetted_ai_notes");
+        localStorage.removeItem("vetted_ai_folders");
+        localStorage.removeItem("vetted_ai_sync_completed");
       } catch (e) {}
     } catch (error) {
       console.error("Error signing out:", error);
