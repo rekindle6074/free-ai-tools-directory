@@ -260,13 +260,14 @@ const HomePage: FC = () => {
       ctx.fillStyle = '#0a0f0d';
       ctx.fillRect(0, 0, width, height);
       
-      const centerX = width / 2;
-      const centerY = height / 2;
-      const radius = Math.min(width, height) * 0.2;
+      const isDesktop = width >= 1024;
+      const centerX = isDesktop ? width * 0.72 : width / 2;
+      const centerY = isDesktop ? Math.min(height * 0.44, 430) : height / 2;
+      const radius = isDesktop ? Math.min(width * 0.17, 210) : Math.min(width, height) * 0.2;
       
       const bgGradient = ctx.createRadialGradient(
-        centerX, centerY - 50, 0,
-        centerX, centerY, Math.max(width, height) * 0.8
+        centerX, centerY - 40, 0,
+        centerX, centerY, isDesktop ? width * 0.5 : Math.max(width, height) * 0.8
       );
       
       const hue = 135 + params.atmosphereShift * 30; // Emerald hues using #a2efb3 style
@@ -453,25 +454,25 @@ const HomePage: FC = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              className="relative z-20 flex flex-col items-center"
+              className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left z-20"
             >
               <motion.div 
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 mb-8 backdrop-blur-md"
+                className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 mb-8 backdrop-blur-md self-center lg:self-start"
               >
                 <Shield className="w-4 h-4 text-emerald-400" />
                 <span className="text-[10px] font-black text-emerald-300 uppercase tracking-[0.2em]">Privacy First • Open Access</span>
               </motion.div>
               
-              <h1 className="text-6xl md:text-8xl font-display font-bold text-white mb-8 leading-[0.9] tracking-[-0.04em] text-center">
-                Discover <br />
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-display font-bold text-white mb-6 leading-[0.95] tracking-[-0.04em] text-center lg:text-left">
+                Discover <br className="hidden sm:inline" />
                 <span className="text-emerald-400 relative inline-block">
                   Free AI
                   <motion.div 
@@ -482,27 +483,27 @@ const HomePage: FC = () => {
                   />
                 </span> Tools
               </h1>
-              <p className="text-xl text-emerald-100/80 max-w-xl mx-auto mb-12 leading-relaxed font-medium text-center">
+              <p className="text-lg sm:text-xl text-emerald-100/80 max-w-xl mb-10 leading-relaxed font-medium text-center lg:text-left">
                 The ultimate curated directory of high-quality AI tools that won't cost you a dime. Save tools, take notes, and build faster.
               </p>
               
-              <div className="flex flex-col sm:flex-row justify-center gap-5 mb-14 w-full max-w-md mx-auto">
+              <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mb-10 w-full sm:w-auto">
                 <Link 
                   to="/browse" 
-                  className="flex items-center justify-center gap-3 bg-emerald-600 text-white px-10 py-5 rounded-2xl font-bold hover:bg-emerald-500 transition-all shadow-2xl shadow-emerald-600/20"
+                  className="flex items-center justify-center gap-3 bg-emerald-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold hover:bg-emerald-500 transition-all shadow-2xl shadow-emerald-600/20"
                 >
                   <LayoutGrid size={20} /> Explore All Tools
                 </Link>
                 <Link 
                   to="/weekly-picks" 
-                  className="flex items-center justify-center gap-3 bg-white/10 text-white border border-white/20 px-10 py-5 rounded-2xl font-bold hover:bg-white/20 transition-all shadow-sm backdrop-blur-md"
+                  className="flex items-center justify-center gap-3 bg-white/10 text-white border border-white/20 px-8 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold hover:bg-white/20 transition-all shadow-sm backdrop-blur-md"
                 >
                   <WeeklyPicksIcon size={20} /> Weekly Picks
                 </Link>
               </div>
 
               {/* Search Bar */}
-              <div className="w-full max-w-2xl mx-auto">
+              <div className="w-full max-w-xl">
                 <form onSubmit={handleSearch} className="relative group">
                   <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-emerald-400 rounded-[2.5rem] blur opacity-20 group-hover:opacity-30 transition duration-1000 group-focus-within:opacity-40" />
                   <div className="relative">
@@ -511,18 +512,18 @@ const HomePage: FC = () => {
                       placeholder="What are you building today?"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="w-full bg-white/95 border border-emerald-500/20 rounded-[2.25rem] px-10 py-6 pl-16 text-lg text-slate-950 focus:outline-none focus:ring-4 focus:ring-emerald-500/20 focus:border-emerald-500 transition-all shadow-xl font-sans"
+                      className="w-full bg-white/95 border border-emerald-500/20 rounded-[2.25rem] px-8 sm:px-10 py-5 sm:py-6 pl-14 sm:pl-16 text-base sm:text-lg text-slate-950 focus:outline-none focus:ring-4 focus:ring-emerald-500/20 focus:border-emerald-500 transition-all shadow-xl font-sans"
                     />
-                    <SearchIconLucide className="absolute left-7 top-1/2 -translate-y-1/2 w-6 h-6 text-slate-500 group-focus-within:text-emerald-600 transition-colors" />
+                    <SearchIconLucide className="absolute left-6 sm:left-7 top-1/2 -translate-y-1/2 w-5 sm:w-6 h-5 sm:h-6 text-slate-500 group-focus-within:text-emerald-600 transition-colors" />
                     <button 
                       type="submit"
-                      className="absolute right-3 top-1/2 -translate-y-1/2 px-8 py-3.5 rounded-2xl bg-emerald-600 text-white font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-500/20"
+                      className="absolute right-2.5 sm:right-3 top-1/2 -translate-y-1/2 px-6 sm:px-8 py-3 sm:py-3.5 rounded-2xl bg-emerald-600 text-white font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-500/20"
                     >
                       Search
                     </button>
                   </div>
                 </form>
-                <div className="flex flex-wrap justify-center gap-3 mt-6">
+                <div className="flex flex-wrap justify-center lg:justify-start gap-2.5 mt-5">
                   <span className="text-[10px] font-black text-emerald-300/60 uppercase tracking-widest self-center px-1">Trending:</span>
                   {["Flux.1", "Cursor AI", "Ollama", "Stable Diffusion"].map((tag) => (
                     <button 
@@ -531,7 +532,7 @@ const HomePage: FC = () => {
                         setSearchQuery(tag);
                         navigate(`/search?q=${encodeURIComponent(tag)}`);
                       }}
-                      className="text-xs font-bold text-emerald-300 border border-emerald-500/30 bg-white/5 hover:bg-emerald-500/20 hover:text-white hover:border-emerald-400 px-4 py-2 rounded-xl transition-all shadow-sm backdrop-blur-sm"
+                      className="text-xs font-bold text-emerald-300 border border-emerald-500/30 bg-white/5 hover:bg-emerald-500/20 hover:text-white hover:border-emerald-400 px-3.5 py-1.5 rounded-xl transition-all shadow-sm backdrop-blur-sm"
                     >
                       {tag}
                     </button>
@@ -539,6 +540,13 @@ const HomePage: FC = () => {
                 </div>
               </div>
             </motion.div>
+
+            {/* Right Column: Visual area dedicated to the background canvas animation on desktop */}
+            <div className="hidden lg:flex lg:col-span-5 items-center justify-center relative min-h-[460px] pointer-events-none">
+              <div className="w-full h-full flex items-center justify-center relative">
+                <div className="w-72 h-72 rounded-full border border-emerald-500/10 pointer-events-none" />
+              </div>
+            </div>
           </div>
 
           {/* Benefit Cards - Modernized */}
