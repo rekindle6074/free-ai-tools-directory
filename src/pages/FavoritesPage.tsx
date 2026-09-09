@@ -15,7 +15,10 @@ import {
   Share2, 
   Copy, 
   ExternalLink,
-  Loader2
+  Loader2,
+  Cloud,
+  CloudOff,
+  AlertCircle
 } from "lucide-react";
 import { Tool } from "../data/tools";
 import { findToolById } from "../lib/toolDirectory";
@@ -31,6 +34,7 @@ const FavoritesPage: FC = () => {
     favoriteIds,
     folders,
     loading,
+    syncStatus,
     createFolder,
     deleteFolder,
     renameFolder,
@@ -162,13 +166,81 @@ const FavoritesPage: FC = () => {
       <div className="min-h-screen bg-slate-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-12 h-12 bg-emerald-100 rounded-2xl flex items-center justify-center shadow-sm">
-                <Heart className="w-6 h-6 text-emerald-600 fill-emerald-600" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-emerald-100 rounded-2xl flex items-center justify-center shadow-sm shrink-0">
+                  <Heart className="w-6 h-6 text-emerald-600 fill-emerald-600" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-3 flex-wrap">
+                    <h1 className="text-4xl md:text-5xl font-display font-bold text-slate-900 tracking-tight">
+                      My <span className="text-emerald-600">Favorites</span>
+                    </h1>
+
+                    {/* Small visual indicator in header showing Firestore sync status */}
+                    {syncStatus === "synced" && (
+                      <div
+                        id="favorites-sync-indicator"
+                        className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/80 shadow-xs"
+                        title="All changes saved to Cloud Firestore in real time"
+                      >
+                        <span className="relative flex h-2 w-2">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                          <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                        </span>
+                        <Check className="w-3.5 h-3.5 stroke-[2.5]" />
+                        <span>Synced</span>
+                      </div>
+                    )}
+
+                    {syncStatus === "syncing" && (
+                      <div
+                        id="favorites-sync-indicator"
+                        className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200/80 shadow-xs"
+                        title="Saving changes to Cloud Firestore..."
+                      >
+                        <Loader2 className="w-3.5 h-3.5 animate-spin text-amber-600" />
+                        <span>Syncing...</span>
+                      </div>
+                    )}
+
+                    {syncStatus === "offline" && (
+                      <div
+                        id="favorites-sync-indicator"
+                        className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-600 border border-slate-200/90 shadow-xs"
+                        title="Offline: Changes saved locally and will sync when reconnected"
+                      >
+                        <CloudOff className="w-3.5 h-3.5 text-slate-500" />
+                        <span>Offline</span>
+                      </div>
+                    )}
+
+                    {syncStatus === "error" && (
+                      <div
+                        id="favorites-sync-indicator"
+                        className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-rose-50 text-rose-700 border border-rose-200 shadow-xs"
+                        title="Connection error syncing with Firestore"
+                      >
+                        <AlertCircle className="w-3.5 h-3.5 text-rose-600" />
+                        <span>Sync error</span>
+                      </div>
+                    )}
+
+                    {syncStatus === "local-only" && (
+                      <button
+                        type="button"
+                        id="favorites-sync-indicator"
+                        onClick={openAuthModal}
+                        className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-600 border border-slate-200/90 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200 transition-all shadow-xs cursor-pointer"
+                        title="Saved locally in browser. Click to sign in and sync to Firestore."
+                      >
+                        <Cloud className="w-3.5 h-3.5 text-slate-500" />
+                        <span>Local • Connect to sync</span>
+                      </button>
+                    )}
+                  </div>
+                </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-display font-bold text-slate-900 tracking-tight">
-                My <span className="text-emerald-600">Favorites</span>
-              </h1>
             </div>
             <p className="text-lg text-slate-500 max-w-3xl leading-relaxed">
               Your personal library of AI tools. Access your saved tools and custom notes anytime.
@@ -187,6 +259,7 @@ const FavoritesPage: FC = () => {
                   </div>
                 </div>
                 <button
+                  id="favorites-signin-cta-btn"
                   onClick={openAuthModal}
                   className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition-all shadow-sm shrink-0 flex items-center gap-1.5 self-start sm:self-auto cursor-pointer"
                 >
@@ -194,12 +267,36 @@ const FavoritesPage: FC = () => {
                 </button>
               </div>
             ) : (
-              <div className="mt-6 px-4 py-3 bg-white border border-slate-200/80 rounded-2xl flex items-center justify-between text-xs text-slate-600 shadow-sm">
+              <div className="mt-6 px-4 py-3 bg-white border border-slate-200/80 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-slate-600 shadow-sm">
                 <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                  <span>Synchronisation Firestore multi-appareils active • Compte : <strong>{user.email}</strong></span>
+                  <span className={`w-2 h-2 rounded-full ${
+                    syncStatus === "synced"
+                      ? "bg-emerald-500 animate-pulse"
+                      : syncStatus === "syncing"
+                      ? "bg-amber-500 animate-ping"
+                      : syncStatus === "offline"
+                      ? "bg-slate-400"
+                      : "bg-rose-500"
+                  }`} />
+                  <span>Synchronisation Firestore multi-appareils • Compte : <strong>{user.email}</strong></span>
                 </div>
-                <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-100">Synchronisé en temps réel</span>
+                <span className={`text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border self-start sm:self-auto ${
+                  syncStatus === "synced"
+                    ? "text-emerald-700 bg-emerald-50 border-emerald-100"
+                    : syncStatus === "syncing"
+                    ? "text-amber-700 bg-amber-50 border-amber-100"
+                    : syncStatus === "offline"
+                    ? "text-slate-600 bg-slate-100 border-slate-200"
+                    : "text-rose-700 bg-rose-50 border-rose-100"
+                }`}>
+                  {syncStatus === "synced"
+                    ? "Synchronisé en temps réel"
+                    : syncStatus === "syncing"
+                    ? "Synchronisation..."
+                    : syncStatus === "offline"
+                    ? "Hors ligne"
+                    : "Erreur de synchronisation"}
+                </span>
               </div>
             )}
 

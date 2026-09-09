@@ -21,6 +21,8 @@ export interface Folder {
   createdAt?: any;
 }
 
+export type SyncStatus = "synced" | "syncing" | "offline" | "local-only" | "error";
+
 interface FavoritesContextType {
   user: User | null;
   authLoading: boolean;
@@ -41,7 +43,7 @@ interface FavoritesContextType {
   unshareFolder: (folderId: string) => Promise<void>;
   openAuthModal: () => void;
   closeAuthModal: () => void;
-  syncStatus: "synced" | "syncing" | "local-only" | "error";
+  syncStatus: SyncStatus;
 }
 
 // Keys used for temporary guest or migration storage
@@ -131,10 +133,35 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
   const [folders, setFolders] = useState<Folder[]>(() => getGuestFolders());
 
   const [loading, setLoading] = useState(false);
-  const [syncStatus, setSyncStatus] = useState<"synced" | "syncing" | "local-only" | "error">(
-    auth?.currentUser ? "syncing" : "local-only"
-  );
+  const [syncStatus, setSyncStatus] = useState<SyncStatus>(() => {
+    if (typeof navigator !== "undefined" && !navigator.onLine) return "offline";
+    return auth?.currentUser ? "syncing" : "local-only";
+  });
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+
+  // Online / Offline tracking
+  useEffect(() => {
+    const handleOnline = () => {
+      if (userRef.current) {
+        setSyncStatus("syncing");
+        setTimeout(() => setSyncStatus("synced"), 1000);
+      } else {
+        setSyncStatus("local-only");
+      }
+    };
+
+    const handleOffline = () => {
+      setSyncStatus("offline");
+    };
+
+    window.addEventListener("online", handleOnline);
+    window.addEventListener("offline", handleOffline);
+
+    return () => {
+      window.removeEventListener("online", handleOnline);
+      window.removeEventListener("offline", handleOffline);
+    };
+  }, []);
 
   // Keep ref of current user to avoid closure staleness
   const userRef = useRef<User | null>(user);
@@ -246,7 +273,13 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
         // The remote Firestore documents are the authoritative source of truth
         setFavoriteIds(remoteIds);
         setNotes(remoteNotes);
-        setSyncStatus("synced");
+        if (typeof navigator !== "undefined" && !navigator.onLine) {
+          setSyncStatus("offline");
+        } else if (snapshot.metadata.hasPendingWrites) {
+          setSyncStatus("syncing");
+        } else {
+          setSyncStatus("synced");
+        }
         setLoading(false);
 
         // Cache locally for instant warm-boot on page reload
@@ -339,9 +372,16 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       }
     }
 
+    if (typeof navigator !== "undefined" && !navigator.onLine) {
+      setSyncStatus("offline");
+    } else {
+      setSyncStatus("syncing");
+    }
+
     try {
       if (currentlyFav) {
         await deleteDoc(favDocRef);
+        setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "synced");
         return false;
       } else {
         await setDoc(favDocRef, {
@@ -349,10 +389,12 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
           note: initialNote || notes[toolId] || "",
           createdAt: serverTimestamp()
         });
+        setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "synced");
         return true;
       }
     } catch (err) {
       console.error("[Firestore] Failed to persist favorite:", err);
+      setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "error");
       // Revert optimistic update on error
       if (currentlyFav) {
         setFavoriteIds(prev => [...prev, toolId]);
@@ -381,14 +423,22 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     }
 
     const favDocRef = doc(db, "users", currentUser.uid, "favorites", toolId);
+    if (typeof navigator !== "undefined" && !navigator.onLine) {
+      setSyncStatus("offline");
+    } else {
+      setSyncStatus("syncing");
+    }
+
     try {
       await setDoc(favDocRef, {
         toolId,
         note: trimmed,
         updatedAt: serverTimestamp()
       }, { merge: true });
+      setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "synced");
     } catch (err) {
       console.error("[Firestore] Failed to persist note:", err);
+      setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "error");
       throw err;
     }
   };
@@ -419,6 +469,12 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     };
     setFolders(prev => [...prev, newFolder]);
 
+    if (typeof navigator !== "undefined" && !navigator.onLine) {
+      setSyncStatus("offline");
+    } else {
+      setSyncStatus("syncing");
+    }
+
     try {
       await setDoc(folderDocRef, {
         name: trimmed,
@@ -426,9 +482,11 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
         toolIds: [],
         createdAt: serverTimestamp()
       });
+      setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "synced");
       return folderId;
     } catch (err) {
       console.error("[Firestore] Failed to persist folder:", err);
+      setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "error");
       setFolders(prev => prev.filter(f => f.id !== folderId));
       throw err;
     }
@@ -442,6 +500,12 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     const folderToDelete = folders.find((f) => f.id === folderId);
     setFolders(prev => prev.filter(f => f.id !== folderId));
 
+    if (typeof navigator !== "undefined" && !navigator.onLine) {
+      setSyncStatus("offline");
+    } else {
+      setSyncStatus("syncing");
+    }
+
     try {
       if (folderToDelete?.shareId) {
         try {
@@ -451,8 +515,10 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
         }
       }
       await deleteDoc(doc(db, "users", currentUser.uid, "folders", folderId));
+      setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "synced");
     } catch (err) {
       console.error("[Firestore] Failed to delete folder:", err);
+      setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "error");
       if (folderToDelete) {
         setFolders(prev => [...prev, folderToDelete]);
       }
