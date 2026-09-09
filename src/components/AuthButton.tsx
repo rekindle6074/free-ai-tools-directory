@@ -48,13 +48,6 @@ const AuthButton: FC = () => {
     if (!auth) return;
     try {
       await signOut(auth);
-      // Clear local storage on explicit manual logout
-      try {
-        localStorage.removeItem("vetted_ai_favorites");
-        localStorage.removeItem("vetted_ai_notes");
-        localStorage.removeItem("vetted_ai_folders");
-        localStorage.removeItem("vetted_ai_sync_completed");
-      } catch (e) {}
     } catch (error) {
       console.error("Error signing out:", error);
     }
@@ -65,7 +58,7 @@ const AuthButton: FC = () => {
   if (user) {
     return (
       <div className="flex items-center gap-2">
-        <div className="flex items-center gap-1.5 px-2 py-1 bg-emerald-50 rounded-full border border-emerald-100/50 backdrop-blur-md">
+        <div className="flex items-center gap-1.5 px-2.5 py-1 bg-emerald-50 rounded-full border border-emerald-100/70 backdrop-blur-md">
           {user.photoURL ? (
             <img src={user.photoURL} alt={user.displayName || ""} className="w-4 h-4 rounded-full border border-white" referrerPolicy="no-referrer" />
           ) : (
@@ -73,12 +66,12 @@ const AuthButton: FC = () => {
               <UserIcon className="w-2.5 h-2.5 text-emerald-600" />
             </div>
           )}
-          <span className="text-[10px] font-black text-slate-700 uppercase tracking-wider hidden lg:inline pr-0.5">{user.displayName?.split(" ")[0] || "User"}</span>
+          <span className="text-[11px] font-bold text-slate-700 uppercase tracking-wider hidden lg:inline pr-0.5">{user.displayName?.split(" ")[0] || "User"}</span>
         </div>
         <button 
           onClick={handleLogout}
-          className="p-1 text-slate-400 hover:text-red-500 transition-colors"
-          title="Logout"
+          className="p-1 text-slate-400 hover:text-red-500 transition-colors cursor-pointer"
+          title="Déconnexion"
         >
           <LogOut className="w-3.5 h-3.5" />
         </button>
@@ -86,8 +79,22 @@ const AuthButton: FC = () => {
     );
   }
 
-  // When not logged in, do not display any public login button in the header
-  return null;
+  return (
+    <>
+      <button 
+        onClick={() => setIsModalOpen(true)}
+        className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200/80 rounded-full transition-all shadow-sm hover:border-emerald-300 cursor-pointer"
+      >
+        <LogIn className="w-3.5 h-3.5 text-emerald-600" />
+        <span>Connexion</span>
+      </button>
+      <AuthModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        allowSignup={true}
+      />
+    </>
+  );
 };
 
 export default AuthButton;

@@ -5,7 +5,7 @@ import {
   Heart, 
   Search, 
   LogIn, 
-  ArrowRight, 
+  Sparkles, 
   FolderHeart, 
   FolderPlus, 
   Trash2, 
@@ -17,7 +17,8 @@ import {
   ExternalLink,
   Loader2
 } from "lucide-react";
-import { featuredTools, toolsByTag, Tool } from "../data/tools";
+import { Tool } from "../data/tools";
+import { findToolById } from "../lib/toolDirectory";
 import ToolCard from "../components/ToolCard";
 import { Link } from "react-router-dom";
 import { useFavorites, Folder as FolderType } from "../context/FavoritesContext";
@@ -132,17 +133,8 @@ const FavoritesPage: FC = () => {
     }
   };
 
-  // Map favorite IDs to actual Tool objects
-  const favoriteTools = favoriteIds.map(id => {
-    const featured = featuredTools.find(t => t.id === id);
-    if (featured) return featured;
-
-    for (const tools of Object.values(toolsByTag)) {
-      const found = tools.find(t => t.id === id);
-      if (found) return found;
-    }
-    return null;
-  }).filter((t): t is Tool => t !== null);
+  // Map favorite IDs to actual Tool objects with guaranteed resolution
+  const favoriteTools = favoriteIds.map(id => findToolById(id));
 
   const activeFolder = activeFolderId ? folders.find(f => f.id === activeFolderId) : null;
 
@@ -159,43 +151,6 @@ const FavoritesPage: FC = () => {
     tool.category.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  if (authLoading) {
-    return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
-        <div className="flex flex-col items-center gap-3">
-          <Loader2 className="w-10 h-10 text-emerald-600 animate-spin" />
-          <p className="text-slate-500 font-medium">Chargement de votre compte...</p>
-        </div>
-      </div>
-    );
-  }
-
-  if (!user) {
-    return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="bg-white rounded-[2.5rem] p-12 text-center border border-slate-200 shadow-sm max-w-md w-full"
-        >
-          <div className="w-20 h-20 bg-emerald-50 rounded-full flex items-center justify-center mx-auto mb-6">
-            <LogIn className="w-10 h-10 text-emerald-600" />
-          </div>
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Connexion requise</h2>
-          <p className="text-slate-500 mb-8 leading-relaxed">
-            Vos favoris et dossiers sont sauvegardés en direct dans le Cloud Firestore. Connectez-vous avec votre compte pour gérer votre sélection sans risque de perte.
-          </p>
-          <button 
-            onClick={openAuthModal}
-            className="w-full bg-emerald-600 text-white px-8 py-4 rounded-2xl font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/20 flex items-center justify-center gap-2 cursor-pointer"
-          >
-            Se connecter <ArrowRight className="w-5 h-5" />
-          </button>
-        </motion.div>
-      </div>
-    );
-  }
-
   return (
     <>
       <Helmet>
@@ -206,18 +161,47 @@ const FavoritesPage: FC = () => {
 
       <div className="min-h-screen bg-slate-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-16">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-12 h-12 bg-emerald-100 rounded-2xl flex items-center justify-center">
+          <div className="mb-12">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 bg-emerald-100 rounded-2xl flex items-center justify-center shadow-sm">
                 <Heart className="w-6 h-6 text-emerald-600 fill-emerald-600" />
               </div>
-              <h1 className="text-4xl md:text-6xl font-display text-slate-900 tracking-tight">
+              <h1 className="text-4xl md:text-5xl font-display font-bold text-slate-900 tracking-tight">
                 My <span className="text-emerald-600">Favorites</span>
               </h1>
             </div>
-            <p className="text-xl text-slate-500 max-w-3xl leading-relaxed">
+            <p className="text-lg text-slate-500 max-w-3xl leading-relaxed">
               Your personal library of AI tools. Access your saved tools and custom notes anytime.
             </p>
+
+            {/* Account & Sync Status Banner */}
+            {!user ? (
+              <div className="mt-6 p-4 bg-emerald-50/70 border border-emerald-200/70 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-sm">
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-xl bg-emerald-100 flex items-center justify-center shrink-0">
+                    <Sparkles className="w-5 h-5 text-emerald-600" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-bold text-slate-800">Sauvegarde locale active</h3>
+                    <p className="text-xs text-slate-600">Vos {favoriteIds.length} favoris sont enregistrés dans ce navigateur. Connectez-vous pour les synchroniser gratuitement sur votre compte Cloud.</p>
+                  </div>
+                </div>
+                <button
+                  onClick={openAuthModal}
+                  className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition-all shadow-sm shrink-0 flex items-center gap-1.5 self-start sm:self-auto cursor-pointer"
+                >
+                  <LogIn className="w-3.5 h-3.5" /> Se connecter
+                </button>
+              </div>
+            ) : (
+              <div className="mt-6 px-4 py-3 bg-white border border-slate-200/80 rounded-2xl flex items-center justify-between text-xs text-slate-600 shadow-sm">
+                <div className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                  <span>Synchronisation Cloud active • Compte : <strong>{user.email}</strong></span>
+                </div>
+                <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-100">Synchronisé</span>
+              </div>
+            )}
 
             {/* My Custom Collections / Folders */}
             {true && (

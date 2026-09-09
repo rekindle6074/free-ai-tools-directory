@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import AuthButton from './AuthButton';
 import { auth } from '../firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
+import { useFavorites } from '../context/FavoritesContext';
 
 const AnimatedNavLink: React.FC<{ to: string; children: React.ReactNode }> = ({ to, children }) => {
   const defaultTextColor = 'text-slate-600';
@@ -67,11 +68,16 @@ export function Navbar({ openSubmitForm }: NavbarProps) {
     </Link>
   );
 
+  const { favoriteIds } = useFavorites();
+
   const navLinksData = [
     { label: 'Browse Apps', href: '/browse' },
     { label: 'Categories', href: '/categories' },
     { label: 'Weekly Picks', href: '/weekly-picks' },
-    ...(user ? [{ label: 'My Favorites', href: '/favorites' }] : []),
+    { 
+      label: favoriteIds.length > 0 ? `Favorites (${favoriteIds.length})` : 'Favorites', 
+      href: '/favorites' 
+    },
   ];
 
   const authButtonElement = (

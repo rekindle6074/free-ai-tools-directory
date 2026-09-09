@@ -130,10 +130,6 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
   };
 
   const handleCreateFolderInline = async () => {
-    if (!user) {
-      openAuthModal();
-      return;
-    }
     const name = newFolderName.trim();
     if (!name) return;
     try {
@@ -147,31 +143,23 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
   };
 
   const handleToggleFavorite = async () => {
-    if (!user) {
-      openAuthModal();
-      return;
-    }
     if (isActionPending) return;
     setIsActionPending(true);
     try {
       await toggleFavorite(tool.id, note);
     } catch (err) {
-      console.error("Failed to toggle favorite on Firestore:", err);
+      console.error("Failed to toggle favorite:", err);
     } finally {
       setIsActionPending(false);
     }
   };
 
   const handleSaveNote = async () => {
-    if (!user) {
-      openAuthModal();
-      return;
-    }
     try {
       await saveNote(tool.id, tempNote);
       setIsEditingNote(false);
     } catch (err) {
-      console.error("Failed to save note on Firestore:", err);
+      console.error("Failed to save note:", err);
     }
   };
 

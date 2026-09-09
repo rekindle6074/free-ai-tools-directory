@@ -42,7 +42,9 @@
       "type": "object",
       "properties": {
         "name": { "type": "string", "description": "Name of the folder" },
+        "color": { "type": "string", "description": "Color identifier for the folder" },
         "toolIds": { "type": "array", "items": { "type": "string" }, "description": "IDs of tools contained inside this folder" },
+        "shareId": { "type": "string", "description": "Public share identifier" },
         "createdAt": { "type": "string", "format": "date-time", "description": "When the folder was created" }
       },
       "required": ["name", "toolIds"]

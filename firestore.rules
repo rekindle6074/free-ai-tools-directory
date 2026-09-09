@@ -55,18 +55,19 @@ service cloud.firestore {
     }
 
     function isValidFavorite(data) {
-      return data.keys().hasAll(['toolId', 'createdAt']) &&
-             data.toolId is string &&
-             data.createdAt is timestamp &&
-             (!('note' in data) || (data.note is string && data.note.size() < 2000));
+      return data.keys().hasAll(['toolId']) &&
+             data.toolId is string && data.toolId.size() > 0 && data.toolId.size() <= 128 &&
+             (!('createdAt' in data) || data.createdAt is timestamp) &&
+             (!('note' in data) || (data.note is string && data.note.size() <= 2000));
     }
 
     function isValidFolder(data) {
-      return data.keys().hasAll(['name', 'toolIds', 'createdAt']) &&
+      return data.keys().hasAll(['name', 'toolIds']) &&
              data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
              data.toolIds is list && data.toolIds.size() <= 100 &&
-             data.createdAt is timestamp &&
-             (!('color' in data) || (data.color is string && data.color.size() <= 50));
+             (!('createdAt' in data) || data.createdAt is timestamp) &&
+             (!('color' in data) || (data.color is string && data.color.size() <= 50)) &&
+             (!('shareId' in data) || data.shareId == null || (data.shareId is string && data.shareId.size() <= 100));
     }
 
     function isValidSharedFolder(data) {

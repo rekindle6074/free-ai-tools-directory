@@ -2,7 +2,8 @@ import { FC, useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
-import { featuredTools, toolsByTag, Tool } from "../data/tools";
+import { Tool } from "../data/tools";
+import { findToolById } from "../lib/toolDirectory";
 import ToolCard from "../components/ToolCard";
 import { FolderHeart, ChevronLeft, Calendar, Share2, Compass, AlertCircle } from "lucide-react";
 import { motion } from "motion/react";
@@ -82,18 +83,9 @@ const SharedFolderPage: FC = () => {
 
         setSharedData(data);
 
-        // Resolve tool IDs back to Tool objects
+        // Resolve tool IDs back to Tool objects with guaranteed resolution
         const ids = data.toolIds || [];
-        const mapped = ids.map(id => {
-          const featured = featuredTools.find(t => t.id === id);
-          if (featured) return featured;
-
-          for (const tools of Object.values(toolsByTag)) {
-            const found = tools.find(t => t.id === id);
-            if (found) return found;
-          }
-          return null;
-        }).filter((t): t is Tool => t !== null);
+        const mapped = ids.map(id => findToolById(id));
 
         setResolvedTools(mapped);
         setError(null);
