@@ -182,8 +182,8 @@ const FavoritesPage: FC = () => {
                     <Sparkles className="w-5 h-5 text-emerald-600" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-slate-800">Sauvegarde locale active</h3>
-                    <p className="text-xs text-slate-600">Vos {favoriteIds.length} favoris sont enregistrés dans ce navigateur. Connectez-vous pour les synchroniser gratuitement sur votre compte Cloud.</p>
+                    <h3 className="text-sm font-bold text-slate-800">Synchronisation Cloud Firestore</h3>
+                    <p className="text-xs text-slate-600">Connectez-vous pour enregistrer et synchroniser automatiquement vos favoris et dossiers sur tous vos appareils en temps réel.</p>
                   </div>
                 </div>
                 <button
@@ -197,9 +197,9 @@ const FavoritesPage: FC = () => {
               <div className="mt-6 px-4 py-3 bg-white border border-slate-200/80 rounded-2xl flex items-center justify-between text-xs text-slate-600 shadow-sm">
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                  <span>Synchronisation Cloud active • Compte : <strong>{user.email}</strong></span>
+                  <span>Synchronisation Firestore multi-appareils active • Compte : <strong>{user.email}</strong></span>
                 </div>
-                <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-100">Synchronisé</span>
+                <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-100">Synchronisé en temps réel</span>
               </div>
             )}
 
