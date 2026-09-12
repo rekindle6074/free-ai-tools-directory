@@ -53,8 +53,8 @@ export function findToolById(id: string): Tool {
   return {
     id: cleanId,
     name: formattedName,
-    description: "Outil personnalisé enregistré dans vos favoris.",
-    category: "Favoris",
+    description: "Custom tool saved in your favorites.",
+    category: "Favorites",
     score: 9.5,
     link: "#",
     icon: "Zap"

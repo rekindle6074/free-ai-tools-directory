@@ -32,7 +32,10 @@ if (app) {
       : null;
 
     const settings = {
-      experimentalForceLongPolling: true,
+      experimentalAutoDetectLongPolling: true,
+      experimentalLongPollingOptions: {
+        timeoutSeconds: 30,
+      },
     };
 
     try {

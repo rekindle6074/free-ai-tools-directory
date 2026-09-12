@@ -1,9 +1,20 @@
 import { FC, useEffect, useState } from "react";
 import { db } from "../firebase";
-import { doc, getDoc, setDoc, updateDoc, increment, onSnapshot } from "firebase/firestore";
+import { doc, setDoc, increment, onSnapshot } from "firebase/firestore";
 
 const VisitorCounter: FC = () => {
-  const [count, setCount] = useState<number>(0);
+  const [count, setCount] = useState<number>(() => {
+    try {
+      const cached = localStorage.getItem("ais_visitor_count");
+      if (cached) {
+        const parsed = parseInt(cached, 10);
+        if (!isNaN(parsed) && parsed > 0) return parsed;
+      }
+    } catch {
+      // ignore storage access errors
+    }
+    return 1371;
+  });
 
   useEffect(() => {
     if (!db) return;
@@ -15,29 +26,50 @@ const VisitorCounter: FC = () => {
         const hasBeenCounted = sessionStorage.getItem(sessionKey);
         
         if (!hasBeenCounted) {
-          const docSnap = await getDoc(statRef);
-          if (!docSnap.exists()) {
-            await setDoc(statRef, { count: 1240 });
-          } else {
-            await updateDoc(statRef, { count: increment(1) });
-          }
           sessionStorage.setItem(sessionKey, "true");
+          // Atomically increment with merge without requiring getDoc first.
+          // This avoids the 'Failed to get document because the client is offline' error.
+          await setDoc(statRef, { count: increment(1) }, { merge: true });
         }
-      } catch (error) {
-        console.error("Error incrementing visitor count:", error);
+      } catch (error: any) {
+        // Silently handle offline/transient connection states (Firestore queues mutations automatically)
+        const isOffline = error?.code === "unavailable" || 
+                          error?.message?.includes("offline") || 
+                          (typeof navigator !== "undefined" && !navigator.onLine);
+        if (!isOffline) {
+          console.warn("Could not increment visitor count:", error?.message || error);
+        }
       }
     };
 
     incrementCount();
 
-    // Listen for real-time updates
-    const unsubscribe = onSnapshot(statRef, (snapshot) => {
-      if (snapshot.exists()) {
-        setCount(snapshot.data().count);
+    // Listen for real-time updates from cache or Firestore server
+    const unsubscribe = onSnapshot(
+      statRef,
+      (snapshot) => {
+        if (snapshot.exists()) {
+          const val = snapshot.data()?.count;
+          if (typeof val === "number") {
+            setCount(val);
+            try {
+              localStorage.setItem("ais_visitor_count", String(val));
+            } catch {
+              // ignore
+            }
+          }
+        }
+      },
+      (error) => {
+        // Suppress expected offline warnings when client operates without internet
+        const isOffline = error?.code === "unavailable" || 
+                          error?.message?.includes("offline") || 
+                          (typeof navigator !== "undefined" && !navigator.onLine);
+        if (!isOffline) {
+          console.warn("Visitor counter snapshot notice:", error?.message || error);
+        }
       }
-    }, (error) => {
-      console.error("Firestore onSnapshot Error:", error);
-    });
+    );
 
     return () => unsubscribe();
   }, []);

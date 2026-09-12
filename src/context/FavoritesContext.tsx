@@ -9,7 +9,7 @@ import {
   serverTimestamp,
   writeBatch
 } from "firebase/firestore";
-import { auth, db } from "../firebase";
+import { auth, db, handleFirestoreError, OperationType } from "../firebase";
 import AuthModal from "../components/AuthModal";
 
 export interface Folder {
@@ -126,7 +126,16 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
 
   // In-memory state synchronized in real-time with Cloud Firestore
   const [favoriteIds, setFavoriteIds] = useState<string[]>(() => {
-    // If guest storage exists, initialize with it so offline/guest users don't see empty list
+    // If the authenticated user has cached cloud favorites, initialize immediately to avoid counter flashing 0
+    if (auth?.currentUser?.uid) {
+      try {
+        const cached = localStorage.getItem(`fa_cloud_cache_${auth.currentUser.uid}_favs`);
+        if (cached) {
+          const parsed = JSON.parse(cached);
+          if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        }
+      } catch (e) {}
+    }
     return getGuestFavorites();
   });
   const [notes, setNotes] = useState<Record<string, string>>(() => getGuestNotes());
@@ -138,6 +147,13 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     return auth?.currentUser ? "syncing" : "local-only";
   });
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+
+  // Track active listener UID to prevent stale subscriptions from overwriting state
+  const activeListenerUidRef = useRef<string | null>(null);
+
+  // Track pending in-flight optimistic mutations (toolId -> targetIsFavorite: boolean)
+  // Prevents an initial empty snapshot or delayed server response from overwriting an in-flight optimistic update
+  const pendingFavMutationsRef = useRef<Map<string, boolean>>(new Map());
 
   // Online / Offline tracking
   useEffect(() => {
@@ -184,29 +200,45 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       setUser(currentUser);
       setAuthLoading(false);
 
+      // Always unsubscribe previous listeners before setting up new ones to avoid listener leaks
+      if (unsubscribeFavorites) {
+        unsubscribeFavorites();
+        unsubscribeFavorites = null;
+      }
+      if (unsubscribeFolders) {
+        unsubscribeFolders();
+        unsubscribeFolders = null;
+      }
+
       if (!currentUser) {
-        // User logged out: clear listeners and load guest state
+        // User logged out: reset active listener and load guest state
+        activeListenerUidRef.current = null;
         setSyncStatus("local-only");
         setLoading(false);
-        if (unsubscribeFavorites) {
-          unsubscribeFavorites();
-          unsubscribeFavorites = null;
-        }
-        if (unsubscribeFolders) {
-          unsubscribeFolders();
-          unsubscribeFolders = null;
-        }
         setFavoriteIds(getGuestFavorites());
         setNotes(getGuestNotes());
         setFolders(getGuestFolders());
         return;
       }
 
+      activeListenerUidRef.current = currentUser.uid;
+
       if (!db) {
         setSyncStatus("local-only");
         setLoading(false);
         return;
       }
+
+      // Pre-warm state from local cache for instant display on session start / refresh
+      try {
+        const cachedFavs = localStorage.getItem(`fa_cloud_cache_${currentUser.uid}_favs`);
+        if (cachedFavs) {
+          const parsed = JSON.parse(cachedFavs);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            setFavoriteIds(prev => (prev.length === 0 ? parsed : prev));
+          }
+        }
+      } catch (e) {}
 
       setSyncStatus("syncing");
       setLoading(true);
@@ -257,25 +289,43 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
 
       // --- REAL-TIME FIRESTORE LISTENER FOR USER FAVORITES ---
       // This synchronizes across all devices and tabs in real-time
-      const favoritesRef = collection(db, "users", currentUser.uid, "favorites");
+      const currentUid = currentUser.uid;
+      const favoritesRef = collection(db, "users", currentUid, "favorites");
       unsubscribeFavorites = onSnapshot(favoritesRef, (snapshot) => {
-        const remoteIds: string[] = [];
+        // Prevent stale listener callback from an older auth session from overwriting state
+        if (activeListenerUidRef.current !== currentUid) {
+          return;
+        }
+
+        const remoteIds = new Set<string>();
         const remoteNotes: Record<string, string> = {};
 
         snapshot.docs.forEach((docSnap) => {
-          remoteIds.push(docSnap.id);
+          remoteIds.add(docSnap.id);
           const data = docSnap.data();
           if (data && typeof data.note === "string") {
             remoteNotes[docSnap.id] = data.note;
           }
         });
 
-        // The remote Firestore documents are the authoritative source of truth
-        setFavoriteIds(remoteIds);
+        // Reconcile with any in-flight optimistic mutations so that an initial snapshot or slow sync
+        // does not overwrite a successful optimistic favorite toggle
+        const reconciledIds = new Set(remoteIds);
+        pendingFavMutationsRef.current.forEach((shouldBePresent, pendingToolId) => {
+          if (shouldBePresent) {
+            reconciledIds.add(pendingToolId);
+          } else {
+            reconciledIds.delete(pendingToolId);
+          }
+        });
+
+        const finalFavoriteIds = Array.from(reconciledIds);
+        setFavoriteIds(finalFavoriteIds);
         setNotes(remoteNotes);
+
         if (typeof navigator !== "undefined" && !navigator.onLine) {
           setSyncStatus("offline");
-        } else if (snapshot.metadata.hasPendingWrites) {
+        } else if (snapshot.metadata.hasPendingWrites || pendingFavMutationsRef.current.size > 0) {
           setSyncStatus("syncing");
         } else {
           setSyncStatus("synced");
@@ -284,22 +334,29 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
 
         // Cache locally for instant warm-boot on page reload
         try {
-          localStorage.setItem(`fa_cloud_cache_${currentUser.uid}_favs`, JSON.stringify(remoteIds));
+          localStorage.setItem(`fa_cloud_cache_${currentUid}_favs`, JSON.stringify(finalFavoriteIds));
         } catch (e) {}
       }, (err) => {
         console.error("[Firestore] Favorites live sync error:", err);
         setSyncStatus("error");
         setLoading(false);
+        try {
+          handleFirestoreError(err, OperationType.GET, `users/${currentUid}/favorites`);
+        } catch (e) {}
       });
 
       // --- REAL-TIME FIRESTORE LISTENER FOR USER FOLDERS ---
-      const foldersRef = collection(db, "users", currentUser.uid, "folders");
+      const foldersRef = collection(db, "users", currentUid, "folders");
       unsubscribeFolders = onSnapshot(foldersRef, (snapshot) => {
+        if (activeListenerUidRef.current !== currentUid) {
+          return;
+        }
+
         const remoteFolders: Folder[] = snapshot.docs.map((docSnap) => {
           const d = docSnap.data();
           return {
             id: docSnap.id,
-            name: d.name || "Sans titre",
+            name: d.name || "Untitled Folder",
             color: d.color || "emerald",
             toolIds: Array.isArray(d.toolIds) ? d.toolIds : [],
             shareId: d.shareId || undefined,
@@ -309,10 +366,13 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
 
         setFolders(remoteFolders);
         try {
-          localStorage.setItem(`fa_cloud_cache_${currentUser.uid}_folders`, JSON.stringify(remoteFolders));
+          localStorage.setItem(`fa_cloud_cache_${currentUid}_folders`, JSON.stringify(remoteFolders));
         } catch (e) {}
       }, (err) => {
         console.error("[Firestore] Folders live sync error:", err);
+        try {
+          handleFirestoreError(err, OperationType.GET, `users/${currentUid}/folders`);
+        } catch (e) {}
       });
     });
 
@@ -336,7 +396,7 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
 
   // Toggle favorite: Writes directly to Firestore for automatic multi-device synchronization
   const toggleFavorite = async (toolId: string, initialNote = ""): Promise<boolean> => {
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
     
     // If not authenticated, prompt sign in so their favorites sync across all devices!
     if (!currentUser || !db) {
@@ -360,7 +420,11 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     }
 
     const currentlyFav = favoriteIds.includes(toolId);
+    const targetWillBeFav = !currentlyFav;
     const favDocRef = doc(db, "users", currentUser.uid, "favorites", toolId);
+
+    // Track pending mutation so concurrent snapshots do not overwrite before write commits
+    pendingFavMutationsRef.current.set(toolId, targetWillBeFav);
 
     // Optimistic UI update for instant feedback
     if (currentlyFav) {
@@ -381,26 +445,32 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     try {
       if (currentlyFav) {
         await deleteDoc(favDocRef);
-        setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "synced");
-        return false;
       } else {
         await setDoc(favDocRef, {
           toolId,
           note: initialNote || notes[toolId] || "",
           createdAt: serverTimestamp()
         });
-        setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "synced");
-        return true;
       }
+
+      pendingFavMutationsRef.current.delete(toolId);
+      setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "synced");
+      return targetWillBeFav;
     } catch (err) {
       console.error("[Firestore] Failed to persist favorite:", err);
+      pendingFavMutationsRef.current.delete(toolId);
+
+      // Never falsely report "synced" on failure
       setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "error");
+
       // Revert optimistic update on error
       if (currentlyFav) {
         setFavoriteIds(prev => [...prev, toolId]);
       } else {
         setFavoriteIds(prev => prev.filter(id => id !== toolId));
       }
+
+      handleFirestoreError(err, OperationType.WRITE, `users/${currentUser.uid}/favorites/${toolId}`);
       throw err;
     }
   };
@@ -408,7 +478,7 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
   // Save note: Persists directly to Firestore document
   const saveNote = async (toolId: string, note: string): Promise<void> => {
     const trimmed = note.trim();
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
 
     // Optimistic state update
     setNotes(prev => ({ ...prev, [toolId]: trimmed }));
@@ -439,6 +509,7 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     } catch (err) {
       console.error("[Firestore] Failed to persist note:", err);
       setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "error");
+      handleFirestoreError(err, OperationType.WRITE, `users/${currentUser.uid}/favorites/${toolId}`);
       throw err;
     }
   };
@@ -447,13 +518,13 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
   const createFolder = async (name: string, color: string = "emerald"): Promise<string> => {
     const trimmed = name.trim();
     if (!trimmed) {
-      throw new Error("Le nom du dossier ne peut pas être vide.");
+      throw new Error("Folder name cannot be empty.");
     }
 
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
     if (!currentUser || !db) {
       openAuthModal();
-      throw new Error("Veuillez vous connecter pour créer un dossier synchronisé sur le Cloud.");
+      throw new Error("Please sign in to create a cloud-synced folder.");
     }
 
     const folderId = `f_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
@@ -488,13 +559,14 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       console.error("[Firestore] Failed to persist folder:", err);
       setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "error");
       setFolders(prev => prev.filter(f => f.id !== folderId));
+      handleFirestoreError(err, OperationType.WRITE, `users/${currentUser.uid}/folders/${folderId}`);
       throw err;
     }
   };
 
   // Delete folder
   const deleteFolder = async (folderId: string): Promise<void> => {
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
     if (!currentUser || !db) return;
 
     const folderToDelete = folders.find((f) => f.id === folderId);
@@ -519,6 +591,7 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     } catch (err) {
       console.error("[Firestore] Failed to delete folder:", err);
       setSyncStatus(typeof navigator !== "undefined" && !navigator.onLine ? "offline" : "error");
+      handleFirestoreError(err, OperationType.DELETE, `users/${currentUser.uid}/folders/${folderId}`);
       if (folderToDelete) {
         setFolders(prev => [...prev, folderToDelete]);
       }
@@ -531,7 +604,7 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
     const trimmed = name.trim();
     if (!trimmed) return;
 
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
     if (!currentUser || !db) return;
 
     setFolders(prev => prev.map(f => {
@@ -557,12 +630,13 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       }
     } catch (err) {
       console.error("[Firestore] Failed to rename folder:", err);
+      handleFirestoreError(err, OperationType.WRITE, `users/${currentUser.uid}/folders/${folderId}`);
     }
   };
 
   // Update folder color
   const updateFolderColor = async (folderId: string, color: string): Promise<void> => {
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
     if (!currentUser || !db) return;
 
     setFolders(prev => prev.map(f => f.id === folderId ? { ...f, color } : f));
@@ -575,12 +649,13 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       }
     } catch (err) {
       console.error("[Firestore] Failed to update folder color:", err);
+      handleFirestoreError(err, OperationType.WRITE, `users/${currentUser.uid}/folders/${folderId}`);
     }
   };
 
   // Toggle tool in folder
   const toggleToolInFolder = async (folderId: string, toolId: string): Promise<boolean> => {
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
     if (!currentUser || !db) {
       openAuthModal();
       return false;
@@ -608,6 +683,7 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       }
     } catch (err) {
       console.error("[Firestore] Failed to update tool in folder:", err);
+      handleFirestoreError(err, OperationType.WRITE, `users/${currentUser.uid}/folders/${folderId}`);
     }
 
     return !exists;
@@ -615,14 +691,14 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
 
   // Share folder publicly
   const shareFolder = async (folderId: string): Promise<string> => {
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
     if (!currentUser || !db) {
       openAuthModal();
-      throw new Error("Veuillez vous connecter pour créer un lien de partage public.");
+      throw new Error("Please sign in to create a public share link.");
     }
 
     const folder = folders.find((f) => f.id === folderId);
-    if (!folder) throw new Error("Dossier introuvable.");
+    if (!folder) throw new Error("Folder not found.");
 
     if (folder.shareId) {
       return folder.shareId;
@@ -648,13 +724,14 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       return shareId;
     } catch (err) {
       console.error("[Firestore] Failed to share folder:", err);
+      handleFirestoreError(err, OperationType.WRITE, `shared_folders/${shareId}`);
       throw err;
     }
   };
 
   // Unshare folder
   const unshareFolder = async (folderId: string): Promise<void> => {
-    const currentUser = userRef.current;
+    const currentUser = auth?.currentUser || userRef.current;
     if (!currentUser || !db) return;
 
     const folder = folders.find((f) => f.id === folderId);
@@ -671,6 +748,7 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       setFolders(prev => prev.map(f => f.id === folderId ? { ...f, shareId: undefined } : f));
     } catch (err) {
       console.error("[Firestore] Failed to unshare folder:", err);
+      handleFirestoreError(err, OperationType.DELETE, `shared_folders/${shareId}`);
       throw err;
     }
   };
@@ -704,7 +782,7 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
       <AuthModal
         isOpen={isAuthModalOpen}
         onClose={closeAuthModal}
-        allowSignup={true}
+        allowSignup={false}
       />
     </FavoritesContext.Provider>
   );

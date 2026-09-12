@@ -21,22 +21,24 @@ const AuthButton: FC = () => {
       setUser(currentUser);
       setLoading(false); // Call immediately to avoid blocking user display!
       
-      if (currentUser) {
+      if (currentUser && db) {
         // Run Firestore profile registration in the background so it doesn't delay auth state restore
         (async () => {
           try {
             const userRef = doc(db, "users", currentUser.uid);
-            const userSnap = await getDoc(userRef);
-            if (!userSnap.exists()) {
-              await setDoc(userRef, {
-                uid: currentUser.uid,
-                email: currentUser.email,
-                displayName: currentUser.displayName,
-                createdAt: serverTimestamp(),
-              });
+            await setDoc(userRef, {
+              uid: currentUser.uid,
+              email: currentUser.email || "",
+              displayName: currentUser.displayName || "",
+              lastSeenAt: serverTimestamp(),
+            }, { merge: true });
+          } catch (error: any) {
+            const isOffline = error?.code === "unavailable" || 
+                              error?.message?.includes("offline") || 
+                              (typeof navigator !== "undefined" && !navigator.onLine);
+            if (!isOffline) {
+              console.warn("Notice updating user profile in Firestore:", error);
             }
-          } catch (error) {
-            console.error("Error updating user profile in Firestore:", error);
           }
         })();
       }
@@ -71,7 +73,7 @@ const AuthButton: FC = () => {
         <button 
           onClick={handleLogout}
           className="p-1 text-slate-400 hover:text-red-500 transition-colors cursor-pointer"
-          title="Déconnexion"
+          title="Sign out"
         >
           <LogOut className="w-3.5 h-3.5" />
         </button>
@@ -86,12 +88,12 @@ const AuthButton: FC = () => {
         className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200/80 rounded-full transition-all shadow-sm hover:border-emerald-300 cursor-pointer"
       >
         <LogIn className="w-3.5 h-3.5 text-emerald-600" />
-        <span>Connexion</span>
+        <span>Sign in</span>
       </button>
       <AuthModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        allowSignup={true}
+        allowSignup={false}
       />
     </>
   );

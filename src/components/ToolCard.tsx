@@ -314,7 +314,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
                       );
                     })
                   ) : (
-                    <span className="text-[10px] text-slate-400 italic">Aucun dossier</span>
+                    <span className="text-[10px] text-slate-400 italic">No folders</span>
                   )}
                 </div>
               )}
@@ -343,7 +343,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
                         );
                       })
                     ) : (
-                      <p className="text-[10px] text-slate-400 italic">Aucun dossier créé.</p>
+                      <p className="text-[10px] text-slate-400 italic">No folders created yet.</p>
                     )}
                   </div>
 
@@ -367,7 +367,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
                     <div className="flex gap-2">
                       <input
                         type="text"
-                        placeholder="Nouveau dossier..."
+                        placeholder="New folder..."
                         value={newFolderName}
                         onChange={(e) => setNewFolderName(e.target.value)}
                         onKeyDown={(e) => {
@@ -381,7 +381,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
                       <button
                         onClick={handleCreateFolderInline}
                         className="bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl px-2.5 py-1.5 focus:outline-none flex items-center justify-center transition-colors shadow-xs shrink-0 cursor-pointer"
-                        title="Créer le dossier"
+                        title="Create folder"
                       >
                         <Plus className="w-3.5 h-3.5" />
                       </button>

@@ -179,7 +179,7 @@ const SharedFolderPage: FC = () => {
             <div className={`lg:col-span-1 bg-white rounded-[2.5rem] border p-8 shadow-sm ${colorCfg.cardClass}`}>
               <div className="flex items-center justify-between mb-4">
                 <div className={`flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest px-2.5 py-1 rounded-full border ${colorCfg.badgeClass}`}>
-                  <Share2 className="w-3.5 h-3.5" /> Collection partagée
+                  <Share2 className="w-3.5 h-3.5" /> Shared Collection
                 </div>
                 <span className={`w-3 h-3 rounded-full ${colorCfg.dotColor}`} />
               </div>
@@ -190,7 +190,7 @@ const SharedFolderPage: FC = () => {
               </h1>
 
               <p className="text-sm text-slate-600 leading-relaxed mb-6">
-                Une sélection d'outils d'IA gratuits organisés dans ce dossier thématique.
+                A curated selection of AI tools organized in this custom collection.
               </p>
 
               <hr className="border-slate-200/60 mb-6" />
@@ -198,27 +198,27 @@ const SharedFolderPage: FC = () => {
               <div className="space-y-3.5 text-xs">
                 <div className="flex items-center gap-3 text-slate-650 font-medium">
                   <Calendar className="w-4 h-4 text-slate-400" />
-                  <span>Partagé {shareDateString ? `le ${shareDateString}` : "récemment"}</span>
+                  <span>Shared {shareDateString ? shareDateString : "recently"}</span>
                 </div>
                 <div className="flex items-center gap-3 text-slate-650 font-medium">
                   <Compass className="w-4 h-4 text-slate-500" />
-                  <span>{resolvedTools.length} outil{resolvedTools.length === 1 ? "" : "s"} inclus</span>
+                  <span>{resolvedTools.length} tool{resolvedTools.length === 1 ? "" : "s"} included</span>
                 </div>
               </div>
 
               {/* Prompt to register */}
               <div className="mt-8 bg-white/80 rounded-2xl border border-slate-200/80 p-5 shadow-2xs">
                 <h3 className="text-xs font-black uppercase tracking-wider text-slate-900 mb-1.5">
-                  Créez vos propres dossiers
+                  Create your own collections
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed mb-4">
-                  Classez vos outils IA favoris dans des répertoires en couleur personnalisés.
+                  Organize your favorite AI tools into color-coded custom folders.
                 </p>
                 <Link
                   to="/favorites"
                   className="block text-center bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold py-2.5 rounded-xl transition-all"
                 >
-                  Accéder à mes favoris
+                  Go to my favorites
                 </Link>
               </div>
             </div>

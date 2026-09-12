@@ -70,7 +70,7 @@ const FavoritesPage: FC = () => {
   };
 
   const handleDeleteFolder = async (folderId: string) => {
-    if (confirm("Voulez-vous vraiment supprimer ce dossier ? Les outils favoris qu'il contient ne seront pas supprimés de vos favoris.")) {
+    if (confirm("Are you sure you want to delete this folder? Favorited tools inside it will not be removed from your favorites.")) {
       try {
         await deleteFolder(folderId);
         if (activeFolderId === folderId) {
@@ -106,14 +106,14 @@ const FavoritesPage: FC = () => {
       await shareFolder(folderId);
     } catch (err: any) {
       console.error("Error sharing folder:", err);
-      setShareError(err?.message || "Impossible de générer le lien de partage.");
+      setShareError(err?.message || "Failed to generate share link.");
     } finally {
       setShareLoadingFolderId(null);
     }
   };
 
   const handleUnshareFolder = async (folderId: string) => {
-    if (confirm("Voulez-vous vraiment désactiver le lien de partage public pour cette collection ?")) {
+    if (confirm("Are you sure you want to disable the public share link for this collection?")) {
       try {
         setShareLoadingFolderId(folderId);
         await unshareFolder(folderId);
@@ -254,8 +254,8 @@ const FavoritesPage: FC = () => {
                     <Sparkles className="w-5 h-5 text-emerald-600" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-slate-800">Synchronisation Cloud Firestore</h3>
-                    <p className="text-xs text-slate-600">Connectez-vous pour enregistrer et synchroniser automatiquement vos favoris et dossiers sur tous vos appareils en temps réel.</p>
+                    <h3 className="text-sm font-bold text-slate-800">Cloud Firestore Synchronization</h3>
+                    <p className="text-xs text-slate-600">Sign in to save and synchronize your favorites and folders across all your devices in real time.</p>
                   </div>
                 </div>
                 <button
@@ -263,7 +263,7 @@ const FavoritesPage: FC = () => {
                   onClick={openAuthModal}
                   className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition-all shadow-sm shrink-0 flex items-center gap-1.5 self-start sm:self-auto cursor-pointer"
                 >
-                  <LogIn className="w-3.5 h-3.5" /> Se connecter
+                  <LogIn className="w-3.5 h-3.5" /> Sign in
                 </button>
               </div>
             ) : (
@@ -278,7 +278,7 @@ const FavoritesPage: FC = () => {
                       ? "bg-slate-400"
                       : "bg-rose-500"
                   }`} />
-                  <span>Synchronisation Firestore multi-appareils • Compte : <strong>{user.email}</strong></span>
+                  <span>Multi-device Firestore Sync • Account: <strong>{user.email}</strong></span>
                 </div>
                 <span className={`text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border self-start sm:self-auto ${
                   syncStatus === "synced"
@@ -290,12 +290,12 @@ const FavoritesPage: FC = () => {
                     : "text-rose-700 bg-rose-50 border-rose-100"
                 }`}>
                   {syncStatus === "synced"
-                    ? "Synchronisé en temps réel"
+                    ? "Real-time synced"
                     : syncStatus === "syncing"
-                    ? "Synchronisation..."
+                    ? "Syncing..."
                     : syncStatus === "offline"
-                    ? "Hors ligne"
-                    : "Erreur de synchronisation"}
+                    ? "Offline"
+                    : "Sync error"}
                 </span>
               </div>
             )}
@@ -331,7 +331,7 @@ const FavoritesPage: FC = () => {
                         <div className="flex flex-col sm:flex-row gap-2">
                           <input
                             type="text"
-                            placeholder="Nom du dossier (ex: Rédaction, Design, Dev...)"
+                            placeholder="Folder name (e.g. Writing, Design, Dev...)"
                             value={newFolderName}
                             onChange={(e) => setNewFolderName(e.target.value)}
                             onKeyDown={(e) => {
@@ -348,7 +348,7 @@ const FavoritesPage: FC = () => {
                               onClick={handleCreateFolder}
                               className="bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition-colors cursor-pointer"
                             >
-                              Créer
+                              Create
                             </button>
                             <button
                               onClick={() => {
@@ -358,14 +358,14 @@ const FavoritesPage: FC = () => {
                               }}
                               className="text-slate-500 hover:text-slate-700 text-xs font-bold px-3 py-2.5 rounded-xl transition-colors border border-slate-200 bg-white cursor-pointer"
                             >
-                              Annuler
+                              Cancel
                             </button>
                           </div>
                         </div>
 
                         {/* Color Selector */}
                         <div className="flex items-center gap-2 pt-1 border-t border-slate-200/60 flex-wrap">
-                          <span className="text-[10px] font-black uppercase tracking-wider text-slate-400">Couleur :</span>
+                          <span className="text-[10px] font-black uppercase tracking-wider text-slate-400">Color:</span>
                           <div className="flex items-center gap-2 flex-wrap">
                             {FOLDER_COLORS.map((c) => {
                               const isSelected = newFolderColor === c.id;
@@ -402,7 +402,7 @@ const FavoritesPage: FC = () => {
                         : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
                     }`}
                   >
-                    Tous ({favoriteTools.length})
+                    All ({favoriteTools.length})
                   </button>
 
                   {folders.map(folder => {
@@ -443,10 +443,10 @@ const FavoritesPage: FC = () => {
                             ))}
                           </div>
                           <div className="flex items-center gap-1">
-                            <button onClick={handleSaveRename} className="p-1 text-emerald-600 hover:text-emerald-700 cursor-pointer" title="Enregistrer">
+                            <button onClick={handleSaveRename} className="p-1 text-emerald-600 hover:text-emerald-700 cursor-pointer" title="Save">
                               <Check className="w-3.5 h-3.5" />
                             </button>
-                            <button onClick={() => setEditingFolderId(null)} className="p-1 text-rose-600 hover:text-rose-700 cursor-pointer" title="Annuler">
+                            <button onClick={() => setEditingFolderId(null)} className="p-1 text-rose-600 hover:text-rose-700 cursor-pointer" title="Cancel">
                               <X className="w-3.5 h-3.5" />
                             </button>
                           </div>
@@ -480,7 +480,7 @@ const FavoritesPage: FC = () => {
                             className={`p-1 rounded-lg transition-colors cursor-pointer ${
                               isActive ? "text-white/80 hover:text-white hover:bg-white/15" : "text-slate-400 hover:text-slate-600"
                             }`}
-                            title="Renommer et changer la couleur"
+                            title="Rename and change color"
                           >
                             <Edit2 className="w-3 h-3" />
                           </button>
@@ -489,7 +489,7 @@ const FavoritesPage: FC = () => {
                             className={`p-1 rounded-lg transition-colors cursor-pointer ${
                               isActive ? "text-white/80 hover:text-rose-200 hover:bg-rose-500/30" : "text-rose-400 hover:text-rose-600"
                             }`}
-                            title="Supprimer"
+                            title="Delete"
                           >
                             <Trash2 className="w-3 h-3" />
                           </button>
@@ -508,18 +508,18 @@ const FavoritesPage: FC = () => {
                         <div className="flex items-center gap-2 mb-1">
                           <span className={`w-3 h-3 rounded-full shrink-0 ${activeColorCfg.dotColor}`} />
                           <h3 className="text-xs font-black uppercase tracking-wider text-slate-900 flex items-center gap-1.5">
-                            <Share2 className="w-4 h-4 shrink-0 text-slate-700" /> Dossier : "{activeFolder.name}"
+                            <Share2 className="w-4 h-4 shrink-0 text-slate-700" /> Folder: "{activeFolder.name}"
                           </h3>
                         </div>
                         <p className="text-[11px] text-slate-600">
                           {activeFolder.shareId 
-                            ? "Ce dossier personnalisé est public ! Copiez le lien pour le partager." 
-                            : "Générez un lien public unique pour partager cette sélection d'outils favoris."}
+                            ? "This custom collection is public! Copy the link to share it." 
+                            : "Generate a unique public link to share this curated collection of tools."}
                         </p>
 
                         {/* Quick Color Changer */}
                         <div className="flex items-center gap-2 mt-2 pt-2 border-t border-slate-200/50">
-                          <span className="text-[9px] font-bold uppercase tracking-wider text-slate-500">Changer la couleur :</span>
+                          <span className="text-[9px] font-bold uppercase tracking-wider text-slate-500">Change color:</span>
                           <div className="flex items-center gap-1.5">
                             {FOLDER_COLORS.map(c => (
                               <button
@@ -552,7 +552,7 @@ const FavoritesPage: FC = () => {
                               <button
                                 onClick={() => handleCopyLink(activeFolder)}
                                 className="p-1 text-slate-600 hover:text-slate-900 ml-1 transition-colors cursor-pointer"
-                                title="Copier le lien"
+                                title="Copy link"
                               >
                                 {copiedFolderId === activeFolder.id ? (
                                   <Check className="w-3.5 h-3.5 text-emerald-600" />
@@ -566,14 +566,14 @@ const FavoritesPage: FC = () => {
                               to={`/shared-folder/${activeFolder.shareId}`}
                               className="inline-flex items-center gap-1 text-[9px] font-black uppercase tracking-widest text-slate-800 bg-white border border-slate-200 hover:bg-slate-50 px-3 py-2.5 rounded-xl transition-all shadow-2xs"
                             >
-                              Voir <ExternalLink className="w-3 h-3" />
+                              View <ExternalLink className="w-3 h-3" />
                             </Link>
 
                             <button
                               onClick={() => handleUnshareFolder(activeFolder.id)}
                               className="text-[9px] font-black uppercase tracking-widest text-rose-650 hover:text-rose-700 bg-white border border-rose-200 hover:border-rose-300 px-3 py-2.5 rounded-xl transition-all cursor-pointer"
                             >
-                              Désactiver
+                              Disable
                             </button>
                           </>
                         ) : (
@@ -585,11 +585,11 @@ const FavoritesPage: FC = () => {
                             {shareLoadingFolderId === activeFolder.id ? (
                               <>
                                 <div className="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                                Partage...
+                                Sharing...
                               </>
                             ) : (
                               <>
-                                <Share2 className="w-3.5 h-3.5" /> Partager ce dossier
+                                <Share2 className="w-3.5 h-3.5" /> Share this folder
                               </>
                             )}
                           </button>

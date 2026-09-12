@@ -100,7 +100,7 @@ export const AdminRegisterPage: FC = () => {
       setCreatedAccount({
         email: user.email || email,
         name: displayName.trim() || user.email?.split("@")[0] || "User",
-        role: role === "admin" ? "Administrateur" : "Membre Autorisé"
+        role: role === "admin" ? "Administrator" : "Authorized Member"
       });
 
       setSuccessMessage(`Account created successfully for ${email} with role: ${role.toUpperCase()}!`);
@@ -220,13 +220,13 @@ export const AdminRegisterPage: FC = () => {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-black uppercase tracking-widest text-emerald-400">Portail Privé</span>
+                <span className="text-xs font-black uppercase tracking-widest text-emerald-400">Private Portal</span>
                 <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                  Accès Non Référencé
+                  Unlisted Access
                 </span>
               </div>
               <h1 className="text-lg font-bold text-slate-100">
-                Administration & Inscription Privée
+                Administration & Private Registration
               </h1>
             </div>
           </div>
@@ -235,17 +235,17 @@ export const AdminRegisterPage: FC = () => {
             <button
               onClick={handleCopyLink}
               className="px-3.5 py-2 text-xs font-bold rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 flex items-center gap-2 transition-all active:scale-95 shadow-sm"
-              title="Copier le lien secret de cette page"
+              title="Copy the secret link of this page"
             >
               {copiedLink ? (
                 <>
                   <Check className="w-4 h-4 text-emerald-400" />
-                  <span className="text-emerald-400">Lien Copié !</span>
+                  <span className="text-emerald-400">Link Copied!</span>
                 </>
               ) : (
                 <>
                   <Copy className="w-4 h-4 text-slate-400" />
-                  <span>Copier le Lien Privé</span>
+                  <span>Copy Private Link</span>
                 </>
               )}
             </button>
@@ -253,7 +253,7 @@ export const AdminRegisterPage: FC = () => {
               to="/"
               className="px-3.5 py-2 text-xs font-bold rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-all shadow-md shadow-emerald-900/30"
             >
-              <span>Voir le Site</span>
+              <span>View Site</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -266,10 +266,10 @@ export const AdminRegisterPage: FC = () => {
               <ShieldAlert className="w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Site Public</p>
-              <h3 className="text-sm font-extrabold text-slate-900">Inscriptions Désactivées</h3>
+              <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Public Site</p>
+              <h3 className="text-sm font-extrabold text-slate-900">Sign-ups Disabled</h3>
               <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-                Le grand public ne peut plus créer de compte librement sur la page d'accueil ou la barre de navigation.
+                The general public cannot create accounts freely on the homepage or navigation bar.
               </p>
             </div>
           </div>
@@ -279,10 +279,10 @@ export const AdminRegisterPage: FC = () => {
               <Key className="w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Lien Secret</p>
-              <h3 className="text-sm font-extrabold text-slate-900">Portail Actif</h3>
+              <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Secret Link</p>
+              <h3 className="text-sm font-extrabold text-slate-900">Portal Active</h3>
               <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-                Seules les personnes disposant de ce lien confidentiel peuvent créer et enregistrer de nouveaux comptes.
+                Only people with this confidential link can create and register new accounts.
               </p>
             </div>
           </div>
@@ -292,10 +292,10 @@ export const AdminRegisterPage: FC = () => {
               <Lock className="w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Confidentialité SEO</p>
+              <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">SEO Privacy</p>
               <h3 className="text-sm font-extrabold text-slate-900">Robots.txt Disallow</h3>
               <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-                Cette URL est exclue des sitemaps et protégée contre l'indexation de Google Search Console.
+                This URL is excluded from sitemaps and protected against Google Search Console indexing.
               </p>
             </div>
           </div>
@@ -310,10 +310,10 @@ export const AdminRegisterPage: FC = () => {
               </div>
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-emerald-800">
-                  Connecté Actuellement
+                  Currently Signed In
                 </p>
                 <p className="text-sm font-extrabold text-slate-900">
-                  {currentUser.displayName || "Administrateur"} <span className="text-slate-500 font-normal">({currentUser.email})</span>
+                  {currentUser.displayName || "Administrator"} <span className="text-slate-500 font-normal">({currentUser.email})</span>
                 </p>
               </div>
             </div>
@@ -322,7 +322,7 @@ export const AdminRegisterPage: FC = () => {
                 to="/favorites"
                 className="px-3.5 py-1.5 text-xs font-bold rounded-xl bg-white hover:bg-emerald-100 text-emerald-800 border border-emerald-200 transition-all flex items-center gap-1.5"
               >
-                <span>Mes Favoris & Outils</span>
+                <span>My Favorites & Tools</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
               <button
@@ -330,7 +330,7 @@ export const AdminRegisterPage: FC = () => {
                 className="px-3 py-1.5 text-xs font-bold rounded-xl bg-white hover:bg-rose-50 text-rose-600 border border-rose-200 transition-all flex items-center gap-1.5"
               >
                 <LogOut className="w-3.5 h-3.5" />
-                <span>Déconnexion</span>
+                <span>Sign out</span>
               </button>
             </div>
           </div>
@@ -353,7 +353,7 @@ export const AdminRegisterPage: FC = () => {
               }`}
             >
               <UserPlus className="w-4 h-4" />
-              <span>Créer un Nouveau Compte</span>
+              <span>Create New Account</span>
             </button>
             <button
               onClick={() => {
@@ -368,7 +368,7 @@ export const AdminRegisterPage: FC = () => {
               }`}
             >
               <LogIn className="w-4 h-4" />
-              <span>Connexion Administrateur</span>
+              <span>Admin Sign In</span>
             </button>
           </div>
 
@@ -382,7 +382,7 @@ export const AdminRegisterPage: FC = () => {
               >
                 <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />
                 <div>
-                  <p className="font-bold">Erreur d'inscription</p>
+                  <p className="font-bold">Registration Error</p>
                   <p className="text-xs text-rose-600 mt-0.5">{error}</p>
                 </div>
               </motion.div>
@@ -396,7 +396,7 @@ export const AdminRegisterPage: FC = () => {
               >
                 <CheckCircle2 className="w-5 h-5 shrink-0 text-emerald-600 mt-0.5" />
                 <div>
-                  <p className="font-bold">Opération Réussie</p>
+                  <p className="font-bold">Operation Successful</p>
                   <p className="text-xs text-emerald-700 mt-0.5">{successMessage}</p>
                 </div>
               </motion.div>
@@ -410,11 +410,11 @@ export const AdminRegisterPage: FC = () => {
               >
                 <div className="flex items-center gap-2 text-emerald-700 font-black text-xs uppercase tracking-wider mb-2">
                   <Sparkles className="w-4 h-4" />
-                  <span>Nouveau Compte Enregistré avec Succès</span>
+                  <span>New Account Registered Successfully</span>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs bg-white/80 p-3.5 rounded-xl border border-emerald-200/50">
                   <div>
-                    <span className="text-slate-400 font-bold block">Nom d'utilisateur:</span>
+                    <span className="text-slate-400 font-bold block">Username:</span>
                     <span className="font-bold text-slate-800">{createdAccount.name}</span>
                   </div>
                   <div>
@@ -422,7 +422,7 @@ export const AdminRegisterPage: FC = () => {
                     <span className="font-bold text-slate-800">{createdAccount.email}</span>
                   </div>
                   <div>
-                    <span className="text-slate-400 font-bold block">Rôle assigné:</span>
+                    <span className="text-slate-400 font-bold block">Assigned Role:</span>
                     <span className="font-extrabold text-emerald-600">{createdAccount.role}</span>
                   </div>
                 </div>
@@ -435,7 +435,7 @@ export const AdminRegisterPage: FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div className="space-y-1.5">
                     <label className="text-xs font-bold text-slate-600 uppercase tracking-wider ml-1">
-                      Nom / Prénom ou Alias
+                      Full Name or Display Name
                     </label>
                     <div className="relative">
                       <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
@@ -444,7 +444,7 @@ export const AdminRegisterPage: FC = () => {
                         required
                         value={displayName}
                         onChange={(e) => setDisplayName(e.target.value)}
-                        placeholder="ex. Administrateur Max"
+                        placeholder="e.g. Admin User"
                         className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition-all text-sm font-medium text-slate-900"
                       />
                     </div>
@@ -452,22 +452,22 @@ export const AdminRegisterPage: FC = () => {
 
                   <div className="space-y-1.5">
                     <label className="text-xs font-bold text-slate-600 uppercase tracking-wider ml-1">
-                      Rôle & Privilèges
+                      Role & Privileges
                     </label>
                     <select
                       value={role}
                       onChange={(e) => setRole(e.target.value as "admin" | "member")}
                       className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition-all text-sm font-bold text-slate-800"
                     >
-                      <option value="admin">Administrateur (Tous les droits)</option>
-                      <option value="member">Membre Privilégié / Autorisé</option>
+                      <option value="admin">Administrator (All Privileges)</option>
+                      <option value="member">Authorized Member</option>
                     </select>
                   </div>
                 </div>
 
                 <div className="space-y-1.5">
                   <label className="text-xs font-bold text-slate-600 uppercase tracking-wider ml-1">
-                    Adresse Email
+                    Email Address
                   </label>
                   <div className="relative">
                     <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
@@ -476,7 +476,7 @@ export const AdminRegisterPage: FC = () => {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="nom@domaine.com"
+                      placeholder="name@domain.com"
                       className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition-all text-sm font-medium text-slate-900"
                     />
                   </div>
@@ -484,7 +484,7 @@ export const AdminRegisterPage: FC = () => {
 
                 <div className="space-y-1.5">
                   <label className="text-xs font-bold text-slate-600 uppercase tracking-wider ml-1">
-                    Mot de Passe Sécurisé
+                    Secure Password
                   </label>
                   <div className="relative">
                     <Lock className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
@@ -493,7 +493,7 @@ export const AdminRegisterPage: FC = () => {
                       required
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                      placeholder="Minimum 6 caractères"
+                      placeholder="Minimum 6 characters"
                       className="w-full pl-10 pr-11 py-3 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition-all text-sm font-medium text-slate-900"
                     />
                     <button
@@ -517,7 +517,7 @@ export const AdminRegisterPage: FC = () => {
                     ) : (
                       <>
                         <UserPlus className="w-4 h-4" />
-                        <span>Créer & Enregistrer le Compte</span>
+                        <span>Create & Register Account</span>
                       </>
                     )}
                   </button>
@@ -528,7 +528,7 @@ export const AdminRegisterPage: FC = () => {
                     <div className="w-full border-t border-slate-200"></div>
                   </div>
                   <div className="relative flex justify-center text-xs uppercase">
-                    <span className="bg-white px-4 text-slate-400 font-bold tracking-widest">Ou inscription instantanée avec Google</span>
+                    <span className="bg-white px-4 text-slate-400 font-bold tracking-widest">Or instant registration with Google</span>
                   </div>
                 </div>
 
@@ -539,14 +539,14 @@ export const AdminRegisterPage: FC = () => {
                   className="w-full py-3 px-6 rounded-2xl bg-white hover:bg-slate-50 text-slate-700 font-bold text-sm border border-slate-200 transition-all flex items-center justify-center gap-3 active:scale-[0.99]"
                 >
                   <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" className="w-5 h-5" />
-                  <span>Enregistrer / Authentifier via Google</span>
+                  <span>Register / Authenticate with Google</span>
                 </button>
               </form>
             ) : (
               <form onSubmit={handleLogin} className="space-y-5">
                 <div className="space-y-1.5">
                   <label className="text-xs font-bold text-slate-600 uppercase tracking-wider ml-1">
-                    Adresse Email
+                    Email Address
                   </label>
                   <div className="relative">
                     <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
@@ -555,7 +555,7 @@ export const AdminRegisterPage: FC = () => {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="nom@domaine.com"
+                      placeholder="name@domain.com"
                       className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition-all text-sm font-medium text-slate-900"
                     />
                   </div>
@@ -563,7 +563,7 @@ export const AdminRegisterPage: FC = () => {
 
                 <div className="space-y-1.5">
                   <label className="text-xs font-bold text-slate-600 uppercase tracking-wider ml-1">
-                    Mot de Passe
+                    Password
                   </label>
                   <div className="relative">
                     <Lock className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
@@ -596,7 +596,7 @@ export const AdminRegisterPage: FC = () => {
                     ) : (
                       <>
                         <LogIn className="w-4 h-4" />
-                        <span>Se Connecter à l'Espace Admin</span>
+                        <span>Sign In to Admin Workspace</span>
                       </>
                     )}
                   </button>
@@ -610,15 +610,15 @@ export const AdminRegisterPage: FC = () => {
         <div className="mt-8 p-6 rounded-3xl bg-slate-100/80 border border-slate-200 text-slate-600 text-xs">
           <h4 className="font-extrabold text-slate-800 uppercase tracking-wider mb-2 flex items-center gap-2">
             <Lock className="w-4 h-4 text-emerald-600" />
-            Guide & Sécurité du Lien d'Inscription
+            Security & Registration Link Guide
           </h4>
           <p className="leading-relaxed mb-3">
-            Pour maintenir votre site en règle et éviter toute inscription indésirable du grand public :
+            To keep your website compliant and prevent unsolicited public sign-ups:
           </p>
           <ul className="list-disc pl-5 space-y-1.5 text-slate-500">
-            <li>Conservez l'URL secrète de cette page pour vous et vos collaborateurs autorisés.</li>
-            <li>Le menu public du site web redirige uniquement vers la connexion des utilisateurs existants.</li>
-            <li>Cette page d'administration est exclue de <code className="bg-slate-200 px-1 py-0.5 rounded text-slate-800">sitemap.xml</code> et balisée avec <code className="bg-slate-200 px-1 py-0.5 rounded text-slate-800">noindex, nofollow</code> pour protéger votre référencement SEO sur Google.</li>
+            <li>Keep the secret URL of this page confidential for authorized team members.</li>
+            <li>The public navigation menu only allows existing users to sign in.</li>
+            <li>This admin page is excluded from <code className="bg-slate-200 px-1 py-0.5 rounded text-slate-800">sitemap.xml</code> and tagged with <code className="bg-slate-200 px-1 py-0.5 rounded text-slate-800">noindex, nofollow</code> to protect your SEO ranking on Google.</li>
           </ul>
         </div>
       </div>

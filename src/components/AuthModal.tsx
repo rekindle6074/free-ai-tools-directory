@@ -113,16 +113,18 @@ const AuthModal: FC<AuthModalProps> = ({
       const result = await signInWithPopup(auth, provider);
       const user = result.user;
       
-      const userRef = doc(db, "users", user.uid);
-      const userSnap = await getDoc(userRef);
-      if (!userSnap.exists()) {
-        await setDoc(userRef, {
-          uid: user.uid,
-          email: user.email,
-          displayName: user.displayName,
-          favorites: [],
-          createdAt: serverTimestamp(),
-        });
+      if (db) {
+        try {
+          const userRef = doc(db, "users", user.uid);
+          await setDoc(userRef, {
+            uid: user.uid,
+            email: user.email || "",
+            displayName: user.displayName || "",
+            createdAt: serverTimestamp(),
+          }, { merge: true });
+        } catch (profileErr) {
+          // Non-blocking: profile sync will complete in background when online
+        }
       }
       onClose();
     } catch (err: any) {
