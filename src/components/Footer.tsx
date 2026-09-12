@@ -140,7 +140,7 @@ export default function Footer({ openSubmitForm }: FooterProps) {
                 <a href="https://www.linkedin.com/in/maxrivera46887320" target="_blank" rel="noopener noreferrer nofollow" className="rounded-xl border border-slate-200 bg-white/50 p-3 text-slate-500 hover:text-emerald-600 hover:border-emerald-200 hover:bg-emerald-50 transition-all">
                   <Linkedin size={20} />
                 </a>
-                <a href="https://masto.es/@sprain" target="_blank" rel="noopener noreferrer nofollow" className="rounded-xl border border-slate-200 bg-white/50 p-3 text-slate-500 hover:text-emerald-600 hover:border-emerald-200 hover:bg-emerald-50 transition-all">
+                <a href="https://mastodon.social/@maxrivera" target="_blank" rel="noopener noreferrer nofollow" aria-label="Mastodon" className="rounded-xl border border-slate-200 bg-white/50 p-3 text-slate-500 hover:text-emerald-600 hover:border-emerald-200 hover:bg-emerald-50 transition-all">
                   <MastodonIcon size={20} />
                 </a>
                 <a href="https://bestai.66ghz.com/" target="_blank" rel="noopener noreferrer nofollow" className="rounded-xl border border-slate-200 bg-white/50 p-3 text-slate-500 hover:text-emerald-600 hover:border-emerald-200 hover:bg-emerald-50 transition-all">

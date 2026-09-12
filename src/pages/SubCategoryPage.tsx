@@ -33,7 +33,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
   
   if (!subCategory) {
     return (
-      <GridBackground className="py-20 text-center">
+      <GridBackground className="pt-36 pb-20 text-center">
         <h1 className="text-2xl font-bold text-slate-900">Category not found</h1>
         <Link to="/categories" className="text-emerald-600 font-bold mt-4 inline-block">Back to Categories</Link>
       </GridBackground>
@@ -89,7 +89,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
           {JSON.stringify(breadcrumbSchema)}
         </script>
       </Helmet>
-      <GridBackground className="py-24">
+      <GridBackground className="pt-32 sm:pt-36 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-6 mb-16 px-4 py-2 bg-white/40 backdrop-blur-md rounded-2xl border border-white/40 w-fit">
           <Link to="/categories" className="w-12 h-12 rounded-xl bg-white border border-slate-100 flex items-center justify-center text-slate-500 hover:text-emerald-600 hover:border-emerald-500 transition-all shadow-sm group">

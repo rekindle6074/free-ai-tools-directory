@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { categories } from "../data/tools";
 import { ChevronRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
+import { GridBackground } from "../components/ui/grid-background";
 
 const CategoriesPage: FC = () => {
   return (
@@ -14,7 +15,8 @@ const CategoriesPage: FC = () => {
         <meta name="keywords" content="ai categories, free ai tools list, ai image generation, ai music production, ai video editing" />
         <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/categories" />
       </Helmet>
-      <div className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <GridBackground className="pt-32 sm:pt-36 pb-24">
+        <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <motion.div 
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -94,6 +96,7 @@ const CategoriesPage: FC = () => {
         ))}
       </div>
     </div>
+    </GridBackground>
   </>
   );
 };

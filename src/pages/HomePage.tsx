@@ -408,7 +408,7 @@ const HomePage: FC = () => {
     "logo": `${window.location.origin}/logo.svg`,
     "description": "Discover the best free AI tools and alternatives to expensive SaaS. Curated directory for developers, creators, and students.",
     "sameAs": [
-      "https://masto.es/@sprain",
+      "https://mastodon.social/@maxrivera",
       "https://www.linkedin.com/in/maxrivera46887320"
     ]
   };
@@ -443,6 +443,14 @@ const HomePage: FC = () => {
         <meta name="description" content="Discover the best free AI tools and alternatives to expensive SaaS. Curated directory for developers, creators, and students. No tracking, privacy first." />
         <meta name="keywords" content="free ai tools, ai directory, free ai alternatives, ai for developers, free ai image generator, ai music generator" />
         <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : "https://free-ai-tools-directory.vercel.app/"} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="FreeAI Tools - Best Free AI Directory & Alternatives" />
+        <meta property="og:description" content="Discover the best free AI tools and alternatives to expensive SaaS. Curated directory for developers, creators, and students. No tracking, privacy first." />
+        <meta property="og:image" content="https://free-ai-tools-directory.vercel.app/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="FreeAI Tools - Best Free AI Directory & Alternatives" />
+        <meta name="twitter:description" content="Discover the best free AI tools and alternatives to expensive SaaS." />
+        <meta name="twitter:image" content="https://free-ai-tools-directory.vercel.app/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>

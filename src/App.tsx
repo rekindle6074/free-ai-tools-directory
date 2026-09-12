@@ -64,13 +64,19 @@ function AnimatedRoutes({ openSubmitForm }: { openSubmitForm: () => void }) {
 function Layout({ openSubmitForm }: { openSubmitForm: () => void }) {
   const location = useLocation();
   const isHome = location.pathname === "/";
+  const isCategoryPage = 
+    location.pathname.startsWith("/category") || 
+    location.pathname === "/categories" || 
+    location.pathname === "/avatar-generator";
+  const isBrowse = location.pathname === "/browse";
+  const isFullBleed = isHome || isCategoryPage || isBrowse;
 
   return (
     <>
       {/* Navigation */}
       <Navbar openSubmitForm={openSubmitForm} />
 
-      <div className={`${isHome ? "pt-0" : "pt-32"} min-h-screen flex flex-col`}>
+      <div className={`${isFullBleed ? "pt-0" : "pt-32"} min-h-screen flex flex-col`}>
         <Suspense fallback={
           <div className="flex-1 flex items-center justify-center">
             <div className="flex flex-col items-center gap-4">

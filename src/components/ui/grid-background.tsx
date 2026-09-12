@@ -20,6 +20,8 @@ export const GridBackground = ({ children, className }: GridBackgroundProps) => 
             radial-gradient(circle at 50% 60%, rgba(236,72,153,0.15) 0%, rgba(168,85,247,0.05) 40%, transparent 70%)
           `,
           backgroundSize: "40px 40px, 40px 40px, 100% 100%",
+          backgroundPosition: "top left, top left, center center",
+          backgroundRepeat: "repeat, repeat, no-repeat",
         }}
       />
       <div className="relative z-10 w-full h-full">

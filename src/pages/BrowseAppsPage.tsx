@@ -63,7 +63,7 @@ const BrowseAppsPage: FC = () => {
         <meta name="keywords" content="all ai tools, free ai directory, search ai tools, ai tool list" />
         <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/browse" />
       </Helmet>
-      <GridBackground className="py-24">
+      <GridBackground className="pt-32 sm:pt-36 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-20">
             <h1 className="text-6xl md:text-8xl font-display font-bold text-slate-900 mb-8 tracking-[-0.04em]">
