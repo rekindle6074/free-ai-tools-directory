@@ -55,6 +55,7 @@ const LEGACY_STORAGE_NOTES = "vetted_ai_notes";
 const LEGACY_STORAGE_FOLDERS = "vetted_ai_folders";
 
 function getGuestFavorites(): string[] {
+  if (typeof window === "undefined" || typeof localStorage === "undefined") return [];
   try {
     for (const key of [GUEST_KEY_FAVORITES, "fa_favorites_v2", LEGACY_STORAGE_FAVORITES]) {
       const raw = localStorage.getItem(key);
@@ -73,6 +74,7 @@ function getGuestFavorites(): string[] {
 }
 
 function getGuestNotes(): Record<string, string> {
+  if (typeof window === "undefined" || typeof localStorage === "undefined") return {};
   try {
     for (const key of [GUEST_KEY_NOTES, "fa_notes_v2", LEGACY_STORAGE_NOTES]) {
       const raw = localStorage.getItem(key);
@@ -88,6 +90,7 @@ function getGuestNotes(): Record<string, string> {
 }
 
 function getGuestFolders(): Folder[] {
+  if (typeof window === "undefined" || typeof localStorage === "undefined") return [];
   try {
     for (const key of [GUEST_KEY_FOLDERS, "fa_folders_v2", LEGACY_STORAGE_FOLDERS]) {
       const raw = localStorage.getItem(key);

@@ -1,13 +1,43 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig, loadEnv} from 'vite';
+import fs from 'fs';
+import {defineConfig, loadEnv, Plugin} from 'vite';
+
+const optionalFirebaseConfigPlugin: Plugin = {
+  name: 'optional-firebase-config',
+  enforce: 'pre',
+  resolveId(id) {
+    if (id.includes('firebase-applet-config.json')) {
+      const configPath = path.resolve(__dirname, 'firebase-applet-config.json');
+      if (fs.existsSync(configPath)) {
+        return configPath;
+      }
+      return '\0virtual:firebase-applet-config.json';
+    }
+  },
+  load(id) {
+    if (id === '\0virtual:firebase-applet-config.json') {
+      return 'export default {};';
+    }
+  }
+};
 
 export default defineConfig(({mode}) => {
   const env = { ...process.env, ...loadEnv(mode, '.', '') };
+  
+  let fileFirebaseConfig: Record<string, any> = {};
+  const configPath = path.resolve(__dirname, 'firebase-applet-config.json');
+  if (fs.existsSync(configPath)) {
+    try {
+      fileFirebaseConfig = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+    } catch {}
+  }
+
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [optionalFirebaseConfigPlugin, react(), tailwindcss()],
     define: {
+      '__FIREBASE_CONFIG__': JSON.stringify(fileFirebaseConfig),
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
       'import.meta.env.VITE_FIREBASE_API_KEY': JSON.stringify(env.VITE_FIREBASE_API_KEY),
       'import.meta.env.VITE_FIREBASE_AUTH_DOMAIN': JSON.stringify(env.VITE_FIREBASE_AUTH_DOMAIN),

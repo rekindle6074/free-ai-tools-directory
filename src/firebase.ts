@@ -1,17 +1,33 @@
 import { initializeApp, getApp, getApps } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { initializeFirestore, getFirestore } from 'firebase/firestore';
-import firebaseConfig from '../firebase-applet-config.json';
+import firebaseConfig from './firebaseConfig';
 
-// We load from the config file directly as it is fully populated by AI Studio Firebase setup.
+// Safely retrieve environment variables across Vite client and Node SSR
+const getEnv = (key: string) => {
+  try {
+    if (typeof import.meta !== 'undefined' && (import.meta as any).env && (import.meta as any).env[key]) {
+      return (import.meta as any).env[key];
+    }
+  } catch {}
+  try {
+    if (typeof process !== 'undefined' && process.env && process.env[key]) {
+      return process.env[key];
+    }
+  } catch {}
+  return '';
+};
+
+const safeConfig = (firebaseConfig as any) || {};
+
 const firebaseAppConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || firebaseConfig.apiKey,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || firebaseConfig.authDomain,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || firebaseConfig.projectId,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || firebaseConfig.storageBucket,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || firebaseConfig.messagingSenderId,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || firebaseConfig.appId,
-  firestoreDatabaseId: import.meta.env.VITE_FIREBASE_DATABASE_ID || firebaseConfig.firestoreDatabaseId
+  apiKey: getEnv('VITE_FIREBASE_API_KEY') || safeConfig.apiKey || '',
+  authDomain: getEnv('VITE_FIREBASE_AUTH_DOMAIN') || safeConfig.authDomain || '',
+  projectId: getEnv('VITE_FIREBASE_PROJECT_ID') || safeConfig.projectId || '',
+  storageBucket: getEnv('VITE_FIREBASE_STORAGE_BUCKET') || safeConfig.storageBucket || '',
+  messagingSenderId: getEnv('VITE_FIREBASE_MESSAGING_SENDER_ID') || safeConfig.messagingSenderId || '',
+  appId: getEnv('VITE_FIREBASE_APP_ID') || safeConfig.appId || '',
+  firestoreDatabaseId: getEnv('VITE_FIREBASE_DATABASE_ID') || safeConfig.firestoreDatabaseId || ''
 };
 
 const isConfigValid = firebaseAppConfig && firebaseAppConfig.apiKey && firebaseAppConfig.projectId;

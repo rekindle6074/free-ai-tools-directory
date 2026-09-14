@@ -92,42 +92,51 @@ function Layout({ openSubmitForm }: { openSubmitForm: () => void }) {
   );
 }
 
+export function AppContent({ openSubmitForm }: { openSubmitForm?: () => void }) {
+  const handleOpenSubmit = openSubmitForm || (() => {});
+  return (
+    <div className="min-h-screen font-sans relative overflow-x-hidden selection:bg-emerald-100 selection:text-emerald-900">
+      {/* Animated Background */}
+      <div className="fixed inset-0 -z-10 bg-[#f8fafc]">
+        <BgradientAnim animationDuration={20} className="opacity-80" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(248,250,252,0.4)_100%)]" />
+      </div>
+
+      <ErrorBoundary>
+        <FavoritesProvider>
+          <Layout openSubmitForm={handleOpenSubmit} />
+
+          <BackToTop />
+
+          <Footer openSubmitForm={handleOpenSubmit} />
+        </FavoritesProvider>
+      </ErrorBoundary>
+    </div>
+  );
+}
+
 export default function App() {
   const openSubmitForm = () => {
     try {
-      if (window.Tally) {
+      if (typeof window !== 'undefined' && window.Tally) {
         window.Tally.openPopup('ODALzg', {
           layout: 'modal',
           width: 700,
         });
-      } else {
+      } else if (typeof window !== 'undefined') {
         window.open('https://tally.so/forms/ODALzg', '_blank');
       }
     } catch (e) {
       console.error("Tally error:", e);
-      window.open('https://tally.so/forms/ODALzg', '_blank');
+      if (typeof window !== 'undefined') {
+        window.open('https://tally.so/forms/ODALzg', '_blank');
+      }
     }
   };
 
   return (
     <Router>
-      <div className="min-h-screen font-sans relative overflow-x-hidden selection:bg-emerald-100 selection:text-emerald-900">
-        {/* Animated Background */}
-        <div className="fixed inset-0 -z-10 bg-[#f8fafc]">
-          <BgradientAnim animationDuration={20} className="opacity-80" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(248,250,252,0.4)_100%)]" />
-        </div>
-
-        <ErrorBoundary>
-          <FavoritesProvider>
-            <Layout openSubmitForm={openSubmitForm} />
-
-            <BackToTop />
-
-            <Footer openSubmitForm={openSubmitForm} />
-          </FavoritesProvider>
-        </ErrorBoundary>
-      </div>
+      <AppContent openSubmitForm={openSubmitForm} />
     </Router>
   );
 }

@@ -5,10 +5,12 @@ import { doc, setDoc, increment, onSnapshot } from "firebase/firestore";
 const VisitorCounter: FC = () => {
   const [count, setCount] = useState<number>(() => {
     try {
-      const cached = localStorage.getItem("ais_visitor_count");
-      if (cached) {
-        const parsed = parseInt(cached, 10);
-        if (!isNaN(parsed) && parsed > 0) return parsed;
+      if (typeof window !== "undefined" && typeof localStorage !== "undefined") {
+        const cached = localStorage.getItem("ais_visitor_count");
+        if (cached) {
+          const parsed = parseInt(cached, 10);
+          if (!isNaN(parsed) && parsed > 0) return parsed;
+        }
       }
     } catch {
       // ignore storage access errors

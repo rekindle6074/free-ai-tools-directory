@@ -400,12 +400,14 @@ const HomePage: FC = () => {
     }
   };
 
+  const origin = typeof window !== 'undefined' ? window.location.origin : "https://free-ai-tools-directory.vercel.app";
+
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "FreeAI Tools",
-    "url": window.location.origin,
-    "logo": `${window.location.origin}/logo.svg`,
+    "url": origin,
+    "logo": `${origin}/logo.svg`,
     "description": "Discover the best free AI tools and alternatives to expensive SaaS. Curated directory for developers, creators, and students.",
     "sameAs": [
       "https://mastodon.social/@maxrivera",

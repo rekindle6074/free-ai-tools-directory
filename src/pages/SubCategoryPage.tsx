@@ -81,7 +81,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
   return (
     <>
       <Helmet>
-        <title>{displayTitle} Tools - Best Free Alternatives 2026</title>
+        <title>{`${displayTitle} Tools - Best Free Alternatives 2026`}</title>
         <meta name="description" content={`Access ${subCategory.count}+ best free AI tools for ${cleanName.toLowerCase()}. Save money with vetted free alternatives in the ${parentCategoryName.toLowerCase()} space. Updated for 2026.`} />
         <meta name="keywords" content={`free ai ${cleanName.toLowerCase()}, best free ${cleanName.toLowerCase()} ai, ${subCategory.tag}, free ai tools 2026, ${parentCategoryName.toLowerCase()} free software`} />
         <link rel="canonical" href={`https://free-ai-tools-directory.vercel.app/category/${currentPath}`} />
