@@ -34,7 +34,9 @@ import {
   Search,
   FolderHeart,
   FolderPlus,
-  Plus
+  Plus,
+  Laugh,
+  Flame
 } from "lucide-react";
 import { Tool } from "../data/tools";
 import { useFavorites } from "../context/FavoritesContext";
@@ -68,7 +70,11 @@ const IconMap: Record<string, any> = {
   Megaphone,
   Target,
   Search,
-  Zap
+  Zap,
+  Laugh,
+  Flame,
+  Heart,
+  MessageSquare
 };
 
 interface ToolCardProps {

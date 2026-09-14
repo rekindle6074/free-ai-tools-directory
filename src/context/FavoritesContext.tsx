@@ -339,13 +339,20 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
         try {
           localStorage.setItem(`fa_cloud_cache_${currentUid}_favs`, JSON.stringify(finalFavoriteIds));
         } catch (e) {}
-      }, (err) => {
-        console.error("[Firestore] Favorites live sync error:", err);
-        setSyncStatus("error");
+      }, (err: any) => {
+        const isOffline = err?.code === 'unavailable' ||
+                          err?.message?.includes('offline') ||
+                          (typeof navigator !== 'undefined' && !navigator.onLine);
+        if (isOffline) {
+          setSyncStatus('offline');
+        } else {
+          console.error("[Firestore] Favorites live sync error:", err);
+          setSyncStatus("error");
+          try {
+            handleFirestoreError(err, OperationType.GET, `users/${currentUid}/favorites`);
+          } catch (e) {}
+        }
         setLoading(false);
-        try {
-          handleFirestoreError(err, OperationType.GET, `users/${currentUid}/favorites`);
-        } catch (e) {}
       });
 
       // --- REAL-TIME FIRESTORE LISTENER FOR USER FOLDERS ---
@@ -371,11 +378,16 @@ export const FavoritesProvider: FC<{ children: ReactNode }> = ({ children }) => 
         try {
           localStorage.setItem(`fa_cloud_cache_${currentUid}_folders`, JSON.stringify(remoteFolders));
         } catch (e) {}
-      }, (err) => {
-        console.error("[Firestore] Folders live sync error:", err);
-        try {
-          handleFirestoreError(err, OperationType.GET, `users/${currentUid}/folders`);
-        } catch (e) {}
+      }, (err: any) => {
+        const isOffline = err?.code === 'unavailable' ||
+                          err?.message?.includes('offline') ||
+                          (typeof navigator !== 'undefined' && !navigator.onLine);
+        if (!isOffline) {
+          console.error("[Firestore] Folders live sync error:", err);
+          try {
+            handleFirestoreError(err, OperationType.GET, `users/${currentUid}/folders`);
+          } catch (e) {}
+        }
       });
     });
 

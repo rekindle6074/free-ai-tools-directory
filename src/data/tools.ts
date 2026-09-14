@@ -30,13 +30,11 @@ export const categories: Category[] = [
     name: "AI Chatbots",
     color: "emerald",
     subCategories: [
-      { name: "Free AI Chatbot", tag: "free-ai-chatbot", path: "free-ai-chatbot", count: 23 },
-      { name: "Free AI Character", tag: "free-ai-character", path: "free-ai-character", count: 11 },
-      { name: "Free AI Roleplay", tag: "free-ai-roleplay", path: "free-ai-roleplay", count: 9 },
-      { name: "Free AI Dating Assistant", tag: "free-ai-dating-assistant", path: "free-ai-dating-assistant", count: 9 },
-      { name: "Free AI Anime Girlfriend", tag: "free-ai-anime-girlfriend", path: "free-ai-anime-girlfriend", count: 5 },
-      { name: "Free AI Boyfriend", tag: "free-ai-boyfriend", path: "free-ai-boyfriend", count: 5 },
-      { name: "Free Dirty Talking AI", tag: "free-dirty-talking-ai", path: "free-dirty-talking-ai", count: 4 }
+      { name: "Free AI Chatbot", tag: "free-ai-chatbot", path: "free-ai-chatbot", count: 55 },
+      { name: "Free AI Character", tag: "free-ai-character", path: "free-ai-character", count: 50 },
+      { name: "AI Dating & Roleplay", tag: "ai-dating-roleplay", path: "ai-dating-roleplay", count: 99 },
+      { name: "Free Dirty Talking AI", tag: "free-dirty-talking-ai", path: "free-dirty-talking-ai", count: 4 },
+      { name: "AI Joke Generator", tag: "ai-joke-generator", path: "ai-joke-generator", count: 23 }
     ]
   },
   {

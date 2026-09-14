@@ -1,7 +1,12 @@
 import { initializeApp, getApp, getApps } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
-import { initializeFirestore, getFirestore } from 'firebase/firestore';
+import { initializeFirestore, getFirestore, setLogLevel } from 'firebase/firestore';
 import firebaseConfig from './firebaseConfig';
+
+// Silence expected background offline / retry logs from Firestore SDK in development & iframe environments
+try {
+  setLogLevel('silent');
+} catch {}
 
 // Safely retrieve environment variables across Vite client and Node SSR
 const getEnv = (key: string) => {
