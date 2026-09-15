@@ -10,6 +10,7 @@ import {
 import { FC } from "react";
 import { useParams, Link } from "react-router-dom";
 import { toolsByTag, categories, SubCategory } from "../data/tools";
+import { getParentCategoryForCategoryId } from "../data/parentCategories";
 import { Helmet } from "react-helmet-async";
 import ToolCard from "../components/ToolCard";
 import { GridBackground } from "../components/ui/grid-background";
@@ -20,16 +21,20 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
   const currentPath = forcedPath || subPath;
   
   let subCategory: SubCategory | undefined;
-  let parentCategoryName = "";
+  let categoryId = "";
+  let categoryName = "";
   
   for (const cat of categories) {
     const found = cat.subCategories.find(s => s.path === currentPath);
     if (found) {
       subCategory = found;
-      parentCategoryName = cat.name;
+      categoryId = cat.id;
+      categoryName = cat.name;
       break;
     }
   }
+
+  const superCategory = getParentCategoryForCategoryId(categoryId);
   
   if (!subCategory) {
     return (
@@ -82,8 +87,8 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
     <>
       <Helmet>
         <title>{`${displayTitle} Tools - Best Free Alternatives 2026`}</title>
-        <meta name="description" content={`Access ${subCategory.count}+ best free AI tools for ${cleanName.toLowerCase()}. Save money with vetted free alternatives in the ${parentCategoryName.toLowerCase()} space. Updated for 2026.`} />
-        <meta name="keywords" content={`free ai ${cleanName.toLowerCase()}, best free ${cleanName.toLowerCase()} ai, ${subCategory.tag}, free ai tools 2026, ${parentCategoryName.toLowerCase()} free software`} />
+        <meta name="description" content={`Access ${subCategory.count}+ best free AI tools for ${cleanName.toLowerCase()}. Save money with vetted free alternatives in the ${categoryName.toLowerCase()} space. Updated for 2026.`} />
+        <meta name="keywords" content={`free ai ${cleanName.toLowerCase()}, best free ${cleanName.toLowerCase()} ai, ${subCategory.tag}, free ai tools 2026, ${categoryName.toLowerCase()} free software`} />
         <link rel="canonical" href={`https://free-ai-tools-directory.vercel.app/category/${currentPath}`} />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
@@ -91,13 +96,37 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
       </Helmet>
       <GridBackground className="pt-32 sm:pt-36 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-6 mb-16 px-4 py-2 bg-white/40 backdrop-blur-md rounded-2xl border border-white/40 w-fit">
-          <Link to="/categories" className="w-12 h-12 rounded-xl bg-white border border-slate-100 flex items-center justify-center text-slate-500 hover:text-emerald-600 hover:border-emerald-500 transition-all shadow-sm group">
-            <ChevronLeft className="w-6 h-6 transform group-hover:-translate-x-1 transition-transform" />
+        <div className="flex items-center gap-4 mb-16 px-4 py-2 bg-white/60 backdrop-blur-md rounded-2xl border border-white/60 w-fit shadow-xs">
+          <Link
+            to={superCategory ? `/categories#${superCategory.id}` : "/categories"}
+            className="w-10 h-10 rounded-xl bg-white border border-slate-100 flex items-center justify-center text-slate-500 hover:text-emerald-600 hover:border-emerald-500 transition-all shadow-sm group"
+            title="Back to category"
+          >
+            <ChevronLeft className="w-5 h-5 transform group-hover:-translate-x-0.5 transition-transform" />
           </Link>
           <div className="flex flex-col">
-            <span className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">{parentCategoryName}</span>
-            <span className="text-sm font-bold text-emerald-600 uppercase tracking-wider">{displayTitle}</span>
+            <div className="flex items-center gap-1.5 text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">
+              {superCategory && (
+                <>
+                  <Link
+                    to={`/categories#${superCategory.id}`}
+                    className="hover:text-emerald-600 transition-colors"
+                  >
+                    {superCategory.name}
+                  </Link>
+                  <span>&bull;</span>
+                </>
+              )}
+              <Link
+                to={`/categories#${categoryId}`}
+                className="hover:text-emerald-600 transition-colors"
+              >
+                {categoryName}
+              </Link>
+            </div>
+            <span className="text-sm font-bold text-emerald-600 tracking-wide">
+              {displayTitle}
+            </span>
           </div>
         </div>
         
@@ -146,7 +175,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
                 </p>
                 <p>
                   Whether you are a creator, developer, or enthusiast, these tools empower you to harness the power of AI in 
-                  {parentCategoryName.toLowerCase()} workflows without upfront costs. We manually vet each link to ensure 
+                  {categoryName.toLowerCase()} workflows without upfront costs. We manually vet each link to ensure 
                   they provide real value to the community.
                 </p>
               </div>

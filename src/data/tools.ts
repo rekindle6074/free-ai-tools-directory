@@ -24,6 +24,8 @@ export interface SubCategory {
   count: number;
 }
 
+// Category color is currently a fixed "emerald" accent for every category.
+// Any new or dynamic color value must correspond to a complete literal Tailwind class defined in the component.
 export const categories: Category[] = [
   {
     id: "ai-chatbots",

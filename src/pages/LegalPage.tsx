@@ -17,13 +17,13 @@ import {
 } from "lucide-react";
 
 const LegalPage: FC = () => {
-  const [activeLang, setActiveLang] = useState<"fr" | "en">("fr");
+  const [activeLang, setActiveLang] = useState<"fr" | "en">("en");
 
   return (
     <>
       <Helmet>
-        <title>Mentions Légales & Politique de Confidentialité - FreeAI Tools</title>
-        <meta name="description" content="Mentions légales, éditeur, hébergement, propriété intellectuelle et politique de confidentialité du site FreeAI Tools Directory." />
+        <title>{activeLang === "fr" ? "Mentions Légales & Politique de Confidentialité" : "Legal Notice & Privacy Policy"} - FreeAI Tools</title>
+        <meta name="description" content={activeLang === "fr" ? "Mentions légales, éditeur, hébergement, propriété intellectuelle et politique de confidentialité du site FreeAI Tools Directory." : "Legal notices, publisher, hosting, intellectual property, and privacy policy for the FreeAI Tools Directory."} />
       </Helmet>
 
       <div className="min-h-screen bg-slate-50 py-16">

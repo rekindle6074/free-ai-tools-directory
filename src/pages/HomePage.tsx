@@ -17,15 +17,21 @@ import {
   ExternalLink,
   ChevronRight,
   LayoutGrid,
-  Search as SearchIconLucide
+  Search as SearchIconLucide,
+  Clapperboard,
+  FileText,
+  HeartPulse,
+  Sparkles
 } from "lucide-react";
 import { FC, useState, FormEvent, useEffect, useRef } from "react";
 import { featuredTools, categories } from "../data/tools";
+import { parentCategories, getCategoriesForParent, getParentCategoryStats } from "../data/parentCategories";
 import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import ToolCard from "../components/ToolCard";
 import { Button } from "../components/ui/Button";
 import { SearchIcon, WeeklyPicksIcon } from "../components/ui/Icons";
+import FixedMegaMenu from "../components/FixedMegaMenu";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -572,6 +578,9 @@ const HomePage: FC = () => {
             </div>
           </div>
 
+          {/* FIXED DARK GLASS MEGA-MENU HUB (Directly after Search Bar) */}
+          <FixedMegaMenu />
+
           {/* Benefit Cards - Modernized */}
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-24">
             {[
@@ -690,68 +699,104 @@ const HomePage: FC = () => {
         </div>
       </section>
 
-      {/* Categories Grid */}
+      {/* 6 Super-Categories Grid */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-24">
-            <h2 className="text-4xl md:text-6xl font-display font-bold text-slate-900 mb-6 tracking-[-0.04em]">Search <span className="text-emerald-600">Everything</span></h2>
-            <p className="text-lg text-slate-500 font-medium">Precision filtering for every vertical in the generative AI space.</p>
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 text-emerald-700 border border-emerald-500/20 text-xs font-bold uppercase tracking-wider mb-4">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>6 Super-Categories Architecture</span>
+            </div>
+            <h2 className="text-4xl md:text-6xl font-display font-bold text-slate-900 mb-6 tracking-[-0.04em]">
+              Search <span className="text-emerald-600">Everything</span>
+            </h2>
+            <p className="text-lg text-slate-500 font-medium max-w-2xl mx-auto">
+              242 subcategories meticulously organized into 6 thematic hubs to instantly find the right AI tool for your workflow.
+            </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {categories.slice(0, 6).map((category, idx) => (
-              <motion.div
-                key={category.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="glass p-10 rounded-[3rem] border border-slate-100 shadow-sm hover:shadow-2xl transition-all duration-500 group relative overflow-hidden"
-              >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 blur-3xl rounded-full -z-10 group-hover:bg-emerald-500/10 transition-all" />
-                
-                <div className="flex items-center gap-4 mb-8">
-                  <div className={`w-3 h-8 rounded-full bg-${category.color}-500 shadow-lg shadow-${category.color}-500/50`} />
-                  <h3 className="text-2xl font-bold text-slate-900 tracking-tight">{category.name}</h3>
-                </div>
-                
-                <div className="space-y-4 mb-10">
-                  {category.subCategories.slice(0, 3).map((sub, sIdx) => {
-                    const getDisplayTitle = (name: string) => {
-                      let base = name;
-                      if (base.startsWith("Free AI ")) base = base.substring(8);
-                      else if (base.startsWith("Free ")) base = base.substring(5);
-                      else if (base.startsWith("AI ")) base = base.substring(3);
-                      return `Free AI ${base}`;
-                    };
-                    const displayTitle = getDisplayTitle(sub.name);
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {parentCategories.map((parent, idx) => {
+              const memberCats = getCategoriesForParent(parent);
+              const stats = getParentCategoryStats(parent);
+              const IconComponent =
+                parent.id === "ai-media-studio" ? Clapperboard :
+                parent.id === "business-growth" ? TrendingUp :
+                parent.id === "productivity-communication" ? FileText :
+                parent.id === "tech-development" ? Code2 :
+                parent.id === "lifestyle-specialized" ? HeartPulse : LayoutGrid;
 
-                    return (
-                      <Link 
-                        key={sIdx} 
-                        to={`/category/${sub.path}`}
-                        className="flex items-center justify-between text-sm text-slate-500 hover:text-emerald-600 font-bold tracking-tight transition-all"
-                      >
-                        <span>{displayTitle}</span>
-                        <span className="text-[10px] font-black bg-slate-100 text-slate-400 px-2.5 py-1 rounded-full group-hover:bg-emerald-100 group-hover:text-emerald-600 transition-colors">{sub.count}</span>
-                      </Link>
-                    );
-                  })}
-                </div>
-                
-                <Link 
-                  to="/categories" 
-                  className="flex items-center gap-2 text-xs font-black text-slate-400 group-hover:text-emerald-600 uppercase tracking-widest transition-colors"
+              return (
+                <motion.div
+                  key={parent.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: idx * 0.08 }}
+                  className="glass p-8 sm:p-10 rounded-[2.5rem] border border-slate-100 shadow-sm hover:shadow-2xl transition-all duration-500 group relative overflow-hidden flex flex-col justify-between"
                 >
-                  Explore Category <ChevronRight className="w-4 h-4" />
-                </Link>
-              </motion.div>
-            ))}
+                  <div className="absolute top-0 right-0 w-36 h-36 bg-emerald-500/5 blur-3xl rounded-full -z-10 group-hover:bg-emerald-500/15 transition-all" />
+                  
+                  <div>
+                    <div className="flex items-center justify-between mb-6">
+                      <div className="w-12 h-12 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-600 shadow-inner group-hover:scale-105 transition-transform">
+                        <IconComponent className="w-6 h-6" />
+                      </div>
+                      <span className="text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                        {stats.totalTools}+ Tools
+                      </span>
+                    </div>
+
+                    <h3 className="text-2xl font-bold text-slate-900 tracking-tight mb-2 group-hover:text-emerald-700 transition-colors">
+                      {parent.name}
+                    </h3>
+                    <p className="text-xs text-slate-500 font-medium mb-6 line-clamp-2">
+                      {parent.description}
+                    </p>
+                    
+                    {/* Top subcategories / topics */}
+                    <div className="space-y-2.5 mb-8">
+                      {parent.topicSections.slice(0, 3).map((topic, sIdx) => {
+                        const firstItem = topic.items[0];
+                        if (!firstItem) return null;
+                        return (
+                          <Link 
+                            key={sIdx} 
+                            to={`/category/${firstItem.path}`}
+                            className="flex items-center justify-between text-xs text-slate-600 hover:text-emerald-700 font-semibold tracking-tight transition-all p-2 rounded-xl hover:bg-emerald-50/50"
+                          >
+                            <span className="flex items-center gap-2 truncate">
+                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                              <span className="truncate">{topic.title}</span>
+                            </span>
+                            <span className="text-[10px] font-bold text-slate-400 shrink-0 ml-2">
+                              {topic.items.length} options
+                            </span>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
+                    <span className="text-[11px] font-bold text-slate-400">
+                      {memberCats.length} Categories
+                    </span>
+                    <Link 
+                      to={`/categories#${parent.id}`}
+                      className="flex items-center gap-1.5 text-xs font-black text-emerald-600 hover:text-emerald-700 uppercase tracking-wider transition-colors"
+                    >
+                      Explore <ChevronRight className="w-4 h-4" />
+                    </Link>
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
           
-          <div className="flex justify-center mt-20">
-            <Link to="/categories" className="flex items-center gap-3 bg-slate-50 text-slate-900 border border-slate-200 px-8 py-4 rounded-2xl font-bold hover:bg-slate-100 transition-all shadow-sm">
-              Explore All Categories <ChevronRight className="w-5 h-5 ml-1" />
+          <div className="flex justify-center mt-16">
+            <Link to="/categories" className="flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-slate-900/10 active:scale-95">
+              Explore All 6 Super-Categories &bull; Discovery Hub <ChevronRight className="w-5 h-5 ml-1" />
             </Link>
           </div>
         </div>

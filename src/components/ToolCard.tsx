@@ -175,7 +175,7 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       whileHover={{ y: -5 }}
-      className="group relative bg-[#a2efb3] rounded-3xl border border-[#a2efb3]/30 p-7 shadow-sm hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 flex flex-col h-full overflow-hidden"
+      className="group relative bg-emerald-100 rounded-3xl border border-emerald-200 p-7 shadow-sm hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 flex flex-col h-full overflow-hidden"
     >
       {/* Restored Custom Background with dynamic radial dots */}
       <div className="absolute inset-0 z-0 pointer-events-none">

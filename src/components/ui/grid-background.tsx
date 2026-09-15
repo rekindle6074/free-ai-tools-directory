@@ -9,7 +9,7 @@ interface GridBackgroundProps {
 export const GridBackground = ({ children, className }: GridBackgroundProps) => {
   return (
     <div className={cn("min-h-screen w-full relative overflow-hidden", className)}>
-      {/* Magenta Orb Grid Background */}
+      {/* Emerald Orb Grid Background */}
       <div
         className="absolute inset-0 z-0 pointer-events-none"
         style={{
@@ -17,7 +17,7 @@ export const GridBackground = ({ children, className }: GridBackgroundProps) => 
           backgroundImage: `
             linear-gradient(to right, rgba(71,85,105,0.15) 1px, transparent 1px),
             linear-gradient(to bottom, rgba(71,85,105,0.15) 1px, transparent 1px),
-            radial-gradient(circle at 50% 60%, rgba(236,72,153,0.15) 0%, rgba(168,85,247,0.05) 40%, transparent 70%)
+            radial-gradient(circle at 50% 60%, rgba(16,185,129,0.15) 0%, rgba(16,185,129,0.05) 40%, transparent 70%)
           `,
           backgroundSize: "40px 40px, 40px 40px, 100% 100%",
           backgroundPosition: "top left, top left, center center",
