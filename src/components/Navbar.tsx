@@ -7,6 +7,7 @@ import { auth } from "../firebase";
 import { onAuthStateChanged, User } from "firebase/auth";
 import { useFavorites } from "../context/FavoritesContext";
 import { parentCategories, getCategoriesForParent } from "../data/parentCategories";
+import { CategoryIconBadge } from "./CategoryIconBadge";
 
 interface NavbarProps {
   openSubmitForm: () => void;
@@ -160,8 +161,14 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
                 key={parent.id}
                 type="button"
                 onClick={() => handleParentClick(parent.id)}
-                className="px-3.5 py-2 rounded-full text-sm font-bold text-slate-700 hover:text-emerald-700 hover:bg-emerald-500/10 border border-transparent hover:border-emerald-500/20 transition-all cursor-pointer whitespace-nowrap active:scale-95"
+                className="flex items-center gap-1.5 px-3 py-1.5 xl:px-3.5 xl:py-2 rounded-full text-xs xl:text-sm font-bold text-slate-700 hover:text-emerald-700 hover:bg-emerald-500/10 border border-transparent hover:border-emerald-500/20 transition-all cursor-pointer whitespace-nowrap active:scale-95"
               >
+                <CategoryIconBadge
+                  categoryId={parent.id}
+                  categoryName={parent.name}
+                  size="xs"
+                  className="!w-4 !h-4 rounded-sm border-0 shrink-0"
+                />
                 <span>{parent.shortName}</span>
               </button>
             ))}
@@ -172,6 +179,7 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
             {/* Favorites pill badge */}
             <Link
               to="/favorites"
+              aria-label={`View your saved favorite tools (${favoriteIds.length} tools)`}
               className="flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white/70 hover:bg-emerald-50 border border-slate-200/80 hover:border-emerald-200 text-slate-700 hover:text-emerald-700 transition-all shadow-sm"
               title="Your saved tools"
             >
@@ -235,9 +243,10 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
               <Link
                 to="/categories"
                 onClick={() => setMobileMenuOpen(false)}
+                aria-label="View all categories"
                 className="text-xs text-slate-400 hover:text-emerald-300 font-bold"
               >
-                View All &rarr;
+                View All Categories &rarr;
               </Link>
             </div>
 
@@ -259,7 +268,12 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
                       className="w-full flex items-center justify-between p-3.5 text-left"
                     >
                       <div className="flex items-center gap-2.5">
-                        <span className="w-2 h-2 rounded-full bg-emerald-400" />
+                        <CategoryIconBadge
+                          categoryId={parent.id}
+                          categoryName={parent.name}
+                          size="xs"
+                          className="!w-5 !h-5 rounded-md border-0 shrink-0"
+                        />
                         <span className="text-sm font-bold text-white">
                           {parent.name}
                         </span>
@@ -286,9 +300,15 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
                               key={cat.id}
                               to={`/categories#${cat.id}`}
                               onClick={() => setMobileMenuOpen(false)}
-                              className="block p-2 rounded-xl text-xs font-semibold text-slate-200 hover:bg-emerald-500/20 hover:text-emerald-300 transition-colors"
+                              className="flex items-center gap-2 p-2 rounded-xl text-xs font-semibold text-slate-200 hover:bg-emerald-500/20 hover:text-emerald-300 transition-colors"
                             >
-                              {cat.name} ({cat.subCategories.length})
+                              <CategoryIconBadge
+                                categoryId={cat.id}
+                                categoryName={cat.name}
+                                size="xs"
+                                className="!w-5 !h-5"
+                              />
+                              <span className="truncate">{cat.name} ({cat.subCategories.length})</span>
                             </Link>
                           ))}
                         </div>

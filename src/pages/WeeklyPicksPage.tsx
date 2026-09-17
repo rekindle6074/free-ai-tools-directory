@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { motion } from "motion/react";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "../components/SEO";
+import { STATIC_PAGE_SEO, createItemListSchema } from "../lib/seoHelpers";
 import { 
   Zap, 
   Sparkles, 
@@ -105,12 +106,27 @@ const picks: Pick[] = [
 ];
 
 const WeeklyPicksPage: FC = () => {
+  const weeklyItemListSchema = createItemListSchema(
+    "Best Free AI Tools of the Week",
+    "Hand-picked selection of the most innovative and useful free AI tools released or updated this week.",
+    picks.map(p => ({
+      name: p.title,
+      url: p.url.startsWith('http') ? p.url : `https://free-ai-tools-directory.vercel.app${p.url}`,
+      description: p.description,
+      image: p.logo
+    }))
+  );
+
   return (
     <>
-      <Helmet>
-        <title>Weekly Picks - Best Free AI Tools of the Week</title>
-        <meta name="description" content="Our hand-picked selection of the most innovative and useful free AI tools released or updated this week." />
-      </Helmet>
+      <SEO
+        title={STATIC_PAGE_SEO.weeklyPicks.title}
+        description={STATIC_PAGE_SEO.weeklyPicks.description}
+        canonical="/weekly-picks"
+        ogType="website"
+        keywords="weekly ai picks, best free ai tools of the week, new ai tools 2026, curated free software"
+        jsonLd={weeklyItemListSchema}
+      />
 
       <div className="min-h-screen bg-slate-50 pt-12 pb-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -143,6 +159,7 @@ const WeeklyPicksPage: FC = () => {
           </div>
 
           {/* Bento Grid */}
+          <h2 className="sr-only">Curated AI Tools of the Week</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {picks.map((pick, idx) => (
               <motion.a
@@ -150,6 +167,7 @@ const WeeklyPicksPage: FC = () => {
                 href={pick.url}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label={`Visit official website for ${pick.title} (${pick.tag})`}
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: idx * 0.1 }}
@@ -170,7 +188,7 @@ const WeeklyPicksPage: FC = () => {
                         <div className="w-12 h-12 rounded-xl bg-slate-50 p-2 flex items-center justify-center border border-slate-100 group-hover:scale-110 transition-transform duration-500">
                           <img 
                             src={pick.logo} 
-                            alt={pick.title} 
+                            alt={`${pick.title} - ${pick.tag} AI tool logo`} 
                             className="w-full h-full object-contain"
                             referrerPolicy="no-referrer"
                           />
@@ -208,7 +226,7 @@ const WeeklyPicksPage: FC = () => {
                       <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Trending Now</span>
                     </div>
                     <div className="flex items-center gap-1 text-emerald-600 font-bold text-xs group-hover:translate-x-1 transition-transform">
-                      Visit Site <ArrowUpRight className="w-3 h-3" />
+                      <span>Visit {pick.title}</span> <ArrowUpRight className="w-3 h-3" />
                     </div>
                   </div>
                 </div>

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { Suspense } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { HelmetProvider } from "react-helmet-async";
 import HomePage from "./pages/HomePage";
 import CategoriesPage from "./pages/CategoriesPage";
 import SubCategoryPage from "./pages/SubCategoryPage";
@@ -12,6 +13,8 @@ import FavoritesPage from "./pages/FavoritesPage";
 import LegalPage from "./pages/LegalPage";
 import SharedFolderPage from "./pages/SharedFolderPage";
 import AdminRegisterPage from "./pages/AdminRegisterPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import ToolDetailPage from "./pages/ToolDetailPage";
 
 import BackToTop from "./components/BackToTop";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -51,10 +54,13 @@ function AnimatedRoutes({ openSubmitForm }: { openSubmitForm: () => void }) {
           <Route path="/shared-folder/:shareId" element={<SharedFolderPage />} />
           <Route path="/legal" element={<LegalPage />} />
           <Route path="/avatar-generator" element={<SubCategoryPage forcedPath="free-ai-avatar-generator" />} />
+          <Route path="/tool/:toolId" element={<ToolDetailPage />} />
           {/* Private Unlisted Admin Registration Routes */}
           <Route path="/admin-portal-signup-7829x" element={<AdminRegisterPage />} />
           <Route path="/portal-admin-signup-key-8410" element={<AdminRegisterPage />} />
           <Route path="/admin-auth-register-9824" element={<AdminRegisterPage />} />
+          {/* Catch-all 404 */}
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </motion.div>
     </AnimatePresence>
@@ -135,8 +141,10 @@ export default function App() {
   };
 
   return (
-    <Router>
-      <AppContent openSubmitForm={openSubmitForm} />
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <AppContent openSubmitForm={openSubmitForm} />
+      </Router>
+    </HelmetProvider>
   );
 }

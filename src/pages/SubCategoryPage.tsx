@@ -11,9 +11,11 @@ import { FC } from "react";
 import { useParams, Link } from "react-router-dom";
 import { toolsByTag, categories, SubCategory } from "../data/tools";
 import { getParentCategoryForCategoryId } from "../data/parentCategories";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "../components/SEO";
+import { getSubCategorySeoTitle, getSubCategorySeoDescription, createItemListSchema } from "../lib/seoHelpers";
 import ToolCard from "../components/ToolCard";
 import { GridBackground } from "../components/ui/grid-background";
+import { CategoryIconBadge } from "../components/CategoryIconBadge";
 
 const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
   const { subPath } = useParams<{ subPath: string }>();
@@ -39,7 +41,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
   if (!subCategory) {
     return (
       <GridBackground className="pt-36 pb-20 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">Category not found</h1>
+        <h2 className="text-2xl font-bold text-slate-900">Category not found</h2>
         <Link to="/categories" className="text-emerald-600 font-bold mt-4 inline-block">Back to Categories</Link>
       </GridBackground>
     );
@@ -83,57 +85,87 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
     ]
   };
 
+  const seoTitle = getSubCategorySeoTitle(subCategory.name);
+  const seoDescription = getSubCategorySeoDescription(subCategory.name);
+
+  const toolsItemListSchema = createItemListSchema(
+    `${displayTitle} - Free AI Tools`,
+    `Curated list of free AI tools and software for ${cleanName.toLowerCase()}.`,
+    tools.map(t => ({
+      name: t.name,
+      url: `https://free-ai-tools-directory.vercel.app/tool/${t.id}`,
+      description: t.description,
+      image: t.iconUrl
+    }))
+  );
+
   return (
     <>
-      <Helmet>
-        <title>{`${displayTitle} Tools - Best Free Alternatives 2026`}</title>
-        <meta name="description" content={`Access ${subCategory.count}+ best free AI tools for ${cleanName.toLowerCase()}. Save money with vetted free alternatives in the ${categoryName.toLowerCase()} space. Updated for 2026.`} />
-        <meta name="keywords" content={`free ai ${cleanName.toLowerCase()}, best free ${cleanName.toLowerCase()} ai, ${subCategory.tag}, free ai tools 2026, ${categoryName.toLowerCase()} free software`} />
-        <link rel="canonical" href={`https://free-ai-tools-directory.vercel.app/category/${currentPath}`} />
-        <script type="application/ld+json">
-          {JSON.stringify(breadcrumbSchema)}
-        </script>
-      </Helmet>
+      <SEO
+        title={seoTitle}
+        description={seoDescription}
+        canonical={`https://free-ai-tools-directory.vercel.app/category/${currentPath}`}
+        keywords={`free ai ${cleanName.toLowerCase()}, best free ${cleanName.toLowerCase()} ai, ${subCategory.tag}, free ai tools 2026, ${categoryName.toLowerCase()} free software`}
+        jsonLd={[breadcrumbSchema, toolsItemListSchema]}
+        ogType="website"
+      />
       <GridBackground className="pt-32 sm:pt-36 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-4 mb-16 px-4 py-2 bg-white/60 backdrop-blur-md rounded-2xl border border-white/60 w-fit shadow-xs">
+        <div className="flex items-center gap-4 mb-16 px-4 py-2.5 bg-white/60 backdrop-blur-md rounded-2xl border border-white/60 w-fit shadow-xs">
           <Link
             to={superCategory ? `/categories#${superCategory.id}` : "/categories"}
             className="w-10 h-10 rounded-xl bg-white border border-slate-100 flex items-center justify-center text-slate-500 hover:text-emerald-600 hover:border-emerald-500 transition-all shadow-sm group"
             title="Back to category"
+            aria-label={superCategory ? `Back to ${superCategory.name} categories` : "Back to categories"}
           >
             <ChevronLeft className="w-5 h-5 transform group-hover:-translate-x-0.5 transition-transform" />
           </Link>
-          <div className="flex flex-col">
-            <div className="flex items-center gap-1.5 text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">
-              {superCategory && (
-                <>
-                  <Link
-                    to={`/categories#${superCategory.id}`}
-                    className="hover:text-emerald-600 transition-colors"
-                  >
-                    {superCategory.name}
-                  </Link>
-                  <span>&bull;</span>
-                </>
-              )}
-              <Link
-                to={`/categories#${categoryId}`}
-                className="hover:text-emerald-600 transition-colors"
-              >
-                {categoryName}
-              </Link>
+          <div className="flex items-center gap-3">
+            <CategoryIconBadge
+              categoryId={categoryId}
+              categoryName={categoryName}
+              size="sm"
+              className="!w-8 !h-8"
+            />
+            <div className="flex flex-col">
+              <div className="flex items-center gap-1.5 text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">
+                {superCategory && (
+                  <>
+                    <Link
+                      to={`/categories#${superCategory.id}`}
+                      className="hover:text-emerald-600 transition-colors"
+                    >
+                      {superCategory.name}
+                    </Link>
+                    <span>&bull;</span>
+                  </>
+                )}
+                <Link
+                  to={`/categories#${categoryId}`}
+                  className="hover:text-emerald-600 transition-colors"
+                >
+                  {categoryName}
+                </Link>
+              </div>
+              <span className="text-sm font-bold text-emerald-600 tracking-wide">
+                {displayTitle}
+              </span>
             </div>
-            <span className="text-sm font-bold text-emerald-600 tracking-wide">
-              {displayTitle}
-            </span>
           </div>
         </div>
         
         <div className="mb-20">
-          <h1 className="text-6xl md:text-8xl font-display font-bold text-slate-900 mb-8 tracking-[-0.04em] leading-[0.9]">
-            {displayTitle}
-          </h1>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-8 mb-8">
+            <CategoryIconBadge
+              categoryId={categoryId}
+              categoryName={categoryName}
+              size="xl"
+              className="shadow-xl border-emerald-500/30"
+            />
+            <h1 className="text-6xl md:text-8xl font-display font-bold text-slate-900 tracking-[-0.04em] leading-[0.9]">
+              {displayTitle}
+            </h1>
+          </div>
           <p className="text-xl text-slate-500 max-w-3xl leading-relaxed font-medium">
             The most advanced and reliable free AI-powered tools for {cleanName.toLowerCase()}. Save time and budget with these vetted solutions.
           </p>

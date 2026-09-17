@@ -7,6 +7,7 @@ import {
   getCategoriesForParent,
   getParentCategoryStats
 } from "../data/parentCategories";
+import { CategoryIconBadge } from "./CategoryIconBadge";
 import {
   Clapperboard,
   TrendingUp,
@@ -179,7 +180,13 @@ export const FixedMegaMenu: FC = () => {
                     : "bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border-white/10 hover:border-white/20"
                 }`}
               >
-                <Icon className={`w-4 h-4 shrink-0 ${isActive ? "text-white" : "text-emerald-400"}`} />
+                <CategoryIconBadge
+                  categoryId={parent.id}
+                  categoryName={parent.name}
+                  fallbackIcon={Icon}
+                  size="xs"
+                  className="!w-5 !h-5 rounded-md border-0 shrink-0"
+                />
                 <span>{parent.shortName}</span>
                 <span
                   className={`text-[10px] font-black uppercase px-2 py-0.5 rounded-full ${
@@ -214,9 +221,13 @@ export const FixedMegaMenu: FC = () => {
             {/* Header of Mega-Menu */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-5 mb-5 border-b border-white/10 gap-3">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-2xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 shadow-inner">
-                  <ParentIcon className="w-5 h-5" />
-                </div>
+                <CategoryIconBadge
+                  categoryId={activeParent.id}
+                  categoryName={activeParent.name}
+                  fallbackIcon={ParentIcon}
+                  size="lg"
+                  className="!w-10 !h-10 rounded-2xl shadow-inner border-white/20 shrink-0"
+                />
                 <div>
                   <h3 className="font-display font-bold text-lg sm:text-xl text-white tracking-tight flex items-center gap-2.5">
                     {activeParent.name}
@@ -268,15 +279,14 @@ export const FixedMegaMenu: FC = () => {
                             : "border-transparent hover:bg-emerald-500/10 hover:border-emerald-500/30"
                         }`}
                       >
-                        <div
-                          className={`w-7 h-7 rounded-xl flex items-center justify-center shrink-0 mt-0.5 transition-transform group-hover/row:scale-110 ${
-                            isSelected
-                              ? "bg-emerald-400 text-slate-950 font-bold"
-                              : "bg-emerald-500/15 text-emerald-400"
-                          }`}
-                        >
-                          <CatIcon className="w-3.5 h-3.5" />
-                        </div>
+                        <CategoryIconBadge
+                          categoryId={cat.id}
+                          categoryName={cat.name}
+                          fallbackIcon={CatIcon}
+                          size="md"
+                          isSelected={isSelected}
+                          className="mt-0.5 group-hover/row:scale-110 !w-7 !h-7"
+                        />
                         <div className="flex-1 min-w-0">
                           <div
                             className={`text-xs sm:text-sm font-bold transition-colors truncate ${
@@ -369,9 +379,13 @@ export const FixedMegaMenu: FC = () => {
                   {/* Card Header */}
                   <div className="flex items-center justify-between pb-3.5 mb-4 border-b border-white/10">
                     <div className="flex items-center gap-2.5">
-                      <div className="w-8 h-8 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
-                        <Icon className="w-4 h-4" />
-                      </div>
+                      <CategoryIconBadge
+                        categoryId={parent.id}
+                        categoryName={parent.name}
+                        fallbackIcon={Icon}
+                        size="md"
+                        className="!w-8 !h-8 rounded-xl shadow-inner border-white/20 shrink-0"
+                      />
                       <div>
                         <h3 className="font-display font-bold text-base sm:text-lg text-white flex items-center gap-2">
                           {parent.name}
@@ -405,6 +419,7 @@ export const FixedMegaMenu: FC = () => {
                           {topic.items.length > 5 && (
                             <Link
                               to={`/categories#${parent.id}`}
+                              aria-label={`View ${topic.items.length - 5} more ${topic.title} subcategories in ${parent.name}`}
                               className="text-[11px] font-bold text-emerald-400 hover:text-emerald-300 px-2 py-1"
                             >
                               +{topic.items.length - 5} more &rarr;

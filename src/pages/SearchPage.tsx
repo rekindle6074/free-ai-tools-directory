@@ -7,7 +7,8 @@ import {
   ArrowLeft
 } from "lucide-react";
 import { categories, toolsByTag, Tool, Category, SubCategory } from "../data/tools";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "../components/SEO";
+import { STATIC_PAGE_SEO } from "../lib/seoHelpers";
 import ToolCard from "../components/ToolCard";
 
 interface SearchResult {
@@ -67,11 +68,14 @@ const SearchPage: FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Search AI Tools - Find Free Alternatives</title>
-        <meta name="description" content={`Search results for ${query} in our free AI tool directory. Discover the best free AI alternatives for your needs.`} />
-        <meta name="robots" content="noindex, follow" />
-      </Helmet>
+      <SEO
+        title={STATIC_PAGE_SEO.search.title}
+        description={STATIC_PAGE_SEO.search.description}
+        canonical="/search"
+        noindex={true}
+        nofollow={false}
+        ogType="website"
+      />
       <div className="min-h-screen py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-20">

@@ -19,7 +19,8 @@ import {
   Cell,
   LabelList
 } from "recharts";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "../components/SEO";
+import { STATIC_PAGE_SEO } from "../lib/seoHelpers";
 
 const timelineData = [
   { year: '2020', value: 124, color: '#9CA3AF' },
@@ -47,12 +48,13 @@ const topIAData = [
 export default function InsightsPage() {
   return (
     <>
-      <Helmet>
-        <title>AI Tool Insights & Trends 2026 - Data Analysis</title>
-        <meta name="description" content="In-depth analysis of the AI tools ecosystem in 2026. Discover creation trends, top-performing models, and market growth data." />
-        <meta name="keywords" content="ai insights, ai trends 2026, ai market analysis, top ai models" />
-        <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/insights" />
-      </Helmet>
+      <SEO
+        title={STATIC_PAGE_SEO.insights.title}
+        description={STATIC_PAGE_SEO.insights.description}
+        canonical="/insights"
+        ogType="article"
+        keywords="ai insights, ai trends 2026, ai market analysis, top ai models, software intelligence"
+      />
       <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}

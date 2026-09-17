@@ -142,7 +142,6 @@ export const categories: Category[] = [
     name: "AI Creative & Design",
     color: "emerald",
     subCategories: [
-      { name: "Text-to-Image Generation", tag: "free-text-to-image", path: "free-text-to-image", count: 19 },
       { name: "Advanced Art Tools & Community", tag: "ai-art-community", path: "ai-art-community", count: 6 },
       { name: "Specialized Art Generators", tag: "ai-art-styles", path: "ai-art-styles", count: 7 },
       { name: "Specialized Artistic Styles", tag: "ai-art-specialized", path: "ai-art-specialized", count: 5 },

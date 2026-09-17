@@ -6,6 +6,7 @@ import {
   getCategoriesForParent,
   getParentCategoryStats
 } from "../data/parentCategories";
+import { CategoryIconBadge } from "./CategoryIconBadge";
 import {
   Clapperboard,
   TrendingUp,
@@ -94,9 +95,13 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ parentCategory, onClose }) =
         {/* Header of Menu Panel */}
         <div className="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
-              <ParentIcon className="w-4 h-4" />
-            </div>
+            <CategoryIconBadge
+              categoryId={parentCategory.id}
+              categoryName={parentCategory.name}
+              fallbackIcon={ParentIcon}
+              size="md"
+              className="!w-8 !h-8 rounded-xl shadow-inner border-white/20 shrink-0"
+            />
             <div>
               <h3 className="font-display font-bold text-lg text-white tracking-tight flex items-center gap-2">
                 {parentCategory.name}
@@ -135,15 +140,14 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ parentCategory, onClose }) =
                         : "border-transparent hover:bg-emerald-500/10 hover:border-emerald-500/30"
                     }`}
                   >
-                    <div
-                      className={`w-6 h-6 rounded-lg flex items-center justify-center shrink-0 mt-0.5 transition-transform group-hover/row:scale-110 ${
-                        isSelected
-                          ? "bg-emerald-400 text-slate-950 font-bold"
-                          : "bg-emerald-500/15 text-emerald-400"
-                      }`}
-                    >
-                      <CatIcon className="w-3.5 h-3.5" />
-                    </div>
+                    <CategoryIconBadge
+                      categoryId={cat.id}
+                      categoryName={cat.name}
+                      fallbackIcon={CatIcon}
+                      size="sm"
+                      isSelected={isSelected}
+                      className="mt-0.5 group-hover/row:scale-110"
+                    />
                     <div className="flex-1 min-w-0">
                       <div
                         className={`text-xs font-bold transition-colors ${

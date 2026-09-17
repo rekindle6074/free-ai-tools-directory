@@ -1,0 +1,1 @@
+async function main() { const { AppContent } = await import("./src/App"); console.log("AppContent:", typeof AppContent); } main();

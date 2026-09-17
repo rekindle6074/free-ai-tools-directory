@@ -12,7 +12,8 @@ import {
 import { FC, useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { toolsByTag, Tool } from "../data/tools";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "../components/SEO";
+import { STATIC_PAGE_SEO, createItemListSchema } from "../lib/seoHelpers";
 import ToolCard from "../components/ToolCard";
 import { GridBackground } from "../components/ui/grid-background";
 
@@ -55,14 +56,27 @@ const BrowseAppsPage: FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const itemListSchema = createItemListSchema(
+    "Complete Free AI Tools Catalog",
+    "Curated collection of vetted free artificial intelligence software, tools, and SaaS alternatives.",
+    allTools.slice(0, 50).map(t => ({
+      name: t.name,
+      url: `https://free-ai-tools-directory.vercel.app/tool/${t.id}`,
+      description: t.description,
+      image: t.iconUrl
+    }))
+  );
+
   return (
     <>
-      <Helmet>
-        <title>Browse All Free AI Tools - Complete Directory</title>
-        <meta name="description" content="Browse our complete directory of free AI tools. Search and filter through hundreds of vetted AI solutions for every use case." />
-        <meta name="keywords" content="all ai tools, free ai directory, search ai tools, ai tool list" />
-        <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/browse" />
-      </Helmet>
+      <SEO
+        title={STATIC_PAGE_SEO.browse.title}
+        description={STATIC_PAGE_SEO.browse.description}
+        canonical="/browse"
+        ogType="website"
+        keywords="all ai tools, free ai directory, search ai tools, ai tool list 2026, free software catalog"
+        jsonLd={itemListSchema}
+      />
       <GridBackground className="pt-32 sm:pt-36 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-20">
@@ -94,6 +108,7 @@ const BrowseAppsPage: FC = () => {
           </div>
         </div>
 
+        <h2 className="sr-only">Free AI Tools Directory Listing</h2>
         {currentTools.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -108,6 +123,7 @@ const BrowseAppsPage: FC = () => {
                 <button
                   onClick={() => handlePageChange(currentPage - 1)}
                   disabled={currentPage === 1}
+                  aria-label="Previous page"
                   className="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-emerald-600 hover:border-emerald-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
                 >
                   <ChevronLeft className="w-6 h-6" />
@@ -121,6 +137,7 @@ const BrowseAppsPage: FC = () => {
                 <button
                   onClick={() => handlePageChange(currentPage + 1)}
                   disabled={currentPage === totalPages}
+                  aria-label="Next page"
                   className="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-emerald-600 hover:border-emerald-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
                 >
                   <ChevronRight className="w-6 h-6" />
@@ -137,7 +154,7 @@ const BrowseAppsPage: FC = () => {
             <div className="w-20 h-20 bg-slate-50 rounded-full flex items-center justify-center mx-auto mb-6">
               <Zap className="w-10 h-10 text-slate-300" />
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-2">No tools found</h3>
+            <h2 className="text-xl font-bold text-slate-900 mb-2">No tools found</h2>
             <p className="text-slate-500">Try adjusting your search query to find what you're looking for.</p>
           </div>
         )}

@@ -44,6 +44,7 @@ import { FOLDER_COLORS, getFolderColor } from "../lib/folderColors";
 
 import { Button } from "./ui/Button";
 import { ExploreToolIcon, SaveIcon } from "./ui/Icons";
+import { getCategoryLogo } from "../data/categoryLogos";
 
 const IconMap: Record<string, any> = {
   Video,
@@ -208,19 +209,40 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
           {iconToDisplay && !imageError ? (
             <img 
               src={iconToDisplay} 
-              alt={tool.name} 
+              alt={`${tool.name} - ${tool.category} AI tool logo`} 
               className="w-full h-full object-contain p-2.5 rounded-2xl"
               referrerPolicy="no-referrer"
               onError={handleIconError}
             />
           ) : (
-            <Icon className="w-7 h-7 text-emerald-600 group-hover:text-emerald-700 transition-colors" />
+            getCategoryLogo(tool.category) ? (
+              <img 
+                src={getCategoryLogo(tool.category)!} 
+                alt={`${tool.category} category logo`} 
+                className="w-full h-full object-cover rounded-2xl"
+                referrerPolicy="no-referrer"
+              />
+            ) : (
+              <Icon className="w-7 h-7 text-emerald-600 group-hover:text-emerald-700 transition-colors" />
+            )
           )}
         </div>
         
-        <h3 className="text-xl font-display font-bold text-slate-900 mb-1 leading-tight group-hover:text-emerald-700 transition-colors">{tool.name}</h3>
+        <h3 className="text-xl font-display font-bold text-slate-900 mb-1 leading-tight transition-colors">
+          <Link to={`/tool/${tool.id}`} className="hover:text-emerald-700 hover:underline">
+            {tool.name}
+          </Link>
+        </h3>
         <div className="flex items-center gap-2 mb-4">
-          <span className="inline-flex items-center px-2 py-0.5 bg-emerald-50 text-emerald-600 text-[9px] font-black uppercase tracking-widest rounded transition-colors group-hover:bg-emerald-100">
+          <span className="inline-flex items-center gap-1.5 px-2 py-0.5 bg-emerald-50 text-emerald-700 text-[9px] font-black uppercase tracking-widest rounded transition-colors group-hover:bg-emerald-100">
+            {getCategoryLogo(tool.category) && (
+              <img
+                src={getCategoryLogo(tool.category)!}
+                alt=""
+                className="w-3.5 h-3.5 rounded-xs object-cover"
+                referrerPolicy="no-referrer"
+              />
+            )}
             {tool.category}
           </span>
           <div className="h-1 w-1 rounded-full bg-slate-300" />
@@ -402,9 +424,11 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
         <Link 
           to={tool.link}
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Explore official website for ${tool.name}`}
           className="inline-flex items-center justify-center gap-2 w-full py-4 bg-slate-900 text-white text-sm font-bold rounded-[1.25rem] hover:bg-emerald-600 transition-all duration-300 shadow-lg shadow-slate-900/10 hover:shadow-emerald-500/20 group/btn"
         >
-          <span>Explore Tool</span>
+          <span>Explore {tool.name}</span>
           <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
         </Link>
       </div>

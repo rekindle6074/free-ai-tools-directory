@@ -26,8 +26,11 @@ import {
 import { FC, useState, FormEvent, useEffect, useRef } from "react";
 import { featuredTools, categories } from "../data/tools";
 import { parentCategories, getCategoriesForParent, getParentCategoryStats } from "../data/parentCategories";
+import { getCategoryLogo } from "../data/categoryLogos";
+import { CategoryIconBadge } from "../components/CategoryIconBadge";
 import { Link, useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "../components/SEO";
+import { STATIC_PAGE_SEO, createItemListSchema } from "../lib/seoHelpers";
 import ToolCard from "../components/ToolCard";
 import { Button } from "../components/ui/Button";
 import { SearchIcon, WeeklyPicksIcon } from "../components/ui/Icons";
@@ -444,24 +447,28 @@ const HomePage: FC = () => {
     ]
   };
 
+  const featuredItemListSchema = createItemListSchema(
+    "Featured Free AI Tools",
+    "Hand-curated collection of top-rated free artificial intelligence tools and open-source models.",
+    featuredTools.map(t => ({
+      name: t.name,
+      url: `https://free-ai-tools-directory.vercel.app/tool/${t.id}`,
+      description: t.description,
+      image: t.iconUrl
+    }))
+  );
+
   return (
     <>
-      <Helmet>
-        <title>FreeAI Tools - Best Free AI Directory & Alternatives</title>
-        <meta name="description" content="Discover the best free AI tools and alternatives to expensive SaaS. Curated directory for developers, creators, and students. No tracking, privacy first." />
-        <meta name="keywords" content="free ai tools, ai directory, free ai alternatives, ai for developers, free ai image generator, ai music generator" />
-        <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : "https://free-ai-tools-directory.vercel.app/"} />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="FreeAI Tools - Best Free AI Directory & Alternatives" />
-        <meta property="og:description" content="Discover the best free AI tools and alternatives to expensive SaaS. Curated directory for developers, creators, and students. No tracking, privacy first." />
-        <meta property="og:image" content="https://free-ai-tools-directory.vercel.app/og-image.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="FreeAI Tools - Best Free AI Directory & Alternatives" />
-        <meta name="twitter:description" content="Discover the best free AI tools and alternatives to expensive SaaS." />
-        <meta name="twitter:image" content="https://free-ai-tools-directory.vercel.app/og-image.jpg" />
-        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
-        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
-      </Helmet>
+      <SEO
+        title={STATIC_PAGE_SEO.home.title}
+        description={STATIC_PAGE_SEO.home.description}
+        canonical="https://free-ai-tools-directory.vercel.app/"
+        ogImage="https://free-ai-tools-directory.vercel.app/og-image.jpg"
+        ogType="website"
+        keywords="free ai tools, ai directory, free ai alternatives, ai for developers, free ai image generator, ai music generator"
+        jsonLd={[schemaData, faqSchema, featuredItemListSchema]}
+      />
 
       {/* Hero Section */}
       <section className="relative pt-44 pb-32 overflow-hidden" ref={containerRef}>
@@ -739,9 +746,13 @@ const HomePage: FC = () => {
                   
                   <div>
                     <div className="flex items-center justify-between mb-6">
-                      <div className="w-12 h-12 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-600 shadow-inner group-hover:scale-105 transition-transform">
-                        <IconComponent className="w-6 h-6" />
-                      </div>
+                      <CategoryIconBadge
+                        categoryId={parent.id}
+                        categoryName={parent.name}
+                        fallbackIcon={IconComponent}
+                        size="lg"
+                        className="group-hover:scale-105 transition-transform shadow-xs"
+                      />
                       <span className="text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
                         {stats.totalTools}+ Tools
                       </span>
@@ -766,7 +777,16 @@ const HomePage: FC = () => {
                             className="flex items-center justify-between text-xs text-slate-600 hover:text-emerald-700 font-semibold tracking-tight transition-all p-2 rounded-xl hover:bg-emerald-50/50"
                           >
                             <span className="flex items-center gap-2 truncate">
-                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                              {getCategoryLogo(topic.title) ? (
+                                <img
+                                  src={getCategoryLogo(topic.title)!}
+                                  alt=""
+                                  className="w-4 h-4 rounded-sm object-cover shrink-0"
+                                  referrerPolicy="no-referrer"
+                                />
+                              ) : (
+                                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                              )}
                               <span className="truncate">{topic.title}</span>
                             </span>
                             <span className="text-[10px] font-bold text-slate-400 shrink-0 ml-2">
@@ -784,9 +804,10 @@ const HomePage: FC = () => {
                     </span>
                     <Link 
                       to={`/categories#${parent.id}`}
+                      aria-label={`Explore all ${parent.name} tools`}
                       className="flex items-center gap-1.5 text-xs font-black text-emerald-600 hover:text-emerald-700 uppercase tracking-wider transition-colors"
                     >
-                      Explore <ChevronRight className="w-4 h-4" />
+                      <span>Explore {parent.shortName}</span> <ChevronRight className="w-4 h-4" />
                     </Link>
                   </div>
                 </motion.div>

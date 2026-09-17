@@ -1,6 +1,5 @@
 import {StrictMode} from 'react';
 import {createRoot, hydrateRoot} from 'react-dom/client';
-import { HelmetProvider } from 'react-helmet-async';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import App from './App.tsx';
 import './index.css';
@@ -8,10 +7,8 @@ import './index.css';
 const rootElement = document.getElementById('root')!;
 const appNode = (
   <StrictMode>
-    <HelmetProvider>
-      <App />
-      <SpeedInsights />
-    </HelmetProvider>
+    <App />
+    <SpeedInsights />
   </StrictMode>
 );
 

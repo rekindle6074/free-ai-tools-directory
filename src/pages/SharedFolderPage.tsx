@@ -5,6 +5,8 @@ import { db } from "../firebase";
 import { Tool } from "../data/tools";
 import { findToolById } from "../lib/toolDirectory";
 import ToolCard from "../components/ToolCard";
+import { SEO } from "../components/SEO";
+import { STATIC_PAGE_SEO } from "../lib/seoHelpers";
 import { FolderHeart, ChevronLeft, Calendar, Share2, Compass, AlertCircle } from "lucide-react";
 import { motion } from "motion/react";
 import { getFolderColor } from "../lib/folderColors";
@@ -128,9 +130,9 @@ const SharedFolderPage: FC = () => {
         <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full mb-6 border ${isOfflineError ? 'bg-amber-50 text-amber-500 border-amber-150' : 'bg-rose-50 text-rose-500 border-rose-150'}`}>
           <AlertCircle className="w-8 h-8" />
         </div>
-        <h1 className="text-2xl font-black text-slate-950 uppercase tracking-tight mb-3">
+        <h2 className="text-2xl font-black text-slate-950 uppercase tracking-tight mb-3">
           {errorTitle}
-        </h1>
+        </h2>
         <p className="text-slate-500 leading-relaxed max-w-md mx-auto mb-8 text-sm">
           {errorDescription}
         </p>
@@ -162,7 +164,16 @@ const SharedFolderPage: FC = () => {
     : null;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <>
+      <SEO
+        title={STATIC_PAGE_SEO.sharedFolder.title}
+        description={STATIC_PAGE_SEO.sharedFolder.description}
+        canonical={`/shared-folder/${shareId}`}
+        noindex={true}
+        nofollow={true}
+        ogType="website"
+      />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       {/* Back button */}
       <Link
         to="/"
@@ -248,6 +259,7 @@ const SharedFolderPage: FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

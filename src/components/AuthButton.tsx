@@ -62,7 +62,7 @@ const AuthButton: FC = () => {
       <div className="flex items-center gap-2">
         <div className="flex items-center gap-1.5 px-2.5 py-1 bg-emerald-50 rounded-full border border-emerald-100/70 backdrop-blur-md">
           {user.photoURL ? (
-            <img src={user.photoURL} alt={user.displayName || ""} className="w-4 h-4 rounded-full border border-white" referrerPolicy="no-referrer" />
+            <img src={user.photoURL} alt={user.displayName ? `${user.displayName}'s avatar` : "User profile avatar"} className="w-4 h-4 rounded-full border border-white" referrerPolicy="no-referrer" />
           ) : (
             <div className="w-4 h-4 rounded-full bg-emerald-500/10 flex items-center justify-center">
               <UserIcon className="w-2.5 h-2.5 text-emerald-600" />

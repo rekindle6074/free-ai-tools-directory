@@ -1,6 +1,7 @@
 import { FC, useState } from "react";
 import { motion } from "motion/react";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "../components/SEO";
+import { STATIC_PAGE_SEO } from "../lib/seoHelpers";
 import { 
   Shield, 
   Mail, 
@@ -21,10 +22,13 @@ const LegalPage: FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>{activeLang === "fr" ? "Mentions Légales & Politique de Confidentialité" : "Legal Notice & Privacy Policy"} - FreeAI Tools</title>
-        <meta name="description" content={activeLang === "fr" ? "Mentions légales, éditeur, hébergement, propriété intellectuelle et politique de confidentialité du site FreeAI Tools Directory." : "Legal notices, publisher, hosting, intellectual property, and privacy policy for the FreeAI Tools Directory."} />
-      </Helmet>
+      <SEO
+        title={STATIC_PAGE_SEO.legal.title}
+        description={STATIC_PAGE_SEO.legal.description}
+        canonical="/legal"
+        ogType="website"
+        keywords="legal notice, privacy policy, terms of service, publisher information, gdpr compliance"
+      />
 
       <div className="min-h-screen bg-slate-50 py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -15,8 +15,10 @@ import {
   CheckCircle2,
   Search
 } from "lucide-react";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "../components/SEO";
+import { STATIC_PAGE_SEO, createItemListSchema } from "../lib/seoHelpers";
 import { GridBackground } from "../components/ui/grid-background";
+import { CategoryIconBadge } from "../components/CategoryIconBadge";
 import {
   parentCategories,
   getCategoriesForParent,
@@ -53,9 +55,13 @@ const MegaPanelCard: FC<MegaPanelCardProps> = ({ parent }) => {
         {/* Header of Menu Panel */}
         <div className="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
-              <ParentIcon className="w-4 h-4" />
-            </div>
+            <CategoryIconBadge
+              categoryId={parent.id}
+              categoryName={parent.name}
+              fallbackIcon={ParentIcon}
+              size="md"
+              className="border-white/20 shadow-xs shrink-0"
+            />
             <div>
               <h3 className="font-display font-bold text-lg text-white tracking-tight flex items-center gap-2">
                 {parent.name}
@@ -96,15 +102,14 @@ const MegaPanelCard: FC<MegaPanelCardProps> = ({ parent }) => {
                         : "border-transparent hover:bg-emerald-500/10 hover:border-emerald-500/30"
                     }`}
                   >
-                    <div
-                      className={`w-6 h-6 rounded-lg flex items-center justify-center shrink-0 mt-0.5 transition-transform group-hover/row:scale-110 ${
-                        isSelected
-                          ? "bg-emerald-400 text-slate-950 font-bold"
-                          : "bg-emerald-500/15 text-emerald-400"
-                      }`}
-                    >
-                      <Sparkles className="w-3.5 h-3.5" />
-                    </div>
+                    <CategoryIconBadge
+                      categoryId={cat.id}
+                      categoryName={cat.name}
+                      fallbackIcon={Sparkles}
+                      size="sm"
+                      isSelected={isSelected}
+                      className="mt-0.5 group-hover/row:scale-110 !w-6 !h-6"
+                    />
                     <div className="flex-1 min-w-0">
                       <div
                         className={`text-xs font-bold truncate transition-colors ${
@@ -186,20 +191,26 @@ const CategoriesPage: FC = () => {
     return `Free AI ${base}`;
   };
 
+  const categoriesItemListSchema = createItemListSchema(
+    "Free AI Software Categories",
+    "Explore 19 major AI categories and 241 specialized subcategories for free artificial intelligence tools.",
+    parentCategories.map(pc => ({
+      name: pc.name,
+      url: `https://free-ai-tools-directory.vercel.app/categories#${pc.id}`,
+      description: pc.description
+    }))
+  );
+
   return (
     <>
-      <Helmet>
-        <title>AI Tool Categories - Browse Free AI Solutions by 6 Super-Categories</title>
-        <meta
-          name="description"
-          content="Explore 242 free AI subcategories organized across 6 mother categories: Media Studio, Business, Productivity, Tech, Lifestyle, and General foundation tools."
-        />
-        <meta
-          name="keywords"
-          content="ai categories, super categories, free ai tools directory, ai media studio, ai business, ai productivity"
-        />
-        <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/categories" />
-      </Helmet>
+      <SEO
+        title={STATIC_PAGE_SEO.categories.title}
+        description={STATIC_PAGE_SEO.categories.description}
+        canonical="/categories"
+        ogType="website"
+        keywords="ai categories, super categories, free ai tools directory, ai media studio, ai business, ai productivity"
+        jsonLd={categoriesItemListSchema}
+      />
 
       <GridBackground className="pt-32 sm:pt-36 pb-24">
         <div className="px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
@@ -250,7 +261,13 @@ const CategoriesPage: FC = () => {
                         : "bg-white text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 border-slate-200 shadow-xs"
                     }`}
                   >
-                    <Icon className="w-3.5 h-3.5 shrink-0" />
+                    <CategoryIconBadge
+                      categoryId={parent.id}
+                      categoryName={parent.name}
+                      fallbackIcon={Icon}
+                      size="xs"
+                      className="!w-4 !h-4 rounded-sm border-0 shrink-0"
+                    />
                     <span>{parent.shortName}</span>
                   </button>
                 );
@@ -378,9 +395,13 @@ const CategoriesPage: FC = () => {
                   {/* Mother Category Header */}
                   <div className="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
                     <div className="flex items-center gap-4">
-                      <div className="w-14 h-14 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-600 shrink-0 shadow-inner">
-                        <ParentIcon className="w-7 h-7" />
-                      </div>
+                      <CategoryIconBadge
+                        categoryId={parent.id}
+                        categoryName={parent.name}
+                        fallbackIcon={ParentIcon}
+                        size="xl"
+                        className="!w-14 !h-14 rounded-2xl shadow-sm border-emerald-500/20 shrink-0"
+                      />
                       <div>
                         <div className="flex flex-wrap items-center gap-2.5 mb-1">
                           <h2 className="text-2xl sm:text-3xl font-display font-bold text-slate-900 tracking-tight">
@@ -425,8 +446,14 @@ const CategoriesPage: FC = () => {
                             className="p-5 sm:p-6 rounded-3xl bg-white border border-slate-100 shadow-sm scroll-mt-32"
                           >
                             <div className="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
-                              <div className="flex items-center gap-3">
-                                <div className="w-2.5 h-6 rounded-full bg-emerald-500 shadow-md shadow-emerald-500/40" />
+                              <div className="flex items-center gap-3.5">
+                                <CategoryIconBadge
+                                  categoryId={category.id}
+                                  categoryName={category.name}
+                                  fallbackIcon={Sparkles}
+                                  size="lg"
+                                  className="shadow-sm border-emerald-500/30"
+                                />
                                 <div>
                                   <h4 className="text-lg sm:text-xl font-display font-bold text-slate-900">
                                     {category.name}

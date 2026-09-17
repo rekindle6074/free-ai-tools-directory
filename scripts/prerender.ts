@@ -2,10 +2,13 @@ import fs from 'fs';
 import path from 'path';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
-import { StaticRouter } from 'react-router';
-import { HelmetProvider } from 'react-helmet-async';
-import { AppContent } from '../src/App';
-import { categories } from '../src/data/tools';
+import { createRequire } from 'module';
+import { categories, toolsByTag } from '../src/data/tools';
+
+const require = createRequire(import.meta.url);
+const { StaticRouter } = require('react-router');
+const { HelmetProvider } = require('react-helmet-async');
+const { AppContent } = require('../src/App');
 
 async function prerender() {
   const distDir = path.resolve(process.cwd(), 'dist');
@@ -18,6 +21,9 @@ async function prerender() {
 
   const template = fs.readFileSync(templatePath, 'utf-8');
 
+  // Extract all unique tool IDs
+  const uniqueToolIds = Array.from(new Set(Object.values(toolsByTag).flatMap(list => list.map(t => t.id))));
+
   // List of all routes to pre-render
   const routes = [
     '/',
@@ -27,7 +33,8 @@ async function prerender() {
     '/weekly-picks',
     '/legal',
     '/avatar-generator',
-    ...categories.flatMap(c => c.subCategories.map(s => '/category/' + s.path))
+    ...categories.flatMap(c => c.subCategories.map(s => '/category/' + s.path)),
+    ...uniqueToolIds.map(id => '/tool/' + id)
   ];
 
   console.log(`🚀 Starting static pre-rendering for ${routes.length} routes...`);
@@ -55,6 +62,8 @@ async function prerender() {
       let pageDesc = '';
       let pageKeywords = '';
       let canonicalUrl = '';
+      let ogImage = '';
+      let ogType = '';
       const jsonLdScripts: string[] = [];
 
       // Extract title
@@ -83,6 +92,22 @@ async function prerender() {
         canonicalUrl = canonicalMatch[1];
       }
 
+      // Extract OG image
+      const ogImageMatch =
+        renderedOutput.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']*)["'][^>]*>/i) ||
+        renderedOutput.match(/<meta[^>]*content=["']([^"']*)["'][^>]*property=["']og:image["'][^>]*>/i);
+      if (ogImageMatch) {
+        ogImage = ogImageMatch[1];
+      }
+
+      // Extract OG type
+      const ogTypeMatch =
+        renderedOutput.match(/<meta[^>]*property=["']og:type["'][^>]*content=["']([^"']*)["'][^>]*>/i) ||
+        renderedOutput.match(/<meta[^>]*content=["']([^"']*)["'][^>]*property=["']og:type["'][^>]*>/i);
+      if (ogTypeMatch) {
+        ogType = ogTypeMatch[1];
+      }
+
       // Extract JSON-LD scripts
       const scriptRegex = /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
       let sMatch;
@@ -93,7 +118,7 @@ async function prerender() {
       // Clean metadata elements from root content
       const cleanBody = renderedOutput
         .replace(/<title[^>]*>.*?<\/title>/gi, '')
-        .replace(/<meta[^>]*name=["'](description|keywords)["'][^>]*>/gi, '')
+        .replace(/<meta[^>]*>/gi, '')
         .replace(/<link[^>]*rel=["']canonical["'][^>]*>/gi, '')
         .replace(/<script[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, '');
 
@@ -123,13 +148,37 @@ async function prerender() {
         }
       }
 
-      // Update or insert canonical
-      if (canonicalUrl) {
-        if (pageHtml.includes('rel="canonical"')) {
-          pageHtml = pageHtml.replace(/<link rel=["']canonical["'] href=["'][^"']*["'][^>]*>/i, `<link rel="canonical" href="${canonicalUrl}" />`);
-        } else {
-          pageHtml = pageHtml.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}" />\n</head>`);
-        }
+      // Update or insert canonical & og:url & twitter:url
+      const targetCanonical = canonicalUrl || `https://free-ai-tools-directory.vercel.app${route === '/' ? '' : route}`;
+      if (pageHtml.includes('rel="canonical"')) {
+        pageHtml = pageHtml.replace(/<link rel=["']canonical["'] href=["'][^"']*["'][^>]*>/i, `<link rel="canonical" href="${targetCanonical}" />`);
+      } else {
+        pageHtml = pageHtml.replace('</head>', `  <link rel="canonical" href="${targetCanonical}" />\n</head>`);
+      }
+      pageHtml = pageHtml.replace(/<meta property=["']og:url["'] content=["'][^"']*["']/i, `<meta property="og:url" content="${targetCanonical}"`);
+      pageHtml = pageHtml.replace(/<meta name=["']twitter:url["'] content=["'][^"']*["']/i, `<meta name="twitter:url" content="${targetCanonical}"`);
+
+      // Update OG Image & Twitter Image
+      if (ogImage) {
+        pageHtml = pageHtml.replace(/<meta property=["']og:image["'] content=["'][^"']*["']/i, `<meta property="og:image" content="${ogImage}"`);
+        pageHtml = pageHtml.replace(/<meta name=["']twitter:image["'] content=["'][^"']*["']/i, `<meta name="twitter:image" content="${ogImage}"`);
+      }
+
+      // Update OG Type
+      if (ogType) {
+        pageHtml = pageHtml.replace(/<meta property=["']og:type["'] content=["'][^"']*["']/i, `<meta property="og:type" content="${ogType}"`);
+      }
+
+      // Ensure og:site_name is present
+      if (!pageHtml.includes('property="og:site_name"')) {
+        pageHtml = pageHtml.replace('</head>', '  <meta property="og:site_name" content="FreeAI Tools" />\n</head>');
+      }
+
+      // Ensure twitter:card is summary_large_image
+      if (pageHtml.includes('name="twitter:card"')) {
+        pageHtml = pageHtml.replace(/<meta name=["']twitter:card["'] content=["'][^"']*["']/i, '<meta name="twitter:card" content="summary_large_image"');
+      } else {
+        pageHtml = pageHtml.replace('</head>', '  <meta name="twitter:card" content="summary_large_image" />\n</head>');
       }
 
       // Insert JSON-LD scripts into head if found
