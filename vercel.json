@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/search",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
       "source": "/favorites",

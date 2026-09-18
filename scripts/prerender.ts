@@ -210,6 +210,58 @@ async function prerender() {
 
   const duration = ((Date.now() - startTime) / 1000).toFixed(2);
   console.log(`✅ Pre-rendering complete! ${renderedCount}/${routes.length} pages generated in ${duration}s.`);
+
+  // Generate sitemap1.xml directly from the pre-render routes list
+  console.log('🗺️ Generating dist/sitemap1.xml...');
+  const lastmod = new Date().toISOString().split('T')[0];
+  const baseUrl = 'https://free-ai-tools-directory.vercel.app';
+
+  // Exclude non-indexable, private, or search paths
+  const excludedPatterns = [
+    /^\/search/,
+    /^\/favorites/,
+    /^\/shared-folder/,
+    /^\/admin/,
+    /^\/portal-admin/
+  ];
+
+  const sitemapRoutes = routes.filter(route => !excludedPatterns.some(pattern => pattern.test(route)));
+
+  let staticCount = 0;
+  let categoryCount = 0;
+  let toolCount = 0;
+
+  const urlEntries = sitemapRoutes.map(route => {
+    let loc = `${baseUrl}${route === '/' ? '/' : route}`;
+    let changefreq = 'weekly';
+    let priority = '0.7';
+
+    if (route === '/') {
+      staticCount++;
+      changefreq = 'daily';
+      priority = '1.0';
+    } else if (['/browse', '/categories', '/insights', '/weekly-picks', '/legal', '/avatar-generator'].includes(route)) {
+      staticCount++;
+      changefreq = 'weekly';
+      priority = '0.8';
+    } else if (route.startsWith('/category/')) {
+      categoryCount++;
+      changefreq = 'weekly';
+      priority = '0.7';
+    } else if (route.startsWith('/tool/')) {
+      toolCount++;
+      changefreq = 'weekly';
+      priority = '0.6';
+    }
+
+    return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+  });
+
+  const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries.join('\n')}\n</urlset>\n`;
+
+  const sitemapPath = path.join(distDir, 'sitemap1.xml');
+  fs.writeFileSync(sitemapPath, sitemapXml, 'utf-8');
+  console.log(`✅ dist/sitemap1.xml generated successfully! Total URLs: ${urlEntries.length} (Static: ${staticCount}, Categories: ${categoryCount}, Tools: ${toolCount}).`);
 }
 
 prerender();
