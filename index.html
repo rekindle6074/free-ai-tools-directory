@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="OdVrrWzvAzmfuxZJxopa1XPww4RpksgzoCwdzDz9DGA" />
+    <meta name="theme-color" content="#10b981" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Free AI Tools Directory - Best Free SaaS Alternatives</title>
+    <meta name="description" content="Discover 2,500+ free AI tools across 19 curated categories. Compare top-rated free alternatives to expensive SaaS software for creators and developers in 2026." />
+    <meta name="keywords" content="free ai tools, ai directory, free ai alternatives, best free ai, ai tools catalog" />
+    <link rel="canonical" href="https://free-ai-tools-directory.vercel.app/" />
+
+    <!-- Open Graph / Facebook / LinkedIn / Vercel -->
+    <meta property="og:site_name" content="FreeAI Tools" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://free-ai-tools-directory.vercel.app/" />
+    <meta property="og:title" content="Free AI Tools Directory - Best Free SaaS Alternatives" />
+    <meta property="og:description" content="Discover 2,500+ free AI tools across 19 curated categories. Compare top-rated free alternatives to expensive SaaS software for creators and developers in 2026." />
+    <meta property="og:image" content="https://free-ai-tools-directory.vercel.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Free AI Tools Directory Preview Banner" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@FreeAITools" />
+    <meta name="twitter:url" content="https://free-ai-tools-directory.vercel.app/" />
+    <meta name="twitter:title" content="Free AI Tools Directory - Best Free SaaS Alternatives" />
+    <meta name="twitter:description" content="Discover 2,500+ free AI tools across 19 curated categories. Compare top-rated free alternatives to expensive SaaS software for creators and developers in 2026." />
+    <meta name="twitter:image" content="https://free-ai-tools-directory.vercel.app/og-image.jpg" />
+    <script>
+      // Safe Tally loader
+      window.onload = function() {
+        const script = document.createElement('script');
+        script.src = "https://tally.so/widgets/embed.js";
+        script.async = true;
+        document.head.appendChild(script);
+      }
+    </script>
+    <script>
+      // Automatically unregister any lingering service workers that might be causing hard-to-clear cache issues
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister().then(() => {
+              console.log('ServiceWorker unregistered');
+            });
+          }
+        });
+      }
+
+      // Utility to clear all application data if requested via URL
+      if (window.location.search.includes('clear=true')) {
+        localStorage.clear();
+        sessionStorage.clear();
+        if (window.indexedDB && window.indexedDB.databases) {
+           window.indexedDB.databases().then(dbs => {
+             dbs.forEach(db => window.indexedDB.deleteDatabase(db.name));
+           });
+        }
+        window.location.href = window.location.pathname;
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,16 @@
+{
+  "name": "FreeAI Tools",
+  "short_name": "FreeAI",
+  "description": "Discover the best free AI tools and alternatives.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

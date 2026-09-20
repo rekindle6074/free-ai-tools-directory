@@ -1,0 +1,102 @@
+import { FC, useEffect, useState } from "react";
+import { auth, db } from "../firebase";
+import { signOut, onAuthStateChanged, User } from "firebase/auth";
+import { doc, getDoc, setDoc, serverTimestamp } from "firebase/firestore";
+import { LogIn, LogOut, User as UserIcon } from "lucide-react";
+import AuthModal from "./AuthModal";
+import { Button } from "./ui/Button";
+import { LoginIcon } from "./ui/Icons";
+
+const AuthButton: FC = () => {
+  const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState(!!auth);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (!auth || !db) {
+      setLoading(false);
+      return;
+    }
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+      setLoading(false); // Call immediately to avoid blocking user display!
+      
+      if (currentUser && db) {
+        // Run Firestore profile registration in the background so it doesn't delay auth state restore
+        (async () => {
+          try {
+            const userRef = doc(db, "users", currentUser.uid);
+            await setDoc(userRef, {
+              uid: currentUser.uid,
+              email: currentUser.email || "",
+              displayName: currentUser.displayName || "",
+              lastSeenAt: serverTimestamp(),
+            }, { merge: true });
+          } catch (error: any) {
+            const isOffline = error?.code === "unavailable" || 
+                              error?.message?.includes("offline") || 
+                              (typeof navigator !== "undefined" && !navigator.onLine);
+            if (!isOffline) {
+              console.warn("Notice updating user profile in Firestore:", error);
+            }
+          }
+        })();
+      }
+    });
+    return () => unsubscribe();
+  }, []);
+
+  const handleLogout = async () => {
+    if (!auth) return;
+    try {
+      await signOut(auth);
+    } catch (error) {
+      console.error("Error signing out:", error);
+    }
+  };
+
+  if (loading) return <div className="w-6 h-6 rounded-full bg-slate-100 animate-pulse" />;
+
+  if (user) {
+    return (
+      <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 px-2.5 py-1 bg-emerald-50 rounded-full border border-emerald-100/70 backdrop-blur-md">
+          {user.photoURL ? (
+            <img src={user.photoURL} alt={user.displayName ? `${user.displayName}'s avatar` : "User profile avatar"} className="w-4 h-4 rounded-full border border-white" referrerPolicy="no-referrer" />
+          ) : (
+            <div className="w-4 h-4 rounded-full bg-emerald-500/10 flex items-center justify-center">
+              <UserIcon className="w-2.5 h-2.5 text-emerald-600" />
+            </div>
+          )}
+          <span className="text-[11px] font-bold text-slate-700 uppercase tracking-wider hidden lg:inline pr-0.5">{user.displayName?.split(" ")[0] || "User"}</span>
+        </div>
+        <button 
+          onClick={handleLogout}
+          className="p-1 text-slate-400 hover:text-red-500 transition-colors cursor-pointer"
+          title="Sign out"
+        >
+          <LogOut className="w-3.5 h-3.5" />
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <button 
+        onClick={() => setIsModalOpen(true)}
+        className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200/80 rounded-full transition-all shadow-sm hover:border-emerald-300 cursor-pointer"
+      >
+        <LogIn className="w-3.5 h-3.5 text-emerald-600" />
+        <span>Sign in</span>
+      </button>
+      <AuthModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        allowSignup={false}
+      />
+    </>
+  );
+};
+
+export default AuthButton;

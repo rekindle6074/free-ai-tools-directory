@@ -1,0 +1,18 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+firebase-applet-config.json
+SEO_STRATEGY.md
+domains.txt
+/public/icons/
+
+# Private tools catalog (Restricted to registered members - Never commit to public GitHub)
+src/data/tools/
+src/data/private-tools/
+server/data/tools-vault/
+

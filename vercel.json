@@ -1,0 +1,47 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/search",
+      "destination": "/"
+    },
+    {
+      "source": "/favorites",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/shared-folder/:shareId",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/browse",
+      "destination": "/browse/index.html"
+    },
+    {
+      "source": "/categories",
+      "destination": "/categories/index.html"
+    },
+    {
+      "source": "/insights",
+      "destination": "/insights/index.html"
+    },
+    {
+      "source": "/weekly-picks",
+      "destination": "/weekly-picks/index.html"
+    },
+    {
+      "source": "/legal",
+      "destination": "/legal/index.html"
+    },
+    {
+      "source": "/avatar-generator",
+      "destination": "/avatar-generator/index.html"
+    },
+    {
+      "source": "/category/:slug",
+      "destination": "/category/:slug/index.html"
+    }
+  ]
+}
