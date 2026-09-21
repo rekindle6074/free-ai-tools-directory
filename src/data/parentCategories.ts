@@ -43,9 +43,11 @@ export const parentCategories: ParentCategory[] = [
         items: [
           { name: "Free AI Music Generator", path: "free-ai-music-generator" },
           { name: "Free AI Song Generator", path: "free-ai-song-generator" },
+          { name: "Free AI Singing Generator", path: "free-ai-singing-generator" },
           { name: "Free AI Instrumental Generator", path: "free-ai-instrumental-generator" },
           { name: "Free AI Beat Generator", path: "free-ai-beat-generator" },
           { name: "Free AI Melody Generator", path: "free-ai-melody-generator" },
+          { name: "Free AI Midi Generator", path: "free-ai-midi-generator" },
           { name: "Free AI Text-to-Music", path: "free-ai-text-to-music" }
         ]
       },
@@ -64,10 +66,13 @@ export const parentCategories: ParentCategory[] = [
         title: "Audio Editing & Production",
         items: [
           { name: "Free AI Audio Editing", path: "free-ai-audio-editing" },
+          { name: "Free AI Audio Enhancer", path: "free-ai-audio-enhancer" },
           { name: "Free AI Mastering", path: "free-ai-mastering" },
           { name: "Free AI Audio Splitter", path: "free-ai-audio-splitter" },
           { name: "Free AI Vocal Remover", path: "free-ai-vocal-remover" },
           { name: "Free AI Noise Cancellation", path: "free-ai-noise-cancellation" },
+          { name: "Free AI Sound Effect Generator", path: "free-ai-sfx-generator" },
+          { name: "Free AI Podcast", path: "free-ai-podcast" },
           { name: "Free Chord AI", path: "free-chord-ai" }
         ]
       },
@@ -85,7 +90,12 @@ export const parentCategories: ParentCategory[] = [
           { name: "Free Text to Image", path: "free-text-to-image" },
           { name: "Free AI Photo Editor", path: "free-ai-photo-editor" },
           { name: "Free AI Image Enhancer", path: "free-ai-image-enhancer" },
+          { name: "Free AI Image Upscaler", path: "free-ai-image-upscaler" },
+          { name: "Free AI Photo Filter", path: "free-ai-photo-filter" },
+          { name: "Free AI Photo Restoration", path: "free-ai-photo-restoration" },
+          { name: "Free AI Eraser", path: "free-ai-eraser" },
           { name: "Free AI Background Remover", path: "free-ai-background-remover" },
+          { name: "Free AI Product Photography", path: "free-ai-product-photography" },
           { name: "Free AI Avatar Generator", path: "free-ai-avatar-generator" }
         ]
       },
