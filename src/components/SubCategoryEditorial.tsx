@@ -87,9 +87,10 @@ export const SubCategoryEditorial: FC<SubCategoryEditorialProps> = ({
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span className="text-base text-slate-500 leading-normal">
-                      {feat}
-                    </span>
+                    <span
+                      className="text-base text-slate-500 leading-normal"
+                      dangerouslySetInnerHTML={{ __html: feat }}
+                    />
                   </li>
                 ))}
               </ul>

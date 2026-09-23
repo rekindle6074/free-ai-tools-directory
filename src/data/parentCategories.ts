@@ -106,7 +106,19 @@ export const parentCategories: ParentCategory[] = [
           { name: "Free AI Video Editor", path: "free-ai-video-editor" },
           { name: "Free AI Animation Generator", path: "free-ai-animation-generator" },
           { name: "Free Image to Video", path: "free-image-to-video" },
-          { name: "Free AI Lip Sync Generator", path: "free-ai-lip-sync-generator" }
+          { name: "Free AI Avatar Video Generator", path: "free-ai-avatar-video-generator" },
+          { name: "Free AI Lip Sync Generator", path: "free-ai-lip-sync-generator" },
+          { name: "Free AI Face Swap Video", path: "free-ai-face-swap-video" },
+          { name: "Free Script To Video AI Generator", path: "free-script-to-video" },
+          { name: "Free AI Commercial Generator", path: "free-ai-commercial-generator" },
+          { name: "Free AI Video Enhancer", path: "free-ai-video-enhancer" },
+          { name: "Free AI Video Upscaler", path: "free-ai-video-upscaler" },
+          { name: "Free AI UGC Video Generator", path: "free-ai-ugc-video-generator" },
+          { name: "Free Video to Video", path: "free-video-to-video" },
+          { name: "Free AI TikTok Video Generator", path: "free-ai-tiktok-generator" },
+          { name: "Free AI YouTube Video Maker", path: "free-ai-youtube-maker" },
+          { name: "Free AI Short Video Generator", path: "free-ai-short-video" },
+          { name: "Free AI Reel Generator", path: "free-ai-reel-generator" }
         ]
       }
     ]
@@ -272,6 +284,7 @@ export const parentCategories: ParentCategory[] = [
           { name: "Free AI App Builder", path: "free-ai-app-builder" },
           { name: "Free AI Website Builder", path: "ai-website-builder" },
           { name: "Free AI Landing Page Builder", path: "ai-landing-page-builder" },
+          { name: "Free AI Browsers", path: "free-ai-browsers" },
           { name: "Free AI Web Scraping", path: "web-scraping" }
         ]
       },

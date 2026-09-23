@@ -110,7 +110,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
           "@type": "Answer",
           "text": sub.paragraphs
             ? sub.paragraphs.map(p => p.replace(/<[^>]*>?/gm, "")).join(" ")
-            : sub.features?.join(". ")
+            : sub.features?.map(f => f.replace(/<[^>]*>?/gm, "")).join(". ")
         }
       }))
   };
