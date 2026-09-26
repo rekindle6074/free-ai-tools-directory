@@ -25,6 +25,7 @@ import {
   getParentCategoryStats,
   ParentCategory
 } from "../data/parentCategories";
+import { categories } from "../data/tools";
 
 const PARENT_ICON_MAP: Record<string, React.ElementType> = {
   "ai-media-studio": Clapperboard,
@@ -183,6 +184,8 @@ const CategoriesPage: FC = () => {
       ? parentCategories
       : parentCategories.filter((p) => p.id === selectedParentId);
 
+  const totalSubcategories = categories.reduce((sum, c) => sum + c.subCategories.length, 0);
+
   const getDisplayTitle = (name: string) => {
     let base = name;
     if (base.startsWith("Free AI ")) base = base.substring(8);
@@ -193,7 +196,7 @@ const CategoriesPage: FC = () => {
 
   const categoriesItemListSchema = createItemListSchema(
     "Free AI Software Categories",
-    "Explore 19 major AI categories and 241 specialized subcategories for free artificial intelligence tools.",
+    `Explore ${categories.length} major AI categories and ${totalSubcategories} specialized subcategories for free artificial intelligence tools.`,
     parentCategories.map(pc => ({
       name: pc.name,
       url: `https://free-ai-tools-directory.vercel.app/categories#${pc.id}`,
@@ -224,7 +227,7 @@ const CategoriesPage: FC = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 text-emerald-700 border border-emerald-500/20 text-xs font-bold uppercase tracking-wider mb-6">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Super-Categories Architecture &bull; 6 Hubs</span>
+              <span>Super-Categories Architecture &bull; {parentCategories.length} Hubs</span>
             </div>
 
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-slate-900 mb-6 tracking-[-0.04em] leading-[0.95]">
@@ -232,7 +235,7 @@ const CategoriesPage: FC = () => {
             </h1>
 
             <p className="text-lg sm:text-xl text-slate-500 max-w-2xl mx-auto mb-8 font-medium">
-              242 subcategories precisely grouped into 6 mother categories for smooth, intuitive, and cognitive-load-free navigation.
+              {totalSubcategories} subcategories precisely grouped into {parentCategories.length} mother categories for smooth, intuitive, and cognitive-load-free navigation.
             </p>
 
             {/* Parent Category Filter Buttons */}
@@ -245,7 +248,7 @@ const CategoriesPage: FC = () => {
                     : "bg-white text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 border-slate-200 shadow-xs"
                 }`}
               >
-                All 6 Hubs
+                All {parentCategories.length} Hubs
               </button>
 
               {parentCategories.map((parent) => {
@@ -313,10 +316,10 @@ const CategoriesPage: FC = () => {
               </div>
               <div>
                 <h4 className="font-display font-bold text-base sm:text-lg text-slate-900">
-                  6 Super-Categories Architecture &bull; FreeAI Tools
+                  {parentCategories.length} Super-Categories Architecture &bull; FreeAI Tools
                 </h4>
                 <p className="text-xs sm:text-sm text-slate-500 mt-0.5 max-w-2xl">
-                  Ergonomic consolidation of 242 granular subcategories into 6 clearly structured parent categories with contextual mega-menu navigation.
+                  Ergonomic consolidation of {totalSubcategories} granular subcategories into {parentCategories.length} clearly structured parent categories with contextual mega-menu navigation.
                 </p>
               </div>
             </div>
@@ -325,10 +328,10 @@ const CategoriesPage: FC = () => {
             <div className="flex items-center gap-3 shrink-0">
               <div className="text-center px-4 py-2 rounded-2xl bg-slate-100/80 border border-slate-200">
                 <div className="text-xs font-bold text-slate-400 uppercase tracking-wider text-[10px]">
-                  Total Tools
+                  Subcategories
                 </div>
                 <div className="font-display font-bold text-emerald-600 text-lg">
-                  242+
+                  {totalSubcategories}
                 </div>
               </div>
               <div className="text-center px-4 py-2 rounded-2xl bg-slate-100/80 border border-slate-200">
@@ -336,7 +339,7 @@ const CategoriesPage: FC = () => {
                   Super Categories
                 </div>
                 <div className="font-display font-bold text-slate-900 text-lg">
-                  6
+                  {parentCategories.length}
                 </div>
               </div>
               <div className="text-center px-4 py-2 rounded-2xl bg-emerald-50 border border-emerald-200">
@@ -359,7 +362,7 @@ const CategoriesPage: FC = () => {
                 Detailed Directory by Hub
               </h2>
               <p className="text-sm text-slate-500 mt-1">
-                Explore all 242 subcategories with direct instant search filtering.
+                Explore all {totalSubcategories} subcategories with direct instant search filtering.
               </p>
             </div>
 

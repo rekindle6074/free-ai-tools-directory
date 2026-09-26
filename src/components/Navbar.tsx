@@ -73,7 +73,7 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
             Privacy-First • Open Access • No Tracking
           </span>
           <span className="hidden sm:inline-block text-slate-400">|</span>
-          <span className="hidden sm:inline-block text-slate-500 font-normal">Super-Categories Navigation System (242 Subcategories Grouped)</span>
+          <span className="hidden sm:inline-block text-slate-500 font-normal">Super-Categories Navigation System (241 Subcategories Grouped)</span>
         </div>
         <div className="flex items-center gap-4 text-slate-400 text-[11px]">
           <span className="font-mono bg-white/70 px-2 py-0.5 rounded border border-slate-200">1440px Desktop View</span>

@@ -194,39 +194,32 @@ export const categories: Category[] = [
     color: "emerald",
     subCategories: [
       { name: "AI Tools Directory Office", tag: "ai-office", path: "ai-office", count: 0 },
-      { name: "AI Smart Productivity", tag: "ai-smart-productivity", path: "ai-smart-productivity", count: 69 },
-      { name: "AI File Management", tag: "ai-file-management", path: "ai-file-management", count: 43 },
-      { name: "AI Search", tag: "ai-search", path: "ai-search", count: 52 },
+      { name: "AI Smart Productivity", tag: "ai-smart-productivity", path: "ai-smart-productivity", count: 43 },
+      { name: "AI File Management", tag: "ai-file-management", path: "ai-file-management", count: 33 },
+      { name: "AI Search", tag: "ai-search", path: "ai-search", count: 36 },
       { name: "Email & Communication", tag: "ai-email", path: "ai-email", count: 5 },
-      { name: "Planning & Calendar", tag: "ai-planning", path: "ai-planning", count: 4 },
-      { name: "Note Taking", tag: "ai-notes", path: "ai-notes", count: 4 },
+      { name: "Planning & Calendar", tag: "ai-planning", path: "ai-planning", count: 1 },
+      { name: "Note Taking", tag: "ai-notes", path: "ai-notes", count: 1 },
       { name: "Meeting Assistant", tag: "ai-meetings", path: "ai-meetings", count: 4 },
-      { name: "Document Processing", tag: "ai-documents", path: "ai-documents", count: 4 },
+      { name: "Document Processing", tag: "ai-documents", path: "ai-documents", count: 2 },
       { name: "Automation", tag: "ai-automation", path: "ai-automation", count: 4 }
     ]
   },
   {
-    id: "business-management",
-    name: "Business Management",
+    id: "business-ai",
+    name: "Business AI",
     color: "emerald",
     subCategories: [
-      { name: "Free AI CRM", tag: "free-ai-crm", path: "free-ai-crm", count: 50 },
-      { name: "Free AI Project Management", tag: "free-ai-project-management", path: "free-ai-project-management", count: 50 },
-      { name: "Free AI Workflow", tag: "free-ai-workflow", path: "free-ai-workflow", count: 50 },
-      { name: "Free AI Recruiting", tag: "free-ai-recruiting", path: "free-ai-recruiting", count: 50 },
-      { name: "Free AI Customer Service", tag: "free-ai-customer-service", path: "free-ai-customer-service", count: 50 },
-      { name: "Free AI Interview Assistant", tag: "free-ai-interview-assistant", path: "free-ai-interview-assistant", count: 50 },
-      { name: "Free AI Call Center", tag: "free-ai-call-center", path: "free-ai-call-center", count: 50 },
-      { name: "Free AI Product Manager", tag: "free-ai-product-manager", path: "free-ai-product-manager", count: 50 },
-      { name: "Free AI ERP", tag: "free-ai-erp", path: "free-ai-erp", count: 19 },
-      { name: "Free AI Roadmap", tag: "free-ai-roadmap", path: "free-ai-roadmap", count: 35 }
-    ]
-  },
-  {
-    id: "business-research",
-    name: "Business Research",
-    color: "emerald",
-    subCategories: [
+      { name: "Free AI CRM", tag: "free-ai-crm", path: "free-ai-crm", count: 13 },
+      { name: "Free AI Project Management", tag: "free-ai-project-management", path: "free-ai-project-management", count: 27 },
+      { name: "Free AI Workflow", tag: "free-ai-workflow", path: "free-ai-workflow", count: 26 },
+      { name: "Free AI Recruiting", tag: "free-ai-recruiting", path: "free-ai-recruiting", count: 35 },
+      { name: "Free AI Customer Service", tag: "free-ai-customer-service", path: "free-ai-customer-service", count: 14 },
+      { name: "Free AI Interview Assistant", tag: "free-ai-interview-assistant", path: "free-ai-interview-assistant", count: 28 },
+      { name: "Free AI Call Center", tag: "free-ai-call-center", path: "free-ai-call-center", count: 11 },
+      { name: "Free AI Product Manager", tag: "free-ai-product-manager", path: "free-ai-product-manager", count: 17 },
+      { name: "Free AI ERP", tag: "free-ai-erp", path: "free-ai-erp", count: 4 },
+      { name: "Free AI Roadmap", tag: "free-ai-roadmap", path: "free-ai-roadmap", count: 7 },
       { name: "Free AI Business Name Generator", tag: "free-ai-business-name-generator", path: "free-ai-business-name-generator", count: 41 },
       { name: "Free AI Crypto", tag: "free-ai-crypto", path: "free-ai-crypto", count: 114 },
       { name: "Free AI Consulting", tag: "free-ai-consulting", path: "free-ai-consulting", count: 50 },
@@ -266,7 +259,18 @@ export const categories: Category[] = [
       { name: "AI Newsletter", tag: "ai-newsletter", path: "ai-newsletter", count: 43 },
       { name: "AI Religion", tag: "ai-religion", path: "ai-religion", count: 27 },
       { name: "AI Recipe", tag: "ai-recipe", path: "ai-recipe", count: 50 },
-      { name: "AI Travel", tag: "ai-travel", path: "ai-travel", count: 50 }
+      { name: "AI Travel", tag: "ai-travel", path: "ai-travel", count: 50 },
+      { name: "AI Detection", tag: "ai-detection", path: "ai-detection", count: 77 },
+      { name: "Free Large Language Models (LLMs)", tag: "free-llms", path: "free-llms", count: 51 },
+      { name: "Free AI Models", tag: "free-ai-models", path: "free-ai-models", count: 31 },
+      { name: "Free Open Source AI Models", tag: "free-open-source-ai-models", path: "free-open-source-ai-models", count: 65 },
+      { name: "Free AI Tools Directory", tag: "free-ai-tools-directory", path: "free-ai-tools-directory", count: 57 },
+      { name: "Free AI Games", tag: "free-ai-games", path: "free-ai-games", count: 58 },
+      { name: "Free AI Game Generator", tag: "free-ai-game-generator", path: "free-ai-game-generator", count: 30 },
+      { name: "Free AI Robot", tag: "free-ai-robot", path: "free-ai-robot", count: 31 },
+      { name: "Free Minecraft AI", tag: "free-minecraft-ai", path: "free-minecraft-ai", count: 17 },
+      { name: "Free AI Poker", tag: "free-ai-poker", path: "free-ai-poker", count: 12 },
+      { name: "The AI Toolbox", tag: "other-misc", path: "other-misc", count: 63 }
     ]
   },
   {
@@ -371,24 +375,6 @@ export const categories: Category[] = [
     ]
   },
   {
-    id: "other",
-    name: "Other",
-    color: "emerald",
-    subCategories: [
-      { name: "AI Detection", tag: "ai-detection", path: "ai-detection", count: 77 },
-      { name: "Free Large Language Models (LLMs)", tag: "free-llms", path: "free-llms", count: 51 },
-      { name: "Free AI Models", tag: "free-ai-models", path: "free-ai-models", count: 31 },
-      { name: "Free Open Source AI Models", tag: "free-open-source-ai-models", path: "free-open-source-ai-models", count: 65 },
-      { name: "Free AI Tools Directory", tag: "free-ai-tools-directory", path: "free-ai-tools-directory", count: 57 },
-      { name: "Free AI Games", tag: "free-ai-games", path: "free-ai-games", count: 58 },
-      { name: "Free AI Game Generator", tag: "free-ai-game-generator", path: "free-ai-game-generator", count: 30 },
-      { name: "Free AI Robot", tag: "free-ai-robot", path: "free-ai-robot", count: 31 },
-      { name: "Free Minecraft AI", tag: "free-minecraft-ai", path: "free-minecraft-ai", count: 17 },
-      { name: "Free AI Poker", tag: "free-ai-poker", path: "free-ai-poker", count: 12 },
-      { name: "Other", tag: "other-misc", path: "other-misc", count: 63 }
-    ]
-  },
-  {
     id: "smart-medical-directory",
     name: "Smart Medical Directory",
     color: "emerald",
@@ -412,10 +398,9 @@ import { developer_tools_tools } from './tools/developer-tools';
 import { education_translation_tools } from './tools/education-translation';
 import { office_productivity_tools } from './tools/office-productivity';
 import { ai_chatbots_tools } from './tools/ai-chatbots';
-import { business_management_tools } from './tools/business-management';
+import { business_ai_tools } from './tools/business-ai';
 import { interior_architectural_tools } from './tools/interior-architectural';
 import { other_tools } from './tools/other';
-import { business_research_tools } from './tools/business-research';
 import { image_analysis_tools } from './tools/image-analysis';
 import { law_finance_tools } from './tools/law-finance';
 import { marketing_tools } from './tools/marketing';
@@ -433,10 +418,9 @@ export const toolsByTag: Record<string, Tool[]> = {
   ...education_translation_tools,
   ...office_productivity_tools,
   ...ai_chatbots_tools,
-  ...business_management_tools,
+  ...business_ai_tools,
   ...interior_architectural_tools,
   ...other_tools,
-  ...business_research_tools,
   ...image_analysis_tools,
   ...law_finance_tools,
   ...marketing_tools,

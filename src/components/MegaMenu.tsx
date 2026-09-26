@@ -48,6 +48,7 @@ const CATEGORY_ICON_MAP: Record<string, React.ElementType> = {
   "music-audio": MusicIcon,
   "creative-design": Palette,
   "marketing": Megaphone,
+  "business-ai": Briefcase,
   "business-management": Briefcase,
   "business-research": Search,
   "social-growth-hub": Share2,

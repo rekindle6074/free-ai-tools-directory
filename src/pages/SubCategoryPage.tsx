@@ -53,6 +53,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
   const tools = toolsByTag[subCategory.tag] || [];
 
   const getDisplayTitle = (name: string) => {
+    if (name === "The AI Toolbox") return "The AI Toolbox";
     let base = name;
     if (base.startsWith("Free AI ")) base = base.substring(8);
     else if (base.startsWith("Free ")) base = base.substring(5);
@@ -61,7 +62,7 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
   };
 
   const displayTitle = getDisplayTitle(subCategory.name);
-  const cleanName = subCategory.name.replace("Free AI", "").replace("Free", "").replace("AI", "").trim();
+  const cleanName = subCategory.name === "The AI Toolbox" ? "AI Toolbox" : subCategory.name.replace("Free AI", "").replace("Free", "").replace("AI", "").trim();
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",

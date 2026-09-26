@@ -713,19 +713,19 @@ const HomePage: FC = () => {
         </div>
       </section>
 
-      {/* 6 Super-Categories Grid */}
+      {/* Super-Categories Grid */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 text-emerald-700 border border-emerald-500/20 text-xs font-bold uppercase tracking-wider mb-4">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>6 Super-Categories Architecture</span>
+              <span>{parentCategories.length} Super-Categories Architecture</span>
             </div>
             <h2 className="text-4xl md:text-6xl font-display font-bold text-slate-900 mb-6 tracking-[-0.04em]">
               Search <span className="text-emerald-600">Everything</span>
             </h2>
             <p className="text-lg text-slate-500 font-medium max-w-2xl mx-auto">
-              242 subcategories meticulously organized into 6 thematic hubs to instantly find the right AI tool for your workflow.
+              {categories.reduce((acc, c) => acc + c.subCategories.length, 0)} subcategories meticulously organized into {parentCategories.length} thematic hubs to instantly find the right AI tool for your workflow.
             </p>
           </div>
           

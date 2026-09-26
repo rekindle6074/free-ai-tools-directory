@@ -133,8 +133,7 @@ export const parentCategories: ParentCategory[] = [
     iconName: "TrendingUp",
     categoryIds: [
       "marketing",
-      "business-management",
-      "business-research",
+      "business-ai",
       "social-growth-hub",
       "neural-analytics-hub",
       "law-finance"
@@ -168,12 +167,15 @@ export const parentCategories: ParentCategory[] = [
         ]
       },
       {
-        title: "Strategy & Management",
+        title: "Strategy & Operations",
         items: [
           { name: "Free AI CRM", path: "free-ai-crm" },
           { name: "Free AI Project Management", path: "free-ai-project-management" },
           { name: "Free AI Workflow", path: "free-ai-workflow" },
-          { name: "Free AI Pitch Deck Generator", path: "free-ai-pitch-deck-generator" }
+          { name: "Free AI Recruiting", path: "free-ai-recruiting" },
+          { name: "Free AI Business Ideas Generator", path: "free-ai-business-ideas-generator" },
+          { name: "Free AI Business Name Generator", path: "free-ai-business-name-generator" },
+          { name: "Free AI Crypto", path: "free-ai-crypto" }
         ]
       },
       {
@@ -251,7 +253,9 @@ export const parentCategories: ParentCategory[] = [
           { name: "Language Learning Tools", path: "ai-languages" },
           { name: "AI Education", path: "ai-education" },
           { name: "AI Mathematics", path: "ai-mathematics" },
-          { name: "Teacher Tools", path: "ai-teachers" }
+          { name: "Teacher Tools", path: "ai-teachers" },
+          { name: "Student Tools", path: "ai-students" },
+          { name: "Assessment Tools", path: "ai-assessment" }
         ]
       }
     ]
@@ -304,8 +308,8 @@ export const parentCategories: ParentCategory[] = [
     id: "lifestyle-specialized",
     name: "Lifestyle & Specialized",
     shortName: "Lifestyle & Spec.",
-    description: "Personal daily life, health, home & architecture",
-    focus: "Personal daily life, health, and specific niches.",
+    description: "Daily life, health, home, games, models & utilities",
+    focus: "Personal lifestyle, smart healthcare, gaming, open models, and utilities.",
     badge: "Lifestyle",
     iconName: "HeartPulse",
     categoryIds: [
@@ -314,6 +318,16 @@ export const parentCategories: ParentCategory[] = [
       "smart-medical-directory"
     ],
     topicSections: [
+      {
+        title: "Daily Life & Travel",
+        items: [
+          { name: "AI Trip Planner", path: "ai-trip-planner" },
+          { name: "AI Fitness", path: "ai-fitness" },
+          { name: "AI Recipe", path: "ai-recipe" },
+          { name: "AI Travel", path: "ai-travel" },
+          { name: "AI Shopping Assistant", path: "ai-shopping-assistant" }
+        ]
+      },
       {
         title: "Health & Well-being",
         items: [
@@ -335,30 +349,6 @@ export const parentCategories: ParentCategory[] = [
         ]
       },
       {
-        title: "Daily Life & Travel",
-        items: [
-          { name: "AI Trip Planner", path: "ai-trip-planner" },
-          { name: "AI Fitness", path: "ai-fitness" },
-          { name: "AI Recipe", path: "ai-recipe" },
-          { name: "AI Travel", path: "ai-travel" },
-          { name: "AI Shopping Assistant", path: "ai-shopping-assistant" }
-        ]
-      }
-    ]
-  },
-  {
-    id: "general",
-    name: "General",
-    shortName: "More",
-    description: "Foundation models, games, open-source & utilities",
-    focus: "Uncategorized tools, foundation models, and utilities.",
-    badge: "Foundation & Misc",
-    iconName: "LayoutGrid",
-    categoryIds: [
-      "other"
-    ],
-    topicSections: [
-      {
         title: "Models & Detection",
         items: [
           { name: "Free Large Language Models (LLMs)", path: "free-llms" },
@@ -375,7 +365,8 @@ export const parentCategories: ParentCategory[] = [
           { name: "Free AI Game Generator", path: "free-ai-game-generator" },
           { name: "Free AI Robot", path: "free-ai-robot" },
           { name: "Free Minecraft AI", path: "free-minecraft-ai" },
-          { name: "Other AI Utilities", path: "other-misc" }
+          { name: "Free AI Poker", path: "free-ai-poker" },
+          { name: "The AI Toolbox", path: "other-misc" }
         ]
       }
     ]

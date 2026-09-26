@@ -141,7 +141,7 @@ export function getSubCategorySeoDescription(subCategoryName: string): string {
 export const STATIC_PAGE_SEO = {
   home: {
     title: "Free AI Tools Directory - Best Free SaaS Alternatives", // 53 chars
-    description: "Discover 2,500+ free AI tools across 19 curated categories. Compare top-rated free alternatives to expensive SaaS software for creators and developers in 2026.", // 159 chars
+    description: "Discover 2,500+ free AI tools across 18 curated categories. Compare top-rated free alternatives to expensive SaaS software for creators and developers in 2026.", // 159 chars
   },
   browse: {
     title: "Browse Free AI Tools - Complete 2026 Software Catalog", // 53 chars
@@ -149,7 +149,7 @@ export const STATIC_PAGE_SEO = {
   },
   categories: {
     title: "Free AI Categories - 241 Subcategories & Free Software", // 54 chars
-    description: "Navigate 19 core AI categories and 241 specialized subcategories. Find free image generators, audio tools, coding assistants, and productivity software today.", // 158 chars
+    description: "Navigate 18 core AI categories and 241 specialized subcategories. Find free image generators, audio tools, coding assistants, and productivity software today.", // 158 chars
   },
   insights: {
     title: "Free AI Insights - Trends & Best Free Software in 2026", // 54 chars

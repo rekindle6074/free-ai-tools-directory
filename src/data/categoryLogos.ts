@@ -138,6 +138,22 @@ export const CATEGORY_CUSTOM_LOGOS: Record<string, string> = {
   "3D Design & Collaboration": "/categories/Design-Editing.png",
   "free-ai-3d-design-collab": "/categories/Design-Editing.png",
   "3d-design-collab": "/categories/Design-Editing.png",
+  "ai-3d-assets-resources": "/categories/Design-Editing.png",
+  "3D Assets & Resources": "/categories/Design-Editing.png",
+  "free-ai-3d-assets-resources": "/categories/Design-Editing.png",
+  "3d-assets-resources": "/categories/Design-Editing.png",
+  "ai-3d-rendering-viz": "/categories/Design-Editing.png",
+  "3D Rendering & Visualization": "/categories/Design-Editing.png",
+  "free-ai-3d-rendering-viz": "/categories/Design-Editing.png",
+  "3d-rendering-viz": "/categories/Design-Editing.png",
+  "ai-3d-scanning-capture": "/categories/Design-Editing.png",
+  "3D Scanning & Capture": "/categories/Design-Editing.png",
+  "free-ai-3d-scanning-capture": "/categories/Design-Editing.png",
+  "3d-scanning-capture": "/categories/Design-Editing.png",
+  "ai-specialized-3d": "/categories/Design-Editing.png",
+  "Specialized 3D Applications": "/categories/Design-Editing.png",
+  "free-ai-specialized-3d": "/categories/Design-Editing.png",
+  "specialized-3d": "/categories/Design-Editing.png",
 
   // 2. Writing & Documents
   "office-productivity": "/categories/Productivity.png",
@@ -385,12 +401,15 @@ export const CATEGORY_CUSTOM_LOGOS: Record<string, string> = {
   // 11. Marketing & Business
   "marketing": "/categories/Marketing.png",
   "Marketing": "/categories/Marketing.png",
-  "business-management": "/categories/Business-Management.png",
-  "Business-Management": "/categories/Business-Management.png",
-  "Business Management": "/categories/Business-Management.png",
-  "business-research": "/categories/Business-Research.png",
-  "Business-Research": "/categories/Business-Research.png",
-  "Business Research": "/categories/Business-Research.png",
+  "business-ai": "/categories/business-ai.png",
+  "Business-AI": "/categories/business-ai.png",
+  "Business AI": "/categories/business-ai.png",
+  "business-management": "/categories/business-ai.png",
+  "Business-Management": "/categories/business-ai.png",
+  "Business Management": "/categories/business-ai.png",
+  "business-research": "/categories/business-ai.png",
+  "Business-Research": "/categories/business-ai.png",
+  "Business Research": "/categories/business-ai.png",
   "social-growth-hub": "/categories/Social-Growth-Hub.png",
   "Social-Growth-Hub": "/categories/Social-Growth-Hub.png",
   "Social Growth Hub": "/categories/Social-Growth-Hub.png",
@@ -495,30 +514,60 @@ export const CATEGORY_CUSTOM_LOGOS: Record<string, string> = {
   "education": "/categories/AI-Education-and-Translation.png",
   "translation": "/categories/AI-Education-and-Translation.png",
   "ai-education": "/categories/AI-Education-and-Translation.png",
+  "AI Education": "/categories/AI-Education-and-Translation.png",
+  "free-ai-education": "/categories/AI-Education-and-Translation.png",
   "ai-pedagogical": "/categories/AI-Education-and-Translation.png",
+  "AI Pedagogical Assistance": "/categories/AI-Education-and-Translation.png",
+  "free-ai-pedagogical": "/categories/AI-Education-and-Translation.png",
+  "pedagogical": "/categories/AI-Education-and-Translation.png",
   "ai-intelligent-search": "/categories/AI-Education-and-Translation.png",
+  "AI Intelligent Search": "/categories/AI-Education-and-Translation.png",
+  "free-ai-intelligent-search": "/categories/AI-Education-and-Translation.png",
+  "intelligent-search": "/categories/AI-Education-and-Translation.png",
   "ai-mathematics": "/categories/AI-Education-and-Translation.png",
+  "AI Mathematics": "/categories/AI-Education-and-Translation.png",
+  "free-ai-mathematics": "/categories/AI-Education-and-Translation.png",
+  "mathematics": "/categories/AI-Education-and-Translation.png",
   "ai-translation": "/categories/AI-Education-and-Translation.png",
+  "AI Translation": "/categories/AI-Education-and-Translation.png",
+  "free-ai-translation": "/categories/AI-Education-and-Translation.png",
   "ai-teachers": "/categories/AI-Education-and-Translation.png",
-  "ai-students": "/categories/AI-Education-and-Translation.png",
-  "ai-languages": "/categories/AI-Education-and-Translation.png",
-  "ai-assessment": "/categories/AI-Education-and-Translation.png",
   "Teacher Tools": "/categories/AI-Education-and-Translation.png",
+  "free-ai-teachers": "/categories/AI-Education-and-Translation.png",
+  "teachers": "/categories/AI-Education-and-Translation.png",
+  "teacher-tools": "/categories/AI-Education-and-Translation.png",
+  "ai-students": "/categories/AI-Education-and-Translation.png",
   "Student Tools": "/categories/AI-Education-and-Translation.png",
+  "free-ai-students": "/categories/AI-Education-and-Translation.png",
+  "students": "/categories/AI-Education-and-Translation.png",
+  "student-tools": "/categories/AI-Education-and-Translation.png",
+  "ai-languages": "/categories/AI-Education-and-Translation.png",
   "Language Learning Tools": "/categories/AI-Education-and-Translation.png",
+  "free-ai-languages": "/categories/AI-Education-and-Translation.png",
+  "languages": "/categories/AI-Education-and-Translation.png",
+  "language-learning-tools": "/categories/AI-Education-and-Translation.png",
+  "free-ai-writing": "/categories/writing.png",
+  "writing-tools": "/categories/writing.png",
+  "ai-assessment": "/categories/AI-Education-and-Translation.png",
+  "Assessment Tools": "/categories/AI-Education-and-Translation.png",
+  "free-ai-assessment": "/categories/AI-Education-and-Translation.png",
+  "assessment-tools": "/categories/AI-Education-and-Translation.png",
+  "assessment": "/categories/AI-Education-and-Translation.png",
 
-  // 19. Other / Models / Miscellaneous
-  "ai-detection": "/categories/Other.png",
-  "free-llms": "/categories/Other.png",
-  "free-ai-models": "/categories/Other.png",
-  "free-open-source-ai-models": "/categories/Other.png",
-  "free-ai-tools-directory": "/categories/Other.png",
-  "free-ai-games": "/categories/Other.png",
-  "free-ai-game-generator": "/categories/Other.png",
-  "free-ai-robot": "/categories/Other.png",
-  "free-minecraft-ai": "/categories/Other.png",
-  "free-ai-poker": "/categories/Other.png",
-  "other-misc": "/categories/Other.png",
+  // Subcategories transferred to AI Lifestyle Directory
+  "ai-detection": "/categories/AI-Lifestyle-Directory.png",
+  "free-llms": "/categories/AI-Lifestyle-Directory.png",
+  "free-ai-models": "/categories/AI-Lifestyle-Directory.png",
+  "free-open-source-ai-models": "/categories/AI-Lifestyle-Directory.png",
+  "free-ai-tools-directory": "/categories/AI-Lifestyle-Directory.png",
+  "free-ai-games": "/categories/AI-Lifestyle-Directory.png",
+  "free-ai-game-generator": "/categories/AI-Lifestyle-Directory.png",
+  "free-ai-robot": "/categories/AI-Lifestyle-Directory.png",
+  "free-minecraft-ai": "/categories/AI-Lifestyle-Directory.png",
+  "free-ai-poker": "/categories/AI-Lifestyle-Directory.png",
+  "other-misc": "/categories/AI-Lifestyle-Directory.png",
+  "The AI Toolbox": "/categories/AI-Lifestyle-Directory.png",
+  "the-ai-toolbox": "/categories/AI-Lifestyle-Directory.png",
 };
 
 /**
@@ -619,12 +668,13 @@ export function getCategoryLogo(identifier?: string | null): string | null {
     return "/categories/Marketing.png";
   }
 
-  if (normalized.includes("business-management")) {
-    return "/categories/Business-Management.png";
-  }
-
-  if (normalized.includes("business-research")) {
-    return "/categories/Business-Research.png";
+  if (
+    normalized.includes("business-ai") ||
+    normalized.includes("business_ai") ||
+    normalized.includes("business-management") ||
+    normalized.includes("business-research")
+  ) {
+    return "/categories/business-ai.png";
   }
 
   if (normalized.includes("social-growth-hub") || normalized.includes("social-growth")) {
@@ -712,7 +762,7 @@ export function getCategoryLogo(identifier?: string | null): string | null {
     normalized.includes("robot") ||
     normalized.includes("other")
   ) {
-    return "/categories/Other.png";
+    return "/categories/AI-Lifestyle-Directory.png";
   }
 
   if (
