@@ -186,7 +186,7 @@ export const FixedMegaMenu: FC = () => {
                   categoryName={parent.name}
                   fallbackIcon={Icon}
                   size="xs"
-                  className="!w-5 !h-5 rounded-md border-0 shrink-0"
+                  className="!w-8 !h-8 rounded-xl border-0 shrink-0"
                 />
                 <span>{parent.shortName}</span>
                 <span
@@ -227,7 +227,7 @@ export const FixedMegaMenu: FC = () => {
                   categoryName={activeParent.name}
                   fallbackIcon={ParentIcon}
                   size="lg"
-                  className="!w-10 !h-10 rounded-2xl shadow-inner border-white/20 shrink-0"
+                  className="!w-16 !h-16 rounded-2xl shadow-inner shrink-0"
                 />
                 <div>
                   <h3 className="font-display font-bold text-lg sm:text-xl text-white tracking-tight flex items-center gap-2.5">
@@ -286,7 +286,7 @@ export const FixedMegaMenu: FC = () => {
                           fallbackIcon={CatIcon}
                           size="md"
                           isSelected={isSelected}
-                          className="mt-0.5 group-hover/row:scale-110 !w-7 !h-7"
+                          className="mt-0.5 group-hover/row:scale-110 !w-12 !h-12 rounded-xl shrink-0"
                         />
                         <div className="flex-1 min-w-0">
                           <div
@@ -315,38 +315,37 @@ export const FixedMegaMenu: FC = () => {
                 </div>
               </div>
 
-              {/* COL 2: Topic Sections & Direct Subcategory Pills (7 cols) */}
-              <div className="md:col-span-7 bg-white/[0.04] p-4 sm:p-5 rounded-3xl border border-white/5 space-y-4 max-h-[400px] overflow-y-auto">
+              {/* COL 2: Subcategories with Specialized 3D Icons (7 cols) */}
+              <div className="md:col-span-7 bg-white/[0.04] p-4 sm:p-5 rounded-3xl border border-white/5 space-y-3.5 max-h-[400px] overflow-y-auto">
                 <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 flex items-center justify-between pb-1 border-b border-white/5">
-                  <span>Subcategories &bull; 1-Click Direct Access</span>
+                  <span>{(memberCats.find(c => c.id === selectedCatId) || memberCats[0])?.name || "Subcategories"} &bull; {(memberCats.find(c => c.id === selectedCatId) || memberCats[0])?.subCategories.length || 0} Specializations</span>
                   <span className="text-emerald-400 text-[10px] font-bold">100% Free</span>
                 </div>
-
-                {activeParent.topicSections.map((topic, tIdx) => (
-                  <div key={tIdx} className="space-y-2">
-                    <div className="text-[11px] font-black uppercase tracking-[0.18em] text-emerald-400 flex items-center gap-1.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                      <span>{topic.title}</span>
-                    </div>
-                    <div className="flex flex-wrap gap-1.5">
-                      {topic.items.map((item, iIdx) => (
-                        <Link
-                          key={iIdx}
-                          to={`/category/${item.path}`}
-                          className="text-xs font-medium text-slate-300 bg-white/5 hover:bg-emerald-500/20 hover:text-emerald-300 border border-emerald-500/20 hover:border-emerald-400/50 px-3 py-1.5 rounded-full transition-all cursor-pointer whitespace-nowrap active:scale-95 shadow-2xs"
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                ))}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {(memberCats.find(c => c.id === selectedCatId) || memberCats[0])?.subCategories.map((sub, sIdx) => (
+                    <Link
+                      key={sIdx}
+                      to={`/category/${sub.path}`}
+                      className="flex items-center gap-2.5 p-2 rounded-xl bg-white/5 hover:bg-emerald-500/20 hover:text-emerald-300 border border-white/5 hover:border-emerald-400/30 text-xs font-medium text-slate-300 transition-all cursor-pointer group shadow-2xs"
+                    >
+                      <CategoryIconBadge
+                        subCategoryPath={sub.path}
+                        categoryId={(memberCats.find(c => c.id === selectedCatId) || memberCats[0])?.id}
+                        categoryName={(memberCats.find(c => c.id === selectedCatId) || memberCats[0])?.name}
+                        size="sm"
+                        className="!w-11 !h-11 rounded-xl shrink-0 group-hover:scale-105 transition-transform"
+                      />
+                      <div className="flex flex-col min-w-0">
+                        <span className="truncate group-hover:text-emerald-300 transition-colors font-semibold">{sub.name}</span>
+                        <span className="text-[9px] text-slate-400">{sub.count} tools</span>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
               </div>
-
             </div>
           </div>
-
-          {/* Bottom Bar with Direct Links */}
+                    {/* Bottom Bar with Direct Links */}
           <div className="pt-4 mt-6 border-t border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
             <span className="text-slate-400 text-xs">
               {activeParent.focus}
@@ -385,7 +384,7 @@ export const FixedMegaMenu: FC = () => {
                         categoryName={parent.name}
                         fallbackIcon={Icon}
                         size="md"
-                        className="!w-8 !h-8 rounded-xl shadow-inner border-white/20 shrink-0"
+                        className="!w-14 !h-14 rounded-2xl shadow-inner shrink-0"
                       />
                       <div>
                         <h3 className="font-display font-bold text-base sm:text-lg text-white flex items-center gap-2">

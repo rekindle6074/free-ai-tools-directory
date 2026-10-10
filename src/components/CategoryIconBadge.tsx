@@ -1,10 +1,11 @@
-import React, { FC, useState } from "react";
+import React, { FC, useState, useEffect } from "react";
 import { Sparkles } from "lucide-react";
 import { getCategoryLogo } from "../data/categoryLogos";
 
 export interface CategoryIconBadgeProps {
   categoryId?: string | null;
   categoryName?: string;
+  subCategoryPath?: string | null;
   fallbackIcon?: React.ElementType;
   size?: "xs" | "sm" | "md" | "lg" | "xl";
   className?: string;
@@ -13,48 +14,47 @@ export interface CategoryIconBadgeProps {
 }
 
 const SIZE_CLASSES = {
-  xs: "w-4 h-4 rounded-md",
-  sm: "w-6 h-6 rounded-lg",
-  md: "w-8 h-8 rounded-xl",
-  lg: "w-12 h-12 rounded-2xl",
-  xl: "w-16 h-16 sm:w-20 sm:h-20 rounded-3xl"
+  xs: "w-9 h-9 rounded-xl",
+  sm: "w-12 h-12 rounded-2xl",
+  md: "w-16 h-16 rounded-2xl",
+  lg: "w-20 h-20 rounded-3xl",
+  xl: "w-32 h-32 sm:w-36 sm:h-36 rounded-3xl"
 };
 
 const ICON_SIZES = {
-  xs: "w-2.5 h-2.5",
-  sm: "w-3.5 h-3.5",
-  md: "w-4 h-4",
-  lg: "w-6 h-6",
-  xl: "w-8 h-8"
+  xs: "w-7 h-7",
+  sm: "w-9 h-9",
+  md: "w-12 h-12",
+  lg: "w-16 h-16",
+  xl: "w-24 h-24 sm:w-28 sm:h-28"
 };
 
 export const CategoryIconBadge: FC<CategoryIconBadgeProps> = ({
   categoryId,
   categoryName = "Category",
+  subCategoryPath,
   fallbackIcon: FallbackIcon = Sparkles,
   size = "md",
   className = "",
   imgClassName = "",
   isSelected = false
 }) => {
-  const logoUrl = getCategoryLogo(categoryId) || getCategoryLogo(categoryName);
-  const [prevUrl, setPrevUrl] = useState<string | null>(logoUrl);
+  const logoUrl = getCategoryLogo(subCategoryPath) || getCategoryLogo(categoryId) || getCategoryLogo(categoryName);
   const [imgError, setImgError] = useState(false);
 
-  if (prevUrl !== logoUrl) {
-    setPrevUrl(logoUrl);
+  useEffect(() => {
     setImgError(false);
-  }
+  }, [logoUrl]);
 
   if (logoUrl && !imgError) {
     return (
       <div
-        className={`relative overflow-hidden shrink-0 border border-slate-200/80 shadow-xs bg-white flex items-center justify-center transition-transform ${SIZE_CLASSES[size]} ${className}`}
+        className={`relative overflow-hidden shrink-0 shadow-xs flex items-center justify-center transition-transform ${SIZE_CLASSES[size]} ${className}`}
       >
         <img
           src={logoUrl}
           alt={`${categoryName} 3D category logo`}
-          className={`w-full h-full object-cover transition-transform duration-300 ${imgClassName}`}
+          className={`w-full h-full object-cover scale-125 transition-transform duration-300 ${imgClassName}`}
           referrerPolicy="no-referrer"
           onError={() => setImgError(true)}
         />

@@ -417,7 +417,7 @@ const HomePage: FC = () => {
     "@type": "Organization",
     "name": "FreeAI Tools",
     "url": origin,
-    "logo": `${origin}/logo.svg`,
+    "logo": `${origin}/android-chrome-512x512.png`,
     "description": "Discover the best free AI tools and alternatives to expensive SaaS. Curated directory for developers, creators, and students.",
     "sameAs": [
       "https://mastodon.social/@maxrivera",
@@ -629,17 +629,11 @@ const HomePage: FC = () => {
             </Link>
           </div>
           
-          <MemberToolsGuard 
-            toolCount={featuredTools.length} 
-            categoryTitle="la sélection vedette"
-            customMessage="La sélection des outils vedettes et leurs liens d'accès direct sont exclusivement réservés aux utilisateurs enregistrés. Les inscriptions publiques sont actuellement suspendues."
-          >
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
-              {featuredTools.map((tool) => (
-                <ToolCard key={tool.id} tool={tool} />
-              ))}
-            </div>
-          </MemberToolsGuard>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            {featuredTools.map((tool) => (
+              <ToolCard key={tool.id} tool={tool} />
+            ))}
+          </div>
         </div>
         
         {/* Background Accent */}
@@ -783,16 +777,16 @@ const HomePage: FC = () => {
                             to={`/category/${firstItem.path}`}
                             className="flex items-center justify-between text-xs text-slate-600 hover:text-emerald-700 font-semibold tracking-tight transition-all p-2 rounded-xl hover:bg-emerald-50/50"
                           >
-                            <span className="flex items-center gap-2 truncate">
-                              {getCategoryLogo(topic.title) ? (
+                            <span className="flex items-center gap-2.5 truncate">
+                              {(getCategoryLogo(topic.title) || getCategoryLogo(firstItem.path)) ? (
                                 <img
-                                  src={getCategoryLogo(topic.title)!}
+                                  src={(getCategoryLogo(topic.title) || getCategoryLogo(firstItem.path))!}
                                   alt=""
-                                  className="w-4 h-4 rounded-sm object-cover shrink-0"
+                                  className="w-10 h-10 rounded-xl object-cover scale-115 shrink-0 border border-slate-200/80 shadow-xs"
                                   referrerPolicy="no-referrer"
                                 />
                               ) : (
-                                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 shrink-0" />
                               )}
                               <span className="truncate">{topic.title}</span>
                             </span>

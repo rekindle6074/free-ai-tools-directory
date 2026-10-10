@@ -190,19 +190,19 @@ export const CATEGORY_CUSTOM_LOGOS: Record<string, string> = {
   "ai-joke-generator": "/categories/AI-Assistants.png",
 
   // 4. Computer Vision & Image Analysis & OCR
-  "image-analysis": "/categories/Computer Vision.png",
-  "computer-vision": "/categories/Computer Vision.png",
-  "Computer Vision": "/categories/Computer Vision.png",
-  "Computer-Vision": "/categories/Computer Vision.png",
-  "Image Analysis & Vision": "/categories/Computer Vision.png",
-  "free-ai-image-recognition": "/categories/Computer Vision.png",
+  "image-analysis": "/categories/computer-vision.png",
+  "computer-vision": "/categories/computer-vision.png",
+  "Computer Vision": "/categories/computer-vision.png",
+  "Computer-Vision": "/categories/computer-vision.png",
+  "Image Analysis & Vision": "/categories/computer-vision.png",
+  "free-ai-image-recognition": "/categories/computer-vision.png",
   "free-ai-ocr": "/categories/OCR-Text-Scanning.png",
   "OCR-Text-Scanning": "/categories/OCR-Text-Scanning.png",
   "ocr-text-scanning": "/categories/OCR-Text-Scanning.png",
   "Free AI OCR": "/categories/OCR-Text-Scanning.png",
-  "free-image-to-prompt": "/categories/Computer Vision.png",
-  "free-ai-face-recognition": "/categories/Computer Vision.png",
-  "free-ai-describe-image": "/categories/Computer Vision.png",
+  "free-image-to-prompt": "/categories/computer-vision.png",
+  "free-ai-face-recognition": "/categories/computer-vision.png",
+  "free-ai-describe-image": "/categories/computer-vision.png",
 
   // 5. Voice & Speech
   "voice-speech": "/categories/VoiceSpeech.png",
@@ -490,6 +490,7 @@ export const CATEGORY_CUSTOM_LOGOS: Record<string, string> = {
   "ai-newsletter": "/categories/AI-Lifestyle-Directory.png",
   "ai-religion": "/categories/AI-Lifestyle-Directory.png",
   "ai-recipe": "/categories/AI-Lifestyle-Directory.png",
+  "free-ai-recipe": "/categories/AI-Lifestyle-Directory.png",
   "ai-travel": "/categories/AI-Lifestyle-Directory.png",
   "Daily Life & Wellbeing": "/categories/AI-Lifestyle-Directory.png",
 
@@ -568,6 +569,219 @@ export const CATEGORY_CUSTOM_LOGOS: Record<string, string> = {
   "other-misc": "/categories/AI-Lifestyle-Directory.png",
   "The AI Toolbox": "/categories/AI-Lifestyle-Directory.png",
   "the-ai-toolbox": "/categories/AI-Lifestyle-Directory.png",
+  "writing-and-marketing": "/categories/Marketing.png",
+  "writing-marketing": "/categories/Marketing.png",
+  "writing & marketing": "/categories/Marketing.png",
+  "Writing & Marketing": "/categories/Marketing.png",
+
+  // 31 tool categories
+  "AI Image": "/categories/AI-Image-Generators.png",
+  "ai-image": "/categories/AI-Image-Generators.png",
+  "YouTube Maker": "/categories/Video-Generation.png",
+  "youtube-maker": "/categories/Video-Generation.png",
+  "Face Swap": "/categories/AI-Image-Generators.png",
+  "face-swap": "/categories/AI-Image-Generators.png",
+  "Photo Editor": "/categories/Design-Editing.png",
+  "photo-editor": "/categories/Design-Editing.png",
+  "Photo Restoration": "/categories/Design-Editing.png",
+  "photo-restoration": "/categories/Design-Editing.png",
+  "Photo Filter": "/categories/Design-Editing.png",
+  "photo-filter": "/categories/Design-Editing.png",
+  "Lyrics Generator": "/categories/Music-Audio.png",
+  "lyrics-generator": "/categories/Music-Audio.png",
+  "Art Community": "/categories/AI-Creative-Design.png",
+  "art-community": "/categories/AI-Creative-Design.png",
+  "Art Styles": "/categories/AI-Creative-Design.png",
+  "art-styles": "/categories/AI-Creative-Design.png",
+  "Specialized Art": "/categories/AI-Creative-Design.png",
+  "specialized-art": "/categories/AI-Creative-Design.png",
+  "Web & E-commerce": "/categories/Web-Tools.png",
+  "web-e-commerce": "/categories/Web-Tools.png",
+  "Niche AI": "/categories/AI-Lifestyle-Directory.png",
+  "niche-ai": "/categories/AI-Lifestyle-Directory.png",
+  "Illustration": "/categories/AI-Creative-Design.png",
+  "illustration": "/categories/AI-Creative-Design.png",
+  "3D Assets": "/categories/AI-Creative-Design.png",
+  "3d-assets": "/categories/AI-Creative-Design.png",
+  "3D Rendering": "/categories/AI-Creative-Design.png",
+  "3d-rendering": "/categories/AI-Creative-Design.png",
+  "Landing Page": "/categories/Web-Tools.png",
+  "landing-page": "/categories/Web-Tools.png",
+  "Email & Communication": "/categories/Writing-Documents.png",
+  "email-communication": "/categories/Writing-Documents.png",
+  "Planning & Calendar": "/categories/Productivity.png",
+  "planning-calendar": "/categories/Productivity.png",
+  "Note Taking": "/categories/Writing-Documents.png",
+  "note-taking": "/categories/Writing-Documents.png",
+  "Automation": "/categories/Productivity.png",
+  "automation": "/categories/Productivity.png",
+  "AI File Management": "/categories/Productivity.png",
+  "ai-file-management": "/categories/Productivity.png",
+  "AI Search": "/categories/Productivity.png",
+  "ai-search": "/categories/Productivity.png",
+  "Landscape": "/categories/Interior-Architectural.png",
+  "landscape": "/categories/Interior-Architectural.png",
+  "Backyard": "/categories/Interior-Architectural.png",
+  "backyard": "/categories/Interior-Architectural.png",
+  "Kitchen": "/categories/Interior-Architectural.png",
+  "kitchen": "/categories/Interior-Architectural.png",
+  "AI Models": "/categories/AI-Lifestyle-Directory.png",
+  "ai-models": "/categories/AI-Lifestyle-Directory.png",
+  "LLMs": "/categories/AI-Lifestyle-Directory.png",
+  "llms": "/categories/AI-Lifestyle-Directory.png",
+  "Open Source AI Models": "/categories/AI-Lifestyle-Directory.png",
+  "open-source-ai-models": "/categories/AI-Lifestyle-Directory.png",
+  "AI Tools Directory": "/categories/AI-Lifestyle-Directory.png",
+  "ai-tools-directory": "/categories/AI-Lifestyle-Directory.png",
+  "AI Game Generator": "/categories/AI-Lifestyle-Directory.png",
+  "ai-game-generator": "/categories/AI-Lifestyle-Directory.png",
+  "Minecraft AI": "/categories/AI-Lifestyle-Directory.png",
+  "minecraft-ai": "/categories/AI-Lifestyle-Directory.png",
+  "AI Poker": "/categories/AI-Lifestyle-Directory.png",
+  "ai-poker": "/categories/AI-Lifestyle-Directory.png",
+
+  // Audio & Voice specific categories
+  "Speech-to-Text": "/categories/VoiceSpeech.png",
+  "Text-to-Speech": "/categories/VoiceSpeech.png",
+  "Transcription": "/categories/VoiceSpeech.png",
+  "Speech Recognition": "/categories/VoiceSpeech.png",
+  "Voice Cloning": "/categories/VoiceSpeech.png",
+  "Voice Enhancer": "/categories/VoiceSpeech.png",
+  "Voice Generator": "/categories/VoiceSpeech.png",
+  "Voice Over": "/categories/VoiceSpeech.png",
+  "Beat Generator": "/categories/Music-Audio.png",
+  "Song Cover": "/categories/Music-Audio.png",
+  "Song Remixer": "/categories/Music-Audio.png",
+  "Background Remover": "/categories/Design-Editing.png",
+  "Eraser": "/categories/Design-Editing.png",
+  "AI Chatbot": "/categories/Chatbots.png",
+  "AI Character": "/categories/Chatbots.png",
+  "Dirty Talking AI": "/categories/Chatbots.png",
+  "AI Games": "/categories/AI-Lifestyle-Directory.png"
+};
+
+// Subcategory to primary category 3D logo mapping
+const SUBCATEGORY_TO_CATEGORY_LOGO: Record<string, string> = {
+  // Office & Productivity subcategories
+  "ai-office": "/categories/Productivity.png",
+  "ai-file-management": "/categories/Productivity.png",
+  "ai-search": "/categories/Productivity.png",
+  "ai-email": "/categories/Writing-Documents.png",
+  "ai-planning": "/categories/Productivity.png",
+  "ai-meetings": "/categories/Productivity.png",
+  "ai-automation": "/categories/Productivity.png",
+  "ai-notes": "/categories/Writing-Documents.png",
+  "ai-documents": "/categories/Writing-Documents.png",
+
+  // Business AI subcategories
+  "free-ai-crm": "/categories/Business-AI.png",
+  "free-ai-project-management": "/categories/Business-AI.png",
+  "free-ai-workflow": "/categories/Business-AI.png",
+  "free-ai-recruiting": "/categories/Business-AI.png",
+  "free-ai-customer-service": "/categories/Business-AI.png",
+  "free-ai-interview-assistant": "/categories/Business-AI.png",
+  "free-ai-call-center": "/categories/Business-AI.png",
+  "free-ai-product-manager": "/categories/Business-AI.png",
+  "free-ai-erp": "/categories/Business-AI.png",
+  "free-ai-roadmap": "/categories/Business-AI.png",
+  "free-ai-business-name-generator": "/categories/Business-AI.png",
+  "free-ai-crypto": "/categories/Finance.png",
+  "free-ai-consulting": "/categories/Business-AI.png",
+  "free-ai-business-ideas-generator": "/categories/Business-AI.png",
+  "free-nfts": "/categories/Business-AI.png",
+  "free-web3": "/categories/Business-AI.png",
+  "free-blockchain": "/categories/Business-AI.png",
+  "free-ai-domain-name-generator": "/categories/Business-AI.png",
+  "free-ai-company-name-generator": "/categories/Business-AI.png",
+
+  // Image Analysis subcategories
+  "free-ai-face-analyzer": "/categories/Computer-Vision.png",
+  "free-ai-image-segmentation": "/categories/Computer-Vision.png",
+  "free-ai-image-recognition": "/categories/Computer-Vision.png",
+  "free-image-to-prompt": "/categories/Computer-Vision.png",
+  "free-ai-ocr": "/categories/OCR-Text-Scanning.png",
+  "free-ai-face-recognition": "/categories/Computer-Vision.png",
+  "free-ai-describe-image": "/categories/Computer-Vision.png",
+
+  // Law & Finance subcategories
+  "free-ai-real-estate": "/categories/Law-and-Finance.png",
+  "free-ai-trading-bot": "/categories/Finance.png",
+  "free-ai-tax-assistant": "/categories/Finance.png",
+  "free-ai-accounting": "/categories/Finance.png",
+  "free-ai-contract-review": "/categories/Legal.png",
+  "free-ai-stock-trading": "/categories/Finance.png",
+  "free-ai-contract-management": "/categories/Legal.png",
+  "free-ai-contract-generator": "/categories/Legal.png",
+  "free-ai-investing": "/categories/Finance.png",
+
+  // Marketing subcategories
+  "free-ai-marketing": "/categories/Marketing.png",
+  "free-ai-sales": "/categories/Marketing.png",
+  "free-ai-seo-tools": "/categories/Marketing.png",
+  "free-ai-ad-generator": "/categories/Marketing.png",
+  "free-ai-sales-assistant": "/categories/Marketing.png",
+  "free-ai-lead-generation": "/categories/Marketing.png",
+  "free-ai-email-marketing": "/categories/Marketing.png",
+  "free-ai-advertising": "/categories/Marketing.png",
+  "free-seo-writing-ai": "/categories/Marketing.png",
+  "free-ad-copy": "/categories/Marketing.png",
+  "free-ai-ad-creative": "/categories/Marketing.png",
+  "free-ai-affiliate-marketing": "/categories/Marketing.png",
+  "free-ai-cold-calling": "/categories/Marketing.png",
+  "free-ai-email-generator": "/categories/Marketing.png",
+  "free-ai-digital-marketing": "/categories/Marketing.png",
+  "free-ai-marketing-plan-generator": "/categories/Marketing.png",
+  "free-ai-pitch-deck-generator": "/categories/Marketing.png",
+  "free-ai-reply": "/categories/Marketing.png",
+  "free-ai-response-generator": "/categories/Marketing.png",
+  "free-ai-reviews": "/categories/Marketing.png",
+  "free-ai-website-designer": "/categories/Marketing.png",
+  "free-google-ads-ai": "/categories/Marketing.png",
+
+  // Social Growth Hub subcategories
+  "free-ai-bio-generator": "/categories/Social-Growth-Hub.png",
+  "free-ai-facebook": "/categories/Social-Growth-Hub.png",
+  "free-ai-hashtag": "/categories/Social-Growth-Hub.png",
+  "free-ai-influencer": "/categories/Social-Growth-Hub.png",
+  "free-ai-instagram-caption-generator": "/categories/Social-Growth-Hub.png",
+  "free-ai-instagram": "/categories/Social-Growth-Hub.png",
+  "free-ai-meme-generator": "/categories/Social-Growth-Hub.png",
+  "free-ai-social-media-post-generator": "/categories/Social-Growth-Hub.png",
+  "free-ai-social-media": "/categories/Social-Growth-Hub.png",
+  "free-ai-tiktok": "/categories/Social-Growth-Hub.png",
+  "free-ai-tweet-generator": "/categories/Social-Growth-Hub.png",
+  "free-ai-twitter": "/categories/Social-Growth-Hub.png",
+  "free-ai-youtube-summary": "/categories/Social-Growth-Hub.png",
+  "free-ai-youtube-thumbnail-generator": "/categories/Social-Growth-Hub.png",
+  "free-ai-youtube": "/categories/Social-Growth-Hub.png",
+  "free-bio-link": "/categories/Social-Growth-Hub.png",
+  "free-ai-youtube-tags-generator": "/categories/Social-Growth-Hub.png",
+
+  // Neural Analytics Hub subcategories
+  "free-ai-data-mining": "/categories/Data-Databases.png",
+  "free-ai-for-data-analytics": "/categories/Data-Databases.png",
+  "free-ai-papers": "/categories/Data-Databases.png",
+  "free-ai-predictions": "/categories/Analytics-Growth.png",
+  "free-ai-research-papers": "/categories/Data-Databases.png",
+  "free-ai-research-tool": "/categories/Data-Databases.png",
+  "free-ai-sports-betting": "/categories/Analytics-Growth.png",
+  "free-ai-sports-predictions": "/categories/Analytics-Growth.png",
+
+  // Additional creative & media subcategories
+  "free-ai-instrumental-generator": "/categories/Music-Audio.png",
+  "free-ai-mastering": "/categories/Music-Audio.png",
+  "free-ai-midi-generator": "/categories/Music-Audio.png",
+  "free-ai-noise-cancellation": "/categories/Music-Audio.png",
+  "free-ai-singing-generator": "/categories/Music-Audio.png",
+  "free-ai-sfx-generator": "/categories/Music-Audio.png",
+  "free-ai-rap-generator": "/categories/Music-Audio.png",
+  "free-ai-splitter": "/categories/Music-Audio.png",
+  "free-chord-ai": "/categories/Music-Audio.png",
+  "free-ai-lip-sync-generator": "/categories/Video-Generation.png",
+  "free-ai-commercial-generator": "/categories/Video-Generation.png",
+  "free-ai-reel-generator": "/categories/Video-Generation.png",
+  "free-ai-browsers": "/categories/Web-Tools.png",
+  "web-scraping": "/categories/Web-Tools.png"
 };
 
 /**
@@ -576,14 +790,23 @@ export const CATEGORY_CUSTOM_LOGOS: Record<string, string> = {
 export function getCategoryLogo(identifier?: string | null): string | null {
   if (!identifier) return null;
   
-  // Exact match
+  // Exact match in dictionary
   if (CATEGORY_CUSTOM_LOGOS[identifier]) {
     return CATEGORY_CUSTOM_LOGOS[identifier];
+  }
+
+  // Exact match in subcategory map
+  if (SUBCATEGORY_TO_CATEGORY_LOGO[identifier]) {
+    return SUBCATEGORY_TO_CATEGORY_LOGO[identifier];
   }
 
   // Normalized match (lower-cased, alphanumeric + hyphen)
   const normalized = identifier.toLowerCase().replace(/[^a-z0-9]/g, "-").replace(/-+/g, "-");
   
+  if (SUBCATEGORY_TO_CATEGORY_LOGO[normalized]) {
+    return SUBCATEGORY_TO_CATEGORY_LOGO[normalized];
+  }
+
   for (const [key, path] of Object.entries(CATEGORY_CUSTOM_LOGOS)) {
     const normKey = key.toLowerCase().replace(/[^a-z0-9]/g, "-").replace(/-+/g, "-");
     if (normKey === normalized) {
@@ -591,19 +814,93 @@ export function getCategoryLogo(identifier?: string | null): string | null {
     }
   }
 
-  // Semantic keyword heuristics if no exact match found
+  // Semantic keyword heuristics
+  if (
+    normalized.includes("marketing") ||
+    normalized.includes("sales") ||
+    normalized.includes("ad-") ||
+    normalized.includes("lead-gen") ||
+    normalized.includes("pitch-deck") ||
+    normalized.includes("google-ads") ||
+    normalized.includes("ad-copy") ||
+    normalized.includes("cold-call") ||
+    normalized.includes("affiliate")
+  ) {
+    return "/categories/Marketing.png";
+  }
+
+  if (
+    normalized.includes("social-growth") ||
+    normalized.includes("instagram") ||
+    normalized.includes("tiktok") ||
+    normalized.includes("twitter") ||
+    normalized.includes("tweet") ||
+    normalized.includes("youtube") ||
+    normalized.includes("social-media") ||
+    normalized.includes("hashtag") ||
+    normalized.includes("bio-generator") ||
+    normalized.includes("bio-link") ||
+    normalized.includes("meme") ||
+    normalized.includes("influencer") ||
+    normalized.includes("facebook")
+  ) {
+    return "/categories/Social-Growth-Hub.png";
+  }
+
+  if (
+    normalized.includes("business-ai") ||
+    normalized.includes("crm") ||
+    normalized.includes("project-management") ||
+    normalized.includes("workflow") ||
+    normalized.includes("recruiting") ||
+    normalized.includes("customer-service") ||
+    normalized.includes("call-center") ||
+    normalized.includes("product-manager") ||
+    normalized.includes("erp") ||
+    normalized.includes("roadmap") ||
+    normalized.includes("business-name") ||
+    normalized.includes("consulting") ||
+    normalized.includes("web3") ||
+    normalized.includes("blockchain") ||
+    normalized.includes("nfts") ||
+    normalized.includes("domain-name") ||
+    normalized.includes("company-name") ||
+    normalized.includes("interview-assistant") ||
+    normalized.includes("business-ideas")
+  ) {
+    return "/categories/Business-AI.png";
+  }
+
   if (
     normalized.includes("design-editing") ||
     normalized.includes("creative-design") ||
+    normalized.includes("photo-editor") ||
+    normalized.includes("photo-filter") ||
+    normalized.includes("photo-restoration") ||
+    normalized.includes("eraser") ||
+    normalized.includes("background-remover") ||
+    normalized.includes("art-community") ||
+    normalized.includes("art-style") ||
+    normalized.includes("illustration") ||
+    normalized.includes("3d-asset") ||
+    normalized.includes("3d-render") ||
+    normalized.includes("specialized-art") ||
     (normalized.includes("design") && normalized.includes("editing"))
   ) {
     return "/categories/AI-Creative-Design.png";
   }
 
   if (
-    normalized.includes("writing") ||
+    normalized.includes("office") ||
+    normalized.includes("productivity") ||
+    normalized.includes("file-management") ||
+    normalized.includes("planning") ||
+    normalized.includes("meeting") ||
+    normalized.includes("calendar") ||
+    normalized.includes("note") ||
     normalized.includes("document") ||
-    normalized.includes("office-productivity")
+    normalized.includes("automation") ||
+    normalized.includes("writing")
   ) {
     return "/categories/Writing-Documents.png";
   }
@@ -611,9 +908,13 @@ export function getCategoryLogo(identifier?: string | null): string | null {
   if (
     normalized.includes("chatbot") ||
     normalized.includes("assistant") ||
-    normalized.includes("roleplay")
+    normalized.includes("roleplay") ||
+    normalized.includes("character") ||
+    normalized.includes("dating") ||
+    normalized.includes("joke") ||
+    normalized.includes("dirty-talking")
   ) {
-    return "/categories/AI-Assistants.png";
+    return "/categories/Chatbots.png";
   }
 
   if (
@@ -627,168 +928,116 @@ export function getCategoryLogo(identifier?: string | null): string | null {
   if (
     normalized.includes("vision") ||
     normalized.includes("image-analysis") ||
-    normalized.includes("image-recognition")
+    normalized.includes("image-recognition") ||
+    normalized.includes("image-to-prompt") ||
+    normalized.includes("face-analyzer") ||
+    normalized.includes("segmentation")
   ) {
-    return "/categories/Computer Vision.png";
+    return "/categories/Computer-Vision.png";
   }
 
   if (
     normalized.includes("finance") ||
+    normalized.includes("trading") ||
+    normalized.includes("stock") ||
     normalized.includes("accounting") ||
+    normalized.includes("tax") ||
+    normalized.includes("real-estate") ||
+    normalized.includes("crypto") ||
     normalized.includes("investing")
   ) {
     return "/categories/Finance.png";
   }
 
   if (
-    normalized.includes("law-finance") ||
-    normalized.includes("law-and-finance") ||
+    normalized.includes("law") ||
     normalized.includes("legal") ||
-    normalized.includes("contract-review") ||
-    normalized.includes("law")
+    normalized.includes("contract")
   ) {
-    return "/categories/Law-and-Finance.png";
-  }
-
-  if (
-    normalized.includes("business-growth") ||
-    normalized === "growth"
-  ) {
-    return "/categories/Business-Growth.png";
-  }
-
-  if (
-    normalized.includes("media-studio") ||
-    normalized.includes("ai-media-studio")
-  ) {
-    return "/categories/AI-Media-Studio.png";
-  }
-
-  if (normalized.includes("marketing")) {
-    return "/categories/Marketing.png";
-  }
-
-  if (
-    normalized.includes("business-ai") ||
-    normalized.includes("business_ai") ||
-    normalized.includes("business-management") ||
-    normalized.includes("business-research")
-  ) {
-    return "/categories/business-ai.png";
-  }
-
-  if (normalized.includes("social-growth-hub") || normalized.includes("social-growth")) {
-    return "/categories/Social-Growth-Hub.png";
-  }
-
-  if (normalized.includes("image-generator") || normalized.includes("text-to-image")) {
-    return "/categories/AI-Image-Generators.png";
-  }
-
-  if (normalized.includes("video-generator") || normalized.includes("video-generation")) {
-    return "/categories/Video-Generation.png";
-  }
-
-  if (
-    normalized.includes("productivity-communication") ||
-    normalized.includes("productivity-comm")
-  ) {
-    return "/categories/Writing-Documents.png";
-  }
-
-  if (
-    normalized.includes("tech-development") ||
-    normalized.includes("tech-dev")
-  ) {
-    return "/categories/Code-Development.png";
-  }
-
-  if (
-    normalized.includes("lifestyle-specialized") ||
-    normalized.includes("lifestyle-spec")
-  ) {
-    return "/categories/AI-Lifestyle-Directory.png";
-  }
-
-  if (
-    normalized.includes("medical") ||
-    normalized.includes("health") ||
-    normalized.includes("dermatology") ||
-    normalized.includes("therapist") ||
-    normalized.includes("diagnosis")
-  ) {
-    return "/categories/Smart-Medical-Directory.png";
-  }
-
-  if (
-    normalized.includes("interior") ||
-    normalized.includes("architectur") ||
-    normalized.includes("floor-plan") ||
-    normalized.includes("room-planner") ||
-    normalized.includes("landscape-generator") ||
-    normalized.includes("backyard-design") ||
-    normalized.includes("kitchen-design")
-  ) {
-    return "/categories/Interior-Architectural.png";
-  }
-
-  if (
-    normalized.includes("lifestyle") ||
-    normalized.includes("trip-planner") ||
-    normalized.includes("recipe") ||
-    normalized.includes("fitness")
-  ) {
-    return "/categories/AI-Lifestyle-Directory.png";
-  }
-
-  if (
-    normalized.includes("education") ||
-    normalized.includes("translation") ||
-    normalized.includes("pedagogical") ||
-    normalized.includes("languages") ||
-    normalized.includes("mathematics")
-  ) {
-    return "/categories/AI-Education-and-Translation.png";
-  }
-
-  if (normalized === "general" || normalized.includes("general")) {
-    return "/categories/General.png";
-  }
-
-  if (
-    normalized === "other" ||
-    normalized.includes("llms") ||
-    normalized.includes("games") ||
-    normalized.includes("robot") ||
-    normalized.includes("other")
-  ) {
-    return "/categories/AI-Lifestyle-Directory.png";
-  }
-
-  if (
-    normalized.includes("voice") ||
-    normalized.includes("speech") ||
-    normalized.includes("tts")
-  ) {
-    return "/categories/VoiceSpeech.png";
+    return "/categories/Legal.png";
   }
 
   if (
     normalized.includes("database") ||
     normalized.includes("analytics") ||
+    normalized.includes("data-mining") ||
+    normalized.includes("sports-betting") ||
+    normalized.includes("prediction") ||
     normalized.includes("data-analytics") ||
-    normalized.includes("neural-analytics")
+    normalized.includes("research-paper")
   ) {
     return "/categories/Data-Databases.png";
   }
 
   if (
-    normalized.includes("web-tool") ||
-    normalized.includes("website-builder") ||
+    normalized.includes("web") ||
+    normalized.includes("browser") ||
     normalized.includes("scraping") ||
-    normalized.includes("builder")
+    normalized.includes("landing-page") ||
+    normalized.includes("builder") ||
+    normalized.includes("website")
   ) {
     return "/categories/Web-Tools.png";
+  }
+
+  if (
+    normalized.includes("image-generator") ||
+    normalized.includes("text-to-image") ||
+    normalized.includes("ai-image") ||
+    normalized.includes("face-swap") ||
+    normalized.includes("avatar-generator") ||
+    normalized.includes("product-photography") ||
+    normalized.includes("image-enhancer") ||
+    normalized.includes("image-upscaler")
+  ) {
+    return "/categories/AI-Image-Generators.png";
+  }
+
+  if (
+    normalized.includes("video") ||
+    normalized.includes("animation") ||
+    normalized.includes("lip-sync") ||
+    normalized.includes("reel") ||
+    normalized.includes("commercial") ||
+    normalized.includes("upscaler") ||
+    normalized.includes("ugc") ||
+    normalized.includes("short-video") ||
+    normalized.includes("script-to-video") ||
+    normalized.includes("youtube-maker")
+  ) {
+    return "/categories/Video-Generation.png";
+  }
+
+  if (
+    normalized.includes("music") ||
+    normalized.includes("song") ||
+    normalized.includes("audio") ||
+    normalized.includes("lyrics") ||
+    normalized.includes("melody") ||
+    normalized.includes("beat") ||
+    normalized.includes("stem") ||
+    normalized.includes("vocal") ||
+    normalized.includes("instrumental") ||
+    normalized.includes("mastering") ||
+    normalized.includes("midi") ||
+    normalized.includes("rap") ||
+    normalized.includes("chord") ||
+    normalized.includes("splitter")
+  ) {
+    return "/categories/Music-Audio.png";
+  }
+
+  if (
+    normalized.includes("voice") ||
+    normalized.includes("speech") ||
+    normalized.includes("tts") ||
+    normalized.includes("podcast") ||
+    normalized.includes("transcription") ||
+    normalized.includes("cloning") ||
+    normalized.includes("enhancer") ||
+    normalized.includes("voice-over")
+  ) {
+    return "/categories/VoiceSpeech.png";
   }
 
   if (
@@ -800,24 +1049,63 @@ export function getCategoryLogo(identifier?: string | null): string | null {
   }
 
   if (
-    normalized.includes("video") ||
-    normalized.includes("animation")
+    normalized.includes("education") ||
+    normalized.includes("translation") ||
+    normalized.includes("pedagogical") ||
+    normalized.includes("languages") ||
+    normalized.includes("mathematics") ||
+    normalized.includes("learning") ||
+    normalized.includes("student") ||
+    normalized.includes("teacher")
   ) {
-    return "/categories/Video-Generation.png";
+    return "/categories/AI-Education-and-Translation.png";
   }
 
   if (
-    normalized.includes("music") ||
-    normalized.includes("audio") ||
-    normalized.includes("instrumental") ||
-    normalized.includes("melody") ||
-    normalized.includes("beat") ||
-    normalized.includes("song")
+    normalized.includes("medical") ||
+    normalized.includes("health") ||
+    normalized.includes("dermatology") ||
+    normalized.includes("therapist") ||
+    normalized.includes("diagnosis") ||
+    normalized.includes("symptom")
   ) {
-    return "/categories/Music-Audio.png";
+    return "/categories/Smart-Medical-Directory.png";
   }
 
-  return null;
+  if (
+    normalized.includes("interior") ||
+    normalized.includes("architectur") ||
+    normalized.includes("floor-plan") ||
+    normalized.includes("room-planner") ||
+    normalized.includes("landscape") ||
+    normalized.includes("backyard") ||
+    normalized.includes("kitchen")
+  ) {
+    return "/categories/Interior-Architectural.png";
+  }
+
+  if (
+    normalized.includes("lifestyle") ||
+    normalized.includes("trip") ||
+    normalized.includes("sports") ||
+    normalized.includes("shopping") ||
+    normalized.includes("fitness") ||
+    normalized.includes("recipe") ||
+    normalized.includes("bible") ||
+    normalized.includes("religion") ||
+    normalized.includes("newsletter") ||
+    normalized.includes("niche") ||
+    normalized.includes("game") ||
+    normalized.includes("minecraft") ||
+    normalized.includes("poker") ||
+    normalized.includes("robot") ||
+    normalized.includes("models") ||
+    normalized.includes("directory")
+  ) {
+    return "/categories/AI-Lifestyle-Directory.png";
+  }
+
+  return "/categories/General.png";
 }
 
 /**
@@ -826,3 +1114,4 @@ export function getCategoryLogo(identifier?: string | null): string | null {
 export function hasCategoryLogo(identifier?: string | null): boolean {
   return getCategoryLogo(identifier) !== null;
 }
+

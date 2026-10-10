@@ -1,319 +1,221 @@
-import React, { FC, useState, useEffect } from "react";
-import { createPortal } from "react-dom";
+import React, { FC, useState } from "react";
 import { auth, db } from "../firebase";
-import { 
-  createUserWithEmailAndPassword, 
-  signInWithEmailAndPassword, 
-  sendPasswordResetEmail,
-  updateProfile,
+import {
+  signInWithPopup,
   GoogleAuthProvider,
-  signInWithPopup
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword
 } from "firebase/auth";
-import { doc, setDoc, getDoc, serverTimestamp } from "firebase/firestore";
-import { X, Mail, Lock, User, AlertCircle, Loader2 } from "lucide-react";
-import { motion, AnimatePresence } from "motion/react";
+import { doc, setDoc, serverTimestamp } from "firebase/firestore";
+import { X, Mail, Lock, Sparkles } from "lucide-react";
 
 interface AuthModalProps {
   isOpen: boolean;
   onClose: () => void;
   allowSignup?: boolean;
-  initialMode?: AuthMode;
 }
 
-type AuthMode = "login" | "signup" | "reset";
-
-const AuthModal: FC<AuthModalProps> = ({ 
-  isOpen, 
-  onClose, 
-  allowSignup = false, 
-  initialMode = "login" 
+export const AuthModal: FC<AuthModalProps> = ({
+  isOpen,
+  onClose,
+  allowSignup = false
 }) => {
-  const [mode, setMode] = useState<AuthMode>(initialMode);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [displayName, setDisplayName] = useState("");
+  const [isRegister, setIsRegister] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState<string | null>(null);
-  const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    if (isOpen) {
-      // If signup is not allowed and mode was somehow set to signup, fallback to login
-      if (!allowSignup && mode === "signup") {
-        setMode("login");
-      } else if (allowSignup && initialMode) {
-        setMode(initialMode);
-      }
+  if (!isOpen) return null;
+
+  const handleGoogleSignIn = async () => {
+    if (!auth) {
+      setError("Firebase Authentication is not configured.");
+      return;
     }
-  }, [isOpen, allowSignup, initialMode]);
-
-  useEffect(() => {
-    setMounted(true);
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, [isOpen]);
-
-  const handleAuth = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setError(null);
-    setMessage(null);
     setLoading(true);
-
+    setError(null);
     try {
-      if (!auth) {
-        setError("Firebase Auth not initialized.");
-        return;
+      const provider = new GoogleAuthProvider();
+      const res = await signInWithPopup(auth, provider);
+      if (res.user && db) {
+        const userRef = doc(db, "users", res.user.uid);
+        await setDoc(
+          userRef,
+          {
+            uid: res.user.uid,
+            email: res.user.email || "",
+            displayName: res.user.displayName || "",
+            lastSeenAt: serverTimestamp()
+          },
+          { merge: true }
+        );
       }
-      if (mode === "signup") {
-        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-        await updateProfile(userCredential.user, { displayName });
-        
-        await setDoc(doc(db, "users", userCredential.user.uid), {
-          uid: userCredential.user.uid,
-          email: userCredential.user.email,
-          displayName,
-          favorites: [],
-          createdAt: serverTimestamp(),
-        });
-        onClose();
-      } else if (mode === "login") {
-        await signInWithEmailAndPassword(auth, email, password);
-        onClose();
-      } else if (mode === "reset") {
-        await sendPasswordResetEmail(auth, email);
-        setMessage("Check your email for a password reset link.");
-        setTimeout(() => setMode("login"), 3000);
-      }
+      onClose();
     } catch (err: any) {
-      console.error("Auth error:", err);
-      if (err.code === "auth/email-already-in-use") setError("Email already in use.");
-      else if (err.code === "auth/invalid-credential") setError("Invalid email or password.");
-      else if (err.code === "auth/weak-password") setError("Password should be at least 6 characters.");
-      else if (err.code === "auth/user-not-found") setError("No user found with this email.");
-      else setError(err.message || "An error occurred.");
+      console.error(err);
+      setError(err?.message || "Failed to sign in with Google.");
     } finally {
       setLoading(false);
     }
   };
 
-  const handleGoogleLogin = async () => {
+  const handleEmailAuth = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!auth) {
+      setError("Firebase Authentication is not configured.");
+      return;
+    }
+    if (!email || !password) {
+      setError("Please fill in all fields.");
+      return;
+    }
+    setLoading(true);
+    setError(null);
     try {
-      if (!auth) {
-        setError("Firebase Auth not initialized.");
-        return;
-      }
-      const provider = new GoogleAuthProvider();
-      const result = await signInWithPopup(auth, provider);
-      const user = result.user;
-      
-      if (db) {
-        try {
-          const userRef = doc(db, "users", user.uid);
+      if (isRegister) {
+        const res = await createUserWithEmailAndPassword(auth, email, password);
+        if (res.user && db) {
+          const userRef = doc(db, "users", res.user.uid);
           await setDoc(userRef, {
-            uid: user.uid,
-            email: user.email || "",
-            displayName: user.displayName || "",
-            createdAt: serverTimestamp(),
-          }, { merge: true });
-        } catch (profileErr) {
-          // Non-blocking: profile sync will complete in background when online
+            uid: res.user.uid,
+            email: res.user.email,
+            createdAt: serverTimestamp()
+          });
         }
+      } else {
+        await signInWithEmailAndPassword(auth, email, password);
       }
       onClose();
     } catch (err: any) {
-      if (err.code !== "auth/popup-closed-by-user") {
-        setError("Google login failed.");
-      }
+      console.error(err);
+      setError(err?.message || "Authentication failed.");
+    } finally {
+      setLoading(false);
     }
   };
 
-  if (!mounted) return null;
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-in fade-in duration-200">
+      <div className="relative w-full max-w-md p-6 sm:p-8 bg-white rounded-3xl shadow-2xl border border-slate-100">
+        <button
+          onClick={onClose}
+          className="absolute top-5 right-5 p-2 text-slate-400 hover:text-slate-600 rounded-full hover:bg-slate-100 transition-colors cursor-pointer"
+        >
+          <X className="w-5 h-5" />
+        </button>
 
-  const modalContent = (
-    <AnimatePresence>
-      {isOpen && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm overflow-y-auto">
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="bg-white w-full max-w-md rounded-3xl shadow-2xl overflow-hidden relative my-auto pointer-events-auto"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button 
-              onClick={onClose}
-              className="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-full transition-all"
-            >
-              <X className="w-5 h-5" />
-            </button>
-
-            <div className="p-8">
-              <div className="text-center mb-8">
-                <h2 className="text-2xl font-extrabold text-slate-900">
-                  {mode === "login" && "Welcome Back"}
-                  {mode === "signup" && "Create Account"}
-                  {mode === "reset" && "Reset Password"}
-                </h2>
-                <p className="text-slate-500 text-sm mt-2">
-                  {mode === "login" && (allowSignup ? "Log in to save your favorite tools" : "Authorized member login")}
-                  {mode === "signup" && "Register authorized member account"}
-                  {mode === "reset" && "We'll send you a link to reset your password"}
-                </p>
-              </div>
-
-              {error && (
-                <div className="mb-6 p-3 bg-red-50 border border-red-100 rounded-xl flex items-center gap-3 text-red-600 text-sm">
-                  <AlertCircle className="w-4 h-4 shrink-0" />
-                  <p>{error}</p>
-                </div>
-              )}
-
-              {message && (
-                <div className="mb-6 p-3 bg-emerald-50 border border-emerald-100 rounded-xl flex items-center gap-3 text-emerald-600 text-sm">
-                  <AlertCircle className="w-4 h-4 shrink-0" />
-                  <p>{message}</p>
-                </div>
-              )}
-
-              <form onSubmit={handleAuth} className="space-y-4">
-                {mode === "signup" && (
-                  <div className="space-y-1.5">
-                    <label className="text-xs font-bold text-slate-400 uppercase tracking-wider ml-1">Name</label>
-                    <div className="relative">
-                      <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
-                      <input 
-                        type="text"
-                        required
-                        value={displayName}
-                        onChange={(e) => setDisplayName(e.target.value)}
-                        placeholder="Your Name"
-                        className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition-all text-slate-900"
-                      />
-                    </div>
-                  </div>
-                )}
-
-                <div className="space-y-1.5">
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider ml-1">Email</label>
-                  <div className="relative">
-                    <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
-                    <input 
-                      type="email"
-                      required
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      placeholder="name@example.com"
-                      className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition-all text-slate-900"
-                    />
-                  </div>
-                </div>
-
-                {mode !== "reset" && (
-                  <div className="space-y-1.5">
-                    <div className="flex justify-between items-center ml-1">
-                      <label className="text-xs font-bold text-slate-400 uppercase tracking-wider">Password</label>
-                      {mode === "login" && (
-                        <button 
-                          type="button"
-                          onClick={() => setMode("reset")}
-                          className="text-xs font-bold text-emerald-600 hover:text-emerald-700"
-                        >
-                          Forgot?
-                        </button>
-                      )}
-                    </div>
-                    <div className="relative">
-                      <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
-                      <input 
-                        type="password"
-                        required
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                        placeholder="••••••••"
-                        className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition-all text-slate-900"
-                      />
-                    </div>
-                  </div>
-                )}
-
-                <button 
-                  type="submit"
-                  disabled={loading}
-                  className="w-full bg-slate-900 text-white py-3 rounded-2xl font-bold hover:bg-slate-800 transition-all flex items-center justify-center gap-2 disabled:opacity-50"
-                >
-                  {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : (
-                    <>
-                      {mode === "login" && "Log In"}
-                      {mode === "signup" && "Sign Up"}
-                      {mode === "reset" && "Send Reset Link"}
-                    </>
-                  )}
-                </button>
-              </form>
-
-              {mode !== "reset" && (
-                <>
-                  <div className="relative my-8">
-                    <div className="absolute inset-0 flex items-center">
-                      <div className="w-full border-t border-slate-100"></div>
-                    </div>
-                    <div className="relative flex justify-center text-xs uppercase">
-                      <span className="bg-white px-4 text-slate-400 font-bold tracking-widest">Or continue with</span>
-                    </div>
-                  </div>
-
-                  <button 
-                    onClick={handleGoogleLogin}
-                    className="w-full flex items-center justify-center gap-3 py-3 border border-slate-200 rounded-2xl font-bold text-slate-700 hover:bg-slate-50 transition-all"
-                  >
-                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" className="w-5 h-5" />
-                    Google
-                  </button>
-                </>
-              )}
-
-              <div className="mt-8 text-center">
-                {allowSignup ? (
-                  <p className="text-sm text-slate-500">
-                    {mode === "login" ? "Don't have an account?" : "Already have an account?"}
-                    <button 
-                      onClick={() => setMode(mode === "login" ? "signup" : "login")}
-                      className="ml-2 text-emerald-600 font-bold hover:text-emerald-700"
-                    >
-                      {mode === "login" ? "Sign Up" : "Log In"}
-                    </button>
-                  </p>
-                ) : (
-                  <div className="text-xs text-slate-500 font-medium py-1.5 px-4 bg-amber-50/80 rounded-xl border border-amber-200/70 inline-block text-amber-800">
-                    Les inscriptions publiques sont suspendues. Connexion réservée aux membres déjà inscrits.
-                  </div>
-                )}
-                {mode === "reset" && (
-                  <div>
-                    <button 
-                      onClick={() => setMode("login")}
-                      className="mt-4 text-sm text-slate-400 font-medium hover:text-slate-600"
-                    >
-                      Back to Login
-                    </button>
-                  </div>
-                )}
-              </div>
-            </div>
-          </motion.div>
+        <div className="text-center mb-6">
+          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 mb-3 border border-emerald-100">
+            <Sparkles className="w-6 h-6" />
+          </div>
+          <h3 className="text-2xl font-bold text-slate-900 tracking-tight">
+            {isRegister ? "Create Free Account" : "Welcome Back"}
+          </h3>
+          <p className="text-sm text-slate-500 mt-1">
+            Sign in to save favorites and organize your personal AI tool collections.
+          </p>
         </div>
-      )}
-    </AnimatePresence>
-  );
 
-  return createPortal(modalContent, document.body);
+        {error && (
+          <div className="mb-4 p-3 rounded-xl bg-red-50 text-red-600 text-xs border border-red-100">
+            {error}
+          </div>
+        )}
+
+        <button
+          onClick={handleGoogleSignIn}
+          disabled={loading}
+          className="w-full flex items-center justify-center gap-3 px-4 py-3 bg-white hover:bg-slate-50 border border-slate-300 rounded-2xl font-semibold text-slate-700 shadow-sm transition-all hover:border-slate-400 cursor-pointer disabled:opacity-50"
+        >
+          <svg className="w-5 h-5" viewBox="0 0 24 24">
+            <path
+              fill="#4285F4"
+              d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.8-2.4 3.65v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.14z"
+            />
+            <path
+              fill="#34A853"
+              d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z"
+            />
+            <path
+              fill="#FBBC05"
+              d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 10.03 0 12s.45 3.82 1.25 5.42l4.03-3.15z"
+            />
+            <path
+              fill="#EA4335"
+              d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"
+            />
+          </svg>
+          <span>Continue with Google</span>
+        </button>
+
+        <div className="relative my-6">
+          <div className="absolute inset-0 flex items-center">
+            <div className="w-full border-t border-slate-200" />
+          </div>
+          <div className="relative flex justify-center text-xs uppercase">
+            <span className="px-2 bg-white text-slate-400">Or with email</span>
+          </div>
+        </div>
+
+        <form onSubmit={handleEmailAuth} className="space-y-4">
+          <div>
+            <label className="block text-xs font-semibold text-slate-700 mb-1">
+              Email Address
+            </label>
+            <div className="relative">
+              <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="you@example.com"
+                className="w-full pl-9 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                required
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className="block text-xs font-semibold text-slate-700 mb-1">
+              Password
+            </label>
+            <div className="relative">
+              <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="••••••••"
+                className="w-full pl-9 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                required
+              />
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-semibold shadow-md shadow-emerald-600/20 transition-all cursor-pointer disabled:opacity-50 text-sm"
+          >
+            {loading ? "Processing..." : isRegister ? "Create Account" : "Sign In"}
+          </button>
+        </form>
+
+        {allowSignup && (
+          <div className="mt-4 text-center text-xs text-slate-500">
+            {isRegister ? "Already have an account? " : "Don't have an account? "}
+            <button
+              onClick={() => setIsRegister(!isRegister)}
+              className="text-emerald-600 font-semibold hover:underline cursor-pointer"
+            >
+              {isRegister ? "Sign In" : "Sign Up"}
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
 };
 
 export default AuthModal;

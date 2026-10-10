@@ -60,8 +60,8 @@ const MegaPanelCard: FC<MegaPanelCardProps> = ({ parent }) => {
               categoryId={parent.id}
               categoryName={parent.name}
               fallbackIcon={ParentIcon}
-              size="md"
-              className="border-white/20 shadow-xs shrink-0"
+              size="lg"
+              className="border-white/20 shadow-md shrink-0 !w-14 !h-14 rounded-2xl"
             />
             <div>
               <h3 className="font-display font-bold text-lg text-white tracking-tight flex items-center gap-2">
@@ -109,7 +109,7 @@ const MegaPanelCard: FC<MegaPanelCardProps> = ({ parent }) => {
                       fallbackIcon={Sparkles}
                       size="sm"
                       isSelected={isSelected}
-                      className="mt-0.5 group-hover/row:scale-110 !w-6 !h-6"
+                      className="mt-0.5 group-hover/row:scale-110 !w-12 !h-12 rounded-xl shrink-0"
                     />
                     <div className="flex-1 min-w-0">
                       <div
@@ -269,7 +269,7 @@ const CategoriesPage: FC = () => {
                       categoryName={parent.name}
                       fallbackIcon={Icon}
                       size="xs"
-                      className="!w-4 !h-4 rounded-sm border-0 shrink-0"
+                      className="!w-8 !h-8 rounded-xl border-0 shrink-0"
                     />
                     <span>{parent.shortName}</span>
                   </button>
@@ -403,7 +403,7 @@ const CategoriesPage: FC = () => {
                         categoryName={parent.name}
                         fallbackIcon={ParentIcon}
                         size="xl"
-                        className="!w-14 !h-14 rounded-2xl shadow-sm border-emerald-500/20 shrink-0"
+                        className="!w-24 !h-24 sm:!w-28 sm:!h-28 rounded-3xl shadow-lg border-emerald-500/20 shrink-0"
                       />
                       <div>
                         <div className="flex flex-wrap items-center gap-2.5 mb-1">
@@ -455,7 +455,7 @@ const CategoriesPage: FC = () => {
                                   categoryName={category.name}
                                   fallbackIcon={Sparkles}
                                   size="lg"
-                                  className="shadow-sm border-emerald-500/30"
+                                  className="shadow-md border-emerald-500/30 !w-16 !h-16 rounded-2xl shrink-0"
                                 />
                                 <div>
                                   <h4 className="text-lg sm:text-xl font-display font-bold text-slate-900">
@@ -477,13 +477,22 @@ const CategoriesPage: FC = () => {
                                     to={`/category/${sub.path}`}
                                     className="flex items-center justify-between p-3.5 rounded-2xl bg-slate-50/70 hover:bg-emerald-50/50 border border-slate-100 hover:border-emerald-300 transition-all group/sub shadow-2xs hover:shadow-sm"
                                   >
-                                    <div className="flex flex-col pr-2 min-w-0">
-                                      <span className="text-xs sm:text-sm font-bold text-slate-800 group-hover/sub:text-emerald-700 transition-colors truncate">
-                                        {displayTitle}
-                                      </span>
-                                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
-                                        {sub.count} Tools
-                                      </span>
+                                    <div className="flex items-center gap-3 pr-2 min-w-0">
+                                      <CategoryIconBadge
+                                        subCategoryPath={sub.path}
+                                        categoryId={category.id}
+                                        categoryName={category.name}
+                                        size="md"
+                                        className="!w-14 !h-14 sm:!w-16 sm:!h-16 rounded-2xl shrink-0 group-hover/sub:scale-110 transition-transform shadow-xs"
+                                      />
+                                      <div className="flex flex-col min-w-0">
+                                        <span className="text-xs sm:text-sm font-bold text-slate-800 group-hover/sub:text-emerald-700 transition-colors truncate">
+                                          {displayTitle}
+                                        </span>
+                                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                                          {sub.count} Tools
+                                        </span>
+                                      </div>
                                     </div>
                                     <ChevronRight className="w-4 h-4 text-slate-300 group-hover/sub:text-emerald-600 transition-transform group-hover/sub:translate-x-1 shrink-0" />
                                   </Link>

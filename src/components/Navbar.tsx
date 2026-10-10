@@ -48,18 +48,6 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  const handleParentClick = (parentId: string) => {
-    if (location.pathname === "/") {
-      window.location.hash = parentId;
-      const el = document.getElementById("mega-menu-hub");
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
-      }
-    } else {
-      navigate(`/#${parentId}`);
-    }
-  };
-
   return (
     <div
       ref={navContainerRef}
@@ -73,7 +61,7 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
             Privacy-First • Open Access • No Tracking
           </span>
           <span className="hidden sm:inline-block text-slate-400">|</span>
-          <span className="hidden sm:inline-block text-slate-500 font-normal">Super-Categories Navigation System (241 Subcategories Grouped)</span>
+          <span className="hidden sm:inline-block text-slate-500 font-normal">Curated Directory of 100% Free AI Tools &amp; Resources</span>
         </div>
         <div className="flex items-center gap-4 text-slate-400 text-[11px]">
           <span className="font-mono bg-white/70 px-2 py-0.5 rounded border border-slate-200">1440px Desktop View</span>
@@ -92,55 +80,15 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
             aria-label="FreeAI Tools Home"
             onClick={() => setMobileMenuOpen(false)}
           >
-            {/* 3D "S"-Ribbon Emerald Shield Logo */}
+            {/* Emerald "F" Ribbon Shield Logo */}
             <div className="relative w-10 h-10 rounded-full bg-[#ECECEC] p-1 shadow-md shadow-emerald-950/10 flex items-center justify-center transition-transform duration-300 group-hover:scale-105 border border-white">
-              <svg className="w-7 h-7" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="gradBottom" x1="0%" y1="100%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#114327" />
-                    <stop offset="50%" stopColor="#19653a" />
-                    <stop offset="100%" stopColor="#2ba462" />
-                  </linearGradient>
-                  <linearGradient id="gradMiddle" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#081e11" />
-                    <stop offset="15%" stopColor="#0e3a21" />
-                    <stop offset="60%" stopColor="#175d35" />
-                    <stop offset="100%" stopColor="#2ba462" />
-                  </linearGradient>
-                  <linearGradient id="gradTop" x1="100%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stopColor="#1a6d3f" />
-                    <stop offset="50%" stopColor="#1e7a46" />
-                    <stop offset="100%" stopColor="#2ba462" />
-                  </linearGradient>
-                  <filter id="ribbonShadow" x="-10%" y="-10%" width="130%" height="130%">
-                    <feDropShadow dx="0" dy="8" stdDeviation="10" floodColor="#000000" floodOpacity="0.18" />
-                  </filter>
-                </defs>
-                <g filter="url(#ribbonShadow)">
-                  <path
-                    d="M370 145 C370 95, 310 65, 256 65 C180 65, 140 115, 140 180 C140 250, 220 270, 275 295 C345 325, 372 360, 372 415 C372 475, 315 495, 256 495 C190 495, 140 450, 140 395"
-                    stroke="url(#gradBottom)"
-                    strokeWidth="82"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M350 155 C350 115, 305 85, 256 85 C195 85, 160 125, 160 175 C160 235, 230 255, 280 280 C335 305, 355 340, 355 390"
-                    stroke="url(#gradMiddle)"
-                    strokeWidth="72"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M360 148 C360 105, 312 78, 256 78 C205 78, 172 112, 172 165 C172 215, 240 240, 290 268 C340 295, 360 330, 360 380 C360 435, 310 468, 256 468 C200 468, 155 425, 155 380"
-                    stroke="url(#gradTop)"
-                    strokeWidth="56"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    opacity="0.95"
-                  />
-                </g>
-              </svg>
+              <img
+                src="/logo.svg"
+                alt="FreeAI Tools Logo"
+                className="w-7 h-7 object-contain"
+                width={28}
+                height={28}
+              />
             </div>
 
             {/* Wordmark */}
@@ -154,24 +102,15 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
             </div>
           </Link>
 
-          {/* CENTER: SIX PARENT CATEGORIES NAVIGATION (Direct scroll to fixed hub on homepage) */}
-          <div className="hidden lg:flex items-center gap-1 xl:gap-2">
-            {parentCategories.map((parent) => (
-              <button
-                key={parent.id}
-                type="button"
-                onClick={() => handleParentClick(parent.id)}
-                className="flex items-center gap-1.5 px-3 py-1.5 xl:px-3.5 xl:py-2 rounded-full text-xs xl:text-sm font-bold text-slate-700 hover:text-emerald-700 hover:bg-emerald-500/10 border border-transparent hover:border-emerald-500/20 transition-all cursor-pointer whitespace-nowrap active:scale-95"
-              >
-                <CategoryIconBadge
-                  categoryId={parent.id}
-                  categoryName={parent.name}
-                  size="xs"
-                  className="!w-4 !h-4 rounded-sm border-0 shrink-0"
-                />
-                <span>{parent.shortName}</span>
-              </button>
-            ))}
+          {/* CENTER: SINGLE LINK TO DISCOVERY HUB */}
+          <div className="hidden md:flex items-center">
+            <Link
+              to="/categories"
+              className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold text-slate-700 hover:text-emerald-700 hover:bg-emerald-500/10 border border-slate-200/70 hover:border-emerald-500/25 transition-all shadow-xs active:scale-95"
+            >
+              <LayoutGrid className="w-4 h-4 text-emerald-600" />
+              <span>Discovery Hub</span>
+            </Link>
           </div>
 
           {/* RIGHT: FAVORITES BADGE, AUTH & EXPLORE CTA */}
@@ -272,7 +211,7 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
                           categoryId={parent.id}
                           categoryName={parent.name}
                           size="xs"
-                          className="!w-5 !h-5 rounded-md border-0 shrink-0"
+                          className="!w-9 !h-9 rounded-xl border-0 shrink-0"
                         />
                         <span className="text-sm font-bold text-white">
                           {parent.name}
@@ -306,7 +245,7 @@ export function Navbar({ openSubmitForm: _openSubmitForm }: NavbarProps) {
                                 categoryId={cat.id}
                                 categoryName={cat.name}
                                 size="xs"
-                                className="!w-5 !h-5"
+                                className="!w-8 !h-8 rounded-xl shrink-0"
                               />
                               <span className="truncate">{cat.name} ({cat.subCategories.length})</span>
                             </Link>

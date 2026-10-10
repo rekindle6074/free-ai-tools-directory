@@ -100,8 +100,8 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ parentCategory, onClose }) =
               categoryId={parentCategory.id}
               categoryName={parentCategory.name}
               fallbackIcon={ParentIcon}
-              size="md"
-              className="!w-8 !h-8 rounded-xl shadow-inner border-white/20 shrink-0"
+              size="lg"
+              className="!w-14 !h-14 rounded-2xl shadow-inner shrink-0"
             />
             <div>
               <h3 className="font-display font-bold text-lg text-white tracking-tight flex items-center gap-2">
@@ -145,9 +145,9 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ parentCategory, onClose }) =
                       categoryId={cat.id}
                       categoryName={cat.name}
                       fallbackIcon={CatIcon}
-                      size="sm"
+                      size="md"
                       isSelected={isSelected}
-                      className="mt-0.5 group-hover/row:scale-110"
+                      className="mt-0.5 group-hover/row:scale-110 !w-12 !h-12 rounded-xl shrink-0"
                     />
                     <div className="flex-1 min-w-0">
                       <div
@@ -171,28 +171,34 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ parentCategory, onClose }) =
             </div>
           </div>
 
-          {/* COL 2: Grouped Subcategories / Topic Sections (7 cols) */}
-          <div className="md:col-span-7 bg-white/[0.04] p-3.5 rounded-2xl border border-white/5 space-y-3.5 max-h-[380px] overflow-y-auto">
-            {parentCategory.topicSections.map((topic, tIdx) => (
-              <div key={tIdx}>
-                <div className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-400 mb-1.5 flex items-center gap-1.5">
-                  <span className="w-1 h-1 rounded-full bg-emerald-400" />
-                  {topic.title}
-                </div>
-                <div className="flex flex-wrap gap-1.5">
-                  {topic.items.map((item, iIdx) => (
-                    <Link
-                      key={iIdx}
-                      to={`/category/${item.path}`}
-                      onClick={onClose}
-                      className="text-[11px] font-medium text-slate-300 bg-white/5 hover:bg-emerald-500/20 hover:text-emerald-300 border border-emerald-500/20 px-2.5 py-1 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-95"
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ))}
+          {/* COL 2: Subcategories with Specialized 3D Icons (7 cols) */}
+          <div className="md:col-span-7 bg-white/[0.04] p-3.5 rounded-2xl border border-white/5 space-y-3 max-h-[380px] overflow-y-auto">
+            <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 flex items-center justify-between pb-1 border-b border-white/5">
+              <span>{memberCats.find(c => c.id === selectedCatId)?.name || "Subcategories"} &bull; {memberCats.find(c => c.id === selectedCatId)?.subCategories.length || 0} Specializations</span>
+              <span className="text-emerald-400 text-[10px] font-bold">100% Free</span>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {(memberCats.find(c => c.id === selectedCatId) || memberCats[0])?.subCategories.map((sub, sIdx) => (
+                <Link
+                  key={sIdx}
+                  to={`/category/${sub.path}`}
+                  onClick={onClose}
+                  className="flex items-center gap-2 p-1.5 rounded-xl bg-white/5 hover:bg-emerald-500/20 hover:text-emerald-300 border border-white/5 hover:border-emerald-400/30 text-xs font-medium text-slate-300 transition-all cursor-pointer group shadow-2xs"
+                >
+                  <CategoryIconBadge
+                    subCategoryPath={sub.path}
+                    categoryId={(memberCats.find(c => c.id === selectedCatId) || memberCats[0])?.id}
+                    categoryName={(memberCats.find(c => c.id === selectedCatId) || memberCats[0])?.name}
+                    size="sm"
+                    className="!w-10 !h-10 rounded-xl shrink-0 group-hover:scale-105 transition-transform"
+                  />
+                  <div className="flex flex-col min-w-0">
+                    <span className="truncate group-hover:text-emerald-300 transition-colors text-[11px] font-semibold">{sub.name}</span>
+                    <span className="text-[8px] text-slate-400">{sub.count} tools</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
 
         </div>

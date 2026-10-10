@@ -10,7 +10,9 @@
     "prerender": "tsx scripts/prerender.ts",
     "start": "node dist/server.cjs",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "predev": "node scripts/ensure-stubs.cjs",
+    "postinstall": "node scripts/ensure-stubs.cjs"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",

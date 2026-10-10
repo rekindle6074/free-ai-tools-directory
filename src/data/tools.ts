@@ -10,6 +10,26 @@ export interface Tool {
   iconUrl?: string;
 }
 
+export function getToolIconUrl(tool: { link?: string; iconUrl?: string; category?: string }): string {
+  if (
+    tool.iconUrl &&
+    !tool.iconUrl.includes('__Estimated_') &&
+    !tool.iconUrl.includes('free-ai-tools-directory') &&
+    !tool.iconUrl.startsWith('/icons/')
+  ) {
+    return tool.iconUrl;
+  }
+  if (tool.link) {
+    try {
+      const hostname = new URL(tool.link).hostname.replace(/^www\./, '');
+      if (hostname) {
+        return `https://www.google.com/s2/favicons?domain=${hostname}&sz=128`;
+      }
+    } catch {}
+  }
+  return tool.iconUrl || '';
+}
+
 export interface Category {
   name: string;
   id: string;
@@ -77,7 +97,7 @@ export const categories: Category[] = [
       { name: "Free AI Speech-to-Text", tag: "free-ai-speech-to-text", path: "free-ai-speech-to-text", count: 41 },
       { name: "Free AI Text-to-Speech", tag: "free-ai-text-to-speech", path: "free-ai-text-to-speech", count: 21 },
       { name: "Free AI Transcription", tag: "free-ai-transcription", path: "free-ai-transcription", count: 19 },
-      { name: "Free AI Speech Recognition", tag: "free-ai-speech-recognition", path: "free-ai-speech-recognition", count: 46 },
+      { name: "Free AI Speech Recognition", tag: "free-ai-speech-recognition", path: "free-ai-speech-recognition", count: 45 },
       { name: "Free AI Voice Cloning", tag: "free-ai-voice-cloning", path: "free-ai-voice-cloning", count: 47 },
       { name: "Free AI Voice Enhancer", tag: "free-ai-voice-enhancer", path: "free-ai-voice-enhancer", count: 11 },
       { name: "Free AI Voice Generator", tag: "free-ai-voice-generator", path: "free-ai-voice-generator", count: 47 },
@@ -256,21 +276,21 @@ export const categories: Category[] = [
       { name: "AI Portrait Generator", tag: "ai-portrait-generator", path: "ai-portrait-generator", count: 52 },
       { name: "AI Fitness", tag: "ai-fitness", path: "ai-fitness", count: 59 },
       { name: "AI Bible", tag: "ai-bible", path: "ai-bible", count: 17 },
-      { name: "AI Newsletter", tag: "ai-newsletter", path: "ai-newsletter", count: 43 },
+      { name: "AI Newsletter", tag: "ai-newsletter", path: "ai-newsletter", count: 45 },
       { name: "AI Religion", tag: "ai-religion", path: "ai-religion", count: 27 },
-      { name: "AI Recipe", tag: "ai-recipe", path: "ai-recipe", count: 50 },
+      { name: "AI Recipe", tag: "ai-recipe", path: "ai-recipe", count: 53 },
       { name: "AI Travel", tag: "ai-travel", path: "ai-travel", count: 50 },
-      { name: "AI Detection", tag: "ai-detection", path: "ai-detection", count: 77 },
-      { name: "Free Large Language Models (LLMs)", tag: "free-llms", path: "free-llms", count: 51 },
-      { name: "Free AI Models", tag: "free-ai-models", path: "free-ai-models", count: 31 },
-      { name: "Free Open Source AI Models", tag: "free-open-source-ai-models", path: "free-open-source-ai-models", count: 65 },
-      { name: "Free AI Tools Directory", tag: "free-ai-tools-directory", path: "free-ai-tools-directory", count: 57 },
+      { name: "AI Detection", tag: "ai-detection", path: "ai-detection", count: 71 },
+      { name: "Free Large Language Models (LLMs)", tag: "free-llms", path: "free-llms", count: 49 },
+      { name: "Free AI Models", tag: "free-ai-models", path: "free-ai-models", count: 28 },
+      { name: "Free Open Source AI Models", tag: "free-open-source-ai-models", path: "free-open-source-ai-models", count: 63 },
+      { name: "Free AI Tools Directory", tag: "free-ai-tools-directory", path: "free-ai-tools-directory", count: 52 },
       { name: "Free AI Games", tag: "free-ai-games", path: "free-ai-games", count: 58 },
-      { name: "Free AI Game Generator", tag: "free-ai-game-generator", path: "free-ai-game-generator", count: 30 },
-      { name: "Free AI Robot", tag: "free-ai-robot", path: "free-ai-robot", count: 31 },
-      { name: "Free Minecraft AI", tag: "free-minecraft-ai", path: "free-minecraft-ai", count: 17 },
-      { name: "Free AI Poker", tag: "free-ai-poker", path: "free-ai-poker", count: 12 },
-      { name: "The AI Toolbox", tag: "other-misc", path: "other-misc", count: 63 }
+      { name: "Free AI Game Generator", tag: "free-ai-game-generator", path: "free-ai-game-generator", count: 28 },
+      { name: "Free AI Robot", tag: "free-ai-robot", path: "free-ai-robot", count: 26 },
+      { name: "Free Minecraft AI", tag: "free-minecraft-ai", path: "free-minecraft-ai", count: 15 },
+      { name: "Free AI Poker", tag: "free-ai-poker", path: "free-ai-poker", count: 10 },
+      { name: "The AI Toolbox", tag: "other-misc", path: "other-misc", count: 60 }
     ]
   },
   {
@@ -281,7 +301,7 @@ export const categories: Category[] = [
       { name: "Free AI OCR", tag: "free-ai-ocr", path: "free-ai-ocr", count: 50 },
       { name: "Free AI Image Recognition", tag: "free-ai-image-recognition", path: "free-ai-image-recognition", count: 57 },
       { name: "Free Image to Prompt", tag: "free-image-to-prompt", path: "free-image-to-prompt", count: 54 },
-      { name: "Free AI Face Analyzer", tag: "free-ai-face-analyzer", path: "free-ai-face-analyzer", count: 46 },
+      { name: "Free AI Face Analyzer", tag: "free-ai-face-analyzer", path: "free-ai-face-analyzer", count: 45 },
       { name: "Free AI Face Recognition", tag: "free-ai-face-recognition", path: "free-ai-face-recognition", count: 59 },
       { name: "Free AI Describe Image", tag: "free-ai-describe-image", path: "free-ai-describe-image", count: 66 },
       { name: "Free AI Image Segmentation", tag: "free-ai-image-segmentation", path: "free-ai-image-segmentation", count: 32 },
@@ -293,17 +313,17 @@ export const categories: Category[] = [
     name: "Law & Finance",
     color: "emerald",
     subCategories: [
-      { name: "Free AI For Finance", tag: "free-ai-for-finance", path: "free-ai-for-finance", count: 56 },
-      { name: "Free AI Investing", tag: "free-ai-investing", path: "free-ai-investing", count: 52 },
-      { name: "Free AI Legal Assistant", tag: "free-ai-legal-assistant", path: "free-ai-legal-assistant", count: 65 },
-      { name: "Free AI Real Estate", tag: "free-ai-real-estate", path: "free-ai-real-estate", count: 69 },
-      { name: "Free AI Accounting", tag: "free-ai-accounting", path: "free-ai-accounting", count: 59 },
-      { name: "Free AI Trading Bot", tag: "free-ai-trading-bot", path: "free-ai-trading-bot", count: 44 },
-      { name: "Free AI Tax Assistant", tag: "free-ai-tax-assistant", path: "free-ai-tax-assistant", count: 39 },
-      { name: "Free AI Contract Review", tag: "free-ai-contract-review", path: "free-ai-contract-review", count: 52 },
-      { name: "Free AI Stock Trading", tag: "free-ai-stock-trading", path: "free-ai-stock-trading", count: 51 },
-      { name: "Free AI Contract Management", tag: "free-ai-contract-management", path: "free-ai-contract-management", count: 46 },
-      { name: "Free AI Contract Generator", tag: "free-ai-contract-generator", path: "free-ai-contract-generator", count: 43 }
+      { name: "Free AI For Finance", tag: "free-ai-for-finance", path: "free-ai-for-finance", count: 40 },
+      { name: "Free AI Investing", tag: "free-ai-investing", path: "free-ai-investing", count: 30 },
+      { name: "Free AI Legal Assistant", tag: "free-ai-legal-assistant", path: "free-ai-legal-assistant", count: 40 },
+      { name: "Free AI Real Estate", tag: "free-ai-real-estate", path: "free-ai-real-estate", count: 45 },
+      { name: "Free AI Accounting", tag: "free-ai-accounting", path: "free-ai-accounting", count: 39 },
+      { name: "Free AI Trading Bot", tag: "free-ai-trading-bot", path: "free-ai-trading-bot", count: 25 },
+      { name: "Free AI Tax Assistant", tag: "free-ai-tax-assistant", path: "free-ai-tax-assistant", count: 27 },
+      { name: "Free AI Contract Review", tag: "free-ai-contract-review", path: "free-ai-contract-review", count: 31 },
+      { name: "Free AI Stock Trading", tag: "free-ai-stock-trading", path: "free-ai-stock-trading", count: 33 },
+      { name: "Free AI Contract Management", tag: "free-ai-contract-management", path: "free-ai-contract-management", count: 26 },
+      { name: "Free AI Contract Generator", tag: "free-ai-contract-generator", path: "free-ai-contract-generator", count: 31 }
     ]
   },
   {
@@ -311,28 +331,28 @@ export const categories: Category[] = [
     name: "Marketing",
     color: "emerald",
     subCategories: [
-      { name: "Free AI Marketing", tag: "free-ai-marketing", path: "free-ai-marketing", count: 50 },
-      { name: "Free AI Sales", tag: "free-ai-sales", path: "free-ai-sales", count: 50 },
-      { name: "Free AI SEO Tools", tag: "free-ai-seo-tools", path: "free-ai-seo-tools", count: 50 },
-      { name: "Free AI Ad Generator", tag: "free-ai-ad-generator", path: "free-ai-ad-generator", count: 50 },
-      { name: "Free AI Sales Assistant", tag: "free-ai-sales-assistant", path: "free-ai-sales-assistant", count: 50 },
-      { name: "Free AI Lead Generation", tag: "free-ai-lead-generation", path: "free-ai-lead-generation", count: 50 },
-      { name: "Free AI Email Marketing", tag: "free-ai-email-marketing", path: "free-ai-email-marketing", count: 50 },
-      { name: "Free AI Advertising", tag: "free-ai-advertising", path: "free-ai-advertising", count: 50 },
-      { name: "Free SEO Writing AI", tag: "free-seo-writing-ai", path: "free-seo-writing-ai", count: 50 },
-      { name: "Free Ad Copy", tag: "free-ad-copy", path: "free-ad-copy", count: 34 },
-      { name: "Free AI Ad Creative", tag: "free-ai-ad-creative", path: "free-ai-ad-creative", count: 50 },
-      { name: "Free AI Affiliate Marketing", tag: "free-ai-affiliate-marketing", path: "free-ai-affiliate-marketing", count: 47 },
-      { name: "Free AI Cold Calling", tag: "free-ai-cold-calling", path: "free-ai-cold-calling", count: 34 },
-      { name: "Free AI Email Generator", tag: "free-ai-email-generator", path: "free-ai-email-generator", count: 50 },
-      { name: "Free AI Digital Marketing", tag: "free-ai-digital-marketing", path: "free-ai-digital-marketing", count: 50 },
-      { name: "Free AI Marketing Plan Generator", tag: "free-ai-marketing-plan-generator", path: "free-ai-marketing-plan-generator", count: 50 },
-      { name: "Free AI Pitch Deck Generator", tag: "free-ai-pitch-deck-generator", path: "free-ai-pitch-deck-generator", count: 33 },
-      { name: "Free AI Reply", tag: "free-ai-reply", path: "free-ai-reply", count: 50 },
-      { name: "Free AI Response Generator", tag: "free-ai-response-generator", path: "free-ai-response-generator", count: 50 },
-      { name: "Free AI Reviews", tag: "free-ai-reviews", path: "free-ai-reviews", count: 27 },
-      { name: "Free AI Website Designer", tag: "free-ai-website-designer", path: "free-ai-website-designer", count: 28 },
-      { name: "Free Google Ads AI", tag: "free-google-ads-ai", path: "free-google-ads-ai", count: 25 }
+      { name: "Free AI Marketing", tag: "free-ai-marketing", path: "free-ai-marketing", count: 4 },
+      { name: "Free AI Sales", tag: "free-ai-sales", path: "free-ai-sales", count: 4 },
+      { name: "Free AI SEO Tools", tag: "free-ai-seo-tools", path: "free-ai-seo-tools", count: 4 },
+      { name: "Free AI Ad Generator", tag: "free-ai-ad-generator", path: "free-ai-ad-generator", count: 4 },
+      { name: "Free AI Sales Assistant", tag: "free-ai-sales-assistant", path: "free-ai-sales-assistant", count: 3 },
+      { name: "Free AI Lead Generation", tag: "free-ai-lead-generation", path: "free-ai-lead-generation", count: 3 },
+      { name: "Free AI Email Marketing", tag: "free-ai-email-marketing", path: "free-ai-email-marketing", count: 4 },
+      { name: "Free AI Advertising", tag: "free-ai-advertising", path: "free-ai-advertising", count: 3 },
+      { name: "Free SEO Writing AI", tag: "free-seo-writing-ai", path: "free-seo-writing-ai", count: 4 },
+      { name: "Free Ad Copy", tag: "free-ad-copy", path: "free-ad-copy", count: 3 },
+      { name: "Free AI Ad Creative", tag: "free-ai-ad-creative", path: "free-ai-ad-creative", count: 3 },
+      { name: "Free AI Affiliate Marketing", tag: "free-ai-affiliate-marketing", path: "free-ai-affiliate-marketing", count: 3 },
+      { name: "Free AI Cold Calling", tag: "free-ai-cold-calling", path: "free-ai-cold-calling", count: 2 },
+      { name: "Free AI Email Generator", tag: "free-ai-email-generator", path: "free-ai-email-generator", count: 2 },
+      { name: "Free AI Digital Marketing", tag: "free-ai-digital-marketing", path: "free-ai-digital-marketing", count: 3 },
+      { name: "Free AI Marketing Plan Generator", tag: "free-ai-marketing-plan-generator", path: "free-ai-marketing-plan-generator", count: 2 },
+      { name: "Free AI Pitch Deck Generator", tag: "free-ai-pitch-deck-generator", path: "free-ai-pitch-deck-generator", count: 3 },
+      { name: "Free AI Reply", tag: "free-ai-reply", path: "free-ai-reply", count: 2 },
+      { name: "Free AI Response Generator", tag: "free-ai-response-generator", path: "free-ai-response-generator", count: 2 },
+      { name: "Free AI Reviews", tag: "free-ai-reviews", path: "free-ai-reviews", count: 2 },
+      { name: "Free AI Website Designer", tag: "free-ai-website-designer", path: "free-ai-website-designer", count: 3 },
+      { name: "Free Google Ads AI", tag: "free-google-ads-ai", path: "free-google-ads-ai", count: 3 }
     ]
   },
   {
@@ -340,22 +360,22 @@ export const categories: Category[] = [
     name: "Social Growth Hub",
     color: "emerald",
     subCategories: [
-      { name: "Free AI Bio Generator", tag: "free-ai-bio-generator", path: "free-ai-bio-generator", count: 50 },
-      { name: "Free AI Facebook", tag: "free-ai-facebook", path: "free-ai-facebook", count: 45 },
-      { name: "Free AI Hashtag", tag: "free-ai-hashtag", path: "free-ai-hashtag", count: 50 },
-      { name: "Free AI Influencer", tag: "free-ai-influencer", path: "free-ai-influencer", count: 50 },
-      { name: "Free AI Instagram Caption Generator", tag: "free-ai-instagram-caption-generator", path: "free-ai-instagram-caption-generator", count: 39 },
-      { name: "Free AI Instagram", tag: "free-ai-instagram", path: "free-ai-instagram", count: 50 },
-      { name: "Free AI Meme Generator", tag: "free-ai-meme-generator", path: "free-ai-meme-generator", count: 50 },
+      { name: "Free AI Bio Generator", tag: "free-ai-bio-generator", path: "free-ai-bio-generator", count: 48 },
+      { name: "Free AI Facebook", tag: "free-ai-facebook", path: "free-ai-facebook", count: 43 },
+      { name: "Free AI Hashtag", tag: "free-ai-hashtag", path: "free-ai-hashtag", count: 47 },
+      { name: "Free AI Influencer", tag: "free-ai-influencer", path: "free-ai-influencer", count: 47 },
+      { name: "Free AI Instagram Caption Generator", tag: "free-ai-instagram-caption-generator", path: "free-ai-instagram-caption-generator", count: 36 },
+      { name: "Free AI Instagram", tag: "free-ai-instagram", path: "free-ai-instagram", count: 46 },
+      { name: "Free AI Meme Generator", tag: "free-ai-meme-generator", path: "free-ai-meme-generator", count: 48 },
       { name: "Free AI Social Media Post Generator", tag: "free-ai-social-media-post-generator", path: "free-ai-social-media-post-generator", count: 50 },
-      { name: "Free AI Social Media", tag: "free-ai-social-media", path: "free-ai-social-media", count: 50 },
-      { name: "Free AI Tiktok", tag: "free-ai-tiktok", path: "free-ai-tiktok", count: 50 },
+      { name: "Free AI Social Media", tag: "free-ai-social-media", path: "free-ai-social-media", count: 48 },
+      { name: "Free AI Tiktok", tag: "free-ai-tiktok", path: "free-ai-tiktok", count: 49 },
       { name: "Free AI Tweet Generator", tag: "free-ai-tweet-generator", path: "free-ai-tweet-generator", count: 49 },
-      { name: "Free AI Twitter", tag: "free-ai-twitter", path: "free-ai-twitter", count: 49 },
-      { name: "Free AI Youtube Summary", tag: "free-ai-youtube-summary", path: "free-ai-youtube-summary", count: 50 },
-      { name: "Free AI Youtube Thumbnail Generator", tag: "free-ai-youtube-thumbnail-generator", path: "free-ai-youtube-thumbnail-generator", count: 30 },
-      { name: "Free AI YouTube", tag: "free-ai-youtube", path: "free-ai-youtube", count: 50 },
-      { name: "Free Bio Link", tag: "free-bio-link", path: "free-bio-link", count: 38 },
+      { name: "Free AI Twitter", tag: "free-ai-twitter", path: "free-ai-twitter", count: 47 },
+      { name: "Free AI Youtube Summary", tag: "free-ai-youtube-summary", path: "free-ai-youtube-summary", count: 48 },
+      { name: "Free AI Youtube Thumbnail Generator", tag: "free-ai-youtube-thumbnail-generator", path: "free-ai-youtube-thumbnail-generator", count: 29 },
+      { name: "Free AI YouTube", tag: "free-ai-youtube", path: "free-ai-youtube", count: 48 },
+      { name: "Free Bio Link", tag: "free-bio-link", path: "free-bio-link", count: 36 },
       { name: "Free Youtube Tags Generator", tag: "free-ai-youtube-tags-generator", path: "free-ai-youtube-tags-generator", count: 25 }
     ]
   },
@@ -364,14 +384,14 @@ export const categories: Category[] = [
     name: "Neural Analytics Hub",
     color: "emerald",
     subCategories: [
-      { name: "Free AI Data Mining", tag: "free-ai-data-mining", path: "free-ai-data-mining", count: 50 },
-      { name: "Free AI For Data Analytics", tag: "free-ai-for-data-analytics", path: "free-ai-for-data-analytics", count: 50 },
-      { name: "Free AI Papers", tag: "free-ai-papers", path: "free-ai-papers", count: 27 },
-      { name: "Free AI Predictions", tag: "free-ai-predictions", path: "free-ai-predictions", count: 50 },
-      { name: "Free AI Research Papers", tag: "free-ai-research-papers", path: "free-ai-research-papers", count: 46 },
-      { name: "Free AI Research Tool", tag: "free-ai-research-tool", path: "free-ai-research-tool", count: 50 },
-      { name: "Free AI Sports Betting", tag: "free-ai-sports-betting", path: "free-ai-sports-betting", count: 19 },
-      { name: "Free AI Sports Predictions", tag: "free-ai-sports-predictions", path: "free-ai-sports-predictions", count: 17 }
+      { name: "Free AI Data Mining", tag: "free-ai-data-mining", path: "free-ai-data-mining", count: 42 },
+      { name: "Free AI For Data Analytics", tag: "free-ai-for-data-analytics", path: "free-ai-for-data-analytics", count: 40 },
+      { name: "Free AI Papers", tag: "free-ai-papers", path: "free-ai-papers", count: 25 },
+      { name: "Free AI Predictions", tag: "free-ai-predictions", path: "free-ai-predictions", count: 42 },
+      { name: "Free AI Research Papers", tag: "free-ai-research-papers", path: "free-ai-research-papers", count: 40 },
+      { name: "Free AI Research Tool", tag: "free-ai-research-tool", path: "free-ai-research-tool", count: 34 },
+      { name: "Free AI Sports Betting", tag: "free-ai-sports-betting", path: "free-ai-sports-betting", count: 16 },
+      { name: "Free AI Sports Predictions", tag: "free-ai-sports-predictions", path: "free-ai-sports-predictions", count: 15 }
     ]
   },
   {
@@ -379,11 +399,11 @@ export const categories: Category[] = [
     name: "Smart Medical Directory",
     color: "emerald",
     subCategories: [
-      { name: "Free AI Dermatology", tag: "free-ai-dermatology", path: "free-ai-dermatology", count: 7 },
-      { name: "Free AI Healthcare", tag: "free-ai-healthcare", path: "free-ai-healthcare", count: 50 },
-      { name: "Free AI Medical Diagnosis", tag: "free-ai-medical-diagnosis", path: "free-ai-medical-diagnosis", count: 35 },
+      { name: "Free AI Dermatology", tag: "free-ai-dermatology", path: "free-ai-dermatology", count: 6 },
+      { name: "Free AI Healthcare", tag: "free-ai-healthcare", path: "free-ai-healthcare", count: 49 },
+      { name: "Free AI Medical Diagnosis", tag: "free-ai-medical-diagnosis", path: "free-ai-medical-diagnosis", count: 32 },
       { name: "Free AI Mental Health", tag: "free-ai-mental-health", path: "free-ai-mental-health", count: 50 },
-      { name: "Free AI Symptom Checker", tag: "free-ai-symptom-checker", path: "free-ai-symptom-checker", count: 29 },
+      { name: "Free AI Symptom Checker", tag: "free-ai-symptom-checker", path: "free-ai-symptom-checker", count: 28 },
       { name: "Free AI Therapist", tag: "free-ai-therapist", path: "free-ai-therapist", count: 50 }
     ]
   }
@@ -431,6 +451,17 @@ export const toolsByTag: Record<string, Tool[]> = {
 
 export const featuredTools: Tool[] = [
   {
+    id: "verimails",
+    name: "VeriMails",
+    description: "VeriMails finds and verifies email addresses with live SMTP checks and catch-all detection.",
+    category: "Writing & Marketing",
+    stars: "15k",
+    score: 9.8,
+    link: "https://verimails.com",
+    iconUrl: "https://www.google.com/s2/favicons?domain=verimails.com&sz=128",
+    icon: "Mail"
+  },
+  {
     id: "captions",
     name: "Captions",
     description: "Transform your videos with AI-powered automatic captions and UGC-style ad generation.",
@@ -438,7 +469,7 @@ export const featuredTools: Tool[] = [
     stars: "48k",
     score: 9.8,
     link: "https://www.getcaptions.app/",
-    iconUrl: "/icons/getcaptions.app-128x128__Estimated_.png",
+    iconUrl: "https://www.google.com/s2/favicons?domain=getcaptions.app&sz=128",
     icon: "Video"
   },
   {
@@ -449,7 +480,7 @@ export const featuredTools: Tool[] = [
     stars: "12k",
     score: 9.9,
     link: "https://www.minimax.io/",
-    iconUrl: "/icons/minimax.io-128x128__Estimated_.png",
+    iconUrl: "https://www.google.com/s2/favicons?domain=minimax.io&sz=128",
     icon: "Code2"
   },
   {
@@ -460,7 +491,7 @@ export const featuredTools: Tool[] = [
     stars: "35k",
     score: 9.5,
     link: "https://www.freepik.com/ai/image-generator",
-    iconUrl: "/icons/freepik.com-128x128__Estimated_.png",
+    iconUrl: "https://www.google.com/s2/favicons?domain=freepik.com&sz=128",
     icon: "Image"
   },
   {
@@ -471,7 +502,7 @@ export const featuredTools: Tool[] = [
     stars: "15k",
     score: 9.7,
     link: "https://www.perplexity.ai/comet/",
-    iconUrl: "/icons/perplexity.ai-128x128__Estimated_.png",
+    iconUrl: "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128",
     icon: "Globe"
   },
   {
@@ -482,7 +513,7 @@ export const featuredTools: Tool[] = [
     stars: "8k",
     score: 9.4,
     link: "https://music.ai/",
-    iconUrl: "/icons/music.ai-128x128__Estimated_.png",
+    iconUrl: "https://www.google.com/s2/favicons?domain=music.ai&sz=128",
     icon: "Music"
   },
   {
@@ -493,7 +524,7 @@ export const featuredTools: Tool[] = [
     stars: "10k",
     score: 9.6,
     link: "https://www.browse.ai/",
-    iconUrl: "/icons/browse.ai-128x128__Estimated_.png",
+    iconUrl: "https://www.google.com/s2/favicons?domain=browse.ai&sz=128",
     icon: "Database"
   }
 ];

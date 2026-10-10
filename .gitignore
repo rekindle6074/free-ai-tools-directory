@@ -12,7 +12,8 @@ domains.txt
 /public/icons/
 
 # Private tools catalog (Restricted to registered members - Never commit to public GitHub)
-src/data/tools/
+src/data/tools/*
+!src/data/tools/business-ai.ts
 src/data/private-tools/
 server/data/tools-vault/
 

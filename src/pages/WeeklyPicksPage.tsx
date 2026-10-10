@@ -30,6 +30,7 @@ const picks: Pick[] = [
     id: 1,
     title: "OpenAI GPT-5.4",
     description: "OpenAI's most capable frontier model features native computer-use capabilities, allowing it to autonomously click, type, and navigate software. It launches with a full financial services suite and ChatGPT integration for Excel, available in 'Thinking' and 'Pro' modes.",
+    logo: "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
     tag: "New Model",
     color: "emerald",
     size: "large",
@@ -39,16 +40,17 @@ const picks: Pick[] = [
     id: 2,
     title: "Luma AI Creative Agents",
     description: "Luma unveiled AI agents that can transform a single brief into a complete ad campaign (text, image, video, audio). Powered by the new Uni-1 model, these agents coordinate with external tools like Google's Veo 3 and utilize iterative self-critique to refine outputs.",
+    logo: "https://www.google.com/s2/favicons?domain=lumalabs.ai&sz=128",
     tag: "Creative",
     color: "blue",
     size: "medium",
-    url: "https://lumaal.ai"
+    url: "https://lumalabs.ai"
   },
   {
     id: 3,
     title: "Google Nano Banana 2",
     description: "Built on Gemini 3.1 Flash, this viral image generator is now significantly faster and capable of producing 4K resolution images.",
-    logo: "https://free-ai-tools-directory.vercel.app/public/google.svg",
+    logo: "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
     tag: "Image Gen",
     color: "amber",
     size: "small",
@@ -58,7 +60,7 @@ const picks: Pick[] = [
     id: 4,
     title: "Perplexity Computer",
     description: "A new general-purpose digital worker capable of running complex projects for hours or months.",
-    logo: "https://free-ai-tools-directory.vercel.app/public/perplexity.svg",
+    logo: "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128",
     tag: "Productivity",
     color: "purple",
     size: "small",
@@ -68,7 +70,7 @@ const picks: Pick[] = [
     id: 5,
     title: "Google Gemini & Opal Updates",
     description: "Google is infusing agentic features into its ecosystem: Gemini on Android can now autonomously complete multi-step tasks like booking Ubers.",
-    logo: "https://free-ai-tools-directory.vercel.app/public/googlegemini.svg",
+    logo: "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
     tag: "Ecosystem",
     color: "cyan",
     size: "medium",
@@ -78,7 +80,7 @@ const picks: Pick[] = [
     id: 6,
     title: "Anthropic Sonnet 4.6",
     description: "Anthropic released an affordable model boasting 'human-level capability' at computer tasks like navigating spreadsheets and updating websites.",
-    logo: "https://free-ai-tools-directory.vercel.app/public/anthropic.svg",
+    logo: "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
     tag: "Efficiency",
     color: "orange",
     size: "medium",
@@ -88,6 +90,7 @@ const picks: Pick[] = [
     id: 7,
     title: "Claude (Sonnet 4.6)",
     description: "Widely regarded as the most human-sounding AI, Claude excels at creative writing and following complex coding instructions.",
+    logo: "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
     tag: "Writing",
     color: "rose",
     size: "medium",
@@ -97,7 +100,7 @@ const picks: Pick[] = [
     id: 8,
     title: "DataCamp DataLab",
     description: "A browser-based data science tool that removes the need for environment management. It connects directly to data sources.",
-    logo: "https://free-ai-tools-directory.vercel.app/public/datacamp.svg",
+    logo: "https://www.google.com/s2/favicons?domain=datacamp.com&sz=128",
     tag: "Data Science",
     color: "indigo",
     size: "medium",
@@ -185,11 +188,11 @@ const WeeklyPicksPage: FC = () => {
                   <div className="flex justify-between items-start mb-6">
                     <div className="flex items-center gap-4">
                       {pick.logo ? (
-                        <div className="w-12 h-12 rounded-xl bg-slate-50 p-2 flex items-center justify-center border border-slate-100 group-hover:scale-110 transition-transform duration-500">
+                        <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center border border-slate-200/80 overflow-hidden group-hover:scale-105 transition-transform duration-500 shrink-0 p-1.5">
                           <img 
                             src={pick.logo} 
                             alt={`${pick.title} - ${pick.tag} AI tool logo`} 
-                            className="w-full h-full object-contain"
+                            className="w-full h-full object-contain transition-transform duration-500"
                             referrerPolicy="no-referrer"
                           />
                         </div>

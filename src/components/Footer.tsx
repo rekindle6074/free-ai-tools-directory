@@ -87,7 +87,7 @@ export default function Footer({ openSubmitForm }: FooterProps) {
             {/* Column 1: Brand & Description */}
             <div className="md:col-span-4">
               <Link to="/" className="flex items-center gap-2 mb-6">
-                <img src="/logo.svg" alt="FreeAI Tools Logo" className="h-8 w-auto object-contain" />
+                <img src="/logo.svg" alt="FreeAI Tools Logo" className="h-8 w-8 object-contain" width={32} height={32} />
                 <span className="text-2xl font-bold tracking-tight text-slate-900 font-display">
                   FreeAI<span className="text-emerald-600">Tools</span>
                 </span>

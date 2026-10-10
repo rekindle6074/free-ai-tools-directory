@@ -119,20 +119,39 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
   };
 
   const domain = getDomain(tool.link);
-  const localIconUrl = `/icons/${domain}-128x128__Estimated_.png`;
+  const isValidCustomIcon = Boolean(
+    tool.iconUrl && 
+    !tool.iconUrl.includes("free-ai-tools-directory.vercel.app") &&
+    !tool.iconUrl.includes("__Estimated_")
+  );
   const googleIconUrl = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128` : null;
+  const duckduckgoIconUrl = domain ? `https://icons.duckduckgo.com/ip3/${domain}.ico` : null;
+  const categoryLogoUrl = getCategoryLogo(tool.category);
 
-  // Initial state: tool.iconUrl -> local custom icon -> google favicon
-  const [iconToDisplay, setIconToDisplay] = useState(tool.iconUrl || localIconUrl);
-  const [fallbackLevel, setFallbackLevel] = useState(0); // 0: primary, 1: google fallback, 2: category icon
+  // Initial state: valid custom icon -> google 128px favicon -> duckduckgo -> category 3D logo
+  const initialIcon = isValidCustomIcon 
+    ? tool.iconUrl! 
+    : (googleIconUrl || duckduckgoIconUrl || categoryLogoUrl || "");
+
+  const [iconToDisplay, setIconToDisplay] = useState(initialIcon);
+  const [fallbackLevel, setFallbackLevel] = useState(0); // 0: primary, 1: ddg, 2: category logo, 3: lucide icon
+
+  useEffect(() => {
+    setIconToDisplay(initialIcon);
+    setFallbackLevel(0);
+    setImageError(false);
+  }, [tool.id, tool.link, tool.iconUrl, initialIcon]);
 
   const handleIconError = () => {
-    if (fallbackLevel === 0 && googleIconUrl && iconToDisplay !== googleIconUrl) {
-      setIconToDisplay(googleIconUrl);
+    if (fallbackLevel === 0 && duckduckgoIconUrl && iconToDisplay !== duckduckgoIconUrl) {
+      setIconToDisplay(duckduckgoIconUrl);
       setFallbackLevel(1);
+    } else if (fallbackLevel <= 1 && categoryLogoUrl && iconToDisplay !== categoryLogoUrl) {
+      setIconToDisplay(categoryLogoUrl);
+      setFallbackLevel(2);
     } else {
       setImageError(true);
-      setFallbackLevel(2);
+      setFallbackLevel(3);
     }
   };
 
@@ -205,25 +224,27 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
           </button>
         </div>
         
-        <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-slate-100 transform group-hover:scale-110 transition-transform duration-500 ease-out">
+        <div className="w-16 h-16 bg-white rounded-2xl overflow-hidden flex items-center justify-center mb-6 shadow-sm border border-slate-200/80 transform group-hover:scale-105 transition-transform duration-500 ease-out shrink-0">
           {iconToDisplay && !imageError ? (
             <img 
               src={iconToDisplay} 
               alt={`${tool.name} - ${tool.category} AI tool logo`} 
-              className="w-full h-full object-contain p-2.5 rounded-2xl"
+              className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
               onError={handleIconError}
             />
           ) : (
-            getCategoryLogo(tool.category) ? (
+            categoryLogoUrl ? (
               <img 
-                src={getCategoryLogo(tool.category)!} 
+                src={categoryLogoUrl} 
                 alt={`${tool.category} category logo`} 
-                className="w-full h-full object-cover rounded-2xl"
+                className="w-full h-full object-cover scale-125 group-hover:scale-130 transition-transform duration-500"
                 referrerPolicy="no-referrer"
               />
             ) : (
-              <Icon className="w-7 h-7 text-emerald-600 group-hover:text-emerald-700 transition-colors" />
+              <div className="w-full h-full flex items-center justify-center bg-emerald-50 text-emerald-600 rounded-xl">
+                <Icon className="w-10 h-10" />
+              </div>
             )
           )}
         </div>
@@ -234,12 +255,12 @@ const ToolCard: FC<ToolCardProps> = ({ tool, initiallyFavorite = false }) => {
           </Link>
         </h3>
         <div className="flex items-center gap-2 mb-4">
-          <span className="inline-flex items-center gap-1.5 px-2 py-0.5 bg-emerald-50 text-emerald-700 text-[9px] font-black uppercase tracking-widest rounded transition-colors group-hover:bg-emerald-100">
+          <span className="inline-flex items-center gap-2 px-2.5 py-1 bg-emerald-50 text-emerald-700 text-[10px] font-black uppercase tracking-wider rounded-xl transition-colors group-hover:bg-emerald-100">
             {getCategoryLogo(tool.category) && (
               <img
                 src={getCategoryLogo(tool.category)!}
                 alt=""
-                className="w-3.5 h-3.5 rounded-xs object-cover"
+                className="w-6 h-6 rounded-md object-cover scale-120 shrink-0 border border-slate-200/80 shadow-2xs"
                 referrerPolicy="no-referrer"
               />
             )}

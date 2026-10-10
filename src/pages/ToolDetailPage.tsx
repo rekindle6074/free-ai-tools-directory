@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
 import { 
@@ -43,6 +43,51 @@ export const ToolDetailPage: FC = () => {
   const note = getNote(tool.id);
   const [tempNote, setTempNote] = useState(note);
   const [isEditingNote, setIsEditingNote] = useState(false);
+
+  // Smart domain icon fallback system
+  const getDomain = (url: string) => {
+    try {
+      return new URL(url).hostname;
+    } catch {
+      return "";
+    }
+  };
+  const domain = getDomain(tool.link);
+  const isValidCustomIcon = Boolean(
+    tool.iconUrl && 
+    !tool.iconUrl.includes("free-ai-tools-directory.vercel.app") &&
+    !tool.iconUrl.includes("__Estimated_")
+  );
+  const googleIconUrl = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128` : null;
+  const duckduckgoIconUrl = domain ? `https://icons.duckduckgo.com/ip3/${domain}.ico` : null;
+  const categoryLogoUrl = getCategoryLogo(tool.category);
+
+  const initialIcon = isValidCustomIcon 
+    ? tool.iconUrl! 
+    : (googleIconUrl || duckduckgoIconUrl || categoryLogoUrl || "");
+
+  const [iconToDisplay, setIconToDisplay] = useState(initialIcon);
+  const [fallbackLevel, setFallbackLevel] = useState(0);
+  const [imgError, setImgError] = useState(false);
+
+  useEffect(() => {
+    setIconToDisplay(initialIcon);
+    setFallbackLevel(0);
+    setImgError(false);
+  }, [tool.id, tool.link, tool.iconUrl, initialIcon]);
+
+  const handleIconError = () => {
+    if (fallbackLevel === 0 && duckduckgoIconUrl && iconToDisplay !== duckduckgoIconUrl) {
+      setIconToDisplay(duckduckgoIconUrl);
+      setFallbackLevel(1);
+    } else if (fallbackLevel <= 1 && categoryLogoUrl && iconToDisplay !== categoryLogoUrl) {
+      setIconToDisplay(categoryLogoUrl);
+      setFallbackLevel(2);
+    } else {
+      setImgError(true);
+      setFallbackLevel(3);
+    }
+  };
 
   // Find related tools from the same category
   const allToolsInCategory: Tool[] = [];
@@ -113,9 +158,14 @@ export const ToolDetailPage: FC = () => {
             <span>/</span>
             <Link to="/browse" className="hover:text-emerald-600 transition-colors">Directory</Link>
             <span>/</span>
-            <Link to="/categories" className="hover:text-emerald-600 transition-colors flex items-center gap-1.5">
+            <Link to="/categories" className="hover:text-emerald-600 transition-colors flex items-center gap-2">
               {getCategoryLogo(tool.category) && (
-                <img src={getCategoryLogo(tool.category)!} alt="" className="w-3.5 h-3.5 rounded-xs object-cover" />
+                <img
+                  src={getCategoryLogo(tool.category)!}
+                  alt=""
+                  className="w-7 h-7 rounded-lg object-contain bg-white/95 p-0.5 border border-slate-200/80 shadow-2xs"
+                  referrerPolicy="no-referrer"
+                />
               )}
               <span>{tool.category}</span>
             </Link>
@@ -140,16 +190,26 @@ export const ToolDetailPage: FC = () => {
           >
             <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 pb-8 border-b border-slate-100">
               <div className="flex items-start gap-5">
-                <div className="w-20 h-20 rounded-2xl bg-emerald-50 border border-emerald-100 flex items-center justify-center p-3 shrink-0 shadow-xs">
-                  {tool.iconUrl ? (
+                <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-white border border-slate-200/90 overflow-hidden flex items-center justify-center shrink-0 shadow-sm">
+                  {iconToDisplay && !imgError ? (
                     <img 
-                      src={tool.iconUrl} 
+                      src={iconToDisplay} 
                       alt={`${tool.name} - ${tool.category} AI tool logo`} 
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-contain p-2"
+                      referrerPolicy="no-referrer"
+                      onError={handleIconError}
+                    />
+                  ) : categoryLogoUrl ? (
+                    <img 
+                      src={categoryLogoUrl} 
+                      alt={`${tool.category} logo`} 
+                      className="w-full h-full object-cover scale-125"
                       referrerPolicy="no-referrer"
                     />
                   ) : (
-                    <Zap className="w-10 h-10 text-emerald-600" />
+                    <div className="w-full h-full flex items-center justify-center bg-emerald-50 text-emerald-600 rounded-xl">
+                      <Zap className="w-12 h-12" />
+                    </div>
                   )}
                 </div>
 
@@ -161,12 +221,12 @@ export const ToolDetailPage: FC = () => {
                     <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-emerald-100 text-emerald-800 border border-emerald-200">
                       <CheckCircle2 className="w-3 h-3 text-emerald-600" /> Free Tool
                     </span>
-                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200 shadow-2xs">
+                    <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200 shadow-2xs">
                       {getCategoryLogo(tool.category) ? (
                         <img
                           src={getCategoryLogo(tool.category)!}
                           alt={`${tool.category} logo`}
-                          className="w-4 h-4 rounded-sm object-cover"
+                          className="w-6 h-6 rounded-md object-cover scale-110 border border-slate-200/80 shadow-2xs"
                           referrerPolicy="no-referrer"
                         />
                       ) : (

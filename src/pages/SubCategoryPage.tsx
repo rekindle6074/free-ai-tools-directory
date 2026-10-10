@@ -7,7 +7,7 @@ import {
   ChevronLeft,
   Star
 } from "lucide-react";
-import { FC } from "react";
+import { FC, useLayoutEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { toolsByTag, categories, SubCategory } from "../data/tools";
 import { getParentCategoryForCategoryId } from "../data/parentCategories";
@@ -24,6 +24,12 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
   const { subPath } = useParams<{ subPath: string }>();
   
   const currentPath = forcedPath || subPath;
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    if (document.documentElement) document.documentElement.scrollTop = 0;
+    if (document.body) document.body.scrollTop = 0;
+  }, [currentPath]);
   
   let subCategory: SubCategory | undefined;
   let categoryId = "";
@@ -150,10 +156,11 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
           </Link>
           <div className="flex items-center gap-3">
             <CategoryIconBadge
+              subCategoryPath={currentPath}
               categoryId={categoryId}
               categoryName={categoryName}
-              size="sm"
-              className="!w-8 !h-8"
+              size="md"
+              className="!w-12 !h-12 rounded-2xl shrink-0 shadow-xs"
             />
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5 text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">
@@ -185,10 +192,11 @@ const SubCategoryPage: FC<{ forcedPath?: string }> = ({ forcedPath }) => {
         <div className="mb-14">
           <div className="flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-8 mb-8">
             <CategoryIconBadge
+              subCategoryPath={currentPath}
               categoryId={categoryId}
               categoryName={categoryName}
               size="xl"
-              className="shadow-xl border-emerald-500/30"
+              className="shadow-xl !w-32 !h-32 sm:!w-40 sm:!h-40 rounded-3xl shrink-0"
             />
             <h1 className="text-6xl md:text-8xl font-display font-bold text-slate-900 tracking-[-0.04em] leading-[0.9]">
               {displayTitle}

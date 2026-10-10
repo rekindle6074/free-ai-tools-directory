@@ -1,3 +1,4 @@
+import ScrollToTop from "./components/ScrollToTop";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { Suspense } from "react";
 import { AnimatePresence, motion } from "motion/react";
@@ -108,6 +109,7 @@ export function AppContent({ openSubmitForm }: { openSubmitForm?: () => void }) 
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(248,250,252,0.4)_100%)]" />
       </div>
 
+      <ScrollToTop />
       <ErrorBoundary>
         <FavoritesProvider>
           <Layout openSubmitForm={handleOpenSubmit} />
